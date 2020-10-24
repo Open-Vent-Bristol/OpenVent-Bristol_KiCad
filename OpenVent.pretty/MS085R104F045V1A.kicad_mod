@@ -1,0 +1,19 @@
+(module MS085R104F045V1A (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference SW1 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "Microswitch SPDT Through Hole, Right Angle" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 1 thru_hole circle (at 0 0 180) (size 2.6 2.6) (drill 1.6) (layers *.Cu))
+  (pad 3 thru_hole circle (at -8.8 0 180) (size 2.6 2.6) (drill 1.6) (layers *.Cu))
+  (pad 2 thru_hole circle (at -15.8 0 180) (size 2.6 2.6) (drill 1.6) (layers *.Cu))
+  (pad 0 np_thru_hole circle (at -3.2 4.8 180) (size 0 0) (drill 2.5) (layers *.Cu))
+  (pad 0 np_thru_hole circle (at -12.7 4.8 180) (size 0 0) (drill 2.5) (layers *.Cu))
+  (model ./wrlshp/AFC779D8-8F6B.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

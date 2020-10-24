@@ -1,0 +1,19 @@
+(module "PIN HEADER 1X5" (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference JP5 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "Pin Header, 1x5-Way, 2.54mm Pitch" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 5 thru_hole oval (at 10.16 0) (size 1.5 1.5) (drill 1) (layers *.Cu))
+  (pad 4 thru_hole oval (at 7.62 0) (size 1.5 1.5) (drill 1) (layers *.Cu))
+  (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 1) (layers *.Cu))
+  (pad 2 thru_hole oval (at 2.54 0) (size 1.5 1.5) (drill 1) (layers *.Cu))
+  (pad 3 thru_hole oval (at 5.08 0) (size 1.5 1.5) (drill 1) (layers *.Cu))
+  (model ./wrlshp/43301266-6B3C.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 360))
+  )
+)

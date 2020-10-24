@@ -1,0 +1,16 @@
+(module sod-123f (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference D3 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad C smd rect (at 0 -1.64 270) (size 0.91 1.22) (layers F.Cu))
+  (pad A smd rect (at 0 1.64 90) (size 0.91 1.22) (layers F.Cu))
+  (model ./wrlshp/8C8364B7-57CB.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

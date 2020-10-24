@@ -1,0 +1,22 @@
+(module SO8_N (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference Q2 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "N-Channel 20V 16A (Ta) 2.5W (Ta) Surface Mount 8-SOIC" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 1 smd oval (at 2.4 1.905 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 2 smd oval (at 2.4 0.635 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 3 smd oval (at 2.4 -0.635 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 4 smd oval (at 2.4 -1.905 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 8 smd oval (at -2.4 1.905 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 7 smd oval (at -2.4 0.635 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 6 smd oval (at -2.4 -0.635 270) (size 0.6 2.2) (layers F.Cu))
+  (pad 5 smd oval (at -2.4 -1.905 270) (size 0.6 2.2) (layers F.Cu))
+  (model ./wrlshp/EC7F8737-7756.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

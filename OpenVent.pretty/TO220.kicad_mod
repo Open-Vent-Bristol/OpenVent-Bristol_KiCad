@@ -1,0 +1,17 @@
+(module TO220 (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference Q3 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "Bipolar (BJT) Transistor PNP 100V 3A 3MHz 40W Through Hole TO-220AB" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 1 thru_hole circle (at 2.54 0 180) (size 2 2) (drill 1.1) (layers *.Cu))
+  (pad 2 thru_hole circle (at 0 0 180) (size 2 2) (drill 1.1) (layers *.Cu))
+  (pad 3 thru_hole circle (at -2.54 0 180) (size 2 2) (drill 1.1) (layers *.Cu))
+  (model ./wrlshp/6FCDC781-C16D.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

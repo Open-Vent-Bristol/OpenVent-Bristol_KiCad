@@ -1,0 +1,16 @@
+(module 534260210 (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference CN3 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "Connector Header Through Hole, Right Angle 2 position 0.098\" (2.50mm)" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 2 thru_hole circle (at -1.25 0 180) (size 2 2) (drill 1.1) (layers *.Cu))
+  (pad 1 thru_hole rect (at 1.25 0 180) (size 2 2) (drill 1.1) (layers *.Cu))
+  (model ./wrlshp/D623E0C0-D804.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

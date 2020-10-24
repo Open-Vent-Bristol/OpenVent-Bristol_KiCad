@@ -1,0 +1,17 @@
+(module "CUI PJ-102AH" (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference J1 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "CONN PWR JACK 2X5.5MM SOLDER" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad 3 thru_hole roundrect (at 3.5 4.7 180) (size 2.1 1.5) (drill 1) (layers *.Cu) (roundrect_rratio 0.25))
+  (pad 2 thru_hole roundrect (at 0.5 0 90) (size 2.1 1.5) (drill 1) (layers *.Cu) (roundrect_rratio 0.25))
+  (pad 1 thru_hole roundrect (at 6.5 0 90) (size 2.1 1.5) (drill 1) (layers *.Cu) (roundrect_rratio 0.25))
+  (model ./wrlshp/4E39893B-2C4C.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

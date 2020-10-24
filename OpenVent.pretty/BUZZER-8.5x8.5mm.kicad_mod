@@ -1,0 +1,18 @@
+(module BUZZER-8.5x8.5mm (layer F.Cu) (tedit 4289BEAB)
+  (attr smd)
+  (fp_text reference BZ2 (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value "Buzzers Transducer, Externally Driven Magnetic 5V 150mA 4kHz 100dB @ 5V, 10cm Surface Mount Solder Pads" (at 0 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  )
+  (pad - smd rect (at -3.5 3.5) (size 2.5 2.5) (layers F.Cu))
+  (pad + smd rect (at -3.5 -3.5) (size 2.5 2.5) (layers F.Cu))
+  (pad 0 smd rect (at 3.5 -3.5) (size 2.5 2.5) (layers F.Cu))
+  (pad 0 smd rect (at 3.5 3.5) (size 2.5 2.5) (layers F.Cu))
+  (model ./wrlshp/DEC048F0-283D.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 360))
+  )
+)

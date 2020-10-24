@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
+D CAP CER 22UF 10V X7R 1206
+F http://www.calchipelectronics.com/pdf/gmc_series.pdf
+$ENDCMP
+#
+$CMP OpenVent_Barrel_Connector
+D CONN PWR JACK 2X5.5MM SOLDER
+F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf
+$ENDCMP
+#
+$CMP TLV2333IDR
+D Zero-Drift Amplifier Circuit Rail-to-Rail 8-SOIC
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv2333
+$ENDCMP
+#
+#End Doc Library
