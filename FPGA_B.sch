@@ -13,21 +13,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1750 3100 0    60   Input ~ 0
+Text GLabel 1750 3100 0    50   Input ~ 0
 PRESSURE-SENSOR
-Text GLabel 1750 3000 0    60   Input ~ 0
+Text GLabel 1750 3000 0    50   Input ~ 0
 OXYGEN-SENSOR
-Text GLabel 1750 3600 0    60   Input ~ 0
+Text GLabel 1750 3600 0    50   Input ~ 0
 nALERT-ENABLE
-Text GLabel 1750 3300 0    60   Input ~ 0
+Text GLabel 1750 3300 0    50   Input ~ 0
 VBATT-SCALED
-Text GLabel 1750 3200 0    60   Output ~ 0
+Text GLabel 1750 3200 0    50   Output ~ 0
 nPRESSURE-ALERT
-Text GLabel 1750 3500 0    60   Output ~ 0
+Text GLabel 1750 3500 0    50   Output ~ 0
 nOXYGEN-ALERT
-Text GLabel 1750 3400 0    60   Output ~ 0
+Text GLabel 1750 3400 0    50   Output ~ 0
 nVBATT-ALERT
-Text GLabel 1750 3700 0    60   Input ~ 0
+Text GLabel 1750 3700 0    50   Input ~ 0
 nVDC-ALERT
 $Comp
 L OpenVent:GND #PWR036
@@ -111,7 +111,7 @@ $Comp
 L OpenVent:2N7002BK Q13
 U 1 1 5F8DD181
 P 8250 3800
-F 0 "Q13" H 8100 3600 50  0000 L BNN
+F 0 "Q13" H 8000 3600 50  0000 L BNN
 F 1 "2N7002BK" H 7750 3500 50  0000 L BNN
 F 2 "" H 8200 3450 50  0001 C CNN
 F 3 "" H 8200 3450 50  0001 C CNN
@@ -122,11 +122,13 @@ $Comp
 L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R69
 U 1 1 5F8DD180
 P 6750 3500
-F 0 "R69" V 6850 3350 60  0000 R TNN
-F 1 "100K" V 6750 3350 60  0000 R TNN
-F 2 "" H 6650 3360 60  0000 C CNN
-F 3 "" H 6650 3360 60  0000 C CNN
-F 4 "1%" V -1000 -2650 60  0001 C CNN "Tolerance"
+F 0 "R69" V 6900 3150 50  0000 L BNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" V 6750 3350 50  0001 C CNN
+F 2 "" H 6650 3360 50  0001 C CNN
+F 3 "" H 6650 3360 50  0001 C CNN
+F 4 "1%" V -1000 -2650 50  0001 C CNN "Tolerance"
+F 5 "100k" V 6800 3200 50  0000 C CNN "Val"
+F 6 "0.1W" H 6750 3500 50  0001 C CNN "Watt"
 	1    6750 3500
 	0    -1   -1   0   
 $EndComp

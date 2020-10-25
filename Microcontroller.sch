@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 800  2600 0    60   ~ 0
+Text Notes 800  2600 0    50   ~ 0
 Debug UART
-Text Notes 650  3150 0    60   ~ 0
+Text Notes 650  3150 0    50   ~ 0
 Mates with FTDI cable part
 $Comp
 L OpenVent:+5V #5V_06
@@ -39,19 +39,19 @@ F 3 "" H 9300 2850 70  0001 C CNN
 	1    9300 2850
 	1    0    0    -1  
 $EndComp
-Text Label 9450 1250 0    60   ~ 0
+Text Label 9450 1250 0    50   ~ 0
 LCD-VO
-Text GLabel 6550 2900 2    60   Output ~ 0
+Text GLabel 6550 2900 2    50   Output ~ 0
 MOTOR-IN-A
-Text GLabel 6550 3000 2    60   Output ~ 0
+Text GLabel 6550 3000 2    50   Output ~ 0
 MOTOR-IN-B
-Text GLabel 4800 4800 0    60   Output ~ 0
+Text GLabel 4800 4800 0    50   Output ~ 0
 nALERT-ENABLE
-Text GLabel 4800 4600 0    60   Input ~ 0
+Text GLabel 4800 4600 0    50   Input ~ 0
 nPRESSURE-ALERT
-Text GLabel 4800 4400 0    60   Input ~ 0
+Text GLabel 4800 4400 0    50   Input ~ 0
 nVBATT-ALERT
-Text GLabel 4800 2100 0    60   Output ~ 0
+Text GLabel 4800 2100 0    50   Output ~ 0
 PWM
 $Comp
 L OpenVent:GND #GND_07
@@ -64,7 +64,7 @@ F 3 "" H 2300 2450 70  0001 C CNN
 	1    2300 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 3600 0    60   Input ~ 0
+Text GLabel 4750 3600 0    50   Input ~ 0
 VBATT-SCALED
 $Comp
 L OpenVent:GND #GND_04
@@ -77,10 +77,10 @@ F 3 "" H 2050 5850 70  0001 C CNN
 	1    2050 5850
 	1    0    0    -1  
 $EndComp
-Text Notes 850  5600 0    60   ~ 0
+Text Notes 850  5600 0    50   ~ 0
 Membrane Switch Connector
 NoConn ~ 1800 2600
-Text GLabel 4750 3500 0    60   Input ~ 0
+Text GLabel 4750 3500 0    50   Input ~ 0
 MOTOR-CURRENT
 $Comp
 L OpenVent:+5V #5V_05
@@ -104,7 +104,7 @@ F 3 "" H 2600 1300 70  0001 C CNN
 	1    2600 1300
 	1    0    0    -1  
 $EndComp
-Text Label 2400 5100 0    60   ~ 0
+Text Label 2400 5100 0    50   ~ 0
 ANALOG-SPARE
 $Comp
 L OpenVent:GND #GND_02
@@ -117,7 +117,7 @@ F 3 "" H 1450 5350 70  0001 C CNN
 	1    1450 5350
 	1    0    0    -1  
 $EndComp
-Text Notes 950  4650 0    60   ~ 0
+Text Notes 950  4650 0    50   ~ 0
 Spare Sensor
 $Comp
 L OpenVent:GND #GND_012
@@ -174,7 +174,7 @@ F 3 "" H 7900 5300 70  0001 C CNN
 	1    7900 5300
 	1    0    0    -1  
 $EndComp
-Text Label 8000 4100 0    60   ~ 0
+Text Label 8000 4100 0    50   ~ 0
 ~RESET~
 $Comp
 L OpenVent:GND #GND_09
@@ -187,15 +187,15 @@ F 3 "" H 3850 7400 70  0001 C CNN
 	1    3850 7400
 	1    0    0    -1  
 $EndComp
-Text Notes 4150 5600 0    60   ~ 0
+Text Notes 4150 5600 0    50   ~ 0
 Battery Present Indicator
-Text GLabel 4800 4500 0    60   Input ~ 0
+Text GLabel 4800 4500 0    50   Input ~ 0
 STAT2
-Text GLabel 6550 3200 2    60   Input ~ 0
+Text GLabel 6550 3200 2    50   Input ~ 0
 PGOOD
-Text GLabel 4800 4700 0    60   Input ~ 0
+Text GLabel 4800 4700 0    50   Input ~ 0
 nSTAT1
-Text GLabel 6550 3100 2    60   Output ~ 0
+Text GLabel 6550 3100 2    50   Output ~ 0
 CE-CONTROL
 $Comp
 L OpenVent:+5V #5V_04
@@ -219,51 +219,51 @@ F 3 "" H 7000 850 70  0001 C CNN
 	1    7000 850 
 	1    0    0    -1  
 $EndComp
-Text Label 8900 1600 0    60   ~ 0
+Text Label 8900 1600 0    50   ~ 0
 LCD-RS
-Text Label 8900 1900 0    60   ~ 0
+Text Label 8900 1900 0    50   ~ 0
 LCD-D4
-Text Label 8900 2000 0    60   ~ 0
+Text Label 8900 2000 0    50   ~ 0
 LCD-D5
-Text Label 8900 2100 0    60   ~ 0
+Text Label 8900 2100 0    50   ~ 0
 LCD-D6
-Text Label 8900 2200 0    60   ~ 0
+Text Label 8900 2200 0    50   ~ 0
 LCD-D7
-Text Label 8900 1700 0    60   ~ 0
+Text Label 8900 1700 0    50   ~ 0
 LCD-RW
-Text GLabel 4750 3400 0    60   Input ~ 0
+Text GLabel 4750 3400 0    50   Input ~ 0
 SOUNDER-CURRENT
-Text Label 3850 1900 0    60   ~ 0
+Text Label 3850 1900 0    50   ~ 0
 ANALOG-SPARE
-Text Label 1700 5950 0    60   ~ 0
+Text Label 1700 5950 0    50   ~ 0
 SW-1
-Text Label 1700 6050 0    60   ~ 0
+Text Label 1700 6050 0    50   ~ 0
 SW-2
-Text Label 1700 6150 0    60   ~ 0
+Text Label 1700 6150 0    50   ~ 0
 SW-3
-Text Label 1700 6250 0    60   ~ 0
+Text Label 1700 6250 0    50   ~ 0
 SW-4
-Text Label 6500 2500 0    60   ~ 0
+Text Label 6500 2500 0    50   ~ 0
 SW-1
-Text Label 6500 2600 0    60   ~ 0
+Text Label 6500 2600 0    50   ~ 0
 SW-2
-Text Label 6500 2700 0    60   ~ 0
+Text Label 6500 2700 0    50   ~ 0
 SW-3
-Text Label 6500 2800 0    60   ~ 0
+Text Label 6500 2800 0    50   ~ 0
 SW-4
-Text Label 9100 4550 0    60   ~ 0
+Text Label 9100 4550 0    50   ~ 0
 LCD-D4
-Text Label 9100 4650 0    60   ~ 0
+Text Label 9100 4650 0    50   ~ 0
 LCD-D5
-Text Label 9100 4750 0    60   ~ 0
+Text Label 9100 4750 0    50   ~ 0
 LCD-D6
-Text Label 9100 4850 0    60   ~ 0
+Text Label 9100 4850 0    50   ~ 0
 LCD-D7
-Text Label 9100 3850 0    60   ~ 0
+Text Label 9100 3850 0    50   ~ 0
 LCD-RS
-Text Label 9100 3950 0    60   ~ 0
+Text Label 9100 3950 0    50   ~ 0
 LCD-RW
-Text Label 9100 3750 0    60   ~ 0
+Text Label 9100 3750 0    50   ~ 0
 LCD-VO
 $Comp
 L OpenVent:GND #GND_020
@@ -331,17 +331,17 @@ F 3 "" H 8450 3600 70  0001 C CNN
 	1    8450 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 4000 2150 0    60   ~ 0
+Text Notes 4000 2150 0    50   ~ 0
 TIM2 CH1
-Text Label 4150 3100 0    60   ~ 0
+Text Label 4150 3100 0    50   ~ 0
 SWD-CLK
-Text Label 4150 3000 0    60   ~ 0
+Text Label 4150 3000 0    50   ~ 0
 SWD-DIO
-Text Label 700  1200 0    60   ~ 0
+Text Label 700  1200 0    50   ~ 0
 SWD-DIO
-Text Label 4050 2600 0    60   ~ 0
+Text Label 4050 2600 0    50   ~ 0
 USART-STM-TX
-Text Label 4050 2700 0    60   ~ 0
+Text Label 4050 2700 0    50   ~ 0
 USART-STM-RX
 NoConn ~ 1800 2500
 NoConn ~ 1800 2900
@@ -378,13 +378,13 @@ F 3 "" H 2300 2000 70  0000 C CNN
 	1    2300 2000
 	1    0    0    -1  
 $EndComp
-Text Label 700  1300 0    60   ~ 0
+Text Label 700  1300 0    50   ~ 0
 SWD-CLK
-Text Label 700  1600 0    60   ~ 0
+Text Label 700  1600 0    50   ~ 0
 ~RESET~
-Text GLabel 4800 1600 0    60   Input ~ 0
+Text GLabel 4800 1600 0    50   Input ~ 0
 PRESSURE-SENSOR
-Text GLabel 4750 3700 0    60   Input ~ 0
+Text GLabel 4750 3700 0    50   Input ~ 0
 FLOW-SENSOR
 $Comp
 L OpenVent:GND #GND_011
@@ -397,19 +397,19 @@ F 3 "" H 5850 7250 70  0001 C CNN
 	1    5850 7250
 	1    0    0    -1  
 $EndComp
-Text Label 6500 4750 0    60   ~ 0
+Text Label 6500 4750 0    50   ~ 0
 XTAL-1
-Text Label 8250 4550 0    60   ~ 0
+Text Label 8250 4550 0    50   ~ 0
 XTAL-2
-Text Label 6800 3600 2    60   ~ 0
+Text Label 6800 3600 2    50   ~ 0
 XTAL-1
-Text Label 6800 3700 2    60   ~ 0
+Text Label 6800 3700 2    50   ~ 0
 XTAL-2
-Text GLabel 4800 1700 0    60   Input ~ 0
+Text GLabel 4800 1700 0    50   Input ~ 0
 OXYGEN-SENSOR
-Text Label 4050 2800 0    60   ~ 0
+Text Label 4050 2800 0    50   ~ 0
 USB-DM
-Text Label 4050 2900 0    60   ~ 0
+Text Label 4050 2900 0    50   ~ 0
 USB-DP
 NoConn ~ 2000 4000
 $Comp
@@ -434,21 +434,21 @@ F 3 "" H 1400 4400 70  0000 C CNN
 	1    1400 4400
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 3450 0    60   ~ 0
+Text Notes 1100 3450 0    50   ~ 0
 Mini USB Connector
-Text Notes 850  3250 0    60   ~ 0
+Text Notes 850  3250 0    50   ~ 0
 TTL-232R-3V3
-Text GLabel 4750 4000 0    60   Input ~ 0
+Text GLabel 4750 4000 0    50   Input ~ 0
 nMOTOR-FAULT-A
-Text GLabel 4750 3900 0    60   Input ~ 0
+Text GLabel 4750 3900 0    50   Input ~ 0
 nMOTOR-FAULT-B
-Text GLabel 4750 3800 0    60   Input ~ 0
+Text GLabel 4750 3800 0    50   Input ~ 0
 ISNS
-Text Notes 1300 650  0    60   ~ 0
+Text Notes 1300 650  0    50   ~ 0
 SWD Connector
-Text Notes 550  6650 0    60   ~ 0
+Text Notes 550  6650 0    50   ~ 0
 Encoder / Motor Position Sensor
-Text GLabel 4750 4100 0    60   Output ~ 0
+Text GLabel 4750 4100 0    50   Output ~ 0
 LDO-EN
 $Comp
 L OpenVent:+5V #5V_01
@@ -461,11 +461,11 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2000 0    60   Input ~ 0
+Text GLabel 4800 2000 0    50   Input ~ 0
 FLOW-SENSOR-GAIN
-Text GLabel 4800 4300 0    60   Input ~ 0
+Text GLabel 4800 4300 0    50   Input ~ 0
 nVDC-ALERT
-Text GLabel 4800 2300 0    60   BiDi ~ 0
+Text GLabel 4800 2300 0    50   BiDi ~ 0
 MOTOR-CTRL-STATUS
 $Comp
 L OpenVent:+5V #5V_02
@@ -500,21 +500,21 @@ F 3 "" H 2600 750 70  0001 C CNN
 	1    2600 750 
 	1    0    0    -1  
 $EndComp
-Text Label 3650 2200 2    60   ~ 0
+Text Label 3650 2200 2    50   ~ 0
 ENC-1
-Text Label 3650 2500 2    60   ~ 0
+Text Label 3650 2500 2    50   ~ 0
 ENC-2
-Text Label 6800 3400 2    60   ~ 0
+Text Label 6800 3400 2    50   ~ 0
 LIMIT-1
-Text Label 4150 3200 0    60   ~ 0
+Text Label 4150 3200 0    50   ~ 0
 LIMIT-2
-Text Label 1700 7000 0    60   ~ 0
+Text Label 1700 7000 0    50   ~ 0
 ENC-1
-Text Label 1700 7100 0    60   ~ 0
+Text Label 1700 7100 0    50   ~ 0
 ENC-2
-Text Label 1700 7200 0    60   ~ 0
+Text Label 1700 7200 0    50   ~ 0
 LIMIT-1
-Text Label 1700 7300 0    60   ~ 0
+Text Label 1700 7300 0    50   ~ 0
 LIMIT-2
 $Comp
 L OpenVent:GND #GND_03
@@ -538,9 +538,9 @@ F 3 "" H 1550 6900 70  0001 C CNN
 	1    1550 6900
 	1    0    0    -1  
 $EndComp
-Text Notes 500  7050 0    60   ~ 0
+Text Notes 500  7050 0    50   ~ 0
 TIM16 CH1
-Text Notes 500  7150 0    60   ~ 0
+Text Notes 500  7150 0    50   ~ 0
 TIM1 CH1
 $Comp
 L OpenVent:+3V3-ALWAYS-ON #3V3-ALWAYS-ON_?
@@ -868,10 +868,10 @@ U 1 1 5F8DD155
 P 8900 1250
 AR Path="/5F8DD155" Ref="R7"  Part="1" 
 AR Path="/5F988182/5F8DD155" Ref="R7"  Part="1" 
-F 0 "R7" V 9050 1150 60  0000 R TNN
-F 1 "10k" V 8950 1150 60  0000 R TNN
-F 2 "" H 8910 1030 60  0000 C CNN
-F 3 "" H 8910 1030 60  0000 C CNN
+F 0 "R7" V 9050 1150 50  0000 R TNN
+F 1 "10k" V 8950 1150 50  0000 R TNN
+F 2 "" H 8910 1030 50  0000 C CNN
+F 3 "" H 8910 1030 50  0000 C CNN
 	1    8900 1250
 	0    -1   -1   0   
 $EndComp
@@ -879,7 +879,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C14
 U 1 1 5F8DD154
 P 9800 3000
-F 0 "C14" V 9900 2700 50  0000 L BNN
+F 0 "C14" V 9900 2600 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 9710 2810 50  0001 C CNN
 F 2 "" H 9710 2810 50  0001 C CNN
 F 3 "" H 9710 2810 50  0001 C CNN
@@ -893,7 +893,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C4
 U 1 1 5F8DD153
 P 6100 6050
-F 0 "C4" V 6100 5850 50  0000 L BNN
+F 0 "C4" V 6100 5800 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 6010 5860 50  0001 C CNN
 F 2 "" H 6010 5860 50  0001 C CNN
 F 3 "" H 6010 5860 50  0001 C CNN
@@ -907,7 +907,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C5
 U 1 1 5F8DD152
 P 6500 6050
-F 0 "C5" V 6500 5850 50  0000 L BNN
+F 0 "C5" V 6500 5800 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 6410 5860 50  0001 C CNN
 F 2 "" H 6410 5860 50  0001 C CNN
 F 3 "" H 6410 5860 50  0001 C CNN
@@ -934,7 +934,7 @@ $Comp
 L OpenVent:22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C6
 U 1 1 5F8DD150
 P 6600 5200
-F 0 "C6" V 6700 4950 50  0000 L BNN
+F 0 "C6" V 6700 4850 50  0000 L BNN
 F 1 "22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V" V 6510 5010 50  0001 C CNN
 F 2 "" H 6510 5010 50  0001 C CNN
 F 3 "" H 6510 5010 50  0001 C CNN
@@ -948,7 +948,7 @@ $Comp
 L OpenVent:22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C11
 U 1 1 5F8DD14F
 P 7800 5200
-F 0 "C11" V 7900 4950 50  0000 L BNN
+F 0 "C11" V 7900 4800 50  0000 L BNN
 F 1 "22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V" V 7710 5010 50  0001 C CNN
 F 2 "" H 7710 5010 50  0001 C CNN
 F 3 "" H 7710 5010 50  0001 C CNN
@@ -962,7 +962,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C7
 U 1 1 5F8DD14D
 P 6900 6050
-F 0 "C7" V 6900 5850 50  0000 L BNN
+F 0 "C7" V 6900 5800 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 6810 5860 50  0001 C CNN
 F 2 "" H 6810 5860 50  0001 C CNN
 F 3 "" H 6810 5860 50  0001 C CNN
@@ -976,7 +976,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C8
 U 1 1 5F8DD14C
 P 7300 6050
-F 0 "C8" V 7300 5850 50  0000 L BNN
+F 0 "C8" V 7300 5800 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 7200 5900 50  0001 C CNN
 F 2 "" H 7210 5860 50  0001 C CNN
 F 3 "" H 7210 5860 50  0001 C CNN
@@ -992,12 +992,12 @@ U 1 1 5F8DD14B
 P 4000 5000
 AR Path="/5F8DD14B" Ref="D1"  Part="1" 
 AR Path="/5F988182/5F8DD14B" Ref="D1"  Part="1" 
-F 0 "D1" V 4190 5110 60  0000 L BNN
-F 1 "Green" V 4290 5110 60  0000 L BNN
-F 2 "" H 4290 5110 60  0000 C CNN
-F 3 "" H 4290 5110 60  0000 C CNN
-F 4 "SML-D12M8WT86C" V 1600 -1200 60  0001 C CNN "ManufacturerPN"
-F 5 "D" V 1600 -1200 60  0001 C CNN "Spice Prefix"
+F 0 "D1" V 4190 5110 50  0000 L BNN
+F 1 "Green" V 4290 5110 50  0000 L BNN
+F 2 "" H 4290 5110 50  0000 C CNN
+F 3 "" H 4290 5110 50  0000 C CNN
+F 4 "SML-D12M8WT86C" V 1600 -1200 50  0001 C CNN "ManufacturerPN"
+F 5 "D" V 1600 -1200 50  0001 C CNN "Spice Prefix"
 	1    4000 5000
 	0    1    1    0   
 $EndComp
@@ -1071,7 +1071,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C9
 U 1 1 5F8DD142
 P 7650 6050
-F 0 "C9" V 7650 5850 50  0000 L BNN
+F 0 "C9" V 7650 5800 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 7550 5850 50  0001 C CNN
 F 2 "" H 7560 5860 50  0001 C CNN
 F 3 "" H 7560 5860 50  0001 C CNN
@@ -1085,10 +1085,10 @@ $Comp
 L OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A CN2
 U 1 1 5F8DD141
 P 2000 4100
-F 0 "CN2" H 2600 4650 60  0000 L BNN
-F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 2550 4300 60  0001 C CNN
-F 2 "" H 2000 4100 60  0000 C CNN
-F 3 "" H 2000 4100 60  0000 C CNN
+F 0 "CN2" H 2600 4650 50  0000 L BNN
+F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 2550 4300 50  0001 C CNN
+F 2 "" H 2000 4100 50  0000 C CNN
+F 3 "" H 2000 4100 50  0000 C CNN
 	1    2000 4100
 	-1   0    0    -1  
 $EndComp
@@ -1096,7 +1096,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C1
 U 1 1 5F8DD140
 P 2200 4250
-F 0 "C1" V 2300 4000 50  0000 L BNN
+F 0 "C1" V 2300 3950 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 2110 4060 50  0001 C CNN
 F 2 "" H 2110 4060 50  0001 C CNN
 F 3 "" H 2110 4060 50  0001 C CNN
@@ -1127,8 +1127,8 @@ F 0 "U1" H 3250 1250 50  0000 L BNN
 F 1 "TMP236A4DBZT" H 3550 750 50  0000 C CNN
 F 2 "" H 3550 1000 50  0001 C CNN
 F 3 "" H 3550 1000 50  0001 C CNN
-F 4 "Texas Instruments" V 2000 -2000 60  0001 C CNN "Manufacturer"
-F 5 "TMP236A4DBZT" V 2000 -2000 60  0001 C CNN "ManufacturerPN"
+F 4 "Texas Instruments" V 2000 -2000 50  0001 C CNN "Manufacturer"
+F 5 "TMP236A4DBZT" V 2000 -2000 50  0001 C CNN "ManufacturerPN"
 F 6 "Texas Instruments" H 3550 1000 50  0001 C CNN "Mfr"
 F 7 "TMP236A4DBZT" H 3550 1000 50  0001 C CNN "Mfr_PN"
 	1    3550 1000
@@ -1154,11 +1154,11 @@ U 1 1 5F8DD13C
 P 4400 4900
 AR Path="/5F8DD13C" Ref="R4"  Part="1" 
 AR Path="/5F988182/5F8DD13C" Ref="R4"  Part="1" 
-F 0 "R4" H 4450 4850 60  0000 L BNN
-F 1 "1k" H 4450 4650 60  0000 L BNN
-F 2 "" H 4350 4650 60  0000 C CNN
-F 3 "" H 4350 4650 60  0000 C CNN
-F 4 "1%" V 1600 -1200 60  0001 C CNN "Tolerance"
+F 0 "R4" H 4450 4850 50  0000 L BNN
+F 1 "1k" H 4450 4650 50  0000 L BNN
+F 2 "" H 4350 4650 50  0000 C CNN
+F 3 "" H 4350 4650 50  0000 C CNN
+F 4 "1%" V 1600 -1200 50  0001 C CNN "Tolerance"
 	1    4400 4900
 	1    0    0    -1  
 $EndComp
@@ -1167,9 +1167,9 @@ L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R1
 U 1 1 5F8DD13B
 P 2500 6500
 F 0 "R1" V 2650 6250 50  0000 L BNN
-F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" V 2500 6300 60  0001 C CNN
-F 2 "" H 2400 6360 60  0001 C CNN
-F 3 "" H 2400 6360 60  0001 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" V 2500 6300 50  0001 C CNN
+F 2 "" H 2400 6360 50  0001 C CNN
+F 3 "" H 2400 6360 50  0001 C CNN
 F 4 "1%" V 1700 -1200 50  0001 C CNN "Tolerance"
 F 5 "10k" V 2550 6250 50  0000 C CNN "Val"
 F 6 "0.1W" H 2500 6500 50  0001 C CNN "Watt"
@@ -1194,7 +1194,7 @@ $Comp
 L OpenVent:DNF_0603 R3
 U 1 1 5F8DD139
 P 2900 6500
-F 0 "R3" V 3100 6300 50  0000 L BNN
+F 0 "R3" V 3050 6250 50  0000 L BNN
 F 1 "DNF_0603" V 2900 6360 50  0001 C CNN
 F 2 "" H 2900 6360 50  0001 C CNN
 F 3 "" H 2900 6360 50  0001 C CNN
@@ -1268,7 +1268,7 @@ F 0 "LCD1" H 10200 4400 50  0000 L BNN
 F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 10000 2650 50  0001 C CNN
 F 2 "" H 10000 2650 50  0001 C CNN
 F 3 "" H 10000 2650 50  0001 C CNN
-F 4 "16x2 Character LCD" V 1000 500 60  0001 C CNN "Desc"
+F 4 "16x2 Character LCD" V 1000 500 50  0001 C CNN "Desc"
 	1    10000 2650
 	1    0    0    -1  
 $EndComp
@@ -1280,7 +1280,7 @@ F 0 "LCD2" H 10200 6900 50  0000 L BNN
 F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 10000 5150 50  0001 C CNN
 F 2 "" H 10000 5150 50  0001 C CNN
 F 3 "" H 10000 5150 50  0001 C CNN
-F 4 "16x2 Character LCD" V 1000 400 60  0001 C CNN "Desc"
+F 4 "16x2 Character LCD" V 1000 400 50  0001 C CNN "Desc"
 	1    10000 5150
 	1    0    0    -1  
 $EndComp
@@ -1299,7 +1299,7 @@ $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C13
 U 1 1 5F8DD130
 P 9450 5400
-F 0 "C13" V 9460 5210 50  0000 L BNN
+F 0 "C13" V 9450 5100 50  0000 L BNN
 F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 9350 5250 50  0001 C CNN
 F 2 "" H 9360 5210 50  0001 C CNN
 F 3 "" H 9360 5210 50  0001 C CNN

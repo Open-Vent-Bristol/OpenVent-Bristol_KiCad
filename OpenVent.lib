@@ -252,7 +252,8 @@ F1 "1K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "1K" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H V C CNN "Tolerance"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
 DRAW
 S 0 -140 200 -60 0 1 10 f
 S 0 -60 200 -140 0 1 10 f
@@ -827,6 +828,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1KV" 0 0 50 H V C CNN "Voltage"
 F5 "1A" 0 0 50 H V C CNN "Current"
+F6 "S1M-13-F" 0 0 50 H I C CNN "Mfr_PN"
 DRAW
 P 2 0 1 10 50 100 50 -100 N
 P 4 0 1 10 -50 -100 50 0 -50 100 -50 -100 F
