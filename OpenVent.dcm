@@ -5,9 +5,20 @@ D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
 $ENDCMP
 #
+$CMP LMC6772AIMX
+D IC COMPAR DUAL MICPWR CMOS 8SOIC
+K Comparator SOIC dual
+$ENDCMP
+#
 $CMP OpenVent_Barrel_Connector
 D CONN PWR JACK 2X5.5MM SOLDER
 F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf
+$ENDCMP
+#
+$CMP RES_trimpot_10K_SMD
+D Potentiometer, US symbol, 10K
+K resistor variable
+F https://www.bourns.com/docs/Product-Datasheets/TC33.pdf
 $ENDCMP
 #
 $CMP TLV2333IDR
