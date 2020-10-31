@@ -263,23 +263,6 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# 1K_0603_Chip_Resistor,_1%,_0.1W--OpenVentMicro-OpenVent-rescue
-#
-DEF 1K_0603_Chip_Resistor,_1%,_0.1W--OpenVentMicro-OpenVent-rescue R 0 40 Y Y 1 F N
-F0 "R" 0 -60 50 H V L BNN
-F1 "1K_0603_Chip_Resistor,_1%,_0.1W--OpenVentMicro-OpenVent-rescue" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "1k" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H I C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # 1M_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF 1M_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N

@@ -268,11 +268,12 @@ L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R20
 U 1 1 5F8DD119
 P 2800 1350
 F 0 "R20" H 2800 1300 50  0000 L BNN
-F 1 "1k" H 3000 1100 50  0001 L BNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 3000 1100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2750 1100 60  0001 C CNN
-F 3 "" H 2750 1100 50  0001 C CNN
+F 3 "" H 2750 1100 60  0001 C CNN
 F 4 "1%" V 1150 -1350 50  0001 C CNN "Tolerance"
 F 5 "1K" H 2950 1150 50  0000 C CNN "Val"
+F 6 "0.1W" H 2800 1350 50  0001 C CNN "Watt"
 	1    2800 1350
 	1    0    0    -1  
 $EndComp
@@ -284,10 +285,8 @@ F 0 "CN3" H 8900 1750 50  0000 L BNN
 F 1 "CONN_HEADER_R_A_2POS_2.5MM" H 8700 1950 50  0001 C CNN
 F 2 "" H 8700 1950 50  0001 C CNN
 F 3 "" H 8700 1950 50  0001 C CNN
-F 4 "" V 850 -1550 60  0001 C CNN "ManufacturerPN"
-F 5 "" V 850 -1550 60  0001 C CNN "Manufacturer"
-F 6 "Molex" H 8700 1950 50  0001 C CNN "Mfr"
-F 7 "0534260210" H 8700 1950 50  0001 C CNN "Mfr_PN"
+F 4 "Molex" H 8700 1950 50  0001 C CNN "Mfr"
+F 5 "0534260210" H 8700 1950 50  0001 C CNN "Mfr_PN"
 	1    8700 1950
 	1    0    0    1   
 $EndComp
@@ -313,14 +312,12 @@ F 0 "U8" H 4850 1150 50  0000 L BNN
 F 1 "VNH5019ATR-E" H 5150 1100 50  0000 C CNN
 F 2 "Package_SO:ST_MultiPowerSO-30" H 4850 1050 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1c/26/60/a8/3e/70/4c/e1/CD00234623.pdf/files/CD00234623.pdf/jcr:content/translations/en.CD00234623.pdf" H 4850 1050 60  0001 C CNN
-F 4 "" V 1150 -1350 60  0001 C CNN "Manufacturer"
-F 5 "" V 1150 -1350 60  0001 C CNN "ManufacturerPN"
-F 6 "STMicroelectronics" H 4850 1050 50  0001 C CNN "Mfr"
-F 7 "VNH5019ATR-E" H 4850 1050 50  0001 C CNN "Mfr_PN"
-F 8 "IC MTR DRV 5.5-24V MULTIPWRSO-30" H 4850 1050 50  0001 C CNN "Desc"
-F 9 "- Motor Driver Power MOSFET Parallel, PWM MultiPowerSO-30" H 4850 1050 50  0001 C CNN "Detailed"
-F 10 "DigiKey" H 4850 1050 50  0001 C CNN "DistName"
-F 11 "497-13073-2-ND" H 4850 1050 50  0001 C CNN "Dist_PN"
+F 4 "STMicroelectronics" H 4850 1050 50  0001 C CNN "Mfr"
+F 5 "VNH5019ATR-E" H 4850 1050 50  0001 C CNN "Mfr_PN"
+F 6 "IC MTR DRV 5.5-24V MULTIPWRSO-30" H 4850 1050 50  0001 C CNN "Desc"
+F 7 "Motor Driver Power MOSFET Parallel, PWM MultiPowerSO-30" H 4850 1050 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 4850 1050 50  0001 C CNN "DistName"
+F 9 "497-13073-2-ND" H 4850 1050 50  0001 C CNN "Dist_PN"
 	1    4850 1050
 	1    0    0    -1  
 $EndComp
@@ -372,9 +369,11 @@ F 0 "R26" V 4522 3300 60  0000 R TNN
 F 1 "0.025 Ohm 1W 1%" V 4422 3300 60  0000 R TNN
 F 2 "Resistor_SMD:R_2010_5025Metric" H 4422 3300 60  0001 C CNN
 F 3 "" H 4422 3300 60  0001 C CNN
-F 4 "" H 4250 3550 50  0001 C CNN "Manufacturer"
-F 5 "WSL2010R0250FEA18" H 4250 3550 50  0001 C CNN "Mfr_PN"
-F 6 "Vishay Dale" H 4250 3550 50  0001 C CNN "Mfr"
+F 4 "WSL2010R0250FEA18" H 4250 3550 50  0001 C CNN "Mfr_PN"
+F 5 "Vishay Dale" H 4250 3550 50  0001 C CNN "Mfr"
+F 6 "1%" H 4250 3550 50  0001 C CNN "Tolerance"
+F 7 "0.025Ohm" H 4250 3550 50  0001 C CNN "Val"
+F 8 "1.0W" H 4250 3550 50  0001 C CNN "Watt"
 	1    4250 3550
 	0    -1   -1   0   
 $EndComp
@@ -385,9 +384,14 @@ P 7400 2500
 F 0 "D4" V 7800 2300 50  0000 L BNN
 F 1 "LED_Red_0603_SMD" V 7710 2420 50  0001 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7710 2420 50  0001 C CNN
-F 3 "" H 7710 2420 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF" H 7710 2420 50  0001 C CNN
 F 4 "LTST-C193KRKT-5A" V 1150 -1350 50  0001 C CNN "Mfr_PN"
 F 5 "RED" V 7650 2300 50  0000 C CNN "Colour"
+F 6 "LED RED CLEAR CHIP SMD" H 7400 2500 50  0001 C CNN "Desc"
+F 7 "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)" H 7400 2500 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 7400 2500 50  0001 C CNN "DistName"
+F 9 "160-1830-2-ND" H 7400 2500 50  0001 C CNN "Dist_PN"
+F 10 "Lite-On Inc." H 7400 2500 50  0001 C CNN "Mfr"
 	1    7400 2500
 	0    -1   -1   0   
 $EndComp
@@ -398,10 +402,14 @@ P 6950 1900
 F 0 "D3" V 7140 2010 50  0000 L BNN
 F 1 "LED_GREEN_0603_SMD" V 7240 2010 60  0001 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7240 2010 50  0001 C CNN
-F 3 "" H 7240 2010 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/SML-D12M8W(C)/sml-d12x8(c)-e" H 7240 2010 50  0001 C CNN
 F 4 "SML-D12M8WT86C" V 1150 -1350 60  0001 C CNN "Mfr_PN"
-F 5 "" V 1150 -1350 60  0001 C CNN "Spice Prefix"
-F 6 "GREEN" V 7350 1750 50  0000 C CNN "Colour"
+F 5 "GREEN" V 7350 1750 50  0000 C CNN "Colour"
+F 6 "LED YELLOW/GREEN 1608 SMD" H 6950 1900 50  0001 C CNN "Desc"
+F 7 "Yellow-Green 572nm LED Indication - Discrete 2.2V 0603 (1608 Metric)" H 6950 1900 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 6950 1900 50  0001 C CNN "DistName"
+F 9 "SML-D12M8WT86CTR-ND" H 6950 1900 50  0001 C CNN "Dist_PN"
+F 10 "Rohm Semiconductor" H 6950 1900 50  0001 C CNN "Mfr"
 	1    6950 1900
 	0    1    1    0   
 $EndComp
@@ -424,10 +432,17 @@ U 1 1 5F8DD0EF
 P 7500 700
 F 0 "C22" V 7600 800 50  0000 L BNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" V 7750 790 50  0001 C CNN
-F 2 "" H 7500 700 60  0001 C CNN
-F 3 "" H 7500 700 60  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 7500 700 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 7500 700 60  0001 C CNN
 F 4 "1000uF" V 7650 950 50  0000 C CNN "Val"
 F 5 "25V" V 7750 900 50  0000 C CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 7500 700 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 7500 700 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 7500 700 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 7500 700 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 7500 700 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 7500 700 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 7500 700 50  0001 C CNN "Tolerance"
 	1    7500 700 
 	0    1    1    0   
 $EndComp
@@ -567,7 +582,15 @@ P 7850 4700
 F 0 "Q7" H 8170 4640 50  0000 L BNN
 F 1 "2N7002BK" H 8170 4540 50  0000 L BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8170 4540 50  0001 C CNN
-F 3 "" H 8170 4540 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 8170 4540 50  0001 C CNN
+F 4 "350mA" H 7850 4700 50  0001 C CNN "Current"
+F 5 "MOSFET N-CH 60V 350MA SOT23" H 7850 4700 50  0001 C CNN "Desc"
+F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 7850 4700 50  0001 C CNN "Detailed"
+F 7 "DigiKey" H 7850 4700 50  0001 C CNN "DistName"
+F 8 "1727-4789-2-ND" H 7850 4700 50  0001 C CNN "Dist_PN"
+F 9 "Nexperia USA Inc." H 7850 4700 50  0001 C CNN "Mfr"
+F 10 "2N7002BK,215" H 7850 4700 50  0001 C CNN "Mfr_PN"
+F 11 "60V" H 7850 4700 50  0001 C CNN "Voltage"
 	1    7850 4700
 	1    0    0    -1  
 $EndComp
@@ -677,10 +700,9 @@ F 0 "C24" H 9240 4440 50  0000 L BNN
 F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 9240 4160 50  0001 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9240 4160 50  0001 C CNN
 F 3 "" H 9240 4160 50  0001 C CNN
-F 4 "" V 1650 -1850 60  0001 C CNN "Voltage Rating"
-F 5 "10%" H 9250 4450 50  0001 C CNN "Tolerance"
-F 6 "10nF" H 9250 4200 50  0000 C CNN "Val"
-F 7 "50V" H 9250 4450 50  0001 C CNN "Voltage"
+F 4 "10%" H 9250 4450 50  0001 C CNN "Tolerance"
+F 5 "10nF" H 9250 4200 50  0000 C CNN "Val"
+F 6 "50V" H 9250 4450 50  0001 C CNN "Voltage"
 	1    9250 4450
 	1    0    0    -1  
 $EndComp
@@ -795,7 +817,15 @@ P 6850 4700
 F 0 "Q6" H 6810 4540 50  0000 R BNN
 F 1 "2N7002BK" H 6810 4440 50  0000 R BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6810 4440 50  0001 C CNN
-F 3 "" H 6810 4440 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 6810 4440 50  0001 C CNN
+F 4 "350mA" H 6850 4700 50  0001 C CNN "Current"
+F 5 "MOSFET N-CH 60V 350MA SOT23" H 6850 4700 50  0001 C CNN "Desc"
+F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 6850 4700 50  0001 C CNN "Detailed"
+F 7 "DigiKey" H 6850 4700 50  0001 C CNN "DistName"
+F 8 "1727-4789-2-ND" H 6850 4700 50  0001 C CNN "Dist_PN"
+F 9 "Nexperia USA Inc." H 6850 4700 50  0001 C CNN "Mfr"
+F 10 "2N7002BK,215" H 6850 4700 50  0001 C CNN "Mfr_PN"
+F 11 "60V" H 6850 4700 50  0001 C CNN "Voltage"
 	1    6850 4700
 	-1   0    0    -1  
 $EndComp
@@ -831,7 +861,15 @@ P 6450 5150
 F 0 "Q5" H 6410 4990 50  0000 R BNN
 F 1 "2N7002BK" H 6410 4890 50  0000 R BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6410 4890 50  0001 C CNN
-F 3 "" H 6410 4890 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 6410 4890 50  0001 C CNN
+F 4 "350mA" H 6450 5150 50  0001 C CNN "Current"
+F 5 "MOSFET N-CH 60V 350MA SOT23" H 6450 5150 50  0001 C CNN "Desc"
+F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 6450 5150 50  0001 C CNN "Detailed"
+F 7 "DigiKey" H 6450 5150 50  0001 C CNN "DistName"
+F 8 "1727-4789-2-ND" H 6450 5150 50  0001 C CNN "Dist_PN"
+F 9 "Nexperia USA Inc." H 6450 5150 50  0001 C CNN "Mfr"
+F 10 "2N7002BK,215" H 6450 5150 50  0001 C CNN "Mfr_PN"
+F 11 "60V" H 6450 5150 50  0001 C CNN "Voltage"
 	1    6450 5150
 	-1   0    0    -1  
 $EndComp
@@ -1172,10 +1210,17 @@ U 1 1 5F9BE2A3
 P 8050 700
 F 0 "C23" V 8109 810 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 8050 700 50  0001 C CNN
-F 2 "" H 8050 700 60  0001 C CNN
-F 3 "" H 8050 700 60  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 8050 700 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 8050 700 60  0001 C CNN
 F 4 "1000uF" V 8200 810 50  0000 L CNN "Val"
 F 5 "25V" V 8291 810 50  0000 L CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 8050 700 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 8050 700 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 8050 700 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 8050 700 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 8050 700 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 8050 700 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 8050 700 50  0001 C CNN "Tolerance"
 	1    8050 700 
 	0    1    1    0   
 $EndComp
@@ -1187,8 +1232,8 @@ $Comp
 L OpenVent:LMC6772AIMX U7
 U 1 1 5FAA14CD
 P 2450 6050
-F 0 "U7" H 3294 6196 50  0000 L CNN
-F 1 "LMC6772AIMX" H 3294 6105 50  0000 L CNN
+F 0 "U7" H 3050 6350 50  0000 L CNN
+F 1 "LMC6772AIMX" H 3000 5950 50  0000 L CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2450 6050 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmc6772" H 2450 6050 50  0001 C CNN
 F 4 "IC COMPAR DUAL MICPWR CMOS 8SOIC" H 2450 6050 50  0001 C CNN "Desc"

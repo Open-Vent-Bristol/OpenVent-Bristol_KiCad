@@ -13,30 +13,196 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1650 1000 0    60   ~ 0
+Text Notes 600  650  0    60   ~ 0
 This page is prepared for the FPGA power supply aswell as the JTAG USB interface
-Text Notes 800  7050 0    60   ~ 0
-Schematic for JTAG interface on page 4 in https://drive.google.com/file/d/1Fz5FI3G1h2KwB80DCBxoeJbAWv8vCjrP/view
 $Comp
 L OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A CN5
 U 1 1 5F8DD18A
-P 1800 2500
-F 0 "CN5" H 2400 3050 60  0000 L BNN
-F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 1800 2500 60  0001 C CNN
-F 2 "" H 1800 2500 60  0001 C CNN
-F 3 "" H 1800 2500 60  0001 C CNN
-	1    1800 2500
+P 1350 2800
+F 0 "CN5" H 1950 3350 60  0000 L BNN
+F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 1350 2800 60  0001 C CNN
+F 2 "" H 1350 2800 60  0001 C CNN
+F 3 "" H 1350 2800 60  0001 C CNN
+	1    1350 2800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L OpenVent:FT2232HL-REEL U15
 U 1 1 5F8DD189
-P 3850 3300
-F 0 "U15" H 3700 4650 60  0000 L BNN
-F 1 "FT2232HL-REEL" H 3450 4400 60  0000 L BNN
-F 2 "" H 6070 3200 60  0000 C CNN
-F 3 "" H 6070 3200 60  0000 C CNN
-	1    3850 3300
+P 6000 3400
+F 0 "U15" H 5850 4750 60  0000 L BNN
+F 1 "FT2232HL-REEL" H 5600 4500 60  0000 L BNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8220 3300 60  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 8220 3300 60  0001 C CNN
+F 4 "IC USB HS DUAL UART/FIFO 64-LQFP" H 6000 3400 50  0001 C CNN "Desc"
+F 5 "USB Bridge, USB to UART,FIFO USB 2.0 UART Interface 64-LQFP (10x10)" H 6000 3400 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 6000 3400 50  0001 C CNN "DistName"
+F 7 "768-1024-2-ND" H 6000 3400 50  0001 C CNN "Dist_PN"
+F 8 "FTDI, Future Technology Devices International Ltd" H 6000 3400 50  0001 C CNN "Mfr"
+F 9 "FT2232HL-REEL" H 6000 3400 50  0001 C CNN "Mfr_PN"
+	1    6000 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB67287
+P 750 3150
+F 0 "#PWR?" H 750 2900 50  0001 C CNN
+F 1 "GND" H 750 3000 50  0001 C CNN
+F 2 "" H 750 3150 50  0001 C CNN
+F 3 "" H 750 3150 50  0001 C CNN
+	1    750  3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB678CE
+P 1400 2900
+F 0 "#PWR?" H 1400 2650 50  0001 C CNN
+F 1 "GND" H 1400 2750 50  0001 C CNN
+F 2 "" H 1400 2900 50  0001 C CNN
+F 3 "" H 1400 2900 50  0001 C CNN
+	1    1400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L F_Misc:RClamp3654P.TCT TVS?
+U 1 1 5FB67D83
+P 2750 3200
+F 0 "TVS?" H 2750 3725 50  0000 C CNN
+F 1 "RClamp3654P.TCT" H 2750 3634 50  0000 C CNN
+F 2 "F_Misc:SON50P160X160X65-7N" H 2750 3200 50  0001 C CNN
+F 3 "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/44000000MCXN/wh6ib8C76Sfz_._po4NLxIgDm.uk2W3aErWuo281nzw" H 2750 3200 50  0001 C CNN
+F 4 "Semtech Corporation" H 2750 3200 50  0001 C CNN "Mfr"
+F 5 "RCLAMP3654P.TCT" H 2750 3200 50  0001 C CNN "Mfr_PN"
+F 6 "DigiKey" H 2750 3200 50  0001 C CNN "DistName"
+F 7 "RCLAMP3654P.TTR-ND" H 2750 3200 50  0001 C CNN "Dist_PN"
+F 8 "TVS DIODE 5.5V 30V SLP1616P6" H 2750 3200 50  0001 C CNN "Desc"
+F 9 "30V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SLP1616P6 (1.6x1.6)" H 2750 3200 50  0001 C CNN "Detailed"
+	1    2750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L F_inductors:DLP11SA900HL2L FL?
+U 1 1 5FB69009
+P 1900 2550
+F 0 "FL?" H 1900 2831 50  0000 C CNN
+F 1 "DLP11SA900HL2L" H 1900 2740 50  0000 C CNN
+F 2 "F_Inductors:Murata_DLP11S" H 1900 2590 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/DLx_Series.pdf" H 1900 2590 50  0001 C CNN
+	1    1900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB6A55D
+P 2750 3350
+F 0 "#PWR?" H 2750 3100 50  0001 C CNN
+F 1 "GND" H 2750 3200 50  0001 C CNN
+F 2 "" H 2750 3350 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3100 750  3150
+Wire Wire Line
+	1350 2800 1400 2800
+Wire Wire Line
+	1400 2800 1400 2900
+Wire Wire Line
+	1350 2500 1650 2500
+Wire Wire Line
+	1650 2500 1650 2450
+Wire Wire Line
+	1650 2450 1700 2450
+Wire Wire Line
+	1350 2600 1650 2600
+Wire Wire Line
+	1650 2600 1650 2650
+Wire Wire Line
+	1650 2650 1700 2650
+Wire Wire Line
+	2100 2450 2150 2450
+Wire Wire Line
+	2150 2450 2150 2500
+Wire Wire Line
+	2150 2500 2350 2500
+Wire Wire Line
+	2100 2650 2150 2650
+Wire Wire Line
+	2150 2650 2150 2600
+Wire Wire Line
+	2150 2600 2300 2600
+Wire Wire Line
+	2400 2900 2350 2900
+Wire Wire Line
+	2350 2900 2350 2500
+Connection ~ 2350 2500
+Wire Wire Line
+	2400 3050 2300 3050
+Wire Wire Line
+	2300 3050 2300 2600
+Connection ~ 2300 2600
+Wire Wire Line
+	2750 3300 2750 3350
+Wire Wire Line
+	2350 2500 4800 2500
+Wire Wire Line
+	2300 2600 4800 2600
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB6D9F9
+P 5400 5700
+F 0 "#PWR?" H 5400 5450 50  0001 C CNN
+F 1 "GND" H 5400 5550 50  0001 C CNN
+F 2 "" H 5400 5700 50  0001 C CNN
+F 3 "" H 5400 5700 50  0001 C CNN
+	1    5400 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5600 6300 5650
+Wire Wire Line
+	6300 5650 6200 5650
+Wire Wire Line
+	5400 5650 5400 5700
+Wire Wire Line
+	5400 5600 5400 5650
+Connection ~ 5400 5650
+Wire Wire Line
+	5600 5600 5600 5650
+Connection ~ 5600 5650
+Wire Wire Line
+	5600 5650 5400 5650
+Wire Wire Line
+	5700 5600 5700 5650
+Connection ~ 5700 5650
+Wire Wire Line
+	5700 5650 5600 5650
+Wire Wire Line
+	5800 5600 5800 5650
+Connection ~ 5800 5650
+Wire Wire Line
+	5800 5650 5700 5650
+Wire Wire Line
+	5900 5600 5900 5650
+Connection ~ 5900 5650
+Wire Wire Line
+	5900 5650 5800 5650
+Wire Wire Line
+	6000 5650 6000 5600
+Connection ~ 6000 5650
+Wire Wire Line
+	6000 5650 5900 5650
+Wire Wire Line
+	6100 5600 6100 5650
+Connection ~ 6100 5650
+Wire Wire Line
+	6100 5650 6000 5650
+Wire Wire Line
+	6200 5600 6200 5650
+Connection ~ 6200 5650
+Wire Wire Line
+	6200 5650 6100 5650
 $EndSCHEMATC

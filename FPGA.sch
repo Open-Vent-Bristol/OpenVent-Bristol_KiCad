@@ -114,7 +114,15 @@ P 8250 3800
 F 0 "Q13" H 8000 3600 50  0000 L BNN
 F 1 "2N7002BK" H 7750 3500 50  0000 L BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8200 3450 50  0001 C CNN
-F 3 "" H 8200 3450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 8200 3450 50  0001 C CNN
+F 4 "350mA" H 8250 3800 50  0001 C CNN "Current"
+F 5 "MOSFET N-CH 60V 350MA SOT23" H 8250 3800 50  0001 C CNN "Desc"
+F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 8250 3800 50  0001 C CNN "Detailed"
+F 7 "DigiKey" H 8250 3800 50  0001 C CNN "DistName"
+F 8 "1727-4789-2-ND" H 8250 3800 50  0001 C CNN "Dist_PN"
+F 9 "Nexperia USA Inc." H 8250 3800 50  0001 C CNN "Mfr"
+F 10 "2N7002BK,215" H 8250 3800 50  0001 C CNN "Mfr_PN"
+F 11 "60V" H 8250 3800 50  0001 C CNN "Voltage"
 	1    8250 3800
 	-1   0    0    -1  
 $EndComp
@@ -139,7 +147,15 @@ P 6850 4150
 F 0 "Q9" H 6700 3950 50  0000 L BNN
 F 1 "2N7002BK" H 6400 3850 50  0000 L BNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 3800 50  0001 C CNN
-F 3 "" H 6800 3800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 6800 3800 50  0001 C CNN
+F 4 "350mA" H 6850 4150 50  0001 C CNN "Current"
+F 5 "MOSFET N-CH 60V 350MA SOT23" H 6850 4150 50  0001 C CNN "Desc"
+F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 6850 4150 50  0001 C CNN "Detailed"
+F 7 "DigiKey" H 6850 4150 50  0001 C CNN "DistName"
+F 8 "1727-4789-2-ND" H 6850 4150 50  0001 C CNN "Dist_PN"
+F 9 "Nexperia USA Inc." H 6850 4150 50  0001 C CNN "Mfr"
+F 10 "2N7002BK,215" H 6850 4150 50  0001 C CNN "Mfr_PN"
+F 11 "60V" H 6850 4150 50  0001 C CNN "Voltage"
 	1    6850 4150
 	-1   0    0    -1  
 $EndComp
@@ -151,14 +167,13 @@ F 0 "D8" H 7550 2100 50  0000 L BNN
 F 1 "BB-HRGB32M-TRB" H 7600 1350 50  0000 C CNN
 F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 7650 1750 50  0001 C CNN
 F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 7650 1750 50  0001 C CNN
-F 4 "" V 50  -250 60  0001 C CNN "ManufacturerPN"
-F 5 "BB-HRGB32M-TRB" H 7650 1750 50  0001 C CNN "Mfr_PN"
-F 6 "RGB" H 7650 1750 50  0001 C CNN "Colour"
-F 7 "ADDRESS LED DISCRET SERIAL R/G/B" H 7650 1750 50  0001 C CNN "Desc"
-F 8 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 7650 1750 50  0001 C CNN "Detailed"
-F 9 "DigiKey" H 7650 1750 50  0001 C CNN "DistName"
-F 10 "2007-BB-HRGB32M-TRBTR-ND" H 7650 1750 50  0001 C CNN "Dist_PN"
-F 11 "American Bright Optoelectronics Corporation" H 7650 1750 50  0001 C CNN "Mfr"
+F 4 "BB-HRGB32M-TRB" H 7650 1750 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 7650 1750 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 7650 1750 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 7650 1750 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 7650 1750 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 7650 1750 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 7650 1750 50  0001 C CNN "Mfr"
 	1    7650 1750
 	1    0    0    -1  
 $EndComp
@@ -222,8 +237,14 @@ U 1 1 5FDA1E52
 P 7650 3350
 F 0 "LS1" H 7820 3300 50  0000 L CNN
 F 1 "AUDIO_MAGNETIC_INDICATOR" H 7820 3255 50  0001 L CNN
-F 2 "" H 7650 3150 50  0001 C CNN
-F 3 "~" H 7640 3300 50  0001 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 7650 3150 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/cem-1212c.pdf" H 7640 3300 50  0001 C CNN
+F 4 "AUDIO MAGNETIC IND 8-16V TH" H 7650 3350 50  0001 C CNN "Desc"
+F 5 "Buzzers Indicator, Internally Driven Magnetic 35mA 2.3kHz 85dB @ 12V, 10cm Through Hole PC Pins" H 7650 3350 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 7650 3350 50  0001 C CNN "DistName"
+F 7 "102-1123-ND" H 7650 3350 50  0001 C CNN "Dist_PN"
+F 8 "CUI Devices" H 7650 3350 50  0001 C CNN "Mfr"
+F 9 "CEM-1212C" H 7650 3050 50  0000 C CNN "Mfr_PN"
 	1    7650 3350
 	1    0    0    -1  
 $EndComp
@@ -233,8 +254,14 @@ U 1 1 5FDA2809
 P 8550 3350
 F 0 "LS2" H 8720 3300 50  0000 L CNN
 F 1 "AUDIO_MAGNETIC_INDICATOR" H 8720 3255 50  0001 L CNN
-F 2 "" H 8550 3150 50  0001 C CNN
-F 3 "~" H 8540 3300 50  0001 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 8550 3150 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/cem-1212c.pdf" H 8540 3300 50  0001 C CNN
+F 4 "AUDIO MAGNETIC IND 8-16V TH" H 8550 3350 50  0001 C CNN "Desc"
+F 5 "Buzzers Indicator, Internally Driven Magnetic 35mA 2.3kHz 85dB @ 12V, 10cm Through Hole PC Pins" H 8550 3350 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 8550 3350 50  0001 C CNN "DistName"
+F 7 "102-1123-ND" H 8550 3350 50  0001 C CNN "Dist_PN"
+F 8 "CUI Devices" H 8550 3350 50  0001 C CNN "Mfr"
+F 9 "CEM-1212C" H 8600 3000 50  0000 C CNN "Mfr_PN"
 	1    8550 3350
 	1    0    0    -1  
 $EndComp
