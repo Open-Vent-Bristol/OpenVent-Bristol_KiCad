@@ -1,8 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10uF_0805_Ceramic_Capacitor_10%_X7R_10V
+D Ceramic Capacitor 10uF 10V X7R 0805
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf
+$ENDCMP
+#
+$CMP 12k_0603_Chip_Resistor,_1%,_0.1W
+D SMT resistor 12K 1% 0.1W 0603
+$ENDCMP
+#
 $CMP 22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
 D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
+$ENDCMP
+#
+$CMP ABM3B-12.000MHZ
+D CRYSTAL 12.0000MHZ 10PF SMD
+K Crystal 12MHz
+F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
 $CMP LMC6772AIMX
