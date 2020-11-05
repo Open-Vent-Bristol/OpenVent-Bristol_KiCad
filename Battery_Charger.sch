@@ -261,7 +261,7 @@ NoConn ~ 5450 6650
 Text Notes 2050 5050 0    60   ~ 0
 VDC Alert set to 10V
 Text Notes 9350 2850 0    60   ~ 0
-VBATT-SCALED = 0.167 * VBATT
+VBATT-SCALED = 0.176 * VBATT
 Text GLabel 3200 2450 0    60   Output ~ 0
 ISNS
 $Comp
@@ -422,10 +422,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 1750 6650 1850
 Wire Wire Line
-	8050 2250 8600 2250
-Wire Wire Line
-	8050 1650 8050 2250
-Wire Wire Line
 	7650 1650 8050 1650
 Wire Wire Line
 	7650 1850 7650 1650
@@ -453,10 +449,6 @@ Wire Wire Line
 	9650 1650 9650 2350
 Wire Wire Line
 	8500 1650 9650 1650
-Wire Wire Line
-	8500 2450 8500 1650
-Wire Wire Line
-	8600 2450 8500 2450
 Wire Wire Line
 	1800 6050 1800 5750
 Wire Wire Line
@@ -1353,4 +1345,12 @@ Wire Wire Line
 	4150 6750 4050 6750
 Wire Wire Line
 	4050 6750 4050 6800
+Wire Wire Line
+	8600 2250 8500 2250
+Wire Wire Line
+	8500 2250 8500 1650
+Wire Wire Line
+	8050 1650 8050 2450
+Wire Wire Line
+	8050 2450 8600 2450
 $EndSCHEMATC

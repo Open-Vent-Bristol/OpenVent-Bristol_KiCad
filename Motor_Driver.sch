@@ -158,8 +158,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 800  4400 1750
 Wire Wire Line
-	6600 2450 5950 2450
-Wire Wire Line
 	6600 2600 6600 2450
 Wire Wire Line
 	6950 2600 6600 2600
@@ -170,19 +168,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 2050 8700 2600
 Wire Wire Line
-	6600 2350 5950 2350
-Wire Wire Line
-	6600 2250 5950 2250
-Wire Wire Line
-	6600 2150 5950 2150
-Wire Wire Line
 	6600 2250 6600 2150
 Wire Wire Line
 	6600 2350 6600 2250
 Wire Wire Line
 	6600 2450 6600 2350
-Wire Wire Line
-	6600 1950 5950 1950
 Wire Wire Line
 	6600 1850 6600 1950
 Wire Wire Line
@@ -190,17 +180,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 1650 6600 1750
 Wire Wire Line
-	6600 1850 5950 1850
-Wire Wire Line
-	6600 1750 5950 1750
-Wire Wire Line
-	6600 1650 5950 1650
-Wire Wire Line
 	6600 1500 6600 1650
 Wire Wire Line
 	8700 1950 8700 1500
-Wire Wire Line
-	6300 1450 5950 1450
 Wire Wire Line
 	6300 1350 6300 1450
 Wire Wire Line
@@ -209,12 +191,6 @@ Wire Wire Line
 	6300 1150 6300 1250
 Wire Wire Line
 	6300 800  6300 1150
-Wire Wire Line
-	6300 1350 5950 1350
-Wire Wire Line
-	6300 1250 5950 1250
-Wire Wire Line
-	6300 1150 5950 1150
 Wire Wire Line
 	7500 1150 7500 1000
 Wire Wire Line
@@ -307,18 +283,18 @@ $EndComp
 $Comp
 L OpenVent:VNH5019ATR-E U8
 U 1 1 5F8DD116
-P 4850 1050
-F 0 "U8" H 4850 1150 50  0000 L BNN
-F 1 "VNH5019ATR-E" H 5150 1100 50  0000 C CNN
-F 2 "Package_SO:ST_MultiPowerSO-30" H 4850 1050 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1c/26/60/a8/3e/70/4c/e1/CD00234623.pdf/files/CD00234623.pdf/jcr:content/translations/en.CD00234623.pdf" H 4850 1050 60  0001 C CNN
-F 4 "STMicroelectronics" H 4850 1050 50  0001 C CNN "Mfr"
-F 5 "VNH5019ATR-E" H 4850 1050 50  0001 C CNN "Mfr_PN"
-F 6 "IC MTR DRV 5.5-24V MULTIPWRSO-30" H 4850 1050 50  0001 C CNN "Desc"
-F 7 "Motor Driver Power MOSFET Parallel, PWM MultiPowerSO-30" H 4850 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 4850 1050 50  0001 C CNN "DistName"
-F 9 "497-13073-2-ND" H 4850 1050 50  0001 C CNN "Dist_PN"
-	1    4850 1050
+P 4750 2950
+F 0 "U8" H 5000 4900 50  0000 L BNN
+F 1 "VNH5019ATR-E" H 5450 2800 50  0000 C CNN
+F 2 "Package_SO:ST_MultiPowerSO-30" H 4750 2950 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1c/26/60/a8/3e/70/4c/e1/CD00234623.pdf/files/CD00234623.pdf/jcr:content/translations/en.CD00234623.pdf" H 4750 2950 60  0001 C CNN
+F 4 "STMicroelectronics" H 4750 2950 50  0001 C CNN "Mfr"
+F 5 "VNH5019ATR-E" H 4750 2950 50  0001 C CNN "Mfr_PN"
+F 6 "IC MTR DRV 5.5-24V MULTIPWRSO-30" H 4750 2950 50  0001 C CNN "Desc"
+F 7 "Motor Driver Power MOSFET Parallel, PWM MultiPowerSO-30" H 4750 2950 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 4750 2950 50  0001 C CNN "DistName"
+F 9 "497-13073-2-ND" H 4750 2950 50  0001 C CNN "Dist_PN"
+	1    4750 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -877,7 +853,7 @@ $Comp
 L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R29
 U 1 1 5F8DD0FC
 P 6350 4550
-F 0 "R29" V 6550 4350 50  0000 L BNN
+F 0 "R29" V 6550 4250 50  0000 L BNN
 F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" V 6350 4400 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6250 4410 50  0001 C CNN
 F 3 "" H 6250 4410 50  0001 C CNN
@@ -1262,4 +1238,28 @@ F 9 "LMC6772AIMX/NOPB" H 5250 7150 50  0001 C CNN "Mfr_PN"
 	2    5250 7150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6300 1450 6150 1450
+Wire Wire Line
+	6600 1950 6150 1950
+Wire Wire Line
+	6600 2150 6150 2150
+Wire Wire Line
+	6300 1350 6150 1350
+Wire Wire Line
+	6300 1250 6150 1250
+Wire Wire Line
+	6300 1150 6150 1150
+Wire Wire Line
+	6600 2450 6150 2450
+Wire Wire Line
+	6600 2350 6150 2350
+Wire Wire Line
+	6600 2250 6150 2250
+Wire Wire Line
+	6600 1850 6150 1850
+Wire Wire Line
+	6600 1750 6150 1750
+Wire Wire Line
+	6600 1650 6150 1650
 $EndSCHEMATC
