@@ -99,8 +99,6 @@ Wire Wire Line
 	6850 4150 6850 4050
 Text Notes 1200 4500 0    60   ~ 0
 This page is prepared for the FPGA I/O Schematics
-Text Notes 6300 2300 0    60   ~ 0
-This component is one of the LED's which ar going to be used in future
 Text Notes 5450 4350 0    60   ~ 0
 Sounder drive signal
 Connection ~ 6850 4050
@@ -162,19 +160,19 @@ $EndComp
 $Comp
 L OpenVent:LED_RGB_Serial D8
 U 1 1 5F8DD17D
-P 7650 1750
-F 0 "D8" H 7550 2100 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 7600 1350 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 7650 1750 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 7650 1750 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 7650 1750 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 7650 1750 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 7650 1750 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 7650 1750 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 7650 1750 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 7650 1750 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 7650 1750 50  0001 C CNN "Mfr"
-	1    7650 1750
+P 7200 1150
+F 0 "D8" H 7100 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 7150 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 7200 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 7200 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 7200 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 7200 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 7200 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 7200 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 7200 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 7200 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 7200 1150 50  0001 C CNN "Mfr"
+	1    7200 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -265,4 +263,416 @@ F 9 "CEM-1212C" H 8600 3000 50  0000 C CNN "Mfr_PN"
 	1    8550 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D13
+U 1 1 5FAA6E15
+P 8250 1150
+F 0 "D13" H 8150 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 8200 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 8250 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 8250 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 8250 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 8250 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 8250 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 8250 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 8250 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 8250 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 8250 1150 50  0001 C CNN "Mfr"
+	1    8250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D14
+U 1 1 5FAA8982
+P 9300 1150
+F 0 "D14" H 9200 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 9250 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 9300 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 9300 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 9300 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 9300 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 9300 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 9300 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 9300 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 9300 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 9300 1150 50  0001 C CNN "Mfr"
+	1    9300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D15
+U 1 1 5FAA9313
+P 10350 1150
+F 0 "D15" H 10250 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 10300 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 10350 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 10350 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 10350 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 10350 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 10350 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 10350 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 10350 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 10350 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 10350 1150 50  0001 C CNN "Mfr"
+	1    10350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D12
+U 1 1 5FAAA29E
+P 6150 1150
+F 0 "D12" H 6050 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 6100 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 6150 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 6150 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 6150 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 6150 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 6150 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 6150 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 6150 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 6150 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 6150 1150 50  0001 C CNN "Mfr"
+	1    6150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D11
+U 1 1 5FAAAD37
+P 5050 1150
+F 0 "D11" H 4950 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 5000 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 5050 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 5050 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 5050 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 5050 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 5050 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 5050 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 5050 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 5050 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 5050 1150 50  0001 C CNN "Mfr"
+	1    5050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D10
+U 1 1 5FAAB8E4
+P 4000 1150
+F 0 "D10" H 3900 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 3950 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 4000 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 4000 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 4000 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 4000 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 4000 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 4000 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 4000 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 4000 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 4000 1150 50  0001 C CNN "Mfr"
+	1    4000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LED_RGB_Serial D9
+U 1 1 5FAAC0B3
+P 2950 1150
+F 0 "D9" H 2850 1500 50  0000 L BNN
+F 1 "BB-HRGB32M-TRB" H 2900 750 50  0000 C CNN
+F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 2950 1150 50  0001 C CNN
+F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 2950 1150 50  0001 C CNN
+F 4 "BB-HRGB32M-TRB" H 2950 1150 50  0001 C CNN "Mfr_PN"
+F 5 "RGB" H 2950 1150 50  0001 C CNN "Colour"
+F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 2950 1150 50  0001 C CNN "Desc"
+F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 2950 1150 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 2950 1150 50  0001 C CNN "DistName"
+F 9 "2007-BB-HRGB32M-TRBTR-ND" H 2950 1150 50  0001 C CNN "Dist_PN"
+F 10 "American Bright Optoelectronics Corporation" H 2950 1150 50  0001 C CNN "Mfr"
+	1    2950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR067
+U 1 1 5FAAE541
+P 10800 900
+F 0 "#PWR067" H 10800 750 50  0001 C CNN
+F 1 "+5V" H 10800 1073 50  0000 C CNN
+F 2 "" H 10800 900 50  0001 C CNN
+F 3 "" H 10800 900 50  0001 C CNN
+	1    10800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR066
+U 1 1 5FAAED20
+P 9900 1600
+F 0 "#PWR066" H 9900 1350 50  0001 C CNN
+F 1 "GND" H 9900 1450 50  0001 C CNN
+F 2 "" H 9900 1600 50  0001 C CNN
+F 3 "" H 9900 1600 50  0001 C CNN
+	1    9900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR064
+U 1 1 5FAB0E36
+P 8850 1600
+F 0 "#PWR064" H 8850 1350 50  0001 C CNN
+F 1 "GND" H 8850 1450 50  0001 C CNN
+F 2 "" H 8850 1600 50  0001 C CNN
+F 3 "" H 8850 1600 50  0001 C CNN
+	1    8850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR065
+U 1 1 5FAB141A
+P 9700 900
+F 0 "#PWR065" H 9700 750 50  0001 C CNN
+F 1 "+5V" H 9700 1073 50  0000 C CNN
+F 2 "" H 9700 900 50  0001 C CNN
+F 3 "" H 9700 900 50  0001 C CNN
+	1    9700 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 900  10800 1000
+Wire Wire Line
+	10800 1000 10700 1000
+Wire Wire Line
+	10000 1250 9900 1250
+Wire Wire Line
+	9900 1250 9900 1600
+Wire Wire Line
+	9700 900  9700 1000
+Wire Wire Line
+	9700 1000 9650 1000
+Wire Wire Line
+	9650 1250 9800 1250
+Wire Wire Line
+	9800 1250 9800 1000
+Wire Wire Line
+	9800 1000 10000 1000
+$Comp
+L OpenVent:GND #PWR062
+U 1 1 5FABB60C
+P 7800 1600
+F 0 "#PWR062" H 7800 1350 50  0001 C CNN
+F 1 "GND" H 7800 1450 50  0001 C CNN
+F 2 "" H 7800 1600 50  0001 C CNN
+F 3 "" H 7800 1600 50  0001 C CNN
+	1    7800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR060
+U 1 1 5FABBAFA
+P 6750 1600
+F 0 "#PWR060" H 6750 1350 50  0001 C CNN
+F 1 "GND" H 6750 1450 50  0001 C CNN
+F 2 "" H 6750 1600 50  0001 C CNN
+F 3 "" H 6750 1600 50  0001 C CNN
+	1    6750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR058
+U 1 1 5FABC0A8
+P 5700 1600
+F 0 "#PWR058" H 5700 1350 50  0001 C CNN
+F 1 "GND" H 5700 1450 50  0001 C CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "" H 5700 1600 50  0001 C CNN
+	1    5700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR056
+U 1 1 5FABC533
+P 4600 1600
+F 0 "#PWR056" H 4600 1350 50  0001 C CNN
+F 1 "GND" H 4600 1450 50  0001 C CNN
+F 2 "" H 4600 1600 50  0001 C CNN
+F 3 "" H 4600 1600 50  0001 C CNN
+	1    4600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR054
+U 1 1 5FABC951
+P 3550 1600
+F 0 "#PWR054" H 3550 1350 50  0001 C CNN
+F 1 "GND" H 3550 1450 50  0001 C CNN
+F 2 "" H 3550 1600 50  0001 C CNN
+F 3 "" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR052
+U 1 1 5FABCEFA
+P 2500 1600
+F 0 "#PWR052" H 2500 1350 50  0001 C CNN
+F 1 "GND" H 2500 1450 50  0001 C CNN
+F 2 "" H 2500 1600 50  0001 C CNN
+F 3 "" H 2500 1600 50  0001 C CNN
+	1    2500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR063
+U 1 1 5FABD26E
+P 8650 900
+F 0 "#PWR063" H 8650 750 50  0001 C CNN
+F 1 "+5V" H 8650 1073 50  0000 C CNN
+F 2 "" H 8650 900 50  0001 C CNN
+F 3 "" H 8650 900 50  0001 C CNN
+	1    8650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR061
+U 1 1 5FABD8C6
+P 7600 900
+F 0 "#PWR061" H 7600 750 50  0001 C CNN
+F 1 "+5V" H 7600 1073 50  0000 C CNN
+F 2 "" H 7600 900 50  0001 C CNN
+F 3 "" H 7600 900 50  0001 C CNN
+	1    7600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR059
+U 1 1 5FABDD74
+P 6550 900
+F 0 "#PWR059" H 6550 750 50  0001 C CNN
+F 1 "+5V" H 6550 1073 50  0000 C CNN
+F 2 "" H 6550 900 50  0001 C CNN
+F 3 "" H 6550 900 50  0001 C CNN
+	1    6550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR057
+U 1 1 5FABE3B1
+P 5450 900
+F 0 "#PWR057" H 5450 750 50  0001 C CNN
+F 1 "+5V" H 5450 1073 50  0000 C CNN
+F 2 "" H 5450 900 50  0001 C CNN
+F 3 "" H 5450 900 50  0001 C CNN
+	1    5450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR055
+U 1 1 5FABE8D8
+P 4400 900
+F 0 "#PWR055" H 4400 750 50  0001 C CNN
+F 1 "+5V" H 4400 1073 50  0000 C CNN
+F 2 "" H 4400 900 50  0001 C CNN
+F 3 "" H 4400 900 50  0001 C CNN
+	1    4400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR053
+U 1 1 5FABEE04
+P 3350 900
+F 0 "#PWR053" H 3350 750 50  0001 C CNN
+F 1 "+5V" H 3350 1073 50  0000 C CNN
+F 2 "" H 3350 900 50  0001 C CNN
+F 3 "" H 3350 900 50  0001 C CNN
+	1    3350 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 900  8650 1000
+Wire Wire Line
+	8650 1000 8600 1000
+Wire Wire Line
+	8950 1250 8850 1250
+Wire Wire Line
+	8850 1250 8850 1600
+Wire Wire Line
+	7900 1250 7800 1250
+Wire Wire Line
+	7800 1250 7800 1600
+Wire Wire Line
+	6850 1250 6750 1250
+Wire Wire Line
+	6750 1250 6750 1600
+Wire Wire Line
+	5800 1250 5700 1250
+Wire Wire Line
+	5700 1250 5700 1600
+Wire Wire Line
+	7600 900  7600 1000
+Wire Wire Line
+	7600 1000 7550 1000
+Wire Wire Line
+	6550 900  6550 1000
+Wire Wire Line
+	6550 1000 6500 1000
+Wire Wire Line
+	5450 900  5450 1000
+Wire Wire Line
+	5450 1000 5400 1000
+Wire Wire Line
+	4700 1250 4600 1250
+Wire Wire Line
+	4600 1250 4600 1600
+Wire Wire Line
+	4400 900  4400 1000
+Wire Wire Line
+	4400 1000 4350 1000
+Wire Wire Line
+	3350 900  3350 1000
+Wire Wire Line
+	3350 1000 3300 1000
+Wire Wire Line
+	3650 1250 3550 1250
+Wire Wire Line
+	3550 1250 3550 1600
+Wire Wire Line
+	2600 1250 2500 1250
+Wire Wire Line
+	2500 1250 2500 1600
+Wire Wire Line
+	8950 1000 8750 1000
+Wire Wire Line
+	8750 1000 8750 1250
+Wire Wire Line
+	8750 1250 8600 1250
+Wire Wire Line
+	7900 1000 7700 1000
+Wire Wire Line
+	7700 1000 7700 1250
+Wire Wire Line
+	7700 1250 7550 1250
+Wire Wire Line
+	6850 1000 6650 1000
+Wire Wire Line
+	6650 1000 6650 1250
+Wire Wire Line
+	6650 1250 6500 1250
+Wire Wire Line
+	5800 1000 5550 1000
+Wire Wire Line
+	5550 1000 5550 1250
+Wire Wire Line
+	5550 1250 5400 1250
+Wire Wire Line
+	4700 1000 4500 1000
+Wire Wire Line
+	4500 1000 4500 1250
+Wire Wire Line
+	4500 1250 4350 1250
+Wire Wire Line
+	3650 1000 3450 1000
+Wire Wire Line
+	3450 1000 3450 1250
+Wire Wire Line
+	3450 1250 3300 1250
+Text GLabel 2400 1000 0    50   Input ~ 0
+LED_SERIAL_DRV
+Wire Wire Line
+	2600 1000 2400 1000
 $EndSCHEMATC
