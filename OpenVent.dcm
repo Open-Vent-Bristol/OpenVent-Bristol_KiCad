@@ -9,6 +9,23 @@ $CMP 12k_0603_Chip_Resistor,_1%,_0.1W
 D SMT resistor 12K 1% 0.1W 0603
 $ENDCMP
 #
+$CMP 1N5821
+D 30V 3A Schottky Barrier Rectifier Diode, DO-201AD
+K diode Schottky
+F http://www.vishay.com/docs/88526/1n5820.pdf
+$ENDCMP
+#
+$CMP 1N5822
+D 40V 3A Schottky Barrier Rectifier Diode, DO-201AD
+K diode Schottky
+F http://www.vishay.com/docs/88526/1n5820.pdf
+$ENDCMP
+#
+$CMP 2.2uF_2824_film_capacitor_10%_40V
+D 2.2µF Film Capacitor 40V 63V Polyester, Polyethylene Terephthalate (PET), Metallized 2824 (7260 Metric)
+F https://www.wima.de/wp-content/uploads/media/e_WIMA_SMD_PET.pdf
+$ENDCMP
+#
 $CMP 22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
 D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
@@ -20,9 +37,27 @@ K Crystal 12MHz
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP C_1210_10uF_25V_10%_X7R
+D 10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)
+K capacitor
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL32A106KAULNNE.jsp
+$ENDCMP
+#
 $CMP LMC6772AIMX
 D IC COMPAR DUAL MICPWR CMOS 8SOIC
 K Comparator SOIC dual
+$ENDCMP
+#
+$CMP MBR340
+D 40V 3A Schottky Barrier Rectifier Diode, DO-201AD
+K diode Schottky
+F http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF
+$ENDCMP
+#
+$CMP MBRS260T3G
+D Diode Schottky 60V 2A Surface Mount SMB
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRS260T3-D.PDF
 $ENDCMP
 #
 $CMP OpenVent_Barrel_Connector
@@ -30,10 +65,46 @@ D CONN PWR JACK 2X5.5MM SOLDER
 F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf
 $ENDCMP
 #
+$CMP Q_NMOS_GSD
+D N-MOSFET transistor, gate/source/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP RES_trimpot_10K_SMD
 D Potentiometer, US symbol, 10K
 K resistor variable
 F https://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
+$CMP R_0603_015m_cursense
+D 15 mOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Current Sense Metal Element
+K r resistor
+F https://www.ohmite.com/assets/docs/res_lvt.pdf?r=false
+$ENDCMP
+#
+$CMP R_0805_050m_cursense
+D 50 mOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Current Sense Metal Film
+K r resistor
+F https://www.ohmite.com/assets/docs/res_kdv.pdf?r=false
+$ENDCMP
+#
+$CMP R_1206_250m_cursense
+D 250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film
+K r resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-PT-Group_521_RoHS_L_2.pdf
+$ENDCMP
+#
+$CMP R_Thermistor_0603_10K_NTC
+D Temperature dependent resistor
+K R res thermistor
+F ~
+$ENDCMP
+#
+$CMP SSM3K341R
+D N-Channel 60V 6A (Ta) 1.2W (Ta) Surface Mount SOT-23F
+K transistor NMOS N-MOS N-MOSFET
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=35714&prodName=SSM3K341R
 $ENDCMP
 #
 $CMP TLV2333IDR
