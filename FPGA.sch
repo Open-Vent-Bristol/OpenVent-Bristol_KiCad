@@ -232,9 +232,11 @@ F 6 "0.1W" H 8350 5000 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:AUDIO_MAGNETIC_INDICATOR LS1
+L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS1
 U 1 1 5FDA1E52
 P 7650 3350
+AR Path="/5FDA1E52" Ref="LS1"  Part="1" 
+AR Path="/5F8F894A/5FDA1E52" Ref="LS1"  Part="1" 
 F 0 "LS1" H 7820 3300 50  0000 L CNN
 F 1 "AUDIO_MAGNETIC_INDICATOR" H 7820 3255 50  0001 L CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 7650 3150 50  0001 C CNN
@@ -249,9 +251,11 @@ F 9 "CEM-1212C" H 7650 3050 50  0000 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:AUDIO_MAGNETIC_INDICATOR LS2
+L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS2
 U 1 1 5FDA2809
 P 8550 3350
+AR Path="/5FDA2809" Ref="LS2"  Part="1" 
+AR Path="/5F8F894A/5FDA2809" Ref="LS2"  Part="1" 
 F 0 "LS2" H 8720 3300 50  0000 L CNN
 F 1 "AUDIO_MAGNETIC_INDICATOR" H 8720 3255 50  0001 L CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 8550 3150 50  0001 C CNN
@@ -265,4 +269,18 @@ F 9 "CEM-1212C" H 8600 3000 50  0000 C CNN "Mfr_PN"
 	1    8550 3350
 	1    0    0    -1  
 $EndComp
+Text Notes 1700 1200 0    125  ~ 25
+Add ADC inputs
+Text Notes 1700 1500 0    125  ~ 25
+Add connections to LCD and keypad
+Text Notes 1700 1850 0    125  ~ 25
+Add motor control output and motor sense input
+Text Notes 1700 2200 0    125  ~ 25
+Add LED connections
+Text Notes 1700 2550 0    125  ~ 25
+Add MCU connections
+Text Notes 6450 5750 0    125  ~ 25
+Add MCU drive to speakers
+Text Notes 6450 6050 0    125  ~ 25
+Add independent drive for speakers
 $EndSCHEMATC

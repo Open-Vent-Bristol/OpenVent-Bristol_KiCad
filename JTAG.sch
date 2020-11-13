@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 1 1
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -66,7 +66,7 @@ F 3 "" H 1450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_Misc:RClamp3654P.TCT TVS2
+L OpenVent-rescue:RClamp3654P.TCT-F_Misc TVS2
 U 1 1 5FB67D83
 P 2800 4000
 F 0 "TVS2" H 2800 4525 50  0000 C CNN
@@ -83,7 +83,7 @@ F 9 "30V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SLP1616P6 (1.6x1.6)" H 2
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_inductors:DLP11SA900HL2L FL2
+L OpenVent-rescue:DLP11SA900HL2L-F_inductors FL2
 U 1 1 5FB69009
 P 1950 3350
 F 0 "FL2" H 1950 3700 50  0000 C CNN
@@ -1024,4 +1024,6 @@ Wire Wire Line
 	7250 2500 8000 2500
 Wire Wire Line
 	8000 2600 7250 2600
+Text Notes 7550 3250 0    125  ~ 25
+Add buffers for MCU vs. FPGA JTAG\nconnections selected by a jumper
 $EndSCHEMATC

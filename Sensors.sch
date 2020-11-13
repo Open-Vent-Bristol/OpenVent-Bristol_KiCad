@@ -841,4 +841,10 @@ F 6 "10%" H 8600 2400 50  0001 C CNN "Tolerance"
 	1    8600 2400
 	1    0    0    -1  
 $EndComp
+Text Notes 1600 7150 0    125  ~ 25
+Add patient pressure sensor
+Text Notes 1600 6550 0    125  ~ 25
+Add aboslute pressure sensor
+Text Notes 1600 6850 0    125  ~ 25
+Add humidity sensor
 $EndSCHEMATC

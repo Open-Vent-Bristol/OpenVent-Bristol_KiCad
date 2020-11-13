@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name OpenVent)(type Legacy)(uri ${KIPRJMOD}/OpenVent.lib)(options "")(descr ""))
+  (lib (name OpenVent-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenVent-rescue.lib)(options "")(descr ""))
 )
