@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OpenVent)(type Legacy)(uri /home/jeffs/Workspace/HelpfulEngineering/OpenVent-Bristol_KiCad/OpenVent.lib)(options "")(descr ""))
+)

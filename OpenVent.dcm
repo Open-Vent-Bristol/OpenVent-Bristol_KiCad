@@ -37,6 +37,16 @@ K Crystal 12MHz
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP AOSD21307
+D Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC
+F www.aosmd.com/res/data_sheets/AOSD21307.pdf
+$ENDCMP
+#
+$CMP CSD88537ND
+D Mosfet Array 2 N-Channel (Dual) 60V 15A 2.1W Surface Mount 8-SOIC
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd88537nd
+$ENDCMP
+#
 $CMP C_1210_10uF_25V_10%_X7R
 D 10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)
 K capacitor
@@ -46,6 +56,22 @@ $ENDCMP
 $CMP LMC6772AIMX
 D IC COMPAR DUAL MICPWR CMOS 8SOIC
 K Comparator SOIC dual
+$ENDCMP
+#
+$CMP LMR12010
+D Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 1A SOT-23-6 Thin, TSOT-23-6
+K buck regulator
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmr12010
+$ENDCMP
+#
+$CMP LT1936
+D Buck Switching Regulator IC Positive Adjustable 1.2V 1 Output 1.4A 8-TSSOP, 8-MSOP (0.118", 3.00mm Width) Exposed Pad
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf
+$ENDCMP
+#
+$CMP LTC4416
+D OR Controller Source Selector Switch P-Channel 2:2 10-MSOP
+F http://www.linear.com/docs/17899
 $ENDCMP
 #
 $CMP MBR340
