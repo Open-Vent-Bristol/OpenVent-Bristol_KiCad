@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 6
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -51,12 +51,6 @@ Wire Notes Line style solid
 	2650 8400 3500 8400
 Text Notes 3550 8700 0    150  ~ 0
  12 V\nLimiter
-$Sheet
-S 1500 8000 3500 2800
-U 5F8EE7D2
-F0 "Motor Driver" 200
-F1 "Motor_Driver.sch" 200
-$EndSheet
 Wire Notes Line style solid
 	2500 8700 3500 8700
 Wire Notes Line style solid
@@ -297,12 +291,6 @@ Wire Notes Line style solid
 	3510 1500 5500 1500
 Wire Notes Line style solid
 	1100 1500 3200 1500
-$Sheet
-S 1500 1000 3500 2800
-U 5F8F649B
-F0 "Battery Charger" 200
-F1 "Battery_Charger.sch" 200
-$EndSheet
 Wire Notes Line style solid
 	10000 10750 10000 11000
 Text Notes 10050 11100 0    150  ~ 0

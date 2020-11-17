@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 3 6
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -514,4 +514,558 @@ Wire Wire Line
 Connection ~ 1150 1200
 Wire Wire Line
 	1200 2750 1200 2900
+$Comp
+L OpenVent:Conn_HDR_2x10_latching J?
+U 1 1 5FB5A31B
+P 8900 1500
+F 0 "J?" H 8950 2117 50  0000 C CNN
+F 1 "Conn_HDR_2x10_latching" H 8950 900 50  0001 C CNN
+F 2 "F_Misc:3M_D3428-6302-AR" H 8900 1500 50  0001 C CNN
+F 3 "https://multimedia.3m.com/mws/media/485761O/3mtm-four-wall-header-ts2245.pdf" H 8900 1500 50  0001 C CNN
+F 4 "3M" H 8900 1500 50  0001 C CNN "Mfr"
+F 5 "D3428-6302-AR" H 8950 2026 50  0000 C CNN "Mfr_PN"
+F 6 "CONN HEADER VERT 20POS 2.54MM LATCHING" H 8900 1500 50  0001 C CNN "Desc"
+F 7 "Connector Header Through Hole 20 position 0.100\" (2.54mm) with latches" H 8900 1500 50  0001 C CNN "Detailed"
+	1    8900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V_MAIN #PWR?
+U 1 1 5FB5B346
+P 9400 1000
+F 0 "#PWR?" H 9400 850 50  0001 C CNN
+F 1 "V_MAIN" H 9400 1173 50  0000 C CNN
+F 2 "" H 9400 1000 50  0001 C CNN
+F 3 "" H 9400 1000 50  0001 C CNN
+	1    9400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V_MAIN #PWR?
+U 1 1 5FB5BD29
+P 8200 1000
+F 0 "#PWR?" H 8200 850 50  0001 C CNN
+F 1 "V_MAIN" H 8200 1173 50  0000 C CNN
+F 2 "" H 8200 1000 50  0001 C CNN
+F 3 "" H 8200 1000 50  0001 C CNN
+	1    8200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:VBATT #PWR?
+U 1 1 5FB5C60A
+P 9700 1000
+F 0 "#PWR?" H 9700 850 50  0001 C CNN
+F 1 "VBATT" H 9700 1173 50  0000 C CNN
+F 2 "" H 9700 1000 50  0001 C CNN
+F 3 "" H 9700 1000 50  0001 C CNN
+	1    9700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB5D17A
+P 8400 1000
+F 0 "#PWR?" H 8400 750 50  0001 C CNN
+F 1 "GND" H 8400 850 50  0001 C CNN
+F 2 "" H 8400 1000 50  0001 C CNN
+F 3 "" H 8400 1000 50  0001 C CNN
+	1    8400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB5D998
+P 9300 2050
+F 0 "#PWR?" H 9300 1800 50  0001 C CNN
+F 1 "GND" H 9300 1900 50  0001 C CNN
+F 2 "" H 9300 2050 50  0001 C CNN
+F 3 "" H 9300 2050 50  0001 C CNN
+	1    9300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FB5DC5D
+P 10550 1450
+F 0 "#PWR?" H 10550 1200 50  0001 C CNN
+F 1 "GND" H 10550 1300 50  0001 C CNN
+F 2 "" H 10550 1450 50  0001 C CNN
+F 3 "" H 10550 1450 50  0001 C CNN
+	1    10550 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 1300 2    50   Output ~ 0
+nMOTOR-FAULT-B
+Text GLabel 9750 1400 2    50   Input ~ 0
+MOTOR-IN-B
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 5FB64B79
+P 10550 2000
+F 0 "#PWR?" H 10550 1850 50  0001 C CNN
+F 1 "V7.5V" H 10550 2173 50  0000 C CNN
+F 2 "" H 10550 2000 50  0001 C CNN
+F 3 "" H 10550 2000 50  0001 C CNN
+	1    10550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 5FB70C91
+P 8450 2200
+F 0 "#PWR?" H 8450 2050 50  0001 C CNN
+F 1 "V7.5V" H 8450 2373 50  0000 C CNN
+F 2 "" H 8450 2200 50  0001 C CNN
+F 3 "" H 8450 2200 50  0001 C CNN
+	1    8450 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 1800 2    50   Input ~ 0
+V7.5V_EN
+Wire Wire Line
+	9200 2000 9300 2000
+Wire Wire Line
+	9300 2000 9300 2050
+Wire Wire Line
+	9200 1900 10300 1900
+Wire Wire Line
+	10300 1900 10300 2000
+Wire Wire Line
+	10300 2000 10550 2000
+Wire Wire Line
+	9750 1800 9200 1800
+Wire Wire Line
+	9750 1400 9200 1400
+Wire Wire Line
+	9200 1300 9750 1300
+Wire Wire Line
+	9200 1100 9400 1100
+Wire Wire Line
+	9400 1100 9400 1000
+Wire Wire Line
+	9200 1200 9700 1200
+Wire Wire Line
+	9700 1200 9700 1000
+Wire Wire Line
+	8700 1100 8500 1100
+Wire Wire Line
+	8500 1100 8500 1000
+Wire Wire Line
+	8500 1000 8400 1000
+Wire Wire Line
+	8700 1200 8200 1200
+Wire Wire Line
+	8200 1200 8200 1000
+Wire Wire Line
+	9200 1500 10400 1500
+Wire Wire Line
+	10400 1500 10400 1450
+Wire Wire Line
+	10400 1450 10550 1450
+Text GLabel 9750 1600 2    50   Output ~ 0
+nLINE_PWR_FAULT
+Wire Wire Line
+	9750 1600 9200 1600
+Text GLabel 8050 1300 0    50   Output ~ 0
+nMOTOR-FAULT-A
+Text GLabel 8050 1400 0    50   Input ~ 0
+MOTOR-IN-A
+Text GLabel 8050 1500 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	8050 1300 8700 1300
+Wire Wire Line
+	8700 1400 8050 1400
+Wire Wire Line
+	8050 1500 8700 1500
+Text GLabel 8000 1900 0    50   Output ~ 0
+CHG_CURRENT
+Wire Wire Line
+	8700 2000 8650 2000
+Wire Wire Line
+	8650 2000 8650 2200
+Wire Wire Line
+	8650 2200 8450 2200
+Wire Wire Line
+	8700 1900 8000 1900
+$Comp
+L OpenVent:VIN_12V #PWR?
+U 1 1 5FBBD324
+P 7100 1500
+F 0 "#PWR?" H 7100 1350 50  0001 C CNN
+F 1 "VIN_12V" H 7100 1673 50  0000 C CNN
+F 2 "" H 7100 1500 60  0001 C CNN
+F 3 "" H 7100 1500 60  0001 C CNN
+	1    7100 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1600 7100 1600
+Wire Wire Line
+	7100 1600 7100 1500
+Text GLabel 10250 3550 2    60   Output ~ 0
+nVDC-ALERT
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FBE0892
+P 7700 4450
+AR Path="/5F8F649B/5FBE0892" Ref="#GND_?"  Part="1" 
+AR Path="/5F99D63D/5FBE0892" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7700 4450 20  0001 C CNN
+F 1 "GND" H 7700 4380 30  0001 C CNN
+F 2 "" H 7700 4450 70  0000 C CNN
+F 3 "" H 7700 4450 70  0000 C CNN
+	1    7700 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 4700 0    60   ~ 0
+DC Power Indicator
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FBE0899
+P 9350 3950
+AR Path="/5F8F649B/5FBE0899" Ref="#GND_?"  Part="1" 
+AR Path="/5F99D63D/5FBE0899" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 9350 3950 20  0001 C CNN
+F 1 "GND" H 9350 3880 30  0001 C CNN
+F 2 "" H 9350 3950 70  0000 C CNN
+F 3 "" H 9350 3950 70  0000 C CNN
+	1    9350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FBE089F
+P 8350 4450
+AR Path="/5F8F649B/5FBE089F" Ref="#GND_?"  Part="1" 
+AR Path="/5F99D63D/5FBE089F" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 8350 4450 20  0001 C CNN
+F 1 "GND" H 8350 4380 30  0001 C CNN
+F 2 "" H 8350 4450 70  0000 C CNN
+F 3 "" H 8350 4450 70  0000 C CNN
+	1    8350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FBE08A5
+P 10100 2950
+AR Path="/5F8F649B/5FBE08A5" Ref="#3V3_?"  Part="1" 
+AR Path="/5F99D63D/5FBE08A5" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 10100 2950 20  0001 C CNN
+F 1 "3V3" H 10100 3100 50  0000 C CNN
+F 2 "" H 10100 2950 70  0000 C CNN
+F 3 "" H 10100 2950 70  0000 C CNN
+	1    10100 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 2650 0    60   ~ 0
+VDC Alert set to 10V
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FBE08AC
+P 9350 2950
+AR Path="/5F8F649B/5FBE08AC" Ref="#3V3_?"  Part="1" 
+AR Path="/5F99D63D/5FBE08AC" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 9350 2950 20  0001 C CNN
+F 1 "3V3" H 9350 3100 50  0000 C CNN
+F 2 "" H 9350 2950 70  0000 C CNN
+F 3 "" H 9350 2950 70  0000 C CNN
+	1    9350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FBE08B2
+P 8650 2950
+AR Path="/5F8F649B/5FBE08B2" Ref="#3V3_?"  Part="1" 
+AR Path="/5F99D63D/5FBE08B2" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 8650 2950 20  0001 C CNN
+F 1 "3V3" H 8650 3100 50  0000 C CNN
+F 2 "" H 8650 2950 70  0000 C CNN
+F 3 "" H 8650 2950 70  0000 C CNN
+	1    8650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4450 8650 4300
+Wire Wire Line
+	8350 4450 8650 4450
+Wire Wire Line
+	8350 4350 8350 4450
+Wire Wire Line
+	8350 3450 8350 3350
+Wire Wire Line
+	8350 3950 8350 3450
+Wire Wire Line
+	7700 3800 7700 3850
+Wire Wire Line
+	10100 3050 10100 2950
+Wire Wire Line
+	8650 3650 8650 3350
+Wire Wire Line
+	8650 4000 8650 3650
+Wire Wire Line
+	8950 3450 8350 3450
+Wire Wire Line
+	8950 3650 8650 3650
+Wire Wire Line
+	10100 3550 10100 3450
+Wire Wire Line
+	9750 3550 10100 3550
+Wire Wire Line
+	10100 3550 10250 3550
+Wire Wire Line
+	9350 3150 9350 2950
+Connection ~ 8350 4450
+Connection ~ 8350 3450
+Connection ~ 8650 3650
+Connection ~ 10100 3550
+$Comp
+L OpenVent:634R_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE08CE
+P 7800 3500
+AR Path="/5F8F649B/5FBE08CE" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE08CE" Ref="R?"  Part="1" 
+F 0 "R?" V 7854 3470 50  0000 L CNN
+F 1 "634R_0603_Chip_Resistor,_1%,_0.1W" H 7800 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3500 50  0001 C CNN
+F 3 "" H 7800 3500 50  0001 C CNN
+F 4 "634R" V 7945 3470 50  0000 L CNN "Val"
+F 5 "1%" H 7800 3500 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7800 3500 50  0001 C CNN "Watt"
+	1    7800 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:20k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE08D7
+P 8450 3050
+AR Path="/5F8F649B/5FBE08D7" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE08D7" Ref="R?"  Part="1" 
+F 0 "R?" V 8504 3020 50  0000 L CNN
+F 1 "20k_0603_Chip_Resistor,_1%,_0.1W" H 8450 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8450 3050 50  0001 C CNN
+F 3 "" H 8450 3050 50  0001 C CNN
+F 4 "20k" V 8595 3020 50  0000 L CNN "Val"
+F 5 "1%" H 8450 3050 50  0001 C CNN "Tolerance"
+F 6 "1W" H 8450 3050 50  0001 C CNN "Watt"
+	1    8450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE08E0
+P 8450 4050
+AR Path="/5F8F649B/5FBE08E0" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE08E0" Ref="R?"  Part="1" 
+F 0 "R?" V 8504 4020 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 8450 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8450 4050 50  0001 C CNN
+F 3 "" H 8450 4050 50  0001 C CNN
+F 4 "10k" V 8595 4020 50  0000 L CNN "Val"
+F 5 "1%" H 8450 4050 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 8450 4050 50  0001 C CNN "Watt"
+	1    8450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE08E9
+P 8750 3050
+AR Path="/5F8F649B/5FBE08E9" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE08E9" Ref="R?"  Part="1" 
+F 0 "R?" V 8804 3020 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 8750 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 3050 50  0001 C CNN
+F 3 "" H 8750 3050 50  0001 C CNN
+F 4 "10k" V 8895 3020 50  0000 L CNN "Val"
+F 5 "1%" H 8750 3050 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 8750 3050 50  0001 C CNN "Watt"
+	1    8750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 5FBE08F2
+P 8750 4100
+AR Path="/5F8F649B/5FBE08F2" Ref="C?"  Part="1" 
+AR Path="/5F99D63D/5FBE08F2" Ref="C?"  Part="1" 
+F 0 "C?" V 8754 4110 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8750 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 4100 50  0001 C CNN
+F 3 "" H 8750 4100 50  0001 C CNN
+F 4 "100nF" V 8845 4110 50  0000 L CNN "Val"
+F 5 "25V" H 8750 4100 50  0001 C CNN "Voltage"
+F 6 "10%" H 8750 4100 50  0001 C CNN "Tolerance"
+	1    8750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:TLV7042DGKR U?
+U 1 1 5FBE08FE
+P 8950 3650
+AR Path="/5F8F649B/5FBE08FE" Ref="U?"  Part="1" 
+AR Path="/5F99D63D/5FBE08FE" Ref="U?"  Part="1" 
+F 0 "U?" H 9450 3950 50  0000 L CNN
+F 1 "TLV7042DGKR" H 9500 3550 50  0000 L CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 8950 3650 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv7042" H 8950 3650 50  0001 C CNN
+F 4 "IC POWER MANAGEMENT SUPERVISORY" H 8950 3650 50  0001 C CNN "Desc"
+F 5 "Comparator General Purpose Open-Drain, Rail-to-Rail 8-VSSOP" H 8950 3650 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 8950 3650 50  0001 C CNN "DistName"
+F 7 "296-TLV7042DGKRTR-ND" H 8950 3650 50  0001 C CNN "Dist_PN"
+F 8 "Texas Instruments" H 8950 3650 50  0001 C CNN "Mfr"
+F 9 "TLV7042DGKR" H 8950 3650 50  0001 C CNN "Mfr_PN"
+	1    8950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE0907
+P 10200 3150
+AR Path="/5F8F649B/5FBE0907" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE0907" Ref="R?"  Part="1" 
+F 0 "R?" V 10254 3120 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 10200 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10200 3150 50  0001 C CNN
+F 3 "" H 10200 3150 50  0001 C CNN
+F 4 "100k" V 10345 3120 50  0000 L CNN "Val"
+F 5 "1%" H 10200 3150 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 10200 3150 50  0001 C CNN "Watt"
+	1    10200 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:LED_GREEN_0603_SMD D?
+U 1 1 5FBE0915
+P 7700 3850
+AR Path="/5F8F649B/5FBE0915" Ref="D?"  Part="1" 
+AR Path="/5F99D63D/5FBE0915" Ref="D?"  Part="1" 
+F 0 "D?" V 7954 3980 50  0000 L CNN
+F 1 "LED_GREEN_0603_SMD" H 7700 3850 60  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7700 3850 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/SML-D12M8W(C)/sml-d12x8(c)-e" H 7700 3850 50  0001 C CNN
+F 4 "SML-D12M8WT86C" V 7700 3850 50  0001 C CNN "Mfr_PN"
+F 5 "" V 8045 3980 50  0000 L CNN "Val"
+F 6 "GREEN" H 7700 3850 50  0001 C CNN "Colour"
+F 7 "LED YELLOW/GREEN 1608 SMD" H 7700 3850 50  0001 C CNN "Desc"
+F 8 "Yellow-Green 572nm LED Indication - Discrete 2.2V 0603 (1608 Metric)" H 7700 3850 50  0001 C CNN "Detailed"
+F 9 "DigiKey" H 7700 3850 50  0001 C CNN "DistName"
+F 10 "SML-D12M8WT86CTR-ND" H 7700 3850 50  0001 C CNN "Dist_PN"
+F 11 "Rohm Semiconductor" H 7700 3850 50  0001 C CNN "Mfr"
+	1    7700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:VIN_12V #PWR?
+U 1 1 5FBE091B
+P 8350 2850
+AR Path="/5F8F649B/5FBE091B" Ref="#PWR?"  Part="1" 
+AR Path="/5F99D63D/5FBE091B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 2700 50  0001 C CNN
+F 1 "VIN_12V" H 8350 3023 50  0000 C CNN
+F 2 "" H 8350 2850 60  0001 C CNN
+F 3 "" H 8350 2850 60  0001 C CNN
+	1    8350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2850 8350 2900
+Wire Wire Line
+	8350 2900 7700 2900
+Wire Wire Line
+	7700 2900 7700 3400
+Connection ~ 8350 2900
+Wire Wire Line
+	8350 2900 8350 2950
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FBE6FB7
+P 9300 5250
+AR Path="/5F8F649B/5FBE6FB7" Ref="#GND_?"  Part="1" 
+AR Path="/5F99D63D/5FBE6FB7" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 9300 5250 20  0001 C CNN
+F 1 "GND" H 9300 5180 30  0001 C CNN
+F 2 "" H 9300 5250 70  0000 C CNN
+F 3 "" H 9300 5250 70  0000 C CNN
+	1    9300 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10700 5100
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FBE6FBE
+P 9300 4900
+AR Path="/5F8F649B/5FBE6FBE" Ref="#3V3_?"  Part="1" 
+AR Path="/5F99D63D/5FBE6FBE" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 9300 4900 20  0001 C CNN
+F 1 "3V3" H 9300 5050 50  0000 C CNN
+F 2 "" H 9300 4900 70  0000 C CNN
+F 3 "" H 9300 4900 70  0000 C CNN
+	1    9300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:TLV7042DGKR U?
+U 2 1 5FBE6FCA
+P 9900 5200
+AR Path="/5F8F649B/5FBE6FCA" Ref="U?"  Part="2" 
+AR Path="/5F99D63D/5FBE6FCA" Ref="U?"  Part="2" 
+F 0 "U?" H 10300 5667 50  0000 C CNN
+F 1 "TLV7042DGKR" H 10300 5576 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 9900 5200 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv7042" H 9900 5200 50  0001 C CNN
+F 4 "IC POWER MANAGEMENT SUPERVISORY" H 9900 5200 50  0001 C CNN "Desc"
+F 5 "Comparator General Purpose Open-Drain, Rail-to-Rail 8-VSSOP" H 9900 5200 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 9900 5200 50  0001 C CNN "DistName"
+F 7 "296-TLV7042DGKRTR-ND" H 9900 5200 50  0001 C CNN "Dist_PN"
+F 8 "Texas Instruments" H 9900 5200 50  0001 C CNN "Mfr"
+F 9 "TLV7042DGKR" H 9900 5200 50  0001 C CNN "Mfr_PN"
+	2    9900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE6FD2
+P 9500 4900
+AR Path="/5F8F649B/5FBE6FD2" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE6FD2" Ref="R?"  Part="1" 
+F 0 "R?" H 9500 4900 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9500 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9500 4900 60  0001 C CNN
+F 3 "" H 9500 4900 60  0001 C CNN
+F 4 "1K" H 9700 4900 50  0000 C CNN "Val"
+F 5 "1%" H 9600 4915 50  0001 C CNN "Tolerance"
+	1    9500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FBE6FDA
+P 9500 5100
+AR Path="/5F8F649B/5FBE6FDA" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FBE6FDA" Ref="R?"  Part="1" 
+F 0 "R?" H 9500 5100 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9500 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9500 5100 60  0001 C CNN
+F 3 "" H 9500 5100 60  0001 C CNN
+F 4 "1K" H 9750 5100 50  0000 C CNN "Val"
+F 5 "1%" H 9600 5115 50  0001 C CNN "Tolerance"
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5000 9800 5000
+Wire Wire Line
+	9400 5000 9300 5000
+Wire Wire Line
+	9300 5000 9300 4900
+Wire Wire Line
+	9900 5200 9800 5200
+Wire Wire Line
+	9400 5200 9300 5200
+Wire Wire Line
+	9300 5200 9300 5250
 $EndSCHEMATC

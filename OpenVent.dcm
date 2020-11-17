@@ -53,6 +53,12 @@ K capacitor
 F http://www.samsungsem.com/kr/support/product-search/mlcc/CL32A106KAULNNE.jsp
 $ENDCMP
 #
+$CMP Conn_HDR_2x10_latching
+D Connector Header Through Hole 20 position 0.100" (2.54mm) with latches
+K connector
+F https://multimedia.3m.com/mws/media/485761O/3mtm-four-wall-header-ts2245.pdf
+$ENDCMP
+#
 $CMP LMC6772AIMX
 D IC COMPAR DUAL MICPWR CMOS 8SOIC
 K Comparator SOIC dual
