@@ -47,6 +47,12 @@ D Mosfet Array 2 N-Channel (Dual) 60V 15A 2.1W Surface Mount 8-SOIC
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd88537nd
 $ENDCMP
 #
+$CMP C_0603_0.22uf_25V_10%
+D 0.22µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)
+K cap capacitor
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71E224KA55-01.pdf
+$ENDCMP
+#
 $CMP C_1210_10uF_25V_10%_X7R
 D 10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)
 K capacitor
@@ -80,6 +86,12 @@ D OR Controller Source Selector Switch P-Channel 2:2 10-MSOP
 F http://www.linear.com/docs/17899
 $ENDCMP
 #
+$CMP L_22uH_2.6A_42mOhm_SMT
+D 22µH Shielded Wirewound Inductor 2.6A 42mOhm Nonstandard with Ferrite core
+K inductor choke coil reactor magnetic
+F https://www.bourns.com/docs/Product-Datasheets/SRU1048.pdf
+$ENDCMP
+#
 $CMP MBR340
 D 40V 3A Schottky Barrier Rectifier Diode, DO-201AD
 K diode Schottky
@@ -90,6 +102,12 @@ $CMP MBRS260T3G
 D Diode Schottky 60V 2A Surface Mount SMB
 K diode Schottky
 F https://www.onsemi.com/pub/Collateral/MBRS260T3-D.PDF
+$ENDCMP
+#
+$CMP MMBD914
+D Diode Standard 100V 200mA Surface Mount SOT-23
+K diode
+F https://www.vishay.com/docs/85734/mmbd914.pdf
 $ENDCMP
 #
 $CMP OpenVent_Barrel_Connector
@@ -113,6 +131,12 @@ $CMP R_0603_015m_cursense
 D 15 mOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Current Sense Metal Element
 K r resistor
 F https://www.ohmite.com/assets/docs/res_lvt.pdf?r=false
+$ENDCMP
+#
+$CMP R_0603_53K_0.1W_1%
+D 53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
+K R res resistor
+F https://www.digikey.com/en/products/result?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIA7AAwCsAHAGwgC6hADgC5QggC%2B-QA
 $ENDCMP
 #
 $CMP R_0805_050m_cursense

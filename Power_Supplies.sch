@@ -541,17 +541,6 @@ F 3 "" H 9400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:V_MAIN #PWR?
-U 1 1 5FB5BD29
-P 8200 1000
-F 0 "#PWR?" H 8200 850 50  0001 C CNN
-F 1 "V_MAIN" H 8200 1173 50  0000 C CNN
-F 2 "" H 8200 1000 50  0001 C CNN
-F 3 "" H 8200 1000 50  0001 C CNN
-	1    8200 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:VBATT #PWR?
 U 1 1 5FB5C60A
 P 9700 1000
@@ -653,10 +642,6 @@ Wire Wire Line
 	8500 1100 8500 1000
 Wire Wire Line
 	8500 1000 8400 1000
-Wire Wire Line
-	8700 1200 8200 1200
-Wire Wire Line
-	8200 1200 8200 1000
 Wire Wire Line
 	9200 1500 10400 1500
 Wire Wire Line
@@ -1068,4 +1053,8 @@ Wire Wire Line
 	9400 5200 9300 5200
 Wire Wire Line
 	9300 5200 9300 5250
+Text GLabel 8050 1700 0    50   Output ~ 0
+MOTOR-CURRENT
+Wire Wire Line
+	8700 1700 8050 1700
 $EndSCHEMATC

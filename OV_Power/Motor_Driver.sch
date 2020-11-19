@@ -32,34 +32,12 @@ F 3 "" H 10150 1400 70  0000 C CNN
 $EndComp
 Text Notes 8950 2600 0    60   ~ 0
 Mates with Molex cable assembly 151370201
-$Comp
-L OpenVent:3V3 #PWR017
-U 1 1 5F8DD12B
-P 3250 650
-F 0 "#PWR017" H 3250 650 50  0001 C CNN
-F 1 "3V3" H 3150 750 50  0000 C CNN
-F 2 "" H 3250 650 50  0001 C CNN
-F 3 "" H 3250 650 50  0001 C CNN
-	1    3250 650 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4750 1850
 NoConn ~ 4750 2150
 Text GLabel 2250 1150 0    60   Output ~ 0
 nMOTOR-FAULT-A
 Text GLabel 2250 1250 0    60   Output ~ 0
 nMOTOR-FAULT-B
-$Comp
-L OpenVent:3V3 #PWR018
-U 1 1 5F8DD12A
-P 3700 650
-F 0 "#PWR018" H 3700 650 50  0001 C CNN
-F 1 "3V3" H 3600 750 50  0000 C CNN
-F 2 "" H 3700 650 50  0001 C CNN
-F 3 "" H 3700 650 50  0001 C CNN
-	1    3700 650 
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4750 2250
 $Comp
 L OpenVent:GND #GND_014
@@ -81,10 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 1450 2250 1450
 Wire Wire Line
-	2250 1250 3250 1250
-Wire Wire Line
-	2250 1150 3700 1150
-Wire Wire Line
 	3100 2050 4750 2050
 Wire Wire Line
 	3250 1550 4750 1550
@@ -94,14 +68,6 @@ Wire Wire Line
 	3100 1750 3250 1750
 Wire Wire Line
 	3100 1450 4750 1450
-Wire Wire Line
-	3250 1250 4750 1250
-Wire Wire Line
-	3250 1050 3250 1250
-Wire Wire Line
-	3700 1150 4750 1150
-Wire Wire Line
-	3700 1050 3700 1150
 Wire Wire Line
 	4350 2950 4750 2950
 Wire Wire Line
@@ -185,8 +151,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1200 10150 1350
 Connection ~ 2450 2050
-Connection ~ 3250 1250
-Connection ~ 3700 1150
 Connection ~ 4350 3750
 Connection ~ 4350 3150
 Connection ~ 4350 2950
@@ -226,26 +190,12 @@ U 1 1 5F8DD118
 P 8700 1950
 F 0 "CN1" H 8900 1750 50  0000 L BNN
 F 1 "CONN_HEADER_R_A_2POS_2.5MM" H 8700 1950 50  0001 C CNN
-F 2 "" H 8700 1950 50  0001 C CNN
-F 3 "" H 8700 1950 50  0001 C CNN
+F 2 "OpenVent:53426-0210" H 8700 1950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/534260210_sd.pdf" H 8700 1950 50  0001 C CNN
 F 4 "Molex" H 8700 1950 50  0001 C CNN "Mfr"
-F 5 "0534260210" H 8700 1950 50  0001 C CNN "Mfr_PN"
+F 5 "0534260210" H 9000 2250 50  0000 C CNN "Mfr_PN"
 	1    8700 1950
 	1    0    0    1   
-$EndComp
-$Comp
-L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R28
-U 1 1 5F8DD117
-P 3350 950
-F 0 "R28" V 3150 1150 50  0000 L TNN
-F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" V 3250 1150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 1010 50  0001 C CNN
-F 3 "" H 3450 1010 60  0001 C CNN
-F 4 "1%" V 1150 -1350 50  0001 C CNN "Tolerance"
-F 5 "4k7" V 3300 1250 50  0000 C CNN "Val"
-F 6 "0.1W" H 3350 950 50  0001 C CNN "Watt"
-	1    3350 950 
-	0    -1   1    0   
 $EndComp
 $Comp
 L OpenVent:VNH5019ATR-E U4
@@ -263,20 +213,6 @@ F 8 "DigiKey" H 4750 2950 50  0001 C CNN "DistName"
 F 9 "497-13073-2-ND" H 4750 2950 50  0001 C CNN "Dist_PN"
 	1    4750 2950
 	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R29
-U 1 1 5F8DD115
-P 3800 950
-F 0 "R29" V 3650 850 50  0000 L BNN
-F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" V 3750 900 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 1010 50  0001 C CNN
-F 3 "" H 3900 1010 60  0001 C CNN
-F 4 "1%" V 1150 -1350 50  0001 C CNN "Tolerance"
-F 5 "4k7" V 3750 900 50  0000 C CNN "Val"
-F 6 "0.1W" H 3800 950 50  0001 C CNN "Watt"
-	1    3800 950 
-	0    -1   1    0   
 $EndComp
 $Comp
 L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R25
@@ -758,4 +694,8 @@ F 3 "" H 4400 800 50  0001 C CNN
 	1    4400 800 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2250 1250 4750 1250
+Wire Wire Line
+	2250 1150 4750 1150
 $EndSCHEMATC
