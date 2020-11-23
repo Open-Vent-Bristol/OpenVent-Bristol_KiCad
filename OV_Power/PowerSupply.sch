@@ -226,51 +226,26 @@ Connection ~ 4550 1700
 $Comp
 L OpenVent:GND #GND_?
 U 1 1 5FBB7C1D
-P 1400 2200
+P 1050 2050
 AR Path="/5FBB7C1D" Ref="#GND_?"  Part="1" 
 AR Path="/5FAE643E/5FBB7C1D" Ref="#GND_017"  Part="1" 
-F 0 "#GND_017" H 1400 2200 20  0001 C CNN
-F 1 "GND" H 1400 2130 30  0001 C CNN
-F 2 "" H 1400 2200 70  0001 C CNN
-F 3 "" H 1400 2200 70  0001 C CNN
-	1    1400 2200
+F 0 "#GND_017" H 1050 2050 20  0001 C CNN
+F 1 "GND" H 1050 1980 30  0001 C CNN
+F 2 "" H 1050 2050 70  0001 C CNN
+F 3 "" H 1050 2050 70  0001 C CNN
+	1    1050 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 1900 1150 1900
-$Comp
-L OpenVent:OpenVent_Barrel_Connector J?
-U 1 1 5FBB7C29
-P 1050 1900
-AR Path="/5FBB7C29" Ref="J?"  Part="1" 
-AR Path="/5FAE643E/5FBB7C29" Ref="J1"  Part="1" 
-F 0 "J1" H 957 2325 50  0000 C CNN
-F 1 "OpenVent_Barrel_Connector" H 740 1770 50  0001 L BNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1050 1900 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf" H 1050 1900 50  0001 C CNN
-F 4 "PJ-102AH" H 957 2234 50  0000 C CNN "Mfr_PN"
-F 5 "CUI Devices" H 1050 1900 50  0001 C CNN "Mfr"
-F 6 "DigiKey" H 1050 1900 50  0001 C CNN "DistName"
-F 7 "CP-102AH-ND" H 1050 1900 50  0001 C CNN "Dist_PN"
-F 8 "Power Barrel Connector Jack 2.00mm ID (0.079\"), 5.50mm OD (0.217\") Through Hole, Right Angle" H 1050 1900 50  0001 C CNN "Detailed"
-	1    1050 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1900 1400 2200
-Wire Wire Line
-	1150 1700 2550 1700
-Connection ~ 2550 1700
-Text Notes 1200 1250 0    50   ~ 0
+Text Notes 1050 950  0    50   ~ 0
 LTC4365 provides reverse polarity protection\nUndervoltage lockout: 8V\nOvervoltage lockout: 18V
 Wire Notes Line
-	1150 950  3000 950 
+	1000 650  2850 650 
 Wire Notes Line
-	3000 950  3000 1300
+	2850 650  2850 1000
 Wire Notes Line
-	3000 1300 1150 1300
+	2850 1000 1000 1000
 Wire Notes Line
-	1150 1300 1150 950 
+	1000 1000 1000 650 
 $Comp
 L OpenVent:LTC4416 U7
 U 1 1 5FBBF8B5
@@ -619,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3700 6750 3650
 Connection ~ 7150 3400
-Text Notes 700  2750 0    50   ~ 0
+Text Notes 600  2650 0    50   ~ 0
 INPUT SHOULD BE FUSED.\nA FERRITE MIGHT BE REQUIRED\nFOR EMI SUPPRESSION.\nA TVS SHOULD ALSO BE\nADDED FOR ESD PROTECTION.
 $Comp
 L OpenVent:Conn_HDR_2x10_latching J2
@@ -776,4 +751,48 @@ Text GLabel 1800 5200 0    50   Input ~ 0
 MOTOR-CURRENT
 Wire Wire Line
 	2300 5200 1800 5200
+$Comp
+L OpenVent:Kycon_kpjx-4s J1
+U 1 1 5FBCEB95
+P 1050 1700
+F 0 "J1" H 1050 2067 50  0000 C CNN
+F 1 "Kycon_kpjx-4s" H 1050 1976 50  0000 C CNN
+F 2 "OpenVent:Kycon_KPJX-4S" H 1050 1700 50  0001 C CNN
+F 3 "http://www.kycon.com/Pub_Eng_Draw/KPJX-4S.pdf" H 1050 1700 50  0001 C CNN
+F 4 "Kycon, Inc." H 1050 1700 50  0001 C CNN "Mfr"
+F 5 "KPJX-4S" H 1050 1700 50  0001 C CNN "Mfr_PN"
+F 6 "4 (Power) Position Circular Connector Jack, Female Sockets Solder" H 1050 1700 50  0001 C CNN "Detailed"
+F 7 "CONN JACK FMALE 4POS TIN SOLDER" H 1050 1700 50  0001 C CNN "Desc"
+	1    1050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1700 1500 1700
+Connection ~ 2550 1700
+Wire Wire Line
+	750  1600 650  1600
+Wire Wire Line
+	650  1600 650  1250
+Wire Wire Line
+	650  1250 1500 1250
+Wire Wire Line
+	1500 1250 1500 1700
+Connection ~ 1500 1700
+Wire Wire Line
+	1500 1700 1350 1700
+Wire Wire Line
+	1350 1600 1400 1600
+Wire Wire Line
+	1400 1600 1400 2000
+Wire Wire Line
+	1400 2000 1050 2000
+Wire Wire Line
+	700  2000 700  1700
+Wire Wire Line
+	700  1700 750  1700
+Wire Wire Line
+	1050 2000 1050 2050
+Connection ~ 1050 2000
+Wire Wire Line
+	1050 2000 700  2000
 $EndSCHEMATC
