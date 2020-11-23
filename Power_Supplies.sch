@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 8
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -928,6 +928,7 @@ U 1 1 5FBE0915
 P 7700 3850
 AR Path="/5F8F649B/5FBE0915" Ref="D?"  Part="1" 
 AR Path="/5F99D63D/5FBE0915" Ref="D?"  Part="1" 
+AR Path="/5FBE0915" Ref="D?"  Part="1" 
 F 0 "D?" V 7954 3980 50  0000 L CNN
 F 1 "LED_GREEN_0603_SMD" H 7700 3850 60  0001 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7700 3850 50  0001 C CNN
