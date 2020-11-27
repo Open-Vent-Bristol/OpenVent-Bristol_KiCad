@@ -330,23 +330,23 @@ $EndComp
 $Comp
 L OpenVent:3V3 #3V3_01
 U 1 1 5F8DD123
-P 5150 6850
-F 0 "#3V3_01" H 5150 6850 20  0001 C CNN
-F 1 "3V3" H 5150 7000 50  0000 C CNN
-F 2 "" H 5150 6850 70  0000 C CNN
-F 3 "" H 5150 6850 70  0000 C CNN
-	1    5150 6850
+P 5100 6450
+F 0 "#3V3_01" H 5100 6450 20  0001 C CNN
+F 1 "3V3" H 5100 6600 50  0000 C CNN
+F 2 "" H 5100 6450 70  0000 C CNN
+F 3 "" H 5100 6450 70  0000 C CNN
+	1    5100 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:GND #GND_015
 U 1 1 5F8DD122
-P 5150 7200
-F 0 "#GND_015" H 5150 7200 20  0001 C CNN
-F 1 "GND" H 5150 7050 50  0001 C CNN
-F 2 "" H 5150 7200 70  0000 C CNN
-F 3 "" H 5150 7200 70  0000 C CNN
-	1    5150 7200
+P 5100 7650
+F 0 "#GND_015" H 5100 7650 20  0001 C CNN
+F 1 "GND" H 5100 7500 50  0001 C CNN
+F 2 "" H 5100 7650 70  0000 C CNN
+F 3 "" H 5100 7650 70  0000 C CNN
+	1    5100 7650
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6050 7050
@@ -509,14 +509,6 @@ F 3 "" H 2850 5500 50  0001 C CNN
 	1    2850 5500
 	1    0    0    -1  
 $EndComp
-Text Notes 600  6900 0    60   ~ 0
-Bias Voltage Circuit still needs to be defined
-Text Label 1050 6750 0    60   ~ 0
-BIAS
-Wire Wire Line
-	1350 6750 1350 6550
-Wire Wire Line
-	1050 6750 1350 6750
 Wire Wire Line
 	1350 6050 2450 6050
 Wire Wire Line
@@ -534,14 +526,11 @@ Wire Wire Line
 Wire Wire Line
 	1350 6050 1350 4350
 Wire Wire Line
-	1350 6150 1350 6050
-Wire Wire Line
 	2850 6350 2850 6400
 Wire Wire Line
 	2850 5550 2850 5500
 Wire Wire Line
 	3850 5850 3850 5950
-Connection ~ 1350 6050
 Connection ~ 3650 5950
 Connection ~ 3850 5950
 $Comp
@@ -555,28 +544,6 @@ F 3 "" H 3850 5850 50  0001 C CNN
 	1    3850 5850
 	0    1    1    0   
 $EndComp
-$Comp
-L OpenVent:215k_0603_Chip_Resistor,_1%,_0.1W R21
-U 1 1 5F8DD0F5
-P 1450 6250
-F 0 "R21" V 1550 6200 50  0000 L BNN
-F 1 "215k_0603_Chip_Resistor,_1%,_0.1W" V 1650 6200 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1750 6190 60  0001 C CNN
-F 3 "" H 1750 6190 60  0001 C CNN
-F 4 "1%" V 1150 -1650 50  0001 C CNN "Tolerance"
-F 5 "215k" V 1650 6300 50  0000 C CNN "Val"
-F 6 "0.1W" H 1450 6250 50  0001 C CNN "Watt"
-	1    1450 6250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 6950 5150 6950
-Wire Wire Line
-	5150 6950 5150 6850
-Wire Wire Line
-	5250 7150 5150 7150
-Wire Wire Line
-	5150 7150 5150 7200
 Wire Wire Line
 	6600 1500 8700 1500
 $Comp
@@ -700,4 +667,44 @@ Wire Wire Line
 	2250 1250 4750 1250
 Wire Wire Line
 	2250 1150 4750 1150
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R21
+U 1 1 5FCA17C3
+P 5000 6800
+F 0 "R21" V 5100 6600 50  0000 R TNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" V 5000 6650 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 6660 60  0001 C CNN
+F 3 "" H 4900 6660 60  0001 C CNN
+F 4 "1%" V 4900 1200 50  0001 C CNN "Tolerance"
+F 5 "10k" V 5050 6550 50  0000 C CNN "Val"
+F 6 "0.1W" H 5000 6800 50  0001 C CNN "Watt"
+	1    5000 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R28
+U 1 1 5FCA572A
+P 5000 7500
+F 0 "R28" V 5100 7300 50  0000 R TNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" V 5000 7350 60  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 7360 60  0001 C CNN
+F 3 "" H 4900 7360 60  0001 C CNN
+F 4 "1%" V 4900 1900 50  0001 C CNN "Tolerance"
+F 5 "10k" V 5050 7250 50  0000 C CNN "Val"
+F 6 "0.1W" H 5000 7500 50  0001 C CNN "Watt"
+	1    5000 7500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 6950 5100 6950
+Wire Wire Line
+	5100 6950 5100 6900
+Wire Wire Line
+	5100 6450 5100 6500
+Wire Wire Line
+	5250 7150 5100 7150
+Wire Wire Line
+	5100 7150 5100 7200
+Wire Wire Line
+	5100 7600 5100 7650
 $EndSCHEMATC
