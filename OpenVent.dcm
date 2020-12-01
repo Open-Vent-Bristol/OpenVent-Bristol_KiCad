@@ -31,6 +31,12 @@ D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
 $ENDCMP
 #
+$CMP 532530670
+D Connector Header Through Hole 6 position 0.079" (2.00mm)
+K connector
+F https://www.molex.com/pdm_docs/sd/532530270_sd.pdf
+$ENDCMP
+#
 $CMP ABM3B-12.000MHZ
 D CRYSTAL 12.0000MHZ 10PF SMD
 K Crystal 12MHz
@@ -119,6 +125,18 @@ $ENDCMP
 $CMP OpenVent_Barrel_Connector
 D CONN PWR JACK 2X5.5MM SOLDER
 F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf
+$ENDCMP
+#
+$CMP Polyfuse_10A
+D Polymeric PTC Resettable Fuse 16V 10A Ih Through Hole Radial, Disc
+K resettable fuse PTC PPTC polyfuse polyswitch
+F https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_16r_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP Polyfuse_Small
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
+F ~
 $ENDCMP
 #
 $CMP Q_NMOS_GSD

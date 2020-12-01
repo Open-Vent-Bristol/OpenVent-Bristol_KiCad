@@ -716,23 +716,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 2600 4400 5100
 $Comp
-L OpenVent:GND #PWR033
-U 1 1 5FBAF99A
-P 4300 4950
-F 0 "#PWR033" H 4300 4700 50  0001 C CNN
-F 1 "GND" H 4300 4800 50  0001 C CNN
-F 2 "" H 4300 4950 50  0001 C CNN
-F 3 "" H 4300 4950 50  0001 C CNN
-	1    4300 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 5000 4150 5000
-Wire Wire Line
-	4150 5000 4150 4950
-Wire Wire Line
-	4150 4950 4300 4950
-$Comp
 L OpenVent:VIN_12V #PWR017
 U 1 1 5FBA1DE1
 P 700 5050
@@ -795,4 +778,66 @@ Wire Wire Line
 Connection ~ 1050 2000
 Wire Wire Line
 	1050 2000 700  2000
+$Comp
+L OpenVent:532530670 J3
+U 1 1 5FC7E477
+P 4200 6600
+F 0 "J3" H 4280 6592 50  0000 L CNN
+F 1 "532530670" H 4280 6501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Latch_53253-0670_1x06_P2.00mm_Vertical" H 4200 6600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532530270_sd.pdf" H 4200 6600 50  0001 C CNN
+F 4 "Molex" H 4200 6600 50  0001 C CNN "Mfr"
+F 5 "0532530670" H 4200 6600 50  0001 C CNN "Mfr_PN"
+F 6 "CONN HEADER VERT 6POS 2MM" H 4200 6600 50  0001 C CNN "Desc"
+F 7 "Connector Header Through Hole 6 position 0.079\" (2.00mm)" H 4200 6600 50  0001 C CNN "Detailed"
+	1    4200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR033
+U 1 1 5FC7F729
+P 3900 6950
+F 0 "#PWR033" H 3900 6700 50  0001 C CNN
+F 1 "GND" H 3900 6800 50  0001 C CNN
+F 2 "" H 3900 6950 50  0001 C CNN
+F 3 "" H 3900 6950 50  0001 C CNN
+	1    3900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6700 3900 6700
+Wire Wire Line
+	3900 6700 3900 6800
+Wire Wire Line
+	4000 6800 3900 6800
+Connection ~ 3900 6800
+Wire Wire Line
+	3900 6800 3900 6900
+Wire Wire Line
+	4000 6900 3900 6900
+Connection ~ 3900 6900
+Wire Wire Line
+	3900 6900 3900 6950
+Wire Wire Line
+	4000 6600 2150 6600
+Wire Wire Line
+	2150 6600 2150 5300
+Wire Wire Line
+	2150 5300 2300 5300
+Wire Wire Line
+	4000 6500 3750 6500
+Wire Wire Line
+	3750 6500 3750 5200
+Wire Wire Line
+	3750 5200 2800 5200
+Wire Wire Line
+	2800 5000 3850 5000
+Wire Wire Line
+	3850 5000 3850 6400
+Wire Wire Line
+	3850 6400 4000 6400
+Text Notes 2200 5800 0    50   ~ 0
+MAIN INTERCONNECT
+Text Notes 3900 7200 0    50   ~ 0
+MICROSWITCHES
 $EndSCHEMATC

@@ -42,6 +42,24 @@ X CTRL 9 0 1400 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# F_connectors_SpadeLug
+#
+DEF F_connectors_SpadeLug J 0 40 N N 1 F N
+F0 "J" 40 60 50 H V L BNN
+F1 "F_connectors_SpadeLug" 40 -70 50 H V L BNN
+F2 "TE_1217861-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
+F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
+F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
+F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
+F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
+DRAW
+P 2 0 0 10 0 100 0 -100 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # F_inductors_MSD1260-333
 #
 DEF F_inductors_MSD1260-333 L 0 20 Y N 2 F N
@@ -372,6 +390,37 @@ P 2 0 1 10 70 -20 70 -180 N
 P 2 0 1 10 100 -100 70 -100 N
 X 1 1 -100 -100 100 R 1 1 0 1 P
 X 2 2 200 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_532530670
+#
+DEF OpenVent_532530670 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "OpenVent_532530670" 0 -400 50 H V C CNN
+F2 "Connector_Molex:Molex_Micro-Latch_53253-0670_1x06_P2.00mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Molex" 0 0 50 H I C CNN "Mfr"
+F5 "0532530670" 0 0 50 H I C CNN "Mfr_PN"
+F6 "CONN HEADER VERT 6POS 2MM" 0 0 50 H I C CNN "Desc"
+F7 "Connector Header Through Hole 6 position 0.079\" (2.00mm)" 0 0 50 H I C CNN "Detailed"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -886,6 +935,32 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X A 1 150 0 100 L 50 50 1 1 P
 X K 3 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_Polyfuse_10A
+#
+DEF OpenVent_Polyfuse_10A F 0 0 N Y 1 F N
+F0 "F" -100 0 50 V V C CNN
+F1 "OpenVent_Polyfuse_10A" 100 0 50 V I C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Littelfuse Inc." 0 0 50 H I C CNN "Mfr"
+F5 "16R1000GMR" 0 0 50 H I C CNN "Mfr_PN"
+F6 "PTC RESET FUSE 16V 10A RADIAL" 0 0 50 H I C CNN "Desc"
+F7 "Polymeric PTC Resettable Fuse 16V 10A Ih Through Hole Radial, Disc" 0 0 50 H I C CNN "Detailed"
+F8 "10A" 0 0 50 H V C CNN "Current"
+F9 "16V" 0 0 50 H V C CNN "Voltage"
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -30 100 30 -100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -60 100 -60 60 60 -60 60 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

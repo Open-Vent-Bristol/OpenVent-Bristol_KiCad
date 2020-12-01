@@ -47,30 +47,6 @@ F 3 "" H 7200 3800 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:Test_Point_PTH TP1
-U 1 1 5F8DD1A7
-P 10550 1050
-F 0 "TP1" H 10050 950 50  0000 L BNN
-F 1 "Test_Point_PTH" H 10550 1050 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10550 1050 50  0001 C CNN
-F 3 "" H 10550 1050 50  0001 C CNN
-F 4 "" H 10050 1050 50  0000 C CNN "Val"
-	1    10550 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L OpenVent:Test_Point_PTH TP2
-U 1 1 5F8DD1A6
-P 10550 1250
-F 0 "TP2" H 10050 1200 50  0000 L BNN
-F 1 "Test_Point_PTH" H 9950 1250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10550 1250 50  0001 C CNN
-F 3 "" H 10550 1250 50  0001 C CNN
-F 4 "" H 10050 1300 50  0000 C CNN "Val"
-	1    10550 1250
-	-1   0    0    1   
-$EndComp
-$Comp
 L OpenVent:2N7002BK Q2
 U 1 1 5F8DD198
 P 7200 3400
@@ -97,9 +73,9 @@ F 0 "D4" H 8100 1200 50  0000 L BNN
 F 1 "DIODE_GEN_PURP_1KV_1A_SMA" H 8200 1050 50  0001 C CNN
 F 2 "Diode_SMD:D_SMA" H 8200 1050 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 8200 1050 50  0001 C CNN
-F 4 "S1M-13-F" V 2500 -1550 50  0001 C CNN "Mfr_PN"
-F 5 "1A" H 8300 900 50  0000 C CNN "Current"
-F 6 "1KV" H 8100 900 50  0000 C CNN "Voltage"
+F 4 "S1M-13-F" H 8200 900 50  0000 C CNN "Mfr_PN"
+F 5 "1A" H 8200 1050 50  0001 C CNN "Current"
+F 6 "1KV" H 8200 1050 50  0001 C CNN "Voltage"
 F 7 "DIODE GEN PURP 1KV 1A SMA" H 8200 1050 50  0001 C CNN "Desc"
 F 8 "DigiKey" H 8200 1050 50  0001 C CNN "DistName"
 F 9 "S1M-FDITR-ND" H 8200 1050 50  0001 C CNN "Dist_PN"
@@ -113,16 +89,14 @@ VTH: 10.5V  VFLOAT: 13.65V  VBOOST: 14.5V  IMAX 575mA  IPRE: 11.5mA  (Data from 
 $Comp
 L OpenVent:GND #PWR015
 U 1 1 5F957C60
-P 10550 1300
-F 0 "#PWR015" H 10550 1050 50  0001 C CNN
-F 1 "GND" H 10550 1150 50  0001 C CNN
-F 2 "" H 10550 1300 50  0001 C CNN
-F 3 "" H 10550 1300 50  0001 C CNN
-	1    10550 1300
+P 10450 1550
+F 0 "#PWR015" H 10450 1300 50  0001 C CNN
+F 1 "GND" H 10450 1400 50  0001 C CNN
+F 2 "" H 10450 1550 50  0001 C CNN
+F 3 "" H 10450 1550 50  0001 C CNN
+	1    10450 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10550 1250 10550 1300
 $Comp
 L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C9
 U 1 1 5FD8DCEA
@@ -1300,7 +1274,7 @@ Wire Wire Line
 Connection ~ 3950 5450
 Wire Wire Line
 	3100 900  3100 1050
-Text Notes 10300 2000 0    50   ~ 0
+Text Notes 10250 2550 0    50   ~ 0
 NEED CONNECTOR\nDEFINITION FOR\nGELL CELL.\nTHIS CONNECTION\nALSO NEEDS TO\nBE FUSED.
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C14
@@ -1344,5 +1318,60 @@ Wire Wire Line
 	8750 1100 8750 1050
 Connection ~ 8750 1050
 Wire Wire Line
-	8750 1050 10550 1050
+	8750 1050 9100 1050
+$Comp
+L F_connectors:SpadeLug J4
+U 1 1 5FCBB8E9
+P 10750 1050
+F 0 "J4" H 10780 1096 50  0000 L CNN
+F 1 "SpadeLug" H 10780 1005 50  0000 L CNN
+F 2 "F_Connectors:TE_1217861-1" H 10750 1050 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English" H 10750 1050 50  0001 L BNN
+F 4 "TE Connectivity AMP Connectors" H 10750 1050 50  0001 L BNN "Mfr"
+F 5 "1217861-1" H 10750 1050 50  0001 L BNN "MfrPn"
+F 6 "A100452CT-ND" H 10750 1050 50  0001 L BNN "DK_pn"
+F 7 "CONN QC TAB 0.250 SOLDER" H 10750 1050 50  0001 L BNN "Desc"
+F 8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" H 10750 1050 50  0001 L BNN "Detailed"
+	1    10750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L F_connectors:SpadeLug J5
+U 1 1 5FCBC350
+P 10750 1450
+F 0 "J5" H 10780 1496 50  0000 L CNN
+F 1 "SpadeLug" H 10780 1405 50  0000 L CNN
+F 2 "F_Connectors:TE_1217861-1" H 10750 1450 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English" H 10750 1450 50  0001 L BNN
+F 4 "TE Connectivity AMP Connectors" H 10750 1450 50  0001 L BNN "Mfr"
+F 5 "1217861-1" H 10750 1450 50  0001 L BNN "MfrPn"
+F 6 "A100452CT-ND" H 10750 1450 50  0001 L BNN "DK_pn"
+F 7 "CONN QC TAB 0.250 SOLDER" H 10750 1450 50  0001 L BNN "Desc"
+F 8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" H 10750 1450 50  0001 L BNN "Detailed"
+	1    10750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1450 10450 1450
+Wire Wire Line
+	10450 1450 10450 1550
+$Comp
+L OpenVent:Polyfuse_10A F1
+U 1 1 5FCE2FD4
+P 9250 1050
+F 0 "F1" V 8935 1050 50  0000 C CNN
+F 1 "Polyfuse_10A" V 9350 1050 50  0001 C CNN
+F 2 "OpenVent:LF_16R1000G" H 9300 850 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_16r_datasheet.pdf.pdf" H 9250 1050 50  0001 C CNN
+F 4 "Littelfuse Inc." H 9250 1050 50  0001 C CNN "Mfr"
+F 5 "16R1000GMR" H 9250 1050 50  0001 C CNN "Mfr_PN"
+F 6 "PTC RESET FUSE 16V 10A RADIAL" H 9250 1050 50  0001 C CNN "Desc"
+F 7 "Polymeric PTC Resettable Fuse 16V 10A Ih Through Hole Radial, Disc" H 9250 1050 50  0001 C CNN "Detailed"
+F 8 "10A" V 9026 1050 50  0000 C CNN "Current"
+F 9 "16V" V 9117 1050 50  0000 C CNN "Voltage"
+	1    9250 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 1050 10550 1050
 $EndSCHEMATC
