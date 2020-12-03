@@ -43,6 +43,11 @@ K Crystal 12MHz
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP ADS1015
+D 12bit ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf
+$ENDCMP
+#
 $CMP AOSD21307
 D Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC
 F www.aosmd.com/res/data_sheets/AOSD21307.pdf

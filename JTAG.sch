@@ -66,7 +66,7 @@ F 3 "" H 1450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_Misc:RClamp3654P.TCT TVS2
+L OpenVent-rescue:RClamp3654P.TCT-F_Misc TVS2
 U 1 1 5FB67D83
 P 2800 4000
 F 0 "TVS2" H 2800 4525 50  0000 C CNN
@@ -83,7 +83,7 @@ F 9 "30V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SLP1616P6 (1.6x1.6)" H 2
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_inductors:DLP11SA900HL2L FL2
+L OpenVent-rescue:DLP11SA900HL2L-F_inductors FL2
 U 1 1 5FB69009
 P 1950 3350
 F 0 "FL2" H 1950 3700 50  0000 C CNN

@@ -1655,7 +1655,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 850  8900 1100
 $Comp
-L F_inductors:DLP11SA900HL2L FL1
+L OpenVent-rescue:DLP11SA900HL2L-F_inductors FL1
 U 1 1 5FA93A27
 P 2150 3850
 F 0 "FL1" H 2100 4050 50  0000 C CNN
@@ -1698,7 +1698,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3900 2500 3900
 $Comp
-L F_Misc:RClamp3654P.TCT TVS1
+L OpenVent-rescue:RClamp3654P.TCT-F_Misc TVS1
 U 1 1 5FAFDA37
 P 3000 4500
 F 0 "TVS1" H 3000 5025 50  0000 C CNN
