@@ -33,12 +33,10 @@ $EndComp
 Text Notes 8950 2600 0    60   ~ 0
 Mates with Molex cable assembly 151370201
 NoConn ~ 4750 1850
-NoConn ~ 4750 2150
 Text GLabel 2250 1150 0    60   Output ~ 0
 nMOTOR-FAULT-A
 Text GLabel 2250 1250 0    60   Output ~ 0
 nMOTOR-FAULT-B
-NoConn ~ 4750 2250
 $Comp
 L OpenVent:GND #GND_014
 U 1 1 5F8DD11B
@@ -71,10 +69,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 2950 4750 2950
 Wire Wire Line
-	4350 3150 4350 2950
-Wire Wire Line
-	4350 3250 4350 3150
-Wire Wire Line
 	4350 2850 4750 2850
 Wire Wire Line
 	4350 2750 4750 2750
@@ -85,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 2450 4350 2550
 Wire Wire Line
-	4750 2450 4350 2450
+	4750 2450 4500 2450
 Wire Wire Line
 	4400 1750 4750 1750
 Wire Wire Line
@@ -113,10 +107,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 1650 6600 1750
 Wire Wire Line
-	6600 1500 6600 1650
-Wire Wire Line
-	8700 1950 8700 1500
-Wire Wire Line
 	6300 1350 6300 1450
 Wire Wire Line
 	6300 1250 6300 1350
@@ -135,8 +125,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3750 4350 3850
 Wire Wire Line
-	4350 3650 4350 3750
-Wire Wire Line
 	4350 2850 4350 2950
 Wire Wire Line
 	4350 2750 4350 2850
@@ -151,9 +139,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1200 10150 1350
 Connection ~ 2450 2050
-Connection ~ 4350 3750
-Connection ~ 4350 3150
-Connection ~ 4350 2950
 Connection ~ 4350 2850
 Connection ~ 4350 2750
 Connection ~ 4350 2650
@@ -239,22 +224,6 @@ F 4 "1%" H 2850 1750 50  0001 C CNN "Tolerance"
 F 5 "1K" H 3000 1750 50  0000 C CNN "Val"
 	1    2800 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Resistor_2010_0.025OHM_sensing_1%_1W R30
-U 1 1 5F8DD0FA
-P 4250 3550
-F 0 "R30" V 4522 3300 60  0000 R TNN
-F 1 "0.025 Ohm 1W 1%" V 4422 3300 60  0000 R TNN
-F 2 "Resistor_SMD:R_2010_5025Metric" H 4422 3300 60  0001 C CNN
-F 3 "" H 4422 3300 60  0001 C CNN
-F 4 "WSL2010R0250FEA18" H 4250 3550 50  0001 C CNN "Mfr_PN"
-F 5 "Vishay Dale" H 4250 3550 50  0001 C CNN "Mfr"
-F 6 "1%" H 4250 3550 50  0001 C CNN "Tolerance"
-F 7 "0.025Ohm" H 4250 3550 50  0001 C CNN "Val"
-F 8 "1.0W" H 4250 3550 50  0001 C CNN "Watt"
-	1    4250 3550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:LED_Red_0603_SMD D6
@@ -377,10 +346,6 @@ $EndComp
 Wire Wire Line
 	2450 2050 2450 2150
 Wire Wire Line
-	1350 3150 4350 3150
-Wire Wire Line
-	1350 3950 1350 3150
-Wire Wire Line
 	2150 4550 2150 5050
 Wire Wire Line
 	2150 4350 2150 4550
@@ -399,10 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 5050 3650 4550
 Wire Wire Line
-	1350 3150 1350 3050
-Wire Wire Line
 	2150 3750 2150 3650
-Connection ~ 1350 3150
 Connection ~ 2150 5050
 Connection ~ 2150 4550
 Connection ~ 2150 3750
@@ -545,7 +507,7 @@ F 3 "" H 3850 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 1500 8700 1500
+	6600 1450 6950 1450
 $Comp
 L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C12
 U 1 1 5F9BE2A3
@@ -707,4 +669,79 @@ Wire Wire Line
 	5100 7150 5100 7200
 Wire Wire Line
 	5100 7600 5100 7650
+Wire Wire Line
+	6600 1450 6600 1650
+Wire Wire Line
+	8700 1450 8700 1950
+Wire Wire Line
+	6950 1500 6950 1450
+Connection ~ 6950 1450
+Wire Wire Line
+	6950 1450 8700 1450
+Text Notes 5500 3350 0    50   ~ 0
+Maximum standby current with all\nfaults cleared is 15uA.
+Wire Wire Line
+	1350 3050 1350 3100
+$Comp
+L OpenVent:GND #GND_020
+U 1 1 5FCEF3B0
+P 4350 3000
+F 0 "#GND_020" H 4350 3000 20  0001 C CNN
+F 1 "GND" H 4350 2930 50  0001 C CNN
+F 2 "" H 4350 3000 70  0000 C CNN
+F 3 "" H 4350 3000 70  0000 C CNN
+	1    4350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3000 4350 2950
+Connection ~ 4350 2950
+Wire Wire Line
+	4750 2150 4500 2150
+Wire Wire Line
+	4500 2150 4500 2450
+Connection ~ 4500 2450
+Wire Wire Line
+	4500 2450 4350 2450
+$Comp
+L OpenVent:R_0603_1k5_0.1W_1% R29
+U 1 1 5FCFA3BC
+P 3850 2400
+F 0 "R29" V 3904 2370 50  0000 L CNN
+F 1 "R_0603_1k5_0.1W_1%" H 3850 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 2400 60  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+F 4 "1k5" V 3995 2370 50  0000 L CNN "Val"
+F 5 "1%" H 3850 2400 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3850 2400 50  0001 C CNN "Watt"
+	1    3850 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2250 3750 2250
+Wire Wire Line
+	3750 2250 3750 2300
+$Comp
+L OpenVent:GND #GND_019
+U 1 1 5FCFE3D6
+P 3750 2750
+F 0 "#GND_019" H 3750 2750 20  0001 C CNN
+F 1 "GND" H 3750 2680 50  0001 C CNN
+F 2 "" H 3750 2750 70  0000 C CNN
+F 3 "" H 3750 2750 70  0000 C CNN
+	1    3750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2750 3750 2700
+Wire Wire Line
+	3750 2250 3450 2250
+Wire Wire Line
+	3450 2250 3450 3100
+Wire Wire Line
+	3450 3100 1350 3100
+Connection ~ 3750 2250
+Connection ~ 1350 3100
+Wire Wire Line
+	1350 3100 1350 3950
 $EndSCHEMATC

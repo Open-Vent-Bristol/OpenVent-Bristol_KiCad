@@ -65,25 +65,6 @@ F 11 "60V" H 7200 3400 50  0001 C CNN "Voltage"
 	1    7200 3400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L OpenVent:DIODE_GEN_PURP_1KV_1A_SMA D4
-U 1 1 5F8DD18B
-P 8200 1050
-F 0 "D4" H 8100 1200 50  0000 L BNN
-F 1 "DIODE_GEN_PURP_1KV_1A_SMA" H 8200 1050 50  0001 C CNN
-F 2 "Diode_SMD:D_SMA" H 8200 1050 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 8200 1050 50  0001 C CNN
-F 4 "S1M-13-F" H 8200 900 50  0000 C CNN "Mfr_PN"
-F 5 "1A" H 8200 1050 50  0001 C CNN "Current"
-F 6 "1KV" H 8200 1050 50  0001 C CNN "Voltage"
-F 7 "DIODE GEN PURP 1KV 1A SMA" H 8200 1050 50  0001 C CNN "Desc"
-F 8 "DigiKey" H 8200 1050 50  0001 C CNN "DistName"
-F 9 "S1M-FDITR-ND" H 8200 1050 50  0001 C CNN "Dist_PN"
-F 10 "Diodes Incorporated" H 8200 1050 50  0001 C CNN "Mfr"
-F 11 "Diode Standard 1A Surface Mount SMA" H 8200 1050 50  0001 C CNN "Detailed"
-	1    8200 1050
-	1    0    0    -1  
-$EndComp
 Text Notes 3800 4200 0    50   ~ 0
 VTH: 10.5V  VFLOAT: 13.65V  VBOOST: 14.5V  IMAX 575mA  IPRE: 11.5mA  (Data from Yuasa NP2.3-12 datasheet)
 $Comp
@@ -137,7 +118,7 @@ F 3 "" H 3100 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_ICs:LT3796 U1
+L OV_Power-rescue:LT3796-F_ICs U1
 U 1 1 5FAE7EAD
 P 4100 3800
 F 0 "U1" H 4725 3677 50  0000 C CNN
@@ -148,7 +129,7 @@ F 3 "" H 4700 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_inductors:MSD1260-333 L1
+L OV_Power-rescue:MSD1260-333-F_inductors L1
 U 1 1 5FB0C2C0
 P 5400 1050
 F 0 "L1" V 5210 1050 50  0000 C CNN
@@ -166,7 +147,7 @@ F 10 "Coupled Inductors 33uH" H 5400 1050 50  0001 C CNN "Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L F_inductors:MSD1260-333 L1
+L OV_Power-rescue:MSD1260-333-F_inductors L1
 U 2 1 5FB0D579
 P 6350 1300
 F 0 "L1" H 6438 1346 50  0000 L CNN
@@ -460,8 +441,6 @@ F 3 "" H 7550 3400 50  0001 C CNN
 	1    7550 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 1050 7900 1050
 Wire Wire Line
 	7900 1050 7900 1200
 Connection ~ 7900 1050
@@ -923,8 +902,6 @@ U 5FAE643E
 F0 "Power Supply" 50
 F1 "PowerSupply.sch" 50
 $EndSheet
-Wire Wire Line
-	8450 1050 8600 1050
 $Comp
 L OpenVent:LT1936 U2
 U 1 1 5FB232C2
@@ -1320,7 +1297,7 @@ Connection ~ 8750 1050
 Wire Wire Line
 	8750 1050 9100 1050
 $Comp
-L F_connectors:SpadeLug J4
+L OV_Power-rescue:SpadeLug-F_connectors J4
 U 1 1 5FCBB8E9
 P 10750 1050
 F 0 "J4" H 10780 1096 50  0000 L CNN
@@ -1336,7 +1313,7 @@ F 8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" H 1075
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_connectors:SpadeLug J5
+L OV_Power-rescue:SpadeLug-F_connectors J5
 U 1 1 5FCBC350
 P 10750 1450
 F 0 "J5" H 10780 1496 50  0000 L CNN
@@ -1374,4 +1351,31 @@ F 9 "16V" V 9117 1050 50  0000 C CNN "Voltage"
 $EndComp
 Wire Wire Line
 	9400 1050 10550 1050
+Text Notes 3650 6150 0    50   ~ 0
+Static drain of U2 in shutdown mode is less than 1uA.
+$Comp
+L OpenVent:S1B D4
+U 1 1 5FDCD265
+P 8200 1050
+F 0 "D4" H 8200 833 50  0000 C CNN
+F 1 "S1B" H 8200 924 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 8200 1050 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" H 8200 1050 50  0001 C CNN
+F 4 "ON Semiconductor" H 8200 1050 50  0001 C CNN "Mfr"
+F 5 "S1B" H 8200 1050 50  0001 C CNN "Mfr_PN"
+F 6 "DIODE GEN PURP 100V 1A SMA" H 8200 1050 50  0001 C CNN "Desc"
+F 7 "Diode Standard 100V 1A Surface Mount SMA (DO-214AC)" H 8200 1050 50  0001 C CNN "Detailed"
+F 8 "100V" H 8200 1050 50  0001 C CNN "Voltage"
+F 9 "1A" H 8200 1050 50  0001 C CNN "Current"
+	1    8200 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 1050 8600 1050
+Wire Wire Line
+	7900 1050 8050 1050
+Text Notes 8150 3050 0    50   ~ 0
+STANDBY POWER CONSUMPTION:\nD4 reverse leakage: 1uA MAX\nU2 in shutdown: less than 1uA\nMotor control in standby: 15uA MAX\nPower Path control, no input, on battery: 17uA MAX\nTotal power supply static drain in shutdown: 33uA maximum.
+Connection ~ 4700 1050
+Connection ~ 5100 1050
 $EndSCHEMATC

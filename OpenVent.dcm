@@ -53,6 +53,11 @@ D Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC
 F www.aosmd.com/res/data_sheets/AOSD21307.pdf
 $ENDCMP
 #
+$CMP CONN_HEADER_2.54X2_MOLEX_KK_Series
+D Connector Header Through Hole 2 position 0.100" (2.54mm)
+F https://www.molex.com/webdocs/datasheets/pdf/en-us//0022232021_PCB_HEADERS.pdf
+$ENDCMP
+#
 $CMP CSD88537ND
 D Mosfet Array 2 N-Channel (Dual) 60V 15A 2.1W Surface Mount 8-SOIC
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd88537nd
@@ -186,10 +191,22 @@ K R res thermistor
 F ~
 $ENDCMP
 #
+$CMP S1B
+D Diode Standard 100V 1A Surface Mount SMA (DO-214AC)
+K diode
+F https://www.onsemi.com/pub/Collateral/S1M-D.pdf
+$ENDCMP
+#
 $CMP SSM3K341R
 D N-Channel 60V 6A (Ta) 1.2W (Ta) Surface Mount SOT-23F
 K transistor NMOS N-MOS N-MOSFET
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=35714&prodName=SSM3K341R
+$ENDCMP
+#
+$CMP SZNUD3124LT1G
+D Power Switch/Driver 1:1 N-Channel 150mA SOT-23-3 (TO-236)
+K relay driver, power switch
+F http://www.onsemi.com/pub/Collateral/NUD3124-D.PDF
 $ENDCMP
 #
 $CMP TLV2333IDR
