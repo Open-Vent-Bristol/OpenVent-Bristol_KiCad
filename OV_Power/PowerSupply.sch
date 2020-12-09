@@ -420,17 +420,17 @@ $EndComp
 $Comp
 L OpenVent:V_MAIN #PWR031
 U 1 1 5FB4FD2E
-P 3100 4500
-F 0 "#PWR031" H 3100 4350 50  0001 C CNN
-F 1 "V_MAIN" H 3100 4673 50  0000 C CNN
-F 2 "" H 3100 4500 50  0001 C CNN
-F 3 "" H 3100 4500 50  0001 C CNN
-	1    3100 4500
+P 850 5400
+F 0 "#PWR031" H 850 5250 50  0001 C CNN
+F 1 "V_MAIN" H 850 5573 50  0000 C CNN
+F 2 "" H 850 5400 50  0001 C CNN
+F 3 "" H 850 5400 50  0001 C CNN
+	1    850  5400
 	1    0    0    -1  
 $EndComp
 Text GLabel 1800 5500 0    50   Input ~ 0
 V7.5V
-Text GLabel 3150 5400 2    50   Input ~ 0
+Text GLabel 2950 4600 2    50   Input ~ 0
 V7.5V
 Text GLabel 3150 5300 2    50   Output ~ 0
 V7.5V_EN
@@ -445,13 +445,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4500 2000 4500
 Wire Wire Line
-	2800 4600 3100 4600
-Wire Wire Line
-	3100 4600 3100 4500
-Wire Wire Line
 	2300 5500 1800 5500
-Wire Wire Line
-	3150 5400 2800 5400
 Wire Wire Line
 	3150 5300 2800 5300
 $Comp
@@ -489,27 +483,10 @@ Wire Wire Line
 	3150 4900 2800 4900
 Wire Wire Line
 	2300 5000 1800 5000
-Text GLabel 1800 5400 0    50   Input ~ 0
+Text GLabel 3150 5400 2    50   Input ~ 0
 CHG_CURRENT
-Wire Wire Line
-	2300 5400 1800 5400
-$Comp
-L OpenVent:VIN_12V #PWR017
-U 1 1 5FBA1DE1
-P 700 5050
-F 0 "#PWR017" H 700 4900 50  0001 C CNN
-F 1 "VIN_12V" H 700 5223 50  0000 C CNN
-F 2 "" H 700 5050 60  0001 C CNN
-F 3 "" H 700 5050 60  0001 C CNN
-	1    700  5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5100 700  5100
-Wire Wire Line
-	700  5100 700  5050
 Text GLabel 1800 5200 0    50   Input ~ 0
-MOTOR-CURRENT
+MOTOR_CURRENT
 Wire Wire Line
 	2300 5200 1800 5200
 $Comp
@@ -767,4 +744,39 @@ Wire Wire Line
 	1500 1700 3550 1700
 Connection ~ 1500 1700
 Connection ~ 3550 1700
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R27
+U 1 1 5FD89289
+P 2500 3700
+F 0 "R27" H 2600 3807 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 2500 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 3700 60  0001 C CNN
+F 3 "" H 2500 3700 60  0001 C CNN
+F 4 "1K" H 2600 3716 50  0000 C CNN "Val"
+F 5 "1%" H 2500 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2500 3700 50  0001 C CNN "Watt"
+	1    2500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 3900 3800
+Wire Wire Line
+	3900 3800 2800 3800
+Connection ~ 3900 3150
+Wire Wire Line
+	2400 3800 800  3800
+Wire Wire Line
+	800  3800 800  5100
+Wire Wire Line
+	800  5100 2300 5100
+Text Label 800  3800 0    50   ~ 0
+POWER_STATUS
+Wire Wire Line
+	2950 4600 2800 4600
+Wire Wire Line
+	2300 5400 850  5400
+Wire Wire Line
+	3150 5400 2800 5400
+NoConn ~ 4200 2450
+NoConn ~ 2800 5100
 $EndSCHEMATC

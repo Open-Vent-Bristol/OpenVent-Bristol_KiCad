@@ -888,7 +888,7 @@ Wire Wire Line
 	6800 1050 6750 1050
 NoConn ~ 4100 3250
 Wire Wire Line
-	3050 2200 3850 2200
+	3050 2200 3550 2200
 $Sheet
 S 9850 5800 1350 150 
 U 5FADD2CF
@@ -1378,4 +1378,11 @@ Text Notes 8150 3050 0    50   ~ 0
 STANDBY POWER CONSUMPTION:\nD4 reverse leakage: 1uA MAX\nU2 in shutdown: less than 1uA\nMotor control in standby: 15uA MAX\nPower Path control, no input, on battery: 17uA MAX\nTotal power supply static drain in shutdown: 33uA maximum.
 Connection ~ 4700 1050
 Connection ~ 5100 1050
+Connection ~ 3550 2200
+Wire Wire Line
+	3550 2200 3850 2200
+Connection ~ 3550 2600
+Connection ~ 3100 1500
+Connection ~ 3700 1500
+NoConn ~ 5350 3500
 $EndSCHEMATC

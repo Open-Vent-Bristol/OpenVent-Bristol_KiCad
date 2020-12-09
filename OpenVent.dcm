@@ -167,6 +167,17 @@ K r resistor
 F https://www.ohmite.com/assets/docs/res_lvt.pdf?r=false
 $ENDCMP
 #
+$CMP R_0603_100_0.1W_0.1%
+D 100 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
+K precision resistor
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
+$CMP R_0603_1k2_0.1W_0.1%
+D 1.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
 $CMP R_0603_53K_0.1W_1%
 D 53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
 K R res resistor
@@ -212,6 +223,12 @@ $ENDCMP
 $CMP TLV2333IDR
 D Zero-Drift Amplifier Circuit Rail-to-Rail 8-SOIC
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv2333
+$ENDCMP
+#
+$CMP TLV7042DGKR
+D Comparator General Purpose Open-Drain, Rail-to-Rail 8-VSSOP
+K comparator, power management
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv7042
 $ENDCMP
 #
 #End Doc Library

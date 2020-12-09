@@ -131,21 +131,6 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue_VIN_12V-OpenVent
-#
-DEF OpenVent-rescue_VIN_12V-OpenVent #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent-rescue_VIN_12V-OpenVent" 0 150 50 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VIN 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # OpenVent-rescue_V_MAIN-OpenVent
 #
 DEF OpenVent-rescue_V_MAIN-OpenVent #PWR 0 0 N N 1 F P
@@ -788,23 +773,6 @@ DRAW
 S 0 140 -200 60 0 1 10 f
 X 1 1 100 100 100 L 1 1 0 1 P
 X 2 2 -300 100 100 R 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenVent_634R_0603_Chip_Resistor,_1%,_0.1W
-#
-DEF OpenVent_634R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
-F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent_634R_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "634R" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H I C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -60 200 -140 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1490,6 +1458,44 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_R_0603_200_0.1W_1%
+#
+DEF OpenVent_R_0603_200_0.1W_1% R 0 40 Y Y 1 F N
+F0 "R" -60 -100 50 H V L BNN
+F1 "OpenVent_R_0603_200_0.1W_1%" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "200" 0 0 50 H V C CNN "Val"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 -140 200 -60 0 1 10 f
+S 0 -60 200 -140 0 1 10 f
+S 200 -140 0 -60 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_R_0603_24k9_0.1W_1%
+#
+DEF OpenVent_R_0603_24k9_0.1W_1% R 0 40 Y Y 1 F N
+F0 "R" -60 -100 50 H V L BNN
+F1 "OpenVent_R_0603_24k9_0.1W_1%" 0 0 50 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "24k9" 0 0 50 H V C CNN "Val"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 -140 200 -60 0 1 10 f
+S 0 -60 200 -140 0 1 10 f
+S 200 -140 0 -60 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_STM32L412R8T6
 #
 DEF OpenVent_STM32L412R8T6 U 0 40 Y Y 2 L N
@@ -1660,8 +1666,12 @@ ENDDEF
 DEF OpenVent_TLV7042DGKR U 0 40 Y Y 2 L N
 F0 "U" 0 0 50 H V C CNN
 F1 "OpenVent_TLV7042DGKR" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "F_ICs:Texas_S-PDSO-G8" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H I C CNN "Mfr"
+F5 "TLV7042DGKR" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC POWER MANAGEMENT SUPERVISORY" 0 0 50 H I C CNN "Desc"
+F7 "Comparator General Purpose Open-Drain, Rail-to-Rail 8-VSSOP" 0 0 50 H I C CNN "Detailed"
 DRAW
 P 2 1 1 10 200 -100 600 100 N
 P 2 1 1 10 200 300 200 -100 N
