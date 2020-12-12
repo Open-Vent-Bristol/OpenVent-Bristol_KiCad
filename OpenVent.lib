@@ -2567,6 +2567,29 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# R_0603_2k74_0.1W_0.1%
+#
+DEF R_0603_2k74_0.1W_0.1% R 0 40 Y Y 1 F N
+F0 "R" -60 -100 50 H V L BNN
+F1 "R_0603_2k74_0.1W_0.1%" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "2k74" 0 0 50 H V C CNN "Val"
+F5 "0.1%" 0 0 50 H V C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+F7 "Yageo" 0 0 50 H I C CNN "Mfr"
+F8 "RT0603BRE072K74L" 0 0 50 H I C CNN "Mfr_PN"
+F9 "RES SMD 2.74KOHM 0.1% 1/10W 0603" 0 0 50 H I C CNN "Desc"
+F10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 0 -140 200 -60 0 1 10 f
+S 0 -60 200 -140 0 1 10 f
+S 200 -140 0 -60 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # R_0603_2k_0.1W_1%
 #
 DEF R_0603_2k_0.1W_1% R 0 40 Y Y 1 F N
@@ -2737,7 +2760,7 @@ $FPLIST
  R_*
 $ENDFPLIST
 DRAW
-S -40 -100 40 100 0 1 10 N
+S -40 -100 40 100 0 1 10 f
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
@@ -2841,6 +2864,32 @@ F7 "Yageo" 200 0 50 H I C CNN "Mfr"
 F8 "PT1206FR-7W0R25L" 200 0 50 H I C CNN "Mfr_Pn"
 F9 "RES 0.25 OHM 1% 1/2W 1206" 200 0 50 H I C CNN "Desc"
 F10 "250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film" 200 0 50 H I C CNN "Detailed"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -100 -40 100 40 1 1 10 f
+S -100 40 100 -40 1 1 10 f
+S 100 -40 -100 40 1 1 10 f
+X 1 1 -200 0 100 R 1 1 1 1 P
+X 2 2 200 0 100 L 1 1 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_2512_15m_cursense
+#
+DEF R_2512_15m_cursense R 0 10 N N 1 F N
+F0 "R" -50 100 50 H V L CNN
+F1 "R_2512_15m_cursense" 230 -40 50 H I L CNN
+F2 "Resistor_SMD:R_2512_6332Metric" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "15mOhm" 0 -100 50 H V C CNN "Val"
+F5 "1%" 200 0 50 H I C CNN "tol"
+F6 "2W" 200 0 50 H I C CNN "Watt"
+F7 "Riedon" 200 0 50 H I C CNN "Mfr"
+F8 "CSR2512A0R015F" 200 0 50 H I C CNN "Mfr_Pn"
+F9 "RES 0.015 OHM 1% 2W 2512" 200 0 50 H I C CNN "Desc"
+F10 "15 mOhms ±1% 2W Chip Resistor 2512 (6432 Metric) Current Sense, Non-Inductive Metal Element" 200 0 50 H I C CNN "Detailed"
 $FPLIST
  R_*
 $ENDFPLIST

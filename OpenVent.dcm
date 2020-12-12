@@ -178,6 +178,12 @@ D 1.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
 #
+$CMP R_0603_2k74_0.1W_0.1%
+D 2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
+K resistor, SMT
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
 $CMP R_0603_53K_0.1W_1%
 D 53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
 K R res resistor
@@ -194,6 +200,12 @@ $CMP R_1206_250m_cursense
 D 250 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film
 K r resistor
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-PT-Group_521_RoHS_L_2.pdf
+$ENDCMP
+#
+$CMP R_2512_15m_cursense
+D 15 mOhms ±1% 2W Chip Resistor 2512 (6432 Metric) Current Sense, Non-Inductive Metal Element
+K r resistor
+F https://riedon.com/media/pdf/CSR.pdf
 $ENDCMP
 #
 $CMP R_Thermistor_0603_10K_NTC

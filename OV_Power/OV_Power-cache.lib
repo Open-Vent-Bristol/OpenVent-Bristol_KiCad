@@ -1,34 +1,17 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# F_ICs_LT6106
+# F_ICs_LT3796
 #
-DEF F_ICs_LT6106 U 0 40 Y Y 1 F N
-F0 "U" 750 450 50 H V C CNN
-F1 "F_ICs_LT6106" 450 -150 50 H V C CNN
-F2 "Package_TO_SOT_SMD:TSOT-23-5" 450 -250 50 H I C CNN
-F3 "" 350 -50 50 H I C CNN
-F4 "Analog Devices Inc." 0 0 50 H I C CNN "Mfr"
-F5 "LT6106IS5#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
-F6 "IC CURR SENSE 1 CIRCUIT TSOT23-5" 0 0 50 H I C CNN "Desc"
-F7 "Current Sense Amplifier 1 Circuit  TSOT-23-5" 0 0 50 H I C CNN "Detailed"
-DRAW
-S 100 400 750 -100 0 1 0 f
-X OUT 1 850 0 100 L 50 50 1 1 P
-X V- 2 0 0 100 R 50 50 1 1 P
-X -IN 3 250 500 100 D 50 50 1 1 P
-X +IN 4 650 500 100 D 50 50 1 1 P
-X V+ 5 0 200 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OV_Power-rescue_LT3796-F_ICs
-#
-DEF OV_Power-rescue_LT3796-F_ICs U 0 40 Y Y 1 F N
+DEF F_ICs_LT3796 U 0 40 Y Y 1 F N
 F0 "U" 600 1700 50 H V C CNN
-F1 "OV_Power-rescue_LT3796-F_ICs" 600 -100 50 H V C CNN
+F1 "F_ICs_LT3796" 600 -100 50 H V C CNN
 F2 "F_ICs:TSSOP-28-LTvar_EB_4.4x9.7mm_P0.65mm" 600 600 50 H I C CNN
 F3 "" 600 600 50 H I C CNN
+F4 "Analog Devices" 0 0 50 H I C CNN "Mfr"
+F5 "LT3796IFE-1#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC LED DRIVER CTRLR DIM 28TSSOP" 0 0 50 H I C CNN "Desc"
+F7 "LED Driver IC 1 Output DC DC Controller SEPIC, Step-Down (Buck), Step-Up (Boost) Analog, PWM Dimming  28-TSSOP-EP" 0 0 50 H I C CNN "Detailed"
 DRAW
 S 100 2150 1150 -50 0 1 0 f
 X ISP 1 1250 1150 100 L 50 50 1 1 P
@@ -60,6 +43,46 @@ X FB2 6 0 1700 100 R 50 50 1 1 P
 X FB1 7 1250 900 100 L 50 50 1 1 P
 X VC 8 0 400 100 R 50 50 1 1 P
 X CTRL 9 0 1400 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_ICs_LT6106
+#
+DEF F_ICs_LT6106 U 0 40 Y Y 1 F N
+F0 "U" 750 450 50 H V C CNN
+F1 "F_ICs_LT6106" 450 -150 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TSOT-23-5" 450 -250 50 H I C CNN
+F3 "" 350 -50 50 H I C CNN
+F4 "Analog Devices Inc." 0 0 50 H I C CNN "Mfr"
+F5 "LT6106IS5#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC CURR SENSE 1 CIRCUIT TSOT23-5" 0 0 50 H I C CNN "Desc"
+F7 "Current Sense Amplifier 1 Circuit  TSOT-23-5" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 100 400 750 -100 0 1 0 f
+X OUT 1 850 0 100 L 50 50 1 1 P
+X V- 2 0 0 100 R 50 50 1 1 P
+X -IN 3 250 500 100 D 50 50 1 1 P
+X +IN 4 650 500 100 D 50 50 1 1 P
+X V+ 5 0 200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_connectors_SpadeLug
+#
+DEF F_connectors_SpadeLug J 0 40 N N 1 F N
+F0 "J" 40 60 50 H V L BNN
+F1 "F_connectors_SpadeLug" 40 -70 50 H V L BNN
+F2 "TE_1217861-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
+F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
+F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
+F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
+F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
+DRAW
+P 2 0 0 10 0 100 0 -100 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -113,6 +136,7 @@ F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 
 DRAW
 P 2 0 0 10 0 100 0 -100 N
 X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -958,29 +982,6 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_1k2_0.1W_0.1%
-#
-DEF OpenVent_R_0603_1k2_0.1W_0.1% R 0 40 N N 1 F N
-F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_1k2_0.1W_0.1%" 0 0 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "1k20" 0 0 50 H V C CNN "Val"
-F5 "0.1%" 0 0 50 H V C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-F7 "Yageo" 0 0 50 H I C CNN "Mfr"
-F8 "RT0603BRD071K2L" 0 0 50 H I C CNN "Mfr_PN"
-F9 "RES SMD 1.2K OHM 0.1% 1/10W 0603" 0 0 50 H I C CNN "Desc"
-F10 "1.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 0 50 H I C CNN "Detailed"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-S 0 -60 200 -140 0 1 10 f
-S 200 -140 0 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # OpenVent_R_0603_221K_0.1W_1%
 #
 DEF OpenVent_R_0603_221K_0.1W_1% R 0 40 Y Y 1 F N
@@ -1010,6 +1011,29 @@ F3 "" 0 0 60 H I C CNN
 F4 "24k9" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
 F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 -140 200 -60 0 1 10 f
+S 0 -60 200 -140 0 1 10 f
+S 200 -140 0 -60 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_R_0603_2k74_0.1W_0.1%
+#
+DEF OpenVent_R_0603_2k74_0.1W_0.1% R 0 40 Y Y 1 F N
+F0 "R" -60 -100 50 H V L BNN
+F1 "OpenVent_R_0603_2k74_0.1W_0.1%" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "2k74" 0 0 50 H V C CNN "Val"
+F5 "0.1%" 0 0 50 H V C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+F7 "Yageo" 0 0 50 H I C CNN "Mfr"
+F8 "RT0603BRE072K74L" 0 0 50 H I C CNN "Mfr_PN"
+F9 "RES SMD 2.74KOHM 0.1% 1/10W 0603" 0 0 50 H I C CNN "Desc"
+F10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 0 50 H I C CNN "Detailed"
 DRAW
 S 0 -140 200 -60 0 1 10 f
 S 0 -60 200 -140 0 1 10 f
@@ -1151,7 +1175,7 @@ $FPLIST
  R_*
 $ENDFPLIST
 DRAW
-S -40 -100 40 100 0 1 10 N
+S -40 -100 40 100 0 1 10 f
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
@@ -1267,6 +1291,32 @@ X 2 2 200 0 100 L 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_R_2512_15m_cursense
+#
+DEF OpenVent_R_2512_15m_cursense R 0 10 N N 1 F N
+F0 "R" -50 100 50 H V L CNN
+F1 "OpenVent_R_2512_15m_cursense" 230 -40 50 H I L CNN
+F2 "Resistor_SMD:R_2512_6332Metric" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "15mOhm" 0 -100 50 H V C CNN "Val"
+F5 "1%" 200 0 50 H I C CNN "tol"
+F6 "2W" 200 0 50 H I C CNN "Watt"
+F7 "Riedon" 200 0 50 H I C CNN "Mfr"
+F8 "CSR2512A0R015F" 200 0 50 H I C CNN "Mfr_Pn"
+F9 "RES 0.015 OHM 1% 2W 2512" 200 0 50 H I C CNN "Desc"
+F10 "15 mOhms ±1% 2W Chip Resistor 2512 (6432 Metric) Current Sense, Non-Inductive Metal Element" 200 0 50 H I C CNN "Detailed"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -100 -40 100 40 1 1 10 f
+S -100 40 100 -40 1 1 10 f
+S 100 -40 -100 40 1 1 10 f
+X 1 1 -200 0 100 R 1 1 1 1 P
+X 2 2 200 0 100 L 1 1 1 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_R_Thermistor_0603_10K_NTC
 #
 DEF OpenVent_R_Thermistor_0603_10K_NTC RT 0 0 N Y 1 F N
@@ -1283,23 +1333,6 @@ S -40 100 40 -100 0 1 8 N
 P 5 0 1 10 -75 125 -75 75 75 -75 75 -125 75 -125 N
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenVent_Resistor_2010_0.025OHM_sensing_1%_1W
-#
-DEF OpenVent_Resistor_2010_0.025OHM_sensing_1%_1W R 0 0 Y Y 1 F N
-F0 "R" 140 100 60 H V L BNN
-F1 "OpenVent_Resistor_2010_0.025OHM_sensing_1%_1W" 150 250 60 H I C CNN
-F2 "Resistor_SMD:R_2010_5025Metric" 0 -300 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "Vishay Dale" 700 -50 50 H I C CNN "Manufacturer"
-F5 "WSL2010R0250FEA18" 650 -200 50 H I C CNN "Mfr_PN"
-F6 "0.025 Ohm" 0 0 50 H V C CNN "Value"
-DRAW
-S 0 -60 200 -140 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #

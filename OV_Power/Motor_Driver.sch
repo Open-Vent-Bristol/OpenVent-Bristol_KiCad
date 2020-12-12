@@ -70,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3650 4550 3650
 Wire Wire Line
-	4200 2700 4200 3650
+	4200 2400 4200 2500
 Wire Wire Line
 	6400 4500 6400 4350
 Wire Wire Line
@@ -365,12 +365,12 @@ $EndComp
 $Comp
 L OpenVent:V_MAIN #PWR019
 U 1 1 5FC35966
-P 4200 2700
-F 0 "#PWR019" H 4200 2550 50  0001 C CNN
-F 1 "V_MAIN" H 4200 2873 50  0000 C CNN
-F 2 "" H 4200 2700 50  0001 C CNN
-F 3 "" H 4200 2700 50  0001 C CNN
-	1    4200 2700
+P 4200 2400
+F 0 "#PWR019" H 4200 2250 50  0001 C CNN
+F 1 "V_MAIN" H 4200 2573 50  0000 C CNN
+F 2 "" H 4200 2400 50  0001 C CNN
+F 3 "" H 4200 2400 50  0001 C CNN
+	1    4200 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -498,42 +498,7 @@ Wire Wire Line
 	6750 2150 6550 2150
 Connection ~ 6550 2150
 Text Notes 7300 3050 0    50   ~ 0
-MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 10A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 250mV, so Vout = 250mV* (1200/100) which is 3.0V.\nAdjust value of R22 to change current measurement span.
-$Comp
-L OpenVent:Resistor_2010_0.025OHM_sensing_1%_1W R21
-U 1 1 5FD70E6B
-P 5200 1050
-F 0 "R21" H 5300 1163 60  0000 C CNN
-F 1 "0.025 Ohm" H 5300 1065 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric" H 5200 750 60  0001 C CNN
-F 3 "" H 5200 1050 60  0001 C CNN
-F 4 "Vishay Dale" H 5900 1000 50  0001 C CNN "Manufacturer"
-F 5 "WSL2010R0250FEA18" H 5850 850 50  0001 C CNN "Mfr_PN"
-	1    5200 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:R_0603_1k2_0.1W_0.1% R22
-U 1 1 5FD757C1
-P 6650 2300
-F 0 "R22" V 6659 2270 50  0000 L CNN
-F 1 "R_0603_1k2_0.1W_0.1%" H 6650 2300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 2300 60  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 6650 2300 50  0001 C CNN
-F 4 "1k20" V 6750 2270 50  0000 L CNN "Val"
-F 5 "0.1%" V 6841 2270 50  0000 L CNN "Tolerance"
-F 6 "0.1W" H 6650 2300 50  0001 C CNN "Watt"
-F 7 "Yageo" H 6650 2300 50  0001 C CNN "Mfr"
-F 8 "RT0603BRD071K2L" H 6650 2300 50  0001 C CNN "Mfr_PN"
-F 9 "RES SMD 1.2K OHM 0.1% 1/10W 0603" H 6650 2300 50  0001 C CNN "Desc"
-F 10 "1.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 6650 2300 50  0001 C CNN "Detailed"
-	1    6650 2300
-	0    1    1    0   
-$EndComp
-Connection ~ 5100 1150
-Connection ~ 5500 1150
-Text Notes 7500 2200 0    71   ~ 14
-0V = 0A, 3V = 10A
+MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 250mV, so Vout = 150mV* (2740/100) which is 4.11V.\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
 Wire Wire Line
 	6550 1250 7100 1250
 Wire Wire Line
@@ -542,4 +507,74 @@ Wire Wire Line
 	6550 1150 6550 1250
 Connection ~ 6100 1150
 Connection ~ 6550 1250
+$Comp
+L OpenVent:R_0603_2k74_0.1W_0.1% R22
+U 1 1 5FD3A248
+P 6650 2300
+F 0 "R22" V 6659 2270 50  0000 L CNN
+F 1 "R_0603_2k74_0.1W_0.1%" H 6650 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 2300 60  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 6650 2300 60  0001 C CNN
+F 4 "2k74" V 6750 2270 50  0000 L CNN "Val"
+F 5 "0.1%" V 6841 2270 50  0000 L CNN "Tolerance"
+F 6 "0.1W" H 6650 2300 50  0001 C CNN "Watt"
+F 7 "Yageo" H 6650 2300 50  0001 C CNN "Mfr"
+F 8 "RT0603BRE072K74L" H 6650 2300 50  0001 C CNN "Mfr_PN"
+F 9 "RES SMD 2.74KOHM 0.1% 1/10W 0603" H 6650 2300 50  0001 C CNN "Desc"
+F 10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 6650 2300 50  0001 C CNN "Detailed"
+	1    6650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:R_2512_15m_cursense R21
+U 1 1 5FD98E9C
+P 5300 1150
+F 0 "R21" H 5300 1357 50  0000 C CNN
+F 1 "R_2512_15m_cursense" H 5530 1110 50  0001 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 5500 1150 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/CSR.pdf" H 5500 1150 50  0001 C CNN
+F 4 "15mOhm" H 5300 1266 50  0000 C CNN "Val"
+F 5 "1%" H 5500 1150 50  0001 C CNN "tol"
+F 6 "2W" H 5500 1150 50  0001 C CNN "Watt"
+F 7 "Riedon" H 5500 1150 50  0001 C CNN "Mfr"
+F 8 "CSR2512A0R015F" H 5500 1150 50  0001 C CNN "Mfr_Pn"
+F 9 "RES 0.015 OHM 1% 2W 2512" H 5500 1150 50  0001 C CNN "Desc"
+F 10 "15 mOhms ±1% 2W Chip Resistor 2512 (6432 Metric) Current Sense, Non-Inductive Metal Element" H 5500 1150 50  0001 C CNN "Detailed"
+	1    5300 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 1150
+Connection ~ 5500 1150
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C10
+U 1 1 5FDC2D70
+P 3850 2700
+F 0 "C10" V 3854 2710 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 3850 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 2700 50  0001 C CNN
+F 3 "" H 3850 2700 50  0001 C CNN
+F 4 "100nF" V 3945 2710 50  0000 L CNN "Val"
+F 5 "25V" H 3850 2700 50  0001 C CNN "Voltage"
+F 6 "10%" H 3850 2700 50  0001 C CNN "Tolerance"
+	1    3850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_0101
+U 1 1 5FDC42B3
+P 3750 2900
+F 0 "#GND_0101" H 3750 2900 20  0001 C CNN
+F 1 "GND" H 3750 2830 50  0001 C CNN
+F 2 "" H 3750 2900 70  0000 C CNN
+F 3 "" H 3750 2900 70  0000 C CNN
+	1    3750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2600 3750 2500
+Wire Wire Line
+	3750 2500 4200 2500
+Connection ~ 4200 2500
+Wire Wire Line
+	4200 2500 4200 3650
 $EndSCHEMATC
