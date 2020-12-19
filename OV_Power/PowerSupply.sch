@@ -490,15 +490,15 @@ MOTOR_CURRENT
 Wire Wire Line
 	2300 5200 1800 5200
 $Comp
-L OpenVent:Kycon_kpjx-4s J1
+L OpenVent:Kycon_kpjx-4s_shielded J1
 U 1 1 5FBCEB95
 P 1050 1700
 F 0 "J1" H 1050 2067 50  0000 C CNN
-F 1 "Kycon_kpjx-4s" H 1050 1976 50  0000 C CNN
-F 2 "OpenVent:Kycon_KPJX-4S" H 1050 1700 50  0001 C CNN
-F 3 "http://www.kycon.com/Pub_Eng_Draw/KPJX-4S.pdf" H 1050 1700 50  0001 C CNN
+F 1 "Kycon_kpjx-4s_shielded" H 1100 2250 50  0000 C CNN
+F 2 "OpenVent:Kycon_KPJX-4S_SHIELD" H 1050 1700 50  0001 C CNN
+F 3 "http://www.kycon.com/Pub_Eng_Draw/KPJX-4S-S.pdf" H 1050 1700 50  0001 C CNN
 F 4 "Kycon, Inc." H 1050 1700 50  0001 C CNN "Mfr"
-F 5 "KPJX-4S" H 1050 1700 50  0001 C CNN "Mfr_PN"
+F 5 "KPJX-4S-S" H 1050 1700 50  0001 C CNN "Mfr_PN"
 F 6 "4 (Power) Position Circular Connector Jack, Female Sockets Solder" H 1050 1700 50  0001 C CNN "Detailed"
 F 7 "CONN JACK FMALE 4POS TIN SOLDER" H 1050 1700 50  0001 C CNN "Desc"
 	1    1050 1700
@@ -517,11 +517,11 @@ Wire Wire Line
 Wire Wire Line
 	1350 1600 1400 1600
 Wire Wire Line
-	1400 1600 1400 2000
+	1400 1600 1400 1800
 Wire Wire Line
 	1400 2000 1050 2000
 Wire Wire Line
-	700  2000 700  1700
+	700  2000 700  1900
 Wire Wire Line
 	700  1700 750  1700
 Wire Wire Line
@@ -795,4 +795,24 @@ Wire Wire Line
 Connection ~ 3150 1700
 Wire Wire Line
 	3150 1700 3550 1700
+Wire Wire Line
+	750  1800 700  1800
+Connection ~ 700  1800
+Wire Wire Line
+	700  1800 700  1700
+Wire Wire Line
+	750  1900 700  1900
+Connection ~ 700  1900
+Wire Wire Line
+	700  1900 700  1800
+Wire Wire Line
+	1350 1900 1400 1900
+Connection ~ 1400 1900
+Wire Wire Line
+	1400 1900 1400 2000
+Wire Wire Line
+	1350 1800 1400 1800
+Connection ~ 1400 1800
+Wire Wire Line
+	1400 1800 1400 1900
 $EndSCHEMATC

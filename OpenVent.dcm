@@ -87,6 +87,12 @@ K Mini-DIN
 F http://www.kycon.com/Pub_Eng_Draw/KPJX-4S.pdf
 $ENDCMP
 #
+$CMP Kycon_kpjx-4s_shielded
+D 4 (Power) Position Circular Connector Jack, Female Sockets Solder
+K Mini-DIN
+F http://www.kycon.com/Pub_Eng_Draw/KPJX-4S-S.pdf
+$ENDCMP
+#
 $CMP LMC6772AIMX
 D IC COMPAR DUAL MICPWR CMOS 8SOIC
 K Comparator SOIC dual

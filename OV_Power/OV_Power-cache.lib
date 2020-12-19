@@ -604,15 +604,15 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent_Kycon_kpjx-4s
+# OpenVent_Kycon_kpjx-4s_shielded
 #
-DEF OpenVent_Kycon_kpjx-4s J 0 40 Y Y 1 F N
+DEF OpenVent_Kycon_kpjx-4s_shielded J 0 40 Y Y 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "OpenVent_Kycon_kpjx-4s" 0 -250 50 H V C CNN
-F2 "OpenVent:Kycon_KPJX-4S" 0 0 50 H I C CNN
+F1 "OpenVent_Kycon_kpjx-4s_shielded" -50 -450 50 H V C CNN
+F2 "OpenVent:Kycon_KPJX-4S_SHIELDED" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Kycon, Inc." 0 0 50 H I C CNN "Mfr"
-F5 "KPJX-4S" 0 0 50 H I C CNN "Mfr_PN"
+F5 "KPJX-4S-S" 0 0 50 H I C CNN "Mfr_PN"
 F6 "4 (Power) Position Circular Connector Jack, Female Sockets Solder" 0 0 50 H I C CNN "Detailed"
 F7 "CONN JACK FMALE 4POS TIN SOLDER" 0 0 50 H I C CNN "Desc"
 $FPLIST
@@ -627,17 +627,32 @@ C -80 100 20 0 1 0 N
 C 90 100 20 0 1 0 N
 C 130 0 20 0 1 0 N
 S -40 -100 40 -140 0 1 0 F
+P 2 0 1 0 -165 -205 -175 -230 N
 P 2 0 1 0 -150 0 -200 0 N
+P 2 0 1 0 -135 -205 -145 -230 N
+P 2 0 1 0 -135 -205 -105 -205 N
+P 2 0 1 0 -105 -205 -115 -230 N
 P 2 0 1 0 -100 100 -200 100 N
 P 2 0 1 0 110 100 200 100 N
 P 2 0 1 0 200 0 150 0 N
 P 3 0 1 10 -170 -100 -120 -100 -120 -160 N
+P 3 0 1 0 -135 -180 -135 -205 -165 -205 N
 P 3 0 1 10 170 -100 120 -100 120 -160 N
 P 4 0 1 10 -40 200 -40 160 40 160 40 200 N
+P 6 0 1 0 -150 -100 -200 -100 -200 -250 200 -250 200 -100 150 -100 N
+P 2 1 1 0 105 -205 95 -230 N
+P 2 1 1 0 135 -205 125 -230 N
+P 2 1 1 0 135 -205 165 -205 N
+P 2 1 1 0 165 -205 155 -230 N
+P 3 1 1 0 135 -180 135 -205 105 -205 N
 X ~ 1 300 0 100 L 50 50 1 1 P
 X ~ 2 -300 0 100 R 50 50 1 1 P
 X ~ 3 300 100 100 L 50 50 1 1 P
 X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 -300 -100 100 R 50 50 1 1 P
+X ~ 6 -300 -200 100 R 50 50 1 1 P
+X ~ 7 300 -100 100 L 50 50 1 1 P
+X ~ 8 300 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
