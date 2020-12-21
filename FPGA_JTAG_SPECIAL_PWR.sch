@@ -1097,8 +1097,6 @@ Text Notes 9100 1025 0    50   ~ 0
 HAS TO BE LDO
 Text Notes 6875 1025 0    50   ~ 0
 HAS TO BE LDO
-Text Notes 1025 4850 0    50   ~ 0
-Fix arrow direction\n\n
 $Comp
 L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 5FC1B224

@@ -645,7 +645,7 @@ Connection ~ 4400 1500
 Wire Wire Line
 	1800 5200 2950 5200
 Wire Wire Line
-	2300 3500 3500 3500
+	2300 3500 2950 3500
 $Comp
 L OpenVent:TLV2333IDR U12
 U 2 1 5FCC391E
@@ -841,4 +841,13 @@ F 6 "10%" H 8600 2400 50  0001 C CNN "Tolerance"
 	1    8600 2400
 	1    0    0    -1  
 $EndComp
+Connection ~ 2950 3500
+Wire Wire Line
+	2950 3500 3500 3500
+Text Notes 8325 1400 0    50   ~ 0
+RICK TO REVIEW THIS SHEET
+Text Notes 1650 6650 0    50   ~ 0
+Darren's Flow senser, maybe plus opamps or whatever is needed
+Text Notes 1150 6900 0    50   ~ 0
+https://drive.google.com/file/d/1mZiFeJ4HfEkPdwHjtIVVL5XULqvMIZ-r/view
 $EndSCHEMATC

@@ -1774,4 +1774,12 @@ NoConn ~ 10000 4350
 NoConn ~ 10000 4450
 NoConn ~ 7700 4750
 NoConn ~ 6800 4550
+Text Notes 3275 5775 0    50   ~ 0
+VDDUSB PIN SHOULD BE TIED TO 3V3 not always on\n
+Text Notes 6500 4250 0    50   ~ 0
+NRST SHOULD BE PULLED UP TO 3V3 ALWAYS ON
+Text Notes 625  225  0    50   ~ 0
+SWD protection: 33ohm resistor in series in each line and then on the side between the resistor and micro put the ESD diode
+Text Notes 650  325  0    50   ~ 0
+anything that goes to a connector should have ESD protection on it
 $EndSCHEMATC

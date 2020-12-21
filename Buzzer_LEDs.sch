@@ -731,4 +731,14 @@ F 3 "" H 9800 3600 50  0001 C CNN
 $EndComp
 Text Notes 2750 3125 0    60   ~ 0
 Put a 100nF on the end and one in the middle\n
+Text Notes 900  4300 0    50   ~ 0
+Sounder current, what is it? feedback signal that indigates that the beeper is working. We need to know what that signal looks like and the  figure out what we do with it
+Text Notes 900  4550 0    50   ~ 0
+sounder drive is ggoing to be 3v3 or 5v
+Text Notes 925  4800 0    50   ~ 0
+Make Q2 P transistor
+Text Notes 1050 5050 0    50   ~ 0
+Sounder drive will be global thing too, comingf from the FPGA
+Text Notes 1075 5400 0    50   ~ 0
+Sounder current coming into pin 8 on the micro
 $EndSCHEMATC

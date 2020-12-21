@@ -381,4 +381,18 @@ Wire Wire Line
 	2450 1900 2400 1900
 Wire Wire Line
 	2400 1900 2400 1950
+Text Notes 9275 1200 0    50   ~ 0
+THE OUTPUT FROM THE OSCILLATOR IS\n HOOKED UP WRONG, IT NEEDS TO GO \nTO PIN 40. PIN  ONE 
+Text Notes 9250 1450 0    50   ~ 0
+pin 1 10k res 3v3
+Text Notes 9200 1675 0    50   ~ 0
+get rid of 15 pf and it goes directly into the FPGA\n
+Text Notes 2250 2450 0    50   ~ 0
+DRDY CHECK IF NEEDS PULL UP
+Text Notes 2075 2775 0    50   ~ 0
+PUT CORRECT URL TO PARTS
+Text Notes 2150 3125 0    50   ~ 0
+stuff that the FPGA needs for support\n
+Text Notes 1750 3450 0    50   ~ 0
+ADC COMPARATER STUFF AS PER RICK'S MESSAGE (USE SAME FROM POWER SUPPLY PAGE)
 $EndSCHEMATC
