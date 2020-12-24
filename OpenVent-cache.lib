@@ -410,26 +410,6 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V
-#
-DEF OpenVent_15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C 0 40 Y Y 1 F N
-F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "15pF" 0 0 50 H V C CNN "Val"
-F5 "50V" 0 0 50 H I C CNN "Voltage"
-F6 "5%" 0 0 50 H I C CNN "Tolerance"
-DRAW
-P 2 0 1 10 0 -100 30 -100 N
-P 2 0 1 10 30 -180 30 -20 N
-P 2 0 1 10 70 -20 70 -180 N
-P 2 0 1 10 100 -100 70 -100 N
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 200 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # OpenVent_16_Way_2.54mm_Pitch_Pin_Header
 #
 DEF OpenVent_16_Way_2.54mm_Pitch_Pin_Header MP 0 40 Y Y 1 F N
@@ -1510,6 +1490,30 @@ S 0 -60 200 -140 0 1 10 f
 S 200 -140 0 -60 0 1 10 f
 X 1 1 -100 -100 100 R 1 1 0 1 P
 X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_SP3522-01UTG
+#
+DEF OpenVent_SP3522-01UTG D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "OpenVent_SP3522-01UTG" 0 -150 50 H V C CNN
+F2 "0603 diode" 50 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" 0 -300 50 H I C CNN "Detailed"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 50 50 75 50 N
+P 2 1 1 0 -50 0 50 0 N
+P 3 1 1 10 50 50 50 -50 30 -50 N
+P 4 1 1 10 -50 50 -50 -50 50 0 -50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
