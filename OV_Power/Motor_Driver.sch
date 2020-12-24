@@ -22,12 +22,12 @@ MOTOR-IN-B
 $Comp
 L OpenVent:GND #GND_016
 U 1 1 5F8DD12E
-P 7100 1750
-F 0 "#GND_016" H 7100 1750 20  0001 C CNN
-F 1 "GND" H 7100 1680 50  0001 C CNN
-F 2 "" H 7100 1750 70  0000 C CNN
-F 3 "" H 7100 1750 70  0000 C CNN
-	1    7100 1750
+P 9300 1750
+F 0 "#GND_016" H 9300 1750 20  0001 C CNN
+F 1 "GND" H 9300 1680 50  0001 C CNN
+F 2 "" H 9300 1750 70  0000 C CNN
+F 3 "" H 9300 1750 70  0000 C CNN
+	1    9300 1750
 	1    0    0    -1  
 $EndComp
 Text Notes 8750 4500 0    60   ~ 0
@@ -104,8 +104,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 1700 6550 1700
 Wire Wire Line
-	7100 1750 7100 1700
-Wire Wire Line
 	4150 4750 4150 4850
 Wire Wire Line
 	4150 4650 4150 4750
@@ -134,7 +132,6 @@ Connection ~ 6400 3650
 Connection ~ 6400 3550
 Connection ~ 6750 4500
 Connection ~ 7200 4500
-Connection ~ 7100 1700
 $Comp
 L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R24
 U 1 1 5F8DD119
@@ -500,13 +497,10 @@ Connection ~ 6550 2150
 Text Notes 7300 3050 0    50   ~ 0
 MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 250mV, so Vout = 150mV* (2740/100) which is 4.11V.\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
 Wire Wire Line
-	6550 1250 7100 1250
-Wire Wire Line
 	6100 1150 6550 1150
 Wire Wire Line
 	6550 1150 6550 1250
 Connection ~ 6100 1150
-Connection ~ 6550 1250
 $Comp
 L OpenVent:R_0603_2k74_0.1W_0.1% R22
 U 1 1 5FD3A248
@@ -577,4 +571,132 @@ Wire Wire Line
 Connection ~ 4200 2500
 Wire Wire Line
 	4200 2500 4200 3650
+$Comp
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C16
+U 1 1 5FE5727D
+P 7650 1250
+F 0 "C16" V 7709 1360 50  0000 L CNN
+F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 7650 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 7650 1250 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 7650 1250 60  0001 C CNN
+F 4 "1000uF" V 7800 1360 50  0000 L CNN "Val"
+F 5 "25V" V 7891 1360 50  0000 L CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 7650 1250 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 7650 1250 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 7650 1250 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 7650 1250 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 7650 1250 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 7650 1250 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 7650 1250 50  0001 C CNN "Tolerance"
+	1    7650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C17
+U 1 1 5FE579F4
+P 8200 1250
+F 0 "C17" V 8259 1360 50  0000 L CNN
+F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 8200 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 8200 1250 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 8200 1250 60  0001 C CNN
+F 4 "1000uF" V 8350 1360 50  0000 L CNN "Val"
+F 5 "25V" V 8441 1360 50  0000 L CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 8200 1250 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 8200 1250 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 8200 1250 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 8200 1250 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 8200 1250 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 8200 1250 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 8200 1250 50  0001 C CNN "Tolerance"
+	1    8200 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C18
+U 1 1 5FE58241
+P 8750 1250
+F 0 "C18" V 8809 1360 50  0000 L CNN
+F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 8750 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 8750 1250 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 8750 1250 60  0001 C CNN
+F 4 "1000uF" V 8900 1360 50  0000 L CNN "Val"
+F 5 "25V" V 8991 1360 50  0000 L CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 8750 1250 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 8750 1250 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 8750 1250 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 8750 1250 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 8750 1250 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 8750 1250 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 8750 1250 50  0001 C CNN "Tolerance"
+	1    8750 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C19
+U 1 1 5FE58A16
+P 9300 1250
+F 0 "C19" V 9359 1360 50  0000 L CNN
+F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 9300 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 9300 1250 60  0001 C CNN
+F 3 "https://www.digikey.com/en/product-highlight/u/united-chemi-con/mzs-series-aluminum-electrolytic-capacitors" H 9300 1250 60  0001 C CNN
+F 4 "1000uF" V 9450 1360 50  0000 L CNN "Val"
+F 5 "25V" V 9541 1360 50  0000 L CNN "Voltage"
+F 6 "CAP ALUM 1000UF 20% 25V SMD" H 9300 1250 50  0001 C CNN "Desc"
+F 7 "Aluminum Electrolytic Capacitors Radial, Can - SMD 60mOhm @ 100kHz 2000 Hrs @ 105°C" H 9300 1250 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 9300 1250 50  0001 C CNN "DistName"
+F 9 "565-5120-2-ND" H 9300 1250 50  0001 C CNN "Dist_PN"
+F 10 "United Chemi-Con" H 9300 1250 50  0001 C CNN "Mfr"
+F 11 "EMZS250ARA102MJA0G" H 9300 1250 50  0001 C CNN "Mfr_PN"
+F 12 "20%" H 9300 1250 50  0001 C CNN "Tolerance"
+	1    9300 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1150 7100 1150
+Wire Wire Line
+	9300 1150 9300 1250
+Connection ~ 6550 1150
+Wire Wire Line
+	8750 1150 8750 1250
+Connection ~ 8750 1150
+Wire Wire Line
+	8750 1150 9300 1150
+Wire Wire Line
+	8200 1250 8200 1150
+Connection ~ 8200 1150
+Wire Wire Line
+	8200 1150 8750 1150
+Wire Wire Line
+	7650 1250 7650 1150
+Connection ~ 7650 1150
+Wire Wire Line
+	7650 1150 8200 1150
+Wire Wire Line
+	7100 1250 7100 1150
+Connection ~ 7100 1150
+Wire Wire Line
+	7100 1150 7650 1150
+Wire Wire Line
+	7100 1700 7650 1700
+Wire Wire Line
+	9300 1700 9300 1750
+Connection ~ 7100 1700
+Wire Wire Line
+	9300 1550 9300 1700
+Connection ~ 9300 1700
+Wire Wire Line
+	8750 1550 8750 1700
+Connection ~ 8750 1700
+Wire Wire Line
+	8750 1700 9300 1700
+Wire Wire Line
+	8200 1550 8200 1700
+Connection ~ 8200 1700
+Wire Wire Line
+	8200 1700 8750 1700
+Wire Wire Line
+	7650 1550 7650 1700
+Connection ~ 7650 1700
+Wire Wire Line
+	7650 1700 8200 1700
 $EndSCHEMATC
