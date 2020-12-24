@@ -53,6 +53,12 @@ D Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC
 F www.aosmd.com/res/data_sheets/AOSD21307.pdf
 $ENDCMP
 #
+$CMP BLA31BD121SN4D
+D FERRITE BEAD 120 OHM 1206 4LN
+K L ferrite bead inductor filter
+F https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf
+$ENDCMP
+#
 $CMP CONN_HEADER_2.54X2_MOLEX_KK_Series
 D Connector Header Through Hole 2 position 0.100" (2.54mm)
 F https://www.molex.com/webdocs/datasheets/pdf/en-us//0022232021_PCB_HEADERS.pdf
