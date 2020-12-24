@@ -96,12 +96,12 @@ $EndComp
 $Comp
 L OpenVent:GND #PWR01
 U 1 1 5F8DD176
-P 2600 1300
-F 0 "#PWR01" H 2600 1300 20  0001 C CNN
-F 1 "GND" H 2600 1230 50  0001 C CNN
-F 2 "" H 2600 1300 70  0001 C CNN
-F 3 "" H 2600 1300 70  0001 C CNN
-	1    2600 1300
+P 3350 1225
+F 0 "#PWR01" H 3350 1225 20  0001 C CNN
+F 1 "GND" H 3350 1155 50  0001 C CNN
+F 2 "" H 3350 1225 70  0001 C CNN
+F 3 "" H 3350 1225 70  0001 C CNN
+	1    3350 1225
 	1    0    0    -1  
 $EndComp
 Text Label 2400 5100 0    50   ~ 0
@@ -337,7 +337,7 @@ Text Label 4150 3100 0    50   ~ 0
 SWD-CLK
 Text Label 4150 3000 0    50   ~ 0
 SWD-DIO
-Text Label 700  1200 0    50   ~ 0
+Text Label 1275 1175 0    50   ~ 0
 SWD-DIO
 Text Label 4050 2600 0    50   ~ 0
 USART-STM-TX
@@ -370,17 +370,17 @@ $EndComp
 $Comp
 L OpenVent:GND #GND_06
 U 1 1 5F8DD162
-P 2300 2000
-F 0 "#GND_06" H 2300 2000 20  0001 C CNN
-F 1 "GND" H 2300 1930 50  0001 C CNN
-F 2 "" H 2300 2000 70  0000 C CNN
-F 3 "" H 2300 2000 70  0000 C CNN
-	1    2300 2000
+P 2875 1975
+F 0 "#GND_06" H 2875 1975 20  0001 C CNN
+F 1 "GND" H 2875 1905 50  0001 C CNN
+F 2 "" H 2875 1975 70  0000 C CNN
+F 3 "" H 2875 1975 70  0000 C CNN
+	1    2875 1975
 	1    0    0    -1  
 $EndComp
-Text Label 700  1300 0    50   ~ 0
+Text Label 1275 1275 0    50   ~ 0
 SWD-CLK
-Text Label 700  1600 0    50   ~ 0
+Text Label 1275 1575 0    50   ~ 0
 ~RESET~
 Text GLabel 4800 1600 0    50   Input ~ 0
 PRESSURE-SENSOR
@@ -444,7 +444,7 @@ Text GLabel 4750 3900 0    50   Input ~ 0
 nMOTOR-FAULT-B
 Text GLabel 4750 3800 0    50   Input ~ 0
 ISNS
-Text Notes 1300 650  0    50   ~ 0
+Text Notes 1875 625  0    50   ~ 0
 SWD Connector
 Text Notes 550  6650 0    50   ~ 0
 Encoder / Motor Position Sensor
@@ -492,12 +492,12 @@ $EndComp
 $Comp
 L OpenVent:3V3 #3V3_04
 U 1 1 5F8DD15A
-P 2600 750
-F 0 "#3V3_04" H 2600 750 20  0001 C CNN
-F 1 "3V3" H 2600 900 50  0000 C CNN
-F 2 "" H 2600 750 70  0001 C CNN
-F 3 "" H 2600 750 70  0001 C CNN
-	1    2600 750 
+P 3350 675
+F 0 "#3V3_04" H 3350 675 20  0001 C CNN
+F 1 "3V3" H 3350 825 50  0000 C CNN
+F 2 "" H 3350 675 70  0001 C CNN
+F 3 "" H 3350 675 70  0001 C CNN
+	1    3350 675 
 	1    0    0    -1  
 $EndComp
 Text Label 3650 2200 2    50   ~ 0
@@ -595,25 +595,25 @@ Wire Wire Line
 Wire Wire Line
 	1700 4050 1700 3700
 Wire Wire Line
-	2800 2800 1800 2800
+	2800 2800 2375 2800
 Wire Wire Line
 	2800 2600 2800 2800
 Wire Wire Line
 	4950 2600 2800 2600
 Wire Wire Line
-	1800 2700 4950 2700
+	1800 2700 1975 2700
 Wire Wire Line
 	2300 2400 1800 2400
 Wire Wire Line
 	2300 2450 2300 2400
 Wire Wire Line
-	3000 1300 3000 1100
+	3750 1225 3750 1025
 Wire Wire Line
-	2600 1200 2600 1300
+	3350 1125 3350 1225
 Wire Wire Line
-	2600 900  2600 750 
+	3350 825  3350 675 
 Wire Wire Line
-	3050 900  2600 900 
+	3800 825  3350 825 
 Wire Wire Line
 	3350 6600 3350 6500
 Wire Wire Line
@@ -819,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 6200 3000 6150
 Connection ~ 1500 4350
-Connection ~ 2600 1300
+Connection ~ 3350 1225
 Connection ~ 2600 6800
 Connection ~ 3000 6800
 Connection ~ 3350 6500
@@ -1101,32 +1101,32 @@ $EndComp
 $Comp
 L OpenVent:TMP236A4DBZT U1
 U 1 1 5F8DD13E
-P 3550 1000
-F 0 "U1" H 3250 1250 50  0000 L BNN
-F 1 "TMP236A4DBZT" H 3550 750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3550 1000 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp236" H 3550 1000 50  0001 C CNN
-F 4 "Texas Instruments" H 3550 1000 50  0001 C CNN "Mfr"
-F 5 "TMP236A4DBZT" H 3550 1000 50  0001 C CNN "Mfr_PN"
-F 6 "SENSOR TEMPERATURE" H 3550 1000 50  0001 C CNN "Desc"
-F 7 "Temperature Sensor Analog, Local -10°C ~ 125°C 19.5mV/°C SOT-23-3" H 3550 1000 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 3550 1000 50  0001 C CNN "DistName"
-F 9 "296-TMP236A4DBZTTR-ND" H 3550 1000 50  0001 C CNN "Dist_PN"
-	1    3550 1000
+P 4300 925
+F 0 "U1" H 4000 1175 50  0000 L BNN
+F 1 "TMP236A4DBZT" H 4300 675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 925 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp236" H 4300 925 50  0001 C CNN
+F 4 "Texas Instruments" H 4300 925 50  0001 C CNN "Mfr"
+F 5 "TMP236A4DBZT" H 4300 925 50  0001 C CNN "Mfr_PN"
+F 6 "SENSOR TEMPERATURE" H 4300 925 50  0001 C CNN "Desc"
+F 7 "Temperature Sensor Analog, Local -10°C ~ 125°C 19.5mV/°C SOT-23-3" H 4300 925 50  0001 C CNN "Detailed"
+F 8 "DigiKey" H 4300 925 50  0001 C CNN "DistName"
+F 9 "296-TMP236A4DBZTTR-ND" H 4300 925 50  0001 C CNN "Dist_PN"
+	1    4300 925 
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C2
 U 1 1 5F8DD13D
-P 2500 1100
-F 0 "C2" V 2650 850 50  0000 L BNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 2410 910 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2410 910 50  0001 C CNN
-F 3 "" H 2410 910 50  0001 C CNN
-F 4 "25V" V 1900 -2000 50  0001 C CNN "Voltage"
-F 5 "10%" H 2500 1100 50  0001 C CNN "Tolerance"
-F 6 "100nF" V 2450 800 50  0000 C CNN "Val"
-	1    2500 1100
+P 3250 1025
+F 0 "C2" V 3400 775 50  0000 L BNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 3160 835 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3160 835 50  0001 C CNN
+F 3 "" H 3160 835 50  0001 C CNN
+F 4 "25V" V 2650 -2075 50  0001 C CNN "Voltage"
+F 5 "10%" H 3250 1025 50  0001 C CNN "Tolerance"
+F 6 "100nF" V 3200 725 50  0000 C CNN "Val"
+	1    3250 1025
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1395,67 +1395,63 @@ Connection ~ 1700 3700
 $Comp
 L OpenVent:2x10_Way_2.54mm_Pitch_Header CN1
 U 1 1 5F8DD145
-P 1050 1800
-F 0 "CN1" H 1300 2850 50  0000 L BNN
-F 1 "2x10_Way_2.54mm_Pitch_Header" H 450 600 50  0001 L BNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 750 600 50  0001 C CNN
-F 3 "" H 750 600 50  0001 C CNN
-	1    1050 1800
+P 1625 1775
+F 0 "CN1" H 1875 2825 50  0000 L BNN
+F 1 "2x10_Way_2.54mm_Pitch_Header" H 1025 575 50  0001 L BNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1325 575 50  0001 C CNN
+F 3 "" H 1325 575 50  0001 C CNN
+	1    1625 1775
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:3V3 #3V3_01
 U 1 1 5F8DD163
-P 900 900
-F 0 "#3V3_01" H 900 900 20  0001 C CNN
-F 1 "3V3" H 900 1050 50  0000 C CNN
-F 2 "" H 900 900 70  0001 C CNN
-F 3 "" H 900 900 70  0001 C CNN
-	1    900  900 
+P 1475 875
+F 0 "#3V3_01" H 1475 875 20  0001 C CNN
+F 1 "3V3" H 1475 1025 50  0000 C CNN
+F 2 "" H 1475 875 70  0001 C CNN
+F 3 "" H 1475 875 70  0001 C CNN
+	1    1475 875 
 	1    0    0    -1  
 $EndComp
-Connection ~ 2300 1800
+Connection ~ 2875 1775
 Wire Wire Line
-	2300 1800 2300 2000
-Connection ~ 2300 1700
+	2875 1775 2875 1975
+Connection ~ 2875 1675
 Wire Wire Line
-	2300 1700 2300 1800
-Connection ~ 2300 1600
+	2875 1675 2875 1775
+Connection ~ 2875 1575
 Wire Wire Line
-	2300 1600 2300 1700
-Connection ~ 2300 1500
+	2875 1575 2875 1675
+Connection ~ 2875 1475
 Wire Wire Line
-	2300 1500 2300 1600
-Connection ~ 2300 1400
+	2875 1475 2875 1575
+Connection ~ 2875 1375
 Wire Wire Line
-	2300 1400 2300 1500
-Connection ~ 2300 1300
+	2875 1375 2875 1475
+Connection ~ 2875 1275
 Wire Wire Line
-	2300 1300 2300 1400
-Connection ~ 2300 1200
+	2875 1275 2875 1375
+Connection ~ 2875 1175
 Wire Wire Line
-	2300 1200 2300 1300
-Connection ~ 2300 1100
+	2875 1175 2875 1275
+Connection ~ 2875 1075
 Wire Wire Line
-	2300 1100 2300 1200
+	2875 1075 2875 1175
 Wire Wire Line
-	2300 1000 2300 1100
+	2875 975  2875 1075
 Wire Wire Line
 	3650 2200 4950 2200
-Wire Wire Line
-	4200 1000 4200 1450
-Wire Wire Line
-	4200 1450 3600 1450
 Wire Wire Line
 	3600 1450 3600 1800
 Wire Wire Line
 	3600 1800 4950 1800
 Wire Wire Line
-	4050 1000 4200 1000
+	4800 925  4950 925 
 Wire Wire Line
-	3000 1100 3050 1100
+	3750 1025 3800 1025
 Wire Wire Line
-	2600 1300 3000 1300
+	3350 1225 3750 1225
 Wire Wire Line
 	1700 3600 1700 3700
 Wire Wire Line
@@ -1511,33 +1507,33 @@ F 3 "" H 8900 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 850  7000 1200
-Connection ~ 2600 900 
+Connection ~ 3350 825 
 Wire Wire Line
-	900  900  1100 900 
+	1475 875  1675 875 
 Wire Wire Line
-	700  1200 1100 1200
+	1275 1175 1675 1175
 Wire Wire Line
-	700  1300 1100 1300
+	1275 1275 1675 1275
 Wire Wire Line
-	700  1600 1100 1600
+	1275 1575 1675 1575
 Wire Wire Line
-	2100 1000 2300 1000
+	2675 975  2875 975 
 Wire Wire Line
-	2100 1100 2300 1100
+	2675 1075 2875 1075
 Wire Wire Line
-	2100 1200 2300 1200
+	2675 1175 2875 1175
 Wire Wire Line
-	2100 1300 2300 1300
+	2675 1275 2875 1275
 Wire Wire Line
-	2100 1400 2300 1400
+	2675 1375 2875 1375
 Wire Wire Line
-	2100 1500 2300 1500
+	2675 1475 2875 1475
 Wire Wire Line
-	2100 1600 2300 1600
+	2675 1575 2875 1575
 Wire Wire Line
-	2100 1700 2300 1700
+	2675 1675 2875 1675
 Wire Wire Line
-	2100 1800 2300 1800
+	2675 1775 2875 1775
 Wire Wire Line
 	1450 5300 1450 5350
 Wire Wire Line
@@ -1756,13 +1752,13 @@ Wire Wire Line
 	3450 4100 3450 4200
 Wire Wire Line
 	3450 4200 3350 4200
-NoConn ~ 2100 900 
-NoConn ~ 1100 1000
-NoConn ~ 1100 1100
-NoConn ~ 1100 1400
-NoConn ~ 1100 1500
-NoConn ~ 1100 1700
-NoConn ~ 1100 1800
+NoConn ~ 2675 875 
+NoConn ~ 1675 975 
+NoConn ~ 1675 1075
+NoConn ~ 1675 1375
+NoConn ~ 1675 1475
+NoConn ~ 1675 1675
+NoConn ~ 1675 1775
 NoConn ~ 4950 4900
 NoConn ~ 10000 1650
 NoConn ~ 10000 1750
@@ -1782,4 +1778,84 @@ Text Notes 625  225  0    50   ~ 0
 SWD protection: 33ohm resistor in series in each line and then on the side between the resistor and micro put the ESD diode
 Text Notes 650  325  0    50   ~ 0
 anything that goes to a connector should have ESD protection on it
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FE9EE81
+P 975 1075
+F 0 "R?" H 1075 1182 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 625 1425 50  0001 C CNN
+F 2 "" H 1175 1075 50  0001 C CNN
+F 3 "" H 975 1075 50  0001 C CNN
+F 4 "33R" H 1075 1091 50  0000 C CNN "Val"
+F 5 "1%" H 1525 1075 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 975 1075 50  0001 C CNN "Watt"
+	1    975  1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1450 4950 925 
+Wire Wire Line
+	3600 1450 4950 1450
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FF20228
+P 975 1175
+F 0 "R?" H 1075 900 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 625 1525 50  0001 C CNN
+F 2 "" H 1175 1175 50  0001 C CNN
+F 3 "" H 975 1175 50  0001 C CNN
+F 4 "33R" H 1075 975 50  0000 C CNN "Val"
+F 5 "1%" H 1525 1175 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 975 1175 50  0001 C CNN "Watt"
+	1    975  1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FF35096
+P 975 1475
+F 0 "R?" H 1075 1200 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 625 1825 50  0001 C CNN
+F 2 "" H 1175 1475 50  0001 C CNN
+F 3 "" H 975 1475 50  0001 C CNN
+F 4 "33R" H 1075 1275 50  0000 C CNN "Val"
+F 5 "1%" H 1525 1475 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 975 1475 50  0001 C CNN "Watt"
+	1    975  1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FF35864
+P 2075 2600
+F 0 "R?" H 2175 2707 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 1725 2950 50  0001 C CNN
+F 2 "" H 2275 2600 50  0001 C CNN
+F 3 "" H 2075 2600 50  0001 C CNN
+F 4 "33R" H 2175 2616 50  0000 C CNN "Val"
+F 5 "1%" H 2625 2600 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2075 2600 50  0001 C CNN "Watt"
+	1    2075 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 2700 4950 2700
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FF35DAD
+P 2075 2700
+F 0 "R?" H 2175 2425 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 1725 3050 50  0001 C CNN
+F 2 "" H 2275 2700 50  0001 C CNN
+F 3 "" H 2075 2700 50  0001 C CNN
+F 4 "33R" H 2175 2500 50  0000 C CNN "Val"
+F 5 "1%" H 2625 2700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2075 2700 50  0001 C CNN "Watt"
+	1    2075 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 2800 1800 2800
+Text Notes 675  675  0    50   ~ 0
+BLA31BD121SN4D\n
 $EndSCHEMATC

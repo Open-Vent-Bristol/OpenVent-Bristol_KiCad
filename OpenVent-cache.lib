@@ -686,6 +686,23 @@ X 9 9 50 500 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_33R_Chip_Resistor,_1%,_0.1W
+#
+DEF OpenVent_33R_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+F0 "R" 140 100 50 H V L BNN
+F1 "OpenVent_33R_Chip_Resistor,_1%,_0.1W" -350 350 50 H I C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "33R" 200 0 50 H V C CNN "Val"
+F5 "1%" 550 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 -60 200 -140 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_33nF_0603_Ceramic_Capacitor,_10%,_50V
 #
 DEF OpenVent_33nF_0603_Ceramic_Capacitor,_10%,_50V C 0 40 Y Y 1 F N
