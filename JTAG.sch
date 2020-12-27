@@ -1010,9 +1010,9 @@ Wire Wire Line
 	4200 5100 4200 5150
 Text GLabel 8000 2300 2    50   Output ~ 0
 TCK
-Text GLabel 8000 2400 2    50   Input ~ 0
+Text GLabel 8000 2400 2    50   Output ~ 0
 TDI
-Text GLabel 8000 2500 2    50   Output ~ 0
+Text GLabel 8000 2500 2    50   Input ~ 0
 TDO
 Text GLabel 8000 2600 2    50   Output ~ 0
 TMS
@@ -1028,4 +1028,12 @@ NoConn ~ 1400 3500
 NoConn ~ 3150 3850
 NoConn ~ 3300 5800
 NoConn ~ 4200 6000
+Text Notes 1175 1175 0    50   ~ 0
+WE NEED VBUS FROM CN5 TO TVS2
+Text Notes 1200 1000 0    50   ~ 0
+REMOVE LDO AND JUST USE 3V3\n
+Text Notes 175  1350 0    50   ~ 0
+IF WE CAN ISOLATE THE JTAG SIGNALS FROM CIRCUIT THEN WE CAN LEAVE IT AS IS 
+Text Notes 8950 4375 0    50   ~ 0
+THIS IS JEFF'S PAGE\n
 $EndSCHEMATC

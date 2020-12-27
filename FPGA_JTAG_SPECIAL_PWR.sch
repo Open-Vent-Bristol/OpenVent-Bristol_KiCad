@@ -277,34 +277,6 @@ $EndComp
 Wire Wire Line
 	3625 1550 3625 1675
 $Comp
-L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R32
-U 1 1 5FCAA592
-P 7600 2400
-F 0 "R32" H 7500 2707 50  0000 C CNN
-F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" H 7600 2400 50  0001 C CNN
-F 2 "" H 7600 2400 50  0001 C CNN
-F 3 "" H 7600 2400 60  0001 C CNN
-F 4 "4k7" H 7500 2616 50  0000 C CNN "Val"
-F 5 "1%" H 7600 2400 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7600 2400 50  0001 C CNN "Watt"
-	1    7600 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R31
-U 1 1 5FCB7193
-P 7400 1975
-F 0 "R31" H 7500 2082 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 7400 1975 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7400 1975 50  0001 C CNN
-F 3 "" H 7400 1975 50  0001 C CNN
-F 4 "2k4" H 7500 1991 50  0000 C CNN "Val"
-F 5 "1%" H 7400 1975 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7400 1975 50  0001 C CNN "Watt"
-	1    7400 1975
-	0    -1   -1   0   
-$EndComp
-$Comp
 L OpenVent:8k2_0603_Chip_Resistor,_1%,_0.1W R33
 U 1 1 5FCB78E3
 P 9500 1900
@@ -332,31 +304,20 @@ F 6 "0.1W" H 9700 2300 50  0001 C CNN "Watt"
 	1    9700 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7500 2300 7500 2225
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 5FCCFD82
-P 7500 2950
+P 7075 2425
 AR Path="/5F8F8987/5FCCFD82" Ref="#PWR?"  Part="1" 
 AR Path="/5FB692C4/5FCCFD82" Ref="#PWR064"  Part="1" 
 AR Path="/5FBE8499/5FCCFD82" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 7500 2700 50  0001 C CNN
-F 1 "GND" H 7500 2800 50  0001 C CNN
-F 2 "" H 7500 2950 50  0001 C CNN
-F 3 "" H 7500 2950 50  0001 C CNN
-	1    7500 2950
+F 0 "#PWR068" H 7075 2175 50  0001 C CNN
+F 1 "GND" H 7075 2275 50  0001 C CNN
+F 2 "" H 7075 2425 50  0001 C CNN
+F 3 "" H 7075 2425 50  0001 C CNN
+	1    7075 2425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 2700 7500 2950
-Wire Wire Line
-	7500 2225 8200 2225
-Connection ~ 7500 2225
-Wire Wire Line
-	7500 2225 7500 2075
-Wire Wire Line
-	7500 1350 7500 1675
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 5FCE591D
@@ -452,12 +413,12 @@ DO NOT FIT
 $Comp
 L OpenVent:+5V_Sensors #PWR067
 U 1 1 5FBC8B4F
-P 7500 1350
-F 0 "#PWR067" H 7500 1200 50  0001 C CNN
-F 1 "+5V_Sensors" H 7500 1523 50  0000 C CNN
-F 2 "" H 7500 1350 50  0001 C CNN
-F 3 "" H 7500 1350 50  0001 C CNN
-	1    7500 1350
+P 7075 1500
+F 0 "#PWR067" H 7075 1350 50  0001 C CNN
+F 1 "+5V_Sensors" H 7075 1673 50  0000 C CNN
+F 2 "" H 7075 1500 50  0001 C CNN
+F 3 "" H 7075 1500 50  0001 C CNN
+	1    7075 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -558,8 +519,6 @@ Wire Wire Line
 	5775 1575 5775 1725
 Text Notes 5475 1600 1    50   ~ 0
 DO NOT FIT
-Wire Wire Line
-	5175 1825 6075 1825
 Wire Wire Line
 	2325 1800 2325 2325
 $Comp
@@ -734,15 +693,15 @@ $EndComp
 $Comp
 L OpenVent:+3V3_Sensors #PWR?
 U 1 1 5FC9D143
-P 8200 2225
+P 8575 1500
 AR Path="/5FC9D143" Ref="#PWR?"  Part="1" 
 AR Path="/5FB692C4/5FC9D143" Ref="#PWR?"  Part="1" 
 AR Path="/5FBE8499/5FC9D143" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 8200 2075 50  0001 C CNN
-F 1 "+3V3_Sensors" H 8200 2398 50  0000 C CNN
-F 2 "" H 8200 2225 50  0001 C CNN
-F 3 "" H 8200 2225 50  0001 C CNN
-	1    8200 2225
+F 0 "#PWR069" H 8575 1350 50  0001 C CNN
+F 1 "+3V3_Sensors" H 8575 1673 50  0000 C CNN
+F 2 "" H 8575 1500 50  0001 C CNN
+F 3 "" H 8575 1500 50  0001 C CNN
+	1    8575 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1097,8 +1056,6 @@ Text Notes 9100 1025 0    50   ~ 0
 HAS TO BE LDO
 Text Notes 6875 1025 0    50   ~ 0
 HAS TO BE LDO
-Text Notes 1025 4850 0    50   ~ 0
-Fix arrow direction\n\n
 $Comp
 L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 5FC1B224
@@ -1331,4 +1288,150 @@ Wire Wire Line
 Connection ~ 9525 5325
 Wire Wire Line
 	9525 5325 10150 5325
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FEC0980
+P 7350 2425
+AR Path="/5F99D63D/5FEC0980" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/5FEC0980" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 2425 50  0001 C CNN
+F 1 "GND" H 7350 2425 50  0001 C CNN
+F 2 "" H 7350 2425 50  0001 C CNN
+F 3 "" H 7350 2425 50  0001 C CNN
+	1    7350 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LDL212D33R U?
+U 1 1 5FEC0997
+P 7500 2025
+AR Path="/5F99D63D/5FEC0997" Ref="U?"  Part="1" 
+AR Path="/5FBE8499/5FEC0997" Ref="U?"  Part="1" 
+F 0 "U?" H 7250 2275 60  0000 L BNN
+F 1 "LDL212D33R" H 8050 1825 50  0000 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 7500 2025 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/ldl212.pdf" H 7500 2025 50  0001 C CNN
+F 4 "LDL212D33R" H 7500 2025 50  0001 C CNN "Mfr_PN"
+F 5 "STMicroelectronics" H 7500 2025 50  0001 C CNN "Mfr"
+F 6 "1.2A" H 7500 2025 50  0001 C CNN "Current"
+F 7 "LDOVOLTAGE REGULATORS 1.2A LOW D" H 7500 2025 50  0001 C CNN "Desc"
+F 8 "Linear Voltage Regulator IC Output 1.2A 8-SO" H 7500 2025 50  0001 C CNN "Detailed"
+F 9 "DigiKey" H 7500 2025 50  0001 C CNN "DistName"
+F 10 "497-18287-2-ND" H 7500 2025 50  0001 C CNN "Dist_PN"
+	1    7500 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 5FEC09A0
+P 8675 2150
+AR Path="/5F99D63D/5FEC09A0" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/5FEC09A0" Ref="C?"  Part="1" 
+F 0 "C?" V 8775 2200 50  0000 L BNN
+F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 8585 1960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8585 1960 50  0001 C CNN
+F 3 "" H 8585 1960 50  0001 C CNN
+F 4 "10%" H 8675 2150 50  0001 C CNN "Tolerance"
+F 5 "1uF" V 8825 2250 50  0000 C CNN "Val"
+F 6 "50V" H 8675 2150 50  0001 C CNN "Voltage"
+	1    8675 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 5FEC09A9
+P 8100 1775
+AR Path="/5FEC09A9" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/5FEC09A9" Ref="R?"  Part="1" 
+AR Path="/5FBE8499/5FEC09A9" Ref="R?"  Part="1" 
+F 0 "R?" H 8100 1775 50  0000 L BNN
+F 1 "0R1_0603_Chip_Resistor,_1%,_0.1W" H 8100 1525 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 1435 50  0001 C CNN
+F 3 "" H 8100 1435 50  0001 C CNN
+F 4 "1%" V -300 -4525 50  0001 C CNN "Tolerance"
+F 5 "0.1 Ohm" H 8200 1575 50  0000 C CNN "Val"
+F 6 "0.1W" H 8100 1775 50  0001 C CNN "Watt"
+	1    8100 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 5FEC09B2
+P 6975 2250
+AR Path="/5F99D63D/5FEC09B2" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/5FEC09B2" Ref="C?"  Part="1" 
+F 0 "C?" V 7075 2250 50  0000 L BNN
+F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 6885 2060 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6885 2060 50  0001 C CNN
+F 3 "" H 6885 2060 50  0001 C CNN
+F 4 "10%" H 6975 2250 50  0001 C CNN "Tolerance"
+F 5 "1uF" V 6950 2275 50  0000 C CNN "Val"
+F 6 "50V" H 6975 2250 50  0001 C CNN "Voltage"
+	1    6975 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 1875 8000 1875
+Wire Wire Line
+	7850 1975 8000 1975
+Wire Wire Line
+	8000 1975 8000 1875
+Wire Wire Line
+	7350 2325 7350 2375
+Wire Wire Line
+	7350 2375 7450 2375
+Wire Wire Line
+	7650 2375 7650 2325
+Connection ~ 7350 2375
+Wire Wire Line
+	7350 2375 7350 2425
+Wire Wire Line
+	7550 2325 7550 2375
+Connection ~ 7550 2375
+Wire Wire Line
+	7550 2375 7650 2375
+Wire Wire Line
+	7450 2325 7450 2375
+Connection ~ 7450 2375
+Wire Wire Line
+	7450 2375 7550 2375
+Wire Wire Line
+	5175 1825 6075 1825
+Wire Wire Line
+	7075 1500 7075 1875
+Connection ~ 7075 1875
+Wire Wire Line
+	7075 1875 7150 1875
+Wire Wire Line
+	7075 1875 7075 1975
+Wire Wire Line
+	7075 1975 7150 1975
+Wire Wire Line
+	7075 2425 7075 2350
+Wire Wire Line
+	7075 2050 7075 1975
+Connection ~ 7075 1975
+Connection ~ 8000 1875
+Wire Wire Line
+	8575 1500 8575 1875
+Wire Wire Line
+	8400 1875 8575 1875
+Connection ~ 8575 1875
+Wire Wire Line
+	8575 1875 8575 2050
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FF69BE4
+P 8575 2400
+AR Path="/5F99D63D/5FF69BE4" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/5FF69BE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8575 2400 50  0001 C CNN
+F 1 "GND" H 8575 2400 50  0001 C CNN
+F 2 "" H 8575 2400 50  0001 C CNN
+F 3 "" H 8575 2400 50  0001 C CNN
+	1    8575 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 2400 8575 2350
 $EndSCHEMATC
