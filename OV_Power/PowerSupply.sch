@@ -451,38 +451,26 @@ Wire Wire Line
 $Comp
 L OpenVent:VBATT #PWR032
 U 1 1 5FB6E37F
-P 3400 4500
-F 0 "#PWR032" H 3400 4350 50  0001 C CNN
-F 1 "VBATT" H 3400 4673 50  0000 C CNN
-F 2 "" H 3400 4500 50  0001 C CNN
-F 3 "" H 3400 4500 50  0001 C CNN
-	1    3400 4500
+P 1800 4500
+F 0 "#PWR032" H 1800 4350 50  0001 C CNN
+F 1 "VBATT" H 1800 4673 50  0000 C CNN
+F 2 "" H 1800 4500 50  0001 C CNN
+F 3 "" H 1800 4500 50  0001 C CNN
+	1    1800 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 4700 3400 4700
-Wire Wire Line
-	3400 4700 3400 4500
-Text GLabel 1800 5000 0    60   Output ~ 0
+	1800 4700 1800 4500
+Text GLabel 3150 5100 2    60   Output ~ 0
 PWM
-Text GLabel 1800 4900 0    60   Output ~ 0
+Text GLabel 3150 5000 2    60   Output ~ 0
 MOTOR-IN-A
-Text GLabel 3150 4900 2    60   Output ~ 0
+Text GLabel 1800 5100 0    60   Output ~ 0
 MOTOR-IN-B
-Text GLabel 1800 4800 0    60   Input ~ 0
+Text GLabel 3150 4900 2    60   Input ~ 0
 nMOTOR-FAULT-A
-Text GLabel 3150 4800 2    60   Input ~ 0
+Text GLabel 1800 5000 0    60   Input ~ 0
 nMOTOR-FAULT-B
-Wire Wire Line
-	1800 4800 2300 4800
-Wire Wire Line
-	2800 4800 3150 4800
-Wire Wire Line
-	1800 4900 2300 4900
-Wire Wire Line
-	3150 4900 2800 4900
-Wire Wire Line
-	2300 5000 1800 5000
 Text GLabel 3150 5400 2    50   Input ~ 0
 CHG_CURRENT
 Text GLabel 1800 5200 0    50   Input ~ 0
@@ -570,23 +558,7 @@ Connection ~ 3900 6900
 Wire Wire Line
 	3900 6900 3900 6950
 Wire Wire Line
-	4000 6600 2150 6600
-Wire Wire Line
-	2150 6600 2150 5300
-Wire Wire Line
-	2150 5300 2300 5300
-Wire Wire Line
-	4000 6500 3750 6500
-Wire Wire Line
-	3750 6500 3750 5200
-Wire Wire Line
-	3750 5200 2800 5200
-Wire Wire Line
-	2800 5000 3850 5000
-Wire Wire Line
-	3850 5000 3850 6400
-Wire Wire Line
-	3850 6400 4000 6400
+	4000 6600 2000 6600
 Text Notes 2200 5800 0    50   ~ 0
 MAIN INTERCONNECT
 Text Notes 3900 7200 0    50   ~ 0
@@ -729,9 +701,7 @@ Wire Wire Line
 	8650 5900 8650 5300
 Wire Wire Line
 	8650 4800 8750 4800
-Wire Wire Line
-	2300 4700 1800 4700
-Text Label 1800 4700 2    50   ~ 0
+Text Label 3250 4700 0    50   ~ 0
 FAN_DRIVE
 Wire Wire Line
 	8650 5300 8200 5300
@@ -764,12 +734,8 @@ Wire Wire Line
 	3900 3800 2800 3800
 Connection ~ 3900 3150
 Wire Wire Line
-	2400 3800 800  3800
-Wire Wire Line
-	800  3800 800  5100
-Wire Wire Line
-	800  5100 2300 5100
-Text Label 800  3800 0    50   ~ 0
+	2400 3800 2200 3800
+Text Label 2200 4150 0    50   ~ 0
 POWER_STATUS
 Wire Wire Line
 	2950 4600 2800 4600
@@ -778,7 +744,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 5400 2800 5400
 NoConn ~ 4200 2450
-NoConn ~ 2800 5100
 $Comp
 L OpenVent:VIN_12V #PWR0101
 U 1 1 5FDCF50B
@@ -815,4 +780,38 @@ Wire Wire Line
 Connection ~ 1400 1800
 Wire Wire Line
 	1400 1800 1400 1900
+Wire Wire Line
+	3250 4700 2800 4700
+Wire Wire Line
+	2300 4700 1800 4700
+Wire Wire Line
+	2300 4800 2000 4800
+Wire Wire Line
+	2000 4800 2000 6600
+Wire Wire Line
+	3050 6500 3050 4800
+Wire Wire Line
+	3050 4800 2800 4800
+Wire Wire Line
+	3050 6500 4000 6500
+Wire Wire Line
+	2100 6400 2100 4900
+Wire Wire Line
+	2100 4900 2300 4900
+Wire Wire Line
+	3150 4900 2800 4900
+Wire Wire Line
+	2300 5000 1800 5000
+Wire Wire Line
+	3150 5000 2800 5000
+Wire Wire Line
+	2300 5100 1800 5100
+Wire Wire Line
+	3150 5100 2800 5100
+Wire Wire Line
+	2300 5300 2200 5300
+Wire Wire Line
+	2200 5300 2200 3800
+Wire Wire Line
+	2100 6400 4000 6400
 $EndSCHEMATC

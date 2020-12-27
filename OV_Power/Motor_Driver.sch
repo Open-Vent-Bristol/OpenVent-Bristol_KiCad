@@ -70,8 +70,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 3650 4550 3650
 Wire Wire Line
-	4200 2400 4200 2500
-Wire Wire Line
 	6400 4500 6400 4350
 Wire Wire Line
 	6750 4500 6400 4500
@@ -359,17 +357,6 @@ F 3 "" H 4700 1050 50  0001 C CNN
 	1    4700 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L OpenVent:V_MAIN #PWR019
-U 1 1 5FC35966
-P 4200 2400
-F 0 "#PWR019" H 4200 2250 50  0001 C CNN
-F 1 "V_MAIN" H 4200 2573 50  0000 C CNN
-F 2 "" H 4200 2400 50  0001 C CNN
-F 3 "" H 4200 2400 50  0001 C CNN
-	1    4200 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 3150 4550 3150
 Wire Wire Line
@@ -455,7 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1150 6100 1150
 Wire Wire Line
-	6100 1150 6100 3050
+	6100 1150 6100 2500
 Connection ~ 6100 3050
 $Comp
 L OpenVent:GND #GND_013
@@ -568,7 +555,6 @@ Wire Wire Line
 	3750 2600 3750 2500
 Wire Wire Line
 	3750 2500 4200 2500
-Connection ~ 4200 2500
 Wire Wire Line
 	4200 2500 4200 3650
 $Comp
@@ -699,4 +685,10 @@ Wire Wire Line
 Connection ~ 7650 1700
 Wire Wire Line
 	7650 1700 8200 1700
+Wire Wire Line
+	4200 2500 6100 2500
+Connection ~ 4200 2500
+Connection ~ 6100 2500
+Wire Wire Line
+	6100 2500 6100 3050
 $EndSCHEMATC
