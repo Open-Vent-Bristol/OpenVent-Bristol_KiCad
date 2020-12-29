@@ -183,7 +183,7 @@ F 3 "" H 6075 1175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 9075 925  0    50   ~ 0
-3V3 to 1.2 divider for VCC\n
+3V3 to 1.2 LDO for VCC\n
 Text Notes 950  900  0    50   ~ 0
 FPGA Power Block
 Text Notes 925  4500 0    50   ~ 0
@@ -219,7 +219,7 @@ F 3 "" H 5100 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6825 925  0    50   ~ 0
-+5V to 3V3 divider for ADC and 3V3 sensors\n
++5V to 3V3 LDO for ADC and 3V3 sensors\n
 Text GLabel 1700 5400 0    50   Input ~ 0
 TDI
 Text GLabel 1700 5500 0    50   Output ~ 0
@@ -277,34 +277,6 @@ $EndComp
 Wire Wire Line
 	3625 1550 3625 1675
 $Comp
-L OpenVent:8k2_0603_Chip_Resistor,_1%,_0.1W R33
-U 1 1 5FCB78E3
-P 9500 1900
-F 0 "R33" H 9600 2007 50  0000 C CNN
-F 1 "8k2_0603_Chip_Resistor,_1%,_0.1W" H 9600 1900 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 1900 50  0001 C CNN
-F 3 "" H 9500 1900 50  0001 C CNN
-F 4 "8k2" H 9600 1916 50  0000 C CNN "Val"
-F 5 "1%" H 9600 1900 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9600 1900 50  0001 C CNN "Watt"
-	1    9500 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R34
-U 1 1 5FCBC9B7
-P 9700 2300
-F 0 "R34" H 9600 2607 50  0000 C CNN
-F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" H 9700 2300 50  0001 C CNN
-F 2 "" H 9700 2300 50  0001 C CNN
-F 3 "" H 9700 2300 60  0001 C CNN
-F 4 "4k7" H 9600 2516 50  0000 C CNN "Val"
-F 5 "1%" H 9700 2300 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9700 2300 50  0001 C CNN "Watt"
-	1    9700 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L OpenVent:GND #PWR?
 U 1 1 5FCCFD82
 P 7075 2425
@@ -321,37 +293,28 @@ $EndComp
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 5FCE591D
-P 9600 2950
+P 10375 2275
 AR Path="/5F8F8987/5FCE591D" Ref="#PWR?"  Part="1" 
 AR Path="/5FB692C4/5FCE591D" Ref="#PWR067"  Part="1" 
 AR Path="/5FBE8499/5FCE591D" Ref="#PWR071"  Part="1" 
-F 0 "#PWR071" H 9600 2700 50  0001 C CNN
-F 1 "GND" H 9600 2800 50  0001 C CNN
-F 2 "" H 9600 2950 50  0001 C CNN
-F 3 "" H 9600 2950 50  0001 C CNN
-	1    9600 2950
+F 0 "#PWR071" H 10375 2025 50  0001 C CNN
+F 1 "GND" H 10375 2125 50  0001 C CNN
+F 2 "" H 10375 2275 50  0001 C CNN
+F 3 "" H 10375 2275 50  0001 C CNN
+	1    10375 2275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2600 9600 2950
-Wire Wire Line
-	9600 2200 9600 2150
 $Comp
 L OpenVent:+1V2 #PWR072
 U 1 1 5FCE9B6E
-P 10375 2150
-F 0 "#PWR072" H 10375 2000 50  0001 C CNN
-F 1 "+1V2" H 10375 2323 50  0000 C CNN
-F 2 "" H 10375 2150 50  0001 C CNN
-F 3 "" H 10375 2150 50  0001 C CNN
-	1    10375 2150
+P 10375 1500
+F 0 "#PWR072" H 10375 1350 50  0001 C CNN
+F 1 "+1V2" H 10375 1673 50  0000 C CNN
+F 2 "" H 10375 1500 50  0001 C CNN
+F 3 "" H 10375 1500 50  0001 C CNN
+	1    10375 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2150 10375 2150
-Connection ~ 9600 2150
-Wire Wire Line
-	9600 2150 9600 2000
 Wire Notes Line
 	6800 800  8850 800 
 Wire Notes Line
@@ -421,20 +384,18 @@ F 3 "" H 7075 1500 50  0001 C CNN
 	1    7075 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 1325 9600 1600
 $Comp
 L OpenVent:+3V3_Sensors #PWR?
 U 1 1 5FBD19B7
-P 9600 1325
+P 9775 1500
 AR Path="/5FBD19B7" Ref="#PWR?"  Part="1" 
 AR Path="/5FB692C4/5FBD19B7" Ref="#PWR066"  Part="1" 
 AR Path="/5FBE8499/5FBD19B7" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 9600 1175 50  0001 C CNN
-F 1 "+3V3_Sensors" H 9600 1498 50  0000 C CNN
-F 2 "" H 9600 1325 50  0001 C CNN
-F 3 "" H 9600 1325 50  0001 C CNN
-	1    9600 1325
+F 0 "#PWR070" H 9775 1350 50  0001 C CNN
+F 1 "+3V3_Sensors" H 9775 1673 50  0000 C CNN
+F 2 "" H 9775 1500 50  0001 C CNN
+F 3 "" H 9775 1500 50  0001 C CNN
+	1    9775 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1052,10 +1013,6 @@ Wire Notes Line
 	11000 3675 11000 6450
 Wire Notes Line
 	6525 3675 6525 6450
-Text Notes 9100 1025 0    50   ~ 0
-HAS TO BE LDO
-Text Notes 6875 1025 0    50   ~ 0
-HAS TO BE LDO
 $Comp
 L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 5FC1B224
@@ -1434,4 +1391,83 @@ F 3 "" H 8575 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 2400 8575 2350
+$Comp
+L OpenVent:TLV75512 U?
+U 1 1 5FF1B728
+P 9875 1775
+F 0 "U?" H 10075 2000 50  0000 C CNN
+F 1 "TLV75512" H 10075 1909 50  0000 C CNN
+F 2 "" H 10075 1975 50  0001 C CNN
+F 3 "" H 10075 1975 50  0001 C CNN
+	1    9875 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 1925 9775 1775
+$Comp
+L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 5FF35DE7
+P 9675 2125
+AR Path="/5F99D63D/5FF35DE7" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/5FF35DE7" Ref="C?"  Part="1" 
+F 0 "C?" V 9775 2125 50  0000 L BNN
+F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 9585 1935 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9585 1935 50  0001 C CNN
+F 3 "" H 9585 1935 50  0001 C CNN
+F 4 "10%" H 9675 2125 50  0001 C CNN "Tolerance"
+F 5 "1uF" V 9650 2150 50  0000 C CNN "Val"
+F 6 "50V" H 9675 2125 50  0001 C CNN "Voltage"
+	1    9675 2125
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9775 1925
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 5FF36185
+P 9775 2275
+AR Path="/5F8F8987/5FF36185" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/5FF36185" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/5FF36185" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9775 2025 50  0001 C CNN
+F 1 "GND" H 9775 2125 50  0001 C CNN
+F 2 "" H 9775 2275 50  0001 C CNN
+F 3 "" H 9775 2275 50  0001 C CNN
+	1    9775 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 2275 9775 2225
+Connection ~ 9775 1775
+Wire Wire Line
+	9775 1500 9775 1775
+Wire Wire Line
+	10375 1775 10375 1700
+Wire Wire Line
+	10375 1925 10375 2000
+$Comp
+L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 5FF46D9C
+P 10525 1900
+AR Path="/5F99D63D/5FF46D9C" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/5FF46D9C" Ref="C?"  Part="1" 
+F 0 "C?" V 10625 1900 50  0000 L BNN
+F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 10435 1710 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10435 1710 50  0001 C CNN
+F 3 "" H 10435 1710 50  0001 C CNN
+F 4 "10%" H 10525 1900 50  0001 C CNN "Tolerance"
+F 5 "1uF" V 10500 1925 50  0000 C CNN "Val"
+F 6 "50V" H 10525 1900 50  0001 C CNN "Voltage"
+	1    10525 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10625 1700 10375 1700
+Connection ~ 10375 1700
+Wire Wire Line
+	10375 1700 10375 1500
+Wire Wire Line
+	10625 2000 10375 2000
+Connection ~ 10375 2000
+Wire Wire Line
+	10375 2000 10375 2275
 $EndSCHEMATC

@@ -140,7 +140,7 @@ $ENDCMP
 #
 $CMP MMBD914
 D Diode Standard 100V 200mA Surface Mount SOT-23
-K diode 
+K diode
 F https://www.vishay.com/docs/85734/mmbd914.pd
 $ENDCMP
 #
@@ -259,6 +259,10 @@ $CMP TLV7042DGKR
 D Comparator General Purpose Open-Drain, Rail-to-Rail 8-VSSOP
 K comparator, power management
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv7042
+$ENDCMP
+#
+$CMP TLV75512
+D TLV755P 500-mA, Low IQ, Small Size, Low Dropout Regulator 1.2V fixed output, SOT-23 package
 $ENDCMP
 #
 #End Doc Library

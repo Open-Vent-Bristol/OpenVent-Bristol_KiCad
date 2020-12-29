@@ -381,4 +381,12 @@ F 3 "" H 9325 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10525 1525 10525 1850
+Text Notes 5650 4000 0    50   ~ 0
+https://drive.google.com/file/d/1lLOQ1HqgnG_nO4eDB_TPxHxARxQjTi03/view
+Text Notes 5675 3900 0    50   ~ 0
+copy that ciruit like 6 times\n
+Text Notes 5625 4100 0    50   ~ 0
+instead of ADC\n
+Text Notes 2050 3625 0    50   ~ 0
+2 x NHD-0216K1Z-FL-YBW
 $EndSCHEMATC

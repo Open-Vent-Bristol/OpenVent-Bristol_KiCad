@@ -844,8 +844,6 @@ $EndComp
 Connection ~ 2950 3500
 Wire Wire Line
 	2950 3500 3500 3500
-Text Notes 8325 1400 0    50   ~ 0
-RICK TO REVIEW THIS SHEET
 Text Notes 1650 6650 0    50   ~ 0
 Darren's Flow senser, maybe plus opamps or whatever is needed
 Text Notes 1150 6900 0    50   ~ 0

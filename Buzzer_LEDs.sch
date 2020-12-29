@@ -537,10 +537,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 4850 9800 5400
 Wire Wire Line
-	8400 4700 9500 4700
-Wire Wire Line
-	8400 4250 8400 4700
-Wire Wire Line
 	8400 3750 8400 3850
 Wire Wire Line
 	8950 3750 8400 3750
@@ -552,35 +548,11 @@ Wire Wire Line
 	9800 5400 9650 5400
 Wire Wire Line
 	8400 5450 8400 5200
-Wire Wire Line
-	8400 4800 8400 4700
 Text Notes 7000 5000 0    60   ~ 0
 Sounder drive signal
-Connection ~ 8400 4700
 Connection ~ 8950 3750
 Connection ~ 9800 5400
 Connection ~ 9800 3750
-$Comp
-L OpenVent:2N7002BK Q?
-U 1 1 5FCC52D3
-P 9800 4450
-AR Path="/5F8F894A/5FCC52D3" Ref="Q?"  Part="1" 
-AR Path="/5FCA4074/5FCC52D3" Ref="Q2"  Part="1" 
-F 0 "Q2" H 9550 4250 50  0000 L BNN
-F 1 "2N7002BK" H 9300 4150 50  0000 L BNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9750 4100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 9750 4100 50  0001 C CNN
-F 4 "350mA" H 9800 4450 50  0001 C CNN "Current"
-F 5 "MOSFET N-CH 60V 350MA SOT23" H 9800 4450 50  0001 C CNN "Desc"
-F 6 "N-Channel 350mA (Ta) 370mW (Ta) Surface Mount TO-236AB" H 9800 4450 50  0001 C CNN "Detailed"
-F 7 "DigiKey" H 9800 4450 50  0001 C CNN "DistName"
-F 8 "1727-4789-2-ND" H 9800 4450 50  0001 C CNN "Dist_PN"
-F 9 "Nexperia USA Inc." H 9800 4450 50  0001 C CNN "Mfr"
-F 10 "2N7002BK,215" H 9800 4450 50  0001 C CNN "Mfr_PN"
-F 11 "60V" H 9800 4450 50  0001 C CNN "Voltage"
-	1    9800 4450
-	-1   0    0    -1  
-$EndComp
 $Comp
 L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 5FCC52DC
@@ -735,10 +707,26 @@ Text Notes 900  4300 0    50   ~ 0
 Sounder current, what is it? feedback signal that indigates that the beeper is working. We need to know what that signal looks like and the  figure out what we do with it
 Text Notes 900  4550 0    50   ~ 0
 sounder drive is ggoing to be 3v3 or 5v
-Text Notes 925  4800 0    50   ~ 0
-Make Q2 P transistor
 Text Notes 1050 5050 0    50   ~ 0
 Sounder drive will be global thing too, comingf from the FPGA
 Text Notes 1075 5400 0    50   ~ 0
 Sounder current coming into pin 8 on the micro
+$Comp
+L OpenVent:BS250P Q?
+U 1 1 5FF708AD
+P 9800 4850
+F 0 "Q?" H 9690 4604 50  0000 R CNN
+F 1 "BS250P" H 9690 4695 50  0000 R CNN
+F 2 "" H 9800 4850 50  0000 C CNN
+F 3 "" H 9800 4850 50  0000 C CNN
+	1    9800 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4250 8400 4600
+Wire Wire Line
+	9500 4600 8400 4600
+Connection ~ 8400 4600
+Wire Wire Line
+	8400 4600 8400 4800
 $EndSCHEMATC
