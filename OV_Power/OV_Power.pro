@@ -1,4 +1,4 @@
-update=Sat 26 Dec 2020 02:28:45 PM EST
+update=Tue 29 Dec 2020 11:59:06 AM EST
 version=1
 last_client=kicad
 [general]
@@ -38,7 +38,7 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.25
+TrackWidth1=0.208
 TrackWidth2=0.208
 TrackWidth3=0.254
 TrackWidth4=0.5
@@ -54,9 +54,12 @@ ViaDiameter4=1
 ViaDrill4=0.5
 ViaDiameter5=1.5
 ViaDrill5=0.762
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.208
+dPairGap1=0.208
 dPairViaGap1=0.25
+dPairWidth2=0.208
+dPairGap2=0.208
+dPairViaGap2=0.208
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -78,7 +81,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0.051
-SolderMaskMinWidth=0.25
+SolderMaskMinWidth=0.153
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -250,12 +253,12 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.208
+TrackWidth=0.208
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.208
+dPairGap=0.208
 dPairViaGap=0.25

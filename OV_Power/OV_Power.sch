@@ -1431,4 +1431,9 @@ Wire Wire Line
 Connection ~ 4300 1150
 Wire Wire Line
 	4300 1150 4300 1050
+Text Label 6400 2650 0    50   ~ 0
+ISP_P
+Text Label 6400 2750 0    50   ~ 0
+ISP_N
+Connection ~ 6200 2300
 $EndSCHEMATC

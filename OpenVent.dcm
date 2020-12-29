@@ -138,6 +138,12 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/MBRS260T3-D.PDF
 $ENDCMP
 #
+$CMP MMBD914
+D Diode Standard 100V 200mA Surface Mount SOT-23
+K diode 
+F https://www.vishay.com/docs/85734/mmbd914.pd
+$ENDCMP
+#
 $CMP OpenVent_Barrel_Connector
 D CONN PWR JACK 2X5.5MM SOLDER
 F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf
