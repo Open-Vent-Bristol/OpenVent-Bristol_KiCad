@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OpenVent:GND #GND_?
+L OV_Power-rescue:GND-OpenVent #GND_?
 U 1 1 5FBB7C1D
 P 1050 2050
 AR Path="/5FBB7C1D" Ref="#GND_?"  Part="1" 
@@ -37,7 +37,7 @@ Wire Notes Line
 Wire Notes Line
 	1000 1000 1000 650 
 $Comp
-L OpenVent:LTC4416 U7
+L OV_Power-rescue:LTC4416-OpenVent U7
 U 1 1 5FBBF8B5
 P 4200 3050
 F 0 "U7" H 4550 4075 50  0000 C CNN
@@ -52,7 +52,7 @@ F 7 "OR Controller Source Selector Switch P-Channel 2:2 10-MSOP" H 4200 3050 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:AOSD21307 U8
+L OV_Power-rescue:AOSD21307-OpenVent U8
 U 1 1 5FBCA1AE
 P 5300 2250
 F 0 "U8" V 5925 2250 50  0000 C CNN
@@ -67,7 +67,7 @@ F 7 "Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC" H
 	0    1    -1   0   
 $EndComp
 $Comp
-L OpenVent:AOSD21307 U8
+L OV_Power-rescue:AOSD21307-OpenVent U8
 U 2 1 5FBCB2C4
 P 5900 2250
 F 0 "U8" V 6525 2250 50  0000 C CNN
@@ -98,7 +98,7 @@ Wire Wire Line
 	5550 1950 5500 1950
 Connection ~ 5550 1950
 $Comp
-L OpenVent:AOSD21307 U9
+L OV_Power-rescue:AOSD21307-OpenVent U9
 U 1 1 5FBE278D
 P 5850 3000
 F 0 "U9" V 6383 3000 50  0000 C CNN
@@ -113,7 +113,7 @@ F 7 "Mosfet Array 2 P-Channel (Dual) 30V 9A (Ta) 2W (Ta) Surface Mount 8-SOIC" H
 	0    -1   1    0   
 $EndComp
 $Comp
-L OpenVent:AOSD21307 U9
+L OV_Power-rescue:AOSD21307-OpenVent U9
 U 2 1 5FBE303A
 P 5300 3000
 F 0 "U9" V 5833 3000 50  0000 C CNN
@@ -190,7 +190,7 @@ Wire Wire Line
 Connection ~ 6150 2650
 Connection ~ 6150 1950
 $Comp
-L OpenVent:V_MAIN #PWR028
+L OV_Power-rescue:V_MAIN-OpenVent #PWR028
 U 1 1 5FBFE628
 P 6650 1900
 F 0 "#PWR028" H 6650 1750 50  0001 C CNN
@@ -205,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 1900 6650 1950
 $Comp
-L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R39
+L OV_Power-rescue:10k_0603_Chip_Resistor,_1%,_0.1W-OpenVent R39
 U 1 1 5FC02034
 P 4150 1900
 F 0 "R39" V 4204 1870 50  0000 L CNN
@@ -223,7 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2250 4050 2200
 $Comp
-L OpenVent:R_0603_24k9_0.1W_1% R37
+L OV_Power-rescue:R_0603_24k9_0.1W_1%-OpenVent R37
 U 1 1 5FC0B444
 P 3650 2400
 F 0 "R37" V 3704 2370 50  0000 L CNN
@@ -237,7 +237,7 @@ F 6 "0.1W" H 3650 2400 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_221K_0.1W_1% R38
+L OV_Power-rescue:R_0603_221K_0.1W_1%-OpenVent R38
 U 1 1 5FC0C21A
 P 3650 3250
 F 0 "R38" H 3750 2943 50  0000 C CNN
@@ -251,7 +251,7 @@ F 6 "0.1W" H 3650 3250 50  0001 C CNN "Watt"
 	-1   0    0    1   
 $EndComp
 $Comp
-L OpenVent:R_0603_178K_0.1W_1% R36
+L OV_Power-rescue:R_0603_178K_0.1W_1%-OpenVent R36
 U 1 1 5FC0D078
 P 3650 1900
 F 0 "R36" V 3704 1870 50  0000 L CNN
@@ -265,7 +265,7 @@ F 6 "0.1W" H 3650 1900 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR025
+L OV_Power-rescue:GND-OpenVent #PWR025
 U 1 1 5FC0E4C7
 P 3550 2750
 F 0 "#PWR025" H 3550 2500 50  0001 C CNN
@@ -276,7 +276,7 @@ F 3 "" H 3550 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR026
+L OV_Power-rescue:GND-OpenVent #PWR026
 U 1 1 5FC0E806
 P 4150 3100
 F 0 "#PWR026" H 4150 2850 50  0001 C CNN
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2200 3900 2650
 $Comp
-L OpenVent:C_1210_10uF_25V_10%_X7R C13
+L OV_Power-rescue:C_1210_10uF_25V_10%_X7R-OpenVent C13
 U 1 1 5FC28520
 P 6750 2100
 F 0 "C13" V 6709 2110 50  0000 L CNN
@@ -345,7 +345,7 @@ F 10 "10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)" H 6750 2100 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR029
+L OV_Power-rescue:GND-OpenVent #PWR029
 U 1 1 5FC29819
 P 6650 2350
 F 0 "#PWR029" H 6650 2100 50  0001 C CNN
@@ -361,7 +361,7 @@ Connection ~ 6650 1950
 Wire Wire Line
 	6650 2300 6650 2350
 $Comp
-L OpenVent:VBATT #PWR027
+L OV_Power-rescue:VBATT-OpenVent #PWR027
 U 1 1 5FC2F56F
 P 4600 3550
 F 0 "#PWR027" H 4600 3400 50  0001 C CNN
@@ -381,7 +381,7 @@ Connection ~ 5000 3300
 Text Notes 600  2650 0    50   ~ 0
 INPUT SHOULD BE FUSED.\nA FERRITE MIGHT BE REQUIRED\nFOR EMI SUPPRESSION.\nA TVS SHOULD ALSO BE\nADDED FOR ESD PROTECTION.
 $Comp
-L OpenVent:Conn_HDR_2x10_latching J2
+L OV_Power-rescue:Conn_HDR_2x10_latching-OpenVent J2
 U 1 1 5FB4D557
 P 2500 5000
 F 0 "J2" H 2550 5617 50  0000 C CNN
@@ -396,7 +396,7 @@ F 7 "D3428-6302-AR" H 2550 5526 50  0000 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR030
+L OV_Power-rescue:GND-OpenVent #PWR030
 U 1 1 5FB4E8B3
 P 2900 5550
 F 0 "#PWR030" H 2900 5300 50  0001 C CNN
@@ -407,7 +407,7 @@ F 3 "" H 2900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR018
+L OV_Power-rescue:GND-OpenVent #PWR018
 U 1 1 5FB4EC42
 P 2000 4500
 F 0 "#PWR018" H 2000 4250 50  0001 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 2000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:V_MAIN #PWR031
+L OV_Power-rescue:V_MAIN-OpenVent #PWR031
 U 1 1 5FB4FD2E
 P 850 5400
 F 0 "#PWR031" H 850 5250 50  0001 C CNN
@@ -449,7 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5300 2800 5300
 $Comp
-L OpenVent:VBATT #PWR032
+L OV_Power-rescue:VBATT-OpenVent #PWR032
 U 1 1 5FB6E37F
 P 1800 4500
 F 0 "#PWR032" H 1800 4350 50  0001 C CNN
@@ -478,7 +478,7 @@ MOTOR_CURRENT
 Wire Wire Line
 	2300 5200 1800 5200
 $Comp
-L OpenVent:Kycon_kpjx-4s_shielded J1
+L OV_Power-rescue:Kycon_kpjx-4s_shielded-OpenVent J1
 U 1 1 5FBCEB95
 P 1050 1700
 F 0 "J1" H 1050 2067 50  0000 C CNN
@@ -518,7 +518,7 @@ Connection ~ 1050 2000
 Wire Wire Line
 	1050 2000 700  2000
 $Comp
-L OpenVent:532530670 J3
+L OV_Power-rescue:532530670-OpenVent J3
 U 1 1 5FC7E477
 P 4200 6600
 F 0 "J3" H 4280 6592 50  0000 L CNN
@@ -533,7 +533,7 @@ F 7 "Connector Header Through Hole 6 position 0.079\" (2.00mm)" H 4200 6600 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR033
+L OV_Power-rescue:GND-OpenVent #PWR033
 U 1 1 5FC7F729
 P 3900 6950
 F 0 "#PWR033" H 3900 6700 50  0001 C CNN
@@ -566,7 +566,7 @@ MICROSWITCHES
 Text Notes 4300 3950 0    50   ~ 0
 Static drain on VBATT when input power disconnected\nis approximately 16 to 17uA with U9 active\nand connected to V_MAIN.
 $Comp
-L OpenVent:CONN_HEADER_2.54X2_MOLEX_KK_Series J6
+L OV_Power-rescue:CONN_HEADER_2.54X2_MOLEX_KK_Series-OpenVent J6
 U 1 1 5FD140C5
 P 9450 4500
 F 0 "J6" H 9880 4596 50  0000 L CNN
@@ -581,7 +581,7 @@ F 7 "Connector Header Through Hole 2 position 0.100\" (2.54mm)" H 9450 4500 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:CONN_HEADER_2.54X2_MOLEX_KK_Series J7
+L OV_Power-rescue:CONN_HEADER_2.54X2_MOLEX_KK_Series-OpenVent J7
 U 1 1 5FD14CE6
 P 9450 5600
 F 0 "J7" H 9880 5696 50  0000 L CNN
@@ -596,7 +596,7 @@ F 7 "Connector Header Through Hole 2 position 0.100\" (2.54mm)" H 9450 5600 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR022
+L OV_Power-rescue:GND-OpenVent #PWR022
 U 1 1 5FD1511E
 P 9100 5100
 F 0 "#PWR022" H 9100 4850 50  0001 C CNN
@@ -607,7 +607,7 @@ F 3 "" H 9100 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR023
+L OV_Power-rescue:GND-OpenVent #PWR023
 U 1 1 5FD1550A
 P 9150 6200
 F 0 "#PWR023" H 9150 5950 50  0001 C CNN
@@ -622,7 +622,7 @@ Wire Wire Line
 Text Notes 9800 5100 0    50   ~ 0
 FAN CONNECTIONS
 $Comp
-L OpenVent:V_MAIN #PWR024
+L OV_Power-rescue:V_MAIN-OpenVent #PWR024
 U 1 1 5FD2C5F9
 P 9250 4250
 F 0 "#PWR024" H 9250 4100 50  0001 C CNN
@@ -635,7 +635,7 @@ $EndComp
 Wire Wire Line
 	9250 4250 9250 4400
 $Comp
-L OpenVent:SZNUD3124LT1G Q4
+L OV_Power-rescue:SZNUD3124LT1G-OpenVent Q4
 U 1 1 5FD47CAC
 P 9150 6150
 F 0 "Q4" H 9378 6446 50  0000 L CNN
@@ -652,7 +652,7 @@ F 9 "150mA" H 9150 6150 50  0001 C CNN "Current"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:SZNUD3124LT1G Q3
+L OV_Power-rescue:SZNUD3124LT1G-OpenVent Q3
 U 1 1 5FD48EFF
 P 9100 5050
 F 0 "Q3" H 9328 5346 50  0000 L CNN
@@ -675,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4500 9450 4500
 $Comp
-L OpenVent:V_MAIN #PWR034
+L OV_Power-rescue:V_MAIN-OpenVent #PWR034
 U 1 1 5FD5A5A2
 P 9300 5450
 F 0 "#PWR034" H 9300 5300 50  0001 C CNN
@@ -715,7 +715,7 @@ Wire Wire Line
 Connection ~ 1500 1700
 Connection ~ 3550 1700
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R27
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R27
 U 1 1 5FD89289
 P 2500 3700
 F 0 "R27" H 2600 3807 50  0000 C CNN
@@ -745,7 +745,7 @@ Wire Wire Line
 	3150 5400 2800 5400
 NoConn ~ 4200 2450
 $Comp
-L OpenVent:VIN_12V #PWR0101
+L OV_Power-rescue:VIN_12V-OpenVent #PWR0101
 U 1 1 5FDCF50B
 P 3150 1650
 F 0 "#PWR0101" H 3150 1500 50  0001 C CNN

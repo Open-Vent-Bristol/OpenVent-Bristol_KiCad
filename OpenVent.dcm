@@ -9,6 +9,10 @@ $CMP 12k_0603_Chip_Resistor,_1%,_0.1W
 D SMT resistor 12K 1% 0.1W 0603
 $ENDCMP
 #
+$CMP 18k_0603_Chip_Resistor,_1%,_0.1W
+D SMT resistor 18K 1% 0.1W 0603
+$ENDCMP
+#
 $CMP 1N5821
 D 30V 3A Schottky Barrier Rectifier Diode, DO-201AD
 K diode Schottky

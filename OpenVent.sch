@@ -499,4 +499,6 @@ U 5FCA4074
 F0 "Buzzer_LEDs" 50
 F1 "Buzzer_LEDs.sch" 50
 $EndSheet
+Text Notes 5775 200  0    50   ~ 0
+VBATT IS 12V BUT CAN GO UP TO 14V
 $EndSCHEMATC

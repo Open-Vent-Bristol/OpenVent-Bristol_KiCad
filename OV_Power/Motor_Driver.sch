@@ -20,7 +20,7 @@ MOTOR-IN-A
 Text GLabel 2050 3650 0    60   Input ~ 0
 MOTOR-IN-B
 $Comp
-L OpenVent:GND #GND_016
+L OV_Power-rescue:GND-OpenVent #GND_016
 U 1 1 5F8DD12E
 P 9300 1750
 F 0 "#GND_016" H 9300 1750 20  0001 C CNN
@@ -131,7 +131,7 @@ Connection ~ 6400 3550
 Connection ~ 6750 4500
 Connection ~ 7200 4500
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R24
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R24
 U 1 1 5F8DD119
 P 2600 3250
 F 0 "R24" H 2600 3200 50  0000 L BNN
@@ -145,7 +145,7 @@ F 6 "0.1W" H 2600 3250 50  0001 C CNN "Watt"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:CONN_HEADER_R_A_2POS_2.5MM CN1
+L OV_Power-rescue:CONN_HEADER_R_A_2POS_2.5MM-OpenVent CN1
 U 1 1 5F8DD118
 P 8500 3850
 F 0 "CN1" H 8700 3650 50  0000 L BNN
@@ -158,7 +158,7 @@ F 5 "0534260210" H 8800 4150 50  0000 C CNN "Mfr_PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L OpenVent:VNH5019ATR-E U4
+L OV_Power-rescue:VNH5019ATR-E-OpenVent U4
 U 1 1 5F8DD116
 P 4550 4850
 F 0 "U4" H 4800 6800 50  0000 L BNN
@@ -175,7 +175,7 @@ F 9 "497-13073-2-ND" H 4550 4850 50  0001 C CNN "Dist_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R25
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R25
 U 1 1 5F8DD10E
 P 2600 3550
 F 0 "R25" H 2600 3500 50  0000 L BNN
@@ -188,7 +188,7 @@ F 5 "1K" H 2800 3350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R26
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R26
 U 1 1 5F8DD103
 P 2600 3850
 F 0 "R26" H 2600 3800 50  0000 L BNN
@@ -201,7 +201,7 @@ F 5 "1K" H 2800 3650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:LED_Red_0603_SMD D6
+L OV_Power-rescue:LED_Red_0603_SMD-OpenVent D6
 U 1 1 5F8DD0F3
 P 7200 4400
 AR Path="/5F8DD0F3" Ref="D6"  Part="1" 
@@ -221,7 +221,7 @@ F 10 "Lite-On Inc." H 7200 4400 50  0001 C CNN "Mfr"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:LED_GREEN_0603_SMD D5
+L OV_Power-rescue:LED_GREEN_0603_SMD-OpenVent D5
 U 1 1 5F8DD0F2
 P 6750 3800
 F 0 "D5" V 6940 3910 50  0000 L BNN
@@ -239,7 +239,7 @@ F 10 "Rohm Semiconductor" H 6750 3800 50  0001 C CNN "Mfr"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R31
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R31
 U 1 1 5F8DD0F1
 P 6850 3500
 F 0 "R31" V 6950 3450 50  0000 L BNN
@@ -252,7 +252,7 @@ F 5 "1K" V 7000 3500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C11
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C11
 U 1 1 5F8DD0EF
 P 6550 1250
 F 0 "C11" V 6650 1350 50  0000 L BNN
@@ -272,7 +272,7 @@ F 12 "20%" H 6550 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_012
+L OV_Power-rescue:GND-OpenVent #GND_012
 U 1 1 5F8DD12F
 P 2250 4450
 F 0 "#GND_012" H 2250 4450 20  0001 C CNN
@@ -283,7 +283,7 @@ F 3 "" H 2250 4450 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R23
+L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R23
 U 1 1 5F8DD0F8
 P 2150 4350
 F 0 "R23" V 2250 4150 50  0000 R TNN
@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3350 6750 3350
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C12
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C12
 U 1 1 5F9BE2A3
 P 7100 1250
 F 0 "C12" V 7159 1360 50  0000 L CNN
@@ -347,7 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3550 5950 3550
 $Comp
-L OpenVent:V_MAIN #PWR020
+L OV_Power-rescue:V_MAIN-OpenVent #PWR020
 U 1 1 5FC34FEF
 P 4700 1050
 F 0 "#PWR020" H 4700 900 50  0001 C CNN
@@ -373,7 +373,7 @@ Wire Wire Line
 Text Notes 5300 5250 0    50   ~ 0
 Maximum standby current with all\nfaults cleared is 15uA.
 $Comp
-L OpenVent:GND #GND_020
+L OV_Power-rescue:GND-OpenVent #GND_020
 U 1 1 5FCEF3B0
 P 4150 4900
 F 0 "#GND_020" H 4150 4900 20  0001 C CNN
@@ -387,7 +387,7 @@ Wire Wire Line
 	4150 4900 4150 4850
 Connection ~ 4150 4850
 $Comp
-L F_ICs:LT6106 U3
+L OV_Power-rescue:LT6106-F_ICs U3
 U 1 1 5FD299E5
 P 4850 2150
 F 0 "U3" H 5275 1977 50  0000 C CNN
@@ -407,7 +407,7 @@ NoConn ~ 4550 4050
 NoConn ~ 4550 4150
 NoConn ~ 5700 5700
 $Comp
-L OpenVent:R_0603_100_0.1W_0.1% R20
+L OV_Power-rescue:R_0603_100_0.1W_0.1%-OpenVent R20
 U 1 1 5FD523E1
 P 5200 1300
 F 0 "R20" V 5209 1270 50  0000 L CNN
@@ -445,7 +445,7 @@ Wire Wire Line
 	6100 1150 6100 2500
 Connection ~ 6100 3050
 $Comp
-L OpenVent:GND #GND_013
+L OV_Power-rescue:GND-OpenVent #GND_013
 U 1 1 5FD5D2EE
 P 4800 2200
 F 0 "#GND_013" H 4800 2200 20  0001 C CNN
@@ -460,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2150 4800 2200
 $Comp
-L OpenVent:GND #GND_014
+L OV_Power-rescue:GND-OpenVent #GND_014
 U 1 1 5FD604CE
 P 6550 2650
 F 0 "#GND_014" H 6550 2650 20  0001 C CNN
@@ -489,7 +489,7 @@ Wire Wire Line
 	6550 1150 6550 1250
 Connection ~ 6100 1150
 $Comp
-L OpenVent:R_0603_2k74_0.1W_0.1% R22
+L OV_Power-rescue:R_0603_2k74_0.1W_0.1%-OpenVent R22
 U 1 1 5FD3A248
 P 6650 2300
 F 0 "R22" V 6659 2270 50  0000 L CNN
@@ -507,7 +507,7 @@ F 10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_2512_15m_cursense R21
+L OV_Power-rescue:R_2512_15m_cursense-OpenVent R21
 U 1 1 5FD98E9C
 P 5300 1150
 F 0 "R21" H 5300 1357 50  0000 C CNN
@@ -527,7 +527,7 @@ $EndComp
 Connection ~ 5100 1150
 Connection ~ 5500 1150
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C10
+L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C10
 U 1 1 5FDC2D70
 P 3850 2700
 F 0 "C10" V 3854 2710 50  0000 L CNN
@@ -541,7 +541,7 @@ F 6 "10%" H 3850 2700 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_0101
+L OV_Power-rescue:GND-OpenVent #GND_0101
 U 1 1 5FDC42B3
 P 3750 2900
 F 0 "#GND_0101" H 3750 2900 20  0001 C CNN
@@ -558,7 +558,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2500 4200 3650
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C16
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C16
 U 1 1 5FE5727D
 P 7650 1250
 F 0 "C16" V 7709 1360 50  0000 L CNN
@@ -578,7 +578,7 @@ F 12 "20%" H 7650 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C17
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C17
 U 1 1 5FE579F4
 P 8200 1250
 F 0 "C17" V 8259 1360 50  0000 L CNN
@@ -598,7 +598,7 @@ F 12 "20%" H 8200 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C18
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C18
 U 1 1 5FE58241
 P 8750 1250
 F 0 "C18" V 8809 1360 50  0000 L CNN
@@ -618,7 +618,7 @@ F 12 "20%" H 8750 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C19
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C19
 U 1 1 5FE58A16
 P 9300 1250
 F 0 "C19" V 9359 1360 50  0000 L CNN

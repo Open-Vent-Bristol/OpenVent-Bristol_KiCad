@@ -48,7 +48,7 @@ MOTOR-IN-B
 Text GLabel 4800 4800 0    50   Output ~ 0
 nALERT-ENABLE
 Text GLabel 4800 4600 0    50   Input ~ 0
-nPRESSURE-ALERT
+nPRESSURE-PATIENT-ALERT
 Text GLabel 4800 4400 0    50   Input ~ 0
 nVBATT-ALERT
 Text GLabel 4800 2100 0    50   Output ~ 0
@@ -354,10 +354,6 @@ F 3 "" H 4000 5600 70  0001 C CNN
 	1    4000 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 1600 0    50   Input ~ 0
-PRESSURE-SENSOR
-Text GLabel 4750 3700 0    50   Input ~ 0
-FLOW-SENSOR
 $Comp
 L OpenVent:GND #GND_011
 U 1 1 5F8DD161
@@ -377,8 +373,6 @@ Text Label 6800 3600 2    50   ~ 0
 XTAL-1
 Text Label 6800 3700 2    50   ~ 0
 XTAL-2
-Text GLabel 4800 1700 0    50   Input ~ 0
-OXYGEN-SENSOR
 Text Label 4050 2800 0    50   ~ 0
 USB-DM
 Text Label 4050 2900 0    50   ~ 0
@@ -429,8 +423,6 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2000 0    50   Input ~ 0
-FLOW-SENSOR-GAIN
 Text GLabel 4800 4300 0    50   Input ~ 0
 nVDC-ALERT
 Text GLabel 4800 2300 0    50   BiDi ~ 0
@@ -2124,4 +2116,8 @@ F 3 "" H 4325 6600 70  0001 C CNN
 $EndComp
 Wire Wire Line
 	4325 6825 4325 6600
+Text Notes 400  8050 0    50   ~ 0
+VBATT DOESN'T NEED TO GO INTO MCU IF GOING INTO FPGA\n
+Text Notes 400  8150 0    50   ~ 0
+OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
 $EndSCHEMATC

@@ -1,150 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# F_ICs_LT3796
+# OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent
 #
-DEF F_ICs_LT3796 U 0 40 Y Y 1 F N
-F0 "U" 600 1700 50 H V C CNN
-F1 "F_ICs_LT3796" 600 -100 50 H V C CNN
-F2 "F_ICs:TSSOP-28-LTvar_EB_4.4x9.7mm_P0.65mm" 600 600 50 H I C CNN
-F3 "" 600 600 50 H I C CNN
-F4 "Analog Devices" 0 0 50 H I C CNN "Mfr"
-F5 "LT3796IFE-1#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
-F6 "IC LED DRIVER CTRLR DIM 28TSSOP" 0 0 50 H I C CNN "Desc"
-F7 "LED Driver IC 1 Output DC DC Controller SEPIC, Step-Down (Buck), Step-Up (Boost) Analog, PWM Dimming  28-TSSOP-EP" 0 0 50 H I C CNN "Detailed"
-DRAW
-S 100 2150 1150 -50 0 1 0 f
-X ISP 1 1250 1150 100 L 50 50 1 1 P
-X VREF 10 0 1500 100 R 50 50 1 1 P
-X SS 11 0 850 100 R 50 50 1 1 P
-X RT 12 0 250 100 R 50 50 1 1 P
-X SYNC 13 0 700 100 R 50 50 1 1 P
-X PWM 14 0 1300 100 R 50 50 1 1 P
-X ~FAULT~ 15 1250 300 100 L 50 50 1 1 P
-X ~VMODE~ 16 1250 450 100 L 50 50 1 1 P
-X SNSGND 17 1250 1450 100 L 50 50 1 1 P
-X SENSE 18 1250 1550 100 L 50 50 1 1 P
-X GATE 19 1250 1850 100 L 50 50 1 1 P
-X ISN 2 1250 1050 100 L 50 50 1 1 P
-X INTVCC 20 1250 700 100 L 50 50 1 1 P
-X GND 21 0 100 100 R 50 50 1 1 P
-X GND 22 0 0 100 R 50 50 1 1 P
-X VIN 23 200 2250 100 D 50 50 1 1 P
-X EN/UVLO 24 0 1850 100 R 50 50 1 1 P
-X VS 25 350 2250 100 D 50 50 1 1 P
-X CSN 26 1000 2250 100 D 50 50 1 1 P
-X CSP 27 600 2250 100 D 50 50 1 1 P
-X CSOUT 28 0 1100 100 R 50 50 1 1 P
-X GNDPAD 29 1250 0 100 L 50 50 1 1 P
-X TG 3 0 550 100 R 50 50 1 1 P
-X GND 4 1250 100 100 L 50 50 1 1 P
-X ISMON 5 0 1000 100 R 50 50 1 1 P
-X FB2 6 0 1700 100 R 50 50 1 1 P
-X FB1 7 1250 900 100 L 50 50 1 1 P
-X VC 8 0 400 100 R 50 50 1 1 P
-X CTRL 9 0 1400 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# F_ICs_LT6106
-#
-DEF F_ICs_LT6106 U 0 40 Y Y 1 F N
-F0 "U" 750 450 50 H V C CNN
-F1 "F_ICs_LT6106" 450 -150 50 H V C CNN
-F2 "Package_TO_SOT_SMD:TSOT-23-5" 450 -250 50 H I C CNN
-F3 "" 350 -50 50 H I C CNN
-F4 "Analog Devices Inc." 0 0 50 H I C CNN "Mfr"
-F5 "LT6106IS5#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
-F6 "IC CURR SENSE 1 CIRCUIT TSOT23-5" 0 0 50 H I C CNN "Desc"
-F7 "Current Sense Amplifier 1 Circuit  TSOT-23-5" 0 0 50 H I C CNN "Detailed"
-DRAW
-S 100 400 750 -100 0 1 0 f
-X OUT 1 850 0 100 L 50 50 1 1 P
-X V- 2 0 0 100 R 50 50 1 1 P
-X -IN 3 250 500 100 D 50 50 1 1 P
-X +IN 4 650 500 100 D 50 50 1 1 P
-X V+ 5 0 200 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# F_connectors_SpadeLug
-#
-DEF F_connectors_SpadeLug J 0 40 N N 1 F N
-F0 "J" 40 60 50 H V L BNN
-F1 "F_connectors_SpadeLug" 40 -70 50 H V L BNN
-F2 "TE_1217861-1" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
-F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
-F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
-F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
-F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
-DRAW
-P 2 0 0 10 0 100 0 -100 N
-X 1 1 -200 0 200 R 40 40 0 0 P
-X 2 2 -200 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OV_Power-rescue_MSD1260-333-F_inductors
-#
-DEF OV_Power-rescue_MSD1260-333-F_inductors L 0 20 Y N 2 F N
-F0 "L" 0 0 50 H V C CNN
-F1 "OV_Power-rescue_MSD1260-333-F_inductors" 0 0 50 H I C CNN
-F2 "F_Inductors:MSD1260" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "33uH" 0 0 50 H V C CNN "Val"
-F5 "Coilcraft" 0 0 50 H I C CNN "Mfr"
-F6 "MSD1260-333MLB" 0 0 50 H I C CNN "Mfr_PN"
-F7 "Mouser" 0 0 50 H I C CNN "Dist"
-F8 "994-MSD1260-333MLB" 0 0 50 H I C CNN "Dist_PN"
-F9 "Coupled Inductors 33uH Shld 20% 2.32A 134mOhms" 0 0 50 H I C CNN "Detailed"
-F10 "Coupled Inductors 33uH" 0 0 50 H I C CNN "Desc"
-DRAW
-A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
-A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
-A 0 25 25 -899 899 1 1 0 N 0 0 0 50
-A 0 75 25 -899 899 1 1 0 N 0 50 0 100
-A 0 -75 25 -899 899 2 1 0 N 0 -100 0 -50
-A 0 -25 25 -899 899 2 1 0 N 0 -50 0 0
-A 0 25 25 -899 899 2 1 0 N 0 0 0 50
-A 0 75 25 -899 899 2 1 0 N 0 50 0 100
-C -20 75 5 0 1 0 F
-P 2 1 1 0 40 100 40 -100 N
-P 2 1 1 0 60 -100 60 100 N
-P 2 2 1 0 40 100 40 -100 N
-P 2 2 1 0 60 -100 60 100 N
-X 2 1 0 200 100 D 50 50 1 1 P
-X 4 3 0 -200 100 U 50 50 1 1 P
-X 2 2 0 200 100 D 50 50 2 1 P
-X 4 4 0 -200 100 U 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# OV_Power-rescue_SpadeLug-F_connectors
-#
-DEF OV_Power-rescue_SpadeLug-F_connectors J 0 40 N N 1 F N
-F0 "J" 40 60 50 H V L BNN
-F1 "OV_Power-rescue_SpadeLug-F_connectors" 40 -70 50 H V L BNN
-F2 "TE_1217861-1" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
-F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
-F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
-F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
-F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
-DRAW
-P 2 0 0 10 0 100 0 -100 N
-X 1 1 -200 0 200 R 40 40 0 0 P
-X 2 2 -200 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenVent_1000uF_25V_Aluminium_SMD_Capacitor,_20%
-#
-DEF OpenVent_1000uF_25V_Aluminium_SMD_Capacitor,_20% C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C 0 40 Y Y 1 F N
 F0 "C" 90 -150 50 H V L BNN
-F1 "OpenVent_1000uF_25V_Aluminium_SMD_Capacitor,_20%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "1000uF" 0 0 50 H V C CNN "Val"
@@ -161,11 +22,11 @@ X - 2 300 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W
+# OV_Power-rescue_100K_0603_Chip_Resistor,_1%,_0.1W-OpenVent
 #
-DEF OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_100K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_100K_0603_Chip_Resistor,_1%,_0.1W-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100k" 0 0 50 H V C CNN "Val"
@@ -178,11 +39,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
+# OV_Power-rescue_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent
 #
-DEF OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100nF" 0 0 50 H V C CNN "Val"
@@ -198,11 +59,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W
+# OV_Power-rescue_10k_0603_Chip_Resistor,_1%,_0.1W-OpenVent
 #
-DEF OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_10k_0603_Chip_Resistor,_1%,_0.1W-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_10k_0603_Chip_Resistor,_1%,_0.1W-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10k" 0 0 50 H V C CNN "Val"
@@ -216,11 +77,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-
+# OV_Power-rescue_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent
 #
-DEF OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent C 0 40 Y Y 1 F N
 F0 "C" -110 190 50 H V L BNN
-F1 "OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10nF" 0 0 50 H V C CNN "Val"
@@ -236,11 +97,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V
+# OV_Power-rescue_10uF_0805_Ceramic_Capacitor_10%_X7R_10V-OpenVent
 #
-DEF OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V C 0 40 N N 1 F N
+DEF OV_Power-rescue_10uF_0805_Ceramic_Capacitor_10%_X7R_10V-OpenVent C 0 40 N N 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_10uF_0805_Ceramic_Capacitor_10%_X7R_10V-OpenVent" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uF" 0 0 50 H V C CNN "Val"
@@ -262,11 +123,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W
+# OV_Power-rescue_1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent
 #
-DEF OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "1K" 0 0 50 H V C CNN "Val"
@@ -281,11 +142,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
+# OV_Power-rescue_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R-OpenVent
 #
-DEF OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R-OpenVent C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1uF" 0 0 50 H V C CNN "Val"
@@ -301,11 +162,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_2.2uF_2824_film_capacitor_10%_40V
+# OV_Power-rescue_2.2uF_2824_film_capacitor_10%_40V-OpenVent
 #
-DEF OpenVent_2.2uF_2824_film_capacitor_10%_40V C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_2.2uF_2824_film_capacitor_10%_40V-OpenVent C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_2.2uF_2824_film_capacitor_10%_40V" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_2.2uF_2824_film_capacitor_10%_40V-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "2.2uF" 0 0 50 H V C CNN "Val"
@@ -325,11 +186,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_20k_0603_Chip_Resistor,_1%,_0.1W
+# OV_Power-rescue_20k_0603_Chip_Resistor,_1%,_0.1W-OpenVent
 #
-DEF OpenVent_20k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_20k_0603_Chip_Resistor,_1%,_0.1W-OpenVent R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent_20k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_20k_0603_Chip_Resistor,_1%,_0.1W-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "20k" 0 0 50 H V C CNN "Val"
@@ -342,11 +203,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_2N7002BK
+# OV_Power-rescue_2N7002BK-OpenVent
 #
-DEF OpenVent_2N7002BK Q 0 40 Y Y 1 F N
+DEF OV_Power-rescue_2N7002BK-OpenVent Q 0 40 Y Y 1 F N
 F0 "Q" 50 -250 50 H V L BNN
-F1 "OpenVent_2N7002BK" 50 -350 50 H V L BNN
+F1 "OV_Power-rescue_2N7002BK-OpenVent" 50 -350 50 H V L BNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -369,11 +230,11 @@ X D 3 0 0 100 D 70 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_532530670
+# OV_Power-rescue_532530670-OpenVent
 #
-DEF OpenVent_532530670 J 0 40 Y N 1 F N
+DEF OV_Power-rescue_532530670-OpenVent J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "OpenVent_532530670" 0 -400 50 H V C CNN
+F1 "OV_Power-rescue_532530670-OpenVent" 0 -400 50 H V C CNN
 F2 "Connector_Molex:Molex_Micro-Latch_53253-0670_1x06_P2.00mm_Vertical" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Molex" 0 0 50 H I C CNN "Mfr"
@@ -400,11 +261,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_AOSD21307
+# OV_Power-rescue_AOSD21307-OpenVent
 #
-DEF OpenVent_AOSD21307 U 0 40 Y N 2 F N
+DEF OV_Power-rescue_AOSD21307-OpenVent U 0 40 Y N 2 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "OpenVent_AOSD21307" 0 0 50 H V C CNN
+F1 "OV_Power-rescue_AOSD21307-OpenVent" 0 0 50 H V C CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Alpha & Omega Semiconductor Inc." 0 0 50 H I C CNN "Mfr"
@@ -451,11 +312,11 @@ X D 6 400 200 100 D 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_CONN_HEADER_2.54X2_MOLEX_KK_Series
+# OV_Power-rescue_CONN_HEADER_2.54X2_MOLEX_KK_Series-OpenVent
 #
-DEF OpenVent_CONN_HEADER_2.54X2_MOLEX_KK_Series J 0 40 Y Y 1 F N
+DEF OV_Power-rescue_CONN_HEADER_2.54X2_MOLEX_KK_Series-OpenVent J 0 40 Y Y 1 F N
 F0 "J" 200 250 50 H V L BNN
-F1 "OpenVent_CONN_HEADER_2.54X2_MOLEX_KK_Series" 200 200 50 H I C CNN
+F1 "OV_Power-rescue_CONN_HEADER_2.54X2_MOLEX_KK_Series-OpenVent" 200 200 50 H I C CNN
 F2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" 200 200 50 H I C CNN
 F3 "" 200 200 50 H I C CNN
 F4 "Molex" 0 0 50 H I C CNN "Mfr"
@@ -469,11 +330,11 @@ X 2 2 0 0 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_CONN_HEADER_R_A_2POS_2.5MM
+# OV_Power-rescue_CONN_HEADER_R_A_2POS_2.5MM-OpenVent
 #
-DEF OpenVent_CONN_HEADER_R_A_2POS_2.5MM CN 0 40 Y Y 1 F N
+DEF OV_Power-rescue_CONN_HEADER_R_A_2POS_2.5MM-OpenVent CN 0 40 Y Y 1 F N
 F0 "CN" 200 250 50 H V L BNN
-F1 "OpenVent_CONN_HEADER_R_A_2POS_2.5MM" 200 200 50 H I C CNN
+F1 "OV_Power-rescue_CONN_HEADER_R_A_2POS_2.5MM-OpenVent" 200 200 50 H I C CNN
 F2 "" 200 200 50 H I C CNN
 F3 "" 200 200 50 H I C CNN
 DRAW
@@ -483,11 +344,11 @@ X 2 2 0 0 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_C_0603_0.22uf_25V_10%
+# OV_Power-rescue_C_0603_0.22uf_25V_10%-OpenVent
 #
-DEF OpenVent_C_0603_0.22uf_25V_10% C 0 10 N Y 1 F N
+DEF OV_Power-rescue_C_0603_0.22uf_25V_10%-OpenVent C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OpenVent_C_0603_0.22uf_25V_10%" 25 -100 50 H I L CNN
+F1 "OV_Power-rescue_C_0603_0.22uf_25V_10%-OpenVent" 25 -100 50 H I L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Murata Electronics" 0 0 50 H I C CNN "Mfr"
@@ -508,11 +369,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_C_1210_10uF_25V_10%_X7R
+# OV_Power-rescue_C_1210_10uF_25V_10%_X7R-OpenVent
 #
-DEF OpenVent_C_1210_10uF_25V_10%_X7R C 0 40 Y Y 1 F N
+DEF OV_Power-rescue_C_1210_10uF_25V_10%_X7R-OpenVent C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent_C_1210_10uF_25V_10%_X7R" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_C_1210_10uF_25V_10%_X7R-OpenVent" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_1210_3225Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uF" 0 0 50 H V C CNN "Val"
@@ -532,11 +393,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_Conn_HDR_2x10_latching
+# OV_Power-rescue_Conn_HDR_2x10_latching-OpenVent
 #
-DEF OpenVent_Conn_HDR_2x10_latching J 0 40 Y N 1 F N
+DEF OV_Power-rescue_Conn_HDR_2x10_latching-OpenVent J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "OpenVent_Conn_HDR_2x10_latching" 50 -600 50 H I C CNN
+F1 "OV_Power-rescue_Conn_HDR_2x10_latching-OpenVent" 50 -600 50 H I C CNN
 F2 "F_Misc:3M_D3428-6302-AR" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3M" 0 0 50 H I C CNN "Mfr"
@@ -591,11 +452,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_GND
+# OV_Power-rescue_GND-OpenVent
 #
-DEF OpenVent_GND #PWR 0 0 N N 1 F P
+DEF OV_Power-rescue_GND-OpenVent #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OpenVent_GND" 0 -150 50 H I C CNN
+F1 "OV_Power-rescue_GND-OpenVent" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -604,11 +465,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent_Kycon_kpjx-4s_shielded
+# OV_Power-rescue_Kycon_kpjx-4s_shielded-OpenVent
 #
-DEF OpenVent_Kycon_kpjx-4s_shielded J 0 40 Y Y 1 F N
+DEF OV_Power-rescue_Kycon_kpjx-4s_shielded-OpenVent J 0 40 Y Y 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "OpenVent_Kycon_kpjx-4s_shielded" -50 -450 50 H V C CNN
+F1 "OV_Power-rescue_Kycon_kpjx-4s_shielded-OpenVent" -50 -450 50 H V C CNN
 F2 "OpenVent:Kycon_KPJX-4S_SHIELDED" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Kycon, Inc." 0 0 50 H I C CNN "Mfr"
@@ -656,11 +517,11 @@ X ~ 8 300 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_LED_GREEN_0603_SMD
+# OV_Power-rescue_LED_GREEN_0603_SMD-OpenVent
 #
-DEF OpenVent_LED_GREEN_0603_SMD D 0 40 Y Y 1 F N
+DEF OV_Power-rescue_LED_GREEN_0603_SMD-OpenVent D 0 40 Y Y 1 F N
 F0 "D" 110 -190 50 H V L BNN
-F1 "OpenVent_LED_GREEN_0603_SMD" 0 0 60 H I C CNN
+F1 "OV_Power-rescue_LED_GREEN_0603_SMD-OpenVent" 0 0 60 H I C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 F4 "GREEN" 0 0 50 H V C CNN "Val"
@@ -678,11 +539,11 @@ X CATHODE 2 600 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_LED_Red_0603_SMD
+# OV_Power-rescue_LED_Red_0603_SMD-OpenVent
 #
-DEF OpenVent_LED_Red_0603_SMD D 0 40 Y Y 1 F N
+DEF OV_Power-rescue_LED_Red_0603_SMD-OpenVent D 0 40 Y Y 1 F N
 F0 "D" 200 100 50 H V L BNN
-F1 "OpenVent_LED_Red_0603_SMD" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_LED_Red_0603_SMD-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -699,11 +560,11 @@ X CATHODE 2 600 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_LT1936
+# OV_Power-rescue_LT1936-OpenVent
 #
-DEF OpenVent_LT1936 U 0 40 Y Y 1 F N
+DEF OV_Power-rescue_LT1936-OpenVent U 0 40 Y Y 1 F N
 F0 "U" 150 700 50 H V C CNN
-F1 "OpenVent_LT1936" 350 -100 50 H V C CNN
+F1 "OV_Power-rescue_LT1936-OpenVent" 350 -100 50 H V C CNN
 F2 "F_ICs:LT_MS8E" 200 100 50 H I C CNN
 F3 "" 200 100 50 H I C CNN
 F4 "Linear Technology" 0 0 50 H I C CNN "Mfr"
@@ -724,11 +585,77 @@ X GND 9 700 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_LTC4416
+# OV_Power-rescue_LT3796-F_ICs
 #
-DEF OpenVent_LTC4416 U 0 40 Y Y 1 F N
+DEF OV_Power-rescue_LT3796-F_ICs U 0 40 Y Y 1 F N
+F0 "U" 600 1700 50 H V C CNN
+F1 "OV_Power-rescue_LT3796-F_ICs" 600 -100 50 H V C CNN
+F2 "F_ICs:TSSOP-28-LTvar_EB_4.4x9.7mm_P0.65mm" 600 600 50 H I C CNN
+F3 "" 600 600 50 H I C CNN
+F4 "Analog Devices" 0 0 50 H I C CNN "Mfr"
+F5 "LT3796IFE-1#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC LED DRIVER CTRLR DIM 28TSSOP" 0 0 50 H I C CNN "Desc"
+F7 "LED Driver IC 1 Output DC DC Controller SEPIC, Step-Down (Buck), Step-Up (Boost) Analog, PWM Dimming  28-TSSOP-EP" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 100 2150 1150 -50 0 1 0 f
+X ISP 1 1250 1150 100 L 50 50 1 1 P
+X VREF 10 0 1500 100 R 50 50 1 1 P
+X SS 11 0 850 100 R 50 50 1 1 P
+X RT 12 0 250 100 R 50 50 1 1 P
+X SYNC 13 0 700 100 R 50 50 1 1 P
+X PWM 14 0 1300 100 R 50 50 1 1 P
+X ~FAULT~ 15 1250 300 100 L 50 50 1 1 P
+X ~VMODE~ 16 1250 450 100 L 50 50 1 1 P
+X SNSGND 17 1250 1450 100 L 50 50 1 1 P
+X SENSE 18 1250 1550 100 L 50 50 1 1 P
+X GATE 19 1250 1850 100 L 50 50 1 1 P
+X ISN 2 1250 1050 100 L 50 50 1 1 P
+X INTVCC 20 1250 700 100 L 50 50 1 1 P
+X GND 21 0 100 100 R 50 50 1 1 P
+X GND 22 0 0 100 R 50 50 1 1 P
+X VIN 23 200 2250 100 D 50 50 1 1 P
+X EN/UVLO 24 0 1850 100 R 50 50 1 1 P
+X VS 25 350 2250 100 D 50 50 1 1 P
+X CSN 26 1000 2250 100 D 50 50 1 1 P
+X CSP 27 600 2250 100 D 50 50 1 1 P
+X CSOUT 28 0 1100 100 R 50 50 1 1 P
+X GNDPAD 29 1250 0 100 L 50 50 1 1 P
+X TG 3 0 550 100 R 50 50 1 1 P
+X GND 4 1250 100 100 L 50 50 1 1 P
+X ISMON 5 0 1000 100 R 50 50 1 1 P
+X FB2 6 0 1700 100 R 50 50 1 1 P
+X FB1 7 1250 900 100 L 50 50 1 1 P
+X VC 8 0 400 100 R 50 50 1 1 P
+X CTRL 9 0 1400 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_LT6106-F_ICs
+#
+DEF OV_Power-rescue_LT6106-F_ICs U 0 40 Y Y 1 F N
+F0 "U" 750 450 50 H V C CNN
+F1 "OV_Power-rescue_LT6106-F_ICs" 450 -150 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TSOT-23-5" 450 -250 50 H I C CNN
+F3 "" 350 -50 50 H I C CNN
+F4 "Analog Devices Inc." 0 0 50 H I C CNN "Mfr"
+F5 "LT6106IS5#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC CURR SENSE 1 CIRCUIT TSOT23-5" 0 0 50 H I C CNN "Desc"
+F7 "Current Sense Amplifier 1 Circuit  TSOT-23-5" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 100 400 750 -100 0 1 0 f
+X OUT 1 850 0 100 L 50 50 1 1 P
+X V- 2 0 0 100 R 50 50 1 1 P
+X -IN 3 250 500 100 D 50 50 1 1 P
+X +IN 4 650 500 100 D 50 50 1 1 P
+X V+ 5 0 200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_LTC4416-OpenVent
+#
+DEF OV_Power-rescue_LTC4416-OpenVent U 0 40 Y Y 1 F N
 F0 "U" 150 900 50 H V C CNN
-F1 "OpenVent_LTC4416" 350 -100 50 H V C CNN
+F1 "OV_Power-rescue_LTC4416-OpenVent" 350 -100 50 H V C CNN
 F2 "Package_SO:MSOP-10_3x3mm_P0.5mm" 0 0 50 H I C CNN
 F3 "" -250 200 50 H I C CNN
 F4 "Analog Devices / Linear Technology" 0 0 50 H I C CNN "Mfr"
@@ -750,11 +677,11 @@ X V1 9 700 800 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_L_22uH_2.6A_42mOhm_SMT
+# OV_Power-rescue_L_22uH_2.6A_42mOhm_SMT-OpenVent
 #
-DEF OpenVent_L_22uH_2.6A_42mOhm_SMT L 0 40 N N 1 F N
+DEF OV_Power-rescue_L_22uH_2.6A_42mOhm_SMT-OpenVent L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "OpenVent_L_22uH_2.6A_42mOhm_SMT" 110 0 50 V I C CNN
+F1 "OV_Power-rescue_L_22uH_2.6A_42mOhm_SMT-OpenVent" 110 0 50 V I C CNN
 F2 "F_Inductors:L-Bourns-SRU1048-series" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Bourns Inc." 0 0 50 H I C CNN "Mfr"
@@ -791,11 +718,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_MBRS260T3G
+# OV_Power-rescue_MBRS260T3G-OpenVent
 #
-DEF OpenVent_MBRS260T3G D 0 40 N N 1 F N
+DEF OV_Power-rescue_MBRS260T3G-OpenVent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenVent_MBRS260T3G" 0 -100 50 H V C CNN
+F1 "OV_Power-rescue_MBRS260T3G-OpenVent" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SMB" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "ON Semiconductor" 0 0 50 H I C CNN "Mfr"
@@ -804,7 +731,6 @@ F6 "60V" 0 0 50 H I C CNN "Voltage"
 F7 "2A" 0 0 50 H I C CNN "Current"
 F8 "DIODE SCHOTTKY 60V 2A SMB" 0 0 50 H I C CNN "Desc"
 F9 "Diode Schottky 60V 2A Surface Mount SMB" 0 0 50 H I C CNN "Detailed"
-ALIAS 1N5821 1N5822 MBR340
 $FPLIST
  D*DO?201AD*
 $ENDFPLIST
@@ -817,11 +743,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_MMBD914
+# OV_Power-rescue_MMBD914-OpenVent
 #
-DEF OpenVent_MMBD914 D 0 40 N N 1 F N
+DEF OV_Power-rescue_MMBD914-OpenVent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenVent_MMBD914" 0 -100 50 H V C CNN
+F1 "OV_Power-rescue_MMBD914-OpenVent" 0 -100 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay Semiconductor Diodes Division" 0 0 50 H I C CNN "Mfr"
@@ -845,11 +771,46 @@ X K 3 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_Polyfuse_10A
+# OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue
 #
-DEF OpenVent_Polyfuse_10A F 0 0 N Y 1 F N
+DEF OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue L 0 20 Y N 2 F N
+F0 "L" 0 0 50 H V C CNN
+F1 "OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue" 0 0 50 H I C CNN
+F2 "F_Inductors:MSD1260" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "33uH" 0 0 50 H V C CNN "Val"
+F5 "Coilcraft" 0 0 50 H I C CNN "Mfr"
+F6 "MSD1260-333MLB" 0 0 50 H I C CNN "Mfr_PN"
+F7 "Mouser" 0 0 50 H I C CNN "Dist"
+F8 "994-MSD1260-333MLB" 0 0 50 H I C CNN "Dist_PN"
+F9 "Coupled Inductors 33uH Shld 20% 2.32A 134mOhms" 0 0 50 H I C CNN "Detailed"
+F10 "Coupled Inductors 33uH" 0 0 50 H I C CNN "Desc"
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+A 0 -75 25 -899 899 2 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 2 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 2 1 0 N 0 0 0 50
+A 0 75 25 -899 899 2 1 0 N 0 50 0 100
+C -20 75 5 0 1 0 F
+P 2 1 1 0 40 100 40 -100 N
+P 2 1 1 0 60 -100 60 100 N
+P 2 2 1 0 40 100 40 -100 N
+P 2 2 1 0 60 -100 60 100 N
+X 2 1 0 200 100 D 50 50 1 1 P
+X 4 3 0 -200 100 U 50 50 1 1 P
+X 2 2 0 200 100 D 50 50 2 1 P
+X 4 4 0 -200 100 U 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_Polyfuse_10A-OpenVent
+#
+DEF OV_Power-rescue_Polyfuse_10A-OpenVent F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "OpenVent_Polyfuse_10A" 100 0 50 V I C CNN
+F1 "OV_Power-rescue_Polyfuse_10A-OpenVent" 100 0 50 V I C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Littelfuse Inc." 0 0 50 H I C CNN "Mfr"
@@ -871,11 +832,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_015m_cursense
+# OV_Power-rescue_R_0603_015m_cursense-OpenVent
 #
-DEF OpenVent_R_0603_015m_cursense R 0 10 N N 1 F N
+DEF OV_Power-rescue_R_0603_015m_cursense-OpenVent R 0 10 N N 1 F N
 F0 "R" -50 100 50 H V L CNN
-F1 "OpenVent_R_0603_015m_cursense" 230 -40 50 H I L CNN
+F1 "OV_Power-rescue_R_0603_015m_cursense-OpenVent" 230 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "0.015mOhm" 0 -100 50 H V C CNN "Val"
@@ -898,11 +859,11 @@ X 2 2 200 0 100 L 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_100_0.1W_0.1%
+# OV_Power-rescue_R_0603_100_0.1W_0.1%-OpenVent
 #
-DEF OpenVent_R_0603_100_0.1W_0.1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_100_0.1W_0.1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_100_0.1W_0.1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_100_0.1W_0.1%-OpenVent" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "100" 0 0 50 H V C CNN "Val"
@@ -921,11 +882,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_10k2_0.1W_1%
+# OV_Power-rescue_R_0603_10k2_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_10k2_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_10k2_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_10k2_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_10k2_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "10k2" 0 0 50 H V C CNN "Val"
@@ -940,11 +901,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_113k_0.1W_1%
+# OV_Power-rescue_R_0603_113k_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_113k_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_113k_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_113k_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_113k_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "113k" 0 0 50 H V C CNN "Val"
@@ -959,11 +920,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_178K_0.1W_1%
+# OV_Power-rescue_R_0603_178K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_178K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_178K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_178K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_178K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "178K" 0 0 50 H V C CNN "Val"
@@ -978,11 +939,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_19k6_0.1W_1%
+# OV_Power-rescue_R_0603_19k6_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_19k6_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_19k6_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_19k6_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_19k6_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "19k6" 0 0 50 H V C CNN "Val"
@@ -997,11 +958,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_221K_0.1W_1%
+# OV_Power-rescue_R_0603_221K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_221K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_221K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_221K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_221K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "221K" 0 0 50 H V C CNN "Val"
@@ -1016,11 +977,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_24k9_0.1W_1%
+# OV_Power-rescue_R_0603_24k9_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_24k9_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_24k9_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_24k9_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_24k9_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "24k9" 0 0 50 H V C CNN "Val"
@@ -1035,11 +996,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_2k74_0.1W_0.1%
+# OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent
 #
-DEF OpenVent_R_0603_2k74_0.1W_0.1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_2k74_0.1W_0.1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "2k74" 0 0 50 H V C CNN "Val"
@@ -1058,11 +1019,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_2k_0.1W_1%
+# OV_Power-rescue_R_0603_2k_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_2k_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_2k_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_2k_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_2k_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "2k" 0 0 50 H V C CNN "Val"
@@ -1077,11 +1038,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_30k1_0.1W_1%
+# OV_Power-rescue_R_0603_30k1_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_30k1_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_30k1_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_30k1_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_30k1_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "30k1" 0 0 50 H V C CNN "Val"
@@ -1096,11 +1057,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_40k2K_0.1W_1%
+# OV_Power-rescue_R_0603_40k2K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_40k2K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_40k2K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_40k2K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_40k2K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "40k2" 0 0 50 H V C CNN "Val"
@@ -1115,11 +1076,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_499K_0.1W_1%
+# OV_Power-rescue_R_0603_499K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_499K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_499K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_499K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_499K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "499K" 0 0 50 H V C CNN "Val"
@@ -1134,11 +1095,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_499R_0.1W_1%
+# OV_Power-rescue_R_0603_499R_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_499R_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_499R_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_499R_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_499R_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "499" 0 0 50 H V C CNN "Val"
@@ -1153,11 +1114,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_49k9_0.1W_1%
+# OV_Power-rescue_R_0603_49k9_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_49k9_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_49k9_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_49k9_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_49k9_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "49k9" 0 0 50 H V C CNN "Val"
@@ -1172,11 +1133,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_53K_0.1W_1%
+# OV_Power-rescue_R_0603_53K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_53K_0.1W_1% R 0 0 N Y 1 F N
+DEF OV_Power-rescue_R_0603_53K_0.1W_1%-OpenVent R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OpenVent_R_0603_53K_0.1W_1%" 0 0 50 V I C CNN
+F1 "OV_Power-rescue_R_0603_53K_0.1W_1%-OpenVent" 0 0 50 V I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KOA Speer Electronics, Inc." 0 0 50 H I C CNN "Mfr"
@@ -1196,11 +1157,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_806K_0.1W_1%
+# OV_Power-rescue_R_0603_806K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_806K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_806K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_806K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_806K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "806K" 0 0 50 H V C CNN "Val"
@@ -1215,11 +1176,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_95k3_0.1W_1%
+# OV_Power-rescue_R_0603_95k3_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_95k3_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_95k3_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_95k3_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_95k3_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "95k3" 0 0 50 H V C CNN "Val"
@@ -1234,11 +1195,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0603_97.6K_0.1W_1%
+# OV_Power-rescue_R_0603_97.6K_0.1W_1%-OpenVent
 #
-DEF OpenVent_R_0603_97.6K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OV_Power-rescue_R_0603_97.6K_0.1W_1%-OpenVent R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_97.6K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_R_0603_97.6K_0.1W_1%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "97.6K" 0 0 50 H V C CNN "Val"
@@ -1253,11 +1214,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_0805_050m_cursense
+# OV_Power-rescue_R_0805_050m_cursense-OpenVent
 #
-DEF OpenVent_R_0805_050m_cursense R 0 10 N N 1 F N
+DEF OV_Power-rescue_R_0805_050m_cursense-OpenVent R 0 10 N N 1 F N
 F0 "R" -50 100 50 H V L CNN
-F1 "OpenVent_R_0805_050m_cursense" 230 -40 50 H I L CNN
+F1 "OV_Power-rescue_R_0805_050m_cursense-OpenVent" 230 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0805_2012Metric" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "0.05mOhm" 0 -100 50 H V C CNN "Val"
@@ -1280,11 +1241,11 @@ X 2 2 200 0 100 L 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_1206_250m_cursense
+# OV_Power-rescue_R_1206_250m_cursense-OpenVent
 #
-DEF OpenVent_R_1206_250m_cursense R 0 10 N N 1 F N
+DEF OV_Power-rescue_R_1206_250m_cursense-OpenVent R 0 10 N N 1 F N
 F0 "R" -50 100 50 H V L CNN
-F1 "OpenVent_R_1206_250m_cursense" 230 -40 50 H I L CNN
+F1 "OV_Power-rescue_R_1206_250m_cursense-OpenVent" 230 -40 50 H I L CNN
 F2 "Resistor_SMD:R_1206_3216Metric" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "250mOhm" 0 -100 50 H V C CNN "Val"
@@ -1306,11 +1267,11 @@ X 2 2 200 0 100 L 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_2512_15m_cursense
+# OV_Power-rescue_R_2512_15m_cursense-OpenVent
 #
-DEF OpenVent_R_2512_15m_cursense R 0 10 N N 1 F N
+DEF OV_Power-rescue_R_2512_15m_cursense-OpenVent R 0 10 N N 1 F N
 F0 "R" -50 100 50 H V L CNN
-F1 "OpenVent_R_2512_15m_cursense" 230 -40 50 H I L CNN
+F1 "OV_Power-rescue_R_2512_15m_cursense-OpenVent" 230 -40 50 H I L CNN
 F2 "Resistor_SMD:R_2512_6332Metric" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "15mOhm" 0 -100 50 H V C CNN "Val"
@@ -1332,11 +1293,11 @@ X 2 2 200 0 100 L 1 1 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_R_Thermistor_0603_10K_NTC
+# OV_Power-rescue_R_Thermistor_0603_10K_NTC-OpenVent
 #
-DEF OpenVent_R_Thermistor_0603_10K_NTC RT 0 0 N Y 1 F N
+DEF OV_Power-rescue_R_Thermistor_0603_10K_NTC-OpenVent RT 0 0 N Y 1 F N
 F0 "RT" 100 50 50 V V C CNN
-F1 "OpenVent_R_Thermistor_0603_10K_NTC" -100 0 50 V I C BNN
+F1 "OV_Power-rescue_R_Thermistor_0603_10K_NTC-OpenVent" -100 0 50 V I C BNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10K" 0 0 50 H V C CNN "Val"
@@ -1351,11 +1312,11 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_S1B
+# OV_Power-rescue_S1B-OpenVent
 #
-DEF OpenVent_S1B D 0 40 N N 1 F N
+DEF OV_Power-rescue_S1B-OpenVent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenVent_S1B" 0 -100 50 H V C CNN
+F1 "OV_Power-rescue_S1B-OpenVent" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SMA" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "ON Semiconductor" 0 0 50 H I C CNN "Mfr"
@@ -1379,11 +1340,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_SSM3K341R
+# OV_Power-rescue_SSM3K341R-OpenVent
 #
-DEF OpenVent_SSM3K341R Q 0 0 Y N 1 F N
+DEF OV_Power-rescue_SSM3K341R-OpenVent Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "OpenVent_SSM3K341R" 200 -50 50 H V L CNN
+F1 "OV_Power-rescue_SSM3K341R-OpenVent" 200 -50 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MOSFET N-CH 60V 6A SOT-23F" 0 0 50 H I C CNN "Desc"
@@ -1413,11 +1374,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_SZNUD3124LT1G
+# OV_Power-rescue_SZNUD3124LT1G-OpenVent
 #
-DEF OpenVent_SZNUD3124LT1G Q 0 40 Y Y 1 F N
+DEF OV_Power-rescue_SZNUD3124LT1G-OpenVent Q 0 40 Y Y 1 F N
 F0 "Q" -200 450 50 H V C CNN
-F1 "OpenVent_SZNUD3124LT1G" 0 0 50 H V C CNN
+F1 "OV_Power-rescue_SZNUD3124LT1G-OpenVent" 0 0 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 100 100 50 H I C CNN
 F3 "" 100 100 50 H I C CNN
 F4 "ON Semiconductor" 0 0 50 H I C CNN "Mfr"
@@ -1434,11 +1395,30 @@ X DRAIN 3 150 500 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OpenVent_VBATT
+# OV_Power-rescue_SpadeLug-F_connectors
 #
-DEF OpenVent_VBATT #PWR 0 0 N N 1 F P
+DEF OV_Power-rescue_SpadeLug-F_connectors J 0 40 N N 1 F N
+F0 "J" 40 60 50 H V L BNN
+F1 "OV_Power-rescue_SpadeLug-F_connectors" 40 -70 50 H V L BNN
+F2 "TE_1217861-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
+F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
+F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
+F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
+F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
+DRAW
+P 2 0 0 10 0 100 0 -100 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_VBATT-OpenVent
+#
+DEF OV_Power-rescue_VBATT-OpenVent #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent_VBATT" 0 150 50 H V C CNN
+F1 "OV_Power-rescue_VBATT-OpenVent" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1449,11 +1429,11 @@ X VBATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent_VIN_12V
+# OV_Power-rescue_VIN_12V-OpenVent
 #
-DEF OpenVent_VIN_12V #PWR 0 0 N N 1 F P
+DEF OV_Power-rescue_VIN_12V-OpenVent #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent_VIN_12V" 0 150 50 H V C CNN
+F1 "OV_Power-rescue_VIN_12V-OpenVent" 0 150 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1464,11 +1444,11 @@ X VIN_12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent_VNH5019ATR-E
+# OV_Power-rescue_VNH5019ATR-E-OpenVent
 #
-DEF OpenVent_VNH5019ATR-E U 0 40 Y Y 1 F N
+DEF OV_Power-rescue_VNH5019ATR-E-OpenVent U 0 40 Y Y 1 F N
 F0 "U" 250 2000 50 H V L BNN
-F1 "OpenVent_VNH5019ATR-E" 750 2000 50 H V C CNN
+F1 "OV_Power-rescue_VNH5019ATR-E-OpenVent" 750 2000 50 H V C CNN
 F2 "" 200 1900 50 H I C CNN
 F3 "" 200 1900 60 H I C CNN
 DRAW
@@ -1503,11 +1483,11 @@ X EN/DIAB 9 0 1700 200 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_V_MAIN
+# OV_Power-rescue_V_MAIN-OpenVent
 #
-DEF OpenVent_V_MAIN #PWR 0 0 N N 1 F P
+DEF OV_Power-rescue_V_MAIN-OpenVent #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent_V_MAIN" 0 140 50 H V C CNN
+F1 "OV_Power-rescue_V_MAIN-OpenVent" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

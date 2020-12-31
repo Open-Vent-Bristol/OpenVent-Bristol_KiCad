@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OpenVent:VBATT #PWR013
+L OV_Power-rescue:VBATT-OpenVent #PWR013
 U 1 1 5F8DD1CC
 P 8600 1000
 F 0 "#PWR013" H 8600 1000 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 8600 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR014
+L OV_Power-rescue:GND-OpenVent #PWR014
 U 1 1 5F8DD1C7
 P 8750 1400
 F 0 "#PWR014" H 8750 1400 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 8750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #GND_011
+L OV_Power-rescue:GND-OpenVent #GND_011
 U 1 1 5F8DD1BA
 P 7200 3800
 F 0 "#GND_011" H 7200 3800 20  0001 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 7200 3800 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:2N7002BK Q2
+L OV_Power-rescue:2N7002BK-OpenVent Q2
 U 1 1 5F8DD198
 P 7200 3400
 F 0 "Q2" H 7150 3150 50  0000 R BNN
@@ -68,7 +68,7 @@ $EndComp
 Text Notes 3800 4200 0    50   ~ 0
 VTH: 10.5V  VFLOAT: 13.65V  VBOOST: 14.5V  IMAX 575mA  IPRE: 11.5mA  (Data from Yuasa NP2.3-12 datasheet)
 $Comp
-L OpenVent:GND #PWR015
+L OV_Power-rescue:GND-OpenVent #PWR015
 U 1 1 5F957C60
 P 10450 1550
 F 0 "#PWR015" H 10450 1300 50  0001 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 10450 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C9
+L OV_Power-rescue:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R-OpenVent C9
 U 1 1 5FD8DCEA
 P 8850 1200
 F 0 "C9" V 8854 1210 50  0000 L CNN
@@ -93,7 +93,7 @@ F 6 "10%" H 8850 1200 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C1
+L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C1
 U 1 1 5FD93658
 P 3050 3100
 F 0 "C1" V 3054 3110 50  0000 L CNN
@@ -107,7 +107,7 @@ F 6 "10%" H 3050 3100 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:VIN_12V #PWR01
+L OV_Power-rescue:VIN_12V-OpenVent #PWR01
 U 1 1 5FAC488E
 P 2400 900
 F 0 "#PWR01" H 2400 750 50  0001 C CNN
@@ -118,7 +118,7 @@ F 3 "" H 2400 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_ICs:LT3796 U1
+L OV_Power-rescue:LT3796-F_ICs U1
 U 1 1 5FAE7EAD
 P 4100 3800
 F 0 "U1" H 4725 3677 50  0000 C CNN
@@ -133,7 +133,7 @@ F 7 "LT3796IFE-1#TRPBF" H 4100 3800 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors L1
+L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
 U 1 1 5FB0C2C0
 P 5400 1050
 F 0 "L1" V 5210 1050 50  0000 C CNN
@@ -151,7 +151,7 @@ F 10 "Coupled Inductors 33uH" H 5400 1050 50  0001 C CNN "Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors L1
+L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
 U 2 1 5FB0D579
 P 6350 1300
 F 0 "L1" H 6438 1346 50  0000 L CNN
@@ -169,7 +169,7 @@ F 10 "Coupled Inductors 33uH" H 6350 1300 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:R_0805_050m_cursense R10
+L OV_Power-rescue:R_0805_050m_cursense-OpenVent R10
 U 1 1 5FB225F9
 P 4900 1050
 F 0 "R10" H 4900 1257 50  0000 C CNN
@@ -192,7 +192,7 @@ $EndComp
 Wire Wire Line
 	5200 1050 5100 1050
 $Comp
-L OpenVent:SSM3K341R Q1
+L OV_Power-rescue:SSM3K341R-OpenVent Q1
 U 1 1 5FB7DD7A
 P 5600 1950
 F 0 "Q1" H 5500 2100 50  0000 L CNN
@@ -211,7 +211,7 @@ $EndComp
 Wire Wire Line
 	5400 1950 5350 1950
 $Comp
-L OpenVent:2.2uF_2824_film_capacitor_10%_40V C6
+L OV_Power-rescue:2.2uF_2824_film_capacitor_10%_40V-OpenVent C6
 U 1 1 5FB8D2D3
 P 5850 950
 F 0 "C6" H 5900 1097 50  0000 C CNN
@@ -233,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1050 6350 1100
 $Comp
-L OpenVent:GND #PWR010
+L OV_Power-rescue:GND-OpenVent #PWR010
 U 1 1 5FB941C7
 P 6350 1550
 F 0 "#PWR010" H 6350 1300 50  0001 C CNN
@@ -252,7 +252,7 @@ Wire Notes Line
 Wire Notes Line
 	5400 750  5400 800 
 $Comp
-L OpenVent:MBRS260T3G D3
+L OV_Power-rescue:MBRS260T3G-OpenVent D3
 U 1 1 5FAD2A5B
 P 6600 1050
 F 0 "D3" H 6600 833 50  0000 C CNN
@@ -272,7 +272,7 @@ Wire Wire Line
 	6350 1050 6450 1050
 Connection ~ 6350 1050
 $Comp
-L OpenVent:R_1206_250m_cursense R15
+L OV_Power-rescue:R_1206_250m_cursense-OpenVent R15
 U 1 1 5FAD8628
 P 7250 1050
 F 0 "R15" H 7250 1200 50  0000 C CNN
@@ -291,7 +291,7 @@ F 11 "1%" H 7250 1050 50  0001 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:R_0603_015m_cursense R11
+L OV_Power-rescue:R_0603_015m_cursense-OpenVent R11
 U 1 1 5FAEB253
 P 6000 2300
 F 0 "R11" H 6000 2093 50  0000 C CNN
@@ -319,7 +319,7 @@ Wire Wire Line
 	5700 2300 5800 2300
 Connection ~ 5700 2250
 $Comp
-L OpenVent:GND #PWR09
+L OV_Power-rescue:GND-OpenVent #PWR09
 U 1 1 5FAF54D9
 P 6250 2400
 F 0 "#PWR09" H 6250 2150 50  0001 C CNN
@@ -346,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1050 5700 1050
 $Comp
-L OpenVent:R_0603_2k_0.1W_1% R9
+L OV_Power-rescue:R_0603_2k_0.1W_1%-OpenVent R9
 U 1 1 5FB1560D
 P 4800 1200
 F 0 "R9" V 4854 1170 50  0000 L CNN
@@ -378,7 +378,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1550 4300 1150
 $Comp
-L OpenVent:R_Thermistor_0603_10K_NTC RT1
+L OV_Power-rescue:R_Thermistor_0603_10K_NTC-OpenVent RT1
 U 1 1 5FB2A0E4
 P 7900 1400
 F 0 "RT1" H 8005 1446 50  0000 L CNN
@@ -397,7 +397,7 @@ F 11 "5%" H 7900 1400 50  0001 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:R_0603_30k1_0.1W_1% R17
+L OV_Power-rescue:R_0603_30k1_0.1W_1%-OpenVent R17
 U 1 1 5FB2AF65
 P 7650 1300
 F 0 "R17" V 7704 1270 50  0000 L CNN
@@ -411,7 +411,7 @@ F 6 "0.1W" H 7650 1300 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_95k3_0.1W_1% R18
+L OV_Power-rescue:R_0603_95k3_0.1W_1%-OpenVent R18
 U 1 1 5FB2C61C
 P 7650 1800
 F 0 "R18" V 7704 1770 50  0000 L CNN
@@ -425,7 +425,7 @@ F 6 "0.1W" H 7650 1800 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_10k2_0.1W_1% R19
+L OV_Power-rescue:R_0603_10k2_0.1W_1%-OpenVent R19
 U 1 1 5FB3259D
 P 7650 3050
 F 0 "R19" V 7704 3020 50  0000 L CNN
@@ -439,7 +439,7 @@ F 6 "0.1W" H 7650 3050 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR012
+L OV_Power-rescue:GND-OpenVent #PWR012
 U 1 1 5FB33EFB
 P 7550 3400
 F 0 "#PWR012" H 7550 3150 50  0001 C CNN
@@ -513,7 +513,7 @@ Connection ~ 4000 2400
 Wire Wire Line
 	4000 2400 4000 2500
 $Comp
-L OpenVent:GND #GND_09
+L OV_Power-rescue:GND-OpenVent #GND_09
 U 1 1 5FB781D9
 P 5450 3900
 F 0 "#GND_09" H 5450 3900 20  0001 C CNN
@@ -524,7 +524,7 @@ F 3 "" H 5450 3900 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #GND_08
+L OV_Power-rescue:GND-OpenVent #GND_08
 U 1 1 5FB7871C
 P 3950 3900
 F 0 "#GND_08" H 3950 3900 20  0001 C CNN
@@ -553,7 +553,7 @@ Connection ~ 3950 3800
 Wire Wire Line
 	3950 3800 3950 3900
 $Comp
-L OpenVent:R_0603_113k_0.1W_1% R16
+L OV_Power-rescue:R_0603_113k_0.1W_1%-OpenVent R16
 U 1 1 5FB965B6
 P 7300 3050
 F 0 "R16" V 7354 3020 50  0000 L CNN
@@ -567,7 +567,7 @@ F 6 "0.1W" H 7300 3050 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_49k9_0.1W_1% R14
+L OV_Power-rescue:R_0603_49k9_0.1W_1%-OpenVent R14
 U 1 1 5FB98314
 P 6800 3250
 F 0 "R14" V 6854 3220 50  0000 L CNN
@@ -603,7 +603,7 @@ Connection ~ 7200 2900
 Wire Wire Line
 	7200 2900 7550 2900
 $Comp
-L OpenVent:R_0603_499K_0.1W_1% R6
+L OV_Power-rescue:R_0603_499K_0.1W_1%-OpenVent R6
 U 1 1 5FBB8178
 P 3100 1200
 F 0 "R6" V 3154 1170 50  0000 L CNN
@@ -617,7 +617,7 @@ F 6 "0.1W" H 3100 1200 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_97.6K_0.1W_1% R7
+L OV_Power-rescue:R_0603_97.6K_0.1W_1%-OpenVent R7
 U 1 1 5FBB9898
 P 3100 1650
 F 0 "R7" V 3154 1620 50  0000 L CNN
@@ -631,7 +631,7 @@ F 6 "0.1W" H 3100 1650 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_06
+L OV_Power-rescue:GND-OpenVent #GND_06
 U 1 1 5FBBA7BE
 P 3000 1950
 F 0 "#GND_06" H 3000 1950 20  0001 C CNN
@@ -648,7 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 1500 3000 1500
 $Comp
-L OpenVent:R_0603_806K_0.1W_1% R1
+L OV_Power-rescue:R_0603_806K_0.1W_1%-OpenVent R1
 U 1 1 5FBCF700
 P 2500 1200
 F 0 "R1" V 2554 1170 50  0000 L CNN
@@ -662,7 +662,7 @@ F 6 "0.1W" H 2500 1200 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:20k_0603_Chip_Resistor,_1%,_0.1W R2
+L OV_Power-rescue:20k_0603_Chip_Resistor,_1%,_0.1W-OpenVent R2
 U 1 1 5FBD0B54
 P 2500 1650
 F 0 "R2" V 2554 1620 50  0000 L CNN
@@ -676,7 +676,7 @@ F 6 "1W" H 2500 1650 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_02
+L OV_Power-rescue:GND-OpenVent #GND_02
 U 1 1 5FBD1299
 P 2400 1950
 F 0 "#GND_02" H 2400 1950 20  0001 C CNN
@@ -693,7 +693,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1500 2400 1500
 $Comp
-L OpenVent:R_0603_19k6_0.1W_1% R5
+L OV_Power-rescue:R_0603_19k6_0.1W_1%-OpenVent R5
 U 1 1 5FBEF8DF
 P 3700 3700
 F 0 "R5" V 3754 3670 50  0000 L CNN
@@ -707,7 +707,7 @@ F 6 "0.1W" H 3700 3700 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:R_0603_499R_0.1W_1% R3
+L OV_Power-rescue:R_0603_499R_0.1W_1%-OpenVent R3
 U 1 1 5FBF0B6B
 P 3300 3550
 F 0 "R3" V 3354 3520 50  0000 L CNN
@@ -721,7 +721,7 @@ F 6 "0.1W" H 3300 3550 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C3
+L OV_Power-rescue:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent C3
 U 1 1 5FBF2CF3
 P 3300 4000
 F 0 "C3" V 3304 4010 50  0000 L CNN
@@ -735,7 +735,7 @@ F 6 "10%" H 3300 4000 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_03
+L OV_Power-rescue:GND-OpenVent #GND_03
 U 1 1 5FBF36AE
 P 3200 4200
 F 0 "#GND_03" H 3200 4200 20  0001 C CNN
@@ -746,7 +746,7 @@ F 3 "" H 3200 4200 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #GND_05
+L OV_Power-rescue:GND-OpenVent #GND_05
 U 1 1 5FBF3BDA
 P 3600 4000
 F 0 "#GND_05" H 3600 4000 20  0001 C CNN
@@ -767,7 +767,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3850 3200 3900
 $Comp
-L OpenVent:GND #GND_01
+L OV_Power-rescue:GND-OpenVent #GND_01
 U 1 1 5FC0D294
 P 2950 3300
 F 0 "#GND_01" H 2950 3300 20  0001 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 2950 3300 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #GND_07
+L OV_Power-rescue:GND-OpenVent #GND_07
 U 1 1 5FC0D940
 P 3950 3150
 F 0 "#GND_07" H 3950 3150 20  0001 C CNN
@@ -797,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2950 2950 3000
 $Comp
-L OpenVent:R_0603_40k2K_0.1W_1% R4
+L OV_Power-rescue:R_0603_40k2K_0.1W_1%-OpenVent R4
 U 1 1 5FC1F79D
 P 3650 2300
 F 0 "R4" V 3704 2270 50  0000 L CNN
@@ -811,7 +811,7 @@ F 6 "0.1W" H 3650 2300 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C2
+L OV_Power-rescue:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent C2
 U 1 1 5FC204F4
 P 3150 2350
 F 0 "C2" V 3154 2360 50  0000 L CNN
@@ -825,7 +825,7 @@ F 6 "10%" H 3150 2350 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_04
+L OV_Power-rescue:GND-OpenVent #GND_04
 U 1 1 5FC29C1A
 P 3550 2600
 F 0 "#GND_04" H 3550 2600 20  0001 C CNN
@@ -846,7 +846,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2200 3050 2250
 $Comp
-L OpenVent:C_1210_10uF_25V_10%_X7R C8
+L OV_Power-rescue:C_1210_10uF_25V_10%_X7R-OpenVent C8
 U 1 1 5FCA0493
 P 6900 1350
 F 0 "C8" V 6859 1360 50  0000 L CNN
@@ -864,7 +864,7 @@ F 10 "10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)" H 6900 1350 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_010
+L OV_Power-rescue:GND-OpenVent #GND_010
 U 1 1 5FCA2162
 P 6800 1550
 F 0 "#GND_010" H 6800 1550 20  0001 C CNN
@@ -896,7 +896,7 @@ F0 "Power Supply" 50
 F1 "PowerSupply.sch" 50
 $EndSheet
 $Comp
-L OpenVent:LT1936 U2
+L OV_Power-rescue:LT1936-OpenVent U2
 U 1 1 5FB232C2
 P 4350 5850
 F 0 "U2" H 4700 6675 50  0000 C CNN
@@ -911,7 +911,7 @@ F 7 "IC REG BUCK ADJ 1.4A 8MSOP" H 4350 5850 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:MBRS260T3G D1
+L OV_Power-rescue:MBRS260T3G-OpenVent D1
 U 1 1 5FB246D1
 P 5450 5650
 F 0 "D1" V 5404 5730 50  0000 L CNN
@@ -928,7 +928,7 @@ F 9 "Diode Schottky 60V 2A Surface Mount SMB" H 5450 5650 50  0001 C CNN "Detail
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C4
+L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C4
 U 1 1 5FB26269
 P 4300 4850
 F 0 "C4" V 4304 4860 50  0000 L CNN
@@ -942,7 +942,7 @@ F 6 "10%" H 4300 4850 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:L_22uH_2.6A_42mOhm_SMT L2
+L OV_Power-rescue:L_22uH_2.6A_42mOhm_SMT-OpenVent L2
 U 1 1 5FB271FB
 P 5900 5450
 F 0 "L2" V 6125 5450 50  0000 C CNN
@@ -959,7 +959,7 @@ F 9 "SRU1048-220Y" H 5900 5450 50  0001 C CNN "Mfr_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:C_0603_0.22uf_25V_10% C5
+L OV_Power-rescue:C_0603_0.22uf_25V_10%-OpenVent C5
 U 1 1 5FB29AAF
 P 5300 5250
 F 0 "C5" H 5415 5296 50  0000 L CNN
@@ -979,7 +979,7 @@ F 12 "25V" H 5300 5250 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:R_0603_53K_0.1W_1% R12
+L OV_Power-rescue:R_0603_53K_0.1W_1%-OpenVent R12
 U 1 1 5FB2A48E
 P 6100 5650
 F 0 "R12" H 6170 5696 50  0000 L CNN
@@ -998,7 +998,7 @@ F 11 "1%" H 6100 5650 50  0001 C CNN "Tolerance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:MMBD914 D2
+L OV_Power-rescue:MMBD914-OpenVent D2
 U 1 1 5FB2B5F3
 P 5650 5050
 F 0 "D2" H 5650 5267 50  0000 C CNN
@@ -1040,7 +1040,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5450 6050 5450
 $Comp
-L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R13
+L OV_Power-rescue:10k_0603_Chip_Resistor,_1%,_0.1W-OpenVent R13
 U 1 1 5FB44596
 P 6200 6000
 F 0 "R13" V 6250 6000 50  0000 L CNN
@@ -1054,7 +1054,7 @@ F 6 "0.1W" H 6200 6000 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR07
+L OV_Power-rescue:GND-OpenVent #PWR07
 U 1 1 5FB465E6
 P 5450 5800
 F 0 "#PWR07" H 5450 5550 50  0001 C CNN
@@ -1065,7 +1065,7 @@ F 3 "" H 5450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR08
+L OV_Power-rescue:GND-OpenVent #PWR08
 U 1 1 5FB46FAF
 P 6100 6300
 F 0 "#PWR08" H 6100 6050 50  0001 C CNN
@@ -1094,7 +1094,7 @@ Connection ~ 6100 5850
 Wire Wire Line
 	6100 5850 6100 5900
 $Comp
-L OpenVent:GND #PWR06
+L OV_Power-rescue:GND-OpenVent #PWR06
 U 1 1 5FB59EC8
 P 5100 5900
 F 0 "#PWR06" H 5100 5650 50  0001 C CNN
@@ -1105,7 +1105,7 @@ F 3 "" H 5100 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR05
+L OV_Power-rescue:GND-OpenVent #PWR05
 U 1 1 5FB5A4AC
 P 4300 5900
 F 0 "#PWR05" H 4300 5650 50  0001 C CNN
@@ -1142,7 +1142,7 @@ Connection ~ 6100 5400
 Wire Wire Line
 	6100 5400 6100 5450
 $Comp
-L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C7
+L OV_Power-rescue:10uF_0805_Ceramic_Capacitor_10%_X7R_10V-OpenVent C7
 U 1 1 5FB40EF3
 P 6750 5600
 F 0 "C7" V 6709 5610 50  0000 L CNN
@@ -1162,7 +1162,7 @@ F 12 "490-10674-2-ND" H 6750 5600 50  0001 C CNN "Dist_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR011
+L OV_Power-rescue:GND-OpenVent #PWR011
 U 1 1 5FB41C83
 P 6650 5850
 F 0 "#PWR011" H 6650 5600 50  0001 C CNN
@@ -1180,7 +1180,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 5850 6650 5800
 $Comp
-L OpenVent:V_MAIN #PWR03
+L OV_Power-rescue:V_MAIN-OpenVent #PWR03
 U 1 1 5FB4E53F
 P 4200 4650
 F 0 "#PWR03" H 4200 4500 50  0001 C CNN
@@ -1191,7 +1191,7 @@ F 3 "" H 4200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR04
+L OV_Power-rescue:GND-OpenVent #PWR04
 U 1 1 5FB567C9
 P 4200 5050
 F 0 "#PWR04" H 4200 4800 50  0001 C CNN
@@ -1213,7 +1213,7 @@ Wire Wire Line
 	4200 4650 4200 4700
 Connection ~ 4200 4700
 $Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R8
+L OV_Power-rescue:100K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R8
 U 1 1 5FB64BF5
 P 4050 5600
 F 0 "R8" V 4104 5570 50  0000 L CNN
@@ -1227,7 +1227,7 @@ F 6 "0.1W" H 4050 5600 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #PWR02
+L OV_Power-rescue:GND-OpenVent #PWR02
 U 1 1 5FB65A9A
 P 3950 5900
 F 0 "#PWR02" H 3950 5650 50  0001 C CNN
@@ -1249,7 +1249,7 @@ Connection ~ 3950 5450
 Text Notes 10250 2550 0    50   ~ 0
 NEED CONNECTOR\nDEFINITION FOR\nGELL CELL.\nTHIS CONNECTION\nALSO NEEDS TO\nBE FUSED.
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C14
+L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C14
 U 1 1 5FB9582D
 P 2450 3100
 F 0 "C14" V 2454 3110 50  0000 L CNN
@@ -1263,7 +1263,7 @@ F 6 "10%" H 2450 3100 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:GND #GND_018
+L OV_Power-rescue:GND-OpenVent #GND_018
 U 1 1 5FB95C6B
 P 2350 3300
 F 0 "#GND_018" H 2350 3300 20  0001 C CNN
@@ -1292,7 +1292,7 @@ Connection ~ 8750 1050
 Wire Wire Line
 	8750 1050 9100 1050
 $Comp
-L F_connectors:SpadeLug J4
+L OV_Power-rescue:SpadeLug-F_connectors J4
 U 1 1 5FCBB8E9
 P 10750 1050
 F 0 "J4" H 10780 1096 50  0000 L CNN
@@ -1330,7 +1330,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 1450 10450 1550
 $Comp
-L OpenVent:Polyfuse_10A F1
+L OV_Power-rescue:Polyfuse_10A-OpenVent F1
 U 1 1 5FCE2FD4
 P 9250 1050
 F 0 "F1" V 8935 1050 50  0000 C CNN
@@ -1351,7 +1351,7 @@ Wire Wire Line
 Text Notes 3650 6150 0    50   ~ 0
 Static drain of U2 in shutdown mode is less than 1uA.
 $Comp
-L OpenVent:S1B D4
+L OV_Power-rescue:S1B-OpenVent D4
 U 1 1 5FDCD265
 P 8200 1050
 F 0 "D4" H 8200 833 50  0000 C CNN
@@ -1383,7 +1383,7 @@ Connection ~ 2400 1500
 Connection ~ 3000 1500
 NoConn ~ 5350 3500
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C15
+L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C15
 U 1 1 5FDF7911
 P 3900 1350
 F 0 "C15" V 3904 1360 50  0000 L CNN
@@ -1414,7 +1414,7 @@ Connection ~ 3000 1050
 Wire Wire Line
 	3000 1050 2400 1050
 $Comp
-L OpenVent:GND #GND_015
+L OV_Power-rescue:GND-OpenVent #GND_015
 U 1 1 5FE2DB3C
 P 3800 1550
 F 0 "#GND_015" H 3800 1550 20  0001 C CNN
