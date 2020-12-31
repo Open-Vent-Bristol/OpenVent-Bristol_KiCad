@@ -133,7 +133,7 @@ F 7 "LT3796IFE-1#TRPBF" H 4100 3800 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors L1
+L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
 U 1 1 5FB0C2C0
 P 5400 1050
 F 0 "L1" V 5210 1050 50  0000 C CNN
@@ -151,7 +151,7 @@ F 10 "Coupled Inductors 33uH" H 5400 1050 50  0001 C CNN "Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors L1
+L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
 U 2 1 5FB0D579
 P 6350 1300
 F 0 "L1" H 6438 1346 50  0000 L CNN
@@ -1309,7 +1309,7 @@ F 9 "1217861-1" H 10750 1050 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:SpadeLug-F_connectors J5
+L OV_Power-rescue:SpadeLug-F_connectors-OV_Power-rescue J5
 U 1 1 5FCBC350
 P 10750 1450
 F 0 "J5" H 10780 1496 50  0000 L CNN

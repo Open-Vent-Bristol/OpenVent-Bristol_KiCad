@@ -86,11 +86,11 @@ X 2 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OV_Power-rescue_MSD1260-333-F_inductors
+# OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue
 #
-DEF OV_Power-rescue_MSD1260-333-F_inductors L 0 20 Y N 2 F N
+DEF OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue L 0 20 Y N 2 F N
 F0 "L" 0 0 50 H V C CNN
-F1 "OV_Power-rescue_MSD1260-333-F_inductors" 0 0 50 H I C CNN
+F1 "OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue" 0 0 50 H I C CNN
 F2 "F_Inductors:MSD1260" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "33uH" 0 0 50 H V C CNN "Val"
@@ -121,11 +121,11 @@ X 4 4 0 -200 100 U 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# OV_Power-rescue_SpadeLug-F_connectors
+# OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue
 #
-DEF OV_Power-rescue_SpadeLug-F_connectors J 0 40 N N 1 F N
+DEF OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue J 0 40 N N 1 F N
 F0 "J" 40 60 50 H V L BNN
-F1 "OV_Power-rescue_SpadeLug-F_connectors" 40 -70 50 H V L BNN
+F1 "OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue" 40 -70 50 H V L BNN
 F2 "TE_1217861-1" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"

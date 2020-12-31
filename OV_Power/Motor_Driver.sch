@@ -521,6 +521,8 @@ F 7 "Riedon" H 5500 1150 50  0001 C CNN "Mfr"
 F 8 "CSR2512A0R015F" H 5500 1150 50  0001 C CNN "Mfr_Pn"
 F 9 "RES 0.015 OHM 1% 2W 2512" H 5500 1150 50  0001 C CNN "Desc"
 F 10 "15 mOhms ±1% 2W Chip Resistor 2512 (6432 Metric) Current Sense, Non-Inductive Metal Element" H 5500 1150 50  0001 C CNN "Detailed"
+F 11 "CSR2512A0R015F" H 5300 1150 50  0001 C CNN "Mfr_PN"
+F 12 "1%" H 5300 1150 50  0001 C CNN "Tolerance"
 	1    5300 1150
 	1    0    0    -1  
 $EndComp
