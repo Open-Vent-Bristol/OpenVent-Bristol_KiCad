@@ -405,7 +405,6 @@ Wire Wire Line
 	4150 4350 4550 4350
 NoConn ~ 4550 4050
 NoConn ~ 4550 4150
-NoConn ~ 5700 5700
 $Comp
 L OpenVent:R_0603_100_0.1W_0.1% R20
 U 1 1 5FD523E1
