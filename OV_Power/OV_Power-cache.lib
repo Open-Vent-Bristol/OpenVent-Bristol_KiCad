@@ -3,7 +3,150 @@ EESchema-LIBRARY Version 2.4
 #
 # OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent
 #
+<<<<<<< HEAD
 DEF OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C 0 40 Y Y 1 F N
+=======
+DEF F_ICs_LT3796 U 0 40 Y Y 1 F N
+F0 "U" 600 1700 50 H V C CNN
+F1 "F_ICs_LT3796" 600 -100 50 H V C CNN
+F2 "F_ICs:TSSOP-28-LTvar_EB_4.4x9.7mm_P0.65mm" 600 600 50 H I C CNN
+F3 "" 600 600 50 H I C CNN
+F4 "Analog Devices" 0 0 50 H I C CNN "Mfr"
+F5 "LT3796IFE-1#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC LED DRIVER CTRLR DIM 28TSSOP" 0 0 50 H I C CNN "Desc"
+F7 "LED Driver IC 1 Output DC DC Controller SEPIC, Step-Down (Buck), Step-Up (Boost) Analog, PWM Dimming  28-TSSOP-EP" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 100 2150 1150 -50 0 1 0 f
+X ISP 1 1250 1150 100 L 50 50 1 1 P
+X VREF 10 0 1500 100 R 50 50 1 1 P
+X SS 11 0 850 100 R 50 50 1 1 P
+X RT 12 0 250 100 R 50 50 1 1 P
+X SYNC 13 0 700 100 R 50 50 1 1 P
+X PWM 14 0 1300 100 R 50 50 1 1 P
+X ~FAULT~ 15 1250 300 100 L 50 50 1 1 P
+X ~VMODE~ 16 1250 450 100 L 50 50 1 1 P
+X SNSGND 17 1250 1450 100 L 50 50 1 1 P
+X SENSE 18 1250 1550 100 L 50 50 1 1 P
+X GATE 19 1250 1850 100 L 50 50 1 1 P
+X ISN 2 1250 1050 100 L 50 50 1 1 P
+X INTVCC 20 1250 700 100 L 50 50 1 1 P
+X GND 21 0 100 100 R 50 50 1 1 P
+X GND 22 0 0 100 R 50 50 1 1 P
+X VIN 23 200 2250 100 D 50 50 1 1 P
+X EN/UVLO 24 0 1850 100 R 50 50 1 1 P
+X VS 25 350 2250 100 D 50 50 1 1 P
+X CSN 26 1000 2250 100 D 50 50 1 1 P
+X CSP 27 600 2250 100 D 50 50 1 1 P
+X CSOUT 28 0 1100 100 R 50 50 1 1 P
+X GNDPAD 29 1250 0 100 L 50 50 1 1 P
+X TG 3 0 550 100 R 50 50 1 1 P
+X GND 4 1250 100 100 L 50 50 1 1 P
+X ISMON 5 0 1000 100 R 50 50 1 1 P
+X FB2 6 0 1700 100 R 50 50 1 1 P
+X FB1 7 1250 900 100 L 50 50 1 1 P
+X VC 8 0 400 100 R 50 50 1 1 P
+X CTRL 9 0 1400 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_ICs_LT6106
+#
+DEF F_ICs_LT6106 U 0 40 Y Y 1 F N
+F0 "U" 750 450 50 H V C CNN
+F1 "F_ICs_LT6106" 450 -150 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TSOT-23-5" 450 -250 50 H I C CNN
+F3 "" 350 -50 50 H I C CNN
+F4 "Analog Devices Inc." 0 0 50 H I C CNN "Mfr"
+F5 "LT6106IS5#TRPBF" 0 0 50 H I C CNN "Mfr_PN"
+F6 "IC CURR SENSE 1 CIRCUIT TSOT23-5" 0 0 50 H I C CNN "Desc"
+F7 "Current Sense Amplifier 1 Circuit  TSOT-23-5" 0 0 50 H I C CNN "Detailed"
+DRAW
+S 100 400 750 -100 0 1 0 f
+X OUT 1 850 0 100 L 50 50 1 1 P
+X V- 2 0 0 100 R 50 50 1 1 P
+X -IN 3 250 500 100 D 50 50 1 1 P
+X +IN 4 650 500 100 D 50 50 1 1 P
+X V+ 5 0 200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_connectors_SpadeLug
+#
+DEF F_connectors_SpadeLug J 0 40 N N 1 F N
+F0 "J" 40 60 50 H V L BNN
+F1 "F_connectors_SpadeLug" 40 -70 50 H V L BNN
+F2 "TE_1217861-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
+F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
+F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
+F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
+F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
+DRAW
+P 2 0 0 10 0 100 0 -100 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue
+#
+DEF OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue L 0 20 Y N 2 F N
+F0 "L" 0 0 50 H V C CNN
+F1 "OV_Power-rescue_MSD1260-333-F_inductors-OV_Power-rescue" 0 0 50 H I C CNN
+F2 "F_Inductors:MSD1260" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "33uH" 0 0 50 H V C CNN "Val"
+F5 "Coilcraft" 0 0 50 H I C CNN "Mfr"
+F6 "MSD1260-333MLB" 0 0 50 H I C CNN "Mfr_PN"
+F7 "Mouser" 0 0 50 H I C CNN "Dist"
+F8 "994-MSD1260-333MLB" 0 0 50 H I C CNN "Dist_PN"
+F9 "Coupled Inductors 33uH Shld 20% 2.32A 134mOhms" 0 0 50 H I C CNN "Detailed"
+F10 "Coupled Inductors 33uH" 0 0 50 H I C CNN "Desc"
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+A 0 -75 25 -899 899 2 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 2 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 2 1 0 N 0 0 0 50
+A 0 75 25 -899 899 2 1 0 N 0 50 0 100
+C -20 75 5 0 1 0 F
+P 2 1 1 0 40 100 40 -100 N
+P 2 1 1 0 60 -100 60 100 N
+P 2 2 1 0 40 100 40 -100 N
+P 2 2 1 0 60 -100 60 100 N
+X 2 1 0 200 100 D 50 50 1 1 P
+X 4 3 0 -200 100 U 50 50 1 1 P
+X 2 2 0 200 100 D 50 50 2 1 P
+X 4 4 0 -200 100 U 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue
+#
+DEF OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue J 0 40 N N 1 F N
+F0 "J" 40 60 50 H V L BNN
+F1 "OV_Power-rescue_SpadeLug-F_connectors-OV_Power-rescue" 40 -70 50 H V L BNN
+F2 "TE_1217861-1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TE Connectivity AMP Connectors" 0 0 50 H I L BNN "Mfr"
+F5 "1217861-1" 0 0 50 H I L BNN "MfrPn"
+F6 "A100452CT-ND" 0 0 50 H I L BNN "DK_pn"
+F7 "CONN QC TAB 0.250 SOLDER" 0 0 50 H I L BNN "Desc"
+F8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" 0 0 50 H I L BNN "Detailed"
+DRAW
+P 2 0 0 10 0 100 0 -100 N
+X 1 1 -200 0 200 R 40 40 0 0 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_1000uF_25V_Aluminium_SMD_Capacitor,_20%
+#
+DEF OpenVent_1000uF_25V_Aluminium_SMD_Capacitor,_20% C 0 40 Y Y 1 F N
+>>>>>>> main
 F0 "C" 90 -150 50 H V L BNN
 F1 "OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN

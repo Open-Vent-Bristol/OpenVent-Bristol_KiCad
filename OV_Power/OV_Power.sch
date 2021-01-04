@@ -1309,7 +1309,7 @@ F 9 "1217861-1" H 10750 1050 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:SpadeLug-F_connectors J5
+L OV_Power-rescue:SpadeLug-F_connectors-OV_Power-rescue J5
 U 1 1 5FCBC350
 P 10750 1450
 F 0 "J5" H 10780 1496 50  0000 L CNN

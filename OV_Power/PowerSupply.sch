@@ -711,7 +711,7 @@ Wire Wire Line
 Text Label 8200 5300 2    50   ~ 0
 FAN_DRIVE
 Wire Wire Line
-	1500 1700 3150 1700
+	1500 1700 3000 1700
 Connection ~ 1500 1700
 Connection ~ 3550 1700
 $Comp
@@ -728,11 +728,6 @@ F 6 "0.1W" H 2500 3700 50  0001 C CNN "Watt"
 	1    2500 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 3150 3900 3800
-Wire Wire Line
-	3900 3800 2800 3800
-Connection ~ 3900 3150
 Wire Wire Line
 	2400 3800 2200 3800
 Text Label 2200 4150 0    50   ~ 0
@@ -814,4 +809,11 @@ Wire Wire Line
 	2200 5300 2200 3800
 Wire Wire Line
 	2100 6400 4000 6400
+Wire Wire Line
+	2800 3800 3000 3800
+Wire Wire Line
+	3000 3800 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3150 1700
 $EndSCHEMATC

@@ -712,10 +712,10 @@ Sounder drive will be global thing too, comingf from the FPGA
 Text Notes 1075 5400 0    50   ~ 0
 Sounder current coming into pin 8 on the micro
 $Comp
-L OpenVent:BS250P Q?
+L OpenVent:BS250P Q2
 U 1 1 5FF708AD
 P 9800 4850
-F 0 "Q?" H 9690 4604 50  0000 R CNN
+F 0 "Q2" H 9690 4604 50  0000 R CNN
 F 1 "BS250P" H 9690 4695 50  0000 R CNN
 F 2 "" H 9800 4850 50  0000 C CNN
 F 3 "" H 9800 4850 50  0000 C CNN
