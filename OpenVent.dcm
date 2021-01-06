@@ -114,6 +114,10 @@ K buck regulator
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmr12010
 $ENDCMP
 #
+$CMP LPS25HB
+D MEMS pressure sensor: 260-1260 hPa absolute digital output barometer
+$ENDCMP
+#
 $CMP LT1936
 D Buck Switching Regulator IC Positive Adjustable 1.2V 1 Output 1.4A 8-TSSOP, 8-MSOP (0.118", 3.00mm Width) Exposed Pad
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf

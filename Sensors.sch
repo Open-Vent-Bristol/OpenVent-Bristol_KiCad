@@ -805,14 +805,6 @@ $EndComp
 Connection ~ 2950 3350
 Wire Wire Line
 	2950 3350 3500 3350
-Text Notes 7150 6150 0    50   ~ 0
-Darren's Flow senser, maybe plus opamps or whatever is needed
-Text Notes 7100 6225 0    50   ~ 0
-https://drive.google.com/file/d/1mZiFeJ4HfEkPdwHjtIVVL5XULqvMIZ-r/view
-Text Notes 7175 6000 0    50   ~ 0
-MAKE TWO OF THE 6GP
-Text Notes 7250 6400 0    50   ~ 0
-Speak with DON ABOUT THE LACK OF PINS FOR EXTRA SENSOR 
 $Comp
 L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R32
 U 1 1 5FF27B3E
@@ -1029,17 +1021,6 @@ $EndComp
 Wire Wire Line
 	1250 7125 1250 7000
 $Comp
-L OpenVent:SFM3020 U16
-U 1 1 5FFDAFCB
-P 1350 7125
-F 0 "U16" H 1610 7360 50  0000 C CNN
-F 1 "SFM3020" H 1610 7269 50  0000 C CNN
-F 2 "" H 1350 7125 50  0001 C CNN
-F 3 "" H 1350 7125 50  0001 C CNN
-	1    1350 7125
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:GND #GND_030
 U 1 1 5FFDC913
 P 1250 7375
@@ -1110,12 +1091,9 @@ $EndComp
 Wire Wire Line
 	2950 7575 2950 7450
 Wire Wire Line
-	1975 7125 2950 7125
-Wire Wire Line
 	2950 7125 2950 7150
 Wire Wire Line
 	2950 7125 3700 7125
-Connection ~ 2950 7125
 $Comp
 L OpenVent:GND #GND_047
 U 1 1 60007151
@@ -1134,4 +1112,106 @@ Wire Wire Line
 Wire Wire Line
 	4250 7125 4475 7125
 Connection ~ 4250 7125
+$Comp
+L OpenVent:SFM3020 U16
+U 1 1 5FFDAFCB
+P 1350 7125
+F 0 "U16" H 1610 7360 50  0000 C CNN
+F 1 "SFM3020" H 1610 7269 50  0000 C CNN
+F 2 "" H 1350 7125 50  0001 C CNN
+F 3 "" H 1350 7125 50  0001 C CNN
+	1    1350 7125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1970 7125 2950 7125
+Connection ~ 2950 7125
+$Comp
+L OpenVent:LPS25HB U?
+U 1 1 5FFAE568
+P 8550 4475
+F 0 "U?" H 9037 4715 50  0000 C CNN
+F 1 "LPS25HB" H 9037 4624 50  0000 C CNN
+F 2 "" H 8550 4475 50  0001 C CNN
+F 3 "" H 8550 4475 50  0001 C CNN
+	1    8550 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FFCC9B7
+P 8350 4425
+AR Path="/5F988182/5FFCC9B7" Ref="#3V3_?"  Part="1" 
+AR Path="/5F8F3873/5FFCC9B7" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 8350 4425 20  0001 C CNN
+F 1 "3V3" H 8350 4575 50  0000 C CNN
+F 2 "" H 8350 4425 70  0001 C CNN
+F 3 "" H 8350 4425 70  0001 C CNN
+	1    8350 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4475 8350 4475
+Wire Wire Line
+	8350 4475 8350 4425
+Wire Wire Line
+	8450 4575 8350 4575
+Wire Wire Line
+	8350 4575 8350 4475
+Connection ~ 8350 4475
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 5FFDC823
+P 7825 4425
+AR Path="/5F988182/5FFDC823" Ref="#3V3_?"  Part="1" 
+AR Path="/5F8F3873/5FFDC823" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 7825 4425 20  0001 C CNN
+F 1 "3V3" H 7825 4575 50  0000 C CNN
+F 2 "" H 7825 4425 70  0001 C CNN
+F 3 "" H 7825 4425 70  0001 C CNN
+	1    7825 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 5FFDE287
+P 7925 4525
+F 0 "C?" V 7929 4535 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7925 4525 50  0001 C CNN
+F 2 "" H 7925 4525 50  0001 C CNN
+F 3 "" H 7925 4525 50  0001 C CNN
+F 4 "100nF" V 8020 4535 50  0000 L CNN "Val"
+F 5 "25V" H 7925 4525 50  0001 C CNN "Voltage"
+F 6 "10%" H 7925 4525 50  0001 C CNN "Tolerance"
+	1    7925 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FFDE6DE
+P 7825 4725
+F 0 "#GND_?" H 7825 4725 20  0001 C CNN
+F 1 "GND" H 7825 4655 50  0001 C CNN
+F 2 "" H 7825 4725 70  0000 C CNN
+F 3 "" H 7825 4725 70  0000 C CNN
+	1    7825 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 5FFE65C3
+P 9625 4875
+F 0 "#GND_?" H 9625 4875 20  0001 C CNN
+F 1 "GND" H 9625 4805 50  0001 C CNN
+F 2 "" H 9625 4875 70  0000 C CNN
+F 3 "" H 9625 4875 70  0000 C CNN
+	1    9625 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 4875 9625 4775
+Connection ~ 9625 4875
+Wire Wire Line
+	9625 4775 9625 4675
+Connection ~ 9625 4775
 $EndSCHEMATC
