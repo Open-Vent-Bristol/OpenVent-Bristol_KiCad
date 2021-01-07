@@ -68,6 +68,12 @@ D Connector Header Through Hole 2 position 0.100" (2.54mm)
 F https://www.molex.com/webdocs/datasheets/pdf/en-us//0022232021_PCB_HEADERS.pdf
 $ENDCMP
 #
+$CMP CONN_HEADER_R_A_2POS_JST_10A
+D Connector Header Through Hole, Right Angle 2 position 0.156" (3.96mm)
+K header, right angle, 2 pos
+F http://www.jst-mfg.com/product/pdf/eng/eVH.pdf
+$ENDCMP
+#
 $CMP CSD88537ND
 D Mosfet Array 2 N-Channel (Dual) 60V 15A 2.1W Surface Mount 8-SOIC
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd88537nd
@@ -83,6 +89,12 @@ $CMP C_1210_10uF_25V_10%_X7R
 D 10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)
 K capacitor
 F http://www.samsungsem.com/kr/support/product-search/mlcc/CL32A106KAULNNE.jsp
+$ENDCMP
+#
+$CMP C_Polarized_US
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
 $ENDCMP
 #
 $CMP Conn_HDR_2x10_latching
@@ -119,6 +131,12 @@ D Buck Switching Regulator IC Positive Adjustable 1.2V 1 Output 1.4A 8-TSSOP, 8-
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf
 $ENDCMP
 #
+$CMP LT3796
+D LED Driver IC 1 Output DC DC Controller SEPIC, Step-Down (Buck), Step-Up (Boost) Analog, PWM Dimming  28-TSSOP-EP
+K current, voltage, smps
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3796fb.pdf
+$ENDCMP
+#
 $CMP LTC4416
 D OR Controller Source Selector Switch P-Channel 2:2 10-MSOP
 F http://www.linear.com/docs/17899
@@ -146,6 +164,12 @@ $CMP MMBD914
 D Diode Standard 100V 200mA Surface Mount SOT-23
 K diode
 F https://www.vishay.com/docs/85734/mmbd914.pd
+$ENDCMP
+#
+$CMP MSD1260-333
+D Coupled Inductors 33uH Shld 20% 2.32A 134mOhms
+K Coupled Inductor
+F https://www.mouser.com/datasheet/2/597/msd1260-220355.pdf
 $ENDCMP
 #
 $CMP OpenVent_Barrel_Connector

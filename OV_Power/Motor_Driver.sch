@@ -30,8 +30,6 @@ F 3 "" H 9300 1750 70  0000 C CNN
 	1    9300 1750
 	1    0    0    -1  
 $EndComp
-Text Notes 8750 4500 0    60   ~ 0
-Mates with Molex cable assembly 151370201
 NoConn ~ 4550 3750
 Text GLabel 2050 3050 0    60   Output ~ 0
 nMOTOR-FAULT-A
@@ -77,8 +75,6 @@ Wire Wire Line
 	7200 4500 6750 4500
 Wire Wire Line
 	8500 4500 7200 4500
-Wire Wire Line
-	8500 3950 8500 4500
 Wire Wire Line
 	6400 4150 6400 4050
 Wire Wire Line
@@ -143,19 +139,6 @@ F 5 "1K" H 2750 3050 50  0000 C CNN "Val"
 F 6 "0.1W" H 2600 3250 50  0001 C CNN "Watt"
 	1    2600 3250
 	1    0    0    -1  
-$EndComp
-$Comp
-L OV_Power-rescue:CONN_HEADER_R_A_2POS_2.5MM-OpenVent CN1
-U 1 1 5F8DD118
-P 8500 3850
-F 0 "CN1" H 8700 3650 50  0000 L BNN
-F 1 "CONN_HEADER_R_A_2POS_2.5MM" H 8500 3850 50  0001 C CNN
-F 2 "OpenVent:53426-0210" H 8500 3850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/534260210_sd.pdf" H 8500 3850 50  0001 C CNN
-F 4 "Molex" H 8500 3850 50  0001 C CNN "Mfr"
-F 5 "0534260210" H 8800 4150 50  0000 C CNN "Mfr_PN"
-	1    8500 3850
-	1    0    0    1   
 $EndComp
 $Comp
 L OV_Power-rescue:VNH5019ATR-E-OpenVent U4
@@ -252,9 +235,11 @@ F 5 "1K" V 7000 3500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C11
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C11
 U 1 1 5F8DD0EF
 P 6550 1250
+AR Path="/5F8DD0EF" Ref="C11"  Part="1" 
+AR Path="/5FADD2CF/5F8DD0EF" Ref="C11"  Part="1" 
 F 0 "C11" V 6650 1350 50  0000 L BNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" V 6800 1340 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 6550 1250 60  0001 C CNN
@@ -300,9 +285,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 3350 6750 3350
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C12
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C12
 U 1 1 5F9BE2A3
 P 7100 1250
+AR Path="/5F9BE2A3" Ref="C12"  Part="1" 
+AR Path="/5FADD2CF/5F9BE2A3" Ref="C12"  Part="1" 
 F 0 "C12" V 7159 1360 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 7100 1250 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 7100 1250 60  0001 C CNN
@@ -363,8 +350,6 @@ Wire Wire Line
 	2050 3050 4550 3050
 Wire Wire Line
 	6400 3350 6400 3550
-Wire Wire Line
-	8500 3350 8500 3850
 Wire Wire Line
 	6750 3400 6750 3350
 Connection ~ 6750 3350
@@ -559,9 +544,11 @@ Wire Wire Line
 Wire Wire Line
 	4200 2500 4200 3650
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C16
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C16
 U 1 1 5FE5727D
 P 7650 1250
+AR Path="/5FE5727D" Ref="C16"  Part="1" 
+AR Path="/5FADD2CF/5FE5727D" Ref="C16"  Part="1" 
 F 0 "C16" V 7709 1360 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 7650 1250 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 7650 1250 60  0001 C CNN
@@ -579,9 +566,11 @@ F 12 "20%" H 7650 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C17
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C17
 U 1 1 5FE579F4
 P 8200 1250
+AR Path="/5FE579F4" Ref="C17"  Part="1" 
+AR Path="/5FADD2CF/5FE579F4" Ref="C17"  Part="1" 
 F 0 "C17" V 8259 1360 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 8200 1250 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 8200 1250 60  0001 C CNN
@@ -599,9 +588,11 @@ F 12 "20%" H 8200 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C18
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C18
 U 1 1 5FE58241
 P 8750 1250
+AR Path="/5FE58241" Ref="C18"  Part="1" 
+AR Path="/5FADD2CF/5FE58241" Ref="C18"  Part="1" 
 F 0 "C18" V 8809 1360 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 8750 1250 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 8750 1250 60  0001 C CNN
@@ -619,9 +610,11 @@ F 12 "20%" H 8750 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C19
+L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C19
 U 1 1 5FE58A16
 P 9300 1250
+AR Path="/5FE58A16" Ref="C19"  Part="1" 
+AR Path="/5FADD2CF/5FE58A16" Ref="C19"  Part="1" 
 F 0 "C19" V 9359 1360 50  0000 L CNN
 F 1 "1000uF_25V_Aluminium_SMD_Capacitor,_20%" H 9300 1250 50  0001 C CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 9300 1250 60  0001 C CNN
@@ -692,4 +685,27 @@ Connection ~ 4200 2500
 Connection ~ 6100 2500
 Wire Wire Line
 	6100 2500 6100 3050
+$Comp
+L OpenVent:CONN_HEADER_R_A_2POS_JST_10A J8
+U 1 1 5FF9F011
+P 8600 3850
+F 0 "J8" H 8900 3650 50  0000 C CNN
+F 1 "CONN_HEADER_R_A_2POS_JST_10A" H 8800 4050 50  0001 C CNN
+F 2 "OpenVent:JST_B2PS-VHLSN" H 8800 4050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eVH.pdf" H 8800 4050 50  0001 C CNN
+F 4 "JST Sales America Inc." H 8600 3850 50  0001 C CNN "Mfr"
+F 5 "B2PS-VH(LF)(SN)" H 9100 4150 50  0000 C CNN "Mfr_PN"
+F 6 "CONN HEADER R/A 2POS 3.96MM" H 8600 3850 50  0001 C CNN "Desc"
+F 7 "Connector Header Through Hole, Right Angle 2 position 0.156\" (3.96mm)" H 8600 3850 50  0001 C CNN "Detailed"
+	1    8600 3850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8500 3350 8500 3850
+Wire Wire Line
+	8500 3850 8600 3850
+Wire Wire Line
+	8600 3950 8500 3950
+Wire Wire Line
+	8500 3950 8500 4500
 $EndSCHEMATC
