@@ -1393,6 +1393,31 @@ X 2 2 600 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_01x03_JST_B3P_Vert
+#
+DEF Conn_01x03_JST_B3P_Vert J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x03_JST_B3P_Vert" 0 -200 50 H V C CNN
+F2 "F_Connectors:JST_B3P-VH(LF)(SN)" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "JST Sales America Inc." 0 0 50 H I C CNN "Mfr"
+F5 "B3P-VH(LF)(SN)" 0 0 50 H I C CNN "Mfr_PN"
+F6 "CONN HEADER VERT 3POS 3.96MM" 0 0 50 H I C CNN "Desc"
+F7 "Connector Header Through Hole 3 position 0.156\" (3.96mm)" 0 0 50 H I C CNN "Detailed"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Conn_HDR_2x10_latching
 #
 DEF Conn_HDR_2x10_latching J 0 40 Y N 1 F N

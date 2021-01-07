@@ -97,6 +97,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_01x03_JST_B3P_Vert
+D Connector Header Through Hole 3 position 0.156" (3.96mm)
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eVH.pdf
+$ENDCMP
+#
 $CMP Conn_HDR_2x10_latching
 D Connector Header Through Hole 20 position 0.100" (2.54mm) with latches
 K connector
