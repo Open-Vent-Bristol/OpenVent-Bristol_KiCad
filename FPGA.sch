@@ -403,4 +403,6 @@ Text GLabel 9625 5950 0    50   Input ~ 0
 FLOW-SENSOR-GAIN
 Text GLabel 3525 3575 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
+Text GLabel 10400 3450 0    50   Output ~ 0
+Motor_off
 $EndSCHEMATC
