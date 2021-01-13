@@ -70,12 +70,12 @@ VTH: 10.5V  VFLOAT: 13.65V  VBOOST: 14.5V  IMAX 575mA  IPRE: 11.5mA  (Data from 
 $Comp
 L OV_Power-rescue:GND-OpenVent #PWR015
 U 1 1 5F957C60
-P 10450 1550
-F 0 "#PWR015" H 10450 1300 50  0001 C CNN
-F 1 "GND" H 10450 1400 50  0001 C CNN
-F 2 "" H 10450 1550 50  0001 C CNN
-F 3 "" H 10450 1550 50  0001 C CNN
-	1    10450 1550
+P 10450 1250
+F 0 "#PWR015" H 10450 1000 50  0001 C CNN
+F 1 "GND" H 10450 1100 50  0001 C CNN
+F 2 "" H 10450 1250 50  0001 C CNN
+F 3 "" H 10450 1250 50  0001 C CNN
+	1    10450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -118,7 +118,7 @@ F 3 "" H 2400 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:LT3796-F_ICs U1
+L OpenVent:LT3796 U1
 U 1 1 5FAE7EAD
 P 4100 3800
 F 0 "U1" H 4725 3677 50  0000 C CNN
@@ -133,7 +133,7 @@ F 7 "LT3796IFE-1#TRPBF" H 4100 3800 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
+L OpenVent:MSD1260-333 L1
 U 1 1 5FB0C2C0
 P 5400 1050
 F 0 "L1" V 5210 1050 50  0000 C CNN
@@ -151,7 +151,7 @@ F 10 "Coupled Inductors 33uH" H 5400 1050 50  0001 C CNN "Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L OV_Power-rescue:MSD1260-333-F_inductors-OV_Power-rescue L1
+L OpenVent:MSD1260-333 L1
 U 2 1 5FB0D579
 P 6350 1300
 F 0 "L1" H 6438 1346 50  0000 L CNN
@@ -1246,7 +1246,7 @@ V7.5V_EN
 Wire Wire Line
 	3950 5450 3650 5450
 Connection ~ 3950 5450
-Text Notes 10250 2550 0    50   ~ 0
+Text Notes 10200 1950 0    50   ~ 0
 NEED CONNECTOR\nDEFINITION FOR\nGELL CELL.\nTHIS CONNECTION\nALSO NEEDS TO\nBE FUSED.
 $Comp
 L OV_Power-rescue:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V-OpenVent C14
@@ -1291,44 +1291,10 @@ Wire Wire Line
 Connection ~ 8750 1050
 Wire Wire Line
 	8750 1050 9100 1050
-$Comp
-L OV_Power-rescue:SpadeLug-F_connectors J4
-U 1 1 5FCBB8E9
-P 10750 1050
-F 0 "J4" H 10780 1096 50  0000 L CNN
-F 1 "SpadeLug" H 10780 1005 50  0000 L CNN
-F 2 "F_Connectors:TE_1217861-1" H 10750 1050 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English" H 10750 1050 50  0001 L BNN
-F 4 "TE Connectivity AMP Connectors" H 10750 1050 50  0001 L BNN "Mfr"
-F 5 "1217861-1" H 10750 1050 50  0001 L BNN "MfrPn"
-F 6 "A100452CT-ND" H 10750 1050 50  0001 L BNN "DK_pn"
-F 7 "CONN QC TAB 0.250 SOLDER" H 10750 1050 50  0001 L BNN "Desc"
-F 8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" H 10750 1050 50  0001 L BNN "Detailed"
-F 9 "1217861-1" H 10750 1050 50  0001 C CNN "Mfr_PN"
-	1    10750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OV_Power-rescue:SpadeLug-F_connectors-OV_Power-rescue J5
-U 1 1 5FCBC350
-P 10750 1450
-F 0 "J5" H 10780 1496 50  0000 L CNN
-F 1 "SpadeLug" H 10780 1405 50  0000 L CNN
-F 2 "F_Connectors:TE_1217861-1" H 10750 1450 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English" H 10750 1450 50  0001 L BNN
-F 4 "TE Connectivity AMP Connectors" H 10750 1450 50  0001 L BNN "Mfr"
-F 5 "1217861-1" H 10750 1450 50  0001 L BNN "MfrPn"
-F 6 "A100452CT-ND" H 10750 1450 50  0001 L BNN "DK_pn"
-F 7 "CONN QC TAB 0.250 SOLDER" H 10750 1450 50  0001 L BNN "Desc"
-F 8 "0.250\" (6.35mm) Quick Connect Male  Solder Connector Non-Insulated" H 10750 1450 50  0001 L BNN "Detailed"
-F 9 "1217861-1" H 10750 1450 50  0001 C CNN "Mfr_PN"
-	1    10750 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10550 1450 10450 1450
+	10550 1150 10450 1150
 Wire Wire Line
-	10450 1450 10450 1550
+	10450 1150 10450 1250
 $Comp
 L OV_Power-rescue:Polyfuse_10A-OpenVent F1
 U 1 1 5FCE2FD4
@@ -1436,4 +1402,24 @@ ISP_P
 Text Label 6400 2750 0    50   ~ 0
 ISP_N
 Connection ~ 6200 2300
+$Comp
+L OpenVent:Conn_01x03_JST_B3P_Vert J4
+U 1 1 5FFB3878
+P 10750 1050
+F 0 "J4" H 10830 1046 50  0000 L CNN
+F 1 "Conn_01x03_JST_B3P_Vert" H 10830 1001 50  0001 L CNN
+F 2 "F_Connectors:JST_B3P-VH(LF)(SN)" H 10750 1050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eVH.pdf" H 10750 1050 50  0001 C CNN
+F 4 "JST Sales America Inc." H 10750 1050 50  0001 C CNN "Mfr"
+F 5 "B3P-VH(LF)(SN)" H 10750 1050 50  0001 C CNN "Mfr_PN"
+F 6 "CONN HEADER VERT 3POS 3.96MM" H 10750 1050 50  0001 C CNN "Desc"
+F 7 "Connector Header Through Hole 3 position 0.156\" (3.96mm)" H 10750 1050 50  0001 C CNN "Detailed"
+	1    10750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 950  10450 950 
+Wire Wire Line
+	10450 950  10450 1150
+Connection ~ 10450 1150
 $EndSCHEMATC
