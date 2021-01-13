@@ -391,8 +391,6 @@ Text Notes 2050 3625 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
 Text Notes 1525 2725 0    50   ~ 0
 ADD BAROMETRIC PRESSURE SENSOR - WAITING FOR PART NUMBER FROM TOM
-Text Notes 5600 5550 0    50   ~ 0
-MEMBRANE SWITCH CONNECTORS
 Text GLabel 3525 3700 2    60   Output ~ 0
 PRESSURE-SENSOR-VENT
 Text GLabel 9550 6125 0    50   Input ~ 0
@@ -405,4 +403,254 @@ Text GLabel 3525 3575 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
 Text GLabel 10400 3450 0    50   Output ~ 0
 Motor_off
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF313
+P 6575 5600
+AR Path="/5F988182/600DF313" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF313" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6575 5600 20  0001 C CNN
+F 1 "GND" H 6575 5530 50  0001 C CNN
+F 2 "" H 6575 5600 70  0001 C CNN
+F 3 "" H 6575 5600 70  0001 C CNN
+	1    6575 5600
+	0    -1   -1   0   
+$EndComp
+Text Notes 4750 5375 0    50   ~ 0
+Membrane Switch Connector
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF342
+P 6225 6150
+AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF342" Ref="D?"  Part="1" 
+F 0 "D?" H 6125 6100 50  0000 R CNN
+F 1 "SP3522-01UTG" H 6350 6025 50  0000 R CNN
+F 2 "0603 diode" H 6275 6350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6225 6150 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6225 5850 50  0001 C CNN "Detailed"
+	1    6225 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF349
+P 7075 5950
+AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF349" Ref="D?"  Part="1" 
+F 0 "D?" H 6975 5900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 7200 5825 50  0000 R CNN
+F 2 "0603 diode" H 7125 6150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7075 5950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 7075 5650 50  0001 C CNN "Detailed"
+	1    7075 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF354
+P 7550 5850
+AR Path="/5F988182/600DF354" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF354" Ref="D?"  Part="1" 
+F 0 "D?" H 7450 5800 50  0000 R CNN
+F 1 "SP3522-01UTG" H 7675 5725 50  0000 R CNN
+F 2 "0603 diode" H 7600 6050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7550 5850 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 7550 5550 50  0001 C CNN "Detailed"
+	1    7550 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 5700 7700 5700
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF35C
+P 6225 6350
+AR Path="/5F988182/600DF35C" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF35C" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6225 6350 20  0001 C CNN
+F 1 "GND" H 6225 6280 50  0001 C CNN
+F 2 "" H 6225 6350 70  0001 C CNN
+F 3 "" H 6225 6350 70  0001 C CNN
+	1    6225 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF362
+P 6650 6350
+AR Path="/5F988182/600DF362" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF362" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6650 6350 20  0001 C CNN
+F 1 "GND" H 6650 6280 50  0001 C CNN
+F 2 "" H 6650 6350 70  0001 C CNN
+F 3 "" H 6650 6350 70  0001 C CNN
+	1    6650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF368
+P 7075 6350
+AR Path="/5F988182/600DF368" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF368" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7075 6350 20  0001 C CNN
+F 1 "GND" H 7075 6280 50  0001 C CNN
+F 2 "" H 7075 6350 70  0001 C CNN
+F 3 "" H 7075 6350 70  0001 C CNN
+	1    7075 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF36E
+P 7550 6350
+AR Path="/5F988182/600DF36E" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF36E" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7550 6350 20  0001 C CNN
+F 1 "GND" H 7550 6280 50  0001 C CNN
+F 2 "" H 7550 6350 70  0001 C CNN
+F 3 "" H 7550 6350 70  0001 C CNN
+	1    7550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 6350 6225 6300
+Wire Wire Line
+	7075 6100 7075 6350
+Wire Wire Line
+	6650 6350 6650 6200
+Wire Wire Line
+	7550 6350 7550 6000
+Text GLabel 7700 5700 2    50   Output ~ 0
+SW-1
+Text GLabel 7200 5800 2    50   Output ~ 0
+SW-2
+Text GLabel 6750 5900 2    50   Output ~ 0
+SW-3
+Text GLabel 6300 6000 2    50   Output ~ 0
+SW-4
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF37E
+P 6650 6050
+AR Path="/5F988182/600DF37E" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF37E" Ref="D?"  Part="1" 
+F 0 "D?" H 6550 6000 50  0000 R CNN
+F 1 "SP3522-01UTG" H 6775 5925 50  0000 R CNN
+F 2 "0603 diode" H 6700 6250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6650 6050 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6650 5750 50  0001 C CNN "Detailed"
+	1    6650 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5825 6000 6225 6000
+Connection ~ 6225 6000
+Wire Wire Line
+	6225 6000 6300 6000
+Wire Wire Line
+	6750 5900 6650 5900
+Wire Wire Line
+	5825 5800 7075 5800
+Connection ~ 7075 5800
+Wire Wire Line
+	7075 5800 7200 5800
+$Comp
+L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP?
+U 1 1 6010FC94
+P 5225 6000
+AR Path="/5F988182/6010FC94" Ref="JP?"  Part="1" 
+AR Path="/5F8F894A/6010FC94" Ref="JP?"  Part="1" 
+F 0 "JP?" H 5575 6550 50  0000 L BNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 5225 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5225 6000 50  0001 C CNN
+F 3 "" H 5225 6000 50  0001 C CNN
+	1    5225 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FC9C
+P 5225 5700
+AR Path="/5F988182/6010FC9C" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FC9C" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5750 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5250 50  0000 C CNN
+F 2 "" H 5225 5700 50  0001 C CNN
+F 3 "" H 5225 5700 50  0001 C CNN
+F 4 "600R" H 6100 5750 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5750 50  0000 C CNN "Current"
+	1    5225 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCA4
+P 5225 5800
+AR Path="/5F988182/6010FCA4" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCA4" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5850 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5375 50  0000 C CNN
+F 2 "" H 5225 5800 50  0001 C CNN
+F 3 "" H 5225 5800 50  0001 C CNN
+F 4 "600R" H 6100 5850 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5850 50  0000 C CNN "Current"
+	1    5225 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCAC
+P 5225 5900
+AR Path="/5F988182/6010FCAC" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCAC" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5925 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5500 50  0000 C CNN
+F 2 "" H 5225 5900 50  0001 C CNN
+F 3 "" H 5225 5900 50  0001 C CNN
+F 4 "600R" H 6100 5950 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5950 50  0000 C CNN "Current"
+	1    5225 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCB4
+P 5225 6000
+AR Path="/5F988182/6010FCB4" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCB4" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 6025 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5625 50  0000 C CNN
+F 2 "" H 5225 6000 50  0001 C CNN
+F 3 "" H 5225 6000 50  0001 C CNN
+F 4 "600R" H 6100 6050 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 6050 50  0000 C CNN "Current"
+	1    5225 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 5600 6575 5600
+Wire Wire Line
+	5825 5900 6650 5900
+Connection ~ 6650 5900
+Wire Wire Line
+	5825 5700 7550 5700
+Connection ~ 7550 5700
+Text GLabel 2125 4475 0    50   Input ~ 0
+SW-1
+Text GLabel 2125 4575 0    50   Input ~ 0
+SW-2
+Text GLabel 2125 4675 0    50   Input ~ 0
+SW-3
+Text GLabel 2125 4775 0    50   Input ~ 0
+SW-4
+Wire Wire Line
+	2175 4475 2125 4475
+Wire Wire Line
+	2175 4575 2125 4575
+Wire Wire Line
+	2175 4675 2125 4675
+Wire Wire Line
+	2175 4775 2125 4775
 $EndSCHEMATC

@@ -66,19 +66,6 @@ F 3 "" H 2875 2450 70  0001 C CNN
 $EndComp
 Text GLabel 4750 3600 0    50   Input ~ 0
 VBATT-SCALED
-$Comp
-L OpenVent:GND #GND_04
-U 1 1 5F8DD178
-P 2325 5850
-F 0 "#GND_04" H 2325 5850 20  0001 C CNN
-F 1 "GND" H 2325 5780 50  0001 C CNN
-F 2 "" H 2325 5850 70  0001 C CNN
-F 3 "" H 2325 5850 70  0001 C CNN
-	1    2325 5850
-	0    -1   -1   0   
-$EndComp
-Text Notes 500  5625 0    50   ~ 0
-Membrane Switch Connector
 NoConn ~ 2375 2600
 Text GLabel 4750 3500 0    50   Input ~ 0
 MOTOR-CURRENT
@@ -235,14 +222,6 @@ Text GLabel 4750 3400 0    50   Input ~ 0
 SOUNDER-CURRENT
 Text Label 3850 1900 0    50   ~ 0
 ANALOG-SPARE
-Text Label 2925 5950 0    50   ~ 0
-SW-1
-Text Label 2525 6050 0    50   ~ 0
-SW-2
-Text Label 2250 6150 0    50   ~ 0
-SW-3
-Text Label 1975 6250 0    50   ~ 0
-SW-4
 Text Label 6500 2500 0    50   ~ 0
 SW-1
 Text Label 6500 2600 0    50   ~ 0
@@ -1120,17 +1099,6 @@ F 6 "100nF" V 4675 7075 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP2
-U 1 1 5F8DD134
-P 975 6250
-F 0 "JP2" H 1325 6800 50  0000 L BNN
-F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 975 6250 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 975 6250 50  0001 C CNN
-F 3 "" H 975 6250 50  0001 C CNN
-	1    975  6250
-	-1   0    0    -1  
-$EndComp
-$Comp
 L OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD1
 U 1 1 5F8DD133
 P 10000 2650
@@ -1585,19 +1553,6 @@ F 6 "0.1W" H 2650 2700 50  0001 C CNN "Watt"
 $EndComp
 Wire Wire Line
 	2550 2800 2375 2800
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB4
-U 1 1 5FF541FF
-P 975 5950
-F 0 "FB4" H 950 6000 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 1225 5500 50  0000 C CNN
-F 2 "" H 975 5950 50  0001 C CNN
-F 3 "" H 975 5950 50  0001 C CNN
-F 4 "600R" H 1850 6000 50  0000 C CNN "Val"
-F 5 "750mA" H 1625 6000 50  0000 C CNN "Current"
-	1    975  5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2825 1225 2575 1225
 Wire Wire Line
@@ -1854,98 +1809,6 @@ Wire Wire Line
 	2950 2800 3075 2800
 Wire Wire Line
 	2950 2700 4950 2700
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB5
-U 1 1 601F15AF
-P 975 6050
-F 0 "FB5" H 950 6100 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 1225 5625 50  0000 C CNN
-F 2 "" H 975 6050 50  0001 C CNN
-F 3 "" H 975 6050 50  0001 C CNN
-F 4 "600R" H 1850 6100 50  0000 C CNN "Val"
-F 5 "750mA" H 1625 6100 50  0000 C CNN "Current"
-	1    975  6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB6
-U 1 1 601F17A4
-P 975 6150
-F 0 "FB6" H 950 6175 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 1225 5750 50  0000 C CNN
-F 2 "" H 975 6150 50  0001 C CNN
-F 3 "" H 975 6150 50  0001 C CNN
-F 4 "600R" H 1850 6200 50  0000 C CNN "Val"
-F 5 "750mA" H 1625 6200 50  0000 C CNN "Current"
-	1    975  6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB7
-U 1 1 601F19A7
-P 975 6250
-F 0 "FB7" H 950 6275 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 1225 5875 50  0000 C CNN
-F 2 "" H 975 6250 50  0001 C CNN
-F 3 "" H 975 6250 50  0001 C CNN
-F 4 "600R" H 1850 6300 50  0000 C CNN "Val"
-F 5 "750mA" H 1625 6300 50  0000 C CNN "Current"
-	1    975  6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	975  5850 2325 5850
-Wire Wire Line
-	1575 6250 1975 6250
-$Comp
-L OpenVent:SP3522-01UTG D15
-U 1 1 602A07B3
-P 1975 6400
-F 0 "D15" H 1875 6350 50  0000 R CNN
-F 1 "SP3522-01UTG" H 2100 6275 50  0000 R CNN
-F 2 "0603 diode" H 2025 6600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 1975 6400 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 1975 6100 50  0001 C CNN "Detailed"
-	1    1975 6400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:SP3522-01UTG D16
-U 1 1 602A1500
-P 2250 6300
-F 0 "D16" H 2150 6250 50  0000 R CNN
-F 1 "SP3522-01UTG" H 2375 6175 50  0000 R CNN
-F 2 "0603 diode" H 2300 6500 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2250 6300 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2250 6000 50  0001 C CNN "Detailed"
-	1    2250 6300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:SP3522-01UTG D17
-U 1 1 602A28B4
-P 2525 6200
-F 0 "D17" H 2425 6150 50  0000 R CNN
-F 1 "SP3522-01UTG" H 2650 6075 50  0000 R CNN
-F 2 "0603 diode" H 2575 6400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2525 6200 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2525 5900 50  0001 C CNN "Detailed"
-	1    2525 6200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1975 6250 2125 6250
-Connection ~ 1975 6250
-Wire Wire Line
-	1575 6150 2250 6150
-Wire Wire Line
-	2250 6150 2425 6150
-Connection ~ 2250 6150
-Wire Wire Line
-	1575 6050 2525 6050
-Wire Wire Line
-	2525 6050 2750 6050
-Connection ~ 2525 6050
 Wire Wire Line
 	6975 6225 6975 6175
 Wire Wire Line
@@ -1970,75 +1833,6 @@ Wire Wire Line
 Wire Wire Line
 	8525 6175 8525 6100
 Connection ~ 8175 6175
-Wire Wire Line
-	1575 5950 2900 5950
-$Comp
-L OpenVent:SP3522-01UTG D18
-U 1 1 6041C2C4
-P 2900 6100
-F 0 "D18" H 2800 6050 50  0000 R CNN
-F 1 "SP3522-01UTG" H 3025 5975 50  0000 R CNN
-F 2 "0603 diode" H 2950 6300 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2900 6100 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2900 5800 50  0001 C CNN "Detailed"
-	1    2900 6100
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2900 5950
-Wire Wire Line
-	2900 5950 3050 5950
-$Comp
-L OpenVent:GND #GND_028
-U 1 1 6041C4F4
-P 1975 6600
-F 0 "#GND_028" H 1975 6600 20  0001 C CNN
-F 1 "GND" H 1975 6530 50  0001 C CNN
-F 2 "" H 1975 6600 70  0001 C CNN
-F 3 "" H 1975 6600 70  0001 C CNN
-	1    1975 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_029
-U 1 1 6041C82D
-P 2250 6600
-F 0 "#GND_029" H 2250 6600 20  0001 C CNN
-F 1 "GND" H 2250 6530 50  0001 C CNN
-F 2 "" H 2250 6600 70  0001 C CNN
-F 3 "" H 2250 6600 70  0001 C CNN
-	1    2250 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_042
-U 1 1 6041C9B4
-P 2525 6600
-F 0 "#GND_042" H 2525 6600 20  0001 C CNN
-F 1 "GND" H 2525 6530 50  0001 C CNN
-F 2 "" H 2525 6600 70  0001 C CNN
-F 3 "" H 2525 6600 70  0001 C CNN
-	1    2525 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_043
-U 1 1 6041CB39
-P 2900 6600
-F 0 "#GND_043" H 2900 6600 20  0001 C CNN
-F 1 "GND" H 2900 6530 50  0001 C CNN
-F 2 "" H 2900 6600 70  0001 C CNN
-F 3 "" H 2900 6600 70  0001 C CNN
-	1    2900 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1975 6600 1975 6550
-Wire Wire Line
-	2525 6350 2525 6600
-Wire Wire Line
-	2250 6600 2250 6450
-Wire Wire Line
-	2900 6600 2900 6250
 Text Notes 650  3450 0    50   ~ 0
 Mini USB Connector
 Connection ~ 3975 6325
