@@ -26,16 +26,6 @@ F 3 "" H 1050 2050 70  0001 C CNN
 	1    1050 2050
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 950  0    50   ~ 0
-LTC4365 provides reverse polarity protection\nUndervoltage lockout: 8V\nOvervoltage lockout: 18V
-Wire Notes Line
-	1000 650  2850 650 
-Wire Notes Line
-	2850 650  2850 1000
-Wire Notes Line
-	2850 1000 1000 1000
-Wire Notes Line
-	1000 1000 1000 650 
 $Comp
 L OV_Power-rescue:LTC4416-OpenVent U7
 U 1 1 5FBBF8B5
@@ -493,10 +483,6 @@ F 7 "CONN JACK FMALE 4POS TIN SOLDER" H 1050 1700 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	750  1600 650  1600
-Wire Wire Line
-	650  1600 650  1250
-Wire Wire Line
 	650  1250 1500 1250
 Wire Wire Line
 	1500 1250 1500 1700
@@ -510,8 +496,6 @@ Wire Wire Line
 	1400 2000 1050 2000
 Wire Wire Line
 	700  2000 700  1900
-Wire Wire Line
-	700  1700 750  1700
 Wire Wire Line
 	1050 2000 1050 2050
 Connection ~ 1050 2000
@@ -757,9 +741,6 @@ Wire Wire Line
 	3150 1700 3550 1700
 Wire Wire Line
 	750  1800 700  1800
-Connection ~ 700  1800
-Wire Wire Line
-	700  1800 700  1700
 Wire Wire Line
 	750  1900 700  1900
 Connection ~ 700  1900
@@ -816,4 +797,13 @@ Wire Wire Line
 Connection ~ 3000 1700
 Wire Wire Line
 	3000 1700 3150 1700
+Wire Wire Line
+	750  1700 650  1700
+Wire Wire Line
+	650  1700 650  1250
+Wire Wire Line
+	750  1600 700  1600
+Wire Wire Line
+	700  1600 700  1800
+Connection ~ 700  1800
 $EndSCHEMATC
