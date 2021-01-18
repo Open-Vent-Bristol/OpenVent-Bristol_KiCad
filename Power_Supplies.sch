@@ -1113,7 +1113,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 7300 1550 7300
 Text GLabel 1300 7300 0    50   Input ~ 0
-ON_n
+ON
 Wire Wire Line
 	1300 7300 1450 7300
 Connection ~ 1450 7300
@@ -1315,27 +1315,9 @@ F 3 "" H 1950 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6150 7300 2    50   Input ~ 0
-OFF_n
+OFF
 Wire Wire Line
 	6050 7300 6150 7300
-$Comp
-L OpenVent:470k_0603_Chip_Resistor,_1%,_0.1W R68
-U 1 1 600F3BAA
-P 6150 6900
-F 0 "R68" H 6250 7007 50  0000 C CNN
-F 1 "470k_0603_Chip_Resistor,_1%,_0.1W" H 6150 6900 50  0001 C CNN
-F 2 "" H 6150 6900 50  0001 C CNN
-F 3 "" H 6150 6900 50  0001 C CNN
-F 4 "470k" H 6250 6916 50  0000 C CNN "Val"
-F 5 "1%" H 6150 6900 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6150 6900 50  0001 C CNN "Watt"
-	1    6150 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 7300 6050 7000
-Text GLabel 6450 7000 2    50   Input ~ 0
-V3.3_always
 Connection ~ 6050 7300
 Text Label 2200 7300 2    50   ~ 0
 PwrOn_g
@@ -1448,4 +1430,37 @@ Wire Wire Line
 	5200 6750 5100 6750
 Wire Wire Line
 	5100 6750 5100 6700
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 6007611B
+P 6450 6775
+F 0 "#PWR?" H 6450 6625 50  0001 C CNN
+F 1 "+3.3V" H 6450 6948 50  0000 C CNN
+F 2 "" H 6450 6775 50  0001 C CNN
+F 3 "" H 6450 6775 50  0001 C CNN
+	1    6450 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:470k_0603_Chip_Resistor,_1%,_0.1W R68
+U 1 1 600F3BAA
+P 6150 6900
+F 0 "R68" H 6250 7007 50  0000 C CNN
+F 1 "470k_0603_Chip_Resistor,_1%,_0.1W" H 6150 6900 50  0001 C CNN
+F 2 "" H 6150 6900 50  0001 C CNN
+F 3 "" H 6150 6900 50  0001 C CNN
+F 4 "470k" H 6250 6916 50  0000 C CNN "Val"
+F 5 "1%" H 6150 6900 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6150 6900 50  0001 C CNN "Watt"
+	1    6150 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7000 6050 7300
+Wire Wire Line
+	6450 7000 6450 6775
+Text Notes 5825 7750 0    50   ~ 0
+Rising Edge TriState Control\nFPGA - Normally hi-Z,\nactivate by pulling low 5 ms,\nthen high
+Text Notes 550  7650 0    50   ~ 0
+Rising Edge TriState Control\nMCU - Normally hi-Z, activate \nby pulling low 5 ms, then high
 $EndSCHEMATC
