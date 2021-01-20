@@ -299,8 +299,6 @@ F 3 "" H 8450 3600 70  0001 C CNN
 	1    8450 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 4000 2150 0    50   ~ 0
-TIM2 CH1
 Text Label 4150 3100 0    50   ~ 0
 SWD-CLK
 Text Label 4150 3000 0    50   ~ 0
@@ -387,8 +385,8 @@ Text GLabel 4750 3900 0    50   Input ~ 0
 nMOTOR-FAULT-B
 Text GLabel 4750 3800 0    50   Input ~ 0
 ISNS
-Text Notes 600  6900 0    50   ~ 0
-Encoder / Motor Position Sensor
+Text Notes 650  5800 0    50   ~ 0
+Motor Position Sensors
 Text GLabel 4750 4100 0    50   Output ~ 0
 LDO-EN
 $Comp
@@ -439,48 +437,6 @@ F 3 "" H 4575 700 70  0001 C CNN
 	1    4575 700 
 	1    0    0    -1  
 $EndComp
-Text Label 3650 2200 2    50   ~ 0
-ENC-1
-Text Label 3650 2500 2    50   ~ 0
-ENC-2
-Text Label 6800 3400 2    50   ~ 0
-LIMIT-1
-Text Label 4150 3200 0    50   ~ 0
-LIMIT-2
-Text Label 1750 7250 0    50   ~ 0
-ENC-1
-Text Label 1750 7350 0    50   ~ 0
-ENC-2
-Text Label 1750 7450 0    50   ~ 0
-LIMIT-1
-Text Label 1750 7550 0    50   ~ 0
-LIMIT-2
-$Comp
-L OpenVent:GND #GND_03
-U 1 1 5F8DD159
-P 1600 7650
-F 0 "#GND_03" H 1600 7650 20  0001 C CNN
-F 1 "GND" H 1600 7580 50  0001 C CNN
-F 2 "" H 1600 7650 70  0001 C CNN
-F 3 "" H 1600 7650 70  0001 C CNN
-	1    1600 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:3V3 #3V3_02
-U 1 1 5F8DD158
-P 1600 7150
-F 0 "#3V3_02" H 1600 7150 20  0001 C CNN
-F 1 "3V3" H 1600 7300 50  0000 C CNN
-F 2 "" H 1600 7150 70  0001 C CNN
-F 3 "" H 1600 7150 70  0001 C CNN
-	1    1600 7150
-	1    0    0    -1  
-$EndComp
-Text Notes 550  7300 0    50   ~ 0
-TIM16 CH1
-Text Notes 550  7400 0    50   ~ 0
-TIM1 CH1
 $Comp
 L OpenVent:+3V3-ALWAYS-ON #3V3-ALWAYS-ON_?
 U 1 1 5F8DD157
@@ -543,8 +499,6 @@ Wire Wire Line
 	3850 1900 4950 1900
 Wire Wire Line
 	4300 5000 4000 5000
-Wire Wire Line
-	4950 3200 4150 3200
 Wire Wire Line
 	4150 3100 4950 3100
 Wire Wire Line
@@ -693,18 +647,6 @@ Wire Wire Line
 	4825 7025 4975 7025
 Wire Wire Line
 	4625 7025 4825 7025
-Wire Wire Line
-	4950 2500 3650 2500
-Wire Wire Line
-	6350 3400 6800 3400
-Wire Wire Line
-	1600 7550 1750 7550
-Wire Wire Line
-	1600 7450 1750 7450
-Wire Wire Line
-	1600 7350 1750 7350
-Wire Wire Line
-	1600 7250 1750 7250
 Wire Wire Line
 	4975 6325 4900 6325
 Connection ~ 1500 4350
@@ -1052,17 +994,6 @@ F 4 "Not Fitted" H 3775 6725 50  0000 L CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP3
-U 1 1 5F8DD138
-P 1600 7650
-F 0 "JP3" H 1950 8300 50  0000 L BNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1600 7650 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1600 7650 50  0001 C CNN
-F 3 "" H 1600 7650 50  0001 C CNN
-	1    1600 7650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L OpenVent:16_Way_2.54mm_Pitch_Pin_Header MP1
 U 1 1 5F8DD137
 P 8940 6400
@@ -1239,8 +1170,6 @@ Connection ~ 6825 7025
 Wire Wire Line
 	6825 7025 6825 7475
 Connection ~ 1700 3700
-Wire Wire Line
-	3650 2200 4950 2200
 Wire Wire Line
 	3600 1450 3600 1800
 Wire Wire Line
@@ -1914,4 +1843,193 @@ Text Notes 400  8050 0    50   ~ 0
 VBATT DOESN'T NEED TO GO INTO MCU IF GOING INTO FPGA\n
 Text Notes 400  8150 0    50   ~ 0
 OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
+$Comp
+L OpenVent:DB1C-A1LD J?
+U 1 1 600C7AA1
+P 2100 6250
+F 0 "J?" H 2100 5810 50  0000 C CNN
+F 1 "DB1C-A1LD" H 2100 5901 50  0000 C CNN
+F 2 "" H 2100 6250 50  0001 C CNN
+F 3 "" H 2100 6250 50  0001 C CNN
+	1    2100 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L OpenVent:DB1C-A1LD J?
+U 1 1 600E07E5
+P 2100 6925
+F 0 "J?" H 2100 6485 50  0000 C CNN
+F 1 "DB1C-A1LD" H 2100 6576 50  0000 C CNN
+F 2 "" H 2100 6925 50  0001 C CNN
+F 3 "" H 2100 6925 50  0001 C CNN
+	1    2100 6925
+	-1   0    0    1   
+$EndComp
+$Comp
+L OpenVent:DB1C-A1LD J?
+U 1 1 600E171A
+P 2100 7675
+F 0 "J?" H 2100 7235 50  0000 C CNN
+F 1 "DB1C-A1LD" H 2100 7326 50  0000 C CNN
+F 2 "" H 2100 7675 50  0001 C CNN
+F 3 "" H 2100 7675 50  0001 C CNN
+	1    2100 7675
+	-1   0    0    1   
+$EndComp
+Text Notes 2600 5975 0    50   ~ 0
+Home position 1
+Text Notes 2600 6675 0    50   ~ 0
+Home position 2\n(for redundancy)
+Text Notes 2625 7425 0    50   ~ 0
+Lower Limit
+Text GLabel 2650 6100 2    50   Output ~ 0
+MOTOR-HOME-1
+Text GLabel 2650 6775 2    50   Output ~ 0
+MOTOR-HOME-2
+Text GLabel 2650 7525 2    50   Output ~ 0
+MOTOR-LOW
+Wire Wire Line
+	2525 6100 2650 6100
+Wire Wire Line
+	2525 6775 2650 6775
+Wire Wire Line
+	2525 7525 2650 7525
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 6025C37A
+P 925 6400
+F 0 "#3V3_?" H 925 6400 20  0001 C CNN
+F 1 "3V3" H 925 6550 50  0000 C CNN
+F 2 "" H 925 6400 70  0001 C CNN
+F 3 "" H 925 6400 70  0001 C CNN
+	1    925  6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 2200 0    50   Input ~ 0
+MOTOR-HOME-1
+Text GLabel 4800 2475 0    50   Input ~ 0
+MOTOR-HOME-2
+Text GLabel 4750 3200 0    50   Input ~ 0
+MOTOR-LOW
+Wire Wire Line
+	4950 3200 4750 3200
+Wire Wire Line
+	4950 2200 4800 2200
+Wire Wire Line
+	4950 2500 4875 2500
+Wire Wire Line
+	4875 2500 4875 2475
+Wire Wire Line
+	4875 2475 4800 2475
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606DA94E
+P 1600 6225
+F 0 "#PWR?" H 1600 5975 50  0001 C CNN
+F 1 "GND" H 1600 6075 50  0001 C CNN
+F 2 "" H 1600 6225 50  0001 C CNN
+F 3 "" H 1600 6225 50  0001 C CNN
+	1    1600 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606DB70A
+P 1600 6900
+F 0 "#PWR?" H 1600 6650 50  0001 C CNN
+F 1 "GND" H 1600 6750 50  0001 C CNN
+F 2 "" H 1600 6900 50  0001 C CNN
+F 3 "" H 1600 6900 50  0001 C CNN
+	1    1600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606DC2B3
+P 1600 7675
+F 0 "#PWR?" H 1600 7425 50  0001 C CNN
+F 1 "GND" H 1600 7525 50  0001 C CNN
+F 2 "" H 1600 7675 50  0001 C CNN
+F 3 "" H 1600 7675 50  0001 C CNN
+	1    1600 7675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 6200 1600 6200
+Wire Wire Line
+	1600 6200 1600 6225
+Wire Wire Line
+	1675 6875 1600 6875
+Wire Wire Line
+	1600 6875 1600 6900
+Wire Wire Line
+	1675 7625 1600 7625
+Wire Wire Line
+	1600 7625 1600 7675
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 60814D6B
+P 1025 7125
+F 0 "R?" V 1079 7095 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 1025 7125 50  0001 C CNN
+F 2 "" H 1025 7125 50  0001 C CNN
+F 3 "" H 1025 7125 50  0001 C CNN
+F 4 "100k" V 1170 7095 50  0000 L CNN "Val"
+F 5 "1%" H 1025 7125 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1025 7125 50  0001 C CNN "Watt"
+	1    1025 7125
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 60815A9F
+P 1025 6575
+F 0 "R?" V 1079 6545 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 1025 6575 50  0001 C CNN
+F 2 "" H 1025 6575 50  0001 C CNN
+F 3 "" H 1025 6575 50  0001 C CNN
+F 4 "10k" V 1170 6545 50  0000 L CNN "Val"
+F 5 "1%" H 1025 6575 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1025 6575 50  0001 C CNN "Watt"
+	1    1025 6575
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609D1F56
+P 925 7500
+F 0 "#PWR?" H 925 7250 50  0001 C CNN
+F 1 "GND" H 925 7350 50  0001 C CNN
+F 2 "" H 925 7500 50  0001 C CNN
+F 3 "" H 925 7500 50  0001 C CNN
+	1    925  7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  7425 925  7500
+Wire Wire Line
+	1675 7450 1425 7450
+Wire Wire Line
+	1425 7450 1425 6950
+Wire Wire Line
+	1425 6950 925  6950
+Wire Wire Line
+	925  6875 925  6950
+Connection ~ 925  6950
+Wire Wire Line
+	925  6950 925  7025
+Wire Wire Line
+	1675 6700 1425 6700
+Connection ~ 1425 6700
+Wire Wire Line
+	1425 6025 1675 6025
+Wire Wire Line
+	925  6475 925  6400
+Text Notes 650  5950 0    50   ~ 0
+Switch on - HIGH\nSwitch off - LOW
+Connection ~ 1425 6950
+Wire Wire Line
+	1425 6950 1425 6700
+Wire Wire Line
+	1425 6025 1425 6700
 $EndSCHEMATC
