@@ -505,8 +505,8 @@ $Comp
 L OV_Power-rescue:532530670-OpenVent J3
 U 1 1 5FC7E477
 P 4200 6600
-F 0 "J3" H 4280 6592 50  0000 L CNN
-F 1 "532530670" H 4280 6501 50  0000 L CNN
+F 0 "J3" H 4150 6950 50  0000 L CNN
+F 1 "532530670" H 4000 6200 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Latch_53253-0670_1x06_P2.00mm_Vertical" H 4200 6600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/532530270_sd.pdf" H 4200 6600 50  0001 C CNN
 F 4 "Molex" H 4200 6600 50  0001 C CNN "Mfr"
@@ -806,4 +806,10 @@ Wire Wire Line
 Wire Wire Line
 	700  1600 700  1800
 Connection ~ 700  1800
+Text Notes 4300 6400 0    50   ~ 0
+Switch 3
+Text Notes 4300 6500 0    50   ~ 0
+Switch 2
+Text Notes 4300 6600 0    50   ~ 0
+Switch 1
 $EndSCHEMATC
