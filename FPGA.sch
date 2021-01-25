@@ -13,18 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6700 1800 0    50   Input ~ 0
-nALERT-ENABLE
 Text GLabel 1950 1700 0    50   Input ~ 0
 VBATT-SCALED
 Text GLabel 6700 1500 0    50   Output ~ 0
 nPRESSURE-PATIENT-ALERT
-Text GLabel 6700 1700 0    50   Output ~ 0
-nOXYGEN-ALERT
-Text GLabel 6700 1600 0    50   Output ~ 0
-nVBATT-ALERT
-Text GLabel 6700 1900 0    50   Input ~ 0
-nVDC-ALERT
 Text GLabel 7075 4675 0    50   Output ~ 0
 Sounder_DRV
 Text GLabel 7075 4775 0    50   Output ~ 0
