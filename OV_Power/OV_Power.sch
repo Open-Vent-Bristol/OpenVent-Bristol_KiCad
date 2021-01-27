@@ -118,7 +118,7 @@ F 3 "" H 2400 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:LT3796 U1
+L OV_Power-rescue:LT3796-OpenVent U1
 U 1 1 5FAE7EAD
 P 4100 3800
 F 0 "U1" H 4725 3677 50  0000 C CNN
@@ -133,7 +133,7 @@ F 7 "LT3796IFE-1#TRPBF" H 4100 3800 50  0001 C CNN "Mfr_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:MSD1260-333 L1
+L OV_Power-rescue:MSD1260-333-OpenVent L1
 U 1 1 5FB0C2C0
 P 5400 1050
 F 0 "L1" V 5210 1050 50  0000 C CNN
@@ -151,7 +151,7 @@ F 10 "Coupled Inductors 33uH" H 5400 1050 50  0001 C CNN "Desc"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:MSD1260-333 L1
+L OV_Power-rescue:MSD1260-333-OpenVent L1
 U 2 1 5FB0D579
 P 6350 1300
 F 0 "L1" H 6438 1346 50  0000 L CNN
@@ -1403,7 +1403,7 @@ Text Label 6400 2750 0    50   ~ 0
 ISP_N
 Connection ~ 6200 2300
 $Comp
-L OpenVent:Conn_01x03_JST_B3P_Vert J4
+L OV_Power-rescue:Conn_01x03_JST_B3P_Vert-OpenVent J4
 U 1 1 5FFB3878
 P 10750 1050
 F 0 "J4" H 10830 1046 50  0000 L CNN

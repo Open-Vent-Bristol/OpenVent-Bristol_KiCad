@@ -235,7 +235,7 @@ F 5 "1K" V 7000 3500 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C11
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C11
 U 1 1 5F8DD0EF
 P 6550 1250
 AR Path="/5F8DD0EF" Ref="C11"  Part="1" 
@@ -285,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3350 6750 3350
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C12
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C12
 U 1 1 5F9BE2A3
 P 7100 1250
 AR Path="/5F9BE2A3" Ref="C12"  Part="1" 
@@ -544,7 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2500 4200 3650
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C16
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C16
 U 1 1 5FE5727D
 P 7650 1250
 AR Path="/5FE5727D" Ref="C16"  Part="1" 
@@ -566,7 +566,7 @@ F 12 "20%" H 7650 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C17
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C17
 U 1 1 5FE579F4
 P 8200 1250
 AR Path="/5FE579F4" Ref="C17"  Part="1" 
@@ -588,7 +588,7 @@ F 12 "20%" H 8200 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C18
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C18
 U 1 1 5FE58241
 P 8750 1250
 AR Path="/5FE58241" Ref="C18"  Part="1" 
@@ -610,7 +610,7 @@ F 12 "20%" H 8750 1250 50  0001 C CNN "Tolerance"
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenVent:1000uF_25V_Aluminium_SMD_Capacitor,_20% C19
+L OV_Power-rescue:1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C19
 U 1 1 5FE58A16
 P 9300 1250
 AR Path="/5FE58A16" Ref="C19"  Part="1" 
@@ -686,7 +686,7 @@ Connection ~ 6100 2500
 Wire Wire Line
 	6100 2500 6100 3050
 $Comp
-L OpenVent:CONN_HEADER_R_A_2POS_JST_10A J8
+L OV_Power-rescue:CONN_HEADER_R_A_2POS_JST_10A-OpenVent J8
 U 1 1 5FF9F011
 P 8600 3850
 F 0 "J8" H 8900 3650 50  0000 C CNN

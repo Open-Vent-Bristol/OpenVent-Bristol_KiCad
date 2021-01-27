@@ -1600,7 +1600,7 @@ F 6 "0.1W" H 5550 5450 50  0001 C CNN "Watt"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAT48JFILM D21
+L OpenVent-rescue:BAT48JFILM-Diode D21
 U 1 1 5FF1BE52
 P 4750 5550
 F 0 "D21" V 4704 5630 50  0000 L CNN

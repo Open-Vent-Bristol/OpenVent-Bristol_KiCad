@@ -346,12 +346,6 @@ Wire Wire Line
 	2450 1900 2400 1900
 Wire Wire Line
 	2400 1900 2400 1950
-Text Notes 2250 2450 0    50   ~ 0
-DRDY CHECK IF NEEDS PULL UP
-Text Notes 2150 3125 0    50   ~ 0
-stuff that the FPGA needs for support\n
-Text Notes 1750 3450 0    50   ~ 0
-ADC COMPARATER STUFF AS PER RICK'S MESSAGE (USE SAME FROM POWER SUPPLY PAGE)
 Wire Wire Line
 	8600 2100 9325 2100
 $Comp
@@ -383,14 +377,12 @@ Wire Wire Line
 	10525 1525 10525 1850
 Text Notes 5650 4000 0    50   ~ 0
 https://drive.google.com/file/d/1lLOQ1HqgnG_nO4eDB_TPxHxARxQjTi03/view
-Text Notes 5675 3900 0    50   ~ 0
+Text Notes 5675 3875 0    50   ~ 0
 copy that ciruit like 6 times\n
 Text Notes 5625 4100 0    50   ~ 0
 instead of ADC\n
 Text Notes 2050 3625 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
-Text Notes 1525 2725 0    50   ~ 0
-ADD BAROMETRIC PRESSURE SENSOR - WAITING FOR PART NUMBER FROM TOM
 Text GLabel 3525 3700 2    60   Output ~ 0
 PRESSURE-SENSOR-VENT
 Text GLabel 9550 6125 0    50   Input ~ 0
