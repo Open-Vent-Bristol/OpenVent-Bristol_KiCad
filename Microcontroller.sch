@@ -45,12 +45,8 @@ Text GLabel 6550 2900 2    50   Output ~ 0
 MOTOR-IN-A
 Text GLabel 6550 3000 2    50   Output ~ 0
 MOTOR-IN-B
-Text GLabel 4800 4800 0    50   Output ~ 0
-nALERT-ENABLE
 Text GLabel 4800 4600 0    50   Input ~ 0
 nPRESSURE-PATIENT-ALERT
-Text GLabel 4800 4400 0    50   Input ~ 0
-nVBATT-ALERT
 Text GLabel 4800 2100 0    50   Output ~ 0
 PWM
 $Comp
@@ -383,8 +379,6 @@ Text GLabel 4750 4000 0    50   Input ~ 0
 nMOTOR-FAULT-A
 Text GLabel 4750 3900 0    50   Input ~ 0
 nMOTOR-FAULT-B
-Text GLabel 4750 3800 0    50   Input ~ 0
-ISNS
 Text Notes 650  5800 0    50   ~ 0
 Motor Position Sensors
 Text GLabel 4750 4100 0    50   Output ~ 0
@@ -400,8 +394,6 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 4300 0    50   Input ~ 0
-nVDC-ALERT
 Text GLabel 4800 2300 0    50   BiDi ~ 0
 MOTOR-CTRL-STATUS
 $Comp
@@ -1847,6 +1839,8 @@ $Comp
 L OpenVent-rescue:DB1C-A1LD-OpenVent J?
 U 1 1 600C7AA1
 P 2100 6250
+AR Path="/600C7AA1" Ref="J?"  Part="1" 
+AR Path="/5F988182/600C7AA1" Ref="J?"  Part="1" 
 F 0 "J?" H 2100 5810 50  0000 C CNN
 F 1 "DB1C-A1LD" H 2100 5901 50  0000 C CNN
 F 2 "" H 2100 6250 50  0001 C CNN
@@ -1858,6 +1852,8 @@ $Comp
 L OpenVent-rescue:DB1C-A1LD-OpenVent J?
 U 1 1 600E07E5
 P 2100 6925
+AR Path="/600E07E5" Ref="J?"  Part="1" 
+AR Path="/5F988182/600E07E5" Ref="J?"  Part="1" 
 F 0 "J?" H 2100 6485 50  0000 C CNN
 F 1 "DB1C-A1LD" H 2100 6576 50  0000 C CNN
 F 2 "" H 2100 6925 50  0001 C CNN
@@ -1869,6 +1865,8 @@ $Comp
 L OpenVent-rescue:DB1C-A1LD-OpenVent J?
 U 1 1 600E171A
 P 2100 7675
+AR Path="/600E171A" Ref="J?"  Part="1" 
+AR Path="/5F988182/600E171A" Ref="J?"  Part="1" 
 F 0 "J?" H 2100 7235 50  0000 C CNN
 F 1 "DB1C-A1LD" H 2100 7326 50  0000 C CNN
 F 2 "" H 2100 7675 50  0001 C CNN
