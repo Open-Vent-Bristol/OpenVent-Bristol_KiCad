@@ -85,6 +85,12 @@ K cap capacitor
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71E224KA55-01.pdf
 $ENDCMP
 #
+$CMP C_1206_47nF_16V_2%_PPS_film
+D 0.047µF Film Capacitor  16V Polyphenylene Sulfide (PPS), Metallized - Stacked 1206 (3216 Metric)
+K cap capacitor
+F https://api.kemet.com/component-edge/download/datasheet/LDBAA2470GC5N0.pdf
+$ENDCMP
+#
 $CMP C_1210_10uF_25V_10%_X7R
 D 10µF ±10% 25V Ceramic Capacitor X5R 1210 (3225 Metric)
 K capacitor
@@ -232,6 +238,12 @@ $CMP R_0603_2k74_0.1W_0.1%
 D 2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
 K resistor, SMT
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
+$CMP R_0603_47K_0.1%_0.1W_Film
+D 47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
+K resistor film precision
+F https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
 $ENDCMP
 #
 $CMP R_0603_53K_0.1W_1%

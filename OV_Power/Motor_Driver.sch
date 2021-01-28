@@ -466,7 +466,7 @@ Wire Wire Line
 	6750 2150 6550 2150
 Connection ~ 6550 2150
 Text Notes 7300 3050 0    50   ~ 0
-MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 250mV, so Vout = 150mV* (2740/100) which is 4.11V.\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
+MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 150mV, so Vout = 150mV* (2740/100) which is 4.11V.\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
 Wire Wire Line
 	6100 1150 6550 1150
 Wire Wire Line

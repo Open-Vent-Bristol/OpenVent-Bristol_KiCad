@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -367,12 +367,6 @@ F 3 "" H 9325 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10525 1525 10525 1850
-Text Notes 5650 4000 0    50   ~ 0
-https://drive.google.com/file/d/1lLOQ1HqgnG_nO4eDB_TPxHxARxQjTi03/view
-Text Notes 5675 3875 0    50   ~ 0
-copy that ciruit like 6 times\n
-Text Notes 5625 4100 0    50   ~ 0
-instead of ADC\n
 Text Notes 2050 3625 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
 Text GLabel 3525 3700 2    60   Output ~ 0
@@ -390,15 +384,15 @@ Motor_off
 $Comp
 L OpenVent:GND #GND_?
 U 1 1 600DF313
-P 6575 5600
+P 5400 5450
 AR Path="/5F988182/600DF313" Ref="#GND_?"  Part="1" 
-AR Path="/5F8F894A/600DF313" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 6575 5600 20  0001 C CNN
-F 1 "GND" H 6575 5530 50  0001 C CNN
-F 2 "" H 6575 5600 70  0001 C CNN
-F 3 "" H 6575 5600 70  0001 C CNN
-	1    6575 5600
-	0    -1   -1   0   
+AR Path="/5F8F894A/600DF313" Ref="#GND_022"  Part="1" 
+F 0 "#GND_022" H 5400 5450 20  0001 C CNN
+F 1 "GND" H 5400 5380 50  0001 C CNN
+F 2 "" H 5400 5450 70  0001 C CNN
+F 3 "" H 5400 5450 70  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
 $EndComp
 Text Notes 4750 5375 0    50   ~ 0
 Membrane Switch Connector
@@ -407,8 +401,8 @@ L OpenVent:SP3522-01UTG D?
 U 1 1 600DF342
 P 6225 6150
 AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
-AR Path="/5F8F894A/600DF342" Ref="D?"  Part="1" 
-F 0 "D?" H 6125 6100 50  0000 R CNN
+AR Path="/5F8F894A/600DF342" Ref="D2"  Part="1" 
+F 0 "D2" H 6125 6100 50  0000 R CNN
 F 1 "SP3522-01UTG" H 6350 6025 50  0000 R CNN
 F 2 "0603 diode" H 6275 6350 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6225 6150 50  0001 C CNN
@@ -421,8 +415,8 @@ L OpenVent:SP3522-01UTG D?
 U 1 1 600DF349
 P 7075 5950
 AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
-AR Path="/5F8F894A/600DF349" Ref="D?"  Part="1" 
-F 0 "D?" H 6975 5900 50  0000 R CNN
+AR Path="/5F8F894A/600DF349" Ref="D16"  Part="1" 
+F 0 "D16" H 6975 5900 50  0000 R CNN
 F 1 "SP3522-01UTG" H 7200 5825 50  0000 R CNN
 F 2 "0603 diode" H 7125 6150 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7075 5950 50  0001 C CNN
@@ -435,8 +429,8 @@ L OpenVent:SP3522-01UTG D?
 U 1 1 600DF354
 P 7550 5850
 AR Path="/5F988182/600DF354" Ref="D?"  Part="1" 
-AR Path="/5F8F894A/600DF354" Ref="D?"  Part="1" 
-F 0 "D?" H 7450 5800 50  0000 R CNN
+AR Path="/5F8F894A/600DF354" Ref="D17"  Part="1" 
+F 0 "D17" H 7450 5800 50  0000 R CNN
 F 1 "SP3522-01UTG" H 7675 5725 50  0000 R CNN
 F 2 "0603 diode" H 7600 6050 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7550 5850 50  0001 C CNN
@@ -451,8 +445,8 @@ L OpenVent:GND #GND_?
 U 1 1 600DF35C
 P 6225 6350
 AR Path="/5F988182/600DF35C" Ref="#GND_?"  Part="1" 
-AR Path="/5F8F894A/600DF35C" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 6225 6350 20  0001 C CNN
+AR Path="/5F8F894A/600DF35C" Ref="#GND_024"  Part="1" 
+F 0 "#GND_024" H 6225 6350 20  0001 C CNN
 F 1 "GND" H 6225 6280 50  0001 C CNN
 F 2 "" H 6225 6350 70  0001 C CNN
 F 3 "" H 6225 6350 70  0001 C CNN
@@ -464,8 +458,8 @@ L OpenVent:GND #GND_?
 U 1 1 600DF362
 P 6650 6350
 AR Path="/5F988182/600DF362" Ref="#GND_?"  Part="1" 
-AR Path="/5F8F894A/600DF362" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 6650 6350 20  0001 C CNN
+AR Path="/5F8F894A/600DF362" Ref="#GND_028"  Part="1" 
+F 0 "#GND_028" H 6650 6350 20  0001 C CNN
 F 1 "GND" H 6650 6280 50  0001 C CNN
 F 2 "" H 6650 6350 70  0001 C CNN
 F 3 "" H 6650 6350 70  0001 C CNN
@@ -477,8 +471,8 @@ L OpenVent:GND #GND_?
 U 1 1 600DF368
 P 7075 6350
 AR Path="/5F988182/600DF368" Ref="#GND_?"  Part="1" 
-AR Path="/5F8F894A/600DF368" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 7075 6350 20  0001 C CNN
+AR Path="/5F8F894A/600DF368" Ref="#GND_029"  Part="1" 
+F 0 "#GND_029" H 7075 6350 20  0001 C CNN
 F 1 "GND" H 7075 6280 50  0001 C CNN
 F 2 "" H 7075 6350 70  0001 C CNN
 F 3 "" H 7075 6350 70  0001 C CNN
@@ -490,8 +484,8 @@ L OpenVent:GND #GND_?
 U 1 1 600DF36E
 P 7550 6350
 AR Path="/5F988182/600DF36E" Ref="#GND_?"  Part="1" 
-AR Path="/5F8F894A/600DF36E" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 7550 6350 20  0001 C CNN
+AR Path="/5F8F894A/600DF36E" Ref="#GND_042"  Part="1" 
+F 0 "#GND_042" H 7550 6350 20  0001 C CNN
 F 1 "GND" H 7550 6280 50  0001 C CNN
 F 2 "" H 7550 6350 70  0001 C CNN
 F 3 "" H 7550 6350 70  0001 C CNN
@@ -519,8 +513,8 @@ L OpenVent:SP3522-01UTG D?
 U 1 1 600DF37E
 P 6650 6050
 AR Path="/5F988182/600DF37E" Ref="D?"  Part="1" 
-AR Path="/5F8F894A/600DF37E" Ref="D?"  Part="1" 
-F 0 "D?" H 6550 6000 50  0000 R CNN
+AR Path="/5F8F894A/600DF37E" Ref="D15"  Part="1" 
+F 0 "D15" H 6550 6000 50  0000 R CNN
 F 1 "SP3522-01UTG" H 6775 5925 50  0000 R CNN
 F 2 "0603 diode" H 6700 6250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6650 6050 50  0001 C CNN
@@ -529,98 +523,24 @@ F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6650 5750 50  000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5825 6000 6225 6000
-Connection ~ 6225 6000
-Wire Wire Line
 	6225 6000 6300 6000
 Wire Wire Line
 	6750 5900 6650 5900
-Wire Wire Line
-	5825 5800 7075 5800
-Connection ~ 7075 5800
 Wire Wire Line
 	7075 5800 7200 5800
 $Comp
 L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP?
 U 1 1 6010FC94
-P 5225 6000
+P 5200 6000
 AR Path="/5F988182/6010FC94" Ref="JP?"  Part="1" 
-AR Path="/5F8F894A/6010FC94" Ref="JP?"  Part="1" 
-F 0 "JP?" H 5575 6550 50  0000 L BNN
-F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 5225 6000 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5225 6000 50  0001 C CNN
-F 3 "" H 5225 6000 50  0001 C CNN
-	1    5225 6000
+AR Path="/5F8F894A/6010FC94" Ref="JP2"  Part="1" 
+F 0 "JP2" H 5550 6550 50  0000 L BNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 5200 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5200 6000 50  0001 C CNN
+F 3 "" H 5200 6000 50  0001 C CNN
+	1    5200 6000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
-U 1 1 6010FC9C
-P 5225 5700
-AR Path="/5F988182/6010FC9C" Ref="FB?"  Part="1" 
-AR Path="/5F8F894A/6010FC9C" Ref="FB?"  Part="1" 
-F 0 "FB?" H 5200 5750 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5250 50  0000 C CNN
-F 2 "" H 5225 5700 50  0001 C CNN
-F 3 "" H 5225 5700 50  0001 C CNN
-F 4 "600R" H 6100 5750 50  0000 C CNN "Val"
-F 5 "750mA" H 5875 5750 50  0000 C CNN "Current"
-	1    5225 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
-U 1 1 6010FCA4
-P 5225 5800
-AR Path="/5F988182/6010FCA4" Ref="FB?"  Part="1" 
-AR Path="/5F8F894A/6010FCA4" Ref="FB?"  Part="1" 
-F 0 "FB?" H 5200 5850 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5375 50  0000 C CNN
-F 2 "" H 5225 5800 50  0001 C CNN
-F 3 "" H 5225 5800 50  0001 C CNN
-F 4 "600R" H 6100 5850 50  0000 C CNN "Val"
-F 5 "750mA" H 5875 5850 50  0000 C CNN "Current"
-	1    5225 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
-U 1 1 6010FCAC
-P 5225 5900
-AR Path="/5F988182/6010FCAC" Ref="FB?"  Part="1" 
-AR Path="/5F8F894A/6010FCAC" Ref="FB?"  Part="1" 
-F 0 "FB?" H 5200 5925 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5500 50  0000 C CNN
-F 2 "" H 5225 5900 50  0001 C CNN
-F 3 "" H 5225 5900 50  0001 C CNN
-F 4 "600R" H 6100 5950 50  0000 C CNN "Val"
-F 5 "750mA" H 5875 5950 50  0000 C CNN "Current"
-	1    5225 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
-U 1 1 6010FCB4
-P 5225 6000
-AR Path="/5F988182/6010FCB4" Ref="FB?"  Part="1" 
-AR Path="/5F8F894A/6010FCB4" Ref="FB?"  Part="1" 
-F 0 "FB?" H 5200 6025 50  0000 C CNN
-F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5625 50  0000 C CNN
-F 2 "" H 5225 6000 50  0001 C CNN
-F 3 "" H 5225 6000 50  0001 C CNN
-F 4 "600R" H 6100 6050 50  0000 C CNN "Val"
-F 5 "750mA" H 5875 6050 50  0000 C CNN "Current"
-	1    5225 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5225 5600 6575 5600
-Wire Wire Line
-	5825 5900 6650 5900
-Connection ~ 6650 5900
-Wire Wire Line
-	5825 5700 7550 5700
-Connection ~ 7550 5700
 Text GLabel 2125 4475 0    50   Input ~ 0
 SW-1
 Text GLabel 2125 4575 0    50   Input ~ 0
@@ -637,4 +557,124 @@ Wire Wire Line
 	2175 4675 2125 4675
 Wire Wire Line
 	2175 4775 2125 4775
+$Comp
+L OpenVent:BLA31BD121SN4D FB4
+U 1 1 601877CF
+P 5400 5700
+F 0 "FB4" V 5350 5450 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 5475 5650 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 5330 5700 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 5400 5700 50  0001 C CNN
+F 4 "Murata Electronics North America" H 5400 5700 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 5400 5700 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 5400 5700 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 5400 5700 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 5400 5700 50  0001 C CNN "Detailed"
+	1    5400 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB4
+U 3 1 60188F69
+P 5650 5800
+F 0 "FB4" V 5600 6050 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 5725 5750 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 5580 5800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 5650 5800 50  0001 C CNN
+F 4 "Murata Electronics North America" H 5650 5800 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 5650 5800 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 5650 5800 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 5650 5800 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 5650 5800 50  0001 C CNN "Detailed"
+	3    5650 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB4
+U 2 1 6018A461
+P 5400 5900
+F 0 "FB4" V 5350 5650 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 5475 5850 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 5330 5900 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 5400 5900 50  0001 C CNN
+F 4 "Murata Electronics North America" H 5400 5900 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 5400 5900 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 5400 5900 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 5400 5900 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 5400 5900 50  0001 C CNN "Detailed"
+	2    5400 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB4
+U 4 1 6018B42B
+P 5650 6000
+F 0 "FB4" V 5600 6250 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 5725 5950 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 5580 6000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 5650 6000 50  0001 C CNN
+F 4 "Murata Electronics North America" H 5650 6000 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 5650 6000 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 5650 6000 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 5650 6000 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 5650 6000 50  0001 C CNN "Detailed"
+	4    5650 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 5700 5500 5700
+Connection ~ 7550 5700
+Wire Wire Line
+	5200 5700 5300 5700
+Wire Wire Line
+	5200 5800 5550 5800
+Wire Wire Line
+	5750 5800 7075 5800
+Connection ~ 7075 5800
+Wire Wire Line
+	5500 5900 6650 5900
+Connection ~ 6650 5900
+Wire Wire Line
+	5300 5900 5200 5900
+Wire Wire Line
+	5200 6000 5550 6000
+Wire Wire Line
+	5750 6000 6225 6000
+Connection ~ 6225 6000
+Wire Wire Line
+	5400 5450 5400 5425
+Wire Wire Line
+	5400 5425 5250 5425
+Wire Wire Line
+	5250 5425 5250 5600
+Wire Wire Line
+	5250 5600 5200 5600
+Text GLabel 10100 4000 2    50   Output ~ 0
+Vref_DRV
+Text GLabel 10100 4150 2    50   Output ~ 0
+FBA_DRV
+Text GLabel 10100 4250 2    50   Output ~ 0
+FBB_DRV
+Text GLabel 10100 4350 2    50   Output ~ 0
+FBC_DRV
+Text GLabel 10100 4450 2    50   Output ~ 0
+FBD_DRV
+Text GLabel 10100 4550 2    50   Output ~ 0
+FBE_DRV
+Text GLabel 10100 4650 2    50   Output ~ 0
+FBF_DRV
+Text GLabel 6000 3600 0    50   Input ~ 0
+AD_VREF
+Text GLabel 6000 3800 0    50   Input ~ 0
+Vcap_A
+Text GLabel 6000 3900 0    50   Input ~ 0
+Vcap_B
+Text GLabel 6000 4000 0    50   Input ~ 0
+Vcap_C
+Text GLabel 6000 4100 0    50   Input ~ 0
+Vcap_D
+Text GLabel 6000 4200 0    50   Input ~ 0
+Vcap_E
+Text GLabel 6000 4300 0    50   Input ~ 0
+Vcap_F
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -220,8 +220,6 @@ Wire Wire Line
 	4850 6000 4750 6000
 Wire Wire Line
 	4750 6000 4750 6100
-Wire Wire Line
-	3150 3700 3250 3700
 $Comp
 L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB2
 U 1 1 5FA0FC87
@@ -236,113 +234,11 @@ F 5 "750mA" H 3750 1025 50  0000 C CNN "Current"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3200 1500 3200
-Wire Wire Line
-	1500 3200 1500 2900
-$Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C40
-U 1 1 5FA13191
-P 1200 2150
-F 0 "C40" V 1204 2160 50  0000 L CNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1200 2150 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1200 2150 50  0001 C CNN
-F 3 "" H 1200 2150 50  0001 C CNN
-F 4 "100nF" V 1295 2160 50  0000 L CNN "Val"
-F 5 "25V" H 1200 2150 50  0001 C CNN "Voltage"
-F 6 "10%" H 1200 2150 50  0001 C CNN "Tolerance"
-	1    1200 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:GND #PWR037
-U 1 1 5FA1758E
-P 1100 2450
-F 0 "#PWR037" H 1100 2200 50  0001 C CNN
-F 1 "GND" H 1100 2300 50  0001 C CNN
-F 2 "" H 1100 2450 50  0001 C CNN
-F 3 "" H 1100 2450 50  0001 C CNN
-	1    1100 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 2350 1100 2450
-$Comp
-L OpenVent:LDL212D33R U9
-U 1 1 5FA20B55
-P 2150 2150
-F 0 "U9" H 2150 2525 50  0000 C CNN
-F 1 "LDL212D33R" H 2150 2434 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2150 2150 50  0001 C CNN
-F 3 "" H 2150 2150 50  0001 C CNN
-F 4 "STMicroelectronics" H 2150 2525 50  0001 C CNN "Manufacturer"
-F 5 "LDL212D33R" H 2150 2433 50  0001 C CNN "Mfr_PN"
-	1    2150 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 3700 3250 2900
-Wire Wire Line
-	3250 2900 1500 2900
-Wire Wire Line
-	1500 2900 1500 2000
-Wire Wire Line
-	1500 2000 1750 2000
-Connection ~ 1500 2900
-Wire Wire Line
-	1800 2100 1750 2100
-Wire Wire Line
-	1750 2100 1750 2000
-Connection ~ 1750 2000
-Wire Wire Line
-	1750 2000 1800 2000
-Wire Wire Line
-	1500 2000 1100 2000
-Wire Wire Line
-	1100 2000 1100 2050
-Connection ~ 1500 2000
-Wire Wire Line
 	4850 2300 3400 2300
 Wire Wire Line
 	3400 2300 3400 2000
 Wire Wire Line
 	3400 2000 2750 2000
-Wire Wire Line
-	2500 2100 2550 2100
-Wire Wire Line
-	2550 2100 2550 2000
-Connection ~ 2550 2000
-Wire Wire Line
-	2550 2000 2500 2000
-$Comp
-L OpenVent:GND #PWR038
-U 1 1 5FA28E0D
-P 2000 2550
-F 0 "#PWR038" H 2000 2300 50  0001 C CNN
-F 1 "GND" H 2000 2400 50  0001 C CNN
-F 2 "" H 2000 2550 50  0001 C CNN
-F 3 "" H 2000 2550 50  0001 C CNN
-	1    2000 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2450 2000 2500
-Wire Wire Line
-	2000 2500 2100 2500
-Wire Wire Line
-	2300 2500 2300 2450
-Connection ~ 2000 2500
-Wire Wire Line
-	2000 2500 2000 2550
-Wire Wire Line
-	2200 2450 2200 2500
-Connection ~ 2200 2500
-Wire Wire Line
-	2200 2500 2300 2500
-Wire Wire Line
-	2100 2450 2100 2500
-Connection ~ 2100 2500
-Wire Wire Line
-	2100 2500 2200 2500
 Wire Wire Line
 	6050 2000 6050 1800
 Wire Wire Line
@@ -388,9 +284,6 @@ F 3 "" H 2750 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 2050 2750 2000
-Connection ~ 2750 2000
-Wire Wire Line
-	2750 2000 2550 2000
 Wire Wire Line
 	2750 2350 2750 2400
 $Comp
@@ -446,8 +339,6 @@ Wire Wire Line
 Connection ~ 6250 1650
 Wire Wire Line
 	6250 1650 6350 1650
-Text Label 2950 2000 0    50   ~ 0
-J_3V3
 $Comp
 L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R76
 U 1 1 5FA60B80
@@ -462,8 +353,6 @@ F 6 "0.1W" H 4450 3700 50  0001 C CNN "Watt"
 	1    4450 3700
 	1    0    0    -1  
 $EndComp
-Text Label 4250 3800 2    50   ~ 0
-J_3V3
 Wire Wire Line
 	4850 3800 4750 3800
 Wire Wire Line
@@ -1028,12 +917,37 @@ NoConn ~ 1400 3500
 NoConn ~ 3150 3850
 NoConn ~ 3300 5800
 NoConn ~ 4200 6000
-Text Notes 1175 1175 0    50   ~ 0
-WE NEED VBUS FROM CN5 TO TVS2
-Text Notes 1200 1000 0    50   ~ 0
-REMOVE LDO AND JUST USE 3V3\n
-Text Notes 175  1350 0    50   ~ 0
-IF WE CAN ISOLATE THE JTAG SIGNALS FROM CIRCUIT THEN WE CAN LEAVE IT AS IS 
 Text Notes 8950 4375 0    50   ~ 0
 THIS IS JEFF'S PAGE\n
+$Comp
+L OpenVent:3V3 #PWR0124
+U 1 1 60179266
+P 4100 4000
+F 0 "#PWR0124" H 4100 3850 50  0001 C CNN
+F 1 "3V3" H 4100 4173 50  0000 C CNN
+F 2 "" H 4100 4000 50  0001 C CNN
+F 3 "" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3800 4250 4050
+Wire Wire Line
+	4250 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 4000
+$Comp
+L OpenVent:3V3 #PWR0123
+U 1 1 6017E834
+P 2750 1950
+F 0 "#PWR0123" H 2750 1800 50  0001 C CNN
+F 1 "3V3" H 2750 2123 50  0000 C CNN
+F 2 "" H 2750 1950 50  0001 C CNN
+F 3 "" H 2750 1950 50  0001 C CNN
+	1    2750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1950 2750 2000
+Connection ~ 2750 2000
 $EndSCHEMATC

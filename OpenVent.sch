@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -501,4 +501,10 @@ F1 "Buzzer_LEDs.sch" 50
 $EndSheet
 Text Notes 5775 200  0    50   ~ 0
 VBATT IS 12V BUT CAN GO UP TO 14V
+$Sheet
+S 1500 2900 3500 500 
+U 601B7AF8
+F0 "AD CONVERTERS" 50
+F1 "AD_conv.sch" 50
+$EndSheet
 $EndSCHEMATC

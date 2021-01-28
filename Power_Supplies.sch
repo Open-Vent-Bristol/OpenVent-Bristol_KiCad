@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -1181,10 +1181,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 6750 5100 6700
 $Comp
-L OpenVent:+3.3V #PWR?
+L OpenVent:+3.3V #PWR0122
 U 1 1 6007611B
 P 6450 6775
-F 0 "#PWR?" H 6450 6625 50  0001 C CNN
+F 0 "#PWR0122" H 6450 6625 50  0001 C CNN
 F 1 "+3.3V" H 6450 6948 50  0000 C CNN
 F 2 "" H 6450 6775 50  0001 C CNN
 F 3 "" H 6450 6775 50  0001 C CNN
