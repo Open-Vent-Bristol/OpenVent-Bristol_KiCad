@@ -188,6 +188,11 @@ K Coupled Inductor
 F https://www.mouser.com/datasheet/2/597/msd1260-220355.pdf
 $ENDCMP
 #
+$CMP NHD-0216K1Z-FL-YBW
+D Character Liquid Crystal Display Module
+F https://www.mouser.co.uk/datasheet/2/291/NHD-0216K1Z-FL-YBW-42789.pdf
+$ENDCMP
+#
 $CMP OpenVent_Barrel_Connector
 D CONN PWR JACK 2X5.5MM SOLDER
 F https://www.cuidevices.com/product/resource/digikeypdf/pj-102ah.pdf

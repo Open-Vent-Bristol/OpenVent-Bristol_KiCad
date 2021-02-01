@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -506,5 +506,11 @@ S 1500 2900 3500 500
 U 601B7AF8
 F0 "AD CONVERTERS" 50
 F1 "AD_conv.sch" 50
+$EndSheet
+$Sheet
+S 1500 3600 3500 350 
+U 601A5838
+F0 "LCD_FPGA" 50
+F1 "LCD_FPGA.sch" 50
 $EndSheet
 $EndSCHEMATC
