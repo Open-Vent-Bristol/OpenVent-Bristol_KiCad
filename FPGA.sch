@@ -677,4 +677,48 @@ Text GLabel 6000 4200 0    50   Input ~ 0
 Vcap_E
 Text GLabel 6000 4300 0    50   Input ~ 0
 Vcap_F
+Text GLabel 8500 4275 2    50   Output ~ 0
+LCD_RS
+Text GLabel 8500 4175 2    50   BiDi ~ 0
+LCD_RW
+Text GLabel 8500 4075 2    50   Output ~ 0
+LCD_ENABLE
+Text GLabel 8500 3975 2    50   BiDi ~ 0
+LCD_DB0
+Text GLabel 8500 3875 2    50   BiDi ~ 0
+LCD_DB1
+Text GLabel 8500 4475 2    50   BiDi ~ 0
+LCD_DB3
+Text GLabel 8500 4375 2    50   BiDi ~ 0
+LCD_DB2
+Text GLabel 8500 4675 2    50   BiDi ~ 0
+LCD_DB5
+Text GLabel 8500 4575 2    50   BiDi ~ 0
+LCD_DB4
+Text GLabel 8500 4875 2    50   BiDi ~ 0
+LCD_DB7
+Text GLabel 8500 4775 2    50   BiDi ~ 0
+LCD_DB6
+Wire Wire Line
+	8375 3875 8500 3875
+Wire Wire Line
+	8375 3975 8500 3975
+Wire Wire Line
+	8375 4075 8500 4075
+Wire Wire Line
+	8375 4175 8500 4175
+Wire Wire Line
+	8375 4275 8500 4275
+Wire Wire Line
+	8375 4475 8500 4475
+Wire Wire Line
+	8375 4375 8500 4375
+Wire Wire Line
+	8375 4575 8500 4575
+Wire Wire Line
+	8375 4675 8500 4675
+Wire Wire Line
+	8375 4775 8500 4775
+Wire Wire Line
+	8375 4875 8500 4875
 $EndSCHEMATC

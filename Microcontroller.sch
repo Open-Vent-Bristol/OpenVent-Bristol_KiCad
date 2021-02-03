@@ -17,30 +17,6 @@ Text Notes 1925 2850 1    50   ~ 0
 Debug UART
 Text Notes 1850 3125 0    50   ~ 0
 Mates with FTDI cable part
-$Comp
-L OpenVent:+5V #5V_06
-U 1 1 5F8DD17B
-P 9900 850
-F 0 "#5V_06" H 9900 850 20  0001 C CNN
-F 1 "+5V" H 9900 1000 50  0000 C CNN
-F 2 "" H 9900 850 70  0001 C CNN
-F 3 "" H 9900 850 70  0001 C CNN
-	1    9900 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_017
-U 1 1 5F8DD17A
-P 9300 2850
-F 0 "#GND_017" H 9300 2850 20  0001 C CNN
-F 1 "GND" H 9300 2780 50  0001 C CNN
-F 2 "" H 9300 2850 70  0001 C CNN
-F 3 "" H 9300 2850 70  0001 C CNN
-	1    9300 2850
-	1    0    0    -1  
-$EndComp
-Text Label 9450 1250 0    50   ~ 0
-LCD-VO
 Text GLabel 6550 2900 2    50   Output ~ 0
 MOTOR-IN-A
 Text GLabel 6550 3000 2    50   Output ~ 0
@@ -65,17 +41,6 @@ VBATT-SCALED
 NoConn ~ 2375 2600
 Text GLabel 4750 3500 0    50   Input ~ 0
 MOTOR-CURRENT
-$Comp
-L OpenVent:+5V #5V_05
-U 1 1 5F8DD177
-P 9550 3450
-F 0 "#5V_05" H 9550 3450 20  0001 C CNN
-F 1 "+5V" H 9550 3600 50  0000 C CNN
-F 2 "" H 9550 3450 70  0001 C CNN
-F 3 "" H 9550 3450 70  0001 C CNN
-	1    9550 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:GND #PWR01
 U 1 1 5F8DD176
@@ -111,28 +76,6 @@ F 1 "GND" H 6975 6155 50  0001 C CNN
 F 2 "" H 6975 6225 70  0001 C CNN
 F 3 "" H 6975 6225 70  0001 C CNN
 	1    6975 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_018
-U 1 1 5F8DD173
-P 9550 5500
-F 0 "#GND_018" H 9550 5500 20  0001 C CNN
-F 1 "GND" H 9550 5430 50  0001 C CNN
-F 2 "" H 9550 5500 70  0001 C CNN
-F 3 "" H 9550 5500 70  0001 C CNN
-	1    9550 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_019
-U 1 1 5F8DD172
-P 9900 3100
-F 0 "#GND_019" H 9900 3100 20  0001 C CNN
-F 1 "GND" H 9900 3030 50  0001 C CNN
-F 2 "" H 9900 3100 70  0001 C CNN
-F 3 "" H 9900 3100 70  0001 C CNN
-	1    9900 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -202,18 +145,6 @@ F 3 "" H 7000 850 70  0001 C CNN
 	1    7000 850 
 	1    0    0    -1  
 $EndComp
-Text Label 8900 1600 0    50   ~ 0
-LCD-RS
-Text Label 8900 1900 0    50   ~ 0
-LCD-D4
-Text Label 8900 2000 0    50   ~ 0
-LCD-D5
-Text Label 8900 2100 0    50   ~ 0
-LCD-D6
-Text Label 8900 2200 0    50   ~ 0
-LCD-D7
-Text Label 8900 1700 0    50   ~ 0
-LCD-RW
 Text GLabel 4750 3400 0    50   Input ~ 0
 SOUNDER-CURRENT
 Text Label 3850 1900 0    50   ~ 0
@@ -226,31 +157,6 @@ Text Label 6500 2700 0    50   ~ 0
 SW-3
 Text Label 6500 2800 0    50   ~ 0
 SW-4
-Text Label 9100 4550 0    50   ~ 0
-LCD-D4
-Text Label 9100 4650 0    50   ~ 0
-LCD-D5
-Text Label 9100 4750 0    50   ~ 0
-LCD-D6
-Text Label 9100 4850 0    50   ~ 0
-LCD-D7
-Text Label 9100 3850 0    50   ~ 0
-LCD-RS
-Text Label 9100 3950 0    50   ~ 0
-LCD-RW
-Text Label 9100 3750 0    50   ~ 0
-LCD-VO
-$Comp
-L OpenVent:GND #GND_020
-U 1 1 5F8DD16B
-P 9900 5500
-F 0 "#GND_020" H 9900 5500 20  0001 C CNN
-F 1 "GND" H 9900 5430 50  0001 C CNN
-F 2 "" H 9900 5500 70  0001 C CNN
-F 3 "" H 9900 5500 70  0001 C CNN
-	1    9900 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:GND #GND_014
 U 1 1 5F8DD16A
@@ -528,82 +434,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4550 7900 4550
 Wire Wire Line
-	8800 4050 8800 2300
-Wire Wire Line
-	10000 4050 8800 4050
-Wire Wire Line
-	9500 2350 10000 2350
-Wire Wire Line
-	9500 2200 9500 2350
-Wire Wire Line
-	9600 2250 10000 2250
-Wire Wire Line
-	9600 2100 9600 2250
-Wire Wire Line
-	9700 2150 10000 2150
-Wire Wire Line
-	9700 2000 9700 2150
-Wire Wire Line
-	9800 2050 10000 2050
-Wire Wire Line
-	9800 1900 9800 2050
-Wire Wire Line
-	9800 1550 10000 1550
-Wire Wire Line
-	9800 1800 9800 1550
-Wire Wire Line
-	9700 1450 10000 1450
-Wire Wire Line
-	9700 1700 9700 1450
-Wire Wire Line
-	9600 1350 10000 1350
-Wire Wire Line
-	9600 1600 9600 1350
-Wire Wire Line
-	9100 4850 10000 4850
-Wire Wire Line
-	10000 4750 9100 4750
-Wire Wire Line
-	10000 4650 9100 4650
-Wire Wire Line
-	10000 4550 9100 4550
-Wire Wire Line
-	10000 3950 9100 3950
-Wire Wire Line
-	10000 3850 9100 3850
-Wire Wire Line
-	10000 3750 9100 3750
-Wire Wire Line
-	9300 2650 10000 2650
-Wire Wire Line
-	9300 1050 10000 1050
-Wire Wire Line
-	9300 2850 9300 2650
-Wire Wire Line
-	9550 5050 10000 5050
-Wire Wire Line
-	9550 5050 9550 5200
-Wire Wire Line
-	9550 3650 9550 5050
-Wire Wire Line
-	10000 3650 9550 3650
-Wire Wire Line
-	9900 5150 10000 5150
-Wire Wire Line
-	9900 3550 10000 3550
-Wire Wire Line
-	9900 5150 9900 3550
-Wire Wire Line
-	9900 5500 9900 5150
-Wire Wire Line
-	9900 2550 10000 2550
-Wire Wire Line
-	9900 1150 9900 2550
-Wire Wire Line
-	9900 1150 10000 1150
-Wire Wire Line
-	9900 850  9900 1150
-Wire Wire Line
 	4825 7025 4825 7175
 Wire Wire Line
 	7900 4550 7900 5000
@@ -613,10 +443,6 @@ Wire Wire Line
 	8450 3500 8450 3600
 Wire Wire Line
 	8600 1200 8600 850 
-Wire Wire Line
-	9550 3650 9550 3450
-Wire Wire Line
-	9900 2550 9900 2800
 Wire Wire Line
 	7400 3900 7400 4100
 Wire Wire Line
@@ -647,26 +473,6 @@ Connection ~ 3975 7025
 Connection ~ 4825 7025
 Connection ~ 7400 4100
 Connection ~ 7900 4550
-Connection ~ 9300 2650
-Connection ~ 9550 5050
-Connection ~ 9550 3650
-Connection ~ 9900 5150
-Connection ~ 9900 2550
-Connection ~ 9900 1150
-$Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C14
-U 1 1 5F8DD154
-P 9800 3000
-F 0 "C14" V 9900 2600 50  0000 L BNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 9710 2810 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9710 2810 50  0001 C CNN
-F 3 "" H 9710 2810 50  0001 C CNN
-F 4 "25V" V 1300 -1100 50  0001 C CNN "Voltage"
-F 5 "10%" H 9800 3000 50  0001 C CNN "Tolerance"
-F 6 "100nF" V 9800 2650 50  0000 C CNN "Val"
-	1    9800 3000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C4
 U 1 1 5F8DD153
@@ -1022,30 +828,6 @@ F 6 "100nF" V 4675 7075 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD1
-U 1 1 5F8DD133
-P 10000 2650
-F 0 "LCD1" H 10200 4400 50  0000 L BNN
-F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 10000 2650 50  0001 C CNN
-F 2 "" H 10000 2650 50  0001 C CNN
-F 3 "" H 10000 2650 50  0001 C CNN
-F 4 "16x2 Character LCD" V 1000 500 50  0001 C CNN "Desc"
-	1    10000 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD2
-U 1 1 5F8DD132
-P 10000 5150
-F 0 "LCD2" H 10200 6900 50  0000 L BNN
-F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 10000 5150 50  0001 C CNN
-F 2 "" H 10000 5150 50  0001 C CNN
-F 3 "" H 10000 5150 50  0001 C CNN
-F 4 "16x2 Character LCD" V 1000 400 50  0001 C CNN "Desc"
-	1    10000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP1
 U 1 1 5F8DD131
 P 1450 5300
@@ -1055,20 +837,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1450 5300 50 
 F 3 "" H 1450 5300 50  0001 C CNN
 	1    1450 5300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C13
-U 1 1 5F8DD130
-P 9450 5400
-F 0 "C13" V 9450 5100 50  0000 L BNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 9350 5250 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9360 5210 50  0001 C CNN
-F 3 "" H 9360 5210 50  0001 C CNN
-F 4 "25V" V 1300 -1300 50  0001 C CNN "Voltage"
-F 5 "10%" H 9450 5400 50  0001 C CNN "Tolerance"
-F 6 "100nF" V 9350 5150 50  0000 C CNN "Val"
-	1    9450 5400
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6825 6525 6825 6625
@@ -1201,17 +969,6 @@ F 6 "0.1W" H 7300 3800 50  0001 C CNN "Watt"
 	1    7300 3800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L OpenVent:+5V #PWR03
-U 1 1 5F9FF035
-P 8900 850
-F 0 "#PWR03" H 8900 700 50  0001 C CNN
-F 1 "+5V" H 8900 1023 50  0000 C CNN
-F 2 "" H 8900 850 50  0001 C CNN
-F 3 "" H 8900 850 50  0001 C CNN
-	1    8900 850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 850  7000 1200
 Connection ~ 4575 850 
@@ -1281,56 +1038,8 @@ Wire Wire Line
 	7100 2500 7000 2500
 Wire Wire Line
 	8600 1200 8500 1200
-Wire Wire Line
-	8500 1600 9600 1600
-Wire Wire Line
-	8500 1700 9700 1700
-Wire Wire Line
-	8500 1800 9800 1800
-Wire Wire Line
-	8500 1900 9800 1900
-Wire Wire Line
-	8500 2000 9700 2000
-Wire Wire Line
-	8500 2100 9600 2100
-Wire Wire Line
-	8500 2200 9500 2200
-Wire Wire Line
-	8500 2300 8800 2300
 Text Notes 8900 5800 0    50   ~ 0
 These appear to be placeholders of some sort. ????
-$Comp
-L OpenVent:RES_trimpot_10K_SMD RV1
-U 1 1 5FAC5196
-P 8900 1250
-F 0 "RV1" H 8833 1296 50  0000 R CNN
-F 1 "RES_trimpot_10K_SMD" V 8800 1250 50  0001 C CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 8900 1250 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 8900 1250 50  0001 C CNN
-F 4 "10K" H 8833 1205 50  0000 R CNN "Val"
-F 5 "0.1W" H 8900 1250 50  0001 C CNN "Watt"
-F 6 "TRIMMER 10K OHM 0.1W J LEAD TOP" H 8900 1250 50  0001 C CNN "Desc"
-F 7 "0.1W, 1/10W J Lead Surface Mount Trimmer Potentiometer Cermet Turn Top Adjustment" H 8900 1250 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 8900 1250 50  0001 C CNN "DistName"
-F 9 "TC33X-1-103ETR-ND" H 8900 1250 50  0001 C CNN "Dist_PN"
-F 10 "Bourns Inc." H 8900 1250 50  0001 C CNN "Mfr"
-F 11 "TC33X-1-103E" H 8900 1250 50  0001 C CNN "Mfr_PN"
-	1    8900 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 1050 9300 1450
-Wire Wire Line
-	9050 1250 10000 1250
-Wire Wire Line
-	9300 1450 8900 1450
-Wire Wire Line
-	8900 1450 8900 1400
-Connection ~ 9300 1450
-Wire Wire Line
-	9300 1450 9300 2650
-Wire Wire Line
-	8900 850  8900 1100
 $Comp
 L OpenVent-rescue:DLP11SA900HL2L-F_inductors FL1
 U 1 1 5FA93A27
@@ -1434,14 +1143,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 4200 3350 4200
 NoConn ~ 4950 4900
-NoConn ~ 10000 1650
-NoConn ~ 10000 1750
-NoConn ~ 10000 1850
-NoConn ~ 10000 1950
-NoConn ~ 10000 4150
-NoConn ~ 10000 4250
-NoConn ~ 10000 4350
-NoConn ~ 10000 4450
 NoConn ~ 7700 4750
 NoConn ~ 6800 4550
 $Comp

@@ -16,23 +16,457 @@ $EndDescr
 $Comp
 L OpenVent:NHD-0216K1Z-FL-YBW U?
 U 1 1 601A6D81
-P 3550 3000
-F 0 "U?" H 3875 3265 50  0000 C CNN
-F 1 "NHD-0216K1Z-FL-YBW" H 3875 3174 50  0000 C CNN
-F 2 "" H 3550 3000 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/291/NHD-0216K1Z-FL-YBW-42789.pdf" H 3550 3000 50  0001 C CNN
-	1    3550 3000
+P 3675 3000
+AR Path="/601A6D81" Ref="U?"  Part="1" 
+AR Path="/601A5838/601A6D81" Ref="U?"  Part="1" 
+F 0 "U?" H 4000 3265 50  0000 C CNN
+F 1 "NHD-0216K1Z-FL-YBW" H 4000 3174 50  0000 C CNN
+F 2 "" H 3675 3000 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/291/NHD-0216K1Z-FL-YBW-42789.pdf" H 3675 3000 50  0001 C CNN
+	1    3675 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:NHD-0216K1Z-FL-YBW U?
-U 1 1 601A8E14
-P 5050 3000
-F 0 "U?" H 5375 3265 50  0000 C CNN
-F 1 "NHD-0216K1Z-FL-YBW" H 5375 3174 50  0000 C CNN
-F 2 "" H 5050 3000 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/291/NHD-0216K1Z-FL-YBW-42789.pdf" H 5050 3000 50  0001 C CNN
-	1    5050 3000
+L OpenVent:+5V #5V_?
+U 1 1 601E59FD
+P 3325 2800
+AR Path="/5F988182/601E59FD" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/601E59FD" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 3325 2800 20  0001 C CNN
+F 1 "+5V" H 3325 2950 50  0000 C CNN
+F 2 "" H 3325 2800 70  0001 C CNN
+F 3 "" H 3325 2800 70  0001 C CNN
+	1    3325 2800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3325 2800 3325 3000
+Wire Wire Line
+	3325 3000 3575 3000
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 601E827B
+P 2425 2550
+AR Path="/5F988182/601E827B" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/601E827B" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 2425 2550 20  0001 C CNN
+F 1 "+5V" H 2425 2700 50  0000 C CNN
+F 2 "" H 2425 2550 70  0001 C CNN
+F 3 "" H 2425 2550 70  0001 C CNN
+	1    2425 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 601E949A
+P 2325 2925
+F 0 "R?" H 2425 3032 50  0000 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 2325 2925 50  0001 C CNN
+F 2 "" H 2325 2925 50  0001 C CNN
+F 3 "" H 2325 2925 50  0001 C CNN
+F 4 "10k" H 2425 2941 50  0000 C CNN "Val"
+F 5 "1%" H 2325 2925 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2325 2925 50  0001 C CNN "Watt"
+	1    2325 2925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 601EA282
+P 2325 3450
+F 0 "R?" H 2425 3557 50  0000 C CNN
+F 1 "3k6_0603_Chip_Resistor,_1%,_0.1W" H 2325 3450 50  0001 C CNN
+F 2 "" H 2325 3450 50  0001 C CNN
+F 3 "" H 2325 3450 50  0001 C CNN
+F 4 "3k6" H 2425 3466 50  0000 C CNN "Val"
+F 5 "1%" H 2325 3450 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2325 3450 50  0001 C CNN "Watt"
+	1    2325 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601EC629
+P 2425 3600
+AR Path="/5F8F8987/601EC629" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601EC629" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601EC629" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601EC629" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2425 3350 50  0001 C CNN
+F 1 "GND" H 2425 3450 50  0001 C CNN
+F 2 "" H 2425 3600 50  0001 C CNN
+F 3 "" H 2425 3600 50  0001 C CNN
+	1    2425 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3550 2425 3600
+Wire Wire Line
+	2425 2550 2425 2625
+Text GLabel 3300 3300 0    50   Input ~ 0
+LCD_RS
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601BFFFB
+P 3275 3200
+AR Path="/5F8F8987/601BFFFB" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601BFFFB" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601BFFFB" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601BFFFB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3275 2950 50  0001 C CNN
+F 1 "GND" H 3275 3050 50  0001 C CNN
+F 2 "" H 3275 3200 50  0001 C CNN
+F 3 "" H 3275 3200 50  0001 C CNN
+	1    3275 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3275 3200 3575 3200
+Wire Wire Line
+	3300 3300 3575 3300
+Text GLabel 3300 3400 0    50   BiDi ~ 0
+LCD_RW
+Wire Wire Line
+	3300 3400 3575 3400
+Text GLabel 3300 3500 0    50   Input ~ 0
+LCD_ENABLE
+Wire Wire Line
+	3300 3500 3575 3500
+Text GLabel 3300 3600 0    50   BiDi ~ 0
+LCD_DB0
+Text GLabel 3300 3700 0    50   BiDi ~ 0
+LCD_DB1
+Wire Wire Line
+	3300 3600 3575 3600
+Wire Wire Line
+	3300 3700 3575 3700
+Text GLabel 4750 3100 2    50   BiDi ~ 0
+LCD_DB3
+Text GLabel 4750 3000 2    50   BiDi ~ 0
+LCD_DB2
+Wire Wire Line
+	4425 3000 4750 3000
+Wire Wire Line
+	4425 3100 4750 3100
+Text GLabel 4750 3300 2    50   BiDi ~ 0
+LCD_DB5
+Text GLabel 4750 3200 2    50   BiDi ~ 0
+LCD_DB4
+Wire Wire Line
+	4425 3200 4750 3200
+Wire Wire Line
+	4425 3300 4750 3300
+Text GLabel 4750 3500 2    50   BiDi ~ 0
+LCD_DB7
+Text GLabel 4750 3400 2    50   BiDi ~ 0
+LCD_DB6
+Wire Wire Line
+	4425 3400 4750 3400
+Wire Wire Line
+	4425 3500 4750 3500
+Wire Wire Line
+	2425 3025 2425 3100
+Wire Wire Line
+	3575 3100 2425 3100
+Connection ~ 2425 3100
+Wire Wire Line
+	2425 3100 2425 3150
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 60204254
+P 5250 2800
+AR Path="/5F988182/60204254" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/60204254" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 5250 2800 20  0001 C CNN
+F 1 "+5V" H 5250 2950 50  0000 C CNN
+F 2 "" H 5250 2800 70  0001 C CNN
+F 3 "" H 5250 2800 70  0001 C CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 3600 5250 3600
+Wire Wire Line
+	5250 2800 5250 3600
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 602053CA
+P 4500 3725
+AR Path="/5F8F8987/602053CA" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/602053CA" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/602053CA" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/602053CA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 3475 50  0001 C CNN
+F 1 "GND" H 4500 3575 50  0001 C CNN
+F 2 "" H 4500 3725 50  0001 C CNN
+F 3 "" H 4500 3725 50  0001 C CNN
+	1    4500 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 3700 4500 3700
+Wire Wire Line
+	4500 3700 4500 3725
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 601B7ABF
+P 5350 3800
+F 0 "C?" V 5354 3810 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 5350 3800 50  0001 C CNN
+F 2 "" H 5350 3800 50  0001 C CNN
+F 3 "" H 5350 3800 50  0001 C CNN
+F 4 "100nF" V 5445 3810 50  0000 L CNN "Val"
+F 5 "25V" H 5350 3800 50  0001 C CNN "Voltage"
+F 6 "10%" H 5350 3800 50  0001 C CNN "Tolerance"
+	1    5350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601B93F8
+P 5250 4050
+AR Path="/5F8F8987/601B93F8" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601B93F8" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601B93F8" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601B93F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 3800 50  0001 C CNN
+F 1 "GND" H 5250 3900 50  0001 C CNN
+F 2 "" H 5250 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4000 5250 4050
+Wire Wire Line
+	5250 3600 5250 3700
+Connection ~ 5250 3600
+$Comp
+L OpenVent:NHD-0216K1Z-FL-YBW U?
+U 1 1 601BF8A0
+P 7075 3050
+AR Path="/601BF8A0" Ref="U?"  Part="1" 
+AR Path="/601A5838/601BF8A0" Ref="U?"  Part="1" 
+F 0 "U?" H 7400 3315 50  0000 C CNN
+F 1 "NHD-0216K1Z-FL-YBW" H 7400 3224 50  0000 C CNN
+F 2 "" H 7075 3050 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/291/NHD-0216K1Z-FL-YBW-42789.pdf" H 7075 3050 50  0001 C CNN
+	1    7075 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 601BF8A6
+P 6725 2850
+AR Path="/5F988182/601BF8A6" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/601BF8A6" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 6725 2850 20  0001 C CNN
+F 1 "+5V" H 6725 3000 50  0000 C CNN
+F 2 "" H 6725 2850 70  0001 C CNN
+F 3 "" H 6725 2850 70  0001 C CNN
+	1    6725 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 2850 6725 3050
+Wire Wire Line
+	6725 3050 6975 3050
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 601BF8AE
+P 5825 2600
+AR Path="/5F988182/601BF8AE" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/601BF8AE" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 5825 2600 20  0001 C CNN
+F 1 "+5V" H 5825 2750 50  0000 C CNN
+F 2 "" H 5825 2600 70  0001 C CNN
+F 3 "" H 5825 2600 70  0001 C CNN
+	1    5825 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 601BF8B7
+P 5725 2975
+F 0 "R?" H 5825 3082 50  0000 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 5725 2975 50  0001 C CNN
+F 2 "" H 5725 2975 50  0001 C CNN
+F 3 "" H 5725 2975 50  0001 C CNN
+F 4 "10k" H 5825 2991 50  0000 C CNN "Val"
+F 5 "1%" H 5725 2975 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5725 2975 50  0001 C CNN "Watt"
+	1    5725 2975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 601BF8C0
+P 5725 3500
+F 0 "R?" H 5825 3607 50  0000 C CNN
+F 1 "3k6_0603_Chip_Resistor,_1%,_0.1W" H 5725 3500 50  0001 C CNN
+F 2 "" H 5725 3500 50  0001 C CNN
+F 3 "" H 5725 3500 50  0001 C CNN
+F 4 "3k6" H 5825 3516 50  0000 C CNN "Val"
+F 5 "1%" H 5725 3500 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5725 3500 50  0001 C CNN "Watt"
+	1    5725 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601BF8C6
+P 5825 3650
+AR Path="/5F8F8987/601BF8C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601BF8C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601BF8C6" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601BF8C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5825 3400 50  0001 C CNN
+F 1 "GND" H 5825 3500 50  0001 C CNN
+F 2 "" H 5825 3650 50  0001 C CNN
+F 3 "" H 5825 3650 50  0001 C CNN
+	1    5825 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 3600 5825 3650
+Wire Wire Line
+	5825 2600 5825 2675
+Text GLabel 6700 3350 0    50   Input ~ 0
+LCD_RS
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601BF8CF
+P 6675 3250
+AR Path="/5F8F8987/601BF8CF" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601BF8CF" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601BF8CF" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601BF8CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6675 3000 50  0001 C CNN
+F 1 "GND" H 6675 3100 50  0001 C CNN
+F 2 "" H 6675 3250 50  0001 C CNN
+F 3 "" H 6675 3250 50  0001 C CNN
+	1    6675 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6675 3250 6975 3250
+Wire Wire Line
+	6700 3350 6975 3350
+Text GLabel 6700 3450 0    50   BiDi ~ 0
+LCD_RW
+Wire Wire Line
+	6700 3450 6975 3450
+Text GLabel 6700 3550 0    50   Input ~ 0
+LCD_ENABLE
+Wire Wire Line
+	6700 3550 6975 3550
+Text GLabel 6700 3650 0    50   BiDi ~ 0
+LCD_DB0
+Text GLabel 6700 3750 0    50   BiDi ~ 0
+LCD_DB1
+Wire Wire Line
+	6700 3650 6975 3650
+Wire Wire Line
+	6700 3750 6975 3750
+Text GLabel 8150 3150 2    50   BiDi ~ 0
+LCD_DB3
+Text GLabel 8150 3050 2    50   BiDi ~ 0
+LCD_DB2
+Wire Wire Line
+	7825 3050 8150 3050
+Wire Wire Line
+	7825 3150 8150 3150
+Text GLabel 8150 3350 2    50   BiDi ~ 0
+LCD_DB5
+Text GLabel 8150 3250 2    50   BiDi ~ 0
+LCD_DB4
+Wire Wire Line
+	7825 3250 8150 3250
+Wire Wire Line
+	7825 3350 8150 3350
+Text GLabel 8150 3550 2    50   BiDi ~ 0
+LCD_DB7
+Text GLabel 8150 3450 2    50   BiDi ~ 0
+LCD_DB6
+Wire Wire Line
+	7825 3450 8150 3450
+Wire Wire Line
+	7825 3550 8150 3550
+Wire Wire Line
+	5825 3075 5825 3150
+Wire Wire Line
+	6975 3150 5825 3150
+Connection ~ 5825 3150
+Wire Wire Line
+	5825 3150 5825 3200
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 601BF8EF
+P 8650 2850
+AR Path="/5F988182/601BF8EF" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/601BF8EF" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 8650 2850 20  0001 C CNN
+F 1 "+5V" H 8650 3000 50  0000 C CNN
+F 2 "" H 8650 2850 70  0001 C CNN
+F 3 "" H 8650 2850 70  0001 C CNN
+	1    8650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 3650 8650 3650
+Wire Wire Line
+	8650 2850 8650 3650
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601BF8F7
+P 7900 3775
+AR Path="/5F8F8987/601BF8F7" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601BF8F7" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601BF8F7" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601BF8F7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 3525 50  0001 C CNN
+F 1 "GND" H 7900 3625 50  0001 C CNN
+F 2 "" H 7900 3775 50  0001 C CNN
+F 3 "" H 7900 3775 50  0001 C CNN
+	1    7900 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 3750 7900 3750
+Wire Wire Line
+	7900 3750 7900 3775
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 601BF902
+P 8750 3850
+F 0 "C?" V 8754 3860 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8750 3850 50  0001 C CNN
+F 2 "" H 8750 3850 50  0001 C CNN
+F 3 "" H 8750 3850 50  0001 C CNN
+F 4 "100nF" V 8845 3860 50  0000 L CNN "Val"
+F 5 "25V" H 8750 3850 50  0001 C CNN "Voltage"
+F 6 "10%" H 8750 3850 50  0001 C CNN "Tolerance"
+	1    8750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 601BF908
+P 8650 4100
+AR Path="/5F8F8987/601BF908" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/601BF908" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/601BF908" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/601BF908" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8650 3850 50  0001 C CNN
+F 1 "GND" H 8650 3950 50  0001 C CNN
+F 2 "" H 8650 4100 50  0001 C CNN
+F 3 "" H 8650 4100 50  0001 C CNN
+	1    8650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4050 8650 4100
+Wire Wire Line
+	8650 3650 8650 3750
+Connection ~ 8650 3650
 $EndSCHEMATC
