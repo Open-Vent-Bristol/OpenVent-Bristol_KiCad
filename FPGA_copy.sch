@@ -1,0 +1,662 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title "OpenVent Control Board"
+Date "2020-10-20"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1950 1700 0    50   Input ~ 0
+VBATT-SCALED
+Text GLabel 6700 1500 0    50   Output ~ 0
+nPRESSURE-PATIENT-ALERT
+Text GLabel 7075 4675 0    50   Output ~ 0
+Sounder_DRV
+Text GLabel 7075 4775 0    50   Output ~ 0
+LED_SERIAL_DRV
+Text GLabel 1950 1600 0    50   Input ~ 0
+OXYGEN-SENSOR
+Text GLabel 1950 1500 0    50   Input ~ 0
+PRESSURE-PATIENT-SENSOR
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 6 1 5FCFFCE4
+P 2175 4775
+F 0 "U8" H 3150 5623 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3150 5532 50  0000 C CNN
+F 2 "" H 2425 6675 50  0001 C CNN
+F 3 "" H 2425 6675 50  0001 C CNN
+	6    2175 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 4 1 5FD034FE
+P 2450 5900
+F 0 "U8" H 3175 6448 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3175 6357 50  0000 C CNN
+F 2 "" H 2700 7800 50  0001 C CNN
+F 3 "" H 2700 7800 50  0001 C CNN
+	4    2450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 3 1 5FD06654
+P 2425 7225
+F 0 "U8" H 3425 7790 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3425 7699 50  0000 C CNN
+F 2 "" H 2675 9125 50  0001 C CNN
+F 3 "" H 2675 9125 50  0001 C CNN
+	3    2425 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 7 1 5FD0C15E
+P 7275 4775
+F 0 "U8" H 7825 6023 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7825 5932 50  0000 C CNN
+F 2 "" H 7525 6675 50  0001 C CNN
+F 3 "" H 7525 6675 50  0001 C CNN
+	7    7275 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:SiT8008B U14
+U 1 1 5FD185A9
+P 9425 1950
+F 0 "U14" H 9825 2215 50  0000 C CNN
+F 1 "SiT8008B" H 9825 2124 50  0000 C CNN
+F 2 "" H 9475 2200 50  0001 C CNN
+F 3 "" H 9475 2200 50  0001 C CNN
+	1    9425 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:ADS1015 U13
+U 1 1 5FD19031
+P 2450 1400
+F 0 "U13" H 2800 1665 50  0000 C CNN
+F 1 "ADS1015" H 2800 1574 50  0000 C CNN
+F 2 "F_ICs:LT_MS8E" H 2700 150 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf" H 2650 950 50  0001 C CNN
+F 4 "ADS1015" H 2650 500 50  0001 C CNN "Mfr_PN"
+F 5 "IC ADC VSSOP-10" H 2850 350 50  0001 C CNN "Desc"
+	1    2450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C23
+U 1 1 5FD1CC3D
+P 10625 2000
+F 0 "C23" V 10629 2010 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10625 2000 50  0001 C CNN
+F 2 "" H 10625 2000 50  0001 C CNN
+F 3 "" H 10625 2000 50  0001 C CNN
+F 4 "100nF" V 10720 2010 50  0000 L CNN "Val"
+F 5 "25V" H 10625 2000 50  0001 C CNN "Voltage"
+F 6 "10%" H 10625 2000 50  0001 C CNN "Tolerance"
+	1    10625 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:3V3 #PWR034
+U 1 1 5FD203F5
+P 10525 1525
+F 0 "#PWR034" H 10525 1375 50  0001 C CNN
+F 1 "3V3" H 10525 1698 50  0000 C CNN
+F 2 "" H 10525 1525 50  0001 C CNN
+F 3 "" H 10525 1525 50  0001 C CNN
+	1    10525 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR035
+U 1 1 5FD20966
+P 10525 2300
+F 0 "#PWR035" H 10525 2050 50  0001 C CNN
+F 1 "GND" H 10525 2150 50  0001 C CNN
+F 2 "" H 10525 2300 50  0001 C CNN
+F 3 "" H 10525 2300 50  0001 C CNN
+	1    10525 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 650  4475 1    50   ~ 0
+Debug UART
+NoConn ~ 1175 4175
+NoConn ~ 1175 4075
+NoConn ~ 1175 4475
+$Comp
+L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
+U 1 1 5FD254BC
+P 1175 4475
+AR Path="/5F988182/5FD254BC" Ref="JP?"  Part="1" 
+AR Path="/5F8F894A/5FD254BC" Ref="JP5"  Part="1" 
+F 0 "JP5" H 1525 5125 50  0000 L BNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1175 4475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1175 4475 50  0001 C CNN
+F 3 "" H 1175 4475 50  0001 C CNN
+	1    1175 4475
+	-1   0    0    -1  
+$EndComp
+Text Label 1375 4275 0    50   ~ 0
+UART_RX
+Text Label 1375 4375 0    50   ~ 0
+UART_TX
+Text Notes 9525 2350 0    50   ~ 0
+33.554432 MHz
+$Comp
+L OpenVent:GND #PWR028
+U 1 1 5FD31973
+P 2400 1950
+F 0 "#PWR028" H 2400 1700 50  0001 C CNN
+F 1 "GND" H 2400 1800 50  0001 C CNN
+F 2 "" H 2400 1950 50  0001 C CNN
+F 3 "" H 2400 1950 50  0001 C CNN
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR029
+U 1 1 5FD324D1
+P 3250 1750
+F 0 "#PWR029" H 3250 1500 50  0001 C CNN
+F 1 "GND" H 3250 1600 50  0001 C CNN
+F 2 "" H 3250 1750 50  0001 C CNN
+F 3 "" H 3250 1750 50  0001 C CNN
+	1    3250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #PWR030
+U 1 1 5FD344B7
+P 3250 1300
+F 0 "#PWR030" H 3250 1150 50  0001 C CNN
+F 1 "3V3" H 3250 1473 50  0000 C CNN
+F 2 "" H 3250 1300 50  0001 C CNN
+F 3 "" H 3250 1300 50  0001 C CNN
+	1    3250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR032
+U 1 1 5FD3A041
+P 1625 3975
+F 0 "#PWR032" H 1625 3725 50  0001 C CNN
+F 1 "GND" H 1625 3825 50  0001 C CNN
+F 2 "" H 1625 3975 50  0001 C CNN
+F 3 "" H 1625 3975 50  0001 C CNN
+	1    1625 3975
+	1    0    0    -1  
+$EndComp
+Text Label 1950 1400 0    50   ~ 0
+ADC_DRDY
+Text Label 6400 2200 0    50   ~ 0
+ADC_DRDY
+$Comp
+L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
+U 1 1 5FD4D09C
+P 5450 2250
+F 0 "R19" H 5550 1943 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5450 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 2250 50  0001 C CNN
+F 3 "" H 5450 2250 50  0001 C CNN
+F 4 "2k4" H 5550 2034 50  0000 C CNN "Val"
+F 5 "1%" H 5450 2250 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5450 2250 50  0001 C CNN "Watt"
+	1    5450 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R20
+U 1 1 5FD4E271
+P 6100 2200
+F 0 "R20" H 6200 2200 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6100 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 2200 50  0001 C CNN
+F 3 "" H 6100 2200 50  0001 C CNN
+F 4 "2k4" H 6200 2275 50  0000 C CNN "Val"
+F 5 "1%" H 6100 2200 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6100 2200 50  0001 C CNN "Watt"
+	1    6100 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3V3 #PWR031
+U 1 1 5FD519F4
+P 6200 1900
+F 0 "#PWR031" H 6200 1750 50  0001 C CNN
+F 1 "3V3" H 6200 2073 50  0000 C CNN
+F 2 "" H 6200 1900 50  0001 C CNN
+F 3 "" H 6200 1900 50  0001 C CNN
+	1    6200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 5 1 5FE312A6
+P 7150 2400
+F 0 "U8" H 7875 3948 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7875 3857 50  0000 C CNN
+F 2 "" H 7400 4300 50  0001 C CNN
+F 3 "" H 7400 4300 50  0001 C CNN
+	5    7150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1500 7150 1500
+Wire Wire Line
+	7150 1600 6700 1600
+Wire Wire Line
+	6700 1700 7150 1700
+Wire Wire Line
+	7150 1800 6700 1800
+Wire Wire Line
+	6700 1900 7150 1900
+Wire Wire Line
+	7150 2200 6400 2200
+Wire Wire Line
+	10525 1850 10425 1850
+Wire Wire Line
+	10425 1850 10425 1950
+Wire Wire Line
+	10425 1950 10325 1950
+Connection ~ 10525 1850
+Wire Wire Line
+	10525 1850 10525 1900
+Wire Wire Line
+	10525 2200 10525 2250
+Wire Wire Line
+	10525 2250 10425 2250
+Wire Wire Line
+	10425 2250 10425 2100
+Wire Wire Line
+	10425 2100 10325 2100
+Connection ~ 10525 2250
+Wire Wire Line
+	10525 2250 10525 2300
+Wire Wire Line
+	1625 3975 1175 3975
+Wire Wire Line
+	1175 4275 2175 4275
+Wire Wire Line
+	1175 4375 2175 4375
+Wire Wire Line
+	7275 4675 7075 4675
+Wire Wire Line
+	7275 4775 7075 4775
+Wire Wire Line
+	2450 1400 1950 1400
+Wire Wire Line
+	1950 1500 2450 1500
+Wire Wire Line
+	2450 1600 1950 1600
+Wire Wire Line
+	1950 1700 2450 1700
+Wire Wire Line
+	3250 1300 3250 1400
+Wire Wire Line
+	3250 1400 3150 1400
+Wire Wire Line
+	3150 1700 3250 1700
+Wire Wire Line
+	3250 1700 3250 1750
+Wire Wire Line
+	3150 1500 3700 1500
+Wire Wire Line
+	3150 1600 3700 1600
+Wire Wire Line
+	2450 1900 2400 1900
+Wire Wire Line
+	2400 1900 2400 1950
+Text Notes 2400 2425 0    50   ~ 0
+DRDY CHECK IF NEEDS PULL UP
+Text Notes 2150 3125 0    50   ~ 0
+stuff that the FPGA needs for support\n
+Text Notes 1750 3450 0    50   ~ 0
+ADC COMPARATER STUFF AS PER RICK'S MESSAGE (USE SAME FROM POWER SUPPLY PAGE)
+Wire Wire Line
+	8600 2100 9325 2100
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R41
+U 1 1 5FE91BCD
+P 9425 1650
+F 0 "R41" V 9479 1620 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 9425 1650 50  0001 C CNN
+F 2 "" H 9425 1650 50  0001 C CNN
+F 3 "" H 9425 1650 50  0001 C CNN
+F 4 "10k" V 9570 1620 50  0000 L CNN "Val"
+F 5 "1%" H 9425 1650 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9425 1650 50  0001 C CNN "Watt"
+	1    9425 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:3V3 #PWR033
+U 1 1 5FE92C86
+P 9325 1550
+F 0 "#PWR033" H 9325 1400 50  0001 C CNN
+F 1 "3V3" H 9325 1723 50  0000 C CNN
+F 2 "" H 9325 1550 50  0001 C CNN
+F 3 "" H 9325 1550 50  0001 C CNN
+	1    9325 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10525 1525 10525 1850
+Text Notes 5650 4000 0    50   ~ 0
+https://drive.google.com/file/d/1lLOQ1HqgnG_nO4eDB_TPxHxARxQjTi03/view
+Text Notes 5675 3900 0    50   ~ 0
+copy that ciruit like 6 times\n
+Text Notes 5625 4100 0    50   ~ 0
+instead of ADC\n
+Text Notes 2050 3625 0    50   ~ 0
+2 x NHD-0216K1Z-FL-YBW
+Text Notes 1525 2725 0    50   ~ 0
+ADD BAROMETRIC PRESSURE SENSOR - WAITING FOR PART NUMBER FROM TOM
+Text GLabel 3525 3700 2    60   Output ~ 0
+PRESSURE-SENSOR-VENT
+Text GLabel 9550 6125 0    50   Input ~ 0
+FLOW-SENSOR
+Text GLabel 9625 5825 0    50   Input ~ 0
+OXYGEN-SENSOR
+Text GLabel 9625 5950 0    50   Input ~ 0
+FLOW-SENSOR-GAIN
+Text GLabel 3525 3575 2    60   Output ~ 0
+SENSIRON-FLOW-SENSOR
+Text GLabel 10400 3450 0    50   Output ~ 0
+Motor_off
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF313
+P 6575 5600
+AR Path="/5F988182/600DF313" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF313" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6575 5600 20  0001 C CNN
+F 1 "GND" H 6575 5530 50  0001 C CNN
+F 2 "" H 6575 5600 70  0001 C CNN
+F 3 "" H 6575 5600 70  0001 C CNN
+	1    6575 5600
+	0    -1   -1   0   
+$EndComp
+Text Notes 4750 5375 0    50   ~ 0
+Membrane Switch Connector
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF342
+P 6225 6150
+AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF342" Ref="D?"  Part="1" 
+F 0 "D?" H 6125 6100 50  0000 R CNN
+F 1 "SP3522-01UTG" H 6350 6025 50  0000 R CNN
+F 2 "0603 diode" H 6275 6350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6225 6150 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6225 5850 50  0001 C CNN "Detailed"
+	1    6225 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF349
+P 7075 5950
+AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF349" Ref="D?"  Part="1" 
+F 0 "D?" H 6975 5900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 7200 5825 50  0000 R CNN
+F 2 "0603 diode" H 7125 6150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7075 5950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 7075 5650 50  0001 C CNN "Detailed"
+	1    7075 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF354
+P 7550 5850
+AR Path="/5F988182/600DF354" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF354" Ref="D?"  Part="1" 
+F 0 "D?" H 7450 5800 50  0000 R CNN
+F 1 "SP3522-01UTG" H 7675 5725 50  0000 R CNN
+F 2 "0603 diode" H 7600 6050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 7550 5850 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 7550 5550 50  0001 C CNN "Detailed"
+	1    7550 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 5700 7700 5700
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF35C
+P 6225 6350
+AR Path="/5F988182/600DF35C" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF35C" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6225 6350 20  0001 C CNN
+F 1 "GND" H 6225 6280 50  0001 C CNN
+F 2 "" H 6225 6350 70  0001 C CNN
+F 3 "" H 6225 6350 70  0001 C CNN
+	1    6225 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF362
+P 6650 6350
+AR Path="/5F988182/600DF362" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF362" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6650 6350 20  0001 C CNN
+F 1 "GND" H 6650 6280 50  0001 C CNN
+F 2 "" H 6650 6350 70  0001 C CNN
+F 3 "" H 6650 6350 70  0001 C CNN
+	1    6650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF368
+P 7075 6350
+AR Path="/5F988182/600DF368" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF368" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7075 6350 20  0001 C CNN
+F 1 "GND" H 7075 6280 50  0001 C CNN
+F 2 "" H 7075 6350 70  0001 C CNN
+F 3 "" H 7075 6350 70  0001 C CNN
+	1    7075 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 600DF36E
+P 7550 6350
+AR Path="/5F988182/600DF36E" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/600DF36E" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7550 6350 20  0001 C CNN
+F 1 "GND" H 7550 6280 50  0001 C CNN
+F 2 "" H 7550 6350 70  0001 C CNN
+F 3 "" H 7550 6350 70  0001 C CNN
+	1    7550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 6350 6225 6300
+Wire Wire Line
+	7075 6100 7075 6350
+Wire Wire Line
+	6650 6350 6650 6200
+Wire Wire Line
+	7550 6350 7550 6000
+Text GLabel 7700 5700 2    50   Output ~ 0
+SW-1
+Text GLabel 7200 5800 2    50   Output ~ 0
+SW-2
+Text GLabel 6750 5900 2    50   Output ~ 0
+SW-3
+Text GLabel 6300 6000 2    50   Output ~ 0
+SW-4
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF37E
+P 6650 6050
+AR Path="/5F988182/600DF37E" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF37E" Ref="D?"  Part="1" 
+F 0 "D?" H 6550 6000 50  0000 R CNN
+F 1 "SP3522-01UTG" H 6775 5925 50  0000 R CNN
+F 2 "0603 diode" H 6700 6250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6650 6050 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6650 5750 50  0001 C CNN "Detailed"
+	1    6650 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5825 6000 6225 6000
+Connection ~ 6225 6000
+Wire Wire Line
+	6225 6000 6300 6000
+Wire Wire Line
+	6750 5900 6650 5900
+Wire Wire Line
+	5825 5800 7075 5800
+Connection ~ 7075 5800
+Wire Wire Line
+	7075 5800 7200 5800
+$Comp
+L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP?
+U 1 1 6010FC94
+P 5225 6000
+AR Path="/5F988182/6010FC94" Ref="JP?"  Part="1" 
+AR Path="/5F8F894A/6010FC94" Ref="JP?"  Part="1" 
+F 0 "JP?" H 5575 6550 50  0000 L BNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 5225 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5225 6000 50  0001 C CNN
+F 3 "" H 5225 6000 50  0001 C CNN
+	1    5225 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FC9C
+P 5225 5700
+AR Path="/5F988182/6010FC9C" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FC9C" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5750 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5250 50  0000 C CNN
+F 2 "" H 5225 5700 50  0001 C CNN
+F 3 "" H 5225 5700 50  0001 C CNN
+F 4 "600R" H 6100 5750 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5750 50  0000 C CNN "Current"
+	1    5225 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCA4
+P 5225 5800
+AR Path="/5F988182/6010FCA4" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCA4" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5850 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5375 50  0000 C CNN
+F 2 "" H 5225 5800 50  0001 C CNN
+F 3 "" H 5225 5800 50  0001 C CNN
+F 4 "600R" H 6100 5850 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5850 50  0000 C CNN "Current"
+	1    5225 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCAC
+P 5225 5900
+AR Path="/5F988182/6010FCAC" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCAC" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 5925 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5500 50  0000 C CNN
+F 2 "" H 5225 5900 50  0001 C CNN
+F 3 "" H 5225 5900 50  0001 C CNN
+F 4 "600R" H 6100 5950 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 5950 50  0000 C CNN "Current"
+	1    5225 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
+U 1 1 6010FCB4
+P 5225 6000
+AR Path="/5F988182/6010FCB4" Ref="FB?"  Part="1" 
+AR Path="/5F8F894A/6010FCB4" Ref="FB?"  Part="1" 
+F 0 "FB?" H 5200 6025 50  0000 C CNN
+F 1 "Chip_Ferrite,_600R,_0603,_750mA" H 5475 5625 50  0000 C CNN
+F 2 "" H 5225 6000 50  0001 C CNN
+F 3 "" H 5225 6000 50  0001 C CNN
+F 4 "600R" H 6100 6050 50  0000 C CNN "Val"
+F 5 "750mA" H 5875 6050 50  0000 C CNN "Current"
+	1    5225 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 5600 6575 5600
+Wire Wire Line
+	5825 5900 6650 5900
+Connection ~ 6650 5900
+Wire Wire Line
+	5825 5700 7550 5700
+Connection ~ 7550 5700
+Text GLabel 2125 4475 0    50   Input ~ 0
+SW-1
+Text GLabel 2125 4575 0    50   Input ~ 0
+SW-2
+Text GLabel 2125 4675 0    50   Input ~ 0
+SW-3
+Text GLabel 2125 4775 0    50   Input ~ 0
+SW-4
+Wire Wire Line
+	2175 4475 2125 4475
+Wire Wire Line
+	2175 4575 2125 4575
+Wire Wire Line
+	2175 4675 2125 4675
+Wire Wire Line
+	2175 4775 2125 4775
+Text GLabel 6125 2300 0    50   Output ~ 0
+I2C_SCL
+Wire Wire Line
+	6200 2300 6125 2300
+Wire Wire Line
+	6200 2300 7150 2300
+Connection ~ 6200 2300
+Text GLabel 5450 2400 0    50   BiDi ~ 0
+I2C_SDA
+Wire Wire Line
+	7150 2400 5550 2400
+Wire Wire Line
+	5550 2400 5550 2350
+Connection ~ 5550 2400
+Wire Wire Line
+	5550 2400 5450 2400
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 6021664F
+P 5550 1950
+F 0 "#PWR?" H 5550 1800 50  0001 C CNN
+F 1 "3V3" H 5550 2123 50  0000 C CNN
+F 2 "" H 5550 1950 50  0001 C CNN
+F 3 "" H 5550 1950 50  0001 C CNN
+	1    5550 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 1600 2    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 3700 1500 2    50   Input ~ 0
+I2C_SCL
+Text Notes 4550 1900 0    50   ~ 0
+CHECK I2C PULL-UP\nRESISTOR VALUES ONCE\nWHOLE I2C CIRCUIT\nIS CONFIRMED
+Text Notes 4600 2325 0    50   ~ 0
+CHECK IF I2C\nNEEDS TO GO\nTO SPECIFIC\nFPGA PINS
+$EndSCHEMATC
