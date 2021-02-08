@@ -199,53 +199,45 @@ F 3 "" H 1625 3975 50  0001 C CNN
 $EndComp
 Text Label 1950 1400 0    50   ~ 0
 ADC_DRDY
-Text Label 3350 1500 0    50   ~ 0
-I2C_SCL
-Text Label 3350 1600 0    50   ~ 0
-I2C_SDA
 Text Label 6400 2200 0    50   ~ 0
 ADC_DRDY
-Text Label 6400 2300 0    50   ~ 0
-I2C_SCL
-Text Label 6400 2400 0    50   ~ 0
-I2C_SDA
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
 U 1 1 5FD4D09C
-P 4000 1600
-F 0 "R19" H 4100 1293 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 4000 1600 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 1600 50  0001 C CNN
-F 3 "" H 4000 1600 50  0001 C CNN
-F 4 "2k4" H 4100 1384 50  0000 C CNN "Val"
-F 5 "1%" H 4000 1600 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 4000 1600 50  0001 C CNN "Watt"
-	1    4000 1600
-	-1   0    0    1   
+P 5375 2300
+F 0 "R19" H 5475 1993 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5375 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5375 2300 50  0001 C CNN
+F 3 "" H 5375 2300 50  0001 C CNN
+F 4 "2k4" H 5475 2084 50  0000 C CNN "Val"
+F 5 "1%" H 5375 2300 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5375 2300 50  0001 C CNN "Watt"
+	1    5375 2300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R20
 U 1 1 5FD4E271
-P 4000 1700
-F 0 "R20" H 4100 1700 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 4000 1700 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 1700 50  0001 C CNN
-F 3 "" H 4000 1700 50  0001 C CNN
-F 4 "2k4" H 4100 1775 50  0000 C CNN "Val"
-F 5 "1%" H 4000 1700 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 4000 1700 50  0001 C CNN "Watt"
-	1    4000 1700
-	-1   0    0    1   
+P 6150 2200
+F 0 "R20" H 6250 2200 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6150 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 2200 50  0001 C CNN
+F 3 "" H 6150 2200 50  0001 C CNN
+F 4 "2k4" H 6250 2275 50  0000 C CNN "Val"
+F 5 "1%" H 6150 2200 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6150 2200 50  0001 C CNN "Watt"
+	1    6150 2200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:3V3 #PWR031
 U 1 1 5FD519F4
-P 4350 1050
-F 0 "#PWR031" H 4350 900 50  0001 C CNN
-F 1 "3V3" H 4350 1223 50  0000 C CNN
-F 2 "" H 4350 1050 50  0001 C CNN
-F 3 "" H 4350 1050 50  0001 C CNN
-	1    4350 1050
+P 5475 2000
+F 0 "#PWR031" H 5475 1850 50  0001 C CNN
+F 1 "3V3" H 5475 2173 50  0000 C CNN
+F 2 "" H 5475 2000 50  0001 C CNN
+F 3 "" H 5475 2000 50  0001 C CNN
+	1    5475 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,10 +263,6 @@ Wire Wire Line
 	6700 1900 7150 1900
 Wire Wire Line
 	7150 2200 6400 2200
-Wire Wire Line
-	7150 2300 6400 2300
-Wire Wire Line
-	6400 2400 7150 2400
 Wire Wire Line
 	10525 1850 10425 1850
 Wire Wire Line
@@ -325,15 +313,6 @@ Wire Wire Line
 	3150 1500 3700 1500
 Wire Wire Line
 	3150 1600 3700 1600
-Wire Wire Line
-	4100 1500 4350 1500
-Wire Wire Line
-	4350 1500 4350 1050
-Wire Wire Line
-	4100 1600 4350 1600
-Wire Wire Line
-	4350 1600 4350 1500
-Connection ~ 4350 1500
 Wire Wire Line
 	2450 1900 2400 1900
 Wire Wire Line
@@ -396,20 +375,6 @@ F 3 "" H 5400 5450 70  0001 C CNN
 $EndComp
 Text Notes 4750 5375 0    50   ~ 0
 Membrane Switch Connector
-$Comp
-L OpenVent:SP3522-01UTG D?
-U 1 1 600DF342
-P 6225 6150
-AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
-AR Path="/5F8F894A/600DF342" Ref="D2"  Part="1" 
-F 0 "D2" H 6125 6100 50  0000 R CNN
-F 1 "SP3522-01UTG" H 6350 6025 50  0000 R CNN
-F 2 "0603 diode" H 6275 6350 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6225 6150 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6225 5850 50  0001 C CNN "Detailed"
-	1    6225 6150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L OpenVent:SP3522-01UTG D?
 U 1 1 600DF349
@@ -493,8 +458,6 @@ F 3 "" H 7550 6350 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6225 6350 6225 6300
-Wire Wire Line
 	7075 6100 7075 6350
 Wire Wire Line
 	6650 6350 6650 6200
@@ -522,8 +485,6 @@ F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6650 5750 50  000
 	1    6650 6050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6225 6000 6300 6000
 Wire Wire Line
 	6750 5900 6650 5900
 Wire Wire Line
@@ -639,9 +600,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 6000 5550 6000
 Wire Wire Line
-	5750 6000 6225 6000
-Connection ~ 6225 6000
-Wire Wire Line
 	5400 5450 5400 5425
 Wire Wire Line
 	5400 5425 5250 5425
@@ -721,4 +679,58 @@ Wire Wire Line
 	8375 4775 8500 4775
 Wire Wire Line
 	8375 4875 8500 4875
+Connection ~ 6225 6000
+Wire Wire Line
+	5750 6000 6225 6000
+Wire Wire Line
+	6225 6000 6300 6000
+Wire Wire Line
+	6225 6350 6225 6300
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 600DF342
+P 6225 6150
+AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF342" Ref="D2"  Part="1" 
+F 0 "D2" H 6125 6100 50  0000 R CNN
+F 1 "SP3522-01UTG" H 6350 6025 50  0000 R CNN
+F 2 "0603 diode" H 6275 6350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 6225 6150 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 6225 5850 50  0001 C CNN "Detailed"
+	1    6225 6150
+	0    -1   -1   0   
+$EndComp
+Text Notes 4625 2300 0    50   ~ 0
+CHECK IF I2C\nNEEDS TO GO\nTO SPECIFIC\nFPGA PINS
+Text Notes 4625 1875 0    50   ~ 0
+CHECK I2C PULL-UP\nRESISTOR VALUES ONCE\nWHOLE I2C CIRCUIT\nIS CONFIRMED
+Text GLabel 6175 2300 0    50   Output ~ 0
+I2C_SCL
+Text GLabel 5400 2400 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 3700 1500 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 3700 1600 2    50   BiDi ~ 0
+I2C_SDA
+Wire Wire Line
+	6175 2300 6250 2300
+Wire Wire Line
+	5400 2400 5475 2400
+Connection ~ 5475 2400
+Wire Wire Line
+	5475 2400 7150 2400
+Connection ~ 6250 2300
+Wire Wire Line
+	6250 2300 7150 2300
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 602573F8
+P 6250 1900
+F 0 "#PWR?" H 6250 1750 50  0001 C CNN
+F 1 "3V3" H 6250 2073 50  0000 C CNN
+F 2 "" H 6250 1900 50  0001 C CNN
+F 3 "" H 6250 1900 50  0001 C CNN
+	1    6250 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
