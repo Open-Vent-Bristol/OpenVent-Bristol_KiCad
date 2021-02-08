@@ -41,17 +41,6 @@ VBATT-SCALED
 NoConn ~ 2375 2600
 Text GLabel 4750 3500 0    50   Input ~ 0
 MOTOR-CURRENT
-$Comp
-L OpenVent:GND #PWR01
-U 1 1 5F8DD176
-P 4575 1250
-F 0 "#PWR01" H 4575 1250 20  0001 C CNN
-F 1 "GND" H 4575 1180 50  0001 C CNN
-F 2 "" H 4575 1250 70  0001 C CNN
-F 3 "" H 4575 1250 70  0001 C CNN
-	1    4575 1250
-	1    0    0    -1  
-$EndComp
 Text Label 1800 5100 0    50   ~ 0
 ANALOG-SPARE
 $Comp
@@ -325,17 +314,6 @@ F 3 "" H 3575 7625 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:3V3 #3V3_04
-U 1 1 5F8DD15A
-P 4575 700
-F 0 "#3V3_04" H 4575 700 20  0001 C CNN
-F 1 "3V3" H 4575 850 50  0000 C CNN
-F 2 "" H 4575 700 70  0001 C CNN
-F 3 "" H 4575 700 70  0001 C CNN
-	1    4575 700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:+3V3-ALWAYS-ON #3V3-ALWAYS-ON_?
 U 1 1 5F8DD157
 P 3975 6325
@@ -385,12 +363,6 @@ Wire Wire Line
 	2875 2400 2375 2400
 Wire Wire Line
 	2875 2450 2875 2400
-Wire Wire Line
-	4575 1150 4575 1175
-Wire Wire Line
-	4575 850  4575 700 
-Wire Wire Line
-	5025 850  4575 850 
 Wire Wire Line
 	4975 6825 4325 6825
 Wire Wire Line
@@ -719,23 +691,6 @@ F 5 "600R" H 4175 6975 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:TMP236A4DBZT U1
-U 1 1 5F8DD13E
-P 5525 950
-F 0 "U1" H 5225 1200 50  0000 L BNN
-F 1 "TMP236A4DBZT" H 5525 700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5525 950 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftmp236" H 5525 950 50  0001 C CNN
-F 4 "Texas Instruments" H 5525 950 50  0001 C CNN "Mfr"
-F 5 "TMP236A4DBZT" H 5525 950 50  0001 C CNN "Mfr_PN"
-F 6 "SENSOR TEMPERATURE" H 5525 950 50  0001 C CNN "Desc"
-F 7 "Temperature Sensor Analog, Local -10°C ~ 125°C 19.5mV/°C SOT-23-3" H 5525 950 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 5525 950 50  0001 C CNN "DistName"
-F 9 "296-TMP236A4DBZTTR-ND" H 5525 950 50  0001 C CNN "Dist_PN"
-	1    5525 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R4
 U 1 1 5F8DD13C
 P 4400 4900
@@ -931,14 +886,6 @@ Wire Wire Line
 	6825 7025 6825 7475
 Connection ~ 1700 3700
 Wire Wire Line
-	3600 1450 3600 1800
-Wire Wire Line
-	3600 1800 4950 1800
-Wire Wire Line
-	6025 950  6175 950 
-Wire Wire Line
-	4975 1050 5025 1050
-Wire Wire Line
 	1700 3600 1700 3700
 Wire Wire Line
 	4700 5000 4950 5000
@@ -971,7 +918,6 @@ F 6 "0.1W" H 7300 3800 50  0001 C CNN "Watt"
 $EndComp
 Wire Wire Line
 	7000 850  7000 1200
-Connection ~ 4575 850 
 Wire Wire Line
 	1450 5300 1450 5350
 Wire Wire Line
@@ -1392,20 +1338,6 @@ F 3 "" H 1525 525 50  0001 C CNN
 	1    1825 1725
 	-1   0    0    -1  
 $EndComp
-$Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C2
-U 1 1 5F8DD13D
-P 4475 1050
-F 0 "C2" V 4625 800 50  0000 L BNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" V 4385 860 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4385 860 50  0001 C CNN
-F 3 "" H 4385 860 50  0001 C CNN
-F 4 "25V" V 3875 -2050 50  0001 C CNN "Voltage"
-F 5 "10%" H 4475 1050 50  0001 C CNN "Tolerance"
-F 6 "100nF" V 4425 750 50  0000 C CNN "Val"
-	1    4475 1050
-	0    -1   -1   0   
-$EndComp
 Text Notes 1550 600  2    50   ~ 0
 SWD Connector
 Text Label 2475 1525 2    50   ~ 0
@@ -1460,21 +1392,6 @@ Mini USB Connector
 Connection ~ 3975 6325
 Wire Wire Line
 	3975 6325 3975 6425
-Wire Wire Line
-	4975 1450 4975 1275
-Wire Wire Line
-	4975 1275 6175 1275
-Wire Wire Line
-	6175 1275 6175 950 
-Wire Wire Line
-	3600 1450 4975 1450
-Wire Wire Line
-	4575 1175 4975 1175
-Connection ~ 4575 1175
-Wire Wire Line
-	4575 1175 4575 1250
-Wire Wire Line
-	4975 1175 4975 1050
 $Comp
 L OpenVent:+3V3-ALWAYS-ON #3V3-ALWAYS-ON_?
 U 1 1 605CE739
