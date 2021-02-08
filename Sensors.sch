@@ -143,7 +143,7 @@ F 3 "" H 4250 5200 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 650  1550 0    60   ~ 0
-Alternative Flow Sensor Connector
+Molex connector for external\nSFM3020 flow sensor
 $Comp
 L OpenVent:GND #GND_031
 U 1 1 5F8DD0B5
@@ -181,7 +181,7 @@ F 3 "" H 4500 2900 70  0000 C CNN
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1600 2150
+NoConn ~ 1475 1950
 Wire Wire Line
 	8550 2575 8550 3075
 Wire Wire Line
@@ -257,17 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 3650 2750 3750
 Wire Wire Line
-	2150 3650 2750 3650
-Wire Wire Line
-	1800 3650 2150 3650
-Wire Wire Line
 	3500 3350 3700 3350
-Wire Wire Line
-	1800 3350 2300 3350
-Wire Wire Line
-	2000 3050 2550 3050
-Wire Wire Line
-	1800 3050 2000 3050
 Wire Wire Line
 	3350 4350 3350 4450
 Wire Wire Line
@@ -326,21 +316,6 @@ Wire Wire Line
 	5700 2050 5400 2050
 Wire Wire Line
 	5800 2050 5700 2050
-Wire Wire Line
-	2300 1850 1600 1850
-Wire Wire Line
-	2300 3350 2300 1850
-Wire Wire Line
-	2150 1950 1600 1950
-Wire Wire Line
-	2150 3650 2150 1950
-Wire Wire Line
-	2000 2050 1600 2050
-Wire Wire Line
-	2000 3050 2000 2050
-Connection ~ 2000 3050
-Connection ~ 2150 3650
-Connection ~ 2300 3350
 Connection ~ 2550 2750
 Connection ~ 2750 4950
 Connection ~ 2750 3650
@@ -513,19 +488,6 @@ F 6 "0.1W" H 4150 5100 50  0001 C CNN "Watt"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:CONN_HEADER_SMD_4POS_2MM CN4
-U 1 1 5F8DD0A1
-P 1600 2150
-F 0 "CN4" H 2050 2600 50  0000 L BNN
-F 1 "CONN_HEADER_SMD_4POS_2MM" H 1600 2150 50  0001 C CNN
-F 2 "" H 1600 2150 50  0001 C CNN
-F 3 "" H 1600 2150 50  0001 C CNN
-F 4 "Molex" H 1600 2150 50  0001 C CNN "Mfr"
-F 5 "5600200420" H 1600 2150 50  0001 C CNN "Mfr_PN"
-	1    1600 2150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C32
 U 1 1 5F8DD0A0
 P 5050 900
@@ -605,8 +567,6 @@ Wire Wire Line
 	2750 2750 3150 2750
 Wire Wire Line
 	1800 4650 2950 4650
-Wire Wire Line
-	2300 3350 2950 3350
 $Comp
 L OpenVent:TLV2333IDR U12
 U 2 1 5FCC391E
@@ -1008,125 +968,6 @@ Wire Wire Line
 Connection ~ 2750 5050
 Connection ~ 2750 5750
 $Comp
-L OpenVent:+5V #5V_010
-U 1 1 5FFC79F0
-P 1250 7000
-F 0 "#5V_010" H 1250 7000 20  0001 C CNN
-F 1 "+5V" H 1250 7150 50  0000 C CNN
-F 2 "" H 1250 7000 70  0000 C CNN
-F 3 "" H 1250 7000 70  0000 C CNN
-	1    1250 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 7125 1250 7000
-$Comp
-L OpenVent:GND #GND_030
-U 1 1 5FFDC913
-P 1250 7375
-F 0 "#GND_030" H 1250 7375 20  0001 C CNN
-F 1 "GND" H 1250 7305 50  0001 C CNN
-F 2 "" H 1250 7375 70  0000 C CNN
-F 3 "" H 1250 7375 70  0000 C CNN
-	1    1250 7375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 7375 1250 7225
-Text GLabel 4475 7125 2    60   Output ~ 0
-SENSIRON-FLOW-SENSOR
-$Comp
-L OpenVent:1nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C67
-U 1 1 5FFEE081
-P 3050 7250
-F 0 "C67" V 3054 7260 50  0000 L CNN
-F 1 "1nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 2525 7475 50  0001 C CNN
-F 2 "" H 3050 7250 50  0001 C CNN
-F 3 "" H 3050 7250 50  0001 C CNN
-F 4 "1nF" V 3145 7260 50  0000 L CNN "Val"
-F 5 "25V" H 2825 6925 50  0001 C CNN "Voltage"
-F 6 "10%" H 3125 6850 50  0001 C CNN "Tolerance"
-	1    3050 7250
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:200k_0603_Chip_Resistor,_0.1%,_0.1W R34
-U 1 1 5FFF309C
-P 4150 7500
-F 0 "R34" V 4300 7150 50  0000 L BNN
-F 1 "200k_0603_Chip_Resistor,_0.1%,_0.1W" V 4150 7350 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 7360 50  0001 C CNN
-F 3 "" H 4050 7360 50  0001 C CNN
-F 4 "0.1%" V 4100 7200 50  0000 C CNN "Tolerance"
-F 5 "200k" V 4200 7200 50  0000 C CNN "Val"
-F 6 "0.1W" H 4150 7500 50  0001 C CNN "Watt"
-	1    4150 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R31
-U 1 1 5FFF367C
-P 3800 7025
-F 0 "R31" H 3800 6975 50  0000 L BNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3800 6775 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 6685 50  0001 C CNN
-F 3 "" H 3800 6685 50  0001 C CNN
-F 4 "1%" V 1400 -475 50  0001 C CNN "Tolerance"
-F 5 "100k" H 3900 6825 50  0000 C CNN "Val"
-F 6 "0.1W" H 3800 7025 50  0001 C CNN "Watt"
-	1    3800 7025
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_045
-U 1 1 5FFF4998
-P 2950 7575
-F 0 "#GND_045" H 2950 7575 20  0001 C CNN
-F 1 "GND" H 2950 7505 50  0001 C CNN
-F 2 "" H 2950 7575 70  0000 C CNN
-F 3 "" H 2950 7575 70  0000 C CNN
-	1    2950 7575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 7575 2950 7450
-Wire Wire Line
-	2950 7125 2950 7150
-Wire Wire Line
-	2950 7125 3700 7125
-$Comp
-L OpenVent:GND #GND_047
-U 1 1 60007151
-P 4250 7600
-F 0 "#GND_047" H 4250 7600 20  0001 C CNN
-F 1 "GND" H 4250 7530 50  0001 C CNN
-F 2 "" H 4250 7600 70  0000 C CNN
-F 3 "" H 4250 7600 70  0000 C CNN
-	1    4250 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 7200 4250 7125
-Wire Wire Line
-	4250 7125 4100 7125
-Wire Wire Line
-	4250 7125 4475 7125
-Connection ~ 4250 7125
-$Comp
-L OpenVent:SFM3020 U16
-U 1 1 5FFDAFCB
-P 1350 7125
-F 0 "U16" H 1610 7360 50  0000 C CNN
-F 1 "SFM3020" H 1610 7269 50  0000 C CNN
-F 2 "" H 1350 7125 50  0001 C CNN
-F 3 "" H 1350 7125 50  0001 C CNN
-	1    1350 7125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1970 7125 2950 7125
-Connection ~ 2950 7125
-$Comp
 L OpenVent:LPS25HB U7
 U 1 1 5FFAE568
 P 8550 4475
@@ -1265,4 +1106,44 @@ Wire Wire Line
 	7650 5950 7725 5950
 Text Notes 6900 5400 0    50   ~ 0
 MOLEX connector for external\nSFM3019 Flow Sensor
+$Comp
+L OpenVent:502351-0400 CN4
+U 1 1 602C9734
+P 1250 1625
+F 0 "CN4" H 1295 1640 50  0000 C CNN
+F 1 "502351-0400" H 1295 1549 50  0000 C CNN
+F 2 "" H 1250 1625 50  0001 C CNN
+F 3 "" H 1250 1625 50  0001 C CNN
+	1    1250 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3650 1875 3650
+Wire Wire Line
+	1800 3050 2325 3050
+Wire Wire Line
+	1800 3350 2075 3350
+Wire Wire Line
+	2325 3050 2325 1850
+Wire Wire Line
+	2325 1850 1475 1850
+Connection ~ 2325 3050
+Wire Wire Line
+	2325 3050 2550 3050
+Wire Wire Line
+	2075 3350 2075 2050
+Wire Wire Line
+	2075 2050 1475 2050
+Connection ~ 2075 3350
+Wire Wire Line
+	2075 3350 2950 3350
+Wire Wire Line
+	1475 2150 1875 2150
+Wire Wire Line
+	1875 2150 1875 3650
+Connection ~ 1875 3650
+Wire Wire Line
+	1875 3650 2750 3650
+Text Notes 625  1150 0    60   ~ 0
+NB Molex connector is into external connector,\nshould same molex connector be used on the PCB,\nor deliberately use a different one so cable can't be\nplugged in wrong way around? LM 08/02/21
 $EndSCHEMATC
