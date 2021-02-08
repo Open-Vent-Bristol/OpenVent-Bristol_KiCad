@@ -1214,4 +1214,55 @@ Connection ~ 9625 4875
 Wire Wire Line
 	9625 4775 9625 4675
 Connection ~ 9625 4775
+$Comp
+L OpenVent:502351-0400 CN?
+U 1 1 6027899F
+P 7425 5525
+F 0 "CN?" H 7470 5540 50  0000 C CNN
+F 1 "502351-0400" H 7470 5449 50  0000 C CNN
+F 2 "" H 7425 5525 50  0001 C CNN
+F 3 "" H 7425 5525 50  0001 C CNN
+	1    7425 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+3V3_Sensors #PWR?
+U 1 1 6027FA4F
+P 8025 5675
+F 0 "#PWR?" H 8025 5525 50  0001 C CNN
+F 1 "+3V3_Sensors" H 8025 5848 50  0000 C CNN
+F 2 "" H 8025 5675 50  0001 C CNN
+F 3 "" H 8025 5675 50  0001 C CNN
+	1    8025 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6028A518
+P 8000 6125
+F 0 "#PWR?" H 8000 5875 50  0001 C CNN
+F 1 "GND" H 8000 5975 50  0001 C CNN
+F 2 "" H 8000 6125 50  0001 C CNN
+F 3 "" H 8000 6125 50  0001 C CNN
+	1    8000 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6050 8000 6050
+Wire Wire Line
+	8000 6050 8000 6125
+Wire Wire Line
+	7650 5750 8025 5750
+Wire Wire Line
+	8025 5750 8025 5675
+Text GLabel 7725 5850 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 7725 5950 2    50   BiDi ~ 0
+I2C_SDA
+Wire Wire Line
+	7650 5850 7725 5850
+Wire Wire Line
+	7650 5950 7725 5950
+Text Notes 6900 5400 0    50   ~ 0
+MOLEX connector for external\nSFM3019 Flow Sensor
 $EndSCHEMATC
