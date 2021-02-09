@@ -17,18 +17,20 @@ Text GLabel 1950 1700 0    50   Input ~ 0
 VBATT-SCALED
 Text GLabel 6600 1325 0    50   Output ~ 0
 nPRESSURE-PATIENT-ALERT
-Text GLabel 7075 4675 0    50   Output ~ 0
+Text GLabel 7100 4700 0    50   Output ~ 0
 Sounder_DRV
-Text GLabel 7075 4775 0    50   Output ~ 0
+Text GLabel 7100 4800 0    50   Output ~ 0
 LED_SERIAL_DRV
 Text GLabel 1950 1600 0    50   Input ~ 0
 OXYGEN-SENSOR
 Text GLabel 1950 1500 0    50   Input ~ 0
 PRESSURE-PATIENT-SENSOR
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 6 1 5FCFFCE4
 P 2250 4250
+AR Path="/5FCFFCE4" Ref="U8"  Part="6" 
+AR Path="/5F8F894A/5FCFFCE4" Ref="U8"  Part="6" 
 F 0 "U8" H 3225 5098 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 3225 5007 50  0000 C CNN
 F 2 "" H 2500 6150 50  0001 C CNN
@@ -37,47 +39,53 @@ F 3 "" H 2500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 4 1 5FD034FE
-P 1275 7125
-F 0 "U8" H 2000 7673 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 2000 7582 50  0000 C CNN
-F 2 "" H 1525 9025 50  0001 C CNN
-F 3 "" H 1525 9025 50  0001 C CNN
-	4    1275 7125
+P 1350 7200
+AR Path="/5FD034FE" Ref="U8"  Part="4" 
+AR Path="/5F8F894A/5FD034FE" Ref="U8"  Part="4" 
+F 0 "U8" H 2075 7748 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 2075 7657 50  0000 C CNN
+F 2 "" H 1600 9100 50  0001 C CNN
+F 3 "" H 1600 9100 50  0001 C CNN
+	4    1350 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 3 1 5FD06654
-P 4400 7225
-F 0 "U8" H 5400 7790 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 5400 7699 50  0000 C CNN
-F 2 "" H 4650 9125 50  0001 C CNN
-F 3 "" H 4650 9125 50  0001 C CNN
-	3    4400 7225
+P 4500 7300
+AR Path="/5FD06654" Ref="U8"  Part="3" 
+AR Path="/5F8F894A/5FD06654" Ref="U8"  Part="3" 
+F 0 "U8" H 5500 7865 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 5500 7774 50  0000 C CNN
+F 2 "" H 4750 9200 50  0001 C CNN
+F 3 "" H 4750 9200 50  0001 C CNN
+	3    4500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 7 1 5FD0C15E
-P 7275 4775
-F 0 "U8" H 7825 6023 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 7825 5932 50  0000 C CNN
-F 2 "" H 7525 6675 50  0001 C CNN
-F 3 "" H 7525 6675 50  0001 C CNN
-	7    7275 4775
+P 7300 4800
+AR Path="/5FD0C15E" Ref="U8"  Part="7" 
+AR Path="/5F8F894A/5FD0C15E" Ref="U8"  Part="7" 
+F 0 "U8" H 7850 6048 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7850 5957 50  0000 C CNN
+F 2 "" H 7550 6700 50  0001 C CNN
+F 3 "" H 7550 6700 50  0001 C CNN
+	7    7300 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:SiT8008B U14
 U 1 1 5FD185A9
-P 9325 1775
-F 0 "U14" H 9725 2040 50  0000 C CNN
-F 1 "SiT8008B" H 9725 1949 50  0000 C CNN
-F 2 "" H 9375 2025 50  0001 C CNN
-F 3 "" H 9375 2025 50  0001 C CNN
-	1    9325 1775
+P 9350 1800
+F 0 "U14" H 9750 2065 50  0000 C CNN
+F 1 "SiT8008B" H 9750 1974 50  0000 C CNN
+F 2 "" H 9400 2050 50  0001 C CNN
+F 3 "" H 9400 2050 50  0001 C CNN
+	1    9350 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -94,39 +102,25 @@ F 5 "IC ADC VSSOP-10" H 2850 350 50  0001 C CNN "Desc"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C23
-U 1 1 5FD1CC3D
-P 10525 1825
-F 0 "C23" V 10529 1835 50  0000 L CNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10525 1825 50  0001 C CNN
-F 2 "" H 10525 1825 50  0001 C CNN
-F 3 "" H 10525 1825 50  0001 C CNN
-F 4 "100nF" V 10620 1835 50  0000 L CNN "Val"
-F 5 "25V" H 10525 1825 50  0001 C CNN "Voltage"
-F 6 "10%" H 10525 1825 50  0001 C CNN "Tolerance"
-	1    10525 1825
-	0    1    1    0   
-$EndComp
-$Comp
 L OpenVent:3V3 #PWR034
 U 1 1 5FD203F5
-P 10425 1350
-F 0 "#PWR034" H 10425 1200 50  0001 C CNN
-F 1 "3V3" H 10425 1523 50  0000 C CNN
-F 2 "" H 10425 1350 50  0001 C CNN
-F 3 "" H 10425 1350 50  0001 C CNN
-	1    10425 1350
+P 10500 1600
+F 0 "#PWR034" H 10500 1450 50  0001 C CNN
+F 1 "3V3" H 10500 1773 50  0000 C CNN
+F 2 "" H 10500 1600 50  0001 C CNN
+F 3 "" H 10500 1600 50  0001 C CNN
+	1    10500 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:GND #PWR035
 U 1 1 5FD20966
-P 10425 2125
-F 0 "#PWR035" H 10425 1875 50  0001 C CNN
-F 1 "GND" H 10425 1975 50  0001 C CNN
-F 2 "" H 10425 2125 50  0001 C CNN
-F 3 "" H 10425 2125 50  0001 C CNN
-	1    10425 2125
+P 10500 2100
+F 0 "#PWR035" H 10500 1850 50  0001 C CNN
+F 1 "GND" H 10500 1950 50  0001 C CNN
+F 2 "" H 10500 2100 50  0001 C CNN
+F 3 "" H 10500 2100 50  0001 C CNN
+	1    10500 2100
 	1    0    0    -1  
 $EndComp
 Text Notes 725  3950 1    50   ~ 0
@@ -199,11 +193,8 @@ F 3 "" H 1700 3450 50  0001 C CNN
 $EndComp
 Text Label 1950 1400 0    50   ~ 0
 ADC_DRDY
-<<<<<<< Updated upstream
 Text Label 6400 2200 0    50   ~ 0
 ADC_DRDY
-=======
-<<<<<<< HEAD
 Text Label 3350 1500 0    50   ~ 0
 I2C_SCL
 Text Label 3350 1600 0    50   ~ 0
@@ -214,11 +205,8 @@ Text Label 6300 2125 0    50   ~ 0
 I2C_SCL
 Text Label 6300 2225 0    50   ~ 0
 I2C_SDA
-=======
 Text Label 6400 2200 0    50   ~ 0
 ADC_DRDY
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
->>>>>>> Stashed changes
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
 U 1 1 5FD4D09C
@@ -259,69 +247,24 @@ F 3 "" H 5475 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 5 1 5FE312A6
-P 7050 2225
-F 0 "U8" H 7775 3773 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 7775 3682 50  0000 C CNN
-F 2 "" H 7300 4125 50  0001 C CNN
-F 3 "" H 7300 4125 50  0001 C CNN
-	5    7050 2225
+P 7000 2250
+AR Path="/5FE312A6" Ref="U8"  Part="5" 
+AR Path="/5F8F894A/5FE312A6" Ref="U8"  Part="5" 
+F 0 "U8" H 7725 3798 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7725 3707 50  0000 C CNN
+F 2 "" H 7250 4150 50  0001 C CNN
+F 3 "" H 7250 4150 50  0001 C CNN
+	5    7000 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 1325 7050 1325
-Wire Wire Line
-	7050 1425 6600 1425
-Wire Wire Line
-	6600 1525 7050 1525
-Wire Wire Line
-	7050 1625 6600 1625
-Wire Wire Line
-	6600 1725 7050 1725
-Wire Wire Line
-	7050 2025 6300 2025
-Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	7050 2125 6300 2125
-Wire Wire Line
-	6300 2225 7050 2225
-Wire Wire Line
-	10425 1675 10325 1675
-=======
->>>>>>> Stashed changes
-	10525 1850 10425 1850
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
-Wire Wire Line
-	10325 1675 10325 1775
-Wire Wire Line
-	10325 1775 10225 1775
-Connection ~ 10425 1675
-Wire Wire Line
-	10425 1675 10425 1725
-Wire Wire Line
-	10425 2025 10425 2075
-Wire Wire Line
-	10425 2075 10325 2075
-Wire Wire Line
-	10325 2075 10325 1925
-Wire Wire Line
-	10325 1925 10225 1925
-Connection ~ 10425 2075
-Wire Wire Line
-	10425 2075 10425 2125
 Wire Wire Line
 	1700 3450 1250 3450
 Wire Wire Line
 	1250 3750 2250 3750
 Wire Wire Line
 	1250 3850 2250 3850
-Wire Wire Line
-	7275 4675 7075 4675
-Wire Wire Line
-	7275 4775 7075 4775
 Wire Wire Line
 	2450 1400 1950 1400
 Wire Wire Line
@@ -346,35 +289,31 @@ Wire Wire Line
 	2450 1900 2400 1900
 Wire Wire Line
 	2400 1900 2400 1950
-Wire Wire Line
-	8500 1925 9225 1925
 $Comp
 L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R41
 U 1 1 5FE91BCD
-P 9325 1475
-F 0 "R41" V 9379 1445 50  0000 L CNN
-F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 9325 1475 50  0001 C CNN
-F 2 "" H 9325 1475 50  0001 C CNN
-F 3 "" H 9325 1475 50  0001 C CNN
-F 4 "10k" V 9470 1445 50  0000 L CNN "Val"
-F 5 "1%" H 9325 1475 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9325 1475 50  0001 C CNN "Watt"
-	1    9325 1475
+P 9300 1450
+F 0 "R41" V 9354 1420 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 9300 1450 50  0001 C CNN
+F 2 "" H 9300 1450 50  0001 C CNN
+F 3 "" H 9300 1450 50  0001 C CNN
+F 4 "10k" V 9445 1420 50  0000 L CNN "Val"
+F 5 "1%" H 9300 1450 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9300 1450 50  0001 C CNN "Watt"
+	1    9300 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L OpenVent:3V3 #PWR033
 U 1 1 5FE92C86
-P 9225 1375
-F 0 "#PWR033" H 9225 1225 50  0001 C CNN
-F 1 "3V3" H 9225 1548 50  0000 C CNN
-F 2 "" H 9225 1375 50  0001 C CNN
-F 3 "" H 9225 1375 50  0001 C CNN
-	1    9225 1375
+P 9200 1300
+F 0 "#PWR033" H 9200 1150 50  0001 C CNN
+F 1 "3V3" H 9200 1473 50  0000 C CNN
+F 2 "" H 9200 1300 50  0001 C CNN
+F 3 "" H 9200 1300 50  0001 C CNN
+	1    9200 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10425 1350 10425 1675
 Text Notes 2125 3100 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
 Text GLabel 3600 3175 2    60   Output ~ 0
@@ -406,13 +345,11 @@ Text Notes 1725 4625 0    50   ~ 0
 Membrane Switch Connector
 $Comp
 L OpenVent:SP3522-01UTG D?
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-U 1 1 600DF342
+U 1 1 00000000
 P 3200 5400
 AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
 AR Path="/5F8F894A/600DF342" Ref="D2"  Part="1" 
+AR Path="/5F8F894A/00000000" Ref="D2"  Part="1" 
 F 0 "D2" H 3100 5350 50  0000 R CNN
 F 1 "SP3522-01UTG" H 3325 5275 50  0000 R CNN
 F 2 "0603 diode" H 3250 5600 50  0001 C CNN
@@ -423,13 +360,11 @@ F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3200 5100 50  000
 $EndComp
 $Comp
 L OpenVent:SP3522-01UTG D?
-=======
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
->>>>>>> Stashed changes
-U 1 1 600DF349
+U 1 1 00000000
 P 4050 5200
 AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
 AR Path="/5F8F894A/600DF349" Ref="D16"  Part="1" 
+AR Path="/5F8F894A/00000000" Ref="D16"  Part="1" 
 F 0 "D16" H 3950 5150 50  0000 R CNN
 F 1 "SP3522-01UTG" H 4175 5075 50  0000 R CNN
 F 2 "0603 diode" H 4100 5400 50  0001 C CNN
@@ -507,16 +442,7 @@ F 3 "" H 4525 5600 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	3200 5600 3200 5550
-Wire Wire Line
 	4050 5350 4050 5600
-=======
->>>>>>> Stashed changes
-	7075 6100 7075 6350
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
 Wire Wire Line
 	3625 5600 3625 5450
 Wire Wire Line
@@ -544,16 +470,7 @@ F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3625 5000 50  000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	3200 5250 3275 5250
-Wire Wire Line
 	3725 5150 3625 5150
-=======
->>>>>>> Stashed changes
-	6750 5900 6650 5900
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
 Wire Wire Line
 	4050 5050 4175 5050
 $Comp
@@ -667,17 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 5250 2525 5250
 Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	2725 5250 3200 5250
-Connection ~ 3200 5250
-Wire Wire Line
 	2375 4700 2375 4675
-=======
->>>>>>> Stashed changes
-	5400 5450 5400 5425
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
 Wire Wire Line
 	2375 4675 2225 4675
 Wire Wire Line
@@ -712,53 +619,28 @@ Text GLabel 6000 4200 0    50   Input ~ 0
 Vcap_E
 Text GLabel 6000 4300 0    50   Input ~ 0
 Vcap_F
-Text GLabel 8500 4275 2    50   Output ~ 0
+Text GLabel 8650 4300 2    50   Output ~ 0
 LCD_RS
-Text GLabel 8500 4175 2    50   BiDi ~ 0
+Text GLabel 8650 4200 2    50   BiDi ~ 0
 LCD_RW
-Text GLabel 8500 4075 2    50   Output ~ 0
+Text GLabel 8650 4100 2    50   Output ~ 0
 LCD_ENABLE
-Text GLabel 8500 3975 2    50   BiDi ~ 0
+Text GLabel 8650 4000 2    50   BiDi ~ 0
 LCD_DB0
-Text GLabel 8500 3875 2    50   BiDi ~ 0
+Text GLabel 8650 3900 2    50   BiDi ~ 0
 LCD_DB1
-Text GLabel 8500 4475 2    50   BiDi ~ 0
+Text GLabel 8650 4500 2    50   BiDi ~ 0
 LCD_DB3
-Text GLabel 8500 4375 2    50   BiDi ~ 0
+Text GLabel 8650 4400 2    50   BiDi ~ 0
 LCD_DB2
-Text GLabel 8500 4675 2    50   BiDi ~ 0
+Text GLabel 8650 4700 2    50   BiDi ~ 0
 LCD_DB5
-Text GLabel 8500 4575 2    50   BiDi ~ 0
+Text GLabel 8650 4600 2    50   BiDi ~ 0
 LCD_DB4
-Text GLabel 8500 4875 2    50   BiDi ~ 0
+Text GLabel 8650 4900 2    50   BiDi ~ 0
 LCD_DB7
-Text GLabel 8500 4775 2    50   BiDi ~ 0
+Text GLabel 8650 4800 2    50   BiDi ~ 0
 LCD_DB6
-Wire Wire Line
-	8375 3875 8500 3875
-Wire Wire Line
-	8375 3975 8500 3975
-Wire Wire Line
-	8375 4075 8500 4075
-Wire Wire Line
-	8375 4175 8500 4175
-Wire Wire Line
-	8375 4275 8500 4275
-Wire Wire Line
-	8375 4475 8500 4475
-Wire Wire Line
-	8375 4375 8500 4375
-Wire Wire Line
-	8375 4575 8500 4575
-Wire Wire Line
-	8375 4675 8500 4675
-Wire Wire Line
-	8375 4775 8500 4775
-Wire Wire Line
-	8375 4875 8500 4875
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 Wire Notes Line
 	5250 5525 11000 5525
 Wire Notes Line
@@ -785,8 +667,6 @@ Wire Notes Line
 	5250 500  11000 500 
 Wire Notes Line
 	500  7750 500  2750
-=======
->>>>>>> Stashed changes
 Connection ~ 6225 6000
 Wire Wire Line
 	5750 6000 6225 6000
@@ -824,12 +704,6 @@ Wire Wire Line
 	6175 2300 6250 2300
 Wire Wire Line
 	5400 2400 5475 2400
-Connection ~ 5475 2400
-Wire Wire Line
-	5475 2400 7150 2400
-Connection ~ 6250 2300
-Wire Wire Line
-	6250 2300 7150 2300
 $Comp
 L OpenVent:3V3 #PWR?
 U 1 1 602573F8
@@ -841,8 +715,74 @@ F 3 "" H 6250 1900 50  0001 C CNN
 	1    6250 1900
 	1    0    0    -1  
 $EndComp
-<<<<<<< Updated upstream
-=======
->>>>>>> 8bb7d2ffe69615a2eb73b0500618f876cf1efcc2
->>>>>>> Stashed changes
+Wire Wire Line
+	8650 3900 8400 3900
+Wire Wire Line
+	8400 4000 8650 4000
+Wire Wire Line
+	8650 4100 8400 4100
+Wire Wire Line
+	8400 4200 8650 4200
+Wire Wire Line
+	8650 4300 8400 4300
+Wire Wire Line
+	8400 4400 8650 4400
+Wire Wire Line
+	8650 4500 8400 4500
+Wire Wire Line
+	8400 4600 8650 4600
+Wire Wire Line
+	8650 4700 8400 4700
+Wire Wire Line
+	8400 4800 8650 4800
+Wire Wire Line
+	8650 4900 8400 4900
+Wire Wire Line
+	7300 4700 7100 4700
+Wire Wire Line
+	7100 4800 7300 4800
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C23
+U 1 1 5FD1CC3D
+P 10600 1800
+F 0 "C23" V 10604 1810 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10600 1800 50  0001 C CNN
+F 2 "" H 10600 1800 50  0001 C CNN
+F 3 "" H 10600 1800 50  0001 C CNN
+F 4 "100nF" V 10695 1810 50  0000 L CNN "Val"
+F 5 "25V" H 10600 1800 50  0001 C CNN "Voltage"
+F 6 "10%" H 10600 1800 50  0001 C CNN "Tolerance"
+	1    10600 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 1950 9250 1950
+Wire Wire Line
+	9250 1800 9200 1800
+Wire Wire Line
+	9200 1800 9200 1750
+Wire Wire Line
+	9200 1300 9200 1350
+Wire Wire Line
+	10500 1600 10500 1650
+Wire Wire Line
+	10500 1650 10350 1650
+Wire Wire Line
+	10350 1650 10350 1800
+Wire Wire Line
+	10350 1800 10250 1800
+Connection ~ 10500 1650
+Wire Wire Line
+	10500 1650 10500 1700
+Wire Wire Line
+	10250 1950 10350 1950
+Wire Wire Line
+	10350 1950 10350 2050
+Wire Wire Line
+	10350 2050 10500 2050
+Wire Wire Line
+	10500 2050 10500 2100
+Wire Wire Line
+	10500 2000 10500 2050
+Connection ~ 10500 2050
 $EndSCHEMATC

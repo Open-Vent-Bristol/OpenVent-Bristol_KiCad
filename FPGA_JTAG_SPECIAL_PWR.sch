@@ -59,13 +59,14 @@ F 6 "0.1W" H 1500 6400 50  0001 C CNN "Watt"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:GW1N-9LQ100 U?
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U?
 U 1 1 5FCF4A75
 P 3725 2825
 AR Path="/5F8F894A/5FCF4A75" Ref="U?"  Part="1" 
 AR Path="/5FB6918A/5FCF4A75" Ref="U?"  Part="1" 
 AR Path="/5FB692C4/5FCF4A75" Ref="U900"  Part="1" 
 AR Path="/5FBE8499/5FCF4A75" Ref="U8"  Part="1" 
+AR Path="/5FCF4A75" Ref="U8"  Part="1" 
 F 0 "U8" H 4350 4240 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 4350 4149 50  0000 C CNN
 F 2 "" H 3975 4725 50  0001 C CNN
@@ -208,12 +209,13 @@ TDI_F
 Text GLabel 1100 5950 0    50   Output ~ 0
 TDO_F
 $Comp
-L OpenVent:GW1N-9LQ100 U?
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U?
 U 2 1 5FB7C2DC
 P 1900 6050
 AR Path="/5F8F894A/5FB7C2DC" Ref="U?"  Part="2" 
 AR Path="/5FB692C4/5FB7C2DC" Ref="U900"  Part="2" 
 AR Path="/5FBE8499/5FB7C2DC" Ref="U8"  Part="2" 
+AR Path="/5FB7C2DC" Ref="U8"  Part="2" 
 F 0 "U8" H 2825 6715 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 2825 6624 50  0000 C CNN
 F 2 "" H 2150 7950 50  0001 C CNN
