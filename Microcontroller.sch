@@ -112,28 +112,6 @@ Text GLabel 4800 4700 0    50   Input ~ 0
 nSTAT1
 Text GLabel 6550 3100 2    50   Output ~ 0
 CE-CONTROL
-$Comp
-L OpenVent:+5V #5V_04
-U 1 1 5F8DD16D
-P 8600 850
-F 0 "#5V_04" H 8600 850 20  0001 C CNN
-F 1 "+5V" H 8600 1000 50  0000 C CNN
-F 2 "" H 8600 850 70  0001 C CNN
-F 3 "" H 8600 850 70  0001 C CNN
-	1    8600 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:3V3 #3V3_05
-U 1 1 5F8DD16C
-P 7000 850
-F 0 "#3V3_05" H 7000 850 20  0001 C CNN
-F 1 "3V3" H 7000 1000 50  0000 C CNN
-F 2 "" H 7000 850 70  0001 C CNN
-F 3 "" H 7000 850 70  0001 C CNN
-	1    7000 850 
-	1    0    0    -1  
-$EndComp
 Text GLabel 4750 3400 0    50   Input ~ 0
 SOUNDER-CURRENT
 Text Label 3850 1900 0    50   ~ 0
@@ -146,17 +124,6 @@ Text Label 6500 2700 0    50   ~ 0
 SW-3
 Text Label 6500 2800 0    50   ~ 0
 SW-4
-$Comp
-L OpenVent:GND #GND_014
-U 1 1 5F8DD16A
-P 7000 2500
-F 0 "#GND_014" H 7000 2500 20  0001 C CNN
-F 1 "GND" H 7000 2430 50  0001 C CNN
-F 2 "" H 7000 2500 70  0001 C CNN
-F 3 "" H 7000 2500 70  0001 C CNN
-	1    7000 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:GND #PWR02
 U 1 1 5F8DD168
@@ -414,8 +381,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 3500 8450 3600
 Wire Wire Line
-	8600 1200 8600 850 
-Wire Wire Line
 	7400 3900 7400 4100
 Wire Wire Line
 	7400 4100 8000 4100
@@ -578,23 +543,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2375 2900 50 
 F 3 "" H 2375 2900 50  0001 C CNN
 	1    2375 2900
 	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:TI_TXB0108PWR U3
-U 1 1 5F8DD149
-P 7100 2500
-F 0 "U3" H 7300 3950 50  0000 L BNN
-F 1 "TI_TXB0108PWR" H 6600 1700 50  0001 L BNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6600 1700 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108" H 6600 1700 50  0001 C CNN
-F 4 "Texas Instruments" H 7100 2500 50  0001 C CNN "Mfr"
-F 5 "TXB0108PWR" H 7800 2350 50  0000 C CNN "Mfr_PN"
-F 6 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 7100 2500 50  0001 C CNN "Desc"
-F 7 "Voltage Level Translator Bidirectional 1 Circuit 8 Channel 100Mbps 20-TSSOP" H 7100 2500 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 7100 2500 50  0001 C CNN "DistName"
-F 9 "296-21527-2-ND" H 7100 2500 50  0001 C CNN "Dist_PN"
-	1    7100 2500
-	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C10
@@ -917,8 +865,6 @@ F 6 "0.1W" H 7300 3800 50  0001 C CNN "Watt"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7000 850  7000 1200
-Wire Wire Line
 	1450 5300 1450 5350
 Wire Wire Line
 	1450 5300 1450 5200
@@ -957,33 +903,6 @@ F 9 "STM32L412R8T6" H 4975 7025 50  0001 C CNN "Mfr_PN"
 	2    4975 7025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 1200 7000 1200
-Connection ~ 7000 1200
-Wire Wire Line
-	7000 1200 7000 1400
-Wire Wire Line
-	7100 1400 7000 1400
-Wire Wire Line
-	6350 1600 7100 1600
-Wire Wire Line
-	6350 1700 7100 1700
-Wire Wire Line
-	6350 1800 7100 1800
-Wire Wire Line
-	6350 1900 7100 1900
-Wire Wire Line
-	6350 2000 7100 2000
-Wire Wire Line
-	6350 2100 7100 2100
-Wire Wire Line
-	6350 2200 7100 2200
-Wire Wire Line
-	6350 2300 7100 2300
-Wire Wire Line
-	7100 2500 7000 2500
-Wire Wire Line
-	8600 1200 8500 1200
 Text Notes 8900 5800 0    50   ~ 0
 These appear to be placeholders of some sort. ????
 $Comp
@@ -1355,8 +1274,6 @@ F 3 "" H 575 1925 70  0000 C CNN
 	1    575  1925
 	-1   0    0    -1  
 $EndComp
-Text Label 3250 1125 2    50   ~ 0
-SWD-DIO
 Wire Wire Line
 	3075 2600 3075 2800
 Wire Wire Line
@@ -1648,4 +1565,6 @@ Wire Wire Line
 	1425 6950 1425 6700
 Wire Wire Line
 	1425 6025 1425 6700
+Text Label 3250 1125 2    50   ~ 0
+SWD-DIO
 $EndSCHEMATC
