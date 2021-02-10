@@ -713,12 +713,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 4350 2250 4350
 Wire Wire Line
-	2050 4450 2050 4650
-Wire Wire Line
-	2050 4650 4550 4650
-Wire Wire Line
-	4550 4650 4550 4450
-Wire Wire Line
 	4550 3850 4400 3850
 Connection ~ 2050 4450
 Wire Wire Line
@@ -833,4 +827,20 @@ Wire Notes Line
 	5250 3450 11000 3450
 Wire Notes Line
 	500  2750 5250 2750
+Text GLabel 1850 4550 0    50   Input ~ 0
+SPI1_SCLK
+Wire Wire Line
+	1850 4550 2250 4550
+Text GLabel 900  4450 0    50   Input ~ 0
+SPI1_CS
+Text GLabel 1000 4250 0    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 1000 4350 0    50   Output ~ 0
+SPI1_MOSI
+Wire Wire Line
+	2050 4700 4550 4700
+Wire Wire Line
+	2050 4450 2050 4700
+Wire Wire Line
+	4550 4450 4550 4700
 $EndSCHEMATC
