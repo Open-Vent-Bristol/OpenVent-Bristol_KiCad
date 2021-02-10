@@ -968,94 +968,6 @@ Wire Wire Line
 Connection ~ 2750 5050
 Connection ~ 2750 5750
 $Comp
-L OpenVent:LPS25HB U7
-U 1 1 5FFAE568
-P 8550 4475
-F 0 "U7" H 9037 4715 50  0000 C CNN
-F 1 "LPS25HB" H 9037 4624 50  0000 C CNN
-F 2 "" H 8550 4475 50  0001 C CNN
-F 3 "" H 8550 4475 50  0001 C CNN
-	1    8550 4475
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:3V3 #3V3_?
-U 1 1 5FFCC9B7
-P 8350 4425
-AR Path="/5F988182/5FFCC9B7" Ref="#3V3_?"  Part="1" 
-AR Path="/5F8F3873/5FFCC9B7" Ref="#3V3_08"  Part="1" 
-F 0 "#3V3_08" H 8350 4425 20  0001 C CNN
-F 1 "3V3" H 8350 4575 50  0000 C CNN
-F 2 "" H 8350 4425 70  0001 C CNN
-F 3 "" H 8350 4425 70  0001 C CNN
-	1    8350 4425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 4475 8350 4475
-Wire Wire Line
-	8350 4475 8350 4425
-Wire Wire Line
-	8450 4575 8350 4575
-Wire Wire Line
-	8350 4575 8350 4475
-Connection ~ 8350 4475
-$Comp
-L OpenVent:3V3 #3V3_?
-U 1 1 5FFDC823
-P 7825 4425
-AR Path="/5F988182/5FFDC823" Ref="#3V3_?"  Part="1" 
-AR Path="/5F8F3873/5FFDC823" Ref="#3V3_07"  Part="1" 
-F 0 "#3V3_07" H 7825 4425 20  0001 C CNN
-F 1 "3V3" H 7825 4575 50  0000 C CNN
-F 2 "" H 7825 4425 70  0001 C CNN
-F 3 "" H 7825 4425 70  0001 C CNN
-	1    7825 4425
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C40
-U 1 1 5FFDE287
-P 7925 4525
-F 0 "C40" V 7929 4535 50  0000 L CNN
-F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7925 4525 50  0001 C CNN
-F 2 "" H 7925 4525 50  0001 C CNN
-F 3 "" H 7925 4525 50  0001 C CNN
-F 4 "100nF" V 8020 4535 50  0000 L CNN "Val"
-F 5 "25V" H 7925 4525 50  0001 C CNN "Voltage"
-F 6 "10%" H 7925 4525 50  0001 C CNN "Tolerance"
-	1    7925 4525
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:GND #GND_03
-U 1 1 5FFDE6DE
-P 7825 4725
-F 0 "#GND_03" H 7825 4725 20  0001 C CNN
-F 1 "GND" H 7825 4655 50  0001 C CNN
-F 2 "" H 7825 4725 70  0000 C CNN
-F 3 "" H 7825 4725 70  0000 C CNN
-	1    7825 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_04
-U 1 1 5FFE65C3
-P 9625 4875
-F 0 "#GND_04" H 9625 4875 20  0001 C CNN
-F 1 "GND" H 9625 4805 50  0001 C CNN
-F 2 "" H 9625 4875 70  0000 C CNN
-F 3 "" H 9625 4875 70  0000 C CNN
-	1    9625 4875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9625 4875 9625 4775
-Connection ~ 9625 4875
-Wire Wire Line
-	9625 4775 9625 4675
-Connection ~ 9625 4775
-$Comp
 L OpenVent:502351-0400 CN3
 U 1 1 6027899F
 P 7425 5525
@@ -1146,4 +1058,110 @@ Wire Wire Line
 	1875 3650 2750 3650
 Text Notes 625  1150 0    60   ~ 0
 NB Molex connector is into external connector,\nshould same molex connector be used on the PCB,\nor deliberately use a different one so cable can't be\nplugged in wrong way around? LM 08/02/21
+$Comp
+L OpenVent:LPS25HB U?
+U 1 1 602FA2A4
+P 8450 4350
+F 0 "U?" H 8937 4590 50  0000 C CNN
+F 1 "LPS25HB" H 8937 4499 50  0000 C CNN
+F 2 "" H 8450 4350 50  0001 C CNN
+F 3 "" H 8450 4350 50  0001 C CNN
+	1    8450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 602FA2AA
+P 8250 4300
+AR Path="/5F988182/602FA2AA" Ref="#3V3_?"  Part="1" 
+AR Path="/5F8F3873/602FA2AA" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 8250 4300 20  0001 C CNN
+F 1 "3V3" H 8250 4450 50  0000 C CNN
+F 2 "" H 8250 4300 70  0001 C CNN
+F 3 "" H 8250 4300 70  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4350 8250 4350
+Wire Wire Line
+	8350 4450 8250 4450
+$Comp
+L OpenVent:3V3 #3V3_?
+U 1 1 602FA2B5
+P 10300 4300
+AR Path="/5F988182/602FA2B5" Ref="#3V3_?"  Part="1" 
+AR Path="/5F8F3873/602FA2B5" Ref="#3V3_?"  Part="1" 
+F 0 "#3V3_?" H 10300 4300 20  0001 C CNN
+F 1 "3V3" H 10300 4450 50  0000 C CNN
+F 2 "" H 10300 4300 70  0001 C CNN
+F 3 "" H 10300 4300 70  0001 C CNN
+	1    10300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 602FA2BE
+P 10400 4400
+F 0 "C?" V 10404 4410 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10400 4400 50  0001 C CNN
+F 2 "" H 10400 4400 50  0001 C CNN
+F 3 "" H 10400 4400 50  0001 C CNN
+F 4 "100nF" V 10495 4410 50  0000 L CNN "Val"
+F 5 "25V" H 10400 4400 50  0001 C CNN "Voltage"
+F 6 "10%" H 10400 4400 50  0001 C CNN "Tolerance"
+	1    10400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 602FA2C4
+P 10300 4600
+F 0 "#GND_?" H 10300 4600 20  0001 C CNN
+F 1 "GND" H 10300 4530 50  0001 C CNN
+F 2 "" H 10300 4600 70  0000 C CNN
+F 3 "" H 10300 4600 70  0000 C CNN
+	1    10300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 602FA2CA
+P 9525 4750
+F 0 "#GND_?" H 9525 4750 20  0001 C CNN
+F 1 "GND" H 9525 4680 50  0001 C CNN
+F 2 "" H 9525 4750 70  0000 C CNN
+F 3 "" H 9525 4750 70  0000 C CNN
+	1    9525 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 4750 9525 4650
+Connection ~ 9525 4750
+Wire Wire Line
+	9525 4650 9525 4550
+Connection ~ 9525 4650
+Text GLabel 9600 4350 2    50   Input ~ 0
+SPI2_CS
+Text GLabel 8200 4750 0    50   Output ~ 0
+SPI2_MISO
+Text GLabel 8200 4650 0    50   Input ~ 0
+SPI2_MOSI
+Text GLabel 8200 4550 0    50   Input ~ 0
+SPI2_SCLK
+Wire Wire Line
+	8250 4300 8250 4350
+Wire Wire Line
+	8350 4750 8200 4750
+Wire Wire Line
+	8350 4650 8200 4650
+Wire Wire Line
+	8350 4550 8200 4550
+Connection ~ 8250 4350
+Wire Wire Line
+	8250 4350 8250 4450
+Wire Wire Line
+	9525 4350 9600 4350
+Text Notes 7450 4450 0    50   ~ 0
+SPI Slave of FPGA
 $EndSCHEMATC

@@ -1567,4 +1567,22 @@ Wire Wire Line
 	1425 6025 1425 6700
 Text Label 3250 1125 2    50   ~ 0
 SWD-DIO
+Text GLabel 6450 1600 2    50   Output ~ 0
+SPI1_CS
+Text GLabel 6450 1900 2    50   Output ~ 0
+SPI1_SCLK
+Text GLabel 6450 2000 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 6450 2100 2    50   Output ~ 0
+SPI1_MOSI
+Wire Wire Line
+	6350 1600 6450 1600
+Wire Wire Line
+	6350 1900 6450 1900
+Wire Wire Line
+	6350 2000 6450 2000
+Wire Wire Line
+	6350 2100 6450 2100
+Text Notes 7350 1500 2    50   ~ 0
+SPI1 from MCU to FPGA
 $EndSCHEMATC

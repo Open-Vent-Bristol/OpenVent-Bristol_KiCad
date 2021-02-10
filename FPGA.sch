@@ -843,4 +843,16 @@ Wire Wire Line
 	2050 4450 2050 4700
 Wire Wire Line
 	4550 4450 4550 4700
+Text GLabel 2000 2950 0    50   Output ~ 0
+SPI2_MOSI
+Text GLabel 2000 2850 0    50   Input ~ 0
+SPI2_MISO
+Text GLabel 2000 3050 0    50   Output ~ 0
+SPI2_CS
+Text GLabel 2000 3150 0    50   Output ~ 0
+SPI2_SCLK
+Text Notes 600  4650 0    50   ~ 0
+SPI1 to\nMCU master
+Text Notes 650  2950 0    50   ~ 0
+SPI2 from sensor slave
 $EndSCHEMATC
