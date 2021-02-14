@@ -1,6 +1,10 @@
 OpenVent controller PCB, version A (KiCad) ported from version 2.7 (Altium,
 incomplete), 2020-10-20, by Jeff Sutherland <jeffs@fomsystems.com>
 
+All files for the Power Board are in the subfolder called "OV_Power". All control/main board files are in this folder level.
+Electronic system diagram and overall device system diagram can be found here: https://docs.google.com/presentation/d/e/2PACX-1vRULcGT6Jc9GJDVb21LnrkGW9OiDjC7QJ2lRb0DsiA6KYFimniAMwYWqoMfq-0fJhvekxmhCl915fU4/pub?start=false&loop=true&delayms=3000&slide=id.gb10047446c_0_106
+Also found by clicking "build" on https://openventbristol.co.uk/
+
 Altium conversions aren't perfect but most everything is here.  Because the
 schematic was incomplete and would not pass validation in Altium due to not
 being complete a few things didn't make it across symbol-wise.  These will
