@@ -142,8 +142,6 @@ F 3 "" H 4250 5200 70  0000 C CNN
 	1    4250 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 650  1550 0    60   ~ 0
-Molex connector for external\nSFM3020 flow sensor
 $Comp
 L OpenVent:GND #GND_031
 U 1 1 5F8DD0B5
@@ -181,7 +179,7 @@ F 3 "" H 4500 2900 70  0000 C CNN
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1475 1950
+NoConn ~ 1350 1750
 Wire Wire Line
 	8550 2575 8550 3075
 Wire Wire Line
@@ -968,17 +966,6 @@ Wire Wire Line
 Connection ~ 2750 5050
 Connection ~ 2750 5750
 $Comp
-L OpenVent:502351-0400 CN3
-U 1 1 6027899F
-P 7425 5525
-F 0 "CN3" H 7470 5540 50  0000 C CNN
-F 1 "502351-0400" H 7470 5449 50  0000 C CNN
-F 2 "" H 7425 5525 50  0001 C CNN
-F 3 "" H 7425 5525 50  0001 C CNN
-	1    7425 5525
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:+3V3_Sensors #PWR03
 U 1 1 6027FA4F
 P 8025 5675
@@ -1016,48 +1003,6 @@ Wire Wire Line
 	7650 5850 7725 5850
 Wire Wire Line
 	7650 5950 7725 5950
-Text Notes 6900 5400 0    50   ~ 0
-MOLEX connector for external\nSFM3019 Flow Sensor
-$Comp
-L OpenVent:502351-0400 CN4
-U 1 1 602C9734
-P 1250 1625
-F 0 "CN4" H 1295 1640 50  0000 C CNN
-F 1 "502351-0400" H 1295 1549 50  0000 C CNN
-F 2 "" H 1250 1625 50  0001 C CNN
-F 3 "" H 1250 1625 50  0001 C CNN
-	1    1250 1625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 3650 1875 3650
-Wire Wire Line
-	1800 3050 2325 3050
-Wire Wire Line
-	1800 3350 2075 3350
-Wire Wire Line
-	2325 3050 2325 1850
-Wire Wire Line
-	2325 1850 1475 1850
-Connection ~ 2325 3050
-Wire Wire Line
-	2325 3050 2550 3050
-Wire Wire Line
-	2075 3350 2075 2050
-Wire Wire Line
-	2075 2050 1475 2050
-Connection ~ 2075 3350
-Wire Wire Line
-	2075 3350 2950 3350
-Wire Wire Line
-	1475 2150 1875 2150
-Wire Wire Line
-	1875 2150 1875 3650
-Connection ~ 1875 3650
-Wire Wire Line
-	1875 3650 2750 3650
-Text Notes 625  1150 0    60   ~ 0
-NB Molex connector is into external connector,\nshould same molex connector be used on the PCB,\nor deliberately use a different one so cable can't be\nplugged in wrong way around? LM 08/02/21
 $Comp
 L OpenVent:LPS25HB U?
 U 1 1 602FA2A4
@@ -1164,4 +1109,65 @@ Wire Wire Line
 	9525 4350 9600 4350
 Text Notes 7450 4450 0    50   ~ 0
 SPI Slave of FPGA
+Text Notes 8000 4050 0    50   ~ 0
+On-Board STMicroelectronics Absolute Pressure Sensor
+Text Notes 550  2800 0    50   ~ 0
+On-board NXP\nDifferential Pressure\nSensor (at patient)
+Text Notes 500  4200 0    50   ~ 0
+On-board NXP\nGauge Pressure\nSensor (at patient)
+Text Notes 500  5500 0    50   ~ 0
+On-board NXP\nGauge Pressure\nSensor (at patient)
+Text Notes 6900 5350 0    50   ~ 0
+Off-board Sensirion SFM3019 Flow Rate Sensor - digital
+Text Notes 550  1550 0    50   ~ 0
+Off-board Sensirion SFM3020\nFlow Rate Sensor - analogue
+$Comp
+L OpenVent:CONN_HEADER_SMD_4POS_2MM CN3
+U 1 1 603F84CE
+P 7650 6050
+F 0 "CN3" H 7893 6525 50  0000 C CNN
+F 1 "CONN_HEADER_SMD_4POS_2MM" H 7950 5850 50  0001 C CNN
+F 2 "" H 7850 6450 50  0001 C CNN
+F 3 "" H 7850 6450 50  0001 C CNN
+	1    7650 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:CONN_HEADER_SMD_4POS_2MM CN4
+U 1 1 603F977D
+P 1350 2050
+F 0 "CN4" H 1593 2525 50  0000 C CNN
+F 1 "CONN_HEADER_SMD_4POS_2MM" H 1650 1850 50  0001 C CNN
+F 2 "" H 1550 2450 50  0001 C CNN
+F 3 "" H 1550 2450 50  0001 C CNN
+	1    1350 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2050 2000 3350
+Wire Wire Line
+	2400 1850 2400 3050
+Connection ~ 2400 3050
+Wire Wire Line
+	2400 3050 2550 3050
+Wire Wire Line
+	1800 3050 2400 3050
+Wire Wire Line
+	1350 1850 2400 1850
+Wire Wire Line
+	1800 3650 2200 3650
+Wire Wire Line
+	2200 3650 2200 1950
+Connection ~ 2200 3650
+Wire Wire Line
+	2200 3650 2750 3650
+Wire Wire Line
+	2200 1950 1350 1950
+Connection ~ 2000 3350
+Wire Wire Line
+	2000 3350 2950 3350
+Wire Wire Line
+	1800 3350 2000 3350
+Wire Wire Line
+	1350 2050 2000 2050
 $EndSCHEMATC
