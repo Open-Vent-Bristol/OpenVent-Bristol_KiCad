@@ -1568,7 +1568,7 @@ Wire Wire Line
 Text Label 3250 1125 2    50   ~ 0
 SWD-DIO
 Text GLabel 6450 1600 2    50   Output ~ 0
-SPI1_CS
+SPI1_FPGA_CS
 Text GLabel 6450 1900 2    50   Output ~ 0
 SPI1_SCLK
 Text GLabel 6450 2000 2    50   Input ~ 0
