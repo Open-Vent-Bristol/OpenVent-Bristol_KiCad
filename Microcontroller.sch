@@ -250,7 +250,7 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2300 0    50   BiDi ~ 0
+Text GLabel 4800 2300 0    50   Output ~ 0
 PWR_UP
 $Comp
 L OpenVent:+5V #5V_02
@@ -769,8 +769,6 @@ Wire Wire Line
 	4950 4000 4750 4000
 Wire Wire Line
 	4750 4100 4950 4100
-Wire Wire Line
-	4950 1700 4800 1700
 Wire Wire Line
 	4800 2000 4950 2000
 Wire Wire Line
@@ -1360,8 +1358,6 @@ F 3 "" H 4325 6600 70  0001 C CNN
 $EndComp
 Wire Wire Line
 	4325 6825 4325 6600
-Text Notes 400  8050 0    50   ~ 0
-VBATT DOESN'T NEED TO GO INTO MCU IF GOING INTO FPGA\n
 Text Notes 400  8150 0    50   ~ 0
 OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
 Text GLabel 4800 2475 0    50   Input ~ 0
@@ -1400,4 +1396,112 @@ Text Notes 7350 1500 2    50   ~ 0
 SPI1 from MCU to FPGA
 Text GLabel 4800 2200 0    50   Input ~ 0
 SW_HOME
+$Comp
+L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS?
+U 1 1 602EE8A2
+P 10400 1200
+AR Path="/602EE8A2" Ref="LS?"  Part="1" 
+AR Path="/5F8F894A/602EE8A2" Ref="LS?"  Part="1" 
+AR Path="/5FCA4074/602EE8A2" Ref="LS?"  Part="1" 
+AR Path="/5F988182/602EE8A2" Ref="LS?"  Part="1" 
+F 0 "LS?" H 10570 1150 50  0000 L CNN
+F 1 "AUDIO_MAGNETIC_INDICATOR" H 10570 1105 50  0001 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 10400 1000 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/cem-1212c.pdf" H 10390 1150 50  0001 C CNN
+F 4 "AUDIO MAGNETIC IND 8-16V TH" H 10400 1200 50  0001 C CNN "Desc"
+F 5 "Buzzers Indicator, Internally Driven Magnetic 35mA 2.3kHz 85dB @ 12V, 10cm Through Hole PC Pins" H 10400 1200 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 10400 1200 50  0001 C CNN "DistName"
+F 7 "102-1123-ND" H 10400 1200 50  0001 C CNN "Dist_PN"
+F 8 "CUI Devices" H 10400 1200 50  0001 C CNN "Mfr"
+F 9 "CEM-1212C" H 10450 850 50  0000 C CNN "Mfr_PN"
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V_MAIN #PWR?
+U 1 1 6032349C
+P 9950 1025
+F 0 "#PWR?" H 9950 875 50  0001 C CNN
+F 1 "V_MAIN" H 9950 1198 50  0000 C CNN
+F 2 "" H 9950 1025 50  0001 C CNN
+F 3 "" H 9950 1025 50  0001 C CNN
+	1    9950 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:2N7002BK Q?
+U 1 1 60345C52
+P 9950 1525
+AR Path="/5F99D63D/60345C52" Ref="Q?"  Part="1" 
+AR Path="/5F988182/60345C52" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9840 1371 50  0000 R CNN
+F 1 "2N7002BK" H 9840 1280 50  0000 R CNN
+F 2 "" H 9950 1525 50  0000 C CNN
+F 3 "" H 9950 1525 50  0000 C CNN
+	1    9950 1525
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1775 9475 1775
+Wire Wire Line
+	10200 1300 9950 1300
+Wire Wire Line
+	9950 1300 9950 1525
+Wire Wire Line
+	10200 1200 9950 1200
+Wire Wire Line
+	9950 1200 9950 1025
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 6037C0D2
+P 9475 2175
+AR Path="/5F8F894A/6037C0D2" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/6037C0D2" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 9475 2175 20  0001 C CNN
+F 1 "GND" H 9475 2105 30  0001 C CNN
+F 2 "" H 9475 2175 70  0000 C CNN
+F 3 "" H 9475 2175 70  0000 C CNN
+	1    9475 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 6037C0D8
+P 9950 2175
+AR Path="/5F8F894A/6037C0D8" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/6037C0D8" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 9950 2175 20  0001 C CNN
+F 1 "GND" H 9950 2105 30  0001 C CNN
+F 2 "" H 9950 2175 70  0000 C CNN
+F 3 "" H 9950 2175 70  0000 C CNN
+	1    9950 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2175 9950 1925
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6037C10F
+P 9575 1875
+AR Path="/5F8F894A/6037C10F" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/6037C10F" Ref="R?"  Part="1" 
+F 0 "R?" V 9629 1845 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 9575 1875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9575 1875 50  0001 C CNN
+F 3 "" H 9575 1875 50  0001 C CNN
+F 4 "100k" V 9720 1845 50  0000 L CNN "Val"
+F 5 "1%" H 9575 1875 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9575 1875 50  0001 C CNN "Watt"
+	1    9575 1875
+	0    1    1    0   
+$EndComp
+Connection ~ 9475 1775
+Text Label 8825 1775 0    50   ~ 0
+BUZZER_PWM
+Wire Wire Line
+	8600 1775 9475 1775
+Wire Wire Line
+	3850 1700 4950 1700
+Text Label 3850 1700 0    50   ~ 0
+BUZZER_PWM
 $EndSCHEMATC
