@@ -729,4 +729,282 @@ Wire Wire Line
 	8400 4700 8400 4800
 Wire Wire Line
 	8400 4250 8400 4700
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 6040468E
+P 1850 6250
+AR Path="/5F988182/6040468E" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/6040468E" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/6040468E" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 1850 6250 20  0001 C CNN
+F 1 "GND" H 1850 6180 50  0001 C CNN
+F 2 "" H 1850 6250 70  0001 C CNN
+F 3 "" H 1850 6250 70  0001 C CNN
+	1    1850 6250
+	1    0    0    -1  
+$EndComp
+Text Notes 1275 6175 0    50   ~ 0
+Membrane Switch Connector
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 60404696
+P 2700 6950
+AR Path="/5F988182/600DF342" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF342" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/60404696" Ref="D?"  Part="1" 
+AR Path="/5FCA4074/60404696" Ref="D?"  Part="1" 
+F 0 "D?" H 2600 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 2825 6825 50  0001 R CNN
+F 2 "0603 diode" H 2750 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2700 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2700 6650 50  0001 C CNN "Detailed"
+	1    2700 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 6040469D
+P 3600 6950
+AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/600DF349" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/6040469D" Ref="D?"  Part="1" 
+AR Path="/5FCA4074/6040469D" Ref="D?"  Part="1" 
+F 0 "D?" H 3500 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 3725 6825 50  0001 R CNN
+F 2 "0603 diode" H 3650 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 3600 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3600 6650 50  0001 C CNN "Detailed"
+	1    3600 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 604046A4
+P 4050 6950
+AR Path="/5F988182/604046A4" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/604046A4" Ref="D?"  Part="1" 
+AR Path="/5FCA4074/604046A4" Ref="D?"  Part="1" 
+F 0 "D?" H 3950 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 4175 6825 50  0001 R CNN
+F 2 "0603 diode" H 4100 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 4050 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 4050 6650 50  0001 C CNN "Detailed"
+	1    4050 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 604046AA
+P 2700 7150
+AR Path="/5F988182/604046AA" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/604046AA" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/604046AA" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 2700 7150 20  0001 C CNN
+F 1 "GND" H 2700 7080 50  0001 C CNN
+F 2 "" H 2700 7150 70  0001 C CNN
+F 3 "" H 2700 7150 70  0001 C CNN
+	1    2700 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 604046B0
+P 3150 7150
+AR Path="/5F988182/604046B0" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/604046B0" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/604046B0" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 3150 7150 20  0001 C CNN
+F 1 "GND" H 3150 7080 50  0001 C CNN
+F 2 "" H 3150 7150 70  0001 C CNN
+F 3 "" H 3150 7150 70  0001 C CNN
+	1    3150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 604046B6
+P 3600 7150
+AR Path="/5F988182/604046B6" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/604046B6" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/604046B6" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 3600 7150 20  0001 C CNN
+F 1 "GND" H 3600 7080 50  0001 C CNN
+F 2 "" H 3600 7150 70  0001 C CNN
+F 3 "" H 3600 7150 70  0001 C CNN
+	1    3600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 604046BC
+P 4050 7150
+AR Path="/5F988182/604046BC" Ref="#GND_?"  Part="1" 
+AR Path="/5F8F894A/604046BC" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/604046BC" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 4050 7150 20  0001 C CNN
+F 1 "GND" H 4050 7080 50  0001 C CNN
+F 2 "" H 4050 7150 70  0001 C CNN
+F 3 "" H 4050 7150 70  0001 C CNN
+	1    4050 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 6500 2    50   Output ~ 0
+SW-1
+Text GLabel 3700 6600 2    50   Output ~ 0
+SW-2
+Text GLabel 3250 6700 2    50   Output ~ 0
+SW-3
+Text GLabel 2800 6800 2    50   Output ~ 0
+SW-4
+$Comp
+L OpenVent:SP3522-01UTG D?
+U 1 1 604046C7
+P 3150 6950
+AR Path="/5F988182/604046C7" Ref="D?"  Part="1" 
+AR Path="/5F8F894A/604046C7" Ref="D?"  Part="1" 
+AR Path="/5FCA4074/604046C7" Ref="D?"  Part="1" 
+F 0 "D?" H 3050 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 3275 6825 50  0001 R CNN
+F 2 "0603 diode" H 3200 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 3150 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3150 6650 50  0001 C CNN "Detailed"
+	1    3150 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP?
+U 1 1 604046CD
+P 1700 6800
+AR Path="/5F988182/604046CD" Ref="JP?"  Part="1" 
+AR Path="/5F8F894A/604046CD" Ref="JP?"  Part="1" 
+AR Path="/5FCA4074/604046CD" Ref="JP?"  Part="1" 
+F 0 "JP?" H 2050 7350 50  0000 L BNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 1700 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1700 6800 50  0001 C CNN
+F 3 "" H 1700 6800 50  0001 C CNN
+	1    1700 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB?
+U 1 1 604046D8
+P 1900 6500
+AR Path="/5F8F894A/604046D8" Ref="FB?"  Part="1" 
+AR Path="/5FCA4074/604046D8" Ref="FB?"  Part="1" 
+F 0 "FB?" V 1850 6250 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 1975 6450 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 1830 6500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 1900 6500 50  0001 C CNN
+F 4 "Murata Electronics North America" H 1900 6500 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 1900 6500 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 1900 6500 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 1900 6500 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 1900 6500 50  0001 C CNN "Detailed"
+	1    1900 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB?
+U 3 1 604046E3
+P 2150 6600
+AR Path="/5F8F894A/604046E3" Ref="FB?"  Part="3" 
+AR Path="/5FCA4074/604046E3" Ref="FB?"  Part="3" 
+F 0 "FB?" V 2100 6850 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 2225 6550 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 2080 6600 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 2150 6600 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2150 6600 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 2150 6600 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 2150 6600 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 2150 6600 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 2150 6600 50  0001 C CNN "Detailed"
+	3    2150 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB?
+U 2 1 604046EE
+P 1900 6700
+AR Path="/5F8F894A/604046EE" Ref="FB?"  Part="2" 
+AR Path="/5FCA4074/604046EE" Ref="FB?"  Part="2" 
+F 0 "FB?" V 1850 6450 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 1975 6650 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 1830 6700 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 1900 6700 50  0001 C CNN
+F 4 "Murata Electronics North America" H 1900 6700 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 1900 6700 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 1900 6700 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 1900 6700 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 1900 6700 50  0001 C CNN "Detailed"
+	2    1900 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:BLA31BD121SN4D FB?
+U 4 1 604046F9
+P 2150 6800
+AR Path="/5F8F894A/604046F9" Ref="FB?"  Part="4" 
+AR Path="/5FCA4074/604046F9" Ref="FB?"  Part="4" 
+F 0 "FB?" V 2100 7050 50  0000 C CNN
+F 1 "BLA31BD121SN4D" H 2225 6750 50  0001 L CNN
+F 2 "F_Inductors:Murata_BLA31" V 2080 6800 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf" H 2150 6800 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2150 6800 50  0001 C CNN "Mfr"
+F 5 "BLA31BD121SN4D" H 2150 6800 50  0001 C CNN "MfrPn"
+F 6 "490-1003-2-ND" H 2150 6800 50  0001 C CNN "DK_pn"
+F 7 "FERRITE BEAD 120 OHM 1206 4LN" H 2150 6800 50  0001 C CNN "Desc"
+F 8 "120 Ohms @ 100MHz 4 Signal Line Ferrite Bead 1206 (3216 Metric), Array, 8 PC Pad 150mA 300mOhm" H 2150 6800 50  0001 C CNN "Detailed"
+	4    2150 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 6250 1850 6200
+Wire Wire Line
+	1850 6200 1750 6200
+Wire Wire Line
+	1750 6200 1750 6400
+Wire Wire Line
+	1750 6400 1700 6400
+Wire Wire Line
+	1700 6500 1800 6500
+Wire Wire Line
+	1700 6600 2050 6600
+Wire Wire Line
+	1800 6700 1700 6700
+Wire Wire Line
+	1700 6800 2050 6800
+Wire Wire Line
+	2000 6500 4050 6500
+Wire Wire Line
+	2250 6600 3600 6600
+Wire Wire Line
+	3250 6700 3150 6700
+Wire Wire Line
+	2250 6800 2700 6800
+Wire Wire Line
+	2700 6800 2800 6800
+Connection ~ 2700 6800
+Wire Wire Line
+	3150 6800 3150 6700
+Connection ~ 3150 6700
+Wire Wire Line
+	3150 6700 2000 6700
+Wire Wire Line
+	3600 6800 3600 6600
+Connection ~ 3600 6600
+Wire Wire Line
+	3600 6600 3700 6600
+Wire Wire Line
+	4050 6800 4050 6500
+Connection ~ 4050 6500
+Wire Wire Line
+	4050 6500 4200 6500
+Wire Wire Line
+	2700 7100 2700 7150
+Wire Wire Line
+	3150 7100 3150 7150
+Wire Wire Line
+	3600 7100 3600 7150
+Wire Wire Line
+	4050 7100 4050 7150
 $EndSCHEMATC

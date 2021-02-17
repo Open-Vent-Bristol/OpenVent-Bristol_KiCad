@@ -1278,7 +1278,7 @@ Wire Wire Line
 	9700 3550 9700 3400
 Wire Wire Line
 	9700 3400 9800 3400
-Text GLabel 9550 4050 0    50   BiDi ~ 0
+Text GLabel 9550 4050 0    50   Input ~ 0
 PWR_UP
 Wire Wire Line
 	9550 4050 9700 4050
@@ -1286,7 +1286,7 @@ Connection ~ 9700 4050
 Wire Wire Line
 	9700 4050 9700 3950
 Text Notes 9450 3850 2    50   ~ 0
-MOTOR CONTROL\nSTATUS TO MCU
+CONTROL FROM MCU\nFOR 7.5V SWITCHER\nON POWER BOARD
 Text GLabel 8050 1300 0    50   Output ~ 0
 SW_HOME
 Text GLabel 9750 1300 2    50   Output ~ 0
