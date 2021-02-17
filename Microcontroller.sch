@@ -104,12 +104,8 @@ F 3 "" H 4825 7625 70  0001 C CNN
 $EndComp
 Text Notes 4150 5600 0    50   ~ 0
 Battery Present Indicator
-Text GLabel 4800 4500 0    50   Input ~ 0
-STAT2
 Text GLabel 6550 3200 2    50   Input ~ 0
 PGOOD
-Text GLabel 4800 4700 0    50   Input ~ 0
-nSTAT1
 Text GLabel 6550 3100 2    50   Output ~ 0
 CE-CONTROL
 Text GLabel 4750 3400 0    50   Input ~ 0
