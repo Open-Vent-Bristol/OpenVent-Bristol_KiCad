@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1875 2750 1875
 Text GLabel 1850 1625 0    50   Input ~ 0
-LED_SERIAL_DRV_5V
+LED_SERIAL_DRV
 Wire Wire Line
 	2050 1625 1850 1625
 $Comp
@@ -764,32 +764,32 @@ $EndComp
 $Comp
 L OpenVent:SP3522-01UTG D?
 U 1 1 6040469D
-P 3600 6950
+P 3700 6950
 AR Path="/5F988182/600DF349" Ref="D?"  Part="1" 
 AR Path="/5F8F894A/600DF349" Ref="D?"  Part="1" 
 AR Path="/5F8F894A/6040469D" Ref="D?"  Part="1" 
 AR Path="/5FCA4074/6040469D" Ref="D?"  Part="1" 
-F 0 "D?" H 3500 6900 50  0000 R CNN
-F 1 "SP3522-01UTG" H 3725 6825 50  0001 R CNN
-F 2 "0603 diode" H 3650 7150 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 3600 6950 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3600 6650 50  0001 C CNN "Detailed"
-	1    3600 6950
+F 0 "D?" H 3600 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 3825 6825 50  0001 R CNN
+F 2 "0603 diode" H 3750 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 3700 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 3700 6650 50  0001 C CNN "Detailed"
+	1    3700 6950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:SP3522-01UTG D?
 U 1 1 604046A4
-P 4050 6950
+P 4200 6950
 AR Path="/5F988182/604046A4" Ref="D?"  Part="1" 
 AR Path="/5F8F894A/604046A4" Ref="D?"  Part="1" 
 AR Path="/5FCA4074/604046A4" Ref="D?"  Part="1" 
-F 0 "D?" H 3950 6900 50  0000 R CNN
-F 1 "SP3522-01UTG" H 4175 6825 50  0001 R CNN
-F 2 "0603 diode" H 4100 7150 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 4050 6950 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 4050 6650 50  0001 C CNN "Detailed"
-	1    4050 6950
+F 0 "D?" H 4100 6900 50  0000 R CNN
+F 1 "SP3522-01UTG" H 4325 6825 50  0001 R CNN
+F 2 "0603 diode" H 4250 7150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 4200 6950 50  0001 C CNN
+F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 4200 6650 50  0001 C CNN "Detailed"
+	1    4200 6950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -823,39 +823,39 @@ $EndComp
 $Comp
 L OpenVent:GND #GND_?
 U 1 1 604046B6
-P 3600 7150
+P 3700 7150
 AR Path="/5F988182/604046B6" Ref="#GND_?"  Part="1" 
 AR Path="/5F8F894A/604046B6" Ref="#GND_?"  Part="1" 
 AR Path="/5FCA4074/604046B6" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 3600 7150 20  0001 C CNN
-F 1 "GND" H 3600 7080 50  0001 C CNN
-F 2 "" H 3600 7150 70  0001 C CNN
-F 3 "" H 3600 7150 70  0001 C CNN
-	1    3600 7150
+F 0 "#GND_?" H 3700 7150 20  0001 C CNN
+F 1 "GND" H 3700 7080 50  0001 C CNN
+F 2 "" H 3700 7150 70  0001 C CNN
+F 3 "" H 3700 7150 70  0001 C CNN
+	1    3700 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:GND #GND_?
 U 1 1 604046BC
-P 4050 7150
+P 4200 7150
 AR Path="/5F988182/604046BC" Ref="#GND_?"  Part="1" 
 AR Path="/5F8F894A/604046BC" Ref="#GND_?"  Part="1" 
 AR Path="/5FCA4074/604046BC" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 4050 7150 20  0001 C CNN
-F 1 "GND" H 4050 7080 50  0001 C CNN
-F 2 "" H 4050 7150 70  0001 C CNN
-F 3 "" H 4050 7150 70  0001 C CNN
-	1    4050 7150
+F 0 "#GND_?" H 4200 7150 20  0001 C CNN
+F 1 "GND" H 4200 7080 50  0001 C CNN
+F 2 "" H 4200 7150 70  0001 C CNN
+F 3 "" H 4200 7150 70  0001 C CNN
+	1    4200 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 6500 2    50   Output ~ 0
-SW-1
-Text GLabel 3700 6600 2    50   Output ~ 0
-SW-2
+Text GLabel 4350 6500 2    50   Output ~ 0
+PB_MUTE
+Text GLabel 3800 6600 2    50   Output ~ 0
+PB_PLUS
 Text GLabel 3250 6700 2    50   Output ~ 0
-SW-3
+PB_MINUS
 Text GLabel 2800 6800 2    50   Output ~ 0
-SW-4
+PB_SEL
 $Comp
 L OpenVent:SP3522-01UTG D?
 U 1 1 604046C7
@@ -974,10 +974,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 6800 2050 6800
 Wire Wire Line
-	2000 6500 4050 6500
-Wire Wire Line
-	2250 6600 3600 6600
-Wire Wire Line
 	3250 6700 3150 6700
 Wire Wire Line
 	2250 6800 2700 6800
@@ -990,21 +986,25 @@ Connection ~ 3150 6700
 Wire Wire Line
 	3150 6700 2000 6700
 Wire Wire Line
-	3600 6800 3600 6600
-Connection ~ 3600 6600
+	3700 6800 3700 6600
+Connection ~ 3700 6600
 Wire Wire Line
-	3600 6600 3700 6600
+	3700 6600 3800 6600
 Wire Wire Line
-	4050 6800 4050 6500
-Connection ~ 4050 6500
+	4200 6800 4200 6500
+Connection ~ 4200 6500
 Wire Wire Line
-	4050 6500 4200 6500
+	4200 6500 4350 6500
 Wire Wire Line
 	2700 7100 2700 7150
 Wire Wire Line
 	3150 7100 3150 7150
 Wire Wire Line
-	3600 7100 3600 7150
+	3700 7100 3700 7150
 Wire Wire Line
-	4050 7100 4050 7150
+	4200 7100 4200 7150
+Wire Wire Line
+	2000 6500 4200 6500
+Wire Wire Line
+	2250 6600 3700 6600
 $EndSCHEMATC

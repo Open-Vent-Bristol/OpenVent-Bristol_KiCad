@@ -295,13 +295,13 @@ SENSIRON-FLOW-SENSOR
 Text GLabel 10400 4200 0    50   Output ~ 0
 Motor_off
 Text GLabel 6350 600  0    50   Input ~ 0
-SW-1
+PB_MUTE
 Text GLabel 6350 700  0    50   Input ~ 0
-SW-2
+PB_PLUS
 Text GLabel 6350 800  0    50   Input ~ 0
-SW-3
+PB_MINUS
 Text GLabel 6350 900  0    50   Input ~ 0
-SW-4
+PB_SEL
 Text GLabel 9550 1500 2    50   Output ~ 0
 Vref_DRV
 Text GLabel 9550 1600 2    50   Output ~ 0

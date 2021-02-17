@@ -112,14 +112,6 @@ Text GLabel 4750 3400 0    50   Input ~ 0
 SOUNDER-CURRENT
 Text Label 3850 1900 0    50   ~ 0
 ANALOG-SPARE
-Text Label 6500 2500 0    50   ~ 0
-SW-1
-Text Label 6500 2600 0    50   ~ 0
-SW-2
-Text Label 6500 2700 0    50   ~ 0
-SW-3
-Text Label 6500 2800 0    50   ~ 0
-SW-4
 $Comp
 L OpenVent:GND #PWR02
 U 1 1 5F8DD168
@@ -1457,6 +1449,7 @@ U 1 1 6037C0D2
 P 9475 2175
 AR Path="/5F8F894A/6037C0D2" Ref="#GND_?"  Part="1" 
 AR Path="/5FCA4074/6037C0D2" Ref="#GND_?"  Part="1" 
+AR Path="/5F988182/6037C0D2" Ref="#GND_?"  Part="1" 
 F 0 "#GND_?" H 9475 2175 20  0001 C CNN
 F 1 "GND" H 9475 2105 30  0001 C CNN
 F 2 "" H 9475 2175 70  0000 C CNN
@@ -1470,6 +1463,7 @@ U 1 1 6037C0D8
 P 9950 2175
 AR Path="/5F8F894A/6037C0D8" Ref="#GND_?"  Part="1" 
 AR Path="/5FCA4074/6037C0D8" Ref="#GND_?"  Part="1" 
+AR Path="/5F988182/6037C0D8" Ref="#GND_?"  Part="1" 
 F 0 "#GND_?" H 9950 2175 20  0001 C CNN
 F 1 "GND" H 9950 2105 30  0001 C CNN
 F 2 "" H 9950 2175 70  0000 C CNN
@@ -1485,6 +1479,7 @@ U 1 1 6037C10F
 P 9575 1875
 AR Path="/5F8F894A/6037C10F" Ref="R?"  Part="1" 
 AR Path="/5FCA4074/6037C10F" Ref="R?"  Part="1" 
+AR Path="/5F988182/6037C10F" Ref="R?"  Part="1" 
 F 0 "R?" V 9629 1845 50  0000 L CNN
 F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 9575 1875 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9575 1875 50  0001 C CNN
@@ -1504,4 +1499,12 @@ Wire Wire Line
 	3850 1700 4950 1700
 Text Label 3850 1700 0    50   ~ 0
 BUZZER_PWM
+Text GLabel 6500 2500 2    50   Input ~ 0
+PB_MUTE
+Text GLabel 6500 2600 2    50   Input ~ 0
+PB_PLUS
+Text GLabel 6500 2700 2    50   Input ~ 0
+PB_MINUS
+Text GLabel 6500 2800 2    50   Input ~ 0
+PB_SEL
 $EndSCHEMATC
