@@ -237,8 +237,6 @@ Text GLabel 4750 4000 0    50   Input ~ 0
 nMOTOR-FAULT-A
 Text GLabel 4750 3900 0    50   Input ~ 0
 nMOTOR-FAULT-B
-Text Notes 650  5800 0    50   ~ 0
-Motor Position Sensors
 Text GLabel 4750 4100 0    50   Output ~ 0
 LDO-EN
 $Comp
@@ -1366,80 +1364,10 @@ Text Notes 400  8050 0    50   ~ 0
 VBATT DOESN'T NEED TO GO INTO MCU IF GOING INTO FPGA\n
 Text Notes 400  8150 0    50   ~ 0
 OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
-$Comp
-L OpenVent-rescue:DB1C-A1LD-OpenVent J?
-U 1 1 600C7AA1
-P 2100 6250
-AR Path="/600C7AA1" Ref="J?"  Part="1" 
-AR Path="/5F988182/600C7AA1" Ref="J3"  Part="1" 
-F 0 "J3" H 2100 5810 50  0000 C CNN
-F 1 "DB1C-A1LD" H 2100 5901 50  0000 C CNN
-F 2 "" H 2100 6250 50  0001 C CNN
-F 3 "" H 2100 6250 50  0001 C CNN
-	1    2100 6250
-	-1   0    0    1   
-$EndComp
-$Comp
-L OpenVent-rescue:DB1C-A1LD-OpenVent J?
-U 1 1 600E07E5
-P 2100 6925
-AR Path="/600E07E5" Ref="J?"  Part="1" 
-AR Path="/5F988182/600E07E5" Ref="J4"  Part="1" 
-F 0 "J4" H 2100 6485 50  0000 C CNN
-F 1 "DB1C-A1LD" H 2100 6576 50  0000 C CNN
-F 2 "" H 2100 6925 50  0001 C CNN
-F 3 "" H 2100 6925 50  0001 C CNN
-	1    2100 6925
-	-1   0    0    1   
-$EndComp
-$Comp
-L OpenVent-rescue:DB1C-A1LD-OpenVent J?
-U 1 1 600E171A
-P 2100 7675
-AR Path="/600E171A" Ref="J?"  Part="1" 
-AR Path="/5F988182/600E171A" Ref="J5"  Part="1" 
-F 0 "J5" H 2100 7235 50  0000 C CNN
-F 1 "DB1C-A1LD" H 2100 7326 50  0000 C CNN
-F 2 "" H 2100 7675 50  0001 C CNN
-F 3 "" H 2100 7675 50  0001 C CNN
-	1    2100 7675
-	-1   0    0    1   
-$EndComp
-Text Notes 2600 5975 0    50   ~ 0
-Home position 1
-Text Notes 2600 6675 0    50   ~ 0
-Home position 2\n(for redundancy)
-Text Notes 2625 7425 0    50   ~ 0
-Lower Limit
-Text GLabel 2650 6100 2    50   Output ~ 0
-MOTOR-HOME-1
-Text GLabel 2650 6775 2    50   Output ~ 0
-MOTOR-HOME-2
-Text GLabel 2650 7525 2    50   Output ~ 0
-MOTOR-LOW
-Wire Wire Line
-	2525 6100 2650 6100
-Wire Wire Line
-	2525 6775 2650 6775
-Wire Wire Line
-	2525 7525 2650 7525
-$Comp
-L OpenVent:3V3 #3V3_02
-U 1 1 6025C37A
-P 925 6400
-F 0 "#3V3_02" H 925 6400 20  0001 C CNN
-F 1 "3V3" H 925 6550 50  0000 C CNN
-F 2 "" H 925 6400 70  0001 C CNN
-F 3 "" H 925 6400 70  0001 C CNN
-	1    925  6400
-	1    0    0    -1  
-$EndComp
-Text GLabel 4800 2200 0    50   Input ~ 0
-MOTOR-HOME-1
 Text GLabel 4800 2475 0    50   Input ~ 0
-MOTOR-HOME-2
+SW_BACKUP
 Text GLabel 4750 3200 0    50   Input ~ 0
-MOTOR-LOW
+SW_END
 Wire Wire Line
 	4950 3200 4750 3200
 Wire Wire Line
@@ -1450,117 +1378,6 @@ Wire Wire Line
 	4875 2500 4875 2475
 Wire Wire Line
 	4875 2475 4800 2475
-$Comp
-L OpenVent:GND #PWR038
-U 1 1 606DA94E
-P 1600 6225
-F 0 "#PWR038" H 1600 5975 50  0001 C CNN
-F 1 "GND" H 1600 6075 50  0001 C CNN
-F 2 "" H 1600 6225 50  0001 C CNN
-F 3 "" H 1600 6225 50  0001 C CNN
-	1    1600 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR0120
-U 1 1 606DB70A
-P 1600 6900
-F 0 "#PWR0120" H 1600 6650 50  0001 C CNN
-F 1 "GND" H 1600 6750 50  0001 C CNN
-F 2 "" H 1600 6900 50  0001 C CNN
-F 3 "" H 1600 6900 50  0001 C CNN
-	1    1600 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR0121
-U 1 1 606DC2B3
-P 1600 7675
-F 0 "#PWR0121" H 1600 7425 50  0001 C CNN
-F 1 "GND" H 1600 7525 50  0001 C CNN
-F 2 "" H 1600 7675 50  0001 C CNN
-F 3 "" H 1600 7675 50  0001 C CNN
-	1    1600 7675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1675 6200 1600 6200
-Wire Wire Line
-	1600 6200 1600 6225
-Wire Wire Line
-	1675 6875 1600 6875
-Wire Wire Line
-	1600 6875 1600 6900
-Wire Wire Line
-	1675 7625 1600 7625
-Wire Wire Line
-	1600 7625 1600 7675
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R9
-U 1 1 60814D6B
-P 1025 7125
-F 0 "R9" V 1079 7095 50  0000 L CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 1025 7125 50  0001 C CNN
-F 2 "" H 1025 7125 50  0001 C CNN
-F 3 "" H 1025 7125 50  0001 C CNN
-F 4 "100k" V 1170 7095 50  0000 L CNN "Val"
-F 5 "1%" H 1025 7125 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 1025 7125 50  0001 C CNN "Watt"
-	1    1025 7125
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R8
-U 1 1 60815A9F
-P 1025 6575
-F 0 "R8" V 1079 6545 50  0000 L CNN
-F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 1025 6575 50  0001 C CNN
-F 2 "" H 1025 6575 50  0001 C CNN
-F 3 "" H 1025 6575 50  0001 C CNN
-F 4 "10k" V 1170 6545 50  0000 L CNN "Val"
-F 5 "1%" H 1025 6575 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 1025 6575 50  0001 C CNN "Watt"
-	1    1025 6575
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:GND #PWR037
-U 1 1 609D1F56
-P 925 7500
-F 0 "#PWR037" H 925 7250 50  0001 C CNN
-F 1 "GND" H 925 7350 50  0001 C CNN
-F 2 "" H 925 7500 50  0001 C CNN
-F 3 "" H 925 7500 50  0001 C CNN
-	1    925  7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	925  7425 925  7500
-Wire Wire Line
-	1675 7450 1425 7450
-Wire Wire Line
-	1425 7450 1425 6950
-Wire Wire Line
-	1425 6950 925  6950
-Wire Wire Line
-	925  6875 925  6950
-Connection ~ 925  6950
-Wire Wire Line
-	925  6950 925  7025
-Wire Wire Line
-	1675 6700 1425 6700
-Connection ~ 1425 6700
-Wire Wire Line
-	1425 6025 1675 6025
-Wire Wire Line
-	925  6475 925  6400
-Text Notes 650  5950 0    50   ~ 0
-Switch on - HIGH\nSwitch off - LOW
-Connection ~ 1425 6950
-Wire Wire Line
-	1425 6950 1425 6700
-Wire Wire Line
-	1425 6025 1425 6700
 Text Label 3250 1125 2    50   ~ 0
 SWD-DIO
 Text GLabel 6450 1600 2    50   Output ~ 0
@@ -1581,4 +1398,6 @@ Wire Wire Line
 	6350 2100 6450 2100
 Text Notes 7350 1500 2    50   ~ 0
 SPI1 from MCU to FPGA
+Text GLabel 4800 2200 0    50   Input ~ 0
+SW_HOME
 $EndSCHEMATC
