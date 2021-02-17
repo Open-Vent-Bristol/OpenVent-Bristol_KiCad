@@ -257,7 +257,7 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4800 2300 0    50   BiDi ~ 0
-MOTOR-CTRL-STATUS
+PWR_UP
 $Comp
 L OpenVent:+5V #5V_02
 U 1 1 5F8DD15C

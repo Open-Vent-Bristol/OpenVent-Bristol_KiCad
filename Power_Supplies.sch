@@ -1219,4 +1219,78 @@ Text Notes 4600 1950 0    50   ~ 0
 (VIN_LIMITED is connected to input 12V through a 1K resistor.)
 Text Notes 4600 2050 0    50   ~ 0
 (Use only for status check of external power supply.)
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6034E4A9
+P 9800 3650
+AR Path="/5F988182/6034E4A9" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/6034E4A9" Ref="R?"  Part="1" 
+F 0 "R?" V 9854 3620 50  0000 L CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9800 3650 50  0001 C CNN
+F 2 "" H 9800 3650 60  0001 C CNN
+F 3 "" H 9800 3650 60  0001 C CNN
+F 4 "1K" V 9945 3620 50  0000 L CNN "Val"
+F 5 "1%" H 9800 3650 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9800 3650 50  0001 C CNN "Watt"
+	1    9800 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:LED_GREEN_0603_SMD D?
+U 1 1 6034E4B0
+P 9700 4650
+AR Path="/5F988182/6034E4B0" Ref="D?"  Part="1" 
+AR Path="/5F99D63D/6034E4B0" Ref="D?"  Part="1" 
+F 0 "D?" V 9954 4780 50  0000 L CNN
+F 1 "LED_GREEN_0603_SMD" H 9700 4650 60  0001 C CNN
+F 2 "" H 9700 4650 50  0000 C CNN
+F 3 "" H 9700 4650 50  0000 C CNN
+F 4 "GREEN" V 10045 4780 50  0000 L CNN "Val"
+	1    9700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:R_0603_560R_0.1W_1% R?
+U 1 1 6035A301
+P 9800 4200
+F 0 "R?" V 9854 4170 50  0000 L CNN
+F 1 "R_0603_560R_0.1W_1%" H 9800 4200 50  0001 C CNN
+F 2 "" H 9800 4200 60  0001 C CNN
+F 3 "" H 9800 4200 60  0001 C CNN
+F 4 "560R" V 9945 4170 50  0000 L CNN "Val"
+F 5 "1%" H 9800 4200 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9800 4200 50  0001 C CNN "Watt"
+	1    9800 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6036953F
+P 9700 5250
+F 0 "#PWR?" H 9700 5000 50  0001 C CNN
+F 1 "GND" H 9700 5100 50  0001 C CNN
+F 2 "" H 9700 5250 50  0001 C CNN
+F 3 "" H 9700 5250 50  0001 C CNN
+	1    9700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4650 9700 4500
+Wire Wire Line
+	9700 4100 9700 4050
+Text GLabel 9800 3400 2    50   Output ~ 0
+V7.5V_EN
+Wire Wire Line
+	9700 3550 9700 3400
+Wire Wire Line
+	9700 3400 9800 3400
+Text GLabel 9550 4050 0    50   BiDi ~ 0
+PWR_UP
+Wire Wire Line
+	9550 4050 9700 4050
+Connection ~ 9700 4050
+Wire Wire Line
+	9700 4050 9700 3950
+Text Notes 9450 3850 2    50   ~ 0
+MOTOR CONTROL\nSTATUS TO MCU
 $EndSCHEMATC
