@@ -496,8 +496,8 @@ $EndSheet
 $Sheet
 S 1500 2175 3500 550 
 U 5FCA4074
-F0 "Buzzer_LEDs" 50
-F1 "Buzzer_LEDs.sch" 50
+F0 "UI" 50
+F1 "UI.sch" 50
 $EndSheet
 Text Notes 5775 200  0    50   ~ 0
 VBATT IS 12V BUT CAN GO UP TO 14V
@@ -506,11 +506,5 @@ S 1500 2900 3500 500
 U 601B7AF8
 F0 "AD CONVERTERS" 50
 F1 "AD_conv.sch" 50
-$EndSheet
-$Sheet
-S 1500 3600 3500 350 
-U 601A5838
-F0 "LCD_FPGA" 50
-F1 "LCD_FPGA.sch" 50
 $EndSheet
 $EndSCHEMATC
