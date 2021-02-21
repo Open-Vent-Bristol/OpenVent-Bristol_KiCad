@@ -701,15 +701,15 @@ F 3 "" H 9800 3600 50  0001 C CNN
 	1    9800 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 2750 3125 0    60   ~ 0
+Text Notes 1030 3000 0    60   ~ 0
 Put a 100nF on the end and one in the middle\n
-Text Notes 900  4300 0    50   ~ 0
+Text Notes 1010 2700 0    50   ~ 0
 Sounder current, what is it? feedback signal that indigates that the beeper is working. We need to know what that signal looks like and the  figure out what we do with it
-Text Notes 900  4550 0    50   ~ 0
+Text Notes 970  2860 0    50   ~ 0
 sounder drive is ggoing to be 3v3 or 5v
-Text Notes 1050 5050 0    50   ~ 0
+Text Notes 1030 3110 0    50   ~ 0
 Sounder drive will be global thing too, comingf from the FPGA
-Text Notes 1075 5400 0    50   ~ 0
+Text Notes 1020 3210 0    50   ~ 0
 Sounder current coming into pin 8 on the micro
 $Comp
 L OpenVent:BS250P Q2
@@ -729,4 +729,282 @@ Wire Wire Line
 	8400 4700 8400 4800
 Wire Wire Line
 	8400 4250 8400 4700
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60318C1F
+P 3510 6260
+AR Path="/5F8F894A/60318C1F" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/60318C1F" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3510 6260 50  0001 C CNN
+F 1 "GND" H 3510 6190 50  0001 C CNN
+F 2 "" H 3510 6260 50  0001 C CNN
+F 3 "" H 3510 6260 50  0001 C CNN
+	1    3510 6260
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 60318C26
+P 3040 5700
+AR Path="/5F8F894A/60318C26" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/60318C26" Ref="#GND_0101"  Part="1" 
+F 0 "#GND_0101" H 3040 5700 20  0001 C CNN
+F 1 "GND" H 3040 5630 30  0001 C CNN
+F 2 "" H 3040 5700 70  0000 C CNN
+F 3 "" H 3040 5700 70  0000 C CNN
+	1    3040 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3510 4590 3610 4590
+Wire Wire Line
+	3610 4690 3510 4690
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 60318C63
+P 3140 5400
+AR Path="/5F8F894A/60318C63" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/60318C63" Ref="R83"  Part="1" 
+F 0 "R83" V 3194 5370 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3140 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3140 5400 50  0001 C CNN
+F 3 "" H 3140 5400 50  0001 C CNN
+F 4 "100k" V 3285 5370 50  0000 L CNN "Val"
+F 5 "1%" H 3140 5400 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3140 5400 50  0001 C CNN "Watt"
+	1    3140 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS?
+U 1 1 60318C87
+P 3810 4590
+AR Path="/60318C87" Ref="LS?"  Part="1" 
+AR Path="/5F8F894A/60318C87" Ref="LS?"  Part="1" 
+AR Path="/5FCA4074/60318C87" Ref="LS3"  Part="1" 
+F 0 "LS3" H 3980 4540 50  0000 L CNN
+F 1 "MAGNETIC_BUZZER_TRANSDUCER" H 3980 4495 50  0001 L CNN
+F 2 "OpenVent_Buzzer:rrrr" H 3810 4390 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/ct-1205h-smt-tr.pdf" H 3800 4540 50  0001 C CNN
+F 4 "AUDIO MAGNETIC IND 4-7V SMD" H 3810 4590 50  0001 C CNN "Desc"
+F 5 "Buzzers Indicator, Internally Driven Magnetic 5V 30mA 2.4kHz 90dB @ 5V, 10cm Surface Mount Solder Pads" H 3810 4590 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 3810 4590 50  0001 C CNN "DistName"
+F 7 "102-1123-ND" H 3810 4590 50  0001 C CNN "Dist_PN"
+F 8 "CUI Devices" H 3810 4590 50  0001 C CNN "Mfr"
+F 9 "CT-1205H-SMT-TR" H 3860 4240 50  0000 C CNN "Mfr_PN"
+	1    3810 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6036B620
+P 2600 5400
+AR Path="/5F8F894A/6036B620" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/6036B620" Ref="R82"  Part="1" 
+F 0 "R82" V 2654 5370 50  0000 L CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 2600 5400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 5400 50  0001 C CNN
+F 3 "" H 2600 5400 50  0001 C CNN
+F 4 "1k" V 2745 5370 50  0000 L CNN "Val"
+F 5 "1%" H 2600 5400 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2600 5400 50  0001 C CNN "Watt"
+	1    2600 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3040 5300 2700 5300
+Connection ~ 3040 5300
+$Comp
+L Transistor_FET:DMN3042L Q10
+U 1 1 6038C059
+P 3410 5300
+F 0 "Q10" H 3614 5346 50  0000 L CNN
+F 1 "PMF250XNEX" H 3614 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 3610 5225 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMF250XNE.pdf" H 3410 5300 50  0001 L CNN
+	1    3410 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT43W-V D18
+U 1 1 6039031D
+P 3050 4540
+F 0 "D18" V 3004 4620 50  0000 L CNN
+F 1 "B130-13-F" V 3095 4620 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 3050 4365 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds13002.pdf" H 3050 4540 50  0001 C CNN
+	1    3050 4540
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4830 3510 4830
+Wire Wire Line
+	3510 4690 3510 4830
+Connection ~ 3510 4830
+Wire Wire Line
+	3050 4300 3050 4390
+Wire Wire Line
+	3050 4300 3100 4300
+Wire Wire Line
+	3510 4300 3510 4590
+Wire Wire Line
+	3510 5500 3510 6260
+Wire Wire Line
+	3510 4830 3510 5100
+Wire Wire Line
+	3050 4690 3050 4830
+Wire Wire Line
+	3040 5300 3210 5300
+Text GLabel 1800 5300 0    50   Input ~ 0
+To_Decide_Signal
+Wire Wire Line
+	1800 5300 2300 5300
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 6037E806
+P 3000 3500
+AR Path="/5F99D63D/6037E806" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6037E806" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3000 3500 50  0001 C CNN
+F 1 "3V3" H 3000 3650 50  0000 C CNN
+F 2 "" H 3000 3500 50  0001 C CNN
+F 3 "" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 6037E80C
+P 3500 3500
+AR Path="/5F99D63D/6037E80C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6037E80C" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 3500 3350 50  0001 C CNN
+F 1 "V7.5V" H 3500 3673 50  0000 C CNN
+F 2 "" H 3500 3500 50  0001 C CNN
+F 3 "" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6037E812
+P 4000 3500
+AR Path="/5F99D63D/6037E812" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6037E812" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 4000 3500 50  0001 C CNN
+F 1 "+5V" H 4000 3700 50  0000 C CNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6038BA9E
+P 3100 3700
+AR Path="/5F8F894A/6038BA9E" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/6038BA9E" Ref="R84"  Part="1" 
+F 0 "R84" V 3154 3670 50  0000 L CNN
+F 1 "0R_0603_Chip_Resistor,_1%,_0.1W" H 3100 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3100 3700 50  0001 C CNN
+F 3 "" H 3100 3700 50  0001 C CNN
+F 4 "0R" V 3245 3670 50  0000 L CNN "Val"
+F 5 "1%" H 3100 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3100 3700 50  0001 C CNN "Watt"
+	1    3100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 603991CA
+P 3600 3700
+AR Path="/5F8F894A/603991CA" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/603991CA" Ref="R85"  Part="1" 
+F 0 "R85" V 3654 3670 50  0000 L CNN
+F 1 "0R_0603_Chip_Resistor,_1%,_0.1W" H 3600 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 3700 50  0001 C CNN
+F 3 "" H 3600 3700 50  0001 C CNN
+F 4 "0R" V 3745 3670 50  0000 L CNN "Val"
+F 5 "1%" H 3600 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3600 3700 50  0001 C CNN "Watt"
+	1    3600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6039A101
+P 4100 3700
+AR Path="/5F8F894A/6039A101" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/6039A101" Ref="R86"  Part="1" 
+F 0 "R86" V 4154 3670 50  0000 L CNN
+F 1 "0R_0603_Chip_Resistor,_1%,_0.1W" H 4100 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4100 3700 50  0001 C CNN
+F 3 "" H 4100 3700 50  0001 C CNN
+F 4 "0R" V 4245 3670 50  0000 L CNN "Val"
+F 5 "1%" H 4100 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 4100 3700 50  0001 C CNN "Watt"
+	1    4100 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3600 3000 3500
+Wire Wire Line
+	3500 3500 3500 3600
+Wire Wire Line
+	4000 3500 4000 3600
+Wire Wire Line
+	4000 4000 4000 4100
+Wire Wire Line
+	3000 4100 3000 4000
+Wire Wire Line
+	3500 4000 3500 4100
+Connection ~ 3500 4100
+Wire Wire Line
+	3500 4100 3000 4100
+Wire Wire Line
+	3000 4100 3000 4150
+Wire Wire Line
+	3000 4200 3100 4200
+Wire Wire Line
+	3100 4200 3100 4300
+Connection ~ 3000 4100
+Connection ~ 3100 4300
+Wire Wire Line
+	3100 4300 3510 4300
+Wire Wire Line
+	3500 4100 4000 4100
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C83
+U 1 1 6041A5CC
+P 2500 4400
+F 0 "C83" V 2646 3890 50  0000 R CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 2550 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 2550 4100 50  0001 C CNN
+F 3 "" H 2550 4100 50  0001 C CNN
+F 4 "100nF" V 2555 3890 50  0000 R CNN "Val"
+F 5 "25V" H 2550 4100 50  0001 C CNN "Voltage"
+F 6 "10%" H 2550 4100 50  0001 C CNN "Tolerance"
+	1    2500 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 4250 2500 4150
+Wire Wire Line
+	2500 4150 3000 4150
+Connection ~ 3000 4150
+Wire Wire Line
+	3000 4150 3000 4200
+$Comp
+L power:GND #PWR0136
+U 1 1 604363CF
+P 2500 4800
+F 0 "#PWR0136" H 2500 4550 50  0001 C CNN
+F 1 "GND" H 2505 4627 50  0000 C CNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4550 2500 4800
 $EndSCHEMATC
