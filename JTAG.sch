@@ -917,8 +917,6 @@ NoConn ~ 1400 3500
 NoConn ~ 3150 3850
 NoConn ~ 3300 5800
 NoConn ~ 4200 6000
-Text Notes 8950 4375 0    50   ~ 0
-THIS IS JEFF'S PAGE\n
 $Comp
 L OpenVent:3V3 #PWR0124
 U 1 1 60179266
@@ -950,4 +948,70 @@ $EndComp
 Wire Wire Line
 	2750 1950 2750 2000
 Connection ~ 2750 2000
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 603ABA41
+P 8625 3675
+F 0 "#PWR?" H 8625 3425 50  0001 C CNN
+F 1 "GND" H 8625 3525 50  0001 C CNN
+F 2 "" H 8625 3675 50  0001 C CNN
+F 3 "" H 8625 3675 50  0001 C CNN
+	1    8625 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 3575 8625 3575
+Wire Wire Line
+	8625 3575 8625 3675
+Wire Wire Line
+	8925 3475 8625 3475
+Wire Wire Line
+	8625 3475 8625 3575
+Connection ~ 8625 3575
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 603BA4C8
+P 8825 3275
+F 0 "#PWR?" H 8825 3125 50  0001 C CNN
+F 1 "3V3" H 8825 3448 50  0000 C CNN
+F 2 "" H 8825 3275 50  0001 C CNN
+F 3 "" H 8825 3275 50  0001 C CNN
+	1    8825 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 3275 8825 3375
+Wire Wire Line
+	8825 3375 8925 3375
+Text GLabel 10675 3475 2    50   Output ~ 0
+TCK
+Wire Wire Line
+	9925 3475 10675 3475
+Text GLabel 10675 3675 2    50   Output ~ 0
+TDI
+Text GLabel 10675 3575 2    50   Input ~ 0
+TDO
+Text GLabel 10675 3375 2    50   Output ~ 0
+TMS
+Wire Wire Line
+	10675 3675 9925 3675
+Wire Wire Line
+	9925 3575 10675 3575
+Wire Wire Line
+	10675 3375 9925 3375
+$Comp
+L OpenVent:Header_2x5 CN?
+U 1 1 603F320C
+P 9425 3225
+F 0 "CN?" H 9425 3300 50  0000 C CNN
+F 1 "Header_2x5" H 9425 3209 50  0000 C CNN
+F 2 "" H 9425 3225 50  0001 C CNN
+F 3 "" H 9425 3225 50  0001 C CNN
+	1    9425 3225
+	1    0    0    -1  
+$EndComp
+Text GLabel 10550 3775 2    50   Input ~ 0
+CONFIG_N
+Wire Wire Line
+	9925 3775 10550 3775
 $EndSCHEMATC

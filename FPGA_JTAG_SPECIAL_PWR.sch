@@ -1557,7 +1557,7 @@ Connection ~ 5050 5900
 Wire Wire Line
 	5050 5900 5050 6200
 Wire Wire Line
-	3750 5900 4750 5900
+	3750 5900 4225 5900
 Wire Wire Line
 	5450 5750 5450 5900
 Wire Wire Line
@@ -1713,4 +1713,11 @@ Wire Wire Line
 	3400 1150 3400 1200
 Wire Wire Line
 	3000 1150 3000 1200
+Wire Wire Line
+	4225 5900 4225 6275
+Connection ~ 4225 5900
+Wire Wire Line
+	4225 5900 4750 5900
+Text GLabel 4225 6275 3    50   Input ~ 0
+CONFIG_N
 $EndSCHEMATC
