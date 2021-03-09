@@ -145,10 +145,6 @@ F 3 "" H 8450 3600 70  0001 C CNN
 	1    8450 3600
 	1    0    0    -1  
 $EndComp
-Text Label 4150 3100 0    50   ~ 0
-SWD-CLK
-Text Label 4150 3000 0    50   ~ 0
-SWD-DIO
 Text Label 4050 2600 0    50   ~ 0
 USART-STM-TX
 Text Label 4050 2700 0    50   ~ 0
@@ -322,10 +318,6 @@ Wire Wire Line
 	3850 1900 4950 1900
 Wire Wire Line
 	4300 5000 4000 5000
-Wire Wire Line
-	4150 3100 4950 3100
-Wire Wire Line
-	4150 3000 4950 3000
 Wire Wire Line
 	7000 3900 6350 3900
 Wire Wire Line
@@ -1025,240 +1017,6 @@ $EndComp
 Wire Wire Line
 	2550 2800 2375 2800
 Wire Wire Line
-	2825 1225 2575 1225
-Wire Wire Line
-	2575 1225 2275 1225
-Connection ~ 2575 1225
-Connection ~ 2975 1125
-Wire Wire Line
-	2975 1125 3250 1125
-Wire Wire Line
-	2975 1125 2275 1125
-Wire Wire Line
-	2475 1525 2250 1525
-Wire Wire Line
-	2250 1525 2225 1525
-Connection ~ 2250 1525
-Wire Wire Line
-	1825 1525 1775 1525
-Wire Wire Line
-	2975 1575 2975 1425
-$Comp
-L OpenVent:GND #GND_021
-U 1 1 6002EF34
-P 2975 1575
-F 0 "#GND_021" H 2975 1575 20  0001 C CNN
-F 1 "GND" H 2975 1505 50  0001 C CNN
-F 2 "" H 2975 1575 70  0000 C CNN
-F 3 "" H 2975 1575 70  0000 C CNN
-	1    2975 1575
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2575 1700 2575 1550
-$Comp
-L OpenVent:GND #GND_023
-U 1 1 60018510
-P 2575 1700
-F 0 "#GND_023" H 2575 1700 20  0001 C CNN
-F 1 "GND" H 2575 1630 50  0001 C CNN
-F 2 "" H 2575 1700 70  0000 C CNN
-F 3 "" H 2575 1700 70  0000 C CNN
-	1    2575 1700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 2000 2250 1875
-$Comp
-L OpenVent:GND #GND_027
-U 1 1 600015E7
-P 2250 2000
-F 0 "#GND_027" H 2250 2000 20  0001 C CNN
-F 1 "GND" H 2250 1930 50  0001 C CNN
-F 2 "" H 2250 2000 70  0000 C CNN
-F 3 "" H 2250 2000 70  0000 C CNN
-	1    2250 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:SP3522-01UTG D14
-U 1 1 5FFD4204
-P 2250 1725
-F 0 "D14" H 2150 1675 50  0000 R CNN
-F 1 "SP3522-01UTG" H 2375 1600 50  0000 R CNN
-F 2 "0603 diode" H 2300 1925 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2250 1725 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2250 1425 50  0001 C CNN "Detailed"
-	1    2250 1725
-	0    1    -1   0   
-$EndComp
-$Comp
-L OpenVent:SP3522-01UTG D13
-U 1 1 5FFBD274
-P 2575 1400
-F 0 "D13" H 2500 1600 50  0000 R CNN
-F 1 "SP3522-01UTG" H 2625 1500 50  0000 R CNN
-F 2 "0603 diode" H 2625 1600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2575 1400 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2575 1100 50  0001 C CNN "Detailed"
-	1    2575 1400
-	0    1    -1   0   
-$EndComp
-$Comp
-L OpenVent:SP3522-01UTG D12
-U 1 1 5FFBAF31
-P 2975 1275
-F 0 "D12" H 3000 1475 50  0000 R CNN
-F 1 "SP3522-01UTG" H 3125 1375 50  0000 R CNN
-F 2 "0603 diode" H 3025 1475 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85734/mmbd914.pdf" H 2975 1275 50  0001 C CNN
-F 4 "ESD Suppressors / TVS Diodes 1 Ch 22kV 9.2V .15pF 0603" H 2975 975 50  0001 C CNN "Detailed"
-	1    2975 1275
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	2250 1525 2250 1575
-Wire Wire Line
-	2575 1225 2575 1250
-Wire Wire Line
-	1875 1125 1775 1125
-Wire Wire Line
-	1875 1225 1775 1225
-$Comp
-L OpenVent:33R_Chip_Resistor,_1%,_0.1W R50
-U 1 1 5FF35096
-P 2125 1425
-F 0 "R50" H 2225 1150 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 1775 1775 50  0001 C CNN
-F 2 "" H 2325 1425 50  0001 C CNN
-F 3 "" H 2125 1425 50  0001 C CNN
-F 4 "33R" H 2225 1225 50  0000 C CNN "Val"
-F 5 "1%" H 2675 1425 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 2125 1425 50  0001 C CNN "Watt"
-	1    2125 1425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:33R_Chip_Resistor,_1%,_0.1W R17
-U 1 1 5FF20228
-P 2175 1125
-F 0 "R17" H 2275 850 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 1825 1475 50  0001 C CNN
-F 2 "" H 2375 1125 50  0001 C CNN
-F 3 "" H 2175 1125 50  0001 C CNN
-F 4 "33R" H 2275 925 50  0000 C CNN "Val"
-F 5 "1%" H 2725 1125 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 2175 1125 50  0001 C CNN "Watt"
-	1    2175 1125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:33R_Chip_Resistor,_1%,_0.1W R16
-U 1 1 5FE9EE81
-P 2175 1025
-F 0 "R16" H 2275 1132 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 1825 1375 50  0001 C CNN
-F 2 "" H 2375 1025 50  0001 C CNN
-F 3 "" H 2175 1025 50  0001 C CNN
-F 4 "33R" H 2275 1041 50  0000 C CNN "Val"
-F 5 "1%" H 2725 1025 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 2175 1025 50  0001 C CNN "Watt"
-	1    2175 1025
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1775 1725
-NoConn ~ 1775 1625
-NoConn ~ 1775 1425
-NoConn ~ 1775 1325
-NoConn ~ 1775 1025
-NoConn ~ 1775 925 
-NoConn ~ 775  825 
-Wire Wire Line
-	775  1725 575  1725
-Wire Wire Line
-	775  1625 575  1625
-Wire Wire Line
-	775  1525 575  1525
-Wire Wire Line
-	775  1425 575  1425
-Wire Wire Line
-	775  1325 575  1325
-Wire Wire Line
-	775  1225 575  1225
-Wire Wire Line
-	775  1125 575  1125
-Wire Wire Line
-	775  1025 575  1025
-Wire Wire Line
-	775  925  575  925 
-Wire Wire Line
-	1975 825  1775 825 
-Wire Wire Line
-	575  925  575  1025
-Wire Wire Line
-	575  1025 575  1125
-Connection ~ 575  1025
-Wire Wire Line
-	575  1125 575  1225
-Connection ~ 575  1125
-Wire Wire Line
-	575  1225 575  1325
-Connection ~ 575  1225
-Wire Wire Line
-	575  1325 575  1425
-Connection ~ 575  1325
-Wire Wire Line
-	575  1425 575  1525
-Connection ~ 575  1425
-Wire Wire Line
-	575  1525 575  1625
-Connection ~ 575  1525
-Wire Wire Line
-	575  1625 575  1725
-Connection ~ 575  1625
-Wire Wire Line
-	575  1725 575  1925
-Connection ~ 575  1725
-$Comp
-L OpenVent:3V3 #3V3_01
-U 1 1 5F8DD163
-P 1975 825
-F 0 "#3V3_01" H 1975 825 20  0001 C CNN
-F 1 "3V3" H 1975 975 50  0000 C CNN
-F 2 "" H 1975 825 70  0001 C CNN
-F 3 "" H 1975 825 70  0001 C CNN
-	1    1975 825 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:2x10_Way_2.54mm_Pitch_Header CN1
-U 1 1 5F8DD145
-P 1825 1725
-F 0 "CN1" H 2525 2775 50  0000 L BNN
-F 1 "2x10_Way_2.54mm_Pitch_Header" H 1225 525 50  0001 L BNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1525 525 50  0001 C CNN
-F 3 "" H 1525 525 50  0001 C CNN
-	1    1825 1725
-	-1   0    0    -1  
-$EndComp
-Text Notes 1550 600  2    50   ~ 0
-SWD Connector
-Text Label 2475 1525 2    50   ~ 0
-~RESET~
-Text Label 2825 1225 2    50   ~ 0
-SWD-CLK
-$Comp
-L OpenVent:GND #GND_06
-U 1 1 5F8DD162
-P 575 1925
-F 0 "#GND_06" H 575 1925 20  0001 C CNN
-F 1 "GND" H 575 1855 50  0001 C CNN
-F 2 "" H 575 1925 70  0000 C CNN
-F 3 "" H 575 1925 70  0000 C CNN
-	1    575  1925
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
 	3075 2600 3075 2800
 Wire Wire Line
 	2950 2800 3075 2800
@@ -1366,8 +1124,6 @@ Wire Wire Line
 	4875 2500 4875 2475
 Wire Wire Line
 	4875 2475 4800 2475
-Text Label 3250 1125 2    50   ~ 0
-SWD-DIO
 Text GLabel 6450 1600 2    50   Output ~ 0
 SPI1_FPGA_CS
 Text GLabel 6450 1900 2    50   Output ~ 0
@@ -1729,4 +1485,6 @@ F 11 "Rohm Semiconductor" H 10600 1650 50  0001 C CNN "Mfr"
 	1    10600 1650
 	0    1    1    0   
 $EndComp
+Text Notes 8250 4150 0    50   ~ 0
+nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21
 $EndSCHEMATC
