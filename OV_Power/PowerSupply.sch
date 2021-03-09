@@ -807,9 +807,9 @@ Wire Wire Line
 	700  1600 700  1800
 Connection ~ 700  1800
 Text Notes 4300 6400 0    50   ~ 0
-Switch 3
+SW_END
 Text Notes 4300 6500 0    50   ~ 0
-Switch 2
+SW_BACKUP
 Text Notes 4300 6600 0    50   ~ 0
-Switch 1
+SW_HOME
 $EndSCHEMATC
