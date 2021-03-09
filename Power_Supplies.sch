@@ -1214,22 +1214,6 @@ Text Notes 4600 1950 0    50   ~ 0
 Text Notes 4600 2050 0    50   ~ 0
 (Use only for status check of external power supply.)
 $Comp
-L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 6034E4A9
-P 9800 3650
-AR Path="/5F988182/6034E4A9" Ref="R?"  Part="1" 
-AR Path="/5F99D63D/6034E4A9" Ref="R9"  Part="1" 
-F 0 "R9" V 9854 3620 50  0000 L CNN
-F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9800 3650 50  0001 C CNN
-F 2 "" H 9800 3650 60  0001 C CNN
-F 3 "" H 9800 3650 60  0001 C CNN
-F 4 "1K" V 9945 3620 50  0000 L CNN "Val"
-F 5 "1%" H 9800 3650 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9800 3650 50  0001 C CNN "Watt"
-	1    9800 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L OpenVent:LED_GREEN_0603_SMD D?
 U 1 1 6034E4B0
 P 9700 4650
@@ -1241,20 +1225,6 @@ F 2 "" H 9700 4650 50  0000 C CNN
 F 3 "" H 9700 4650 50  0000 C CNN
 F 4 "GREEN" V 10045 4780 50  0000 L CNN "Val"
 	1    9700 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L OpenVent:R_0603_560R_0.1W_1% R34
-U 1 1 6035A301
-P 9800 4200
-F 0 "R34" V 9854 4170 50  0000 L CNN
-F 1 "R_0603_560R_0.1W_1%" H 9800 4200 50  0001 C CNN
-F 2 "" H 9800 4200 60  0001 C CNN
-F 3 "" H 9800 4200 60  0001 C CNN
-F 4 "560R" V 9945 4170 50  0000 L CNN "Val"
-F 5 "1%" H 9800 4200 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9800 4200 50  0001 C CNN "Watt"
-	1    9800 4200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1278,15 +1248,13 @@ Wire Wire Line
 	9700 3550 9700 3400
 Wire Wire Line
 	9700 3400 9800 3400
-Text GLabel 9550 4050 0    50   Input ~ 0
-PWR_UP
 Wire Wire Line
 	9550 4050 9700 4050
 Connection ~ 9700 4050
 Wire Wire Line
 	9700 4050 9700 3950
 Text Notes 9450 3850 2    50   ~ 0
-CONTROL FROM MCU\nFOR 7.5V SWITCHER\nON POWER BOARD
+STATUS TO MCU\nFOR 7.5V SWITCHER\nON POWER BOARD
 Text GLabel 8050 1300 0    50   Output ~ 0
 SW_HOME
 Text GLabel 9750 1300 2    50   Output ~ 0
@@ -1295,4 +1263,34 @@ Text GLabel 8050 1400 0    50   Output ~ 0
 SW_END
 Text Notes 7150 1350 2    50   ~ 0
 SW_HOME, SW_END, SW_BACKUP\nare off-board microswitches
+$Comp
+L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R9
+U 1 1 604D7ED9
+P 9600 3850
+F 0 "R9" V 9454 4020 50  0000 L CNN
+F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" H 9600 3850 50  0001 C CNN
+F 2 "" H 9600 3850 50  0001 C CNN
+F 3 "" H 9600 3850 60  0001 C CNN
+F 4 "4k7" V 9545 4020 50  0000 L CNN "Val"
+F 5 "1%" H 9600 3850 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9600 3850 50  0001 C CNN "Watt"
+	1    9600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:470R_0603_Chip_Resistor,_1%,_0.1W R34
+U 1 1 604F65D4
+P 9800 4200
+F 0 "R34" V 9854 4170 50  0000 L CNN
+F 1 "470R_0603_Chip_Resistor,_1%,_0.1W" H 9800 4200 50  0001 C CNN
+F 2 "" H 9800 4200 50  0001 C CNN
+F 3 "" H 9800 4200 50  0001 C CNN
+F 4 "470R" V 9945 4170 50  0000 L CNN "Val"
+F 5 "1%" H 9800 4200 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9800 4200 50  0001 C CNN "Watt"
+	1    9800 4200
+	0    1    1    0   
+$EndComp
+Text GLabel 9550 4050 0    50   Output ~ 0
+PWR_UP
 $EndSCHEMATC

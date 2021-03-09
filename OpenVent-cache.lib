@@ -901,6 +901,23 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W
+#
+DEF OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+F0 "R" 140 100 50 H V L BNN
+F1 "OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "470R" 0 0 50 H V C CNN "Val"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 -60 200 -140 0 1 10 f
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_470k_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF OpenVent_470k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
@@ -952,6 +969,23 @@ DRAW
 S 0 -60 200 -140 0 1 10 f
 X 1 1 -100 -100 100 R 1 1 0 1 P
 X 2 2 300 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W
+#
+DEF OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+F0 "R" -60 100 50 H V L BNN
+F1 "OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "4k7" 0 0 50 H V C CNN "Val"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 140 -200 60 0 1 10 f
+X 1 1 100 100 100 L 1 1 0 1 P
+X 2 2 -300 100 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1819,25 +1853,6 @@ F1 "OpenVent_R_0603_49k9_0.1W_1%" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "49k9" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H I C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-S 0 -60 200 -140 0 1 10 f
-S 200 -140 0 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenVent_R_0603_560R_0.1W_1%
-#
-DEF OpenVent_R_0603_560R_0.1W_1% R 0 40 Y Y 1 F N
-F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent_R_0603_560R_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "560R" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
 F6 "0.1W" 0 0 50 H I C CNN "Watt"
 DRAW
