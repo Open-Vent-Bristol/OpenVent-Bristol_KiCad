@@ -1003,7 +1003,7 @@ L OpenVent:Header_2x5 CN?
 U 1 1 603F320C
 P 9425 3225
 F 0 "CN?" H 9425 3300 50  0000 C CNN
-F 1 "2x5_1.27mm_header" H 9425 3209 50  0000 C CNN
+F 1 "2x5_Way_1.27mm_Pitch_Header" H 9425 3209 50  0000 C CNN
 F 2 "" H 9425 3225 50  0001 C CNN
 F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9425 3225 50  0001 C CNN
 	1    9425 3225
