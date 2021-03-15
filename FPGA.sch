@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -25,32 +25,6 @@ Text GLabel 1950 1600 0    50   Input ~ 0
 OXYGEN-SENSOR
 Text GLabel 1950 1500 0    50   Input ~ 0
 PRESSURE-PATIENT-SENSOR
-$Comp
-L OpenVent:GW1N-9LQ100 U8
-U 6 1 5FCFFCE4
-P 2250 4250
-AR Path="/5FCFFCE4" Ref="U8"  Part="6" 
-AR Path="/5F8F894A/5FCFFCE4" Ref="U8"  Part="6" 
-F 0 "U8" H 3225 5098 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 3225 5007 50  0000 C CNN
-F 2 "" H 2500 6150 50  0001 C CNN
-F 3 "" H 2500 6150 50  0001 C CNN
-	6    2250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
-U 4 1 5FD034FE
-P 1350 7200
-AR Path="/5FD034FE" Ref="U8"  Part="4" 
-AR Path="/5F8F894A/5FD034FE" Ref="U8"  Part="4" 
-F 0 "U8" H 2075 7748 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 2075 7657 50  0000 C CNN
-F 2 "" H 1600 9100 50  0001 C CNN
-F 3 "" H 1600 9100 50  0001 C CNN
-	4    1350 7200
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:SiT8008B U14
 U 1 1 5FD185A9
@@ -212,19 +186,6 @@ F 3 "" H 5750 2350 50  0001 C CNN
 	1    5750 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L OpenVent:GW1N-9LQ100 U8
-U 5 1 5FE312A6
-P 7100 2800
-AR Path="/5FE312A6" Ref="U8"  Part="5" 
-AR Path="/5F8F894A/5FE312A6" Ref="U8"  Part="5" 
-F 0 "U8" H 7825 4348 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 7825 4257 50  0000 C CNN
-F 2 "" H 7350 4700 50  0001 C CNN
-F 3 "" H 7350 4700 50  0001 C CNN
-	5    7100 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 3450 1250 3450
 Wire Wire Line
@@ -330,27 +291,27 @@ Text GLabel 4850 3950 2    50   Input ~ 0
 Vcap_E
 Text GLabel 4850 4350 2    50   Input ~ 0
 Vcap_F
-Text GLabel 8750 4600 2    50   Output ~ 0
+Text GLabel 9100 4550 2    50   Output ~ 0
 LCD_RS
-Text GLabel 8750 4500 2    50   BiDi ~ 0
+Text GLabel 9100 4450 2    50   BiDi ~ 0
 LCD_RW
-Text GLabel 8750 4400 2    50   Output ~ 0
+Text GLabel 9100 4350 2    50   Output ~ 0
 LCD_A_ENABLE
-Text GLabel 8750 4300 2    50   BiDi ~ 0
+Text GLabel 9100 4250 2    50   BiDi ~ 0
 LCD_DB0
-Text GLabel 8750 4200 2    50   BiDi ~ 0
+Text GLabel 9100 4150 2    50   BiDi ~ 0
 LCD_DB1
-Text GLabel 8750 4800 2    50   BiDi ~ 0
+Text GLabel 9100 4750 2    50   BiDi ~ 0
 LCD_DB3
-Text GLabel 8750 4700 2    50   BiDi ~ 0
+Text GLabel 9100 4650 2    50   BiDi ~ 0
 LCD_DB2
-Text GLabel 8750 5000 2    50   BiDi ~ 0
+Text GLabel 9100 4950 2    50   BiDi ~ 0
 LCD_DB5
-Text GLabel 8750 4900 2    50   BiDi ~ 0
+Text GLabel 9100 4850 2    50   BiDi ~ 0
 LCD_DB4
-Text GLabel 8750 5200 2    50   BiDi ~ 0
+Text GLabel 9100 5150 2    50   BiDi ~ 0
 LCD_DB7
-Text GLabel 8750 5100 2    50   BiDi ~ 0
+Text GLabel 9100 5050 2    50   BiDi ~ 0
 LCD_DB6
 Wire Notes Line
 	5250 5525 11000 5525
@@ -364,14 +325,6 @@ Wire Notes Line
 	500  7750 4000 7750
 Wire Notes Line
 	4000 7750 4000 6250
-Text Notes 8325 3775 0    118  ~ 0
-Bank 0 = +5V_Sensors
-Text Notes 7150 1200 0    59   ~ 0
-Bank 2 = +3V3_Sensors\n
-Text Notes 600  6075 0    50   ~ 0
-Bank 1 = +3V3_Sensors if GOW1N -9 or 3V3 if GOWIN -4
-Text Notes 1800 6475 0    118  ~ 0
-Bank 3 = +5V_Sensors
 Wire Notes Line
 	5250 500  11000 500 
 Wire Notes Line
@@ -400,27 +353,27 @@ F 3 "" H 6350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 4200 8500 4200
+	9100 4150 8850 4150
 Wire Wire Line
-	8500 4300 8750 4300
+	8850 4250 9100 4250
 Wire Wire Line
-	8750 4400 8500 4400
+	9100 4350 8850 4350
 Wire Wire Line
-	8500 4500 8750 4500
+	8850 4450 9100 4450
 Wire Wire Line
-	8750 4600 8500 4600
+	9100 4550 8850 4550
 Wire Wire Line
-	8500 4700 8750 4700
+	8850 4650 9100 4650
 Wire Wire Line
-	8750 4800 8500 4800
+	9100 4750 8850 4750
 Wire Wire Line
-	8500 4900 8750 4900
+	8850 4850 9100 4850
 Wire Wire Line
-	8750 5000 8500 5000
+	9100 4950 8850 4950
 Wire Wire Line
-	8500 5100 8750 5100
+	8850 5050 9100 5050
 Wire Wire Line
-	8750 5200 8500 5200
+	9100 5150 8850 5150
 Wire Wire Line
 	7200 5050 7000 5050
 Wire Wire Line
@@ -471,17 +424,6 @@ Wire Wire Line
 	9350 3000 9000 3000
 Wire Wire Line
 	9000 2400 8750 2400
-$Comp
-L OpenVent:GW1N-9LQ100 U8
-U 3 1 6050EC36
-P 7200 5150
-F 0 "U8" H 7850 6448 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 7850 6357 50  0000 C CNN
-F 2 "" H 6500 6800 50  0001 C CNN
-F 3 "" H 6500 6800 50  0001 C CNN
-	3    7200 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 4450 2050 4450
 Wire Wire Line
@@ -609,4 +551,39 @@ Wire Wire Line
 	7100 2100 7000 2100
 Wire Wire Line
 	7100 2200 7000 2200
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 6 1 6053AF87
+P 3300 3650
+F 0 "U8" H 3325 3898 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3325 3807 50  0000 C CNN
+F 2 "" H 6600 2750 50  0001 C CNN
+F 3 "" H 6600 2750 50  0001 C CNN
+	6    3300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 5 1 6054191D
+P 7900 1400
+F 0 "U8" H 7858 1648 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7858 1557 50  0000 C CNN
+F 2 "" H 11200 500 50  0001 C CNN
+F 3 "" H 11200 500 50  0001 C CNN
+	5    7900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 4 1 60544613
+P 8050 4050
+F 0 "U8" H 8025 4298 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 8025 4207 50  0000 C CNN
+F 2 "" H 11350 3150 50  0001 C CNN
+F 3 "" H 11350 3150 50  0001 C CNN
+	4    8050 4050
+	1    0    0    -1  
+$EndComp
+Text Notes 600  6075 0    50   ~ 0
+Bank 1 = +3V3_Sensors if GOW1N -9 or 3V3 if GOWIN -4
 $EndSCHEMATC
