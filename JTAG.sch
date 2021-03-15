@@ -836,7 +836,6 @@ Wire Wire Line
 	4350 6350 4350 6400
 Wire Wire Line
 	3150 6350 3150 6400
-NoConn ~ 7250 2700
 NoConn ~ 7250 2800
 NoConn ~ 7250 2900
 NoConn ~ 7250 3000
@@ -1004,14 +1003,14 @@ L OpenVent:Header_2x5 CN?
 U 1 1 603F320C
 P 9425 3225
 F 0 "CN?" H 9425 3300 50  0000 C CNN
-F 1 "Header_2x5" H 9425 3209 50  0000 C CNN
+F 1 "2x5_1.27mm_header" H 9425 3209 50  0000 C CNN
 F 2 "" H 9425 3225 50  0001 C CNN
-F 3 "" H 9425 3225 50  0001 C CNN
+F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9425 3225 50  0001 C CNN
 	1    9425 3225
 	1    0    0    -1  
 $EndComp
 Text GLabel 10550 3775 2    50   Input ~ 0
-CONFIG_N
+NRST
 Wire Wire Line
 	9925 3775 10550 3775
 $Comp
@@ -1030,4 +1029,8 @@ Wire Wire Line
 Wire Wire Line
 	8800 3775 8925 3775
 NoConn ~ 8925 3675
+Text GLabel 7875 2700 2    50   Output ~ 0
+NRST
+Wire Wire Line
+	7250 2700 7875 2700
 $EndSCHEMATC
