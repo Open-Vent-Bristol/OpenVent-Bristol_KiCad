@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -125,25 +125,6 @@ F 3 "" H 5450 5050 50  0001 C CNN
 $EndComp
 Text Notes 6575 1150 0    100  ~ 0
 +5V to 3V3 LDO for \nADC and 3V3 sensors\n
-Text GLabel 1100 5950 0    50   Input ~ 0
-TDI_F
-Text GLabel 1100 6050 0    50   Output ~ 0
-TDO_F
-$Comp
-L OpenVent:GW1N-9LQ100 U?
-U 2 1 5FB7C2DC
-P 1700 6050
-AR Path="/5F8F894A/5FB7C2DC" Ref="U?"  Part="2" 
-AR Path="/5FB692C4/5FB7C2DC" Ref="U900"  Part="2" 
-AR Path="/5FBE8499/5FB7C2DC" Ref="U8"  Part="2" 
-AR Path="/5FB7C2DC" Ref="U8"  Part="2" 
-F 0 "U8" H 2625 6715 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 2625 6624 50  0000 C CNN
-F 2 "" H 1950 7950 50  0001 C CNN
-F 3 "" H 1950 7950 50  0001 C CNN
-	2    1700 6050
-	1    0    0    -1  
-$EndComp
 Text Notes 7250 3875 0    100  ~ 0
 Bypass Caps for Power Block
 $Comp
@@ -862,9 +843,9 @@ F 6 "10%" H 5150 6450 50  0001 C CNN "Tolerance"
 	1    5150 6450
 	0    1    1    0   
 $EndComp
-Text GLabel 1100 5750 0    50   Input ~ 0
+Text GLabel 1100 5800 0    50   Input ~ 0
 TCK_F
-Text GLabel 1100 5650 0    50   Input ~ 0
+Text GLabel 1100 5700 0    50   Input ~ 0
 TMS_F
 Wire Wire Line
 	9025 6250 9550 6250
@@ -1447,8 +1428,6 @@ Wire Wire Line
 	5050 5900 5450 5900
 Text Label 3900 5500 1    50   ~ 0
 READY
-Wire Wire Line
-	1100 5750 1250 5750
 $Comp
 L OpenVent:LED_GREEN_0603_SMD D20
 U 1 1 5FFDA099
@@ -1502,57 +1481,13 @@ Text Label 7500 2050 0    50   ~ 0
 Text Label 10000 2000 0    50   ~ 0
 1v2
 Wire Wire Line
-	1700 6150 1600 6150
+	1700 6100 1600 6100
 Wire Wire Line
-	1600 6150 1600 6300
-Wire Wire Line
-	1250 5750 1250 6300
-Wire Wire Line
-	1100 5650 1700 5650
-Wire Wire Line
-	1700 5750 1250 5750
-Connection ~ 1250 5750
-Wire Wire Line
-	1100 5950 1700 5950
-Wire Wire Line
-	1700 6050 1100 6050
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 602B99A9
-P 1500 6600
-AR Path="/5F8F8987/602B99A9" Ref="R?"  Part="1" 
-AR Path="/5FB692C4/602B99A9" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/602B99A9" Ref="R31"  Part="1" 
-F 0 "R31" H 1550 6600 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 1500 6600 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1500 6600 50  0001 C CNN
-F 3 "" H 1500 6600 50  0001 C CNN
-F 4 "10k" H 1600 6400 50  0000 C CNN "Val"
-F 5 "1%" H 1500 6600 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 1500 6600 50  0001 C CNN "Watt"
-	1    1500 6600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:GND #PWR?
-U 1 1 602BA03B
-P 1600 6750
-AR Path="/5F8F8987/602BA03B" Ref="#PWR?"  Part="1" 
-AR Path="/5FB692C4/602BA03B" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE8499/602BA03B" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 1600 6500 50  0001 C CNN
-F 1 "GND" H 1600 6600 50  0001 C CNN
-F 2 "" H 1600 6750 50  0001 C CNN
-F 3 "" H 1600 6750 50  0001 C CNN
-	1    1600 6750
-	1    0    0    -1  
-$EndComp
+	1100 5700 1700 5700
 Wire Wire Line
 	3750 6000 3900 6000
 Wire Wire Line
 	3900 6000 3900 6250
-Wire Wire Line
-	1600 6700 1600 6750
 Connection ~ 5050 5900
 Wire Wire Line
 	5050 5900 5050 6200
@@ -1570,22 +1505,6 @@ Wire Wire Line
 Connection ~ 4150 5750
 Wire Wire Line
 	3900 5200 3900 5700
-$Comp
-L OpenVent:GW1N-9LQ100 U?
-U 1 1 5FCF4A75
-P 3800 2850
-AR Path="/5F8F894A/5FCF4A75" Ref="U?"  Part="1" 
-AR Path="/5FB6918A/5FCF4A75" Ref="U?"  Part="1" 
-AR Path="/5FB692C4/5FCF4A75" Ref="U900"  Part="1" 
-AR Path="/5FBE8499/5FCF4A75" Ref="U8"  Part="1" 
-AR Path="/5FCF4A75" Ref="U8"  Part="1" 
-F 0 "U8" H 4425 4265 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 4425 4174 50  0000 C CNN
-F 2 "" H 4050 4750 50  0001 C CNN
-F 3 "" H 4050 4750 50  0001 C CNN
-	1    3800 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 1850 5400 1850
 Wire Wire Line
@@ -1720,4 +1639,76 @@ Wire Wire Line
 	4225 5900 4750 5900
 Text GLabel 4225 6275 3    50   Input ~ 0
 CONFIG_N
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 2 1 6056D408
+P 2700 5600
+F 0 "U8" H 2725 5848 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 2725 5757 50  0000 C CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	2    2700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GW1N-9LQ100 U8
+U 1 1 6057C800
+P 4500 1600
+F 0 "U8" H 4525 1765 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 4525 1674 50  0000 C CNN
+F 2 "" H 7800 700 50  0001 C CNN
+F 3 "" H 7800 700 50  0001 C CNN
+	1    4500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6650 1600 6700
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 602BA03B
+P 1600 6700
+AR Path="/5F8F8987/602BA03B" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/602BA03B" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/602BA03B" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 1600 6450 50  0001 C CNN
+F 1 "GND" H 1600 6550 50  0001 C CNN
+F 2 "" H 1600 6700 50  0001 C CNN
+F 3 "" H 1600 6700 50  0001 C CNN
+	1    1600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 602B99A9
+P 1500 6550
+AR Path="/5F8F8987/602B99A9" Ref="R?"  Part="1" 
+AR Path="/5FB692C4/602B99A9" Ref="R?"  Part="1" 
+AR Path="/5FBE8499/602B99A9" Ref="R31"  Part="1" 
+F 0 "R31" H 1550 6550 50  0000 C CNN
+F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 1500 6550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1500 6550 50  0001 C CNN
+F 3 "" H 1500 6550 50  0001 C CNN
+F 4 "10k" H 1600 6350 50  0000 C CNN "Val"
+F 5 "1%" H 1500 6550 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1500 6550 50  0001 C CNN "Watt"
+	1    1500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 6100 1600 6250
+Wire Wire Line
+	1700 6000 1100 6000
+Wire Wire Line
+	1100 5900 1700 5900
+Text GLabel 1100 6000 0    50   Output ~ 0
+TDO_F
+Text GLabel 1100 5900 0    50   Input ~ 0
+TDI_F
+Wire Wire Line
+	1100 5800 1250 5800
+Wire Wire Line
+	1250 6300 1250 5800
+Connection ~ 1250 5800
+Wire Wire Line
+	1250 5800 1700 5800
 $EndSCHEMATC

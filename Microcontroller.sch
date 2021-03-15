@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -1487,77 +1487,8 @@ F 11 "Rohm Semiconductor" H 10600 1650 50  0001 C CNN "Mfr"
 $EndComp
 Text Notes 8250 4150 0    50   ~ 0
 nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21
-$Comp
-L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
-U 1 1 6050B782
-P 1200 1700
-F 0 "JP?" H 1393 2375 50  0000 C CNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1400 2200 50  0001 C CNN
-F 2 "" H 1400 2200 50  0001 C CNN
-F 3 "" H 1400 2200 50  0001 C CNN
-	1    1200 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenVent:+3.3V #PWR?
-U 1 1 6050E8FB
-P 1250 850
-F 0 "#PWR?" H 1250 700 50  0001 C CNN
-F 1 "+3.3V" H 1250 1023 50  0000 C CNN
-F 2 "" H 1250 850 50  0001 C CNN
-F 3 "" H 1250 850 50  0001 C CNN
-	1    1250 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR?
-U 1 1 6050F327
-P 1500 1100
-F 0 "#PWR?" H 1500 850 50  0001 C CNN
-F 1 "GND" H 1500 950 50  0001 C CNN
-F 2 "" H 1500 1100 50  0001 C CNN
-F 3 "" H 1500 1100 50  0001 C CNN
-	1    1500 1100
-	1    0    0    -1  
-$EndComp
-Text GLabel 1500 1400 2    50   Output ~ 0
-SPI1_FPGA_CS
-Text GLabel 1500 1700 2    50   Output ~ 0
-SPI1_MISO
-Text GLabel 1500 1850 2    50   Output ~ 0
-SPI1_MOSI
-Text GLabel 1500 1550 2    50   Output ~ 0
-SPI1_SCLK
+Text GLabel 6450 1700 2    50   Input ~ 0
+FPGA_READY
 Wire Wire Line
-	1200 1200 1250 1200
-Wire Wire Line
-	1250 1200 1250 850 
-Wire Wire Line
-	1200 1300 1300 1300
-Wire Wire Line
-	1300 1300 1300 950 
-Wire Wire Line
-	1300 950  1500 950 
-Wire Wire Line
-	1500 950  1500 1100
-Wire Wire Line
-	1200 1400 1500 1400
-Wire Wire Line
-	1200 1500 1400 1500
-Wire Wire Line
-	1400 1500 1400 1550
-Wire Wire Line
-	1400 1550 1500 1550
-Wire Wire Line
-	1200 1600 1350 1600
-Wire Wire Line
-	1350 1600 1350 1700
-Wire Wire Line
-	1350 1700 1500 1700
-Wire Wire Line
-	1200 1700 1250 1700
-Wire Wire Line
-	1250 1700 1250 1850
-Wire Wire Line
-	1250 1850 1500 1850
+	6350 1700 6450 1700
 $EndSCHEMATC
