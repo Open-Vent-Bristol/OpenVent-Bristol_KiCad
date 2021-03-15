@@ -1487,4 +1487,8 @@ F 11 "Rohm Semiconductor" H 10600 1650 50  0001 C CNN "Mfr"
 $EndComp
 Text Notes 8250 4150 0    50   ~ 0
 nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21
+Text GLabel 6450 1700 2    50   Input ~ 0
+FPGA_READY
+Wire Wire Line
+	6350 1700 6450 1700
 $EndSCHEMATC
