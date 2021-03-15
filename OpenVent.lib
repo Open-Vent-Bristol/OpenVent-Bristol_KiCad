@@ -462,6 +462,21 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 1x3_Way_2.54mm_Pitch_Header
+#
+DEF 1x3_Way_2.54mm_Pitch_Header U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "1x3_Way_2.54mm_Pitch_Header" 50 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 -150 350 -500 0 1 0 f
+X Passive 1 -200 -600 100 U 50 50 1 1 P
+X Input 2 0 -600 100 U 50 50 1 1 I
+X Passive 3 200 -600 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2.2uF_2824_film_capacitor_10%_40V
 #
 DEF 2.2uF_2824_film_capacitor_10%_40V C 0 40 Y Y 1 F N

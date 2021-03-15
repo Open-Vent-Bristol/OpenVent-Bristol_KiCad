@@ -89,8 +89,6 @@ F 3 "" H 7900 5300 70  0001 C CNN
 	1    7900 5300
 	1    0    0    -1  
 $EndComp
-Text Label 8000 4100 0    50   ~ 0
-~RESET~
 $Comp
 L OpenVent:GND #GND_09
 U 1 1 5F8DD16E
@@ -361,10 +359,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3900 7400 4100
 Wire Wire Line
-	7400 4100 8000 4100
-Wire Wire Line
-	6350 4100 7400 4100
-Wire Wire Line
 	3575 6325 3575 6425
 Wire Wire Line
 	3975 7025 4025 7025
@@ -386,7 +380,6 @@ Connection ~ 1500 4350
 Connection ~ 3575 7025
 Connection ~ 3975 7025
 Connection ~ 4825 7025
-Connection ~ 7400 4100
 Connection ~ 7900 4550
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C4
@@ -754,8 +747,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 4100 4950 4100
 Wire Wire Line
-	4800 2000 4950 2000
-Wire Wire Line
 	4800 2100 4950 2100
 Wire Wire Line
 	4800 2300 4950 2300
@@ -1112,10 +1103,8 @@ Text Notes 400  8150 0    50   ~ 0
 OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
 Text GLabel 4800 2475 0    50   Input ~ 0
 SW_BACKUP
-Text GLabel 4750 3200 0    50   Input ~ 0
+Text GLabel 4600 2000 0    50   Input ~ 0
 SW_END
-Wire Wire Line
-	4950 3200 4750 3200
 Wire Wire Line
 	4950 2200 4800 2200
 Wire Wire Line
@@ -1486,9 +1475,30 @@ F 11 "Rohm Semiconductor" H 10600 1650 50  0001 C CNN "Mfr"
 	0    1    1    0   
 $EndComp
 Text Notes 8250 4150 0    50   ~ 0
-nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21
+nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21\n\nJTAG/SWD nRST has been added \nKA 15/03/21\n
 Text GLabel 6450 1700 2    50   Input ~ 0
 FPGA_READY
 Wire Wire Line
 	6350 1700 6450 1700
+Wire Wire Line
+	4600 2000 4950 2000
+Text GLabel 4200 3000 0    50   Input ~ 0
+TMS
+Wire Wire Line
+	4200 3000 4950 3000
+Text GLabel 4200 3100 0    50   Input ~ 0
+TCK
+Wire Wire Line
+	4200 3100 4950 3100
+Text GLabel 4200 3200 0    50   Input ~ 0
+TDI
+Wire Wire Line
+	4200 3200 4950 3200
+Wire Wire Line
+	6350 4100 7400 4100
+Wire Wire Line
+	7400 4100 8025 4100
+Text GLabel 8025 4100 2    50   Input ~ 0
+NRST
+Connection ~ 7400 4100
 $EndSCHEMATC
