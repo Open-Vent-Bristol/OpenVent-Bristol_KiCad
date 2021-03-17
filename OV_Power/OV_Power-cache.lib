@@ -230,6 +230,26 @@ X D 3 0 0 100 D 70 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OV_Power-rescue_470pF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent_copy
+#
+DEF OV_Power-rescue_470pF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent_copy C 0 40 Y Y 1 F N
+F0 "C" -110 190 50 H V L BNN
+F1 "OV_Power-rescue_470pF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent_copy" -725 400 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "470p" 275 75 50 H V C CNN "Val"
+F5 "50V" -25 -425 50 H I C CNN "Voltage"
+F6 "10%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+P 2 0 1 10 0 -100 30 -100 N
+P 2 0 1 10 30 -180 30 -20 N
+P 2 0 1 10 70 -20 70 -180 N
+P 2 0 1 10 100 -100 70 -100 N
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 200 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # OV_Power-rescue_532530670-OpenVent
 #
 DEF OV_Power-rescue_532530670-OpenVent J 0 40 Y N 1 F N
