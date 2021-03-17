@@ -35,6 +35,10 @@ D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
 $ENDCMP
 #
+$CMP 2x5_Way_1.27mm_Pitch_Header
+F http://www.cnctech.us/idcmatching2.pdf
+$ENDCMP
+#
 $CMP 532530670
 D Connector Header Through Hole 6 position 0.079" (2.00mm)
 K connector
