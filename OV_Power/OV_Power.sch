@@ -1134,10 +1134,8 @@ Wire Wire Line
 	4300 5700 4300 5600
 Wire Wire Line
 	4300 5600 4350 5600
-Text GLabel 6950 5400 2    50   Output ~ 0
+Text GLabel 7500 5400 2    50   Output ~ 0
 V7.5V
-Wire Wire Line
-	6950 5400 6650 5400
 Connection ~ 6100 5400
 Wire Wire Line
 	6100 5400 6100 5450
@@ -1422,4 +1420,38 @@ Wire Wire Line
 Wire Wire Line
 	10450 950  10450 1150
 Connection ~ 10450 1150
+$Comp
+L OV_Power-rescue:470pF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent_copy C20
+U 1 1 60549715
+P 7300 5625
+F 0 "C20" V 7304 5635 50  0000 L CNN
+F 1 "470pF_0603_Ceramic_Capacitor,_10%,_50V,_X7R--OpenVent_copy" H 6575 6025 50  0001 C CNN
+F 2 "" H 7300 5625 50  0001 C CNN
+F 3 "" H 7300 5625 50  0001 C CNN
+F 4 "470p" V 7395 5635 50  0000 L CNN "Val"
+F 5 "50V" H 7275 5200 50  0001 C CNN "Voltage"
+F 6 "10%" H 7300 5625 50  0001 C CNN "Tolerance"
+	1    7300 5625
+	0    1    1    0   
+$EndComp
+$Comp
+L OV_Power-rescue:GND-OpenVent #PWR016
+U 1 1 6055AEEE
+P 7200 5875
+F 0 "#PWR016" H 7200 5625 50  0001 C CNN
+F 1 "GND" H 7200 5725 50  0001 C CNN
+F 2 "" H 7200 5875 50  0001 C CNN
+F 3 "" H 7200 5875 50  0001 C CNN
+	1    7200 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5400 7200 5400
+Wire Wire Line
+	7200 5525 7200 5400
+Connection ~ 7200 5400
+Wire Wire Line
+	7200 5400 7500 5400
+Wire Wire Line
+	7200 5875 7200 5825
 $EndSCHEMATC

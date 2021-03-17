@@ -948,10 +948,10 @@ Wire Wire Line
 	2750 1950 2750 2000
 Connection ~ 2750 2000
 $Comp
-L OpenVent:GND #PWR?
+L OpenVent:GND #PWR02
 U 1 1 603ABA41
 P 8250 3650
-F 0 "#PWR?" H 8250 3400 50  0001 C CNN
+F 0 "#PWR02" H 8250 3400 50  0001 C CNN
 F 1 "GND" H 8250 3500 50  0001 C CNN
 F 2 "" H 8250 3650 50  0001 C CNN
 F 3 "" H 8250 3650 50  0001 C CNN
@@ -968,10 +968,10 @@ Wire Wire Line
 	8250 3450 8250 3550
 Connection ~ 8250 3550
 $Comp
-L OpenVent:3V3 #PWR?
+L OpenVent:3V3 #PWR04
 U 1 1 603BA4C8
 P 8450 3250
-F 0 "#PWR?" H 8450 3100 50  0001 C CNN
+F 0 "#PWR04" H 8450 3100 50  0001 C CNN
 F 1 "3V3" H 8450 3423 50  0000 C CNN
 F 2 "" H 8450 3250 50  0001 C CNN
 F 3 "" H 8450 3250 50  0001 C CNN
@@ -998,28 +998,15 @@ Wire Wire Line
 	9550 3550 10300 3550
 Wire Wire Line
 	10300 3350 9550 3350
-$Comp
-L OpenVent-rescue:Header_2x5-OpenVent CN?
-U 1 1 603F320C
-P 9050 3200
-AR Path="/603F320C" Ref="CN?"  Part="1" 
-AR Path="/5F8F8987/603F320C" Ref="CN?"  Part="1" 
-F 0 "CN?" H 9050 3275 50  0000 C CNN
-F 1 "2x5_Way_1.27mm_Pitch_Header" H 9050 3184 50  0000 C CNN
-F 2 "" H 9050 3200 50  0001 C CNN
-F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9050 3200 50  0001 C CNN
-	1    9050 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 10175 3750 2    50   Input ~ 0
+Text GLabel 10175 3750 2    50   Output ~ 0
 NRST
 Wire Wire Line
 	9550 3750 10175 3750
 $Comp
-L OpenVent:GND #PWR?
+L OpenVent:GND #PWR03
 U 1 1 6041AEF9
 P 8425 3850
-F 0 "#PWR?" H 8425 3600 50  0001 C CNN
+F 0 "#PWR03" H 8425 3600 50  0001 C CNN
 F 1 "GND" H 8425 3700 50  0001 C CNN
 F 2 "" H 8425 3850 50  0001 C CNN
 F 3 "" H 8425 3850 50  0001 C CNN
@@ -1033,6 +1020,49 @@ Wire Wire Line
 NoConn ~ 8550 3650
 Text GLabel 7875 2700 2    50   Output ~ 0
 NRST
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R1
+U 1 1 6053B2C9
+P 7875 3025
+F 0 "R1" V 7929 2995 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 7875 3025 50  0001 C CNN
+F 2 "" H 7875 3025 50  0001 C CNN
+F 3 "" H 7875 3025 50  0001 C CNN
+F 4 "10k" V 8020 2995 50  0000 L CNN "Val"
+F 5 "1%" H 7875 3025 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7875 3025 50  0001 C CNN "Watt"
+	1    7875 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR01
+U 1 1 6053CC72
+P 7775 3425
+F 0 "#PWR01" H 7775 3175 50  0001 C CNN
+F 1 "GND" H 7775 3275 50  0001 C CNN
+F 2 "" H 7775 3425 50  0001 C CNN
+F 3 "" H 7775 3425 50  0001 C CNN
+	1    7775 3425
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7250 2700 7875 2700
+	7775 3325 7775 3425
+Wire Wire Line
+	7250 2700 7775 2700
+Wire Wire Line
+	7775 2925 7775 2700
+Connection ~ 7775 2700
+Wire Wire Line
+	7775 2700 7875 2700
+$Comp
+L OpenVent:2x5_Way_1.27mm_Pitch_Header CN?
+U 1 1 6053C246
+P 9050 3200
+F 0 "CN?" H 9050 3275 50  0000 C CNN
+F 1 "2x5_Way_1.27mm_Pitch_Header" H 9050 3184 50  0000 C CNN
+F 2 "" H 9050 3200 50  0001 C CNN
+F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9050 3200 50  0001 C CNN
+	1    9050 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
