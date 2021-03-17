@@ -998,19 +998,6 @@ Wire Wire Line
 	9550 3550 10300 3550
 Wire Wire Line
 	10300 3350 9550 3350
-$Comp
-L OpenVent:Header_2x5 CN?
-U 1 1 603F320C
-P 9050 3200
-AR Path="/603F320C" Ref="CN?"  Part="1" 
-AR Path="/5F8F8987/603F320C" Ref="CN1"  Part="1" 
-F 0 "CN1" H 9050 3275 50  0000 C CNN
-F 1 "2x5_Way_1.27mm_Pitch_Header" H 9050 3184 50  0000 C CNN
-F 2 "" H 9050 3200 50  0001 C CNN
-F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9050 3200 50  0001 C CNN
-	1    9050 3200
-	1    0    0    -1  
-$EndComp
 Text GLabel 10175 3750 2    50   Output ~ 0
 NRST
 Wire Wire Line
@@ -1067,4 +1054,15 @@ Wire Wire Line
 Connection ~ 7775 2700
 Wire Wire Line
 	7775 2700 7875 2700
+$Comp
+L OpenVent:2x5_Way_1.27mm_Pitch_Header CN?
+U 1 1 6053C246
+P 9050 3200
+F 0 "CN?" H 9050 3275 50  0000 C CNN
+F 1 "2x5_Way_1.27mm_Pitch_Header" H 9050 3184 50  0000 C CNN
+F 2 "" H 9050 3200 50  0001 C CNN
+F 3 "http://www.cnctech.us/idcmatching2.pdf" H 9050 3200 50  0001 C CNN
+	1    9050 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
