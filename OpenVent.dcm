@@ -45,6 +45,10 @@ K connector
 F https://www.molex.com/pdm_docs/sd/532530270_sd.pdf
 $ENDCMP
 #
+$CMP 74ACT244PW
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
 $CMP ABM3B-12.000MHZ
 D CRYSTAL 12.0000MHZ 10PF SMD
 K Crystal 12MHz
