@@ -1497,4 +1497,27 @@ Text GLabel 4800 2300 0    50   Output ~ 0
 SPI1_MOSI
 Text GLabel 4800 2200 0    50   Input ~ 0
 SPI1_MISO
+$Comp
+L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP3
+U 1 1 6063147A
+P 1200 1500
+F 0 "JP3" H 1393 2075 50  0000 C CNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 1400 1900 50  0001 C CNN
+F 2 "" H 1400 1900 50  0001 C CNN
+F 3 "" H 1400 1900 50  0001 C CNN
+	1    1200 1500
+	-1   0    0    -1  
+$EndComp
+Text Notes 650  850  0    50   ~ 0
+Connection for Logic Analyser
+Text GLabel 1200 1100 2    50   Input ~ 0
+SPI1_SCLK
+Text GLabel 1200 1200 2    50   Input ~ 0
+SPI1_FPGA_CS
+Text GLabel 1200 1300 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 1200 1400 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 1200 1500 2    50   Input ~ 0
+FPGA_READY
 $EndSCHEMATC

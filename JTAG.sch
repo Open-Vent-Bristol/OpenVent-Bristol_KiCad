@@ -999,7 +999,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 3350 9550 3350
 $Comp
-L OpenVent:Header_2x5 CN?
+L OpenVent-rescue:Header_2x5-OpenVent CN?
 U 1 1 603F320C
 P 9050 3200
 AR Path="/603F320C" Ref="CN?"  Part="1" 
