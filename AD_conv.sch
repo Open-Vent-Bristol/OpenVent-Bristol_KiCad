@@ -108,15 +108,6 @@ F 3 "" H 2650 3200 50  0001 C CNN
 $EndComp
 Text GLabel 1650 1800 0    50   Input ~ 0
 Vref_DRV
-Wire Wire Line
-	2150 1800 2000 1800
-Wire Wire Line
-	2150 1900 2000 1900
-Wire Wire Line
-	2000 1900 2000 1800
-Connection ~ 2000 1800
-Wire Wire Line
-	2000 1800 1650 1800
 Text GLabel 1650 2000 0    50   Input ~ 0
 FBA_DRV
 Text GLabel 1650 2100 0    50   Input ~ 0
@@ -187,18 +178,9 @@ F 3 "" H 4550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 1800 3550 1800
-Wire Wire Line
 	3650 1800 3650 900 
 Wire Wire Line
 	3650 900  4100 900 
-Wire Wire Line
-	3150 1900 3550 1900
-Wire Wire Line
-	3550 1900 3550 1800
-Connection ~ 3550 1800
-Wire Wire Line
-	3550 1800 3650 1800
 Wire Wire Line
 	4500 900  4550 900 
 Wire Wire Line
@@ -887,4 +869,121 @@ F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8N
 	1    2650 2300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1650 1800 2150 1800
+Wire Wire Line
+	3150 1800 3650 1800
+Text GLabel 1650 1900 0    50   Input ~ 0
+FBG_DRV
+Wire Wire Line
+	1650 1900 2150 1900
+$Comp
+L OpenVent:R_0603_47K_0.1%_0.1W_Film R92
+U 1 1 60565157
+P 6150 1550
+F 0 "R92" H 6250 1153 50  0000 C CNN
+F 1 "R_0603_47K_0.1%_0.1W_Film" H 6150 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6150 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52" H 6150 1550 50  0001 C CNN
+F 4 "47k" H 6250 1244 50  0000 C CNN "Val"
+F 5 "0.1%" H 6250 1335 50  0000 C CNN "Tolerance"
+F 6 "0.1W" H 6150 1550 50  0001 C CNN "Watt"
+F 7 "KOA Speer Electronics, Inc." H 6150 1550 50  0001 C CNN "Mfr"
+F 8 "RN73H1JTTD4702B25" H 6150 1550 50  0001 C CNN "Mfr_PN"
+F 9 "RES 47K OHM 0.1% 1/10W 0603" H 6150 1550 50  0001 C CNN "Desc"
+F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film" H 6150 1550 50  0001 C CNN "Detailed"
+	1    6150 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L OpenVent:C_1206_47nF_16V_2%_PPS_film C?
+U 1 1 60565164
+P 6300 1650
+F 0 "C?" H 6415 1741 50  0000 L CNN
+F 1 "C_1206_47nF_16V_2%_PPS_film" H 6325 1550 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6338 1500 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/LDBAA2470GC5N0.pdf" H 6300 1650 50  0001 C CNN
+F 4 "Kemet" H 6300 1650 50  0001 C CNN "Mfr"
+F 5 "LDBAA2470GC5N0" H 6300 1650 50  0001 C CNN "Mfr_PN"
+F 6 "CAP FILM 0.047UF 2% 16VDC 1206" H 6300 1650 50  0001 C CNN "Desc"
+F 7 "0.047µF Film Capacitor  16V Polyphenylene Sulfide (PPS), Metallized - Stacked 1206 (3216 Metric)" H 6300 1650 50  0001 C CNN "Detailed"
+F 8 "47nF" H 6415 1650 50  0000 L CNN "Val"
+F 9 "2%" H 6415 1559 50  0000 L CNN "Tol"
+F 10 "16V" H 6300 1650 50  0001 C CNN "Volt"
+	1    6300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1450 6300 1450
+Wire Wire Line
+	6300 1450 6300 1500
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6056516C
+P 6300 1800
+F 0 "#PWR?" H 6300 1550 50  0001 C CNN
+F 1 "GND" H 6300 1650 50  0001 C CNN
+F 2 "" H 6300 1800 50  0001 C CNN
+F 3 "" H 6300 1800 50  0001 C CNN
+	1    6300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:R_0603_47K_0.1%_0.1W_Film R93
+U 1 1 60565179
+P 6850 1400
+F 0 "R93" H 6950 1003 50  0000 C CNN
+F 1 "R_0603_47K_0.1%_0.1W_Film" H 6850 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6850 1400 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52" H 6850 1400 50  0001 C CNN
+F 4 "47k" H 6950 1094 50  0000 C CNN "Val"
+F 5 "0.1%" H 6950 1185 50  0000 C CNN "Tolerance"
+F 6 "0.1W" H 6850 1400 50  0001 C CNN "Watt"
+F 7 "KOA Speer Electronics, Inc." H 6850 1400 50  0001 C CNN "Mfr"
+F 8 "RN73H1JTTD4702B25" H 6850 1400 50  0001 C CNN "Mfr_PN"
+F 9 "RES 47K OHM 0.1% 1/10W 0603" H 6850 1400 50  0001 C CNN "Desc"
+F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film" H 6850 1400 50  0001 C CNN "Detailed"
+	1    6850 1400
+	-1   0    0    1   
+$EndComp
+Text GLabel 7150 1450 2    50   Output ~ 0
+Vcap_G
+Wire Wire Line
+	6300 1450 6400 1450
+Connection ~ 6300 1450
+Wire Wire Line
+	6550 1300 6400 1300
+Wire Wire Line
+	6400 1300 6400 1450
+Connection ~ 6400 1450
+Wire Wire Line
+	6400 1450 7050 1450
+Text GLabel 7000 1300 2    50   Input ~ 0
+SensorOut_G
+Wire Wire Line
+	7000 1300 6950 1300
+$Comp
+L OpenVent:Test_Point_PTH TP?
+U 1 1 60565188
+P 7100 1650
+F 0 "TP?" H 6770 1650 50  0000 R CNN
+F 1 "Test_Point_PTH" H 7100 1650 50  0001 C CNN
+F 2 "" H 7100 1650 50  0001 C CNN
+F 3 "" H 7100 1650 50  0001 C CNN
+	1    7100 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 1650 7050 1650
+Wire Wire Line
+	7050 1650 7050 1450
+Connection ~ 7050 1450
+Wire Wire Line
+	7050 1450 7150 1450
+Wire Wire Line
+	5850 1450 3850 1450
+Wire Wire Line
+	3850 1450 3850 1900
+Wire Wire Line
+	3850 1900 3150 1900
 $EndSCHEMATC

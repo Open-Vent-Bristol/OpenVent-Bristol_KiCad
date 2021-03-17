@@ -354,7 +354,7 @@ Wire Wire Line
 	4000 4500 4150 4500
 Connection ~ 4150 4500
 Wire Wire Line
-	4150 4100 4150 4500
+	4150 4100 4150 4300
 Wire Wire Line
 	4450 3800 4000 3800
 Wire Wire Line
@@ -588,4 +588,19 @@ Text GLabel 9700 2100 2    50   Input ~ 0
 CLCK
 Wire Wire Line
 	8900 2100 9700 2100
+Text GLabel 9700 2200 2    50   Output ~ 0
+FBG_DRV
+Wire Wire Line
+	8900 2200 9700 2200
+Text GLabel 4450 4200 2    50   Input ~ 0
+Vcap_G
+Wire Wire Line
+	4450 4200 4000 4200
+Wire Wire Line
+	4000 4300 4150 4300
+Connection ~ 4150 4300
+Wire Wire Line
+	4150 4300 4150 4500
+Text Notes 2000 1000 0    50   ~ 0
+Should this circuit still exist? LM 17/03/21
 $EndSCHEMATC
