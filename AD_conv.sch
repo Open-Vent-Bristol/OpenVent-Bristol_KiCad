@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74AHCT244 U9
-U 1 1 601B9EB9
-P 2650 2300
-F 0 "U9" H 2800 3100 50  0000 C CNN
-F 1 "74AHCT244" H 2950 3000 50  0000 C CNN
-F 2 "" H 2650 2300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 2650 2300 50  0001 C CNN
-	1    2650 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R73
 U 1 1 601BDB47
 P 4400 1000
@@ -887,4 +876,15 @@ Wire Wire Line
 Connection ~ 4750 900 
 Wire Wire Line
 	4750 900  4950 900 
+$Comp
+L OpenVent-rescue:74ACT244PW U9
+U 1 1 60688267
+P 2650 2300
+F 0 "U9" H 2500 3050 50  0000 C CNN
+F 1 "74ACT244PW" H 2350 2950 50  0000 C CNN
+F 2 "" H 2650 2300 50  0001 C CNN
+F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND" H 2650 2300 50  0001 C CNN
+	1    2650 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
