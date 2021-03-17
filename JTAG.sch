@@ -1002,6 +1002,8 @@ $Comp
 L OpenVent:Header_2x5 CN?
 U 1 1 603F320C
 P 9050 3200
+AR Path="/603F320C" Ref="CN?"  Part="1" 
+AR Path="/5F8F8987/603F320C" Ref="CN?"  Part="1" 
 F 0 "CN?" H 9050 3275 50  0000 C CNN
 F 1 "2x5_Way_1.27mm_Pitch_Header" H 9050 3184 50  0000 C CNN
 F 2 "" H 9050 3200 50  0001 C CNN
