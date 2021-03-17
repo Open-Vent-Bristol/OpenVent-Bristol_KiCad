@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 1150 2700 1150
 Text GLabel 1800 900  0    50   Input ~ 0
-LED_SERIAL_DRV
+LED_SERIAL_DRV_5V
 Wire Wire Line
 	2000 900  1800 900 
 $Comp
