@@ -236,7 +236,7 @@ F 3 "" H 1450 4900 70  0001 C CNN
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2300 0    50   Output ~ 0
+Text GLabel 4800 4500 0    50   Output ~ 0
 PWR_UP
 $Comp
 L OpenVent:+5V #5V_02
@@ -1103,7 +1103,7 @@ Text Notes 400  8150 0    50   ~ 0
 OXYGEN SENSOR MAYBE DOENS'T NEED TO GO TO MCU?
 Text GLabel 4800 2475 0    50   Input ~ 0
 SW_BACKUP
-Text GLabel 4600 2000 0    50   Input ~ 0
+Text GLabel 4800 4300 0    50   Input ~ 0
 SW_END
 Wire Wire Line
 	4950 2200 4800 2200
@@ -1113,25 +1113,15 @@ Wire Wire Line
 	4875 2500 4875 2475
 Wire Wire Line
 	4875 2475 4800 2475
-Text GLabel 6450 1600 2    50   Output ~ 0
+Text GLabel 4800 2000 0    50   Output ~ 0
 SPI1_FPGA_CS
-Text GLabel 6450 1900 2    50   Output ~ 0
+Text GLabel 4800 1700 0    50   Output ~ 0
 SPI1_SCLK
-Text GLabel 6450 2000 2    50   Input ~ 0
-SPI1_MISO
-Text GLabel 6450 2100 2    50   Output ~ 0
-SPI1_MOSI
 Wire Wire Line
 	6350 1600 6450 1600
-Wire Wire Line
-	6350 1900 6450 1900
-Wire Wire Line
-	6350 2000 6450 2000
-Wire Wire Line
-	6350 2100 6450 2100
-Text Notes 7350 1500 2    50   ~ 0
+Text Notes 4300 2150 2    50   ~ 0
 SPI1 from MCU to FPGA
-Text GLabel 4800 2200 0    50   Input ~ 0
+Text GLabel 4800 4400 0    50   Input ~ 0
 SW_HOME
 $Comp
 L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS?
@@ -1241,8 +1231,8 @@ BUZZER_PWM
 Wire Wire Line
 	7650 1875 8525 1875
 Wire Wire Line
-	3850 1700 4950 1700
-Text Label 3850 1700 0    50   ~ 0
+	3850 1800 4950 1800
+Text Label 3850 1800 0    50   ~ 0
 BUZZER_PWM
 Text GLabel 6500 2500 2    50   Input ~ 0
 PB_MUTE
@@ -1480,8 +1470,6 @@ Text GLabel 6450 1700 2    50   Input ~ 0
 FPGA_READY
 Wire Wire Line
 	6350 1700 6450 1700
-Wire Wire Line
-	4600 2000 4950 2000
 Text GLabel 4200 3000 0    50   Input ~ 0
 TMS
 Wire Wire Line
@@ -1501,4 +1489,35 @@ Wire Wire Line
 Text GLabel 8025 4100 2    50   Input ~ 0
 NRST
 Connection ~ 7400 4100
+Wire Wire Line
+	4950 1700 4800 1700
+Wire Wire Line
+	4800 2000 4950 2000
+Text GLabel 4800 2300 0    50   Output ~ 0
+SPI1_MOSI
+Text GLabel 4800 2200 0    50   Input ~ 0
+SPI1_MISO
+$Comp
+L OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP3
+U 1 1 6063147A
+P 1200 1500
+F 0 "JP3" H 1393 2075 50  0000 C CNN
+F 1 "Pin_Header,_1x5-Way,_2.54mm_Pitch" H 1400 1900 50  0001 C CNN
+F 2 "" H 1400 1900 50  0001 C CNN
+F 3 "" H 1400 1900 50  0001 C CNN
+	1    1200 1500
+	-1   0    0    -1  
+$EndComp
+Text Notes 650  850  0    50   ~ 0
+Connection for Logic Analyser
+Text GLabel 1200 1100 2    50   Input ~ 0
+SPI1_SCLK
+Text GLabel 1200 1200 2    50   Input ~ 0
+SPI1_FPGA_CS
+Text GLabel 1200 1300 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 1200 1400 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 1200 1500 2    50   Input ~ 0
+FPGA_READY
 $EndSCHEMATC
