@@ -1302,6 +1302,29 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_ESD5Z3.3T1G
+#
+DEF OpenVent_ESD5Z3.3T1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "OpenVent_ESD5Z3.3T1G" 450 100 50 H V L CNN
+F2 "SODFL1608X70N" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 450 -100 50 H I L CNN
+F4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" 450 -200 50 H I L CNN "Description"
+F5 "0.7" 450 -300 50 H I L CNN "Height"
+F6 "ON Semiconductor" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "ESD5Z3.3T1G" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-ESD5Z3.3T1G" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "ESD5Z3.3T1G" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_FT2232HL-REEL
 #
 DEF OpenVent_FT2232HL-REEL U 0 20 Y Y 1 F N
