@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1925 2850 1    50   ~ 0
+Text Notes 675  2500 1    50   ~ 0
 Debug UART
-Text Notes 1850 3125 0    50   ~ 0
+Text Notes 500  2775 0    50   ~ 0
 Mates with FTDI cable part
 Text GLabel 6550 2900 2    50   Output ~ 0
 MOTOR-IN-A
@@ -28,17 +28,17 @@ PWM
 $Comp
 L OpenVent:GND #GND_07
 U 1 1 5F8DD179
-P 2875 2450
-F 0 "#GND_07" H 2875 2450 20  0001 C CNN
-F 1 "GND" H 2875 2380 50  0001 C CNN
-F 2 "" H 2875 2450 70  0001 C CNN
-F 3 "" H 2875 2450 70  0001 C CNN
-	1    2875 2450
+P 1625 2100
+F 0 "#GND_07" H 1625 2100 20  0001 C CNN
+F 1 "GND" H 1625 2030 50  0001 C CNN
+F 2 "" H 1625 2100 70  0001 C CNN
+F 3 "" H 1625 2100 70  0001 C CNN
+	1    1625 2100
 	1    0    0    -1  
 $EndComp
 Text GLabel 4750 3600 0    50   Input ~ 0
 VBATT-SCALED
-NoConn ~ 2375 2600
+NoConn ~ 1125 2250
 Text GLabel 4750 3500 0    50   Input ~ 0
 MOTOR-CURRENT
 Text Label 1800 5100 0    50   ~ 0
@@ -147,8 +147,8 @@ Text Label 4050 2600 0    50   ~ 0
 USART-STM-TX
 Text Label 4050 2700 0    50   ~ 0
 USART-STM-RX
-NoConn ~ 2375 2500
-NoConn ~ 2375 2900
+NoConn ~ 1125 2150
+NoConn ~ 1125 2550
 $Comp
 L OpenVent:3V3 #3V3_03
 U 1 1 5F8DD165
@@ -217,7 +217,7 @@ F 3 "" H 800 4400 70  0000 C CNN
 	1    800  4400
 	1    0    0    -1  
 $EndComp
-Text Notes 1875 3225 0    50   ~ 0
+Text Notes 525  2875 0    50   ~ 0
 TTL-232R-3V3
 Text GLabel 4750 4000 0    50   Input ~ 0
 nMOTOR-FAULT-A
@@ -303,13 +303,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 4050 1700 3700
 Wire Wire Line
-	4950 2600 3075 2600
+	1625 2050 1125 2050
 Wire Wire Line
-	2375 2700 2550 2700
-Wire Wire Line
-	2875 2400 2375 2400
-Wire Wire Line
-	2875 2450 2875 2400
+	1625 2100 1625 2050
 Wire Wire Line
 	4975 6825 4325 6825
 Wire Wire Line
@@ -507,12 +503,12 @@ $EndComp
 $Comp
 L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP4
 U 1 1 5F8DD14A
-P 2375 2900
-F 0 "JP4" H 2725 3550 50  0000 L BNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 2375 2900 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2375 2900 50  0001 C CNN
-F 3 "" H 2375 2900 50  0001 C CNN
-	1    2375 2900
+P 1125 2550
+F 0 "JP4" H 1475 3200 50  0000 L BNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1125 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1125 2550 50  0001 C CNN
+F 3 "" H 1125 2550 50  0001 C CNN
+	1    1125 2550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -984,39 +980,31 @@ NoConn ~ 6800 4550
 $Comp
 L OpenVent:33R_Chip_Resistor,_1%,_0.1W R51
 U 1 1 5FF35864
-P 2650 2600
-F 0 "R51" H 2750 2707 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 2300 2950 50  0001 C CNN
-F 2 "" H 2850 2600 50  0001 C CNN
-F 3 "" H 2650 2600 50  0001 C CNN
-F 4 "33R" H 2750 2616 50  0000 C CNN "Val"
-F 5 "1%" H 3200 2600 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 2650 2600 50  0001 C CNN "Watt"
-	1    2650 2600
-	1    0    0    -1  
+P 2900 2550
+F 0 "R51" H 3000 2657 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 2550 2900 50  0001 C CNN
+F 2 "" H 3100 2550 50  0001 C CNN
+F 3 "" H 2900 2550 50  0001 C CNN
+F 4 "33R" H 3000 2566 50  0000 C CNN "Val"
+F 5 "1%" H 3450 2550 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2900 2550 50  0001 C CNN "Watt"
+	1    2900 2550
+	-1   0    0    1   
 $EndComp
 $Comp
 L OpenVent:33R_Chip_Resistor,_1%,_0.1W R52
 U 1 1 5FF35DAD
-P 2650 2700
-F 0 "R52" H 2750 2425 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 2300 3050 50  0001 C CNN
-F 2 "" H 2850 2700 50  0001 C CNN
-F 3 "" H 2650 2700 50  0001 C CNN
-F 4 "33R" H 2750 2500 50  0000 C CNN "Val"
-F 5 "1%" H 3200 2700 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 2650 2700 50  0001 C CNN "Watt"
-	1    2650 2700
-	1    0    0    -1  
+P 2900 2450
+F 0 "R52" H 3000 2175 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 2550 2800 50  0001 C CNN
+F 2 "" H 3100 2450 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+F 4 "33R" H 3000 2250 50  0000 C CNN "Val"
+F 5 "1%" H 3450 2450 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2900 2450 50  0001 C CNN "Watt"
+	1    2900 2450
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2550 2800 2375 2800
-Wire Wire Line
-	3075 2600 3075 2800
-Wire Wire Line
-	2950 2800 3075 2800
-Wire Wire Line
-	2950 2700 4950 2700
 Wire Wire Line
 	6975 6225 6975 6175
 Wire Wire Line
@@ -1576,4 +1564,90 @@ Wire Wire Line
 	1200 1500 1200 1650
 Wire Wire Line
 	1200 1650 1450 1650
+$Comp
+L OpenVent:ESD5Z3.3T1G TVS-D2
+U 1 1 605B29D3
+P 2200 2500
+F 0 "TVS-D2" H 2454 2756 50  0000 C CNN
+F 1 "ESD5Z3.3T1G" H 2520 2677 50  0000 C CNN
+F 2 "SODFL1608X70N" H 2650 2500 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 2650 2400 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 2650 2300 50  0001 L CNN "Description"
+F 5 "0.7" H 2650 2200 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 2650 2100 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 2650 2000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 2650 1900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 2650 1800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 2650 1700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 2650 1600 50  0001 L CNN "Arrow Price/Stock"
+	1    2200 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:ESD5Z3.3T1G TVS-D1
+U 1 1 605B4E90
+P 1950 2500
+F 0 "TVS-D1" H 2165 2244 50  0000 L TNN
+F 1 "ESD5Z3.3T1G" H 2295 2323 50  0000 C CNN
+F 2 "SODFL1608X70N" H 2400 2500 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 2400 2400 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 2400 2300 50  0001 L CNN "Description"
+F 5 "0.7" H 2400 2200 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 2400 2100 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 2400 2000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 2400 1900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 2400 1800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 2400 1700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 2400 1600 50  0001 L CNN "Arrow Price/Stock"
+	1    1950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1125 2350 1950 2350
+Wire Wire Line
+	1125 2450 2200 2450
+Wire Wire Line
+	2200 2500 2200 2450
+Connection ~ 2200 2450
+Wire Wire Line
+	1950 2500 1950 2350
+Connection ~ 1950 2350
+Wire Wire Line
+	1950 3100 1950 3150
+Wire Wire Line
+	1950 3150 2100 3150
+Wire Wire Line
+	2200 3150 2200 3100
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606192F5
+P 2100 3200
+F 0 "#PWR?" H 2100 2950 50  0001 C CNN
+F 1 "GND" H 2100 3050 50  0001 C CNN
+F 2 "" H 2100 3200 50  0001 C CNN
+F 3 "" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3200 2100 3150
+Connection ~ 2100 3150
+Wire Wire Line
+	2100 3150 2200 3150
+Wire Wire Line
+	4950 2600 3300 2600
+Wire Wire Line
+	3300 2350 3300 2600
+Wire Wire Line
+	3000 2350 3300 2350
+Wire Wire Line
+	3200 2450 3200 2700
+Wire Wire Line
+	3000 2450 3200 2450
+Wire Wire Line
+	3200 2700 4950 2700
+Wire Wire Line
+	1950 2350 2600 2350
+Wire Wire Line
+	2200 2450 2600 2450
 $EndSCHEMATC
