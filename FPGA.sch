@@ -13,12 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5850 6575 0    50   Output ~ 0
+Text GLabel 5650 6625 0    50   Output ~ 0
 nPRESSURE-PATIENT-ALERT
 Text GLabel 7450 5750 0    50   Output ~ 0
 Sounder_DRV
-Text GLabel 7450 5650 0    50   Output ~ 0
-LED_SERIAL_DRV
 $Comp
 L OpenVent:SiT8008B U14
 U 1 1 5FD185A9
@@ -52,41 +50,8 @@ F 3 "" H 10850 3850 50  0001 C CNN
 	1    10850 3850
 	1    0    0    -1  
 $EndComp
-Text Notes 5875 5700 1    50   ~ 0
-Debug UART
-NoConn ~ 6350 5350
-NoConn ~ 6350 5250
-NoConn ~ 6350 5650
-$Comp
-L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
-U 1 1 5FD254BC
-P 6350 5650
-AR Path="/5F988182/5FD254BC" Ref="JP?"  Part="1" 
-AR Path="/5F8F894A/5FD254BC" Ref="JP5"  Part="1" 
-F 0 "JP5" H 6700 6300 50  0000 L BNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 6350 5650 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6350 5650 50  0001 C CNN
-F 3 "" H 6350 5650 50  0001 C CNN
-	1    6350 5650
-	-1   0    0    -1  
-$EndComp
-Text Label 6550 5450 0    50   ~ 0
-UART_RX
-Text Label 6550 5550 0    50   ~ 0
-UART_TX
 Text Notes 9775 3925 0    50   ~ 0
 33.554432 MHz
-$Comp
-L OpenVent:GND #PWR032
-U 1 1 5FD3A041
-P 6800 5150
-F 0 "#PWR032" H 6800 4900 50  0001 C CNN
-F 1 "GND" H 6800 5000 50  0001 C CNN
-F 2 "" H 6800 5150 50  0001 C CNN
-F 3 "" H 6800 5150 50  0001 C CNN
-	1    6800 5150
-	1    0    0    -1  
-$EndComp
 Text Label 6650 2700 2    50   ~ 0
 ADC_DRDY
 $Comp
@@ -128,8 +93,6 @@ F 3 "" H 5900 2050 50  0001 C CNN
 	1    5900 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 5150 6350 5150
 $Comp
 L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R41
 U 1 1 5FE91BCD
@@ -159,15 +122,15 @@ Text Notes 2950 7050 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
 Text GLabel 2950 6900 2    60   Output ~ 0
 PRESSURE-SENSOR-VENT
-Text GLabel 5800 7075 0    50   Input ~ 0
+Text GLabel 5600 7125 0    50   Input ~ 0
 FLOW-SENSOR
-Text GLabel 5875 6775 0    50   Input ~ 0
+Text GLabel 5675 6825 0    50   Input ~ 0
 OXYGEN-SENSOR
-Text GLabel 5875 6900 0    50   Input ~ 0
+Text GLabel 5675 6950 0    50   Input ~ 0
 FLOW-SENSOR-GAIN
 Text GLabel 2950 6700 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
-Text GLabel 5750 7300 0    50   Output ~ 0
+Text GLabel 5550 7350 0    50   Output ~ 0
 Motor_off
 Text GLabel 7450 5050 0    50   Input ~ 0
 PB_MUTE
@@ -572,10 +535,6 @@ Wire Wire Line
 	7450 5250 7650 5250
 Wire Wire Line
 	7450 5350 7650 5350
-Wire Wire Line
-	6350 5450 7650 5450
-Wire Wire Line
-	6350 5550 7650 5550
 Text Notes 5500 650  0    50   ~ 0
 I/Os ON BANKS 0, 2 AND 3 CAN BE FREELY INTERCHANGED AT LAYOUT EXCEPT CLCK WHICH MUST BE ON A GCLKT_x I/O PIN
 Text GLabel 9700 1900 2    50   Output ~ 0
@@ -603,4 +562,111 @@ Wire Wire Line
 	4150 4300 4150 4500
 Text Notes 2000 1000 0    50   ~ 0
 Should this circuit still exist? LM 17/03/21
+$Comp
+L OpenVent:GND #PWR032
+U 1 1 5FD3A041
+P 6200 5150
+F 0 "#PWR032" H 6200 4900 50  0001 C CNN
+F 1 "GND" H 6200 5000 50  0001 C CNN
+F 2 "" H 6200 5150 50  0001 C CNN
+F 3 "" H 6200 5150 50  0001 C CNN
+	1    6200 5150
+	1    0    0    -1  
+$EndComp
+Text Label 6550 5550 0    50   ~ 0
+UART_TX
+Text Label 6550 5450 0    50   ~ 0
+UART_RX
+$Comp
+L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
+U 1 1 5FD254BC
+P 5900 5650
+AR Path="/5F988182/5FD254BC" Ref="JP?"  Part="1" 
+AR Path="/5F8F894A/5FD254BC" Ref="JP5"  Part="1" 
+F 0 "JP5" H 6250 6300 50  0000 L BNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 5900 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5900 5650 50  0001 C CNN
+F 3 "" H 5900 5650 50  0001 C CNN
+	1    5900 5650
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5900 5650
+NoConn ~ 5900 5250
+NoConn ~ 5900 5350
+Text Notes 5425 5700 1    50   ~ 0
+Debug UART
+Text GLabel 7450 5650 0    50   Output ~ 0
+LED_SERIAL_DRV
+Wire Wire Line
+	6200 5150 5900 5150
+Wire Wire Line
+	5900 5550 6400 5550
+Wire Wire Line
+	5900 5450 6150 5450
+$Comp
+L OpenVent:ESD5Z3.3T1G TVS-D3
+U 1 1 6058ED6E
+P 6400 5750
+F 0 "TVS-D3" V 6654 5880 50  0000 L CNN
+F 1 "ESD5Z3.3T1G" V 6745 5880 50  0000 L CNN
+F 2 "SODFL1608X70N" H 6850 5750 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 6850 5650 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 6850 5550 50  0001 L CNN "Description"
+F 5 "0.7" H 6850 5450 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 6850 5350 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 6850 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 6850 5150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 6850 5050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 6850 4950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 6850 4850 50  0001 L CNN "Arrow Price/Stock"
+	1    6400 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:ESD5Z3.3T1G TVS-D4
+U 1 1 6059146A
+P 6150 5750
+F 0 "TVS-D4" V 6404 5620 50  0000 R CNN
+F 1 "ESD5Z3.3T1G" V 6495 5620 50  0000 R CNN
+F 2 "SODFL1608X70N" H 6600 5750 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 6600 5650 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 6600 5550 50  0001 L CNN "Description"
+F 5 "0.7" H 6600 5450 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 6600 5350 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 6600 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 6600 5150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 6600 5050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 6600 4950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 6600 4850 50  0001 L CNN "Arrow Price/Stock"
+	1    6150 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6059B6E0
+P 6300 6450
+F 0 "#PWR?" H 6300 6200 50  0001 C CNN
+F 1 "GND" H 6300 6300 50  0001 C CNN
+F 2 "" H 6300 6450 50  0001 C CNN
+F 3 "" H 6300 6450 50  0001 C CNN
+	1    6300 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5750 6400 5550
+Connection ~ 6400 5550
+Wire Wire Line
+	6400 5550 7650 5550
+Wire Wire Line
+	6150 5750 6150 5450
+Connection ~ 6150 5450
+Wire Wire Line
+	6150 5450 7650 5450
+Wire Wire Line
+	6150 6350 6300 6350
+Wire Wire Line
+	6300 6450 6300 6350
+Connection ~ 6300 6350
+Wire Wire Line
+	6300 6350 6400 6350
 $EndSCHEMATC
