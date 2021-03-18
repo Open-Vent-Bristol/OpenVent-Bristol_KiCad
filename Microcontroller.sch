@@ -1505,4 +1505,75 @@ Text GLabel 6550 1900 2    50   Output ~ 0
 TDO
 Wire Wire Line
 	6350 1900 6550 1900
+$Comp
+L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
+U 1 1 60546722
+P 1100 1000
+F 0 "JP?" H 1293 825 50  0000 C CNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1300 1500 50  0001 C CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "" H 1300 1500 50  0001 C CNN
+	1    1100 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 60547AA4
+P 1100 750
+F 0 "#PWR?" H 1100 600 50  0001 C CNN
+F 1 "+3.3V" H 1100 923 50  0000 C CNN
+F 2 "" H 1100 750 50  0001 C CNN
+F 3 "" H 1100 750 50  0001 C CNN
+	1    1100 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60548A69
+P 1450 850
+F 0 "#PWR?" H 1450 600 50  0001 C CNN
+F 1 "GND" H 1450 700 50  0001 C CNN
+F 2 "" H 1450 850 50  0001 C CNN
+F 3 "" H 1450 850 50  0001 C CNN
+	1    1450 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1000 1100 750 
+Wire Wire Line
+	1100 1100 1250 1100
+Wire Wire Line
+	1450 800  1450 850 
+Text GLabel 1450 1200 2    50   Output ~ 0
+SPI1_FPGA_CS
+Text GLabel 1450 1350 2    50   Output ~ 0
+SPI1_MISO
+Text GLabel 1450 1500 2    50   Output ~ 0
+SPI1_MOSI
+Text GLabel 1450 1650 2    50   Output ~ 0
+SPI1_SCLK
+Wire Wire Line
+	1250 1100 1250 800 
+Wire Wire Line
+	1250 800  1450 800 
+Wire Wire Line
+	1100 1200 1450 1200
+Wire Wire Line
+	1100 1300 1350 1300
+Wire Wire Line
+	1350 1300 1350 1350
+Wire Wire Line
+	1350 1350 1450 1350
+Wire Wire Line
+	1100 1400 1300 1400
+Wire Wire Line
+	1300 1400 1300 1500
+Wire Wire Line
+	1300 1500 1450 1500
+Wire Wire Line
+	1100 1500 1200 1500
+Wire Wire Line
+	1200 1500 1200 1650
+Wire Wire Line
+	1200 1650 1450 1650
 $EndSCHEMATC
