@@ -129,6 +129,11 @@ K connector
 F https://multimedia.3m.com/mws/media/485761O/3mtm-four-wall-header-ts2245.pdf
 $ENDCMP
 #
+$CMP ESD5Z3.3T1G
+D TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523
+F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
+$ENDCMP
+#
 $CMP Kycon_kpjx-4s
 D 4 (Power) Position Circular Connector Jack, Female Sockets Solder
 K Mini-DIN
