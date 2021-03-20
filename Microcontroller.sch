@@ -1227,7 +1227,7 @@ Wire Wire Line
 Text Label 3850 1800 0    50   ~ 0
 BUZZER_PWM
 Text GLabel 6500 2500 2    50   Input ~ 0
-PB_MUTE
+PB_MUTE_MCU
 Text GLabel 6500 2600 2    50   Input ~ 0
 PB_PLUS
 Text GLabel 6500 2700 2    50   Input ~ 0
