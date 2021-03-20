@@ -132,8 +132,6 @@ Text GLabel 2950 6700 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
 Text GLabel 5550 7350 0    50   Output ~ 0
 Motor_off
-Text GLabel 7450 5050 0    50   Input ~ 0
-PB_MUTE
 Text GLabel 7450 5150 0    50   Input ~ 0
 PB_PLUS
 Text GLabel 7450 5250 0    50   Input ~ 0
@@ -669,4 +667,6 @@ Wire Wire Line
 Connection ~ 6300 6350
 Wire Wire Line
 	6300 6350 6400 6350
+Text GLabel 7450 5050 0    50   Input ~ 0
+PB_MUTE_FPGA
 $EndSCHEMATC
