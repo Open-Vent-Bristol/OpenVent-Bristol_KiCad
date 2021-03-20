@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text GLabel 5650 6625 0    50   Output ~ 0
 nPRESSURE-PATIENT-ALERT
-Text GLabel 7450 5750 0    50   Output ~ 0
+Text GLabel 8200 5750 0    50   Output ~ 0
 Sounder_DRV
 $Comp
 L OpenVent:SiT8008B U14
@@ -132,11 +132,11 @@ Text GLabel 2950 6700 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
 Text GLabel 5550 7350 0    50   Output ~ 0
 Motor_off
-Text GLabel 7450 5150 0    50   Input ~ 0
+Text GLabel 8200 5150 0    50   Input ~ 0
 PB_PLUS
-Text GLabel 7450 5250 0    50   Input ~ 0
+Text GLabel 8200 5250 0    50   Input ~ 0
 PB_MINUS
-Text GLabel 7450 5350 0    50   Input ~ 0
+Text GLabel 8200 5350 0    50   Input ~ 0
 PB_SEL
 Text GLabel 9700 1200 2    50   Output ~ 0
 Vref_DRV
@@ -166,27 +166,27 @@ Text GLabel 4450 4000 2    50   Input ~ 0
 Vcap_E
 Text GLabel 4450 4400 2    50   Input ~ 0
 Vcap_F
-Text GLabel 9550 5250 2    50   Output ~ 0
+Text GLabel 10300 5250 2    50   Output ~ 0
 LCD_RS
-Text GLabel 9550 5150 2    50   BiDi ~ 0
+Text GLabel 10300 5150 2    50   BiDi ~ 0
 LCD_RW
-Text GLabel 9550 5050 2    50   Output ~ 0
+Text GLabel 10300 5050 2    50   Output ~ 0
 LCD_A_ENABLE
-Text GLabel 9550 4950 2    50   BiDi ~ 0
+Text GLabel 10300 4950 2    50   BiDi ~ 0
 LCD_DB0
-Text GLabel 9550 4850 2    50   BiDi ~ 0
+Text GLabel 10300 4850 2    50   BiDi ~ 0
 LCD_DB1
-Text GLabel 9550 5450 2    50   BiDi ~ 0
+Text GLabel 10300 5450 2    50   BiDi ~ 0
 LCD_DB3
-Text GLabel 9550 5350 2    50   BiDi ~ 0
+Text GLabel 10300 5350 2    50   BiDi ~ 0
 LCD_DB2
-Text GLabel 9550 5650 2    50   BiDi ~ 0
+Text GLabel 10300 5650 2    50   BiDi ~ 0
 LCD_DB5
-Text GLabel 9550 5550 2    50   BiDi ~ 0
+Text GLabel 10300 5550 2    50   BiDi ~ 0
 LCD_DB4
-Text GLabel 9550 5850 2    50   BiDi ~ 0
+Text GLabel 10300 5850 2    50   BiDi ~ 0
 LCD_DB7
-Text GLabel 9550 5750 2    50   BiDi ~ 0
+Text GLabel 10300 5750 2    50   BiDi ~ 0
 LCD_DB6
 Wire Notes Line
 	500  6250 5250 6250
@@ -212,31 +212,31 @@ F 3 "" H 6500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 4850 9300 4850
+	10300 4850 10050 4850
 Wire Wire Line
-	9300 4950 9550 4950
+	10050 4950 10300 4950
 Wire Wire Line
-	9550 5050 9300 5050
+	10300 5050 10050 5050
 Wire Wire Line
-	9300 5150 9550 5150
+	10050 5150 10300 5150
 Wire Wire Line
-	9550 5250 9300 5250
+	10300 5250 10050 5250
 Wire Wire Line
-	9300 5350 9550 5350
+	10050 5350 10300 5350
 Wire Wire Line
-	9550 5450 9300 5450
+	10300 5450 10050 5450
 Wire Wire Line
-	9300 5550 9550 5550
+	10050 5550 10300 5550
 Wire Wire Line
-	9550 5650 9300 5650
+	10300 5650 10050 5650
 Wire Wire Line
-	9300 5750 9550 5750
+	10050 5750 10300 5750
 Wire Wire Line
-	9550 5850 9300 5850
+	10300 5850 10050 5850
 Wire Wire Line
-	7650 5750 7450 5750
+	8400 5750 8200 5750
 Wire Wire Line
-	7450 5650 7650 5650
+	8200 5650 8400 5650
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C23
 U 1 1 5FD1CC3D
@@ -347,10 +347,10 @@ Wire Wire Line
 	7000 2300 7000 2700
 Wire Wire Line
 	7000 2700 6650 2700
-Text GLabel 7450 4950 0    50   Output ~ 0
+Text GLabel 8200 4950 0    50   Output ~ 0
 LCD_B_ENABLE
 Wire Wire Line
-	7650 4950 7450 4950
+	8400 4950 8200 4950
 Wire Notes Line
 	500  2750 5250 2750
 Text GLabel 7150 1800 0    50   Input ~ 0
@@ -425,12 +425,12 @@ $EndComp
 $Comp
 L OpenVent:GW1N-9LQ100 U8
 U 4 1 60544613
-P 8500 4750
-F 0 "U8" H 8475 4998 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 8475 4907 50  0000 C CNN
-F 2 "" H 11800 3850 50  0001 C CNN
-F 3 "" H 11800 3850 50  0001 C CNN
-	4    8500 4750
+P 9250 4750
+F 0 "U8" H 9225 4998 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 9225 4907 50  0000 C CNN
+F 2 "" H 12550 3850 50  0001 C CNN
+F 3 "" H 12550 3850 50  0001 C CNN
+	4    9250 4750
 	1    0    0    -1  
 $EndComp
 Text Notes 600  6075 0    50   ~ 0
@@ -526,13 +526,13 @@ OXYGEN-SENSOR
 Text GLabel 1950 1700 0    50   Input ~ 0
 VBATT-SCALED
 Wire Wire Line
-	7450 5050 7650 5050
+	8200 5050 8400 5050
 Wire Wire Line
-	7450 5150 7650 5150
+	8200 5150 8400 5150
 Wire Wire Line
-	7450 5250 7650 5250
+	8200 5250 8400 5250
 Wire Wire Line
-	7450 5350 7650 5350
+	8200 5350 8400 5350
 Text Notes 5500 650  0    50   ~ 0
 I/Os ON BANKS 0, 2 AND 3 CAN BE FREELY INTERCHANGED AT LAYOUT EXCEPT CLCK WHICH MUST BE ON A GCLKT_x I/O PIN
 Text GLabel 9700 1900 2    50   Output ~ 0
@@ -571,9 +571,9 @@ F 3 "" H 6200 5150 50  0001 C CNN
 	1    6200 5150
 	1    0    0    -1  
 $EndComp
-Text Label 6550 5550 0    50   ~ 0
+Text Label 7300 5550 0    50   ~ 0
 UART_TX
-Text Label 6550 5450 0    50   ~ 0
+Text Label 7300 5450 0    50   ~ 0
 UART_RX
 $Comp
 L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
@@ -593,7 +593,7 @@ NoConn ~ 5900 5250
 NoConn ~ 5900 5350
 Text Notes 5425 5700 1    50   ~ 0
 Debug UART
-Text GLabel 7450 5650 0    50   Output ~ 0
+Text GLabel 8200 5650 0    50   Output ~ 0
 LED_SERIAL_DRV
 Wire Wire Line
 	6200 5150 5900 5150
@@ -652,14 +652,8 @@ F 3 "" H 6300 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 5750 6400 5550
-Connection ~ 6400 5550
-Wire Wire Line
-	6400 5550 7650 5550
 Wire Wire Line
 	6150 5750 6150 5450
-Connection ~ 6150 5450
-Wire Wire Line
-	6150 5450 7650 5450
 Wire Wire Line
 	6150 6350 6300 6350
 Wire Wire Line
@@ -667,6 +661,44 @@ Wire Wire Line
 Connection ~ 6300 6350
 Wire Wire Line
 	6300 6350 6400 6350
-Text GLabel 7450 5050 0    50   Input ~ 0
+Text GLabel 8200 5050 0    50   Input ~ 0
 PB_MUTE_FPGA
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 60586513
+P 6750 5650
+F 0 "R?" H 6850 5757 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6400 6000 50  0001 C CNN
+F 2 "" H 6950 5650 50  0001 C CNN
+F 3 "" H 6750 5650 50  0001 C CNN
+F 4 "33R" H 6850 5666 50  0000 C CNN "Val"
+F 5 "1%" H 7300 5650 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6750 5650 50  0001 C CNN "Watt"
+	1    6750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
+U 1 1 6058651C
+P 6750 5550
+F 0 "R?" H 6850 5275 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6400 5900 50  0001 C CNN
+F 2 "" H 6950 5550 50  0001 C CNN
+F 3 "" H 6750 5550 50  0001 C CNN
+F 4 "33R" H 6850 5350 50  0000 C CNN "Val"
+F 5 "1%" H 7300 5550 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6750 5550 50  0001 C CNN "Watt"
+	1    6750 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 5450 8400 5450
+Wire Wire Line
+	6850 5550 8400 5550
+Wire Wire Line
+	6450 5550 6400 5550
+Connection ~ 6400 5550
+Wire Wire Line
+	6450 5450 6150 5450
+Connection ~ 6150 5450
 $EndSCHEMATC
