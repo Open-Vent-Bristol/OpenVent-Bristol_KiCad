@@ -2139,7 +2139,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3150 6600 3050
 Wire Wire Line
-	7000 2650 7000 1850
+	7000 2650 7000 2200
 Wire Wire Line
 	7000 1850 6050 1850
 Wire Wire Line
@@ -2157,4 +2157,16 @@ PB_MUTE
 Wire Wire Line
 	5650 2750 5900 2750
 Connection ~ 5900 2750
+Text GLabel 7300 2200 2    50   Output ~ 0
+PB_MUTE_MCU
+Wire Wire Line
+	7300 2200 7000 2200
+Connection ~ 7000 2200
+Wire Wire Line
+	7000 2200 7000 1850
+Text GLabel 7300 3900 2    50   Output ~ 0
+PB_MUTE_FPGA
+Wire Wire Line
+	7300 3900 7100 3900
+Connection ~ 7100 3900
 $EndSCHEMATC
