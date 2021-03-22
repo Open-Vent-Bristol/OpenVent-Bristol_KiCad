@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5650 6625 0    50   Output ~ 0
+Text GLabel 3350 6875 0    50   Output ~ 0
 nPRESSURE-PATIENT-ALERT
 Text GLabel 8200 5750 0    50   Output ~ 0
 Sounder_DRV
@@ -52,45 +52,45 @@ F 3 "" H 10850 3850 50  0001 C CNN
 $EndComp
 Text Notes 9775 3925 0    50   ~ 0
 33.554432 MHz
-Text Label 6650 2700 2    50   ~ 0
+Text Label 6500 2700 2    50   ~ 0
 ADC_DRDY
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
 U 1 1 5FD4D09C
-P 5800 2350
-F 0 "R19" H 5900 2043 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5800 2350 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 2350 50  0001 C CNN
-F 3 "" H 5800 2350 50  0001 C CNN
-F 4 "2k4" H 5900 2134 50  0000 C CNN "Val"
-F 5 "1%" H 5800 2350 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 5800 2350 50  0001 C CNN "Watt"
-	1    5800 2350
+P 5650 2350
+F 0 "R19" H 5750 2043 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5650 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 2350 50  0001 C CNN
+F 3 "" H 5650 2350 50  0001 C CNN
+F 4 "2k4" H 5750 2134 50  0000 C CNN "Val"
+F 5 "1%" H 5650 2350 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5650 2350 50  0001 C CNN "Watt"
+	1    5650 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R20
 U 1 1 5FD4E271
-P 6400 2300
-F 0 "R20" H 6500 2300 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6400 2300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 2300 50  0001 C CNN
-F 3 "" H 6400 2300 50  0001 C CNN
-F 4 "2k4" H 6500 2375 50  0000 C CNN "Val"
-F 5 "1%" H 6400 2300 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6400 2300 50  0001 C CNN "Watt"
-	1    6400 2300
+P 6250 2300
+F 0 "R20" H 6350 2300 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6250 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+F 4 "2k4" H 6350 2375 50  0000 C CNN "Val"
+F 5 "1%" H 6250 2300 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6250 2300 50  0001 C CNN "Watt"
+	1    6250 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:3V3 #PWR031
 U 1 1 5FD519F4
-P 5900 2050
-F 0 "#PWR031" H 5900 1900 50  0001 C CNN
-F 1 "3V3" H 5900 2223 50  0000 C CNN
-F 2 "" H 5900 2050 50  0001 C CNN
-F 3 "" H 5900 2050 50  0001 C CNN
-	1    5900 2050
+P 5750 2050
+F 0 "#PWR031" H 5750 1900 50  0001 C CNN
+F 1 "3V3" H 5750 2223 50  0000 C CNN
+F 2 "" H 5750 2050 50  0001 C CNN
+F 3 "" H 5750 2050 50  0001 C CNN
+	1    5750 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -118,19 +118,19 @@ F 3 "" H 9550 3050 50  0001 C CNN
 	1    9550 3050
 	1    0    0    -1  
 $EndComp
-Text Notes 2950 7050 0    50   ~ 0
+Text Notes 650  7300 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
-Text GLabel 2950 6900 2    60   Output ~ 0
+Text GLabel 650  7150 2    60   Output ~ 0
 PRESSURE-SENSOR-VENT
-Text GLabel 5600 7125 0    50   Input ~ 0
+Text GLabel 3300 7375 0    50   Input ~ 0
 FLOW-SENSOR
-Text GLabel 5675 6825 0    50   Input ~ 0
+Text GLabel 3375 7075 0    50   Input ~ 0
 OXYGEN-SENSOR
-Text GLabel 5675 6950 0    50   Input ~ 0
+Text GLabel 3375 7200 0    50   Input ~ 0
 FLOW-SENSOR-GAIN
-Text GLabel 2950 6700 2    60   Output ~ 0
+Text GLabel 650  6950 2    60   Output ~ 0
 SENSIRON-FLOW-SENSOR
-Text GLabel 5550 7350 0    50   Output ~ 0
+Text GLabel 3250 7600 0    50   Output ~ 0
 Motor_off
 Text GLabel 8200 5150 0    50   Input ~ 0
 PB_PLUS
@@ -138,33 +138,33 @@ Text GLabel 8200 5250 0    50   Input ~ 0
 PB_MINUS
 Text GLabel 8200 5350 0    50   Input ~ 0
 PB_SEL
-Text GLabel 9700 1200 2    50   Output ~ 0
+Text GLabel 9550 1200 2    50   Output ~ 0
 Vref_DRV
-Text GLabel 9700 1300 2    50   Output ~ 0
-FBA_DRV
-Text GLabel 9700 1400 2    50   Output ~ 0
-FBB_DRV
-Text GLabel 9700 1500 2    50   Output ~ 0
-FBC_DRV
-Text GLabel 9700 1600 2    50   Output ~ 0
-FBD_DRV
-Text GLabel 9700 1700 2    50   Output ~ 0
-FBE_DRV
-Text GLabel 9700 1800 2    50   Output ~ 0
+Text GLabel 9550 1300 2    50   Output ~ 0
+FB_DRV_PRESSURE-SENSOR-VENT
+Text GLabel 9550 1400 2    50   Output ~ 0
+FB_DRV_PRESSURE-SENSOR-PATIENT
+Text GLabel 9550 1500 2    50   Output ~ 0
+FB_DRV_FLOW-SENSOR
+Text GLabel 9550 1600 2    50   Output ~ 0
+FB_DRV_FLOW-SENSOR-GAIN
+Text GLabel 9550 1700 2    50   Output ~ 0
+FB_DRV_OXYGEN-SENSOR
+Text GLabel 9550 1800 2    50   Output ~ 0
 FBF_DRV
-Text GLabel 1000 4500 0    50   Input ~ 0
+Text GLabel 1650 4650 0    50   Input ~ 0
 AD_VREF
-Text GLabel 1300 4000 0    50   Input ~ 0
-Vcap_A
-Text GLabel 1300 4200 0    50   Input ~ 0
-Vcap_B
-Text GLabel 1300 4400 0    50   Input ~ 0
-Vcap_C
-Text GLabel 4450 3800 2    50   Input ~ 0
-Vcap_D
-Text GLabel 4450 4000 2    50   Input ~ 0
-Vcap_E
-Text GLabel 4450 4400 2    50   Input ~ 0
+Text GLabel 1950 4150 0    50   Input ~ 0
+Vcap_PRESSURE-SENSOR-VENT
+Text GLabel 1950 4350 0    50   Input ~ 0
+Vcap_PRESSURE-SENSOR-PATIENT
+Text GLabel 1950 4550 0    50   Input ~ 0
+Vcap_FLOW-SENSOR
+Text GLabel 5100 3950 2    50   Input ~ 0
+Vcap_FLOW-SENSOR-GAIN
+Text GLabel 5100 4150 2    50   Input ~ 0
+Vcap_OXYGEN-SENSOR
+Text GLabel 5100 4550 2    50   Input ~ 0
 Vcap_F
 Text GLabel 10300 5250 2    50   Output ~ 0
 LCD_RS
@@ -189,26 +189,24 @@ LCD_DB7
 Text GLabel 10300 5750 2    50   BiDi ~ 0
 LCD_DB6
 Wire Notes Line
-	500  6250 5250 6250
-Wire Notes Line
-	5250 500  5250 6250
-Text Notes 5450 3100 0    50   ~ 0
+	500  6350 5250 6350
+Text Notes 5300 3100 0    50   ~ 0
 CHECK I2C PULL-UP RESISTOR\nVALUES ONCE WHOLE I2C CIRCUIT\nIS CONFIRMED (2.4K TOO STIFF, 4.75K\nIS ENOUGH)
-Text GLabel 6425 2400 0    50   Output ~ 0
+Text GLabel 6275 2400 0    50   Output ~ 0
 I2C_SCL
-Text GLabel 5800 2500 0    50   BiDi ~ 0
+Text GLabel 5650 2500 0    50   BiDi ~ 0
 I2C_SDA
 Wire Wire Line
-	6425 2400 6500 2400
+	6275 2400 6350 2400
 $Comp
 L OpenVent:3V3 #PWR066
 U 1 1 602573F8
-P 6500 2000
-F 0 "#PWR066" H 6500 1850 50  0001 C CNN
-F 1 "3V3" H 6500 2173 50  0000 C CNN
-F 2 "" H 6500 2000 50  0001 C CNN
-F 3 "" H 6500 2000 50  0001 C CNN
-	1    6500 2000
+P 6350 2000
+F 0 "#PWR066" H 6350 1850 50  0001 C CNN
+F 1 "3V3" H 6350 2173 50  0000 C CNN
+F 2 "" H 6350 2000 50  0001 C CNN
+F 3 "" H 6350 2000 50  0001 C CNN
+	1    6350 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -282,144 +280,142 @@ Connection ~ 10850 3800
 Wire Wire Line
 	9600 3700 9250 3700
 Wire Wire Line
-	1000 4500 1650 4500
+	1650 4650 2300 4650
 Wire Wire Line
-	1850 4300 1750 4300
+	2500 4450 2400 4450
 Wire Wire Line
-	1750 4300 1750 4500
-Connection ~ 1750 4500
+	2400 4450 2400 4650
+Connection ~ 2400 4650
 Wire Wire Line
-	1750 4500 1850 4500
+	2400 4650 2500 4650
 Wire Wire Line
-	1850 4100 1750 4100
+	2500 4250 2400 4250
 Wire Wire Line
-	1750 4100 1750 4300
-Connection ~ 1750 4300
+	2400 4250 2400 4450
+Connection ~ 2400 4450
 Wire Wire Line
-	1300 4000 1850 4000
+	1950 4150 2500 4150
 Wire Wire Line
-	1850 4200 1300 4200
+	2500 4350 1950 4350
 Wire Wire Line
-	1300 4400 1850 4400
+	1950 4550 2500 4550
 Wire Wire Line
-	4150 3900 4000 3900
-Connection ~ 1650 4500
+	4800 4050 4650 4050
+Connection ~ 2300 4650
 Wire Wire Line
-	1650 4500 1750 4500
+	2300 4650 2400 4650
 Wire Wire Line
-	4000 4100 4150 4100
-Connection ~ 4150 4100
+	4650 4250 4800 4250
+Connection ~ 4800 4250
 Wire Wire Line
-	4150 4100 4150 3900
+	4800 4250 4800 4050
 Wire Wire Line
-	4000 4500 4150 4500
-Connection ~ 4150 4500
+	4650 4650 4800 4650
+Connection ~ 4800 4650
 Wire Wire Line
-	4150 4100 4150 4300
+	4800 4250 4800 4450
 Wire Wire Line
-	4450 3800 4000 3800
+	5100 3950 4650 3950
 Wire Wire Line
-	4450 4000 4000 4000
+	5100 4150 4650 4150
 Wire Wire Line
-	4000 4400 4450 4400
-Text Notes 2150 3300 0    50   ~ 0
+	4650 4550 5100 4550
+Text Notes 2800 3450 0    50   ~ 0
 SIGMA DELTA A/D CONVERTER INPUTS
-Connection ~ 6500 2400
+Connection ~ 6350 2400
 Wire Wire Line
-	8900 1200 9700 1200
+	8750 1200 9550 1200
 Wire Wire Line
-	8900 1300 9700 1300
+	8750 1300 9550 1300
 Wire Wire Line
-	9700 1400 8900 1400
+	9550 1400 8750 1400
 Wire Wire Line
-	8900 1500 9700 1500
+	8750 1500 9550 1500
 Wire Wire Line
-	9700 1600 8900 1600
+	9550 1600 8750 1600
 Wire Wire Line
-	8900 1700 9700 1700
+	8750 1700 9550 1700
 Wire Wire Line
-	9700 1800 8900 1800
-Text Notes 9350 1050 0    50   ~ 0
+	9550 1800 8750 1800
+Text Notes 9200 1050 0    50   ~ 0
 DELTA SIGMA A/D CONVERTER\nFEEDBACK VOLTAGE AND\nREFERENCE VOLTAGE DRIVE
 Wire Wire Line
-	7250 2300 7000 2300
+	7100 2300 6850 2300
 Wire Wire Line
-	7000 2300 7000 2700
+	6850 2300 6850 2700
 Wire Wire Line
-	7000 2700 6650 2700
+	6850 2700 6500 2700
 Text GLabel 8200 4950 0    50   Output ~ 0
 LCD_B_ENABLE
 Wire Wire Line
 	8400 4950 8200 4950
-Wire Notes Line
-	500  2750 5250 2750
-Text GLabel 7150 1800 0    50   Input ~ 0
+Text GLabel 7000 1800 0    50   Input ~ 0
 SPI1_SCLK
-Text GLabel 7150 1900 0    50   Input ~ 0
+Text GLabel 7000 1900 0    50   Input ~ 0
 SPI1_FPGA_CS
-Text GLabel 7150 1700 0    50   Input ~ 0
+Text GLabel 7000 1700 0    50   Input ~ 0
 SPI1_MOSI
-Text GLabel 7150 1600 0    50   Output ~ 0
+Text GLabel 7000 1600 0    50   Output ~ 0
 SPI1_MISO
 Wire Wire Line
-	1650 5100 4150 5100
-Text GLabel 7150 1300 0    50   Output ~ 0
+	2300 5250 4800 5250
+Text GLabel 7000 1300 0    50   Output ~ 0
 SPI2_MOSI
-Text GLabel 7150 1200 0    50   Input ~ 0
+Text GLabel 7000 1200 0    50   Input ~ 0
 SPI2_MISO
-Text GLabel 7150 1500 0    50   Output ~ 0
+Text GLabel 7000 1500 0    50   Output ~ 0
 SPI2_PRESSURE_CS
-Text GLabel 7150 1400 0    50   Output ~ 0
+Text GLabel 7000 1400 0    50   Output ~ 0
 SPI_SCLK
-Text Notes 6150 1700 0    50   ~ 0
+Text Notes 6000 1700 0    50   ~ 0
 SPI1 to\nMCU master
-Text Notes 5800 1300 0    50   ~ 0
+Text Notes 5650 1300 0    50   ~ 0
 SPI2 from sensor slave
 Wire Wire Line
-	5900 2450 5900 2500
-Connection ~ 5900 2500
+	5750 2450 5750 2500
+Connection ~ 5750 2500
 Wire Wire Line
-	5900 2500 5800 2500
+	5750 2500 5650 2500
 Wire Wire Line
-	7250 1200 7150 1200
+	7100 1200 7000 1200
 Wire Wire Line
-	7250 1300 7150 1300
+	7100 1300 7000 1300
 Wire Wire Line
-	7250 1500 7150 1500
+	7100 1500 7000 1500
 Wire Wire Line
-	7150 1400 7250 1400
+	7000 1400 7100 1400
 Wire Wire Line
-	6500 2400 7250 2400
+	6350 2400 7100 2400
 Wire Wire Line
-	5900 2500 7250 2500
+	5750 2500 7100 2500
 Wire Wire Line
-	7250 1600 7150 1600
+	7100 1600 7000 1600
 Wire Wire Line
-	7250 1700 7150 1700
+	7100 1700 7000 1700
 Wire Wire Line
-	7250 1800 7150 1800
+	7100 1800 7000 1800
 Wire Wire Line
-	7250 1900 7150 1900
+	7100 1900 7000 1900
 $Comp
 L OpenVent:GW1N-9LQ100 U8
 U 6 1 6053AF87
-P 2900 3700
-F 0 "U8" H 2925 3948 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 2925 3857 50  0000 C CNN
-F 2 "" H 6200 2800 50  0001 C CNN
-F 3 "" H 6200 2800 50  0001 C CNN
-	6    2900 3700
+P 3550 3850
+F 0 "U8" H 3575 4098 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3575 4007 50  0000 C CNN
+F 2 "" H 6850 2950 50  0001 C CNN
+F 3 "" H 6850 2950 50  0001 C CNN
+	6    3550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:GW1N-9LQ100 U8
 U 5 1 6054191D
-P 8050 1100
-F 0 "U8" H 8008 1348 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 8008 1257 50  0000 C CNN
-F 2 "" H 11350 200 50  0001 C CNN
-F 3 "" H 11350 200 50  0001 C CNN
-	5    8050 1100
+P 7900 1100
+F 0 "U8" H 7858 1348 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 7858 1257 50  0000 C CNN
+F 2 "" H 11200 200 50  0001 C CNN
+F 3 "" H 11200 200 50  0001 C CNN
+	5    7900 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -433,98 +429,12 @@ F 3 "" H 12550 3850 50  0001 C CNN
 	4    9250 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 600  6075 0    50   ~ 0
+Text Notes 2100 5475 0    50   ~ 0
 Bank 1 = +3V3_Sensors if GOW1N -9 or 3V3 if GOWIN -4
 Wire Wire Line
-	1650 4500 1650 5100
+	2300 4650 2300 5250
 Wire Wire Line
-	4150 4500 4150 5100
-Text GLabel 3700 1600 2    50   BiDi ~ 0
-I2C_SDA
-Text GLabel 3700 1500 2    50   Input ~ 0
-I2C_SCL
-Wire Wire Line
-	2400 1900 2400 1950
-Wire Wire Line
-	2450 1900 2400 1900
-Wire Wire Line
-	3150 1600 3700 1600
-Wire Wire Line
-	3150 1500 3700 1500
-Wire Wire Line
-	3250 1700 3250 1750
-Wire Wire Line
-	3150 1700 3250 1700
-Wire Wire Line
-	3250 1400 3150 1400
-Wire Wire Line
-	3250 1300 3250 1400
-Wire Wire Line
-	1950 1700 2450 1700
-Wire Wire Line
-	2450 1600 1950 1600
-Wire Wire Line
-	1950 1500 2450 1500
-Wire Wire Line
-	2450 1400 1950 1400
-Text Label 3350 1600 0    50   ~ 0
-I2C_SDA
-Text Label 3350 1500 0    50   ~ 0
-I2C_SCL
-Text Label 1950 1400 0    50   ~ 0
-ADC_DRDY
-$Comp
-L OpenVent:3V3 #PWR030
-U 1 1 5FD344B7
-P 3250 1300
-F 0 "#PWR030" H 3250 1150 50  0001 C CNN
-F 1 "3V3" H 3250 1473 50  0000 C CNN
-F 2 "" H 3250 1300 50  0001 C CNN
-F 3 "" H 3250 1300 50  0001 C CNN
-	1    3250 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR029
-U 1 1 5FD324D1
-P 3250 1750
-F 0 "#PWR029" H 3250 1500 50  0001 C CNN
-F 1 "GND" H 3250 1600 50  0001 C CNN
-F 2 "" H 3250 1750 50  0001 C CNN
-F 3 "" H 3250 1750 50  0001 C CNN
-	1    3250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR028
-U 1 1 5FD31973
-P 2400 1950
-F 0 "#PWR028" H 2400 1700 50  0001 C CNN
-F 1 "GND" H 2400 1800 50  0001 C CNN
-F 2 "" H 2400 1950 50  0001 C CNN
-F 3 "" H 2400 1950 50  0001 C CNN
-	1    2400 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:ADS1015 U13
-U 1 1 5FD19031
-P 2450 1400
-F 0 "U13" H 2800 1665 50  0000 C CNN
-F 1 "ADS1015" H 2800 1574 50  0000 C CNN
-F 2 "F_ICs:LT_MS8E" H 2700 150 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf" H 2650 950 50  0001 C CNN
-F 4 "ADS1015" H 2650 500 50  0001 C CNN "Mfr_PN"
-F 5 "IC ADC VSSOP-10" H 2850 350 50  0001 C CNN "Desc"
-	1    2450 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 1950 1500 0    50   Input ~ 0
-PRESSURE-PATIENT-SENSOR
-Text GLabel 1950 1600 0    50   Input ~ 0
-OXYGEN-SENSOR
-Text GLabel 1950 1700 0    50   Input ~ 0
-VBATT-SCALED
+	4800 4650 4800 5250
 Wire Wire Line
 	8200 5050 8400 5050
 Wire Wire Line
@@ -533,33 +443,31 @@ Wire Wire Line
 	8200 5250 8400 5250
 Wire Wire Line
 	8200 5350 8400 5350
-Text Notes 5500 650  0    50   ~ 0
+Text Notes 5350 650  0    50   ~ 0
 I/Os ON BANKS 0, 2 AND 3 CAN BE FREELY INTERCHANGED AT LAYOUT EXCEPT CLCK WHICH MUST BE ON A GCLKT_x I/O PIN
-Text GLabel 9700 1900 2    50   Output ~ 0
+Text GLabel 9550 1900 2    50   Output ~ 0
 FPGA_READY
 Wire Wire Line
-	8900 1900 9700 1900
+	8750 1900 9550 1900
 Text GLabel 9250 3700 0    50   Output ~ 0
 CLCK
-Text GLabel 9700 2100 2    50   Input ~ 0
+Text GLabel 9550 2100 2    50   Input ~ 0
 CLCK
 Wire Wire Line
-	8900 2100 9700 2100
-Text GLabel 9700 2200 2    50   Output ~ 0
-FBG_DRV
+	8750 2100 9550 2100
+Text GLabel 9550 2200 2    50   Output ~ 0
+FBE_DRV
 Wire Wire Line
-	8900 2200 9700 2200
-Text GLabel 4450 4200 2    50   Input ~ 0
-Vcap_G
+	8750 2200 9550 2200
+Text GLabel 5100 4350 2    50   Input ~ 0
+Vcap_E
 Wire Wire Line
-	4450 4200 4000 4200
+	5100 4350 4650 4350
 Wire Wire Line
-	4000 4300 4150 4300
-Connection ~ 4150 4300
+	4650 4450 4800 4450
+Connection ~ 4800 4450
 Wire Wire Line
-	4150 4300 4150 4500
-Text Notes 2000 1000 0    50   ~ 0
-Should this circuit still exist? LM 17/03/21
+	4800 4450 4800 4650
 $Comp
 L OpenVent:GND #PWR032
 U 1 1 5FD3A041

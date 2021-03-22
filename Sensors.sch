@@ -24,9 +24,9 @@ F 3 "" H 2550 2750 70  0000 C CNN
 	1    2550 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 4650 2    60   Output ~ 0
+Text GLabel 4050 4650 2    60   Output ~ 0
 PRESSURE-SENSOR-PATIENT
-Text GLabel 4450 3350 2    60   Output ~ 0
+Text GLabel 4050 3350 2    60   Output ~ 0
 FLOW-SENSOR
 $Comp
 L OpenVent:+5V #5V_08
@@ -121,28 +121,6 @@ $EndComp
 Text Notes 8300 775  0    60   ~ 0
 Gain: 50
 $Comp
-L OpenVent:GND #GND_033
-U 1 1 5F8DD0B7
-P 4250 3900
-F 0 "#GND_033" H 4250 3900 20  0001 C CNN
-F 1 "GND" H 4250 3830 50  0001 C CNN
-F 2 "" H 4250 3900 70  0000 C CNN
-F 3 "" H 4250 3900 70  0000 C CNN
-	1    4250 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #GND_034
-U 1 1 5F8DD0B6
-P 4250 5200
-F 0 "#GND_034" H 4250 5200 20  0001 C CNN
-F 1 "GND" H 4250 5130 50  0001 C CNN
-F 2 "" H 4250 5200 70  0000 C CNN
-F 3 "" H 4250 5200 70  0000 C CNN
-	1    4250 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:GND #GND_031
 U 1 1 5F8DD0B5
 P 3200 1550
@@ -235,10 +213,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 2475 9950 2475
 Wire Wire Line
-	4250 4650 4250 4800
-Wire Wire Line
-	4250 3350 4250 3500
-Wire Wire Line
 	8050 3425 8050 3475
 Wire Wire Line
 	8050 2575 8050 3025
@@ -255,17 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 3650 2750 3750
 Wire Wire Line
-	3500 3350 3700 3350
-Wire Wire Line
 	3350 4350 3350 4450
-Wire Wire Line
-	4250 4650 4450 4650
-Wire Wire Line
-	4100 4650 4250 4650
-Wire Wire Line
-	4250 3350 4450 3350
-Wire Wire Line
-	4100 3350 4250 3350
 Wire Wire Line
 	2750 3200 2750 3050
 Wire Wire Line
@@ -322,8 +286,6 @@ Connection ~ 3500 3350
 Connection ~ 4150 2150
 Connection ~ 4500 2150
 Connection ~ 4500 1350
-Connection ~ 4250 4650
-Connection ~ 4250 3350
 Connection ~ 5700 2050
 Connection ~ 5700 1350
 Connection ~ 8050 2575
@@ -427,62 +389,6 @@ F 4 "10%" H 2850 4250 50  0001 C CNN "Tolerance"
 F 5 "10nF" V 2800 3950 50  0000 C CNN "Val"
 F 6 "50V" H 2850 4250 50  0001 C CNN "Voltage"
 	1    2850 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R38
-U 1 1 5F8DD0A8
-P 3800 3250
-F 0 "R38" H 3800 3200 50  0000 L BNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3800 3000 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 2910 50  0001 C CNN
-F 3 "" H 3800 2910 50  0001 C CNN
-F 4 "1%" V 1400 -2550 50  0001 C CNN "Tolerance"
-F 5 "100k" H 3900 3050 50  0000 C CNN "Val"
-F 6 "0.1W" H 3800 3250 50  0001 C CNN "Watt"
-	1    3800 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R39
-U 1 1 5F8DD0A6
-P 3800 4550
-F 0 "R39" H 3800 4500 50  0000 L BNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3800 4300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 4210 50  0001 C CNN
-F 3 "" H 3800 4210 50  0001 C CNN
-F 4 "1%" V 1400 -2950 50  0001 C CNN "Tolerance"
-F 5 "100k" H 3900 4350 50  0000 C CNN "Val"
-F 6 "0.1W" H 3800 4550 50  0001 C CNN "Watt"
-	1    3800 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:200k_0603_Chip_Resistor,_0.1%,_0.1W R42
-U 1 1 5F8DD0A5
-P 4150 3800
-F 0 "R42" V 4300 3450 50  0000 L BNN
-F 1 "200k_0603_Chip_Resistor,_0.1%,_0.1W" V 4150 3650 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 3660 50  0001 C CNN
-F 3 "" H 4050 3660 50  0001 C CNN
-F 4 "0.1%" V 4100 3500 50  0000 C CNN "Tolerance"
-F 5 "200k" V 4200 3500 50  0000 C CNN "Val"
-F 6 "0.1W" H 4150 3800 50  0001 C CNN "Watt"
-	1    4150 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:200k_0603_Chip_Resistor,_0.1%,_0.1W R43
-U 1 1 5F8DD0A4
-P 4150 5100
-F 0 "R43" V 4300 4750 50  0000 L BNN
-F 1 "200k_0603_Chip_Resistor,_0.1%,_0.1W" V 4150 4950 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 4960 50  0001 C CNN
-F 3 "" H 4050 4960 50  0001 C CNN
-F 4 "0.1%" V 4100 4800 50  0000 C CNN "Tolerance"
-F 5 "200k" V 4200 4800 50  0000 C CNN "Val"
-F 6 "0.1W" H 4150 5100 50  0001 C CNN "Watt"
-	1    4150 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -597,8 +503,6 @@ F 6 "0.1W" H 4050 2800 50  0001 C CNN "Watt"
 	0    -1   -1   0   
 $EndComp
 Connection ~ 2950 4650
-Wire Wire Line
-	2950 4650 3700 4650
 $Comp
 L OpenVent:MPXV4006DP U11
 U 1 1 5FCDD7C7
@@ -803,27 +707,14 @@ F 3 "" H 2750 6550 70  0000 C CNN
 	1    2750 6550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 5950 2    60   Output ~ 0
+Text GLabel 4050 5950 2    60   Output ~ 0
 PRESSURE-SENSOR-VENT
-$Comp
-L OpenVent:GND #GND_046
-U 1 1 5FF44883
-P 4250 6500
-F 0 "#GND_046" H 4250 6500 20  0001 C CNN
-F 1 "GND" H 4250 6430 50  0001 C CNN
-F 2 "" H 4250 6500 70  0000 C CNN
-F 3 "" H 4250 6500 70  0000 C CNN
-	1    4250 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 6250 2750 6250
 Wire Wire Line
 	2950 6350 2750 6350
 Wire Wire Line
 	2950 6250 2950 6350
-Wire Wire Line
-	4250 5950 4250 6100
 Wire Wire Line
 	2550 5650 2550 5350
 Wire Wire Line
@@ -834,13 +725,8 @@ Wire Wire Line
 	2750 6250 2750 6350
 Wire Wire Line
 	3350 5650 3350 5750
-Wire Wire Line
-	4250 5950 4450 5950
-Wire Wire Line
-	4100 5950 4250 5950
 Connection ~ 2750 6350
 Connection ~ 2750 6250
-Connection ~ 4250 5950
 $Comp
 L OpenVent:470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G C64
 U 1 1 5FF4489F
@@ -883,34 +769,6 @@ F 6 "50V" H 2850 5550 50  0001 C CNN "Voltage"
 	1    2850 5550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R28
-U 1 1 5FF448BA
-P 3800 5850
-F 0 "R28" H 3800 5800 50  0000 L BNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3800 5600 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 5510 50  0001 C CNN
-F 3 "" H 3800 5510 50  0001 C CNN
-F 4 "1%" V 1400 -1650 50  0001 C CNN "Tolerance"
-F 5 "100k" H 3900 5650 50  0000 C CNN "Val"
-F 6 "0.1W" H 3800 5850 50  0001 C CNN "Watt"
-	1    3800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:200k_0603_Chip_Resistor,_0.1%,_0.1W R33
-U 1 1 5FF448C3
-P 4150 6400
-F 0 "R33" V 4300 6050 50  0000 L BNN
-F 1 "200k_0603_Chip_Resistor,_0.1%,_0.1W" V 4150 6250 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 6260 50  0001 C CNN
-F 3 "" H 4050 6260 50  0001 C CNN
-F 4 "0.1%" V 4100 6100 50  0000 C CNN "Tolerance"
-F 5 "200k" V 4200 6100 50  0000 C CNN "Val"
-F 6 "0.1W" H 4150 6400 50  0001 C CNN "Watt"
-	1    4150 6400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2550 5350 2950 5350
 Connection ~ 2950 5350
@@ -926,8 +784,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 5950 2950 5950
 Connection ~ 2950 5950
-Wire Wire Line
-	2950 5950 3700 5950
 $Comp
 L OpenVent:MPXV4006GP U17
 U 1 1 5FF448D9
@@ -1170,4 +1026,10 @@ Wire Wire Line
 	1800 3350 2000 3350
 Wire Wire Line
 	1350 2050 2000 2050
+Wire Wire Line
+	3500 3350 4050 3350
+Wire Wire Line
+	2950 4650 4050 4650
+Wire Wire Line
+	2950 5950 4050 5950
 $EndSCHEMATC

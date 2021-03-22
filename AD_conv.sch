@@ -109,13 +109,13 @@ $EndComp
 Text GLabel 1650 1800 0    50   Input ~ 0
 Vref_DRV
 Text GLabel 1650 2000 0    50   Input ~ 0
-FBA_DRV
+FB_DRV_PRESSURE-SENSOR-PATIENT
 Text GLabel 1650 2100 0    50   Input ~ 0
-FBB_DRV
+FB_DRV-FLOW-SENSOR
 Text GLabel 1650 2200 0    50   Input ~ 0
-FBC_DRV
+FB_DRV_FLOW-SENSOR-GAIN
 Text GLabel 1650 2300 0    50   Input ~ 0
-FBD_DRV
+FB_DRV_OXYGEN-SENSOR
 Text GLabel 1650 2400 0    50   Input ~ 0
 FBE_DRV
 Text GLabel 1650 2500 0    50   Input ~ 0
@@ -264,7 +264,7 @@ F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AE
 	-1   0    0    1   
 $EndComp
 Text GLabel 5350 2000 2    50   Output ~ 0
-Vcap_A
+Vcap_PRESSURE-SENSOR-PATIENT
 Wire Wire Line
 	4500 2000 4600 2000
 Connection ~ 4500 2000
@@ -276,7 +276,7 @@ Connection ~ 4600 2000
 Wire Wire Line
 	4600 2000 5250 2000
 Text GLabel 5200 1850 2    50   Input ~ 0
-SensorOut_A
+PRESSURE-SENSOR-PATIENT
 Wire Wire Line
 	5200 1850 5150 1850
 $Comp
@@ -349,7 +349,7 @@ F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AE
 	-1   0    0    1   
 $EndComp
 Text GLabel 5350 2650 2    50   Output ~ 0
-Vcap_B
+Vcap_FLOW-SENSOR
 Wire Wire Line
 	4500 2650 4600 2650
 Connection ~ 4500 2650
@@ -361,7 +361,7 @@ Connection ~ 4600 2650
 Wire Wire Line
 	4600 2650 5250 2650
 Text GLabel 5200 2500 2    50   Input ~ 0
-SensorOut_B
+FLOW-SENSOR
 Wire Wire Line
 	5200 2500 5150 2500
 $Comp
@@ -434,7 +434,7 @@ F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AE
 	-1   0    0    1   
 $EndComp
 Text GLabel 5350 3300 2    50   Output ~ 0
-Vcap_C
+Vcap_FLOW-SENSOR-GAIN
 Wire Wire Line
 	4500 3300 4600 3300
 Connection ~ 4500 3300
@@ -446,7 +446,7 @@ Connection ~ 4600 3300
 Wire Wire Line
 	4600 3300 5250 3300
 Text GLabel 5200 3150 2    50   Input ~ 0
-SensorOut_C
+FLOW-SENSOR-GAIN
 Wire Wire Line
 	5200 3150 5150 3150
 $Comp
@@ -519,7 +519,7 @@ F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AE
 	-1   0    0    1   
 $EndComp
 Text GLabel 5350 3950 2    50   Output ~ 0
-Vcap_D
+Vcap_OXYGEN-SENSOR
 Wire Wire Line
 	4500 3950 4600 3950
 Connection ~ 4500 3950
@@ -531,7 +531,7 @@ Connection ~ 4600 3950
 Wire Wire Line
 	4600 3950 5250 3950
 Text GLabel 5200 3800 2    50   Input ~ 0
-SensorOut_D
+OXYGEN-SENSOR
 Wire Wire Line
 	5200 3800 5150 3800
 $Comp
@@ -874,7 +874,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1800 3650 1800
 Text GLabel 1650 1900 0    50   Input ~ 0
-FBG_DRV
+FB_DRV_PRESSURE-SENSOR-VENT
 Wire Wire Line
 	1650 1900 2150 1900
 $Comp
@@ -947,7 +947,7 @@ F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AE
 	-1   0    0    1   
 $EndComp
 Text GLabel 7150 1450 2    50   Output ~ 0
-Vcap_G
+Vcap_PRESSURE-SENSOR-VENT
 Wire Wire Line
 	6300 1450 6400 1450
 Connection ~ 6300 1450
@@ -959,7 +959,7 @@ Connection ~ 6400 1450
 Wire Wire Line
 	6400 1450 7050 1450
 Text GLabel 7000 1300 2    50   Input ~ 0
-SensorOut_G
+PRESSURE-SENSOR-VENT
 Wire Wire Line
 	7000 1300 6950 1300
 $Comp
