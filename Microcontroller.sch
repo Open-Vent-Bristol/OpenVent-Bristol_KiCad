@@ -327,8 +327,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 2900 6550 2900
 Wire Wire Line
-	6350 2800 6500 2800
-Wire Wire Line
 	6350 2700 6500 2700
 Wire Wire Line
 	6350 2600 6500 2600
@@ -1232,7 +1230,7 @@ Text GLabel 6500 2600 2    50   Input ~ 0
 PB_PLUS
 Text GLabel 6500 2700 2    50   Input ~ 0
 PB_MINUS
-Text GLabel 6500 2800 2    50   Input ~ 0
+Text GLabel 4800 1600 0    50   Input ~ 0
 PB_SEL
 $Comp
 L OpenVent:2N7002BK M2
