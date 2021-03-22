@@ -23,7 +23,7 @@ Text GLabel 6550 3000 2    50   Output ~ 0
 MOTOR-IN-B
 Text GLabel 4800 4600 0    50   Input ~ 0
 nPRESSURE-PATIENT-ALERT
-Text GLabel 4800 2100 0    50   Output ~ 0
+Text GLabel 4800 1700 0    50   Output ~ 0
 PWM
 $Comp
 L OpenVent:GND #GND_07
@@ -1107,7 +1107,7 @@ Wire Wire Line
 	4875 2475 4800 2475
 Text GLabel 4800 2000 0    50   Output ~ 0
 SPI1_FPGA_CS
-Text GLabel 4800 1700 0    50   Output ~ 0
+Text GLabel 4800 2100 0    50   Output ~ 0
 SPI1_SCLK
 Wire Wire Line
 	6350 1600 6450 1600
