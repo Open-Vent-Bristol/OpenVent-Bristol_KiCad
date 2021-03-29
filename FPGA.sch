@@ -361,7 +361,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2100 7300 2100
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 6 1 6053AF87
 P 8600 4200
 F 0 "U8" H 8600 4400 50  0000 C CNN
@@ -729,11 +729,12 @@ Wire Wire Line
 	2200 2400 2200 2500
 Connection ~ 3900 1600
 $Comp
-L OpenVent:GW1N-9LQ100 U?
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U?
 U 1 1 605DEC3D
 P 3000 1450
 AR Path="/5FBE8499/605DEC3D" Ref="U?"  Part="1" 
 AR Path="/5F8F894A/605DEC3D" Ref="U?"  Part="1" 
+AR Path="/605DEC3D" Ref="U?"  Part="1" 
 F 0 "U?" H 3025 1615 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 3025 1524 50  0000 C CNN
 F 2 "" H 6300 550 50  0001 C CNN
@@ -816,7 +817,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2600 7400 2600
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 4 1 60544613
 P 3200 3850
 F 0 "U8" H 3175 4098 50  0000 C CNN
@@ -917,7 +918,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2400 7250 2400
 $Comp
-L OpenVent:GW1N-9LQ100 U8
+L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 5 1 6054191D
 P 8200 1300
 F 0 "U8" H 8158 1548 50  0000 C CNN
