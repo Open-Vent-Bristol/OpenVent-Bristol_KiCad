@@ -106,8 +106,6 @@ Text GLabel 6550 3200 2    50   Input ~ 0
 PGOOD
 Text GLabel 6550 3100 2    50   Output ~ 0
 CE-CONTROL
-Text GLabel 4750 3400 0    50   Input ~ 0
-SOUNDER-CURRENT
 Text Label 3850 1900 0    50   ~ 0
 ANALOG-SPARE
 $Comp

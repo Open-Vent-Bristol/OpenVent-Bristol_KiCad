@@ -931,4 +931,8 @@ $EndComp
 Wire Wire Line
 	9050 2500 9950 2500
 Connection ~ 9950 2500
+Text GLabel 7350 4800 0    50   Input ~ 0
+SOUNDER-CURRENT
+Wire Wire Line
+	7550 4800 7350 4800
 $EndSCHEMATC
