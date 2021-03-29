@@ -88,6 +88,11 @@ K header, right angle, 2 pos
 F http://www.jst-mfg.com/product/pdf/eng/eVH.pdf
 $ENDCMP
 #
+$CMP CONN_RCPT_USB2.0_MICRO_B_SMD_R_A
+D Korean Hroparts Elec U-F-M5DD-W-L
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
 $CMP CSD88537ND
 D Mosfet Array 2 N-Channel (Dual) 60V 15A 2.1W Surface Mount 8-SOIC
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd88537nd

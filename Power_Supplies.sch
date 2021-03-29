@@ -1355,7 +1355,7 @@ Wire Wire Line
 	5500 6100 5350 6100
 Wire Wire Line
 	6250 6750 6250 6800
-Text Notes 800  4700 0    50   ~ 0
+Text Notes 700  4850 0    50   ~ 0
 5V from USB
 Text Notes 6050 3400 0    150  ~ 0
 Add 5V Sensor Power \nSupply with prefiltering
@@ -1859,4 +1859,15 @@ Wire Wire Line
 Connection ~ 2300 4050
 Wire Wire Line
 	2300 4050 2100 4050
+$Comp
+L OpenVent:VUSB #PWR?
+U 1 1 606F9A4B
+P 1000 4700
+F 0 "#PWR?" H 1000 4550 50  0001 C CNN
+F 1 "VUSB" H 1000 4873 50  0000 C CNN
+F 2 "" H 1000 4700 50  0001 C CNN
+F 3 "" H 1000 4700 50  0001 C CNN
+	1    1000 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

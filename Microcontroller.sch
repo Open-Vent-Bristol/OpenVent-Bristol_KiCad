@@ -562,17 +562,6 @@ F 6 "100nF" V 8325 5750 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A CN2
-U 1 1 5F8DD141
-P 1400 4100
-F 0 "CN2" H 2000 4650 50  0000 L BNN
-F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 1950 4300 50  0001 C CNN
-F 2 "" H 1400 4100 50  0001 C CNN
-F 3 "" H 1400 4100 50  0001 C CNN
-	1    1400 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C1
 U 1 1 5F8DD140
 P 1600 4250
@@ -1022,7 +1011,7 @@ Wire Wire Line
 	8525 6175 8525 6100
 Connection ~ 8175 6175
 Text Notes 650  3450 0    50   ~ 0
-Mini USB Connector
+Micro-B USB Connector
 Connection ~ 3975 6325
 Wire Wire Line
 	3975 6325 3975 6425
@@ -1424,4 +1413,15 @@ Wire Wire Line
 	4750 4100 4950 4100
 Text GLabel 4750 4100 0    50   Output ~ 0
 ON
+$Comp
+L OpenVent:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A CN2
+U 1 1 60722C2F
+P 1400 4100
+F 0 "CN2" H 1743 4683 60  0000 C CNN
+F 1 "CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" H 1743 4789 60  0001 C CNN
+F 2 "" H 1600 4600 60  0001 C CNN
+F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND" H 1743 4683 60  0001 C CNN
+	1    1400 4100
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
