@@ -14,166 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD20B
-P 6600 1050
-AR Path="/5F8F894A/5FCBD20B" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD20B" Ref="D8"  Part="1" 
-F 0 "D8" H 6500 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 6550 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 6600 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 6600 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 6600 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 6600 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 6600 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 6600 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 6600 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 6600 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 6600 1050 50  0001 C CNN "Mfr"
-	1    6600 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD218
-P 7650 1050
-AR Path="/5F8F894A/5FCBD218" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD218" Ref="D9"  Part="1" 
-F 0 "D9" H 7550 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 7600 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 7650 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 7650 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 7650 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 7650 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 7650 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 7650 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 7650 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 7650 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 7650 1050 50  0001 C CNN "Mfr"
-	1    7650 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD225
-P 8700 1050
-AR Path="/5F8F894A/5FCBD225" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD225" Ref="D10"  Part="1" 
-F 0 "D10" H 8600 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 8650 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 8700 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 8700 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 8700 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 8700 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 8700 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 8700 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 8700 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 8700 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 8700 1050 50  0001 C CNN "Mfr"
-	1    8700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD232
-P 9750 1050
-AR Path="/5F8F894A/5FCBD232" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD232" Ref="D11"  Part="1" 
-F 0 "D11" H 9650 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 9700 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 9750 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 9750 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 9750 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 9750 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 9750 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 9750 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 9750 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 9750 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 9750 1050 50  0001 C CNN "Mfr"
-	1    9750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD23F
-P 5550 1050
-AR Path="/5F8F894A/5FCBD23F" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD23F" Ref="D7"  Part="1" 
-F 0 "D7" H 5450 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 5500 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 5550 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 5550 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 5550 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 5550 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 5550 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 5550 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 5550 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 5550 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 5550 1050 50  0001 C CNN "Mfr"
-	1    5550 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD24C
-P 4450 1050
-AR Path="/5F8F894A/5FCBD24C" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD24C" Ref="D6"  Part="1" 
-F 0 "D6" H 4350 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 4400 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 4450 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 4450 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 4450 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 4450 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 4450 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 4450 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 4450 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 4450 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 4450 1050 50  0001 C CNN "Mfr"
-	1    4450 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD259
-P 3400 1050
-AR Path="/5F8F894A/5FCBD259" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD259" Ref="D5"  Part="1" 
-F 0 "D5" H 3300 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 3350 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 3400 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 3400 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 3400 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 3400 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 3400 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 3400 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 3400 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 3400 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 3400 1050 50  0001 C CNN "Mfr"
-	1    3400 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:LED_RGB_Serial D?
-U 1 1 5FCBD266
-P 2350 1050
-AR Path="/5F8F894A/5FCBD266" Ref="D?"  Part="1" 
-AR Path="/5FCA4074/5FCBD266" Ref="D4"  Part="1" 
-F 0 "D4" H 2250 1400 50  0000 L BNN
-F 1 "BB-HRGB32M-TRB" H 2300 650 50  0000 C CNN
-F 2 "OpenVent:LED_RGB_BL-RRGB32M_TRB_PLCC4_3.2x2.8mm" H 2350 1050 50  0001 C CNN
-F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HRGB32M-TRB.pdf" H 2350 1050 50  0001 C CNN
-F 4 "BB-HRGB32M-TRB" H 2350 1050 50  0001 C CNN "Mfr_PN"
-F 5 "RGB" H 2350 1050 50  0001 C CNN "Colour"
-F 6 "ADDRESS LED DISCRET SERIAL R/G/B" H 2350 1050 50  0001 C CNN "Desc"
-F 7 "Addressable Lighting series 1 LED Discrete Serial Red, Green, Blue (RGB) 3.20mm L x 2.80mm W" H 2350 1050 50  0001 C CNN "Detailed"
-F 8 "DigiKey" H 2350 1050 50  0001 C CNN "DistName"
-F 9 "2007-BB-HRGB32M-TRBTR-ND" H 2350 1050 50  0001 C CNN "Dist_PN"
-F 10 "American Bright Optoelectronics Corporation" H 2350 1050 50  0001 C CNN "Mfr"
-	1    2350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:+5V #PWR?
 U 1 1 5FCBD26C
 P 10200 800
@@ -2169,4 +2009,92 @@ PB_MUTE_FPGA
 Wire Wire Line
 	7300 3900 7100 3900
 Connection ~ 7100 3900
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D4
+U 1 1 607968FB
+P 2350 1050
+F 0 "D4" H 2350 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 2350 650 50  0000 C CNN
+F 2 "" H 2350 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 2350 1000 50  0001 C CNN
+	1    2350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D5
+U 1 1 60797C60
+P 3400 1050
+F 0 "D5" H 3400 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 3400 650 50  0000 C CNN
+F 2 "" H 3400 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 3400 1000 50  0001 C CNN
+	1    3400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D6
+U 1 1 607999FE
+P 4450 1050
+F 0 "D6" H 4450 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 4450 650 50  0000 C CNN
+F 2 "" H 4450 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 4450 1000 50  0001 C CNN
+	1    4450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D7
+U 1 1 6079B14D
+P 5550 1050
+F 0 "D7" H 5550 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 5550 650 50  0000 C CNN
+F 2 "" H 5550 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 5550 1000 50  0001 C CNN
+	1    5550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D8
+U 1 1 6079CCBF
+P 6600 1050
+F 0 "D8" H 6600 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 6600 650 50  0000 C CNN
+F 2 "" H 6600 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 6600 1000 50  0001 C CNN
+	1    6600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D9
+U 1 1 6079E8B7
+P 7650 1050
+F 0 "D9" H 7650 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 7650 650 50  0000 C CNN
+F 2 "" H 7650 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 7650 1000 50  0001 C CNN
+	1    7650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D10
+U 1 1 607A0277
+P 8700 1050
+F 0 "D10" H 8700 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 8700 650 50  0000 C CNN
+F 2 "" H 8700 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 8700 1000 50  0001 C CNN
+	1    8700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D11
+U 1 1 607A28C3
+P 9750 1050
+F 0 "D11" H 9750 1450 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 9750 650 50  0000 C CNN
+F 2 "" H 9750 1000 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 9750 1000 50  0001 C CNN
+	1    9750 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -71,6 +71,11 @@ K diode Schottky
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
+$CMP BB-HRGB32M-TRB-C
+D LED_RGB_Serial
+F https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit
+$ENDCMP
+#
 $CMP BLA31BD121SN4D
 D FERRITE BEAD 120 OHM 1206 4LN
 K L ferrite bead inductor filter
