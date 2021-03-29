@@ -1686,30 +1686,10 @@ F 6 "0.1W" H 3600 3200 50  0001 C CNN "Watt"
 	1    0    0    -1  
 $EndComp
 Connection ~ 4050 3300
-Wire Wire Line
-	4050 3300 4050 3400
-Wire Wire Line
-	4050 3700 4050 3750
 Text GLabel 2300 3250 0    50   Input ~ 0
 PWR_EN
 Wire Wire Line
 	4050 3300 4050 3225
-$Comp
-L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
-U 1 1 605F35B0
-P 3950 3600
-AR Path="/5F99D63D/605F35B0" Ref="C?"  Part="1" 
-AR Path="/5FBE8499/605F35B0" Ref="C?"  Part="1" 
-F 0 "C?" V 4050 3600 50  0000 L BNN
-F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 3860 3410 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3860 3410 50  0001 C CNN
-F 3 "" H 3860 3410 50  0001 C CNN
-F 4 "10%" H 3950 3600 50  0001 C CNN "Tolerance"
-F 5 "1uF" V 3925 3625 50  0000 C CNN "Val"
-F 6 "50V" H 3950 3600 50  0001 C CNN "Voltage"
-	1    3950 3600
-	0    -1   -1   0   
-$EndComp
 $Comp
 L OpenVent:+1V2 #PWR?
 U 1 1 605F354A
@@ -1721,21 +1701,6 @@ F 1 "+1V2" H 4050 3398 50  0000 C CNN
 F 2 "" H 4050 3225 50  0001 C CNN
 F 3 "" H 4050 3225 50  0001 C CNN
 	1    4050 3225
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR?
-U 1 1 605F3544
-P 4050 3750
-AR Path="/5F8F8987/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5FB692C4/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE8499/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5F99D63D/605F3544" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 3500 50  0001 C CNN
-F 1 "GND" H 4050 3600 50  0001 C CNN
-F 2 "" H 4050 3750 50  0001 C CNN
-F 3 "" H 4050 3750 50  0001 C CNN
-	1    4050 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1769,7 +1734,7 @@ F 3 "" H 1550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 3500 1550 3500
+	2600 3500 2100 3500
 Wire Wire Line
 	1550 3500 1550 3150
 $Comp
@@ -1808,4 +1773,90 @@ Wire Wire Line
 Wire Wire Line
 	3300 3500 3300 3600
 Connection ~ 3300 3600
+$Comp
+L OpenVent:2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 6069D3D8
+P 4150 3550
+F 0 "C?" V 4154 3560 50  0000 L CNN
+F 1 "2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" H 4150 3550 50  0001 C CNN
+F 2 "" H 4150 3550 50  0001 C CNN
+F 3 "" H 4150 3550 50  0001 C CNN
+F 4 "2.2uF" V 4245 3560 50  0000 L CNN "Val"
+F 5 "50V" H 4150 3550 50  0001 C CNN "Voltage"
+F 6 "10%" H 4150 3550 50  0001 C CNN "Tolerance"
+	1    4150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 605F3544
+P 4050 3850
+AR Path="/5F8F8987/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5F99D63D/605F3544" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3600 50  0001 C CNN
+F 1 "GND" H 4050 3700 50  0001 C CNN
+F 2 "" H 4050 3850 50  0001 C CNN
+F 3 "" H 4050 3850 50  0001 C CNN
+	1    4050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3300 4050 3450
+Wire Wire Line
+	4050 3750 4050 3850
+$Comp
+L OpenVent:2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 606EC782
+P 2000 3850
+F 0 "C?" V 2004 3860 50  0000 L CNN
+F 1 "2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" H 2000 3850 50  0001 C CNN
+F 2 "" H 2000 3850 50  0001 C CNN
+F 3 "" H 2000 3850 50  0001 C CNN
+F 4 "2.2uF" V 2095 3860 50  0000 L CNN "Val"
+F 5 "50V" H 2000 3850 50  0001 C CNN "Voltage"
+F 6 "10%" H 2000 3850 50  0001 C CNN "Tolerance"
+	1    2000 3850
+	0    -1   1    0   
+$EndComp
+$Comp
+L OpenVent:1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6070865C
+P 2500 3850
+F 0 "C?" V 2504 3860 50  0000 L CNN
+F 1 "1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1975 4075 50  0001 C CNN
+F 2 "" H 2500 3850 50  0001 C CNN
+F 3 "" H 2500 3850 50  0001 C CNN
+F 4 "1.5nF" V 2595 3860 50  0000 L CNN "Val"
+F 5 "25V" H 2275 3525 50  0001 C CNN "Voltage"
+F 6 "10%" H 2575 3450 50  0001 C CNN "Tolerance"
+	1    2500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 3750 2100 3500
+Connection ~ 2100 3500
+Wire Wire Line
+	2100 3500 1550 3500
+Wire Wire Line
+	2400 3750 2600 3750
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60723F3A
+P 2300 4100
+F 0 "#PWR?" H 2300 3850 50  0001 C CNN
+F 1 "GND" H 2300 3950 50  0001 C CNN
+F 2 "" H 2300 4100 50  0001 C CNN
+F 3 "" H 2300 4100 50  0001 C CNN
+	1    2300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4050 2300 4050
+Wire Wire Line
+	2300 4100 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	2300 4050 2100 4050
 $EndSCHEMATC
