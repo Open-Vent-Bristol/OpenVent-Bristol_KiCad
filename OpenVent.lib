@@ -504,7 +504,7 @@ F0 "C" 190 10 50 H V L BNN
 F1 "2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "2uF" 0 0 50 H V C CNN "Val"
+F4 "2.2uF" 0 0 50 H V C CNN "Val"
 F5 "50V" 0 0 50 H I C CNN "Voltage"
 F6 "10%" 0 0 50 H I C CNN "Tolerance"
 DRAW
