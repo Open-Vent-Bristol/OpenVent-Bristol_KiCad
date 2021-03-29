@@ -743,34 +743,6 @@ F 3 "" H 6400 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:GND #PWR?
-U 1 1 605F3544
-P 3950 3600
-AR Path="/5F8F8987/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5FB692C4/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE8499/605F3544" Ref="#PWR?"  Part="1" 
-AR Path="/5F99D63D/605F3544" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3950 3350 50  0001 C CNN
-F 1 "GND" H 3950 3450 50  0001 C CNN
-F 2 "" H 3950 3600 50  0001 C CNN
-F 3 "" H 3950 3600 50  0001 C CNN
-	1    3950 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:+1V2 #PWR?
-U 1 1 605F354A
-P 3950 3075
-AR Path="/5FBE8499/605F354A" Ref="#PWR?"  Part="1" 
-AR Path="/5F99D63D/605F354A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3950 2925 50  0001 C CNN
-F 1 "+1V2" H 3950 3248 50  0000 C CNN
-F 2 "" H 3950 3075 50  0001 C CNN
-F 3 "" H 3950 3075 50  0001 C CNN
-	1    3950 3075
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:+5V_Sensors #PWR?
 U 1 1 605F3550
 P 6400 4475
@@ -935,131 +907,12 @@ F 3 "" H 8050 5125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 5125 8050 5075
-$Comp
-L OpenVent:GND #PWR?
-U 1 1 605F35A7
-P 2300 3750
-AR Path="/5F8F8987/605F35A7" Ref="#PWR?"  Part="1" 
-AR Path="/5FB692C4/605F35A7" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE8499/605F35A7" Ref="#PWR?"  Part="1" 
-AR Path="/5F99D63D/605F35A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2300 3500 50  0001 C CNN
-F 1 "GND" H 2300 3600 50  0001 C CNN
-F 2 "" H 2300 3750 50  0001 C CNN
-F 3 "" H 2300 3750 50  0001 C CNN
-	1    2300 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
-U 1 1 605F35B0
-P 3850 3450
-AR Path="/5F99D63D/605F35B0" Ref="C?"  Part="1" 
-AR Path="/5FBE8499/605F35B0" Ref="C?"  Part="1" 
-F 0 "C?" V 3950 3450 50  0000 L BNN
-F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 3760 3260 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3760 3260 50  0001 C CNN
-F 3 "" H 3760 3260 50  0001 C CNN
-F 4 "10%" H 3850 3450 50  0001 C CNN "Tolerance"
-F 5 "1uF" V 3825 3475 50  0000 C CNN "Val"
-F 6 "50V" H 3850 3450 50  0001 C CNN "Voltage"
-	1    3850 3450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3950 3150 3950 3075
 Wire Wire Line
 	6400 4600 6400 4775
 Wire Wire Line
 	6475 4700 6250 4700
 Text GLabel 6250 4700 0    50   Input ~ 0
 PWR_EN
-Wire Wire Line
-	2300 3750 2300 3700
-$Comp
-L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
-U 1 1 605F35C5
-P 2200 3600
-AR Path="/5F99D63D/605F35C5" Ref="C?"  Part="1" 
-AR Path="/5FBE8499/605F35C5" Ref="C?"  Part="1" 
-F 0 "C?" V 2300 3600 50  0000 L BNN
-F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 2110 3410 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2110 3410 50  0001 C CNN
-F 3 "" H 2110 3410 50  0001 C CNN
-F 4 "10%" H 2200 3600 50  0001 C CNN "Tolerance"
-F 5 "1uF" V 2175 3625 50  0000 C CNN "Val"
-F 6 "50V" H 2200 3600 50  0001 C CNN "Voltage"
-	1    2200 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:TLV75512 U?
-U 1 1 605F35CB
-P 2550 3150
-AR Path="/5FBE8499/605F35CB" Ref="U?"  Part="1" 
-AR Path="/5F99D63D/605F35CB" Ref="U?"  Part="1" 
-F 0 "U?" H 2750 3375 50  0000 C CNN
-F 1 "TLV75512" H 2750 3284 50  0000 C CNN
-F 2 "" H 2750 3350 50  0001 C CNN
-F 3 "" H 2750 3350 50  0001 C CNN
-	1    2550 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3150 2450 3150
-Wire Wire Line
-	2300 3150 2300 3400
-Wire Wire Line
-	2450 3300 2200 3300
-Text GLabel 2200 3300 0    50   Input ~ 0
-PWR_EN
-Wire Wire Line
-	3950 3550 3950 3600
-Wire Wire Line
-	3950 3150 3950 3250
-Connection ~ 3950 3150
-Wire Wire Line
-	3050 3150 3425 3150
-Wire Wire Line
-	3050 3300 3100 3300
-$Comp
-L OpenVent:GND #PWR?
-U 1 1 605F35DC
-P 3100 3400
-AR Path="/5F8F8987/605F35DC" Ref="#PWR?"  Part="1" 
-AR Path="/5FB692C4/605F35DC" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE8499/605F35DC" Ref="#PWR?"  Part="1" 
-AR Path="/5F99D63D/605F35DC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 3150 50  0001 C CNN
-F 1 "GND" H 3100 3250 50  0001 C CNN
-F 2 "" H 3100 3400 50  0001 C CNN
-F 3 "" H 3100 3400 50  0001 C CNN
-	1    3100 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 3300 3100 3400
-$Comp
-L OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 605F35E6
-P 3525 3050
-AR Path="/605F35E6" Ref="R?"  Part="1" 
-AR Path="/5F99D63D/605F35E6" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/605F35E6" Ref="R?"  Part="1" 
-F 0 "R?" H 3525 3050 50  0000 L BNN
-F 1 "0R1_0603_Chip_Resistor,_1%,_0.1W" H 3525 2800 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3525 2710 50  0001 C CNN
-F 3 "" H 3525 2710 50  0001 C CNN
-F 4 "1%" V -4875 -3250 50  0001 C CNN "Tolerance"
-F 5 "0.1 Ohm" H 3625 2850 50  0000 C CNN "Val"
-F 6 "0.1W" H 3525 3050 50  0001 C CNN "Watt"
-	1    3525 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3825 3150 3950 3150
-Text Notes 2450 3950 0    50   ~ 0
-Optional Circuit to use with\nGW1N-LV4 or GW1N-LV9 device. \nWith GW1N-UV4 or GW1N-UV9 \ndevices omit this circuit and R26 \nand add R25 
 $Comp
 L OpenVent:LED_GREEN_0603_SMD D?
 U 1 1 605F35EF
@@ -1112,8 +965,6 @@ F 3 "" H 7800 5650 50  0001 C CNN
 $EndComp
 Text Label 7250 4600 0    50   ~ 0
 3v3_S
-Text Label 3150 3150 0    50   ~ 0
-1v2
 $Comp
 L OpenVent:3V3 #PWR023
 U 1 1 5F8DD0E3
@@ -1156,17 +1007,6 @@ F 1 "GND" H 1600 2480 50  0001 C CNN
 F 2 "" H 1600 2550 50  0001 C CNN
 F 3 "" H 1600 2550 50  0001 C CNN
 	1    1600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:GND #PWR018
-U 1 1 5F8DD0DC
-P 2200 2800
-F 0 "#PWR018" H 2200 2800 50  0001 C CNN
-F 1 "GND" H 2200 2730 50  0001 C CNN
-F 2 "" H 2200 2800 50  0001 C CNN
-F 3 "" H 2200 2800 50  0001 C CNN
-	1    2200 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1237,20 +1077,6 @@ F 4 "10%" H 1500 2400 50  0001 C CNN "Tolerance"
 F 5 "1uF" V 1450 2150 50  0000 C CNN "Val"
 F 6 "50V" H 1500 2400 50  0001 C CNN "Voltage"
 	1    1500 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R12
-U 1 1 5F8DD0D2
-P 2100 2700
-F 0 "R12" V 2300 2350 50  0000 L BNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" V 2100 2550 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2000 2560 50  0001 C CNN
-F 3 "" H 2000 2560 50  0001 C CNN
-F 4 "1%" V -4600 -2600 50  0001 C CNN "Tolerance"
-F 5 "100k" V 2200 2450 50  0000 C CNN "Val"
-F 6 "0.1W" H 2100 2700 50  0001 C CNN "Watt"
-	1    2100 2700
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4200 2100
@@ -1499,7 +1325,6 @@ Wire Wire Line
 	1000 4750 1600 4750
 Wire Wire Line
 	1600 4150 1000 4150
-Connection ~ 2300 3150
 Connection ~ 1000 2100
 Wire Wire Line
 	2950 6650 2950 6500
@@ -1530,13 +1355,6 @@ Wire Wire Line
 	5500 6100 5350 6100
 Wire Wire Line
 	6250 6750 6250 6800
-Wire Wire Line
-	2300 3150 1000 3150
-Wire Wire Line
-	1000 2100 1000 3150
-Connection ~ 1000 3150
-Wire Wire Line
-	1000 3150 1000 4150
 Text Notes 800  4700 0    50   ~ 0
 5V from USB
 Text Notes 6050 3400 0    150  ~ 0
@@ -1823,4 +1641,171 @@ Wire Wire Line
 	6250 6100 6250 6150
 Wire Wire Line
 	6050 6100 6250 6100
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R12
+U 1 1 5F8DD0D2
+P 2100 2700
+F 0 "R12" V 2300 2350 50  0000 L BNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" V 2100 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2000 2560 50  0001 C CNN
+F 3 "" H 2000 2560 50  0001 C CNN
+F 4 "1%" V -4600 -2600 50  0001 C CNN "Tolerance"
+F 5 "100k" V 2200 2450 50  0000 C CNN "Val"
+F 6 "0.1W" H 2100 2700 50  0001 C CNN "Watt"
+	1    2100 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR018
+U 1 1 5F8DD0DC
+P 2200 2800
+F 0 "#PWR018" H 2200 2800 50  0001 C CNN
+F 1 "GND" H 2200 2730 50  0001 C CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 3600 0    50   ~ 0
+Optional Circuit to use with\nGW1N-LV4 or GW1N-LV9 device. \nWith GW1N-UV4 or GW1N-UV9 \ndevices omit this circuit and R26 \nand add R25 
+$Comp
+L OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 605F35E6
+P 3600 3200
+AR Path="/605F35E6" Ref="R?"  Part="1" 
+AR Path="/5F99D63D/605F35E6" Ref="R?"  Part="1" 
+AR Path="/5FBE8499/605F35E6" Ref="R?"  Part="1" 
+F 0 "R?" H 3600 3200 50  0000 L BNN
+F 1 "0R1_0603_Chip_Resistor,_1%,_0.1W" H 3600 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3600 2860 50  0001 C CNN
+F 3 "" H 3600 2860 50  0001 C CNN
+F 4 "1%" V -4800 -3100 50  0001 C CNN "Tolerance"
+F 5 "0.1 Ohm" H 3700 3000 50  0000 C CNN "Val"
+F 6 "0.1W" H 3600 3200 50  0001 C CNN "Watt"
+	1    3600 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 3300
+Wire Wire Line
+	4050 3300 4050 3400
+Wire Wire Line
+	4050 3700 4050 3750
+Text GLabel 2300 3250 0    50   Input ~ 0
+PWR_EN
+Wire Wire Line
+	4050 3300 4050 3225
+$Comp
+L OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C?
+U 1 1 605F35B0
+P 3950 3600
+AR Path="/5F99D63D/605F35B0" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/605F35B0" Ref="C?"  Part="1" 
+F 0 "C?" V 4050 3600 50  0000 L BNN
+F 1 "1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" V 3860 3410 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3860 3410 50  0001 C CNN
+F 3 "" H 3860 3410 50  0001 C CNN
+F 4 "10%" H 3950 3600 50  0001 C CNN "Tolerance"
+F 5 "1uF" V 3925 3625 50  0000 C CNN "Val"
+F 6 "50V" H 3950 3600 50  0001 C CNN "Voltage"
+	1    3950 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:+1V2 #PWR?
+U 1 1 605F354A
+P 4050 3225
+AR Path="/5FBE8499/605F354A" Ref="#PWR?"  Part="1" 
+AR Path="/5F99D63D/605F354A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3075 50  0001 C CNN
+F 1 "+1V2" H 4050 3398 50  0000 C CNN
+F 2 "" H 4050 3225 50  0001 C CNN
+F 3 "" H 4050 3225 50  0001 C CNN
+	1    4050 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 605F3544
+P 4050 3750
+AR Path="/5F8F8987/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/605F3544" Ref="#PWR?"  Part="1" 
+AR Path="/5F99D63D/605F3544" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3500 50  0001 C CNN
+F 1 "GND" H 4050 3600 50  0001 C CNN
+F 2 "" H 4050 3750 50  0001 C CNN
+F 3 "" H 4050 3750 50  0001 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2100 1000 4150
+$Comp
+L OpenVent:ADP1715ARMZ-1.2-R7 U?
+U 1 1 6066295B
+P 2950 3500
+F 0 "U?" H 2950 4017 50  0000 C CNN
+F 1 "ADP1715ARMZ-1.2-R7" H 2950 3926 50  0000 C CNN
+F 2 "" H 2750 3350 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3250 2300 3250
+Wire Wire Line
+	3300 3300 3500 3300
+Wire Wire Line
+	3900 3300 4050 3300
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 606AA634
+P 1550 3150
+F 0 "#PWR?" H 1550 3000 50  0001 C CNN
+F 1 "+3.3V" H 1550 3323 50  0000 C CNN
+F 2 "" H 1550 3150 50  0001 C CNN
+F 3 "" H 1550 3150 50  0001 C CNN
+	1    1550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3500 1550 3500
+Wire Wire Line
+	1550 3500 1550 3150
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606B890D
+P 3000 4000
+F 0 "#PWR?" H 3000 3750 50  0001 C CNN
+F 1 "GND" H 3000 3850 50  0001 C CNN
+F 2 "" H 3000 4000 50  0001 C CNN
+F 3 "" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3950 3000 3950
+Wire Wire Line
+	3000 4000 3000 3950
+Connection ~ 3000 3950
+Wire Wire Line
+	3000 3950 3050 3950
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 606D534C
+P 3400 3650
+F 0 "#PWR?" H 3400 3400 50  0001 C CNN
+F 1 "GND" H 3400 3500 50  0001 C CNN
+F 2 "" H 3400 3650 50  0001 C CNN
+F 3 "" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3600 3400 3600
+Wire Wire Line
+	3400 3600 3400 3650
+Wire Wire Line
+	3300 3500 3300 3600
+Connection ~ 3300 3600
 $EndSCHEMATC
