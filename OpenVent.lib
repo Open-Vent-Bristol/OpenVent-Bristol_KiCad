@@ -147,6 +147,26 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
+#
+DEF 1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
+F0 "C" 25 100 50 H V L BNN
+F1 "1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" -525 225 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1.5nF" 50 25 50 H V C CNN "Val"
+F5 "25V" -225 -325 50 H I C CNN "Voltage"
+F6 "10%" 75 -400 50 H I C CNN "Tolerance"
+DRAW
+P 2 0 1 10 0 -100 30 -100 N
+P 2 0 1 10 30 -180 30 -20 N
+P 2 0 1 10 70 -20 70 -180 N
+P 2 0 1 10 100 -100 70 -100 N
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 200 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # 1000uF_25V_Aluminium_SMD_Capacitor,_20%
 #
 DEF 1000uF_25V_Aluminium_SMD_Capacitor,_20% C 0 40 Y Y 1 F N
@@ -474,6 +494,26 @@ S -350 -150 350 -500 0 1 0 f
 X Passive 1 -200 -600 100 U 50 50 1 1 P
 X Input 2 0 -600 100 U 50 50 1 1 I
 X Passive 3 200 -600 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
+#
+DEF 2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
+F0 "C" 190 10 50 H V L BNN
+F1 "2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "2uF" 0 0 50 H V C CNN "Val"
+F5 "50V" 0 0 50 H I C CNN "Voltage"
+F6 "10%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+P 2 0 1 10 0 -100 30 -100 N
+P 2 0 1 10 30 -180 30 -20 N
+P 2 0 1 10 70 -20 70 -180 N
+P 2 0 1 10 100 -100 70 -100 N
+X 1 1 -100 -100 100 R 1 1 0 1 P
+X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
