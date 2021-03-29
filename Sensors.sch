@@ -506,18 +506,18 @@ Connection ~ 2950 4650
 $Comp
 L OpenVent:MPXV4006DP U11
 U 1 1 5FCDD7C7
-P 1800 3650
-F 0 "U11" H 2093 4517 50  0000 C CNN
-F 1 "MPXV4006DP" H 2093 4426 50  0000 C CNN
-F 2 "OpenVent:NXP-CASE-1351-482C" H 2000 4350 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Freescale%20Semi/MPXV4006G.pdf" H 2000 4350 50  0001 C CNN
-F 4 "SENSOR PRESSURE DUAL SMD 8-SOP" H 1800 3650 50  0001 C CNN "Desc"
-F 5 "Pressure Sensor" H 1800 3650 50  0001 C CNN "Detailed"
-F 6 "DigiKey" H 1800 3650 50  0001 C CNN "DistName"
-F 7 "MPXV4006DP-ND" H 1800 3650 50  0001 C CNN "Dist_PN"
-F 8 "NXP USA Inc." H 1800 3650 50  0001 C CNN "Mfr"
-F 9 "MPXV4006DP" H 1800 3650 50  0001 C CNN "Mfr_PN"
-	1    1800 3650
+P 1450 3650
+F 0 "U11" H 1850 4500 50  0000 C CNN
+F 1 "MPXV4006DP" H 1850 4400 50  0000 C CNN
+F 2 "OpenVent:NXP-CASE-1351-482C" H 1650 4350 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Freescale%20Semi/MPXV4006G.pdf" H 1650 4350 50  0001 C CNN
+F 4 "SENSOR PRESSURE DUAL SMD 8-SOP" H 1450 3650 50  0001 C CNN "Desc"
+F 5 "Pressure Sensor" H 1450 3650 50  0001 C CNN "Detailed"
+F 6 "DigiKey" H 1450 3650 50  0001 C CNN "DistName"
+F 7 "MPXV4006DP-ND" H 1450 3650 50  0001 C CNN "Dist_PN"
+F 8 "NXP USA Inc." H 1450 3650 50  0001 C CNN "Mfr"
+F 9 "MPXV4006DP" H 1450 3650 50  0001 C CNN "Mfr_PN"
+	1    1450 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -967,7 +967,7 @@ Text Notes 7450 4450 0    50   ~ 0
 SPI Slave of FPGA
 Text Notes 8000 4050 0    50   ~ 0
 On-Board STMicroelectronics Absolute Pressure Sensor
-Text Notes 550  2800 0    50   ~ 0
+Text Notes 550  2700 0    50   ~ 0
 On-board NXP\nDifferential Pressure\nSensor (at patient)
 Text Notes 500  4200 0    50   ~ 0
 On-board NXP\nGauge Pressure\nSensor (at patient)
@@ -1003,15 +1003,10 @@ Wire Wire Line
 	2000 2050 2000 3350
 Wire Wire Line
 	2400 1850 2400 3050
-Connection ~ 2400 3050
 Wire Wire Line
 	2400 3050 2550 3050
 Wire Wire Line
-	1800 3050 2400 3050
-Wire Wire Line
 	1350 1850 2400 1850
-Wire Wire Line
-	1800 3650 2200 3650
 Wire Wire Line
 	2200 3650 2200 1950
 Connection ~ 2200 3650
@@ -1019,11 +1014,8 @@ Wire Wire Line
 	2200 3650 2750 3650
 Wire Wire Line
 	2200 1950 1350 1950
-Connection ~ 2000 3350
 Wire Wire Line
 	2000 3350 2950 3350
-Wire Wire Line
-	1800 3350 2000 3350
 Wire Wire Line
 	1350 2050 2000 2050
 Wire Wire Line
@@ -1032,4 +1024,44 @@ Wire Wire Line
 	2950 4650 4050 4650
 Wire Wire Line
 	2950 5950 4050 5950
+$Comp
+L OpenVent:0R0_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 606B0541
+P 1550 2950
+F 0 "R?" H 1550 2950 50  0000 C CNN
+F 1 "0R0_0603_Chip_Resistor,_1%,_0.1W" H 1550 2950 50  0001 C CNN
+F 2 "" H 1550 2950 50  0001 C CNN
+F 3 "" H 1550 2950 50  0001 C CNN
+F 4 "0 Ohm" H 1800 2950 50  0000 C CNN "Val"
+F 5 "1%" H 1550 2950 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1550 2950 50  0001 C CNN "Watt"
+	1    1550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:0R0_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 606B0AE4
+P 1550 3250
+F 0 "R?" H 1550 3250 50  0000 C CNN
+F 1 "0R0_0603_Chip_Resistor,_1%,_0.1W" H 1550 3250 50  0001 C CNN
+F 2 "" H 1550 3250 50  0001 C CNN
+F 3 "" H 1550 3250 50  0001 C CNN
+F 4 "0 Ohm" H 1800 3250 50  0000 C CNN "Val"
+F 5 "1%" H 1550 3250 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1550 3250 50  0001 C CNN "Watt"
+	1    1550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3650 2200 3650
+Wire Wire Line
+	1850 3050 2400 3050
+Connection ~ 2400 3050
+Wire Wire Line
+	1850 3350 2000 3350
+Connection ~ 2000 3350
+Text Notes 1450 3500 0    50   ~ 0
+DO NOT FIT
+Text Notes 1450 2900 0    50   ~ 0
+DO NOT FIT
 $EndSCHEMATC
