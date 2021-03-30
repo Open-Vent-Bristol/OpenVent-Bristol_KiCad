@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 4 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -124,7 +124,7 @@ PB_PLUS
 Text GLabel 7350 4600 0    50   Input ~ 0
 PB_MINUS
 Text GLabel 7350 4700 0    50   Input ~ 0
-PB_SEL
+PB_SEL_FPGA
 Text GLabel 9300 1400 2    50   Output ~ 0
 Vref_DRV
 Text GLabel 9300 1500 2    50   Output ~ 0
@@ -509,7 +509,7 @@ Connection ~ 6500 6100
 Wire Wire Line
 	6500 6100 6600 6100
 Text GLabel 7350 4400 0    50   Input ~ 0
-PB_MUTE_FPGA
+PB_MUTE
 $Comp
 L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
 U 1 1 60586513
