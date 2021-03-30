@@ -1207,14 +1207,8 @@ Wire Wire Line
 	3850 1800 4950 1800
 Text Label 3850 1800 0    50   ~ 0
 BUZZER_PWM
-Text GLabel 6500 2500 2    50   Input ~ 0
-PB_MUTE_MCU
-Text GLabel 6500 2600 2    50   Input ~ 0
-PB_PLUS
-Text GLabel 6500 2700 2    50   Input ~ 0
-PB_MINUS
 Text GLabel 4800 1600 0    50   Input ~ 0
-PB_SEL
+PB_SEL_MCU
 Text Notes 7750 4300 0    50   ~ 0
 nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21\n\nJTAG/SWD nRST has been added \nKA 15/03/21\n
 Text GLabel 6450 1700 2    50   Input ~ 0
