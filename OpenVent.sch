@@ -684,5 +684,5 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	3000 3100 3000 4350
 Text Notes 3350 4300 0    150  ~ 0
-PB_Mute
+PB_Select
 $EndSCHEMATC
