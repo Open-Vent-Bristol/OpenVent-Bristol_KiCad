@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -1993,19 +1993,19 @@ Wire Wire Line
 Wire Wire Line
 	5900 2750 6200 2750
 Text GLabel 5650 2750 0    50   Input ~ 0
-PB_MUTE
+PB_SEL
 Wire Wire Line
 	5650 2750 5900 2750
 Connection ~ 5900 2750
 Text GLabel 7300 2200 2    50   Output ~ 0
-PB_MUTE_MCU
+PB_SEL_MCU
 Wire Wire Line
 	7300 2200 7000 2200
 Connection ~ 7000 2200
 Wire Wire Line
 	7000 2200 7000 1850
 Text GLabel 7300 3900 2    50   Output ~ 0
-PB_MUTE_FPGA
+PB_SEL_FPGA
 Wire Wire Line
 	7300 3900 7100 3900
 Connection ~ 7100 3900
