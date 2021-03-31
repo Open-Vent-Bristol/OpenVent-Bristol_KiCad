@@ -1216,15 +1216,15 @@ FPGA_READY
 Wire Wire Line
 	6350 1700 6450 1700
 Text GLabel 4200 3000 0    50   Input ~ 0
-TMS
+TMS_M
 Wire Wire Line
 	4200 3000 4950 3000
 Text GLabel 4200 3100 0    50   Input ~ 0
-TCK
+TCK_M
 Wire Wire Line
 	4200 3100 4950 3100
 Text GLabel 4200 3200 0    50   Input ~ 0
-TDI
+TDI_M
 Wire Wire Line
 	4200 3200 4950 3200
 Wire Wire Line
@@ -1243,7 +1243,7 @@ SPI1_MOSI
 Text GLabel 4800 2200 0    50   Input ~ 0
 SPI1_MISO
 Text GLabel 6550 1900 2    50   Output ~ 0
-TDO
+TDO_M
 Wire Wire Line
 	6350 1900 6550 1900
 $Comp

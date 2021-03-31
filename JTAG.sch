@@ -828,14 +828,6 @@ Wire Wire Line
 	2500 5350 2450 5350
 Wire Wire Line
 	2450 5350 2450 5400
-Text GLabel 9325 2550 2    50   Output ~ 0
-TCK
-Text GLabel 9325 2650 2    50   Output ~ 0
-TDI
-Text GLabel 9325 2750 2    50   Input ~ 0
-TDO
-Text GLabel 9325 2850 2    50   Output ~ 0
-TMS
 NoConn ~ 1350 3750
 NoConn ~ 2500 3100
 NoConn ~ 1550 6050
@@ -911,8 +903,6 @@ Wire Wire Line
 Wire Wire Line
 	6575 2275 6700 2275
 NoConn ~ 6700 2175
-Text GLabel 9325 2950 2    50   Output ~ 0
-NRST
 $Comp
 L OpenVent:2x5_Way_1.27mm_Pitch_Header CN?
 U 1 1 6053C246
@@ -1425,22 +1415,123 @@ Wire Wire Line
 	8025 2175 7700 2175
 Connection ~ 8025 2650
 Wire Wire Line
-	8025 2650 9325 2650
-Wire Wire Line
 	8125 2075 8125 2750
 Connection ~ 8125 2750
 Wire Wire Line
-	8125 2750 9325 2750
-Wire Wire Line
 	8250 1975 8250 2550
 Connection ~ 8250 2550
-Wire Wire Line
-	8250 2550 9325 2550
 Connection ~ 8350 2850
-Wire Wire Line
-	8350 2850 9325 2850
 Wire Wire Line
 	8350 1875 8350 2850
 Wire Wire Line
 	8350 1875 7700 1875
+$Comp
+L OpenVent:74HC244 U?
+U 1 1 606C7E74
+P 10150 2300
+F 0 "U?" H 10125 2415 50  0000 C CNN
+F 1 "74HC244" H 10125 2324 50  0000 C CNN
+F 2 "" H 10150 2300 50  0001 C CNN
+F 3 "" H 10150 2300 50  0001 C CNN
+	1    10150 2300
+	1    0    0    -1  
+$EndComp
+Text Label 8825 2550 0    50   ~ 0
+TCK
+Text Label 8850 2650 0    50   ~ 0
+TDI
+Text Label 8850 2750 0    50   ~ 0
+TDO
+Text Label 8875 2850 0    50   ~ 0
+TMS
+Text Label 8900 2950 0    50   ~ 0
+NRST
+Wire Wire Line
+	8025 2650 9600 2650
+Wire Wire Line
+	8350 2850 9675 2850
+Wire Wire Line
+	10500 2850 10775 2850
+Wire Wire Line
+	10775 2850 10775 3250
+Wire Wire Line
+	10775 3500 9450 3500
+Wire Wire Line
+	9450 3500 9450 2750
+Wire Wire Line
+	8125 2750 9450 2750
+Wire Wire Line
+	8250 2550 9525 2550
+Wire Wire Line
+	9675 2850 9675 2950
+Wire Wire Line
+	9675 2950 9750 2950
+Connection ~ 9675 2850
+Wire Wire Line
+	9675 2850 9750 2850
+Wire Wire Line
+	9600 2650 9600 3150
+Wire Wire Line
+	9600 3150 9750 3150
+Connection ~ 9600 2650
+Wire Wire Line
+	9600 2650 9750 2650
+Wire Wire Line
+	9750 3250 9525 3250
+Wire Wire Line
+	9525 3250 9525 2550
+Connection ~ 9525 2550
+Wire Wire Line
+	9525 2550 9750 2550
+Wire Wire Line
+	10500 3250 10775 3250
+Connection ~ 10775 3250
+Wire Wire Line
+	10775 3250 10775 3500
+Text GLabel 10500 2650 2    50   Output ~ 0
+TCK_F
+Text GLabel 10500 2950 2    50   Output ~ 0
+TMS_F
+Text GLabel 9750 2750 0    50   Input ~ 0
+TDO_F
+Text GLabel 10500 2750 2    50   Output ~ 0
+TDI_F
+Text GLabel 10500 3050 2    50   Output ~ 0
+TCK_M
+Text GLabel 10500 3150 2    50   Output ~ 0
+TDI_M
+Text GLabel 10500 3350 2    50   Output ~ 0
+TMS_M
+Text GLabel 9750 3050 0    50   Input ~ 0
+TDO_M
+Wire Wire Line
+	9625 3350 9750 3350
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60898376
+P 9625 3375
+F 0 "#PWR?" H 9625 3125 50  0001 C CNN
+F 1 "GND" H 9625 3225 50  0001 C CNN
+F 2 "" H 9625 3375 50  0001 C CNN
+F 3 "" H 9625 3375 50  0001 C CNN
+	1    9625 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 3350 9625 3375
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 608B220A
+P 10600 2225
+F 0 "#PWR?" H 10600 2075 50  0001 C CNN
+F 1 "3V3" H 10600 2398 50  0000 C CNN
+F 2 "" H 10600 2225 50  0001 C CNN
+F 3 "" H 10600 2225 50  0001 C CNN
+	1    10600 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2450 10600 2450
+Wire Wire Line
+	10600 2450 10600 2225
 $EndSCHEMATC

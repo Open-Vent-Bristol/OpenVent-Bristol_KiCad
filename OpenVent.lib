@@ -825,6 +825,21 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# 3_position_header
+#
+DEF 3_position_header U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "3_position_header" 50 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -100 100 -400 0 1 0 N
+X 1 1 -150 -350 100 R 50 50 1 1 P
+X 2 2 -150 -250 100 R 50 50 1 1 P
+X 3 ~ -150 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 3k6_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF 3k6_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
