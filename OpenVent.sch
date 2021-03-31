@@ -150,66 +150,6 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	10900 9750 10900 10650
 Wire Notes Line style solid
-	15600 1400 15500 1500
-Wire Notes Line style solid
-	15500 1500 15600 1600
-Wire Notes Line style solid
-	15500 1400 15400 1500
-Wire Notes Line style solid
-	15400 1500 15500 1600
-Text Notes 15300 1350 0    150  ~ 0
-O2
-Wire Notes Line style solid
-	15700 1500 15500 1500
-Wire Notes Line style solid
-	13250 1500 15400 1500
-Wire Notes Line style solid
-	15600 2400 15500 2500
-Wire Notes Line style solid
-	15500 2500 15600 2600
-Wire Notes Line style solid
-	15500 2400 15400 2500
-Wire Notes Line style solid
-	15400 2500 15500 2600
-Text Notes 14800 2400 0    150  ~ 0
-Diff Press
-Wire Notes Line style solid
-	15700 2500 15500 2500
-Wire Notes Line style solid
-	9000 2500 15400 2500
-Wire Notes Line style solid
-	15600 2900 15500 3000
-Wire Notes Line style solid
-	15500 3000 15600 3100
-Wire Notes Line style solid
-	15500 2900 15400 3000
-Wire Notes Line style solid
-	15400 3000 15500 3100
-Text Notes 14800 2900 0    150  ~ 0
-Flow Press
-Wire Notes Line style solid
-	15700 3000 15500 3000
-Wire Notes Line style solid
-	15600 3400 15500 3500
-Wire Notes Line style solid
-	15500 3500 15600 3600
-Wire Notes Line style solid
-	15500 3400 15400 3500
-Wire Notes Line style solid
-	15400 3500 15500 3600
-Text Notes 14800 3400 0    150  ~ 0
-Pat Press
-Wire Notes Line style solid
-	15700 3500 15500 3500
-Wire Notes Line style solid
-	9000 3500 15400 3500
-Wire Notes Line style solid
-	13000 1500 13250 1650
-Wire Notes Line style solid
-	13250 1350 13000 1500
-Wire Notes Line style solid
-	13250 1350 13250 1650
-Wire Notes Line style solid
 	12700 1300 12800 1450
 Wire Notes Line style solid
 	12800 1450 12900 1450
@@ -222,10 +162,6 @@ Text Notes 12750 1650 0    100  ~ 0
 Wire Notes Line style solid
 	9000 1500 13000 1500
 Wire Notes Line style solid
-	13000 2000 13250 2150
-Wire Notes Line style solid
-	13250 1850 13000 2000
-Wire Notes Line style solid
 	12700 1800 12800 1950
 Wire Notes Line style solid
 	12800 1950 12900 1950
@@ -236,73 +172,13 @@ fo
 Wire Notes Line style solid
 	9000 2000 13000 2000
 Wire Notes Line style solid
-	13250 1850 13250 2150
-Wire Notes Line style solid
-	13250 2000 13500 2000
-Wire Notes Line style solid
-	13250 3750 13250 3550
-Wire Notes Line style solid
-	13250 3650 13450 3650
-Wire Notes Line style solid
-	13200 3750 13200 3550
-Wire Notes Line style solid
-	13000 3650 13200 3650
-Wire Notes Line style solid
-	13400 3700 13500 3700
-Wire Notes Line style solid
-	13450 3750 13500 3700
-Wire Notes Line style solid
-	13450 3750 13400 3700
-Wire Notes Line style solid
-	13450 3700 13450 3650
-Wire Notes Line style solid
 	13000 3650 13000 3500
 Wire Notes Line style solid
-	13500 2500 13500 2000
-Wire Notes Line style solid
-	13250 3250 13250 3050
-Wire Notes Line style solid
-	13250 3150 13450 3150
-Wire Notes Line style solid
-	13200 3250 13200 3050
-Wire Notes Line style solid
-	13000 3150 13200 3150
-Wire Notes Line style solid
-	13400 3200 13500 3200
-Wire Notes Line style solid
-	13450 3250 13500 3200
-Wire Notes Line style solid
-	13450 3250 13400 3200
-Wire Notes Line style solid
-	13450 3200 13450 3150
-Wire Notes Line style solid
 	13000 3150 13000 3000
-Wire Notes Line style solid
-	13250 2750 13250 2550
-Wire Notes Line style solid
-	13250 2650 13450 2650
-Wire Notes Line style solid
-	13200 2750 13200 2550
-Wire Notes Line style solid
-	13000 2650 13200 2650
-Wire Notes Line style solid
-	13400 2700 13500 2700
-Wire Notes Line style solid
-	13450 2750 13500 2700
-Wire Notes Line style solid
-	13450 2750 13400 2700
-Wire Notes Line style solid
-	13450 2700 13450 2650
 Wire Notes Line style solid
 	13000 2650 13000 2500
 Text Notes 12650 2200 0    100  ~ 0
 4.65x
-$Sheet
-S 11000 1000 3500 2800
-U 5F8F3873
-F0 "Sensors" 200
-F1 "Sensors.sch" 200
-$EndSheet
 Wire Notes Line style solid
 	12000 9000 9000 9000
 Text Notes 10150 8950 0    150  ~ 0
@@ -391,8 +267,6 @@ Wire Notes Line style solid
 	7000 10500 9000 10500
 Wire Notes Line style solid
 	9000 8100 9000 10500
-Wire Notes Line style solid
-	9000 3000 15400 3000
 Wire Notes Line style solid
 	7000 3700 9000 3700
 Wire Notes Line style solid
@@ -685,4 +559,130 @@ Wire Notes Line style solid
 	3000 3100 3000 4350
 Text Notes 3350 4300 0    150  ~ 0
 PB_Select
+Wire Notes Line style solid
+	9000 3000 15400 3000
+$Sheet
+S 11000 1000 3500 2800
+U 5F8F3873
+F0 "Sensors" 200
+F1 "Sensors.sch" 200
+$EndSheet
+Wire Notes Line style solid
+	13450 2700 13450 2650
+Wire Notes Line style solid
+	13450 2750 13400 2700
+Wire Notes Line style solid
+	13450 2750 13500 2700
+Wire Notes Line style solid
+	13400 2700 13500 2700
+Wire Notes Line style solid
+	13000 2650 13200 2650
+Wire Notes Line style solid
+	13200 2750 13200 2550
+Wire Notes Line style solid
+	13250 2650 13450 2650
+Wire Notes Line style solid
+	13250 2750 13250 2550
+Wire Notes Line style solid
+	13450 3200 13450 3150
+Wire Notes Line style solid
+	13450 3250 13400 3200
+Wire Notes Line style solid
+	13450 3250 13500 3200
+Wire Notes Line style solid
+	13400 3200 13500 3200
+Wire Notes Line style solid
+	13000 3150 13200 3150
+Wire Notes Line style solid
+	13200 3250 13200 3050
+Wire Notes Line style solid
+	13250 3150 13450 3150
+Wire Notes Line style solid
+	13250 3250 13250 3050
+Wire Notes Line style solid
+	13500 2500 13500 2000
+Wire Notes Line style solid
+	13450 3700 13450 3650
+Wire Notes Line style solid
+	13450 3750 13400 3700
+Wire Notes Line style solid
+	13450 3750 13500 3700
+Wire Notes Line style solid
+	13400 3700 13500 3700
+Wire Notes Line style solid
+	13000 3650 13200 3650
+Wire Notes Line style solid
+	13200 3750 13200 3550
+Wire Notes Line style solid
+	13250 3650 13450 3650
+Wire Notes Line style solid
+	13250 3750 13250 3550
+Wire Notes Line style solid
+	13250 2000 13500 2000
+Wire Notes Line style solid
+	13250 1850 13250 2150
+Wire Notes Line style solid
+	13250 1850 13000 2000
+Wire Notes Line style solid
+	13000 2000 13250 2150
+Wire Notes Line style solid
+	13250 1350 13250 1650
+Wire Notes Line style solid
+	13250 1350 13000 1500
+Wire Notes Line style solid
+	13000 1500 13250 1650
+Wire Notes Line style solid
+	9000 3500 15400 3500
+Wire Notes Line style solid
+	15700 3500 15500 3500
+Text Notes 14800 3400 0    150  ~ 0
+Pat Press
+Wire Notes Line style solid
+	15400 3500 15500 3600
+Wire Notes Line style solid
+	15500 3400 15400 3500
+Wire Notes Line style solid
+	15500 3500 15600 3600
+Wire Notes Line style solid
+	15600 3400 15500 3500
+Wire Notes Line style solid
+	15700 3000 15500 3000
+Text Notes 14800 2900 0    150  ~ 0
+Flow Press
+Wire Notes Line style solid
+	15400 3000 15500 3100
+Wire Notes Line style solid
+	15500 2900 15400 3000
+Wire Notes Line style solid
+	15500 3000 15600 3100
+Wire Notes Line style solid
+	15600 2900 15500 3000
+Wire Notes Line style solid
+	9000 2500 15400 2500
+Wire Notes Line style solid
+	15700 2500 15500 2500
+Text Notes 14800 2400 0    150  ~ 0
+Diff Press
+Wire Notes Line style solid
+	15400 2500 15500 2600
+Wire Notes Line style solid
+	15500 2400 15400 2500
+Wire Notes Line style solid
+	15500 2500 15600 2600
+Wire Notes Line style solid
+	15600 2400 15500 2500
+Wire Notes Line style solid
+	13250 1500 15400 1500
+Wire Notes Line style solid
+	15700 1500 15500 1500
+Text Notes 15300 1350 0    150  ~ 0
+O2
+Wire Notes Line style solid
+	15400 1500 15500 1600
+Wire Notes Line style solid
+	15500 1400 15400 1500
+Wire Notes Line style solid
+	15500 1500 15600 1600
+Wire Notes Line style solid
+	15600 1400 15500 1500
 $EndSCHEMATC

@@ -278,8 +278,8 @@ D 1.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
 #
-$CMP R_0603_2R33_0.5W_0.1%
-D 2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
+$CMP R_0603_2R23_0.5W_0.1%
+D 2.23 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film
 K resistor, SMT
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
