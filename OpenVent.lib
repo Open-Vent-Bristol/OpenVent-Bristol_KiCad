@@ -663,6 +663,26 @@ X D 3 0 0 100 D 70 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 2_Position_4_row_header
+#
+DEF 2_Position_4_row_header U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "2_Position_4_row_header" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -50 150 -550 0 1 0 f
+X 1 1 -250 -150 100 R 50 50 1 1 P
+X 2 2 250 -150 100 L 50 50 1 1 P
+X 3 3 -250 -250 100 R 50 50 1 1 P
+X 4 4 250 -250 100 L 50 50 1 1 P
+X 5 5 -250 -350 100 R 50 50 1 1 P
+X 6 6 250 -350 100 L 50 50 1 1 P
+X 7 7 -250 -450 100 R 50 50 1 1 P
+X 8 8 250 -450 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2k4_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF 2k4_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
