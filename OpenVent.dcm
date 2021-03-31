@@ -39,6 +39,11 @@ $CMP 2x5_Way_1.27mm_Pitch_Header
 F http://www.cnctech.us/idcmatching2.pdf
 $ENDCMP
 #
+$CMP 47uF_1210_Ceramic_Capacitor_10%_X6S_16V
+D Ceramic Capacitor 47uF 16V X6S 1210
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
 $CMP 532530670
 D Connector Header Through Hole 6 position 0.079" (2.00mm)
 K connector
@@ -80,6 +85,11 @@ $CMP BLA31BD121SN4D
 D FERRITE BEAD 120 OHM 1206 4LN
 K L ferrite bead inductor filter
 F https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf
+$ENDCMP
+#
+$CMP BLM31KN10SN1L
+D Chip Ferrite Bead 75mR 2000mA
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
 $CMP CONN_HEADER_2.54X2_MOLEX_KK_Series
