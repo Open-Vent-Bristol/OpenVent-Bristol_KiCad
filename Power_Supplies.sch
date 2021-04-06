@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -2318,4 +2318,6 @@ F 3 "" H 8700 2150 50  0001 C CNN
 	1    8700 2150
 	1    0    0    -1  
 $EndComp
+Text Notes 7400 6850 0    50   ~ 0
+This is a test note for Rick from Laura at 20:35 BST on 06/04/21
 $EndSCHEMATC
