@@ -1097,27 +1097,6 @@ SPI1 from MCU to FPGA
 Text GLabel 4800 4400 0    50   Input ~ 0
 SW_HOME
 $Comp
-L OpenVent-rescue:AUDIO_MAGNETIC_INDICATOR-Device LS?
-U 1 1 602EE8A2
-P 9450 1300
-AR Path="/602EE8A2" Ref="LS?"  Part="1" 
-AR Path="/5F8F894A/602EE8A2" Ref="LS?"  Part="1" 
-AR Path="/5FCA4074/602EE8A2" Ref="LS?"  Part="1" 
-AR Path="/5F988182/602EE8A2" Ref="LS3"  Part="1" 
-F 0 "LS3" H 9620 1250 50  0000 L CNN
-F 1 "AUDIO_MAGNETIC_INDICATOR" H 9620 1205 50  0001 L CNN
-F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" H 9450 1100 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/cem-1212c.pdf" H 9440 1250 50  0001 C CNN
-F 4 "AUDIO MAGNETIC IND 8-16V TH" H 9450 1300 50  0001 C CNN "Desc"
-F 5 "Buzzers Indicator, Internally Driven Magnetic 35mA 2.3kHz 85dB @ 12V, 10cm Through Hole PC Pins" H 9450 1300 50  0001 C CNN "Detailed"
-F 6 "DigiKey" H 9450 1300 50  0001 C CNN "DistName"
-F 7 "102-1123-ND" H 9450 1300 50  0001 C CNN "Dist_PN"
-F 8 "CUI Devices" H 9450 1300 50  0001 C CNN "Mfr"
-F 9 "CEM-1212C" H 9500 950 50  0000 C CNN "Mfr_PN"
-	1    9450 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:V_MAIN #PWR0120
 U 1 1 6032349C
 P 9000 1125
@@ -1416,4 +1395,15 @@ F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8N
 $EndComp
 Text GLabel 8025 4100 2    50   Input ~ 0
 NRST_M
+$Comp
+L OpenVent:WST-1310S-3 BZ?
+U 1 1 609BF03A
+P 9400 1150
+F 0 "BZ?" H 9628 996 50  0000 L CNN
+F 1 "WST-1310S-3" H 9628 905 50  0000 L CNN
+F 2 "" H 9400 1150 50  0001 C CNN
+F 3 "" H 9400 1150 50  0001 C CNN
+	1    9400 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
