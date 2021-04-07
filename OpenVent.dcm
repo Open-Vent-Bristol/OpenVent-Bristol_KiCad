@@ -30,6 +30,11 @@ D 2.2µF Film Capacitor 40V 63V Polyester, Polyethylene Terephthalate (PET), Met
 F https://www.wima.de/wp-content/uploads/media/e_WIMA_SMD_PET.pdf
 $ENDCMP
 #
+$CMP 22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V
+D CL10B223KB8NNNC
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
 $CMP 22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
 D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
@@ -147,6 +152,11 @@ $CMP Conn_HDR_2x10_latching
 D Connector Header Through Hole 20 position 0.100" (2.54mm) with latches
 K connector
 F https://multimedia.3m.com/mws/media/485761O/3mtm-four-wall-header-ts2245.pdf
+$ENDCMP
+#
+$CMP DRV8876
+D Motor driver with current sense, 16-Pin HTSSOP
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
 $CMP ESD5Z3.3T1G
@@ -290,6 +300,11 @@ K resistor, SMT
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
 #
+$CMP R_0603_3R0_0.1W_5%
+D 3 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
 $CMP R_0603_47K_0.1%_0.1W_Film
 D 47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
 K resistor film precision
@@ -300,6 +315,11 @@ $CMP R_0603_53K_0.1W_1%
 D 53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
 K R res resistor
 F https://www.digikey.com/en/products/result?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIA7AAwCsAHAGwgC6hADgC5QggC%2B-QA
+$ENDCMP
+#
+$CMP R_0603_75K_0.1W_1%
+D Uniroyal Elec 0603WAF7502T5E
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
 $CMP R_0805_050m_cursense
@@ -330,6 +350,12 @@ $CMP S1B
 D Diode Standard 100V 1A Surface Mount SMA (DO-214AC)
 K diode
 F https://www.onsemi.com/pub/Collateral/S1M-D.pdf
+$ENDCMP
+#
+$CMP SLF6028T-221MR26-PF
+D 220UH Shielded Wirewound Inductor 260mA 980mOhm
+K power inductor
+F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
 $CMP SP3522-01UTG
