@@ -1415,5 +1415,5 @@ F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8N
 	-1   0    0    -1  
 $EndComp
 Text GLabel 8025 4100 2    50   Input ~ 0
-JTAG_NRST
+NRST_M
 $EndSCHEMATC
