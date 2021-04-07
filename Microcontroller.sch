@@ -1209,8 +1209,6 @@ Text Label 3850 1800 0    50   ~ 0
 BUZZER_PWM
 Text GLabel 4800 1600 0    50   Input ~ 0
 PB_SEL_MCU
-Text Notes 7750 4300 0    50   ~ 0
-nRESET leftover from SWD,\nto be replaced with JTAG nRST\nsignal. LM 09/03/21\n\nJTAG/SWD nRST has been added \nKA 15/03/21\n
 Text GLabel 6450 1700 2    50   Input ~ 0
 FPGA_READY
 Wire Wire Line
@@ -1231,8 +1229,6 @@ Wire Wire Line
 	6350 4100 7400 4100
 Wire Wire Line
 	7400 4100 8025 4100
-Text GLabel 8025 4100 2    50   Input ~ 0
-NRST
 Connection ~ 7400 4100
 Wire Wire Line
 	4950 1700 4800 1700
@@ -1418,4 +1414,6 @@ F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8N
 	1    1400 4100
 	-1   0    0    -1  
 $EndComp
+Text GLabel 8025 4100 2    50   Input ~ 0
+JTAG_NRST
 $EndSCHEMATC
