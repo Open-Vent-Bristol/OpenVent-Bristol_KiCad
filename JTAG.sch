@@ -1403,12 +1403,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 2850 8350 2850
 Wire Wire Line
-	5500 2950 7925 2950
+	5500 2950 7350 2950
 Wire Wire Line
 	7925 2275 7925 2950
-Connection ~ 7925 2950
-Wire Wire Line
-	7925 2950 9325 2950
 Wire Wire Line
 	8025 2175 8025 2650
 Wire Wire Line
@@ -1436,32 +1433,28 @@ F 3 "" H 10150 2300 50  0001 C CNN
 	1    10150 2300
 	1    0    0    -1  
 $EndComp
-Text Label 8825 2550 0    50   ~ 0
+Text Label 7550 2550 0    50   ~ 0
 TCK
-Text Label 8850 2650 0    50   ~ 0
+Text Label 7500 2650 0    50   ~ 0
 TDI
-Text Label 8850 2750 0    50   ~ 0
+Text Label 7425 2750 0    50   ~ 0
 TDO
-Text Label 8875 2850 0    50   ~ 0
+Text Label 7400 2850 0    50   ~ 0
 TMS
-Text Label 8900 2950 0    50   ~ 0
+Text Label 7375 2950 0    50   ~ 0
 NRST
 Wire Wire Line
-	8025 2650 9600 2650
+	8025 2650 9375 2650
 Wire Wire Line
 	8350 2850 9675 2850
 Wire Wire Line
-	10500 2850 10775 2850
+	11000 2850 11000 3250
 Wire Wire Line
-	10775 2850 10775 3250
+	9225 3500 9225 2750
 Wire Wire Line
-	10775 3500 9450 3500
+	8125 2750 9225 2750
 Wire Wire Line
-	9450 3500 9450 2750
-Wire Wire Line
-	8125 2750 9450 2750
-Wire Wire Line
-	8250 2550 9525 2550
+	8250 2550 9300 2550
 Wire Wire Line
 	9675 2850 9675 2950
 Wire Wire Line
@@ -1470,24 +1463,11 @@ Connection ~ 9675 2850
 Wire Wire Line
 	9675 2850 9750 2850
 Wire Wire Line
-	9600 2650 9600 3150
+	9375 2650 9375 3150
 Wire Wire Line
-	9600 3150 9750 3150
-Connection ~ 9600 2650
+	9300 3250 9300 2550
 Wire Wire Line
-	9600 2650 9750 2650
-Wire Wire Line
-	9750 3250 9525 3250
-Wire Wire Line
-	9525 3250 9525 2550
-Connection ~ 9525 2550
-Wire Wire Line
-	9525 2550 9750 2550
-Wire Wire Line
-	10500 3250 10775 3250
-Connection ~ 10775 3250
-Wire Wire Line
-	10775 3250 10775 3500
+	11000 3250 11000 3500
 Text GLabel 10500 2650 2    50   Output ~ 0
 TCK_F
 Text GLabel 10500 2950 2    50   Output ~ 0
@@ -1534,4 +1514,171 @@ Wire Wire Line
 	10500 2450 10600 2450
 Wire Wire Line
 	10600 2450 10600 2225
+Wire Wire Line
+	10500 2850 11000 2850
+Connection ~ 11000 3250
+Wire Wire Line
+	10500 3250 11000 3250
+Wire Wire Line
+	9225 3500 11000 3500
+Connection ~ 9300 2550
+Wire Wire Line
+	9300 2550 9750 2550
+Wire Wire Line
+	9300 3250 9750 3250
+Connection ~ 9375 2650
+Wire Wire Line
+	9375 2650 9750 2650
+Wire Wire Line
+	9375 3150 9750 3150
+$Comp
+L OpenVent:TLV2333IDR U?
+U 1 1 60876FAA
+P 7750 3775
+F 0 "U?" H 8594 3921 50  0000 L CNN
+F 1 "TLV2333IDR" H 8594 3830 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7750 3775 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv2333" H 7750 3775 50  0001 C CNN
+F 4 "Texas Instruments" H 7750 3775 50  0001 C CNN "Mfr"
+F 5 "TLV2333IDR" H 7750 3775 50  0001 C CNN "Mfr_PN"
+F 6 "DigiKey" H 7750 3775 50  0001 C CNN "DistName"
+F 7 "296-43772-2-ND" H 7750 3775 50  0001 C CNN "Dist_PN"
+F 8 "Zero-Drift Amplifier Circuit Rail-to-Rail 8-SOIC" H 7750 3775 50  0001 C CNN "Detailed"
+	1    7750 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3575 7625 3575
+Wire Wire Line
+	7625 3575 7625 3100
+Wire Wire Line
+	8550 3100 8550 3675
+Wire Wire Line
+	7625 3100 8550 3100
+Wire Wire Line
+	7350 2950 7350 3775
+Wire Wire Line
+	7350 3775 7750 3775
+Connection ~ 7350 2950
+Wire Wire Line
+	7350 2950 7925 2950
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 608A6626
+P 8150 4125
+F 0 "#PWR?" H 8150 3875 50  0001 C CNN
+F 1 "GND" H 8150 3975 50  0001 C CNN
+F 2 "" H 8150 4125 50  0001 C CNN
+F 3 "" H 8150 4125 50  0001 C CNN
+	1    8150 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4075 8150 4125
+Text GLabel 9100 3675 2    50   Output ~ 0
+NRST_M
+Wire Wire Line
+	8550 3675 9100 3675
+Connection ~ 8550 3675
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 608EF36E
+P 8150 3225
+F 0 "#PWR?" H 8150 3075 50  0001 C CNN
+F 1 "3V3" H 8150 3398 50  0000 C CNN
+F 2 "" H 8150 3225 50  0001 C CNN
+F 3 "" H 8150 3225 50  0001 C CNN
+	1    8150 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3225 8150 3275
+$Comp
+L OpenVent:3_position_header U?
+U 1 1 6090E286
+P 9200 1500
+F 0 "U?" V 9213 1072 50  0000 R CNN
+F 1 "3_position_header" V 9122 1072 50  0000 R CNN
+F 2 "" H 9200 1500 50  0001 C CNN
+F 3 "" H 9200 1500 50  0001 C CNN
+	1    9200 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3_position_header U?
+U 1 1 6090F739
+P 10450 1500
+F 0 "U?" V 10463 1072 50  0000 R CNN
+F 1 "3_position_header" V 10372 1072 50  0000 R CNN
+F 2 "" H 10450 1500 50  0001 C CNN
+F 3 "" H 10450 1500 50  0001 C CNN
+	1    10450 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 2450 9450 2450
+Wire Wire Line
+	9450 2450 9450 1650
+Wire Wire Line
+	10500 2550 10700 2550
+Wire Wire Line
+	10700 1650 10700 2550
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60946FC4
+P 9350 1700
+F 0 "#PWR?" H 9350 1450 50  0001 C CNN
+F 1 "GND" H 9350 1550 50  0001 C CNN
+F 2 "" H 9350 1700 50  0001 C CNN
+F 3 "" H 9350 1700 50  0001 C CNN
+	1    9350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1650 9350 1700
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 60953154
+P 10600 1700
+F 0 "#PWR?" H 10600 1450 50  0001 C CNN
+F 1 "GND" H 10600 1550 50  0001 C CNN
+F 2 "" H 10600 1700 50  0001 C CNN
+F 3 "" H 10600 1700 50  0001 C CNN
+	1    10600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1650 10600 1700
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 60961204
+P 9775 1425
+F 0 "#PWR?" H 9775 1275 50  0001 C CNN
+F 1 "3V3" H 9775 1598 50  0000 C CNN
+F 2 "" H 9775 1425 50  0001 C CNN
+F 3 "" H 9775 1425 50  0001 C CNN
+	1    9775 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1650 9775 1650
+Wire Wire Line
+	9775 1425 9775 1650
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 6097E14F
+P 11025 1425
+F 0 "#PWR?" H 11025 1275 50  0001 C CNN
+F 1 "3V3" H 11025 1598 50  0000 C CNN
+F 2 "" H 11025 1425 50  0001 C CNN
+F 3 "" H 11025 1425 50  0001 C CNN
+	1    11025 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11025 1425 11025 1650
+Wire Wire Line
+	10800 1650 11025 1650
+Text Notes 9625 1875 0    50   ~ 0
+2-3: L - Enable\n1-2: H - Not Enable
 $EndSCHEMATC
