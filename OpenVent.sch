@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -297,12 +297,6 @@ Wire Notes Line style solid
 	13000 2650 13000 2500
 Text Notes 12650 2200 0    100  ~ 0
 4.65x
-$Sheet
-S 11000 1000 3500 2800
-U 5F8F3873
-F0 "Sensors" 200
-F1 "Sensors.sch" 200
-$EndSheet
 Wire Notes Line style solid
 	12000 9000 9000 9000
 Text Notes 10150 8950 0    150  ~ 0
@@ -376,6 +370,12 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	7000 8100 7000 10500
 $Sheet
+S 1500 1000 3500 2800
+U 5FCA4074
+F0 "UI" 200
+F1 "UI.sch" 200
+$EndSheet
+$Sheet
 S 6400 1000 3500 2800
 U 5F8F894A
 F0 "FPGA" 200
@@ -432,6 +432,12 @@ S 1450 5100 3500 500
 U 601B7AF8
 F0 "AD CONVERTERS" 50
 F1 "AD_conv.sch" 50
+$EndSheet
+$Sheet
+S 11000 1000 3500 2800
+U 5F8F3873
+F0 "Sensors" 200
+F1 "Sensors.sch" 200
 $EndSheet
 Wire Notes Line style solid
 	2600 9350 2900 9350
@@ -515,18 +521,6 @@ Wire Notes Line style solid
 	1100 8150 1200 8250
 Wire Notes Line style solid
 	1200 8250 1000 8250
-$Sheet
-S 1500 1000 3500 2800
-U 5FCA4074
-F0 "UI" 200
-F1 "UI.sch" 200
-$EndSheet
-$Sheet
-S 1500 8000 3500 2800
-U 5F99D63D
-F0 "Power Supplies" 200
-F1 "Power_Supplies.sch" 200
-$EndSheet
 Wire Notes Line style solid
 	2900 1500 2900 2100
 Wire Notes Line style solid
@@ -679,4 +673,16 @@ Wire Notes Line style solid
 	3000 3100 3000 4350
 Text Notes 3350 4300 0    150  ~ 0
 PB_Select
+$Sheet
+S 1500 6000 3500 1500
+U 606B52C8
+F0 "Speaker_Driver" 150
+F1 "Speaker_Driver.sch" 150
+$EndSheet
+$Sheet
+S 1500 8000 3500 2800
+U 6070CFE3
+F0 "Power Supplies" 150
+F1 "Power_Supplies.sch" 150
+$EndSheet
 $EndSCHEMATC
