@@ -358,6 +358,11 @@ K power inductor
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
+$CMP SN74LVC2G14DBVR
+D DUAL SCHMITT-TRIGGER INVERTER
+F http://componentsearchengine.com/Datasheets/3/SN74LVC2G14DBVR.pdf
+$ENDCMP
+#
 $CMP SP3522-01UTG
 D Diode Standard 100V 200mA Surface Mount SOT-23
 K diode
