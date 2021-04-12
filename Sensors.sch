@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L OpenVent:+5V #5V_07
-U 1 1 5F8DD0C0
-P 2550 2750
-F 0 "#5V_07" H 2550 2750 20  0001 C CNN
-F 1 "+5V" H 2550 2900 50  0000 C CNN
-F 2 "" H 2550 2750 70  0000 C CNN
-F 3 "" H 2550 2750 70  0000 C CNN
-	1    2550 2750
-	1    0    0    -1  
-$EndComp
 Text GLabel 4050 4650 2    60   Output ~ 0
 PRESSURE-SENSOR-PATIENT
 Text GLabel 4050 3350 2    60   Output ~ 0
@@ -278,7 +267,6 @@ Wire Wire Line
 	5700 2050 5400 2050
 Wire Wire Line
 	5800 2050 5700 2050
-Connection ~ 2550 2750
 Connection ~ 2750 4950
 Connection ~ 2750 3650
 Connection ~ 2750 3200
@@ -453,7 +441,7 @@ $EndComp
 Wire Wire Line
 	2550 4050 2950 4050
 Wire Wire Line
-	2550 2750 2750 2750
+	2550 2750 2650 2750
 Wire Wire Line
 	7650 1475 8050 1475
 Connection ~ 2950 4050
@@ -1057,4 +1045,20 @@ Wire Wire Line
 	8050 5750 8050 5500
 Wire Wire Line
 	8050 5500 7950 5500
+$Comp
+L OpenVent:+5V_Sensors #PWR?
+U 1 1 60B19CF0
+P 2650 2550
+F 0 "#PWR?" H 2650 2400 50  0001 C CNN
+F 1 "+5V_Sensors" H 2650 2723 50  0000 C CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "" H 2650 2550 50  0001 C CNN
+	1    2650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2750 2650 2550
+Connection ~ 2650 2750
+Wire Wire Line
+	2650 2750 2750 2750
 $EndSCHEMATC
