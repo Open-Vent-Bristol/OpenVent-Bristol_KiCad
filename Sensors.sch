@@ -822,17 +822,6 @@ Wire Wire Line
 Connection ~ 2750 5050
 Connection ~ 2750 5750
 $Comp
-L OpenVent:+3V3_Sensors #PWR03
-U 1 1 6027FA4F
-P 8025 5675
-F 0 "#PWR03" H 8025 5525 50  0001 C CNN
-F 1 "+3V3_Sensors" H 8025 5848 50  0000 C CNN
-F 2 "" H 8025 5675 50  0001 C CNN
-F 3 "" H 8025 5675 50  0001 C CNN
-	1    8025 5675
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:GND #PWR01
 U 1 1 6028A518
 P 8000 6125
@@ -847,10 +836,6 @@ Wire Wire Line
 	7650 6050 8000 6050
 Wire Wire Line
 	8000 6050 8000 6125
-Wire Wire Line
-	7650 5750 8025 5750
-Wire Wire Line
-	8025 5750 8025 5675
 Text GLabel 7725 5850 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 7725 5950 2    50   BiDi ~ 0
@@ -1064,4 +1049,12 @@ Text Notes 1450 3500 0    50   ~ 0
 DO NOT FIT
 Text Notes 1450 2900 0    50   ~ 0
 DO NOT FIT
+Text GLabel 7950 5500 0    50   Input ~ 0
+3V3_I2C
+Wire Wire Line
+	7650 5750 8050 5750
+Wire Wire Line
+	8050 5750 8050 5500
+Wire Wire Line
+	8050 5500 7950 5500
 $EndSCHEMATC
