@@ -1456,4 +1456,8 @@ Wire Wire Line
 	3900 4050 4100 4050
 Wire Wire Line
 	3900 4250 4100 4250
+Text GLabel 4100 4650 2    50   Output ~ 0
+Reset_I2C
+Wire Wire Line
+	4100 4650 3900 4650
 $EndSCHEMATC
