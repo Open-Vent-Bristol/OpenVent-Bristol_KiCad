@@ -59,6 +59,24 @@ $CMP 74ACT244PW
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
+$CMP 74AHC1G86
+D Single EX-OR Gate, Low-Voltage CMOS
+K Single Gate EX-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G86
+D Single EX-OR Gate, Low-Voltage CMOS
+K Single Gate EX-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G86
+D Single EX-OR Gate, Low-Voltage CMOS
+K Single Gate EX-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP ABM3B-12.000MHZ
 D CRYSTAL 12.0000MHZ 10PF SMD
 K Crystal 12MHz
@@ -315,6 +333,10 @@ $CMP R_0603_53K_0.1W_1%
 D 53 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film
 K R res resistor
 F https://www.digikey.com/en/products/result?s=N4IgjCBcoLQCxVAYygMwIYBsDOBTANCAPZQDaIA7AAwCsAHAGwgC6hADgC5QggC%2B-QA
+$ENDCMP
+#
+$CMP R_0603_620R_0.1W_1%
+D 0603WAF6200T5E
 $ENDCMP
 #
 $CMP R_0603_75K_0.1W_1%

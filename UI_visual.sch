@@ -1,0 +1,1717 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C255
+P 11000 900
+AR Path="/5F8F894A/6097C255" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C255" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C255" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11000 750 50  0001 C CNN
+F 1 "+5V" H 11000 1073 50  0000 C CNN
+F 2 "" H 11000 900 50  0001 C CNN
+F 3 "" H 11000 900 50  0001 C CNN
+	1    11000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C25B
+P 10100 1600
+AR Path="/5F8F894A/6097C25B" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C25B" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C25B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10100 1350 50  0001 C CNN
+F 1 "GND" H 10100 1450 50  0001 C CNN
+F 2 "" H 10100 1600 50  0001 C CNN
+F 3 "" H 10100 1600 50  0001 C CNN
+	1    10100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C261
+P 9050 1600
+AR Path="/5F8F894A/6097C261" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C261" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C261" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9050 1350 50  0001 C CNN
+F 1 "GND" H 9050 1450 50  0001 C CNN
+F 2 "" H 9050 1600 50  0001 C CNN
+F 3 "" H 9050 1600 50  0001 C CNN
+	1    9050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C267
+P 9900 900
+AR Path="/5F8F894A/6097C267" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C267" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C267" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9900 750 50  0001 C CNN
+F 1 "+5V" H 9900 1073 50  0000 C CNN
+F 2 "" H 9900 900 50  0001 C CNN
+F 3 "" H 9900 900 50  0001 C CNN
+	1    9900 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 900  11000 1000
+Wire Wire Line
+	11000 1000 10900 1000
+Wire Wire Line
+	10200 1250 10100 1250
+Wire Wire Line
+	10100 1250 10100 1600
+Wire Wire Line
+	9900 900  9900 1000
+Wire Wire Line
+	9900 1000 9850 1000
+Wire Wire Line
+	9850 1250 10000 1250
+Wire Wire Line
+	10000 1250 10000 1000
+Wire Wire Line
+	10000 1000 10200 1000
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C276
+P 8000 1600
+AR Path="/5F8F894A/6097C276" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C276" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C276" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 1350 50  0001 C CNN
+F 1 "GND" H 8000 1450 50  0001 C CNN
+F 2 "" H 8000 1600 50  0001 C CNN
+F 3 "" H 8000 1600 50  0001 C CNN
+	1    8000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C27C
+P 6950 1600
+AR Path="/5F8F894A/6097C27C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C27C" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C27C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 1350 50  0001 C CNN
+F 1 "GND" H 6950 1450 50  0001 C CNN
+F 2 "" H 6950 1600 50  0001 C CNN
+F 3 "" H 6950 1600 50  0001 C CNN
+	1    6950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C282
+P 5900 1600
+AR Path="/5F8F894A/6097C282" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C282" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C282" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 1350 50  0001 C CNN
+F 1 "GND" H 5900 1450 50  0001 C CNN
+F 2 "" H 5900 1600 50  0001 C CNN
+F 3 "" H 5900 1600 50  0001 C CNN
+	1    5900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C288
+P 4800 1600
+AR Path="/5F8F894A/6097C288" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C288" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C288" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 1350 50  0001 C CNN
+F 1 "GND" H 4800 1450 50  0001 C CNN
+F 2 "" H 4800 1600 50  0001 C CNN
+F 3 "" H 4800 1600 50  0001 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C28E
+P 3750 1600
+AR Path="/5F8F894A/6097C28E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C28E" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C28E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 1350 50  0001 C CNN
+F 1 "GND" H 3750 1450 50  0001 C CNN
+F 2 "" H 3750 1600 50  0001 C CNN
+F 3 "" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C294
+P 2700 1600
+AR Path="/5F8F894A/6097C294" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C294" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C294" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 1350 50  0001 C CNN
+F 1 "GND" H 2700 1450 50  0001 C CNN
+F 2 "" H 2700 1600 50  0001 C CNN
+F 3 "" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C29A
+P 8850 900
+AR Path="/5F8F894A/6097C29A" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C29A" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C29A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 750 50  0001 C CNN
+F 1 "+5V" H 8850 1073 50  0000 C CNN
+F 2 "" H 8850 900 50  0001 C CNN
+F 3 "" H 8850 900 50  0001 C CNN
+	1    8850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C2A0
+P 7800 900
+AR Path="/5F8F894A/6097C2A0" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C2A0" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C2A0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7800 750 50  0001 C CNN
+F 1 "+5V" H 7800 1073 50  0000 C CNN
+F 2 "" H 7800 900 50  0001 C CNN
+F 3 "" H 7800 900 50  0001 C CNN
+	1    7800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C2A6
+P 6750 900
+AR Path="/5F8F894A/6097C2A6" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C2A6" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C2A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 750 50  0001 C CNN
+F 1 "+5V" H 6750 1073 50  0000 C CNN
+F 2 "" H 6750 900 50  0001 C CNN
+F 3 "" H 6750 900 50  0001 C CNN
+	1    6750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C2AC
+P 5650 900
+AR Path="/5F8F894A/6097C2AC" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C2AC" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C2AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 750 50  0001 C CNN
+F 1 "+5V" H 5650 1073 50  0000 C CNN
+F 2 "" H 5650 900 50  0001 C CNN
+F 3 "" H 5650 900 50  0001 C CNN
+	1    5650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C2B2
+P 4600 900
+AR Path="/5F8F894A/6097C2B2" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C2B2" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C2B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 750 50  0001 C CNN
+F 1 "+5V" H 4600 1073 50  0000 C CNN
+F 2 "" H 4600 900 50  0001 C CNN
+F 3 "" H 4600 900 50  0001 C CNN
+	1    4600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 6097C2B8
+P 3550 900
+AR Path="/5F8F894A/6097C2B8" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C2B8" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C2B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 750 50  0001 C CNN
+F 1 "+5V" H 3550 1073 50  0000 C CNN
+F 2 "" H 3550 900 50  0001 C CNN
+F 3 "" H 3550 900 50  0001 C CNN
+	1    3550 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 900  8850 1000
+Wire Wire Line
+	8850 1000 8800 1000
+Wire Wire Line
+	9150 1250 9050 1250
+Wire Wire Line
+	9050 1250 9050 1600
+Wire Wire Line
+	8100 1250 8000 1250
+Wire Wire Line
+	8000 1250 8000 1600
+Wire Wire Line
+	7050 1250 6950 1250
+Wire Wire Line
+	6950 1250 6950 1600
+Wire Wire Line
+	6000 1250 5900 1250
+Wire Wire Line
+	5900 1250 5900 1600
+Wire Wire Line
+	7800 900  7800 1000
+Wire Wire Line
+	7800 1000 7750 1000
+Wire Wire Line
+	6750 900  6750 1000
+Wire Wire Line
+	6750 1000 6700 1000
+Wire Wire Line
+	5650 900  5650 1000
+Wire Wire Line
+	5650 1000 5600 1000
+Wire Wire Line
+	4900 1250 4800 1250
+Wire Wire Line
+	4800 1250 4800 1600
+Wire Wire Line
+	4600 900  4600 1000
+Wire Wire Line
+	4600 1000 4550 1000
+Wire Wire Line
+	3550 900  3550 1000
+Wire Wire Line
+	3550 1000 3500 1000
+Wire Wire Line
+	3850 1250 3750 1250
+Wire Wire Line
+	3750 1250 3750 1600
+Wire Wire Line
+	2800 1250 2700 1250
+Wire Wire Line
+	2700 1250 2700 1600
+Wire Wire Line
+	9150 1000 8950 1000
+Wire Wire Line
+	8950 1000 8950 1250
+Wire Wire Line
+	8950 1250 8800 1250
+Wire Wire Line
+	8100 1000 7900 1000
+Wire Wire Line
+	7900 1000 7900 1250
+Wire Wire Line
+	7900 1250 7750 1250
+Wire Wire Line
+	7050 1000 6850 1000
+Wire Wire Line
+	6850 1000 6850 1250
+Wire Wire Line
+	6850 1250 6700 1250
+Wire Wire Line
+	6000 1000 5750 1000
+Wire Wire Line
+	5750 1000 5750 1250
+Wire Wire Line
+	4900 1000 4700 1000
+Wire Wire Line
+	4700 1000 4700 1250
+Wire Wire Line
+	4700 1250 4550 1250
+Wire Wire Line
+	3850 1000 3650 1000
+Wire Wire Line
+	3650 1000 3650 1250
+Wire Wire Line
+	3650 1250 3500 1250
+Text GLabel 1500 950  0    50   Input ~ 0
+LED_SERIAL_DRV_5V
+Wire Wire Line
+	2800 1000 2600 1000
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C2EE
+P 8300 3400
+AR Path="/601A5838/6097C2EE" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C2EE" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C2EE" Ref="C?"  Part="1" 
+F 0 "C?" V 8304 3410 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8300 3400 50  0001 C CNN
+F 2 "" H 8300 3400 50  0001 C CNN
+F 3 "" H 8300 3400 50  0001 C CNN
+F 4 "100nF" V 8395 3410 50  0000 L CNN "Val"
+F 5 "25V" H 8300 3400 50  0001 C CNN "Voltage"
+F 6 "10%" H 8300 3400 50  0001 C CNN "Tolerance"
+	1    8300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C2F7
+P 8900 3400
+AR Path="/601A5838/6097C2F7" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C2F7" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C2F7" Ref="C?"  Part="1" 
+F 0 "C?" V 8904 3410 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8900 3400 50  0001 C CNN
+F 2 "" H 8900 3400 50  0001 C CNN
+F 3 "" H 8900 3400 50  0001 C CNN
+F 4 "100nF" V 8995 3410 50  0000 L CNN "Val"
+F 5 "25V" H 8900 3400 50  0001 C CNN "Voltage"
+F 6 "10%" H 8900 3400 50  0001 C CNN "Tolerance"
+	1    8900 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C300
+P 9500 3400
+AR Path="/601A5838/6097C300" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C300" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C300" Ref="C?"  Part="1" 
+F 0 "C?" V 9504 3410 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 9500 3400 50  0001 C CNN
+F 2 "" H 9500 3400 50  0001 C CNN
+F 3 "" H 9500 3400 50  0001 C CNN
+F 4 "100nF" V 9595 3410 50  0000 L CNN "Val"
+F 5 "25V" H 9500 3400 50  0001 C CNN "Voltage"
+F 6 "10%" H 9500 3400 50  0001 C CNN "Tolerance"
+	1    9500 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1250 5600 1250
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C30C
+P 10150 3400
+AR Path="/601A5838/6097C30C" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C30C" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C30C" Ref="C?"  Part="1" 
+F 0 "C?" V 10154 3410 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10150 3400 50  0001 C CNN
+F 2 "" H 10150 3400 50  0001 C CNN
+F 3 "" H 10150 3400 50  0001 C CNN
+F 4 "100nF" V 10245 3410 50  0000 L CNN "Val"
+F 5 "25V" H 10150 3400 50  0001 C CNN "Voltage"
+F 6 "10%" H 10150 3400 50  0001 C CNN "Tolerance"
+	1    10150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C316
+P 8300 2600
+AR Path="/601A5838/6097C316" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C316" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C316" Ref="C?"  Part="1" 
+F 0 "C?" V 8304 2610 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8300 2600 50  0001 C CNN
+F 2 "" H 8300 2600 50  0001 C CNN
+F 3 "" H 8300 2600 50  0001 C CNN
+F 4 "100nF" V 8395 2610 50  0000 L CNN "Val"
+F 5 "25V" H 8300 2600 50  0001 C CNN "Voltage"
+F 6 "10%" H 8300 2600 50  0001 C CNN "Tolerance"
+	1    8300 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C320
+P 8900 2600
+AR Path="/601A5838/6097C320" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C320" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C320" Ref="C?"  Part="1" 
+F 0 "C?" V 8904 2610 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8900 2600 50  0001 C CNN
+F 2 "" H 8900 2600 50  0001 C CNN
+F 3 "" H 8900 2600 50  0001 C CNN
+F 4 "100nF" V 8995 2610 50  0000 L CNN "Val"
+F 5 "25V" H 8900 2600 50  0001 C CNN "Voltage"
+F 6 "10%" H 8900 2600 50  0001 C CNN "Tolerance"
+	1    8900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C32A
+P 9500 2600
+AR Path="/601A5838/6097C32A" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C32A" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C32A" Ref="C?"  Part="1" 
+F 0 "C?" V 9504 2610 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 9500 2600 50  0001 C CNN
+F 2 "" H 9500 2600 50  0001 C CNN
+F 3 "" H 9500 2600 50  0001 C CNN
+F 4 "100nF" V 9595 2610 50  0000 L CNN "Val"
+F 5 "25V" H 9500 2600 50  0001 C CNN "Voltage"
+F 6 "10%" H 9500 2600 50  0001 C CNN "Tolerance"
+	1    9500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 6097C334
+P 10150 2600
+AR Path="/601A5838/6097C334" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/6097C334" Ref="C?"  Part="1" 
+AR Path="/6092237A/6097C334" Ref="C?"  Part="1" 
+F 0 "C?" V 10154 2610 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 10150 2600 50  0001 C CNN
+F 2 "" H 10150 2600 50  0001 C CNN
+F 3 "" H 10150 2600 50  0001 C CNN
+F 4 "100nF" V 10245 2610 50  0000 L CNN "Val"
+F 5 "25V" H 10150 2600 50  0001 C CNN "Voltage"
+F 6 "10%" H 10150 2600 50  0001 C CNN "Tolerance"
+	1    10150 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C33E
+P 8400 3500
+AR Path="/5F8F894A/6097C33E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C33E" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C33E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8400 3250 50  0001 C CNN
+F 1 "GND" H 8400 3350 50  0001 C CNN
+F 2 "" H 8400 3500 50  0001 C CNN
+F 3 "" H 8400 3500 50  0001 C CNN
+	1    8400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C344
+P 9000 3500
+AR Path="/5F8F894A/6097C344" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C344" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C344" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9000 3250 50  0001 C CNN
+F 1 "GND" H 9000 3350 50  0001 C CNN
+F 2 "" H 9000 3500 50  0001 C CNN
+F 3 "" H 9000 3500 50  0001 C CNN
+	1    9000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C34A
+P 9600 3500
+AR Path="/5F8F894A/6097C34A" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C34A" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C34A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9600 3250 50  0001 C CNN
+F 1 "GND" H 9600 3350 50  0001 C CNN
+F 2 "" H 9600 3500 50  0001 C CNN
+F 3 "" H 9600 3500 50  0001 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C350
+P 10250 3500
+AR Path="/5F8F894A/6097C350" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C350" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C350" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10250 3250 50  0001 C CNN
+F 1 "GND" H 10250 3350 50  0001 C CNN
+F 2 "" H 10250 3500 50  0001 C CNN
+F 3 "" H 10250 3500 50  0001 C CNN
+	1    10250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C356
+P 8400 2700
+AR Path="/5F8F894A/6097C356" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C356" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C356" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8400 2450 50  0001 C CNN
+F 1 "GND" H 8400 2550 50  0001 C CNN
+F 2 "" H 8400 2700 50  0001 C CNN
+F 3 "" H 8400 2700 50  0001 C CNN
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C35C
+P 9000 2700
+AR Path="/5F8F894A/6097C35C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C35C" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C35C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9000 2450 50  0001 C CNN
+F 1 "GND" H 9000 2550 50  0001 C CNN
+F 2 "" H 9000 2700 50  0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C362
+P 9600 2700
+AR Path="/5F8F894A/6097C362" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C362" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C362" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9600 2450 50  0001 C CNN
+F 1 "GND" H 9600 2550 50  0001 C CNN
+F 2 "" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C368
+P 10250 2700
+AR Path="/5F8F894A/6097C368" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/6097C368" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C368" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10250 2450 50  0001 C CNN
+F 1 "GND" H 10250 2550 50  0001 C CNN
+F 2 "" H 10250 2700 50  0001 C CNN
+F 3 "" H 10250 2700 50  0001 C CNN
+	1    10250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C36E
+P 3150 1150
+AR Path="/5FCA4074/6097C36E" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C36E" Ref="D?"  Part="1" 
+F 0 "D?" H 3150 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 3150 750 50  0000 C CNN
+F 2 "" H 3150 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 3150 1100 50  0001 C CNN
+	1    3150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C374
+P 4200 1150
+AR Path="/5FCA4074/6097C374" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C374" Ref="D?"  Part="1" 
+F 0 "D?" H 4200 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 4200 750 50  0000 C CNN
+F 2 "" H 4200 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 4200 1100 50  0001 C CNN
+	1    4200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C37A
+P 5250 1150
+AR Path="/5FCA4074/6097C37A" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C37A" Ref="D?"  Part="1" 
+F 0 "D?" H 5250 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 5250 750 50  0000 C CNN
+F 2 "" H 5250 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 5250 1100 50  0001 C CNN
+	1    5250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C380
+P 6350 1150
+AR Path="/5FCA4074/6097C380" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C380" Ref="D?"  Part="1" 
+F 0 "D?" H 6350 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 6350 750 50  0000 C CNN
+F 2 "" H 6350 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 6350 1100 50  0001 C CNN
+	1    6350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C386
+P 7400 1150
+AR Path="/5FCA4074/6097C386" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C386" Ref="D?"  Part="1" 
+F 0 "D?" H 7400 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 7400 750 50  0000 C CNN
+F 2 "" H 7400 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 7400 1100 50  0001 C CNN
+	1    7400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C38C
+P 8450 1150
+AR Path="/5FCA4074/6097C38C" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C38C" Ref="D?"  Part="1" 
+F 0 "D?" H 8450 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 8450 750 50  0000 C CNN
+F 2 "" H 8450 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 8450 1100 50  0001 C CNN
+	1    8450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C392
+P 9500 1150
+AR Path="/5FCA4074/6097C392" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C392" Ref="D?"  Part="1" 
+F 0 "D?" H 9500 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 9500 750 50  0000 C CNN
+F 2 "" H 9500 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 9500 1100 50  0001 C CNN
+	1    9500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:BB-HRGB32M-TRB-C D?
+U 1 1 6097C398
+P 10550 1150
+AR Path="/5FCA4074/6097C398" Ref="D?"  Part="1" 
+AR Path="/6092237A/6097C398" Ref="D?"  Part="1" 
+F 0 "D?" H 10550 1550 50  0000 C CNN
+F 1 "BB-HRGB32M-TRB-C" H 10550 750 50  0000 C CNN
+F 2 "" H 10550 1100 50  0001 C CNN
+F 3 "https://drive.google.com/file/d/1LScnK1JY8RohAoeeG1S63da97Lvbvf8K/edit" H 10550 1100 50  0001 C CNN
+	1    10550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:74AHCT1G86 U?
+U 1 1 6097C39E
+P 1950 1000
+AR Path="/5FCA4074/6097C39E" Ref="U?"  Part="1" 
+AR Path="/6092237A/6097C39E" Ref="U?"  Part="1" 
+F 0 "U?" H 1925 1267 50  0000 C CNN
+F 1 "74AHCT1G86" H 1925 1176 50  0000 C CNN
+F 2 "" H 1950 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1950 1000 50  0001 C CNN
+	1    1950 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:R_0603_620R_0.1W_1% R?
+U 1 1 6097C3A9
+P 2300 900
+AR Path="/5FCA4074/6097C3A9" Ref="R?"  Part="1" 
+AR Path="/6092237A/6097C3A9" Ref="R?"  Part="1" 
+F 0 "R?" H 2300 900 50  0000 C CNN
+F 1 "R_0603_620R_0.1W_1%" H 2300 900 50  0001 C CNN
+F 2 "" H 2300 900 60  0001 C CNN
+F 3 "" H 2300 900 60  0001 C CNN
+F 4 "620R" H 2550 900 50  0000 C CNN "Val"
+F 5 "1%" H 2300 900 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2300 900 50  0001 C CNN "Watt"
+F 7 "0603WAF6200T5E" H 2300 900 50  0001 C CNN "Mfr no."
+F 8 "Uniroyal Elec" H 2300 900 50  0001 C CNN "Mfr"
+	1    2300 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 950  1650 950 
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 6097C3B0
+P 1550 1250
+AR Path="/5FCA4074/6097C3B0" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/6097C3B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 1000 50  0001 C CNN
+F 1 "GND" H 1550 1100 50  0001 C CNN
+F 2 "" H 1550 1250 50  0001 C CNN
+F 3 "" H 1550 1250 50  0001 C CNN
+	1    1550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1250 1550 1050
+Wire Wire Line
+	1550 1050 1650 1050
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A36D2
+P 4950 2875
+AR Path="/5F988182/609A36D2" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A36D2" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A36D2" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A36D2" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 4950 2875 20  0001 C CNN
+F 1 "+5V" H 4950 3025 50  0000 C CNN
+F 2 "" H 4950 2875 70  0001 C CNN
+F 3 "" H 4950 2875 70  0001 C CNN
+	1    4950 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A36D8
+P 4750 2875
+AR Path="/5F988182/609A36D8" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A36D8" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A36D8" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A36D8" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 4750 2875 20  0001 C CNN
+F 1 "+5V" H 4750 3025 50  0000 C CNN
+F 2 "" H 4750 2875 70  0001 C CNN
+F 3 "" H 4750 2875 70  0001 C CNN
+	1    4750 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A36E1
+P 4650 3225
+AR Path="/601A5838/609A36E1" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A36E1" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A36E1" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 3332 50  0000 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 4650 3225 50  0001 C CNN
+F 2 "" H 4650 3225 50  0001 C CNN
+F 3 "" H 4650 3225 50  0001 C CNN
+F 4 "10k" H 4750 3241 50  0000 C CNN "Val"
+F 5 "1%" H 4650 3225 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 4650 3225 50  0001 C CNN "Watt"
+	1    4650 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A36EA
+P 4250 3225
+AR Path="/601A5838/609A36EA" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A36EA" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A36EA" Ref="R?"  Part="1" 
+F 0 "R?" H 4350 3332 50  0000 C CNN
+F 1 "3k6_0603_Chip_Resistor,_1%,_0.1W" H 4250 3225 50  0001 C CNN
+F 2 "" H 4250 3225 50  0001 C CNN
+F 3 "" H 4250 3225 50  0001 C CNN
+F 4 "3k6" H 4350 3241 50  0000 C CNN "Val"
+F 5 "1%" H 4250 3225 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 4250 3225 50  0001 C CNN "Watt"
+	1    4250 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A36F0
+P 4150 2925
+AR Path="/5F8F8987/609A36F0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A36F0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A36F0" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A36F0" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A36F0" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A36F0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 2675 50  0001 C CNN
+F 1 "GND" H 4150 2775 50  0001 C CNN
+F 2 "" H 4150 2925 50  0001 C CNN
+F 3 "" H 4150 2925 50  0001 C CNN
+	1    4150 2925
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 2400 0    50   Input ~ 0
+LCD_RS
+Text GLabel 2150 2550 0    50   BiDi ~ 0
+LCD_RW
+Text GLabel 2150 2700 0    50   Input ~ 0
+LCD_A_ENABLE
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 609A36FC
+P 5050 3075
+AR Path="/601A5838/609A36FC" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/609A36FC" Ref="C?"  Part="1" 
+AR Path="/6092237A/609A36FC" Ref="C?"  Part="1" 
+F 0 "C?" V 5054 3085 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 5050 3075 50  0001 C CNN
+F 2 "" H 5050 3075 50  0001 C CNN
+F 3 "" H 5050 3075 50  0001 C CNN
+F 4 "100nF" V 5145 3085 50  0000 L CNN "Val"
+F 5 "25V" H 5050 3075 50  0001 C CNN "Voltage"
+F 6 "10%" H 5050 3075 50  0001 C CNN "Tolerance"
+	1    5050 3075
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A3702
+P 3975 5975
+AR Path="/5F988182/609A3702" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A3702" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A3702" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A3702" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 3975 5975 20  0001 C CNN
+F 1 "+5V" H 3975 6125 50  0000 C CNN
+F 2 "" H 3975 5975 70  0001 C CNN
+F 3 "" H 3975 5975 70  0001 C CNN
+	1    3975 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A370B
+P 3875 6325
+AR Path="/601A5838/609A370B" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A370B" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A370B" Ref="R?"  Part="1" 
+F 0 "R?" H 3975 6432 50  0000 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 3875 6325 50  0001 C CNN
+F 2 "" H 3875 6325 50  0001 C CNN
+F 3 "" H 3875 6325 50  0001 C CNN
+F 4 "10k" H 3975 6341 50  0000 C CNN "Val"
+F 5 "1%" H 3875 6325 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3875 6325 50  0001 C CNN "Watt"
+	1    3875 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A3714
+P 3525 6475
+AR Path="/601A5838/609A3714" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A3714" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A3714" Ref="R?"  Part="1" 
+F 0 "R?" H 3625 6582 50  0000 C CNN
+F 1 "3k6_0603_Chip_Resistor,_1%,_0.1W" H 3525 6475 50  0001 C CNN
+F 2 "" H 3525 6475 50  0001 C CNN
+F 3 "" H 3525 6475 50  0001 C CNN
+F 4 "3k6" H 3625 6491 50  0000 C CNN "Val"
+F 5 "1%" H 3525 6475 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3525 6475 50  0001 C CNN "Watt"
+	1    3525 6475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A371A
+P 3325 6175
+AR Path="/5F8F8987/609A371A" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A371A" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A371A" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A371A" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A371A" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A371A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3325 5925 50  0001 C CNN
+F 1 "GND" H 3325 6025 50  0001 C CNN
+F 2 "" H 3325 6175 50  0001 C CNN
+F 3 "" H 3325 6175 50  0001 C CNN
+	1    3325 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 609A3723
+P 6500 5525
+AR Path="/601A5838/609A3723" Ref="C?"  Part="1" 
+AR Path="/5FCA4074/609A3723" Ref="C?"  Part="1" 
+AR Path="/6092237A/609A3723" Ref="C?"  Part="1" 
+F 0 "C?" V 6504 5535 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 6500 5525 50  0001 C CNN
+F 2 "" H 6500 5525 50  0001 C CNN
+F 3 "" H 6500 5525 50  0001 C CNN
+F 4 "100nF" V 6595 5535 50  0000 L CNN "Val"
+F 5 "25V" H 6500 5525 50  0001 C CNN "Voltage"
+F 6 "10%" H 6500 5525 50  0001 C CNN "Tolerance"
+	1    6500 5525
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A3729
+P 6400 5775
+AR Path="/5F8F8987/609A3729" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A3729" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A3729" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A3729" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A3729" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A3729" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 5525 50  0001 C CNN
+F 1 "GND" H 6400 5625 50  0001 C CNN
+F 2 "" H 6400 5775 50  0001 C CNN
+F 3 "" H 6400 5775 50  0001 C CNN
+	1    6400 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5725 6400 5775
+$Comp
+L OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD?
+U 1 1 609A3730
+P 5500 5075
+AR Path="/601A5838/609A3730" Ref="LCD?"  Part="1" 
+AR Path="/5FCA4074/609A3730" Ref="LCD?"  Part="1" 
+AR Path="/6092237A/609A3730" Ref="LCD?"  Part="1" 
+F 0 "LCD?" H 6230 5875 50  0000 L CNN
+F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 5950 4875 50  0001 C CNN
+F 2 "" H 5700 6775 50  0001 C CNN
+F 3 "" H 5700 6775 50  0001 C CNN
+	1    5500 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD?
+U 1 1 609A3736
+P 5500 7325
+AR Path="/601A5838/609A3736" Ref="LCD?"  Part="1" 
+AR Path="/5FCA4074/609A3736" Ref="LCD?"  Part="1" 
+AR Path="/6092237A/609A3736" Ref="LCD?"  Part="1" 
+F 0 "LCD?" H 6230 8125 50  0000 L CNN
+F 1 "LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" H 5950 7125 50  0001 C CNN
+F 2 "" H 5700 9025 50  0001 C CNN
+F 3 "" H 5700 9025 50  0001 C CNN
+	1    5500 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A373C
+P 5800 3175
+AR Path="/5F8F8987/609A373C" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A373C" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A373C" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A373C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A373C" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A373C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 2925 50  0001 C CNN
+F 1 "GND" H 5800 3025 50  0001 C CNN
+F 2 "" H 5800 3175 50  0001 C CNN
+F 3 "" H 5800 3175 50  0001 C CNN
+	1    5800 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3175 5800 3125
+Wire Wire Line
+	5450 3125 5450 3475
+Wire Wire Line
+	5450 3475 5500 3475
+Wire Wire Line
+	5450 3125 5800 3125
+Wire Wire Line
+	5500 4075 5050 4075
+Wire Wire Line
+	5500 4275 4950 4275
+Wire Wire Line
+	5500 4475 4850 4475
+Wire Wire Line
+	5500 4675 4750 4675
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A374A
+P 5450 5125
+AR Path="/5F8F8987/609A374A" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A374A" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A374A" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A374A" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A374A" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A374A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 4875 50  0001 C CNN
+F 1 "GND" H 5450 4975 50  0001 C CNN
+F 2 "" H 5450 5125 50  0001 C CNN
+F 3 "" H 5450 5125 50  0001 C CNN
+	1    5450 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A3750
+P 5300 5025
+AR Path="/5F988182/609A3750" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A3750" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A3750" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A3750" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 5300 5025 20  0001 C CNN
+F 1 "+5V" H 5300 5175 50  0000 C CNN
+F 2 "" H 5300 5025 70  0001 C CNN
+F 3 "" H 5300 5025 70  0001 C CNN
+	1    5300 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5075 5450 5075
+Wire Wire Line
+	5450 5075 5450 5125
+Wire Wire Line
+	5500 4975 5400 4975
+Wire Wire Line
+	5400 4975 5400 5075
+Wire Wire Line
+	5400 5075 5300 5075
+Wire Wire Line
+	5300 5075 5300 5025
+Wire Wire Line
+	5500 3775 5150 3775
+Wire Wire Line
+	5150 3775 5150 6025
+Wire Wire Line
+	5150 6025 5500 6025
+Connection ~ 5150 3775
+Wire Wire Line
+	5150 3775 4050 3775
+Wire Wire Line
+	5500 6125 5100 6125
+Wire Wire Line
+	5100 6125 5100 3875
+Connection ~ 5100 3875
+Wire Wire Line
+	5100 3875 5500 3875
+Wire Wire Line
+	5500 6325 5050 6325
+Wire Wire Line
+	5050 6325 5050 4075
+Wire Wire Line
+	5500 6425 5000 6425
+Wire Wire Line
+	5000 4175 5500 4175
+Wire Wire Line
+	5500 6525 4950 6525
+Wire Wire Line
+	5500 6625 4900 6625
+Wire Wire Line
+	4900 4375 4900 6625
+Wire Wire Line
+	4900 4375 5500 4375
+Wire Wire Line
+	5500 6725 4850 6725
+Wire Wire Line
+	4850 6725 4850 4475
+Wire Wire Line
+	5500 6825 4800 6825
+Wire Wire Line
+	4800 6825 4800 4575
+Wire Wire Line
+	4800 4575 5500 4575
+Wire Wire Line
+	5500 6925 4750 6925
+Wire Wire Line
+	5500 7025 4700 7025
+Wire Wire Line
+	4700 4775 5500 4775
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A3775
+P 5800 5475
+AR Path="/5F8F8987/609A3775" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A3775" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A3775" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A3775" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A3775" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A3775" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 5225 50  0001 C CNN
+F 1 "GND" H 5800 5325 50  0001 C CNN
+F 2 "" H 5800 5475 50  0001 C CNN
+F 3 "" H 5800 5475 50  0001 C CNN
+	1    5800 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A377B
+P 5300 5425
+AR Path="/5F988182/609A377B" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A377B" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A377B" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A377B" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 5300 5425 20  0001 C CNN
+F 1 "+5V" H 5300 5575 50  0000 C CNN
+F 2 "" H 5300 5425 70  0001 C CNN
+F 3 "" H 5300 5425 70  0001 C CNN
+	1    5300 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5725 5500 5725
+Wire Wire Line
+	5500 5825 5300 5825
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A3783
+P 5450 7375
+AR Path="/5F8F8987/609A3783" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A3783" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A3783" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A3783" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A3783" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A3783" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 7125 50  0001 C CNN
+F 1 "GND" H 5450 7225 50  0001 C CNN
+F 2 "" H 5450 7375 50  0001 C CNN
+F 3 "" H 5450 7375 50  0001 C CNN
+	1    5450 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A3789
+P 5300 7275
+AR Path="/5F988182/609A3789" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A3789" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A3789" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A3789" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 5300 7275 20  0001 C CNN
+F 1 "+5V" H 5300 7425 50  0000 C CNN
+F 2 "" H 5300 7275 70  0001 C CNN
+F 3 "" H 5300 7275 70  0001 C CNN
+	1    5300 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 7325 5450 7325
+Wire Wire Line
+	5450 7325 5450 7375
+Wire Wire Line
+	5500 7225 5400 7225
+Wire Wire Line
+	5400 7225 5400 7325
+Wire Wire Line
+	5400 7325 5300 7325
+Wire Wire Line
+	5300 7325 5300 7275
+Wire Wire Line
+	5500 3675 4750 3675
+Wire Wire Line
+	4750 3675 4750 3375
+Wire Wire Line
+	4750 3375 4350 3375
+Wire Wire Line
+	4350 3375 4350 3325
+Connection ~ 4750 3375
+Wire Wire Line
+	4750 3375 4750 3325
+Wire Wire Line
+	4750 2875 4750 2925
+Wire Wire Line
+	4350 2925 4350 2875
+Wire Wire Line
+	4350 2875 4150 2875
+Wire Wire Line
+	4150 2875 4150 2925
+Wire Wire Line
+	5500 5925 4350 5925
+Wire Wire Line
+	3975 5975 3975 6025
+Wire Wire Line
+	3975 6675 3625 6675
+Wire Wire Line
+	3625 6575 3625 6675
+Wire Wire Line
+	3625 6175 3625 6125
+Wire Wire Line
+	3625 6125 3325 6125
+Wire Wire Line
+	3325 6125 3325 6175
+Wire Wire Line
+	5800 5475 5450 5475
+Wire Wire Line
+	5450 5475 5450 5725
+Wire Wire Line
+	6400 5425 6400 5375
+Wire Wire Line
+	6400 5375 5400 5375
+Wire Wire Line
+	5400 5375 5400 5525
+Wire Wire Line
+	5400 5525 5300 5525
+Wire Wire Line
+	5300 5525 5300 5825
+Wire Wire Line
+	5300 5525 5300 5425
+Connection ~ 5300 5525
+Wire Wire Line
+	4950 2875 4950 2925
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 609A37B0
+P 4950 3325
+AR Path="/5F8F8987/609A37B0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/609A37B0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/609A37B0" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A37B0" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A37B0" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A37B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 3075 50  0001 C CNN
+F 1 "GND" H 4950 3175 50  0001 C CNN
+F 2 "" H 4950 3325 50  0001 C CNN
+F 3 "" H 4950 3325 50  0001 C CNN
+	1    4950 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3275 4950 3325
+Wire Wire Line
+	4950 2925 5350 2925
+Wire Wire Line
+	5350 2925 5350 3575
+Wire Wire Line
+	5350 3575 5500 3575
+Connection ~ 4950 2925
+Wire Wire Line
+	4950 2925 4950 2975
+Wire Wire Line
+	2150 2400 2325 2400
+Wire Wire Line
+	2150 2550 2325 2550
+Wire Wire Line
+	2150 2700 2325 2700
+Connection ~ 4950 4275
+Connection ~ 5000 4175
+Wire Wire Line
+	5000 4175 5000 6425
+Wire Wire Line
+	4950 6525 4950 4275
+Wire Wire Line
+	4750 6925 4750 4675
+Wire Wire Line
+	4700 7025 4700 4775
+Wire Wire Line
+	2025 6000 2150 6000
+Wire Wire Line
+	2025 5850 2150 5850
+Wire Wire Line
+	2025 5700 2150 5700
+Wire Wire Line
+	2025 5550 2150 5550
+Wire Wire Line
+	2025 5400 2150 5400
+Wire Wire Line
+	2025 5250 2150 5250
+Wire Wire Line
+	2025 5100 2150 5100
+Wire Wire Line
+	2025 4950 2150 4950
+Wire Wire Line
+	2900 6150 2975 6150
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 609A37CE
+P 2975 6350
+AR Path="/5F988182/609A37CE" Ref="#GND_?"  Part="1" 
+AR Path="/601A5838/609A37CE" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/609A37CE" Ref="#GND_?"  Part="1" 
+AR Path="/6092237A/609A37CE" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 2975 6350 20  0001 C CNN
+F 1 "GND" H 2975 6280 50  0001 C CNN
+F 2 "" H 2975 6350 70  0000 C CNN
+F 3 "" H 2975 6350 70  0000 C CNN
+	1    2975 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 6150 2975 6350
+$Comp
+L OpenVent:TXB0108 U?
+U 1 1 609A37D5
+P 2500 4450
+AR Path="/601A5838/609A37D5" Ref="U?"  Part="1" 
+AR Path="/5FCA4074/609A37D5" Ref="U?"  Part="1" 
+AR Path="/6092237A/609A37D5" Ref="U?"  Part="1" 
+F 0 "U?" H 2525 4365 50  0000 C CNN
+F 1 "TXB0108" H 2525 4274 50  0000 C CNN
+F 2 "" H 2500 4450 50  0001 C CNN
+F 3 "" H 2500 4450 50  0001 C CNN
+	1    2500 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2025 5850 0    50   BiDi ~ 0
+LCD_DB6
+Text GLabel 2025 6000 0    50   BiDi ~ 0
+LCD_DB7
+Text GLabel 2025 5550 0    50   BiDi ~ 0
+LCD_DB4
+Text GLabel 2025 5700 0    50   BiDi ~ 0
+LCD_DB5
+Text GLabel 2025 5250 0    50   BiDi ~ 0
+LCD_DB2
+Text GLabel 2025 5400 0    50   BiDi ~ 0
+LCD_DB3
+Text GLabel 2025 5100 0    50   BiDi ~ 0
+LCD_DB1
+Text GLabel 2025 4950 0    50   BiDi ~ 0
+LCD_DB0
+Connection ~ 5050 4075
+Connection ~ 4900 4375
+Wire Wire Line
+	4850 4475 3600 4475
+Connection ~ 4850 4475
+Wire Wire Line
+	3650 4575 4800 4575
+Connection ~ 4800 4575
+Wire Wire Line
+	4750 4675 3725 4675
+Connection ~ 4750 4675
+Wire Wire Line
+	4700 4775 3800 4775
+Connection ~ 4700 4775
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A37ED
+P 2975 4650
+AR Path="/5F988182/609A37ED" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A37ED" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A37ED" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A37ED" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 2975 4650 20  0001 C CNN
+F 1 "+5V" H 2975 4800 50  0000 C CNN
+F 2 "" H 2975 4650 70  0001 C CNN
+F 3 "" H 2975 4650 70  0001 C CNN
+	1    2975 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4800 2975 4800
+Wire Wire Line
+	2975 4800 2975 4650
+$Comp
+L OpenVent:+5V #5V_?
+U 1 1 609A37F5
+P 3150 2100
+AR Path="/5F988182/609A37F5" Ref="#5V_?"  Part="1" 
+AR Path="/601A5838/609A37F5" Ref="#5V_?"  Part="1" 
+AR Path="/5FCA4074/609A37F5" Ref="#5V_?"  Part="1" 
+AR Path="/6092237A/609A37F5" Ref="#5V_?"  Part="1" 
+F 0 "#5V_?" H 3150 2100 20  0001 C CNN
+F 1 "+5V" H 3150 2250 50  0000 C CNN
+F 2 "" H 3150 2100 70  0001 C CNN
+F 3 "" H 3150 2100 70  0001 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3075 2250 3150 2250
+Wire Wire Line
+	3150 2250 3150 2100
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 609A37FD
+P 2025 4650
+AR Path="/5F8F894A/609A37FD" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A37FD" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A37FD" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A37FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2025 4500 50  0001 C CNN
+F 1 "3V3" H 2025 4823 50  0000 C CNN
+F 2 "" H 2025 4650 50  0001 C CNN
+F 3 "" H 2025 4650 50  0001 C CNN
+	1    2025 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 4650 2025 4800
+Wire Wire Line
+	2025 4800 2150 4800
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 609A3805
+P 2200 2100
+AR Path="/5F8F894A/609A3805" Ref="#PWR?"  Part="1" 
+AR Path="/601A5838/609A3805" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/609A3805" Ref="#PWR?"  Part="1" 
+AR Path="/6092237A/609A3805" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 1950 50  0001 C CNN
+F 1 "3V3" H 2200 2273 50  0000 C CNN
+F 2 "" H 2200 2100 50  0001 C CNN
+F 3 "" H 2200 2100 50  0001 C CNN
+	1    2200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2100 2200 2250
+Wire Wire Line
+	2200 2250 2325 2250
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A3810
+P 2000 6250
+AR Path="/601A5838/609A3810" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A3810" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A3810" Ref="R?"  Part="1" 
+F 0 "R?" V 2054 6220 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 2000 6250 50  0001 C CNN
+F 2 "" H 2000 6250 50  0001 C CNN
+F 3 "" H 2000 6250 50  0001 C CNN
+F 4 "100k" V 2145 6220 50  0000 L CNN "Val"
+F 5 "1%" H 2000 6250 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2000 6250 50  0001 C CNN "Watt"
+	1    2000 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 609A3816
+P 1900 6550
+AR Path="/5F988182/609A3816" Ref="#GND_?"  Part="1" 
+AR Path="/601A5838/609A3816" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/609A3816" Ref="#GND_?"  Part="1" 
+AR Path="/6092237A/609A3816" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 1900 6550 20  0001 C CNN
+F 1 "GND" H 1900 6480 50  0001 C CNN
+F 2 "" H 1900 6550 70  0000 C CNN
+F 3 "" H 1900 6550 70  0000 C CNN
+	1    1900 6550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6150 2150 6150
+Text GLabel 3175 3000 2    50   Output ~ 0
+LED_SERIAL_DRV_5V
+Wire Wire Line
+	3075 3000 3175 3000
+Wire Wire Line
+	5500 6225 4650 6225
+$Comp
+L OpenVent:TXB0108 U?
+U 1 1 609A3820
+P 2675 1900
+AR Path="/5FCA4074/609A3820" Ref="U?"  Part="1" 
+AR Path="/6092237A/609A3820" Ref="U?"  Part="1" 
+F 0 "U?" H 2700 1815 50  0000 C CNN
+F 1 "TXB0108" H 2700 1724 50  0000 C CNN
+F 2 "" H 2675 1900 50  0001 C CNN
+F 3 "" H 2675 1900 50  0001 C CNN
+	1    2675 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 2850 0    50   Input ~ 0
+LCD_B_ENABLE
+Wire Wire Line
+	2150 2850 2325 2850
+Wire Wire Line
+	2150 3000 2325 3000
+Text GLabel 2150 3000 0    50   Input ~ 0
+LED_SERIAL_DRV
+$Comp
+L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
+U 1 1 609A382D
+P 2175 3700
+AR Path="/601A5838/609A382D" Ref="R?"  Part="1" 
+AR Path="/5FCA4074/609A382D" Ref="R?"  Part="1" 
+AR Path="/6092237A/609A382D" Ref="R?"  Part="1" 
+F 0 "R?" V 2229 3670 50  0000 L CNN
+F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 2175 3700 50  0001 C CNN
+F 2 "" H 2175 3700 50  0001 C CNN
+F 3 "" H 2175 3700 50  0001 C CNN
+F 4 "100k" V 2320 3670 50  0000 L CNN "Val"
+F 5 "1%" H 2175 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 2175 3700 50  0001 C CNN "Watt"
+	1    2175 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 609A3833
+P 2075 4000
+AR Path="/5F988182/609A3833" Ref="#GND_?"  Part="1" 
+AR Path="/601A5838/609A3833" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/609A3833" Ref="#GND_?"  Part="1" 
+AR Path="/6092237A/609A3833" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 2075 4000 20  0001 C CNN
+F 1 "GND" H 2075 3930 50  0001 C CNN
+F 2 "" H 2075 4000 70  0000 C CNN
+F 3 "" H 2075 4000 70  0000 C CNN
+	1    2075 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 3600 2325 3600
+Wire Wire Line
+	3075 3600 3150 3600
+$Comp
+L OpenVent:GND #GND_?
+U 1 1 609A383B
+P 3150 3800
+AR Path="/5F988182/609A383B" Ref="#GND_?"  Part="1" 
+AR Path="/601A5838/609A383B" Ref="#GND_?"  Part="1" 
+AR Path="/5FCA4074/609A383B" Ref="#GND_?"  Part="1" 
+AR Path="/6092237A/609A383B" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 3150 3800 20  0001 C CNN
+F 1 "GND" H 3150 3730 50  0001 C CNN
+F 2 "" H 3150 3800 70  0000 C CNN
+F 3 "" H 3150 3800 70  0000 C CNN
+	1    3150 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3600 3150 3800
+Wire Wire Line
+	4050 2400 4050 3775
+Wire Wire Line
+	3975 2550 3975 3875
+Wire Wire Line
+	3900 2700 3900 3975
+Wire Wire Line
+	3975 3875 5100 3875
+Wire Wire Line
+	3075 2400 4050 2400
+Wire Wire Line
+	3075 2550 3975 2550
+Wire Wire Line
+	3075 2700 3900 2700
+Wire Wire Line
+	3900 3975 5500 3975
+Wire Wire Line
+	3100 4075 3100 4950
+Wire Wire Line
+	3100 4950 2900 4950
+Wire Wire Line
+	3100 4075 5050 4075
+Wire Wire Line
+	3225 5100 2900 5100
+Wire Wire Line
+	3375 5250 2900 5250
+Wire Wire Line
+	3375 4275 3375 5250
+Wire Wire Line
+	3225 4175 3225 5100
+Wire Wire Line
+	3225 4175 5000 4175
+Wire Wire Line
+	3375 4275 4950 4275
+Wire Wire Line
+	3525 4375 3525 5400
+Wire Wire Line
+	3525 5400 2900 5400
+Wire Wire Line
+	3525 4375 4900 4375
+Wire Wire Line
+	3975 6425 3975 6675
+Wire Wire Line
+	4350 5925 4350 6675
+Wire Wire Line
+	4350 6675 3975 6675
+Connection ~ 3975 6675
+Wire Wire Line
+	3600 5550 2900 5550
+Wire Wire Line
+	3600 4475 3600 5550
+Wire Wire Line
+	3650 5700 2900 5700
+Wire Wire Line
+	3650 4575 3650 5700
+Wire Wire Line
+	3725 5850 2900 5850
+Wire Wire Line
+	3725 4675 3725 5850
+Wire Wire Line
+	3800 6000 2900 6000
+Wire Wire Line
+	3800 4775 3800 6000
+Wire Wire Line
+	3075 2850 3825 2850
+Wire Wire Line
+	3825 2850 3825 4025
+Wire Wire Line
+	3825 4025 4650 4025
+Wire Wire Line
+	4650 4025 4650 6225
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9D094
+P 10250 2400
+F 0 "#PWR?" H 10250 2250 50  0001 C CNN
+F 1 "+5V" H 10250 2573 50  0000 C CNN
+F 2 "" H 10250 2400 50  0001 C CNN
+F 3 "" H 10250 2400 50  0001 C CNN
+	1    10250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9DDBF
+P 9600 2400
+F 0 "#PWR?" H 9600 2250 50  0001 C CNN
+F 1 "+5V" H 9600 2573 50  0000 C CNN
+F 2 "" H 9600 2400 50  0001 C CNN
+F 3 "" H 9600 2400 50  0001 C CNN
+	1    9600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9E5D6
+P 9000 2400
+F 0 "#PWR?" H 9000 2250 50  0001 C CNN
+F 1 "+5V" H 9000 2573 50  0000 C CNN
+F 2 "" H 9000 2400 50  0001 C CNN
+F 3 "" H 9000 2400 50  0001 C CNN
+	1    9000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9EDF8
+P 8400 2400
+F 0 "#PWR?" H 8400 2250 50  0001 C CNN
+F 1 "+5V" H 8400 2573 50  0000 C CNN
+F 2 "" H 8400 2400 50  0001 C CNN
+F 3 "" H 8400 2400 50  0001 C CNN
+	1    8400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9F634
+P 9000 3200
+F 0 "#PWR?" H 9000 3050 50  0001 C CNN
+F 1 "+5V" H 9000 3373 50  0000 C CNN
+F 2 "" H 9000 3200 50  0001 C CNN
+F 3 "" H 9000 3200 50  0001 C CNN
+	1    9000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60A9FEF9
+P 9600 3200
+F 0 "#PWR?" H 9600 3050 50  0001 C CNN
+F 1 "+5V" H 9600 3373 50  0000 C CNN
+F 2 "" H 9600 3200 50  0001 C CNN
+F 3 "" H 9600 3200 50  0001 C CNN
+	1    9600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60AA0A89
+P 10250 3200
+F 0 "#PWR?" H 10250 3050 50  0001 C CNN
+F 1 "+5V" H 10250 3373 50  0000 C CNN
+F 2 "" H 10250 3200 50  0001 C CNN
+F 3 "" H 10250 3200 50  0001 C CNN
+	1    10250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+5V #PWR?
+U 1 1 60ACEF52
+P 8400 3200
+F 0 "#PWR?" H 8400 3050 50  0001 C CNN
+F 1 "+5V" H 8400 3373 50  0000 C CNN
+F 2 "" H 8400 3200 50  0001 C CNN
+F 3 "" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 8350 3800 0    50   ~ 0
+Capacitors to be placed near serial LEDs on PCB
+$EndSCHEMATC
