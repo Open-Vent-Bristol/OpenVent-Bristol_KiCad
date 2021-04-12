@@ -1663,11 +1663,11 @@ F 3 "" H 9200 1450 50  0001 C CNN
 	1    9200 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 2650 0    50   Input ~ 0
+Text GLabel 5450 2700 0    50   Input ~ 0
 PB_SEL
-Text GLabel 7750 2850 2    50   Output ~ 0
+Text GLabel 7650 2800 2    50   Output ~ 0
 PB_SEL_MCU
-Text GLabel 6750 2100 0    50   Output ~ 0
+Text GLabel 7650 2600 2    50   Output ~ 0
 PB_SEL_FPGA
 $Comp
 L OpenVent:BB-HRGB32M-TRB-C D4
@@ -1900,101 +1900,53 @@ Wire Wire Line
 $Comp
 L OpenVent:+3V3-ALWAYS-ON #PWR?
 U 1 1 607599E9
-P 7600 2050
-F 0 "#PWR?" H 7600 1950 50  0001 C CNN
-F 1 "+3V3-ALWAYS-ON" H 7600 2223 50  0000 C CNN
-F 2 "" H 7600 2050 50  0001 C CNN
-F 3 "" H 7600 2050 50  0001 C CNN
-	1    7600 2050
+P 7000 2150
+F 0 "#PWR?" H 7000 2050 50  0001 C CNN
+F 1 "+3V3-ALWAYS-ON" H 7000 2323 50  0000 C CNN
+F 2 "" H 7000 2150 50  0001 C CNN
+F 3 "" H 7000 2150 50  0001 C CNN
+	1    7000 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 2750 6950 2750
 $Comp
 L OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 607725C7
-P 7200 2950
-F 0 "R?" H 7300 3057 50  0000 C CNN
-F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 7200 2950 50  0001 C CNN
-F 2 "" H 7200 2950 50  0001 C CNN
-F 3 "" H 7200 2950 50  0001 C CNN
-F 4 "47k" H 7300 2966 50  0000 C CNN "Val"
-F 5 "1%" H 7200 2950 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7200 2950 50  0001 C CNN "Watt"
-	1    7200 2950
+P 7150 2900
+F 0 "R?" H 7250 3007 50  0000 C CNN
+F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 7150 2900 50  0001 C CNN
+F 2 "" H 7150 2900 50  0001 C CNN
+F 3 "" H 7150 2900 50  0001 C CNN
+F 4 "47k" H 7250 2916 50  0000 C CNN "Val"
+F 5 "1%" H 7150 2900 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7150 2900 50  0001 C CNN "Watt"
+	1    7150 2900
 	1    0    0    1   
 $EndComp
 $Comp
 L OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W R?
 U 1 1 60774C7C
-P 7150 2250
-F 0 "R?" V 7204 2220 50  0000 L CNN
-F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 7150 2250 50  0001 C CNN
-F 2 "" H 7150 2250 50  0001 C CNN
-F 3 "" H 7150 2250 50  0001 C CNN
-F 4 "47k" V 7295 2220 50  0000 L CNN "Val"
-F 5 "1%" H 7150 2250 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7150 2250 50  0001 C CNN "Watt"
-	1    7150 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6950 2850 7100 2850
-Wire Wire Line
-	6950 2650 7050 2650
-Wire Wire Line
-	7050 2650 7050 2550
-$Comp
-L OpenVent:SN74LVC2G14DBVR IC?
-U 1 1 60741737
-P 5950 2650
-F 0 "IC?" H 6450 2915 50  0000 C CNN
-F 1 "SN74LVC2G14DBVR" H 6450 2824 50  0000 C CNN
-F 2 "SOT95P280X145-6N" H 6800 2750 50  0001 L CNN
-F 3 "http://componentsearchengine.com/Datasheets/3/SN74LVC2G14DBVR.pdf" H 6800 2650 50  0001 L CNN
-F 4 "DUAL SCHMITT-TRIGGER INVERTER" H 6800 2550 50  0001 L CNN "Description"
-F 5 "1.45" H 6800 2450 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 6800 2350 50  0001 L CNN "Manufacturer_Name"
-F 7 "SN74LVC2G14DBVR" H 6800 2250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-SN74LVC2G14DBVR" H 6800 2150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G14DBVR/?qs=q2XTDbzbm6DXbZiJ8Yzjpw%3D%3D" H 6800 2050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "SN74LVC2G14DBVR" H 6800 1950 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/sn74lvc2g14dbvr/texas-instruments" H 6800 1850 50  0001 L CNN "Arrow Price/Stock"
-	1    5950 2650
+P 7150 2500
+F 0 "R?" V 7204 2470 50  0000 L CNN
+F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 7150 2500 50  0001 C CNN
+F 2 "" H 7150 2500 50  0001 C CNN
+F 3 "" H 7150 2500 50  0001 C CNN
+F 4 "47k" V 7295 2470 50  0000 L CNN "Val"
+F 5 "1%" H 7150 2500 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7150 2500 50  0001 C CNN "Watt"
+	1    7150 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 2750 5700 2750
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 60741EE3
-P 5700 2900
-F 0 "#PWR?" H 5700 2650 50  0001 C CNN
-F 1 "GND" H 5700 2750 50  0001 C CNN
-F 2 "" H 5700 2900 50  0001 C CNN
-F 3 "" H 5700 2900 50  0001 C CNN
-	1    5700 2900
+P 5500 2300
+F 0 "#PWR?" H 5500 2050 50  0001 C CNN
+F 1 "GND" H 5500 2150 50  0001 C CNN
+F 2 "" H 5500 2300 50  0001 C CNN
+F 3 "" H 5500 2300 50  0001 C CNN
+	1    5500 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 2850 5900 2850
-Wire Wire Line
-	5900 2850 5900 2650
-Connection ~ 5900 2650
-Wire Wire Line
-	5900 2650 5950 2650
-Wire Wire Line
-	5700 2750 5700 2900
-Wire Wire Line
-	5450 2650 5900 2650
-Wire Wire Line
-	7600 2050 7600 2750
-Wire Wire Line
-	7500 2850 7750 2850
-Wire Wire Line
-	7050 2150 7050 2100
-Wire Wire Line
-	7050 2100 6750 2100
 $Comp
 L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
 U 1 1 6123CE35
@@ -2358,4 +2310,52 @@ Wire Wire Line
 Connection ~ 7450 6150
 Wire Wire Line
 	7450 6150 7650 6150
+$Comp
+L OpenVent:SN74LVC2G14DBVR IC?
+U 1 1 607790C5
+P 5800 2550
+F 0 "IC?" H 6300 2925 50  0000 C CNN
+F 1 "SN74LVC2G14DBVR" H 6300 2834 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 6650 2650 50  0001 L CNN
+F 3 "http://componentsearchengine.com/Datasheets/3/SN74LVC2G14DBVR.pdf" H 6650 2500 50  0001 L CNN
+F 4 "DUAL SCHMITT-TRIGGER INVERTER" H 6650 2400 50  0001 L CNN "Description"
+F 5 "1.45" H 6650 2300 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6650 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "SN74LVC2G14DBVR" H 6650 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-SN74LVC2G14DBVR" H 6650 2050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G14DBVR/?qs=q2XTDbzbm6DXbZiJ8Yzjpw%3D%3D" H 6650 1950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SN74LVC2G14DBVR" H 6650 1850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/sn74lvc2g14dbvr/texas-instruments" H 6650 1750 50  0001 L CNN "Arrow Price/Stock"
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2600 7050 2600
+Wire Wire Line
+	7450 2600 7650 2600
+Wire Wire Line
+	7650 2800 7450 2800
+Wire Wire Line
+	7050 2800 6800 2800
+Wire Wire Line
+	6800 2400 7000 2400
+Wire Wire Line
+	7000 2400 7000 2150
+Wire Wire Line
+	5800 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2700
+Wire Wire Line
+	5700 2800 5800 2800
+Connection ~ 5700 2700
+Wire Wire Line
+	5700 2700 5700 2800
+Wire Wire Line
+	5800 2400 5800 2150
+Wire Wire Line
+	5800 2150 5500 2150
+Wire Wire Line
+	5500 2150 5500 2300
+Wire Wire Line
+	5450 2700 5700 2700
 $EndSCHEMATC
