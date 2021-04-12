@@ -2512,8 +2512,6 @@ F 3 "" H 9150 4650 50  0000 C CNN
 	1    9150 4650
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9250 5200 2    50   Input ~ 0
-3V3_I2C
 Text GLabel 7900 5200 0    50   Input ~ 0
 Reset_I2C
 $Comp
@@ -2532,4 +2530,6 @@ F 6 "0.1W" H 8450 4750 50  0001 C CNN "Watt"
 $EndComp
 Text Notes 7400 5500 0    80   ~ 16
 I2C Reset Circuit
+Text GLabel 9250 5200 2    50   Output ~ 0
+3V3_I2C
 $EndSCHEMATC
