@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -304,12 +304,12 @@ Wire Notes Line width 20 style solid
 Text Notes 1950 1850 0    120  ~ 24
 LFT DISP
 Wire Notes Line width 20 style solid
-	3400 2700 3400 3300
+	3400 2500 3400 3100
 Wire Notes Line width 20 style solid
-	2600 2700 2600 3300
+	2600 2500 2600 3100
 Wire Notes Line width 20 style solid
-	2600 3300 3400 3300
-Text Notes 2700 3100 0    120  ~ 24
+	2600 3100 3400 3100
+Text Notes 2700 2900 0    120  ~ 24
 KEYBD
 Text Notes 3250 1850 0    120  ~ 24
 RGT DISP
@@ -330,7 +330,7 @@ Wire Notes Line width 15 style solid
 Wire Notes Line width 12 style solid
 	5000 1750 7000 1750
 Wire Notes Line width 20 style solid
-	2600 2700 3400 2700
+	2600 2500 3400 2500
 Wire Notes Line width 12 style solid
 	8000 3650 8000 8250
 Text Notes 3400 4150 0    150  ~ 0
@@ -414,69 +414,69 @@ BUF
 Wire Notes Line width 20 style solid
 	12800 8150 12800 9150
 Wire Notes Line
-	4450 2200 4450 2100
+	4450 3050 4450 2950
 Wire Notes Line
-	4700 2200 4450 2200
+	4700 3050 4450 3050
 Wire Notes Line
-	4700 2100 4700 2200
+	4700 2950 4700 3050
 Wire Notes Line
-	4450 2100 4700 2100
+	4450 2950 4700 2950
 Wire Notes Line
-	4450 2000 4450 1900
+	4450 2850 4450 2750
 Wire Notes Line
-	4700 2000 4450 2000
+	4700 2850 4450 2850
 Wire Notes Line
-	4700 1900 4700 2000
+	4700 2750 4700 2850
 Wire Notes Line
-	4450 1900 4700 1900
+	4450 2750 4700 2750
 Wire Notes Line
-	4450 1800 4450 1700
+	4450 2650 4450 2550
 Wire Notes Line
-	4700 1800 4450 1800
+	4700 2650 4450 2650
 Wire Notes Line
-	4700 1700 4700 1800
+	4700 2550 4700 2650
 Wire Notes Line
-	4450 1700 4700 1700
+	4450 2550 4700 2550
 Wire Notes Line
-	4450 1600 4450 1500
+	4450 2450 4450 2350
 Wire Notes Line
-	4700 1600 4450 1600
+	4700 2450 4450 2450
 Wire Notes Line
-	4700 1500 4700 1600
+	4700 2350 4700 2450
 Wire Notes Line
-	4450 1500 4700 1500
+	4450 2350 4700 2350
 Wire Notes Line
-	4450 1400 4450 1300
+	4450 2250 4450 2150
 Wire Notes Line
-	4700 1400 4450 1400
+	4700 2250 4450 2250
 Wire Notes Line
-	4700 1300 4700 1400
+	4700 2150 4700 2250
 Wire Notes Line
-	4450 1300 4700 1300
+	4450 2150 4700 2150
 Wire Notes Line
-	4450 1200 4450 1100
+	4450 2050 4450 1950
 Wire Notes Line
-	4700 1200 4450 1200
+	4700 2050 4450 2050
 Wire Notes Line
-	4700 1100 4700 1200
+	4700 1950 4700 2050
 Wire Notes Line
-	4450 1100 4700 1100
+	4450 1950 4700 1950
 Wire Notes Line
-	4450 1000 4450 900 
+	4450 1850 4450 1750
 Wire Notes Line
-	4700 1000 4450 1000
+	4700 1850 4450 1850
 Wire Notes Line
-	4700 900  4700 1000
+	4700 1750 4700 1850
 Wire Notes Line
-	4450 900  4700 900 
+	4450 1750 4700 1750
 Wire Notes Line
-	4450 800  4450 700 
+	4450 1650 4450 1550
 Wire Notes Line
-	4700 800  4450 800 
+	4700 1650 4450 1650
 Wire Notes Line
-	4700 700  4700 800 
+	4700 1550 4700 1650
 Wire Notes Line
-	4450 700  4700 700 
+	4450 1550 4700 1550
 Wire Notes Line width 12 style solid
 	15500 8650 15750 8650
 Wire Notes Line width 12 style solid
@@ -748,7 +748,7 @@ F0 "Microcontroller" 150
 F1 "Microcontroller.sch" 150
 $EndSheet
 $Sheet
-S 1500 2500 3500 1350
+S 1450 1200 3550 2400
 U 5FCA4074
 F0 "UI" 150
 F1 "UI.sch" 150
@@ -788,12 +788,6 @@ S 1500 8000 3500 2800
 U 5F99D63D
 F0 "Power Supplies" 150
 F1 "Power_Supplies.sch" 150
-$EndSheet
-$Sheet
-S 1500 750  3500 1400
-U 6092237A
-F0 "UI - Visual" 50
-F1 "UI_visual.sch" 50
 $EndSheet
 Wire Notes Line width 12 style solid
 	3000 3100 3000 4200
