@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 9
+Sheet 1 8
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 7750 9600 0    150  ~ 30
 MCU
 Wire Notes Line style solid
-	2000 9750 2000 8250
+	2000 9500 2000 8250
 Text Notes 950  10400 0    150  ~ 0
 USB
 Wire Notes Line style solid
@@ -46,14 +46,14 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	2250 10300 2050 10300
 Wire Notes Line style solid
-	2900 9200 2900 9500
+	2150 9000 2150 9300
 Wire Notes Line style solid
-	4000 9200 4000 9500
+	3250 9000 3250 9300
 Wire Notes Line style solid
-	2900 9500 4000 9500
+	2150 9300 3250 9300
 Wire Notes Line style solid
-	2900 9200 4000 9200
-Text Notes 2950 9450 0    150  ~ 0
+	2150 9000 3250 9000
+Text Notes 2200 9250 0    150  ~ 0
 +5V
 Wire Notes Line style solid
 	3200 8100 3200 8400
@@ -66,14 +66,14 @@ Wire Notes Line style solid
 Text Notes 3250 8350 0    150  ~ 0
 +5V_Sensor
 Wire Notes Line style solid
-	2900 9600 2900 9900
+	2150 9350 2150 9650
 Wire Notes Line style solid
-	3600 9600 3600 9900
+	2850 9350 2850 9650
 Wire Notes Line style solid
-	2900 9900 3600 9900
+	2150 9650 2850 9650
 Wire Notes Line style solid
-	2900 9600 3600 9600
-Text Notes 2950 9850 0    150  ~ 0
+	2150 9350 2850 9350
+Text Notes 2200 9600 0    150  ~ 0
 3V3
 Wire Notes Line style solid
 	1950 10550 2400 10550
@@ -88,11 +88,11 @@ Text Notes 2450 10650 0    150  ~ 0
 Text Notes 950  10900 0    150  ~ 0
 +5V
 Wire Notes Line style solid
-	5250 9350 4000 9350
+	5250 9150 3250 9150
 Wire Notes Line style solid
 	5250 8250 4600 8250
 Wire Notes Line style solid
-	5250 9750 3600 9750
+	5250 9500 2850 9500
 Wire Notes Line style solid
 	5250 10550 4550 10550
 Wire Notes Line style solid
@@ -100,11 +100,9 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	3000 8250 3200 8250
 Wire Notes Line style solid
-	2000 9750 2900 9750
+	2000 9500 2150 9500
 Wire Notes Line width 12 style solid
 	10000 10750 10000 11000
-Text Notes 10050 11100 0    120  ~ 24
-SWD
 Wire Notes Line width 12 style solid
 	9900 10750 10000 10650
 Wire Notes Line width 12 style solid
@@ -121,52 +119,52 @@ Text Notes 10700 11100 0    120  ~ 24
 UART
 Wire Notes Line width 12 style solid
 	10650 9750 10650 10650
-Text Notes 15550 4350 0    150  ~ 0
+Text Notes 15450 1200 0    150  ~ 0
 O2
 Wire Notes Line width 12 style solid
-	14000 4500 15650 4500
+	14000 1350 15550 1350
 Wire Notes Line width 15 style solid
-	13750 4500 14000 4650
+	13750 1350 14000 1500
 Wire Notes Line width 15 style solid
-	14000 4350 13750 4500
+	14000 1200 13750 1350
 Wire Notes Line width 15 style solid
-	14000 4350 14000 4650
-Text Notes 13500 4650 0    100  ~ 0
+	14000 1200 14000 1500
+Text Notes 13500 1500 0    100  ~ 0
 50x
 Wire Notes Line width 12 style solid
-	13250 4500 13750 4500
+	12500 1350 13750 1350
 Wire Notes Line width 12 style solid
-	13200 4800 13300 4950
+	13200 1650 13300 1800
 Wire Notes Line width 12 style solid
-	13300 4950 13400 4950
+	13300 1800 13400 1800
 Wire Notes Line width 12 style solid
-	13100 4800 13200 4800
+	13100 1650 13200 1650
 Wire Notes Line width 12 style solid
-	12800 5000 13500 5000
+	12500 1850 13500 1850
 Wire Notes Line width 12 style solid
-	14000 5500 14000 5000
+	14000 2350 14000 1850
 Wire Notes Line width 12 style solid
-	12000 9500 9000 9500
-Text Notes 9900 9450 0    120  ~ 24
+	12000 9250 9000 9250
+Text Notes 9900 9200 0    120  ~ 24
 JTAG
 Wire Notes Line width 20 style solid
-	14000 8150 14000 9150
+	14000 8050 14000 9050
 Wire Notes Line width 20 style solid
-	12800 8150 14000 8150
-Text Notes 13150 8850 0    150  ~ 30
+	12800 8050 14000 8050
+Text Notes 13150 8750 0    150  ~ 30
 FTDI\nJTAG
 Wire Notes Line width 20 style solid
-	12800 9150 14000 9150
-Text Notes 14800 8550 0    120  ~ 24
+	12800 9050 14000 9050
+Text Notes 14800 8400 0    120  ~ 24
 USB-JTAG
 Wire Notes Line width 12 style solid
-	14000 8650 15400 8650
+	14000 8550 15400 8550
 Wire Notes Line width 12 style solid
-	12000 8650 12800 8650
+	12000 8550 12800 8550
 Wire Notes Line width 12 style solid
-	12000 8350 12000 8950
+	12000 8250 12000 8850
 Wire Notes Line width 12 style solid
-	12000 7600 12000 8100
+	12000 7700 12000 8000
 Wire Notes Line width 20 style solid
 	7000 1250 7000 3250
 Wire Notes Line width 20 style solid
@@ -176,7 +174,7 @@ Wire Notes Line width 20 style solid
 Text Notes 7750 2300 0    150  ~ 30
 FPGA
 Wire Notes Line width 12 style solid
-	8750 3250 8750 7600
+	8250 3250 8250 7700
 Wire Notes Line width 12 style solid
 	10000 10250 9000 10250
 Wire Notes Line width 20 style solid
@@ -184,75 +182,73 @@ Wire Notes Line width 20 style solid
 Wire Notes Line width 20 style solid
 	7000 3250 9000 3250
 Wire Notes Line width 15 style solid
-	8300 8250 8300 8500
+	8050 8250 8050 8500
 Wire Notes Line width 15 style solid
-	7700 8250 8300 8250
+	7450 8250 8050 8250
 Wire Notes Line width 15 style solid
-	7700 8250 7700 8500
+	7450 8250 7450 8500
 Wire Notes Line width 15 style solid
-	7700 8500 8300 8500
-Text Notes 7850 8450 0    100  ~ 20
+	7450 8500 8050 8500
+Text Notes 7600 8450 0    100  ~ 20
 BUF
-Wire Notes Line width 12 style solid
-	8000 3250 8000 3400
 Wire Notes Line width 15 style solid
-	11150 8500 11350 8500
+	11150 8400 11350 8400
 Wire Notes Line width 15 style solid
-	11150 8500 11150 8800
+	11150 8400 11150 8700
 Wire Notes Line width 15 style solid
-	11350 8500 11350 8800
+	11350 8400 11350 8700
 Wire Notes Line width 15 style solid
-	11150 8800 11350 8800
+	11150 8700 11350 8700
 Wire Notes Line width 12 style solid
-	11250 8250 11250 8500
+	11250 8150 11250 8400
 Wire Notes Line width 12 style solid
-	11700 8250 11250 8250
+	11700 8150 11250 8150
 Wire Notes Line width 12 style solid
-	11250 8800 11250 9050
-Text Notes 11350 8850 0    120  ~ 24
+	11250 8700 11250 8950
+Text Notes 11350 8750 0    120  ~ 24
 Sel\nJMPR
 Wire Notes Line style solid
-	2000 9350 2900 9350
+	2000 9150 2150 9150
 Wire Notes Line style solid
 	2250 10400 2050 10400
 Wire Notes Line style solid
-	3200 8700 3200 9000
+	3200 8600 3200 8900
 Wire Notes Line style solid
-	4600 8700 4600 9000
+	4600 8600 4600 8900
 Wire Notes Line style solid
-	3200 9000 4600 9000
+	3200 8900 4600 8900
 Wire Notes Line style solid
-	3200 8700 4600 8700
-Text Notes 3250 8950 0    150  ~ 0
+	3200 8600 4600 8600
+Text Notes 3250 8850 0    150  ~ 0
 3V3_Sensor
 Wire Notes Line style solid
-	5250 8850 4600 8850
+	5250 8750 4600 8750
 Wire Notes Line style solid
-	3050 8850 3200 8850
+	3050 8750 3200 8750
 Wire Notes Line style solid
-	4750 8250 4750 8550
+	4750 8250 4750 8500
 Wire Notes Line style solid
-	4100 10000 4100 10300
+	4100 9650 4100 9950
 Wire Notes Line style solid
-	4850 10000 4850 10300
+	4850 9650 4850 9950
 Wire Notes Line style solid
-	4100 10300 4850 10300
+	4100 9950 4850 9950
 Wire Notes Line style solid
-	4100 10000 4850 10000
-Text Notes 4250 10250 0    150  ~ 0
+	4100 9650 4850 9650
+Text Notes 4250 9900 0    150  ~ 0
 1V2
 Wire Notes Line style solid
-	5250 10150 4850 10150
+	5250 9800 4850 9800
 Wire Notes Line style solid
-	3850 10150 4100 10150
+	3850 9800 4100 9800
 Wire Notes Line style solid
 	2150 10400 2150 10550
 Wire Notes Line style solid
-	3850 9750 3850 10150
+	3850 9500 3850 9800
 Wire Notes Line style solid
-	3050 8550 3050 8850
+	3050 8500 3050 8750
 Wire Notes Line style solid
-	3050 8550 4750 8550
+	3050 8500 4750 8500
 Wire Notes Line style solid
 	2150 8100 2150 8400
 Wire Notes Line style solid
@@ -331,12 +327,10 @@ Wire Notes Line width 12 style solid
 	5000 1750 7000 1750
 Wire Notes Line width 20 style solid
 	2600 2500 3400 2500
-Wire Notes Line width 12 style solid
-	8000 3650 8000 8250
 Text Notes 3400 4150 0    150  ~ 0
 PB_Select
 Wire Notes Line width 12 style solid
-	12000 7600 8750 7600
+	12000 7700 8250 7700
 Wire Notes Line width 20 style solid
 	7000 8750 7000 10500
 Wire Notes Line width 12 style solid
@@ -345,22 +339,20 @@ Wire Notes Line width 20 style solid
 	7000 8750 9000 8750
 Wire Notes Line width 20 style solid
 	9000 8750 9000 10500
-Wire Notes Line width 12 style solid
-	8000 8500 8000 8750
 Wire Notes Line width 15 style solid
-	8300 3400 8300 3650
+	8050 3450 8050 3700
 Wire Notes Line width 15 style solid
-	7700 3400 8300 3400
+	7450 3450 8050 3450
 Wire Notes Line width 15 style solid
-	7700 3400 7700 3650
+	7450 3450 7450 3700
 Wire Notes Line width 15 style solid
-	7700 3650 8300 3650
-Text Notes 7850 3600 0    100  ~ 20
+	7450 3700 8050 3700
+Text Notes 7600 3650 0    100  ~ 20
 BUF
 Wire Notes Line width 12 style solid
-	11700 9050 11250 9050
+	11700 8950 11250 8950
 Wire Notes Line width 12 style solid
-	12000 9200 12000 9500
+	12000 9100 12000 9250
 Text Notes 6050 10350 0    120  ~ 24
 USB
 Wire Notes Line width 12 style solid
@@ -372,15 +364,15 @@ Wire Notes Line width 12 style solid
 Wire Notes Line width 12 style solid
 	6750 10000 7000 10000
 Wire Notes Line width 15 style solid
-	12300 8950 12300 9200
+	12300 8850 12300 9100
 Wire Notes Line width 15 style solid
-	11700 8950 12300 8950
+	11700 8850 12300 8850
 Wire Notes Line width 15 style solid
-	11700 8950 11700 9200
+	11700 8850 11700 9100
 Wire Notes Line width 15 style solid
-	11700 9200 12300 9200
+	11700 9100 12300 9100
 Wire Notes Line width 12 style solid
-	3000 4200 8000 4200
+	3000 4200 7750 4200
 Wire Notes Line width 20 style solid
 	4200 1500 4200 2100
 Wire Notes Line width 20 style solid
@@ -400,19 +392,19 @@ Wire Notes Line width 12 style solid
 Wire Notes Line width 12 style solid
 	10750 10850 10650 10750
 Wire Notes Line width 15 style solid
-	12300 8100 12300 8350
+	12300 8000 12300 8250
 Wire Notes Line width 15 style solid
-	11700 8350 12300 8350
+	11700 8250 12300 8250
 Wire Notes Line width 15 style solid
-	11700 8100 12300 8100
+	11700 8000 12300 8000
 Wire Notes Line width 15 style solid
-	11700 8100 11700 8350
-Text Notes 11850 9150 0    100  ~ 20
+	11700 8000 11700 8250
+Text Notes 11850 9050 0    100  ~ 20
 BUF
-Text Notes 11850 8300 0    100  ~ 20
+Text Notes 11850 8200 0    100  ~ 20
 BUF
 Wire Notes Line width 20 style solid
-	12800 8150 12800 9150
+	12800 8050 12800 9050
 Wire Notes Line
 	4450 3050 4450 2950
 Wire Notes Line
@@ -478,201 +470,191 @@ Wire Notes Line
 Wire Notes Line
 	4450 1550 4700 1550
 Wire Notes Line width 12 style solid
-	15500 8650 15750 8650
+	15500 8550 15750 8550
 Wire Notes Line width 12 style solid
-	15500 8750 15400 8650
+	15500 8650 15400 8550
 Wire Notes Line width 12 style solid
-	15600 8750 15500 8650
+	15600 8650 15500 8550
 Wire Notes Line width 12 style solid
-	15500 8550 15400 8650
+	15500 8450 15400 8550
 Wire Notes Line width 12 style solid
-	15600 8550 15500 8650
+	15600 8450 15500 8550
 Wire Notes Line width 12 style solid
-	15750 4500 16000 4500
+	15650 1350 15900 1350
 Wire Notes Line width 12 style solid
-	15750 4600 15650 4500
+	15650 1450 15550 1350
 Wire Notes Line width 12 style solid
-	15850 4600 15750 4500
+	15750 1450 15650 1350
 Wire Notes Line width 12 style solid
-	15750 4400 15650 4500
+	15650 1250 15550 1350
 Wire Notes Line width 12 style solid
-	15850 4400 15750 4500
-Text Notes 13250 4900 0    100  ~ 0
+	15750 1250 15650 1350
+Text Notes 13250 1750 0    100  ~ 0
 fo
 Wire Notes Line width 12 style solid
-	13450 4300 13550 4450
+	13450 1150 13550 1300
 Wire Notes Line width 12 style solid
-	13550 4450 13650 4450
+	13550 1300 13650 1300
 Wire Notes Line width 12 style solid
-	13350 4300 13450 4300
-Text Notes 13500 4400 0    100  ~ 0
+	13350 1150 13450 1150
+Text Notes 13500 1250 0    100  ~ 0
 fo
-Text Notes 13150 5200 0    100  ~ 0
+Text Notes 13150 2050 0    100  ~ 0
 4.65x
 Wire Notes Line width 12 style solid
-	14000 6250 14000 6050
+	14000 3100 14000 2900
 Wire Notes Line width 12 style solid
-	14000 6150 14200 6150
+	14000 3000 14200 3000
 Wire Notes Line width 12 style solid
-	13950 6250 13950 6050
+	13950 3100 13950 2900
 Wire Notes Line width 12 style solid
-	13750 6150 13950 6150
+	13750 3000 13950 3000
 Wire Notes Line width 12 style solid
-	14150 6200 14250 6200
+	14150 3050 14250 3050
 Wire Notes Line width 12 style solid
-	14200 6250 14250 6200
+	14200 3100 14250 3050
 Wire Notes Line width 12 style solid
-	14200 6250 14150 6200
+	14200 3100 14150 3050
 Wire Notes Line width 12 style solid
-	14200 6200 14200 6150
+	14200 3050 14200 3000
 Wire Notes Line width 12 style solid
-	13750 6150 13750 6000
+	13750 3000 13750 2850
 Wire Notes Line width 12 style solid
-	14000 6750 14000 6550
+	14000 3600 14000 3400
 Wire Notes Line width 12 style solid
-	14000 6650 14200 6650
+	14000 3500 14200 3500
 Wire Notes Line width 12 style solid
-	13950 6750 13950 6550
+	13950 3600 13950 3400
 Wire Notes Line width 12 style solid
-	13750 6650 13950 6650
+	13750 3500 13950 3500
 Wire Notes Line width 12 style solid
-	14150 6700 14250 6700
+	14150 3550 14250 3550
 Wire Notes Line width 12 style solid
-	14200 6750 14250 6700
+	14200 3600 14250 3550
 Wire Notes Line width 12 style solid
-	14200 6750 14150 6700
+	14200 3600 14150 3550
 Wire Notes Line width 12 style solid
-	14200 6700 14200 6650
+	14200 3550 14200 3500
 Wire Notes Line width 12 style solid
-	13750 6650 13750 6500
+	13750 3500 13750 3350
 Wire Notes Line width 12 style solid
 	9000 2000 11000 2000
 Wire Notes Line width 12 style solid
 	9000 2500 11000 2500
 Wire Notes Line width 20 style solid
-	11000 1500 11000 3000
-Wire Notes Line width 12 style solid
-	13250 3000 13250 4500
+	11000 1250 11000 3450
 Wire Notes Line width 20 style solid
-	13500 1500 13500 3000
+	12500 1250 12500 3450
 Wire Notes Line width 20 style solid
-	11000 3000 13500 3000
+	11000 3450 12500 3450
 Wire Notes Line width 20 style solid
-	11000 1500 13500 1500
-Wire Notes Line width 12 style solid
-	12800 3000 12800 5000
+	11000 1250 12500 1250
 Wire Notes Line width 15 style solid
-	13500 5000 13750 5150
+	13500 1850 13750 2000
 Wire Notes Line width 15 style solid
-	13750 4850 13500 5000
+	13750 1700 13500 1850
 Wire Notes Line width 15 style solid
-	13750 4850 13750 5150
-Text Notes 11850 2550 0    150  ~ 30
+	13750 1700 13750 2000
+Text Notes 11400 2750 0    150  ~ 30
 Analog\n  to\nDigital
-Wire Notes Line width 12 style solid
-	11250 3000 11250 6500
-Wire Notes Line width 12 style solid
-	11750 3000 11750 6000
-Wire Notes Line width 12 style solid
-	12250 3000 12250 5500
 Wire Notes Line width 15 style solid
-	15250 4850 15250 5150
+	15150 1700 15150 2000
 Wire Notes Line width 15 style solid
-	14400 5150 15250 5150
+	14300 2000 15150 2000
 Wire Notes Line width 15 style solid
-	14400 4850 15250 4850
-Text Notes 14450 5050 0    100  ~ 20
+	14300 1700 15150 1700
+Text Notes 14350 1900 0    100  ~ 20
 Diff Press
 Wire Notes Line width 15 style solid
-	14400 4850 14400 5150
+	14300 1700 14300 2000
 Wire Notes Line width 12 style solid
-	13750 5000 14400 5000
+	13750 1850 14300 1850
 Wire Notes Line width 12 style solid
-	12250 5500 14000 5500
+	12500 2350 14000 2350
 Wire Notes Line width 12 style solid
-	14000 5750 14000 5550
+	14000 2600 14000 2400
 Wire Notes Line width 12 style solid
-	14000 5650 14200 5650
+	14000 2500 14200 2500
 Wire Notes Line width 12 style solid
-	13950 5750 13950 5550
+	13950 2600 13950 2400
 Wire Notes Line width 12 style solid
-	13750 5650 13950 5650
+	13750 2500 13950 2500
 Wire Notes Line width 12 style solid
-	14150 5700 14250 5700
+	14150 2550 14250 2550
 Wire Notes Line width 12 style solid
-	14200 5750 14250 5700
+	14200 2600 14250 2550
 Wire Notes Line width 12 style solid
-	14200 5750 14150 5700
+	14200 2600 14150 2550
 Wire Notes Line width 12 style solid
-	14200 5700 14200 5650
+	14200 2550 14200 2500
 Wire Notes Line width 12 style solid
-	13750 5650 13750 5500
+	13750 2500 13750 2350
 Wire Notes Line width 12 style solid
-	14500 4750 14500 4550
+	14500 1600 14500 1400
 Wire Notes Line width 12 style solid
-	14500 4650 14700 4650
+	14500 1500 14700 1500
 Wire Notes Line width 12 style solid
-	14450 4750 14450 4550
+	14450 1600 14450 1400
 Wire Notes Line width 12 style solid
-	14250 4650 14450 4650
+	14250 1500 14450 1500
 Wire Notes Line width 12 style solid
-	14650 4700 14750 4700
+	14650 1550 14750 1550
 Wire Notes Line width 12 style solid
-	14700 4750 14750 4700
+	14700 1600 14750 1550
 Wire Notes Line width 12 style solid
-	14700 4750 14650 4700
+	14700 1600 14650 1550
 Wire Notes Line width 12 style solid
-	14700 4700 14700 4650
+	14700 1550 14700 1500
 Wire Notes Line width 12 style solid
-	14250 4650 14250 4500
+	14250 1500 14250 1350
 Wire Notes Line width 15 style solid
-	15250 6350 15250 6650
+	15150 3200 15150 3500
 Wire Notes Line width 15 style solid
-	14400 6650 15250 6650
+	14300 3500 15150 3500
 Wire Notes Line width 15 style solid
-	14400 6350 15250 6350
-Text Notes 14450 6550 0    100  ~ 20
+	14300 3200 15150 3200
+Text Notes 14350 3400 0    100  ~ 20
 Pat Press
 Wire Notes Line width 15 style solid
-	14400 6350 14400 6650
+	14300 3200 14300 3500
 Wire Notes Line width 12 style solid
-	11250 6500 14400 6500
+	12500 3350 14300 3350
 Wire Notes Line width 15 style solid
-	15250 5850 15250 6150
+	15150 2700 15150 3000
 Wire Notes Line width 15 style solid
-	14400 6150 15250 6150
+	14300 3000 15150 3000
 Wire Notes Line width 15 style solid
-	14400 5850 15250 5850
-Text Notes 14400 6050 0    100  ~ 20
+	14300 2700 15150 2700
+Text Notes 14300 2900 0    100  ~ 20
 Flow Press
 Wire Notes Line width 15 style solid
-	14400 5850 14400 6150
+	14300 2700 14300 3000
 Wire Notes Line width 12 style solid
-	11750 6000 14400 6000
+	12500 2850 14300 2850
 Wire Notes Line style solid
 	5250 10550 5150 10650
 Wire Notes Line style solid
 	5150 10450 5250 10550
 Wire Notes Line style solid
-	5250 10150 5150 10250
+	5250 9800 5150 9900
 Wire Notes Line style solid
-	5150 10050 5250 10150
+	5150 9700 5250 9800
 Wire Notes Line style solid
-	5250 9750 5150 9850
+	5250 9500 5150 9600
 Wire Notes Line style solid
-	5150 9650 5250 9750
+	5150 9400 5250 9500
 Wire Notes Line style solid
 	5250 8250 5150 8350
 Wire Notes Line style solid
 	5150 8150 5250 8250
 Wire Notes Line style solid
-	5250 8850 5150 8950
+	5250 8750 5150 8850
 Wire Notes Line style solid
-	5150 8750 5250 8850
+	5150 8650 5250 8750
 Wire Notes Line style solid
-	5250 9350 5150 9450
+	5250 9150 5150 9250
 Wire Notes Line style solid
-	5150 9250 5250 9350
+	5150 9050 5250 9150
 Text Notes 3900 3450 0    150  ~ 30
 UI
 Wire Notes Line width 15 style solid
@@ -760,19 +742,13 @@ F0 "FPGA" 150
 F1 "FPGA.sch" 150
 $EndSheet
 $Sheet
-S 10000 1000 4500 2500
-U 601B7AF8
-F0 "AD CONVERTERS" 150
-F1 "AD_conv.sch" 150
-$EndSheet
-$Sheet
-S 11000 4000 4350 2850
+S 10500 1000 4800 3000
 U 5F8F3873
 F0 "Sensors" 150
 F1 "Sensors.sch" 150
 $EndSheet
 $Sheet
-S 11000 7500 3500 2100
+S 11000 7500 3500 2150
 U 5F8F8987
 F0 "JTAG" 150
 F1 "JTAG.sch" 150
@@ -786,9 +762,37 @@ $EndSheet
 $Sheet
 S 1500 8000 3500 2800
 U 5F99D63D
-F0 "Power Supplies" 150
+F0 "Power_Supplies" 150
 F1 "Power_Supplies.sch" 150
 $EndSheet
 Wire Notes Line width 12 style solid
 	3000 3100 3000 4200
+Wire Notes Line width 12 style solid
+	8800 3700 15550 3700
+Wire Notes Line width 12 style solid
+	8800 3250 8800 3700
+Text Notes 15500 3550 0    150  ~ 0
+Flow
+Wire Notes Line width 12 style solid
+	15650 3700 15900 3700
+Wire Notes Line width 12 style solid
+	15650 3800 15550 3700
+Wire Notes Line width 12 style solid
+	15750 3800 15650 3700
+Wire Notes Line width 12 style solid
+	15650 3600 15550 3700
+Wire Notes Line width 12 style solid
+	15750 3600 15650 3700
+Wire Notes Line width 12 style solid
+	7750 3700 7750 8250
+Wire Notes Line width 12 style solid
+	7750 3250 7750 3450
+Wire Notes Line width 12 style solid
+	7750 8500 7750 8750
+Wire Notes Line width 12 style solid
+	13000 9500 9000 9500
+Wire Notes Line width 12 style solid
+	13000 9050 13000 9500
+Text Notes 12300 9450 0    120  ~ 24
+nRST
 $EndSCHEMATC

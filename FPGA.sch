@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 8
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10650 5875 0    50   Output ~ 0
-nPRESSURE-PATIENT-ALERT
-Text GLabel 7350 5000 0    50   Output ~ 0
-Sounder_DRV
 $Comp
 L OpenVent:3V3 #PWR034
 U 1 1 5FD203F5
@@ -41,45 +37,43 @@ F 3 "" H 5850 7050 50  0001 C CNN
 $EndComp
 Text Notes 4775 7125 0    50   ~ 0
 33.554432 MHz
-Text Label 6800 2900 2    50   ~ 0
-ADC_DRDY
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
 U 1 1 5FD4D09C
-P 5950 2550
-F 0 "R19" H 6050 2243 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5950 2550 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 2550 50  0001 C CNN
-F 3 "" H 5950 2550 50  0001 C CNN
-F 4 "2k4" H 6050 2334 50  0000 C CNN "Val"
-F 5 "1%" H 5950 2550 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 5950 2550 50  0001 C CNN "Watt"
-	1    5950 2550
+P 5800 2550
+F 0 "R19" H 5900 2243 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5800 2550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+F 4 "2k4" H 5900 2334 50  0000 C CNN "Val"
+F 5 "1%" H 5800 2550 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5800 2550 50  0001 C CNN "Watt"
+	1    5800 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R20
 U 1 1 5FD4E271
-P 6550 2500
-F 0 "R20" H 6650 2500 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6550 2500 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 2500 50  0001 C CNN
-F 3 "" H 6550 2500 50  0001 C CNN
-F 4 "2k4" H 6650 2575 50  0000 C CNN "Val"
-F 5 "1%" H 6550 2500 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6550 2500 50  0001 C CNN "Watt"
-	1    6550 2500
+P 6400 2500
+F 0 "R20" H 6500 2500 50  0000 C CNN
+F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6400 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 2500 50  0001 C CNN
+F 3 "" H 6400 2500 50  0001 C CNN
+F 4 "2k4" H 6500 2575 50  0000 C CNN "Val"
+F 5 "1%" H 6400 2500 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6400 2500 50  0001 C CNN "Watt"
+	1    6400 2500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L OpenVent:3V3 #PWR031
 U 1 1 5FD519F4
-P 6050 2250
-F 0 "#PWR031" H 6050 2100 50  0001 C CNN
-F 1 "3V3" H 6050 2423 50  0000 C CNN
-F 2 "" H 6050 2250 50  0001 C CNN
-F 3 "" H 6050 2250 50  0001 C CNN
-	1    6050 2250
+P 5900 2250
+F 0 "#PWR031" H 5900 2100 50  0001 C CNN
+F 1 "3V3" H 5900 2423 50  0000 C CNN
+F 2 "" H 5900 2250 50  0001 C CNN
+F 3 "" H 5900 2250 50  0001 C CNN
+	1    5900 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -109,48 +103,38 @@ F 3 "" H 4100 6700 50  0001 C CNN
 $EndComp
 Text Notes 9750 4150 0    50   ~ 0
 2 x NHD-0216K1Z-FL-YBW
-Text GLabel 7950 6150 2    60   Output ~ 0
-PRESSURE-SENSOR-VENT
-Text GLabel 10600 6375 0    50   Input ~ 0
-FLOW-SENSOR
-Text GLabel 10675 6075 0    50   Input ~ 0
-OXYGEN-SENSOR
-Text GLabel 10675 6200 0    50   Input ~ 0
-FLOW-SENSOR-GAIN
-Text GLabel 7950 5950 2    60   Output ~ 0
-SENSIRON-FLOW-SENSOR
-Text GLabel 7350 4500 0    50   Input ~ 0
+Text GLabel 2100 4750 0    50   Input ~ 0
 PB_PLUS
-Text GLabel 7350 4600 0    50   Input ~ 0
+Text GLabel 4100 4650 2    50   Input ~ 0
 PB_MINUS
-Text GLabel 7350 4700 0    50   Input ~ 0
+Text GLabel 7350 5100 0    50   Input ~ 0
 PB_SEL_FPGA
 Text GLabel 9300 1400 2    50   Output ~ 0
 Vref_DRV
 Text GLabel 9300 1500 2    50   Output ~ 0
-FB_DRV_PRESSURE-SENSOR-VENT
+DRV_PRES_SENS_VENT
 Text GLabel 9300 1600 2    50   Output ~ 0
-FB_DRV_PRESSURE-SENSOR-PATIENT
+DRV_PRES_SENS_PAT
 Text GLabel 9300 1700 2    50   Output ~ 0
-FB_DRV_FLOW-SENSOR
+DRV_FLOW_SENS
 Text GLabel 9300 1800 2    50   Output ~ 0
-FB_DRV_FLOW-SENSOR-GAIN
+DRV_FLOW_SENS_GAIN
 Text GLabel 9300 1900 2    50   Output ~ 0
-FB_DRV_OXYGEN-SENSOR
+DRV_O2_SENS
 Text GLabel 9300 2000 2    50   Output ~ 0
-FBF_DRV
+F_DRV
 Text GLabel 1800 3450 0    50   Input ~ 0
 AD_VREF
 Text GLabel 1800 3850 0    50   Input ~ 0
-Vcap_PRES-SENS-VENT
+Vcap_PRES_SENS_VENT
 Text GLabel 1800 4050 0    50   Input ~ 0
-Vcap_PRES-SENS-PAT
+Vcap_PRES_SENS_PAT
 Text GLabel 1800 4250 0    50   Input ~ 0
-Vcap_FLOW_SEN
+Vcap_FLOW_SENS_DRCT
 Text GLabel 1800 4450 0    50   Input ~ 0
-Vcap_FLOW-SENSOR-GAIN
+Vcap_FLOW_SENS_GAIN
 Text GLabel 1800 3650 0    50   Input ~ 0
-Vcap_OXY
+Vcap_O2_SENS
 Text GLabel 9950 4600 2    50   Output ~ 0
 LCD_RS
 Text GLabel 9950 4500 2    50   Output ~ 0
@@ -175,21 +159,21 @@ Text GLabel 9950 5300 2    50   BiDi ~ 0
 LCD_DB6
 Text Notes 5500 3300 0    50   ~ 0
 CHECK I2C PULL-UP RESISTOR\nVALUES ONCE WHOLE I2C CIRCUIT\nIS CONFIRMED (2.4K TOO STIFF, 4.75K\nIS ENOUGH)
-Text GLabel 6575 2600 0    50   Output ~ 0
+Text GLabel 6425 2600 0    50   Output ~ 0
 I2C_SCL
-Text GLabel 5950 2700 0    50   BiDi ~ 0
+Text GLabel 5800 2700 0    50   BiDi ~ 0
 I2C_SDA
 Wire Wire Line
-	6575 2600 6650 2600
+	6425 2600 6500 2600
 $Comp
 L OpenVent:3V3 #PWR066
 U 1 1 602573F8
-P 6650 2200
-F 0 "#PWR066" H 6650 2050 50  0001 C CNN
-F 1 "3V3" H 6650 2373 50  0000 C CNN
-F 2 "" H 6650 2200 50  0001 C CNN
-F 3 "" H 6650 2200 50  0001 C CNN
-	1    6650 2200
+P 6500 2200
+F 0 "#PWR066" H 6500 2050 50  0001 C CNN
+F 1 "3V3" H 6500 2373 50  0000 C CNN
+F 2 "" H 6500 2200 50  0001 C CNN
+F 3 "" H 6500 2200 50  0001 C CNN
+	1    6500 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -214,8 +198,6 @@ Wire Wire Line
 	9700 5300 9950 5300
 Wire Wire Line
 	9950 5400 9700 5400
-Wire Wire Line
-	7550 5000 7350 5000
 Wire Wire Line
 	7350 4900 7550 4900
 $Comp
@@ -282,9 +264,9 @@ Wire Wire Line
 	1800 4450 2250 4450
 Wire Wire Line
 	1800 3650 2250 3650
-Text Notes 2350 3000 0    50   ~ 0
+Text Notes 2000 5000 0    75   ~ 15
 SIGMA DELTA A/D CONVERTER INPUTS
-Connection ~ 6650 2600
+Connection ~ 6500 2600
 Wire Wire Line
 	9050 1400 9300 1400
 Wire Wire Line
@@ -298,13 +280,11 @@ Wire Wire Line
 Wire Wire Line
 	9050 1900 9300 1900
 Wire Wire Line
-	9300 2000 9050 2000
+	9300 2100 9050 2100
 Text Notes 9500 1250 0    50   ~ 0
 DELTA SIGMA A/D CONVERTER\nFEEDBACK VOLTAGE AND\nREFERENCE VOLTAGE DRIVE
 Wire Wire Line
-	7400 2500 7150 2500
-Wire Wire Line
-	7150 2500 7150 2900
+	7400 2500 7300 2500
 Text GLabel 9950 4400 2    50   Output ~ 0
 LCD_B_ENABLE
 Wire Wire Line
@@ -322,7 +302,7 @@ SPI2_MOSI
 Text GLabel 7300 1400 0    50   Input ~ 0
 SPI2_MISO
 Text GLabel 7300 1700 0    50   Output ~ 0
-SPI2_PRESSURE_CS
+SPI2_PRES_CS
 Text GLabel 7300 1600 0    50   Output ~ 0
 SPI_SCLK
 Text Notes 6300 1900 0    50   ~ 0
@@ -330,10 +310,10 @@ SPI1 to\nMCU master
 Text Notes 5950 1500 0    50   ~ 0
 SPI2 from sensor slave
 Wire Wire Line
-	6050 2650 6050 2700
-Connection ~ 6050 2700
+	5900 2650 5900 2700
+Connection ~ 5900 2700
 Wire Wire Line
-	6050 2700 5950 2700
+	5900 2700 5800 2700
 Wire Wire Line
 	7400 1400 7300 1400
 Wire Wire Line
@@ -371,161 +351,153 @@ Wire Wire Line
 	7350 4700 7550 4700
 Text Notes 5350 650  0    50   ~ 0
 I/Os ON BANKS 1 AND 2 CAN BE FREELY INTERCHANGED AT LAYOUT EXCEPT CLCK WHICH MUST BE ON A GCLKT_x I/O PIN
-Text GLabel 9300 2100 2    50   Output ~ 0
+Text GLabel 9300 2600 2    50   Output ~ 0
 FPGA_READY
 Wire Wire Line
-	9050 2100 9300 2100
+	9050 2600 9300 2600
 Text GLabel 4250 6900 0    50   Output ~ 0
 CLCK
 Text GLabel 9300 2300 2    50   Input ~ 0
 CLCK
 Wire Wire Line
 	9050 2300 9300 2300
-Text GLabel 9300 2400 2    50   Output ~ 0
-FBE_DRV
+Text GLabel 9300 2100 2    50   Output ~ 0
+G_DRV
 Wire Wire Line
 	9050 2400 9300 2400
 $Comp
 L OpenVent:GND #PWR032
 U 1 1 5FD3A041
-P 6550 5050
-F 0 "#PWR032" H 6550 4800 50  0001 C CNN
-F 1 "GND" H 6550 4900 50  0001 C CNN
-F 2 "" H 6550 5050 50  0001 C CNN
-F 3 "" H 6550 5050 50  0001 C CNN
-	1    6550 5050
+P 6150 5000
+F 0 "#PWR032" H 6150 4750 50  0001 C CNN
+F 1 "GND" H 6150 4850 50  0001 C CNN
+F 2 "" H 6150 5000 50  0001 C CNN
+F 3 "" H 6150 5000 50  0001 C CNN
+	1    6150 5000
 	1    0    0    -1  
 $EndComp
-Text Label 7100 5450 0    50   ~ 0
-UART_TX
-Text Label 7100 5350 0    50   ~ 0
-UART_RX
 $Comp
 L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP?
 U 1 1 5FD254BC
-P 6200 5550
+P 5800 5500
 AR Path="/5F988182/5FD254BC" Ref="JP?"  Part="1" 
 AR Path="/5F8F894A/5FD254BC" Ref="JP5"  Part="1" 
-F 0 "JP5" H 6550 6200 50  0000 L BNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 6200 5550 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6200 5550 50  0001 C CNN
-F 3 "" H 6200 5550 50  0001 C CNN
-	1    6200 5550
+F 0 "JP5" H 6150 6150 50  0000 L BNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 5800 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5800 5500 50  0001 C CNN
+F 3 "" H 5800 5500 50  0001 C CNN
+	1    5800 5500
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6200 5550
-NoConn ~ 6200 5150
-NoConn ~ 6200 5250
-Text Notes 6200 4825 2    50   ~ 0
+NoConn ~ 5800 5500
+NoConn ~ 5800 5100
+NoConn ~ 5800 5200
+Text Notes 5800 4775 2    50   ~ 0
 Debug UART
-Text GLabel 7350 4900 0    50   Output ~ 0
+Text GLabel 9300 2400 2    50   Output ~ 0
 LED_SERIAL_DRV
 Wire Wire Line
-	6550 5050 6200 5050
+	6150 5000 5800 5000
 Wire Wire Line
-	6200 5450 6550 5450
+	5800 5400 6150 5400
 Wire Wire Line
-	6200 5350 6300 5350
+	5800 5300 5900 5300
 $Comp
 L OpenVent:ESD5Z3.3T1G TVS-D3
 U 1 1 6058ED6E
-P 6550 5550
-F 0 "TVS-D3" V 6804 5680 50  0000 L CNN
-F 1 "ESD5Z3.3T1G" V 6895 5680 50  0000 L CNN
-F 2 "SODFL1608X70N" H 7000 5550 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 7000 5450 50  0001 L CNN
-F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 7000 5350 50  0001 L CNN "Description"
-F 5 "0.7" H 7000 5250 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 7000 5150 50  0001 L CNN "Manufacturer_Name"
-F 7 "ESD5Z3.3T1G" H 7000 5050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "863-ESD5Z3.3T1G" H 7000 4950 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 7000 4850 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ESD5Z3.3T1G" H 7000 4750 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 7000 4650 50  0001 L CNN "Arrow Price/Stock"
-	1    6550 5550
+P 6150 5500
+F 0 "TVS-D3" V 6404 5630 50  0000 L CNN
+F 1 "ESD5Z3.3T1G" V 6495 5630 50  0000 L CNN
+F 2 "SODFL1608X70N" H 6600 5500 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 6600 5400 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 6600 5300 50  0001 L CNN "Description"
+F 5 "0.7" H 6600 5200 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 6600 5100 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 6600 5000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 6600 4900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 6600 4800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 6600 4700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 6600 4600 50  0001 L CNN "Arrow Price/Stock"
+	1    6150 5500
 	0    1    1    0   
 $EndComp
 $Comp
 L OpenVent:ESD5Z3.3T1G TVS-D4
 U 1 1 6059146A
-P 6300 5550
-F 0 "TVS-D4" V 6554 5420 50  0000 R CNN
-F 1 "ESD5Z3.3T1G" V 6645 5420 50  0000 R CNN
-F 2 "SODFL1608X70N" H 6750 5550 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 6750 5450 50  0001 L CNN
-F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 6750 5350 50  0001 L CNN "Description"
-F 5 "0.7" H 6750 5250 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 6750 5150 50  0001 L CNN "Manufacturer_Name"
-F 7 "ESD5Z3.3T1G" H 6750 5050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "863-ESD5Z3.3T1G" H 6750 4950 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 6750 4850 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ESD5Z3.3T1G" H 6750 4750 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 6750 4650 50  0001 L CNN "Arrow Price/Stock"
-	1    6300 5550
+P 5900 5500
+F 0 "TVS-D4" V 6154 5370 50  0000 R CNN
+F 1 "ESD5Z3.3T1G" V 6245 5370 50  0000 R CNN
+F 2 "SODFL1608X70N" H 6350 5500 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 6350 5400 50  0001 L CNN
+F 4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" H 6350 5300 50  0001 L CNN "Description"
+F 5 "0.7" H 6350 5200 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 6350 5100 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESD5Z3.3T1G" H 6350 5000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-ESD5Z3.3T1G" H 6350 4900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z33T1G/?qs=OSf9jACorvaH3Y8oRWEcuQ%3D%3D" H 6350 4800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ESD5Z3.3T1G" H 6350 4700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/esd5z3.3t1g/on-semiconductor" H 6350 4600 50  0001 L CNN "Arrow Price/Stock"
+	1    5900 5500
 	0    1    1    0   
 $EndComp
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 6059B6E0
-P 6450 6200
-F 0 "#PWR?" H 6450 5950 50  0001 C CNN
-F 1 "GND" H 6450 6050 50  0001 C CNN
-F 2 "" H 6450 6200 50  0001 C CNN
-F 3 "" H 6450 6200 50  0001 C CNN
-	1    6450 6200
+P 6050 6150
+F 0 "#PWR?" H 6050 5900 50  0001 C CNN
+F 1 "GND" H 6050 6000 50  0001 C CNN
+F 2 "" H 6050 6150 50  0001 C CNN
+F 3 "" H 6050 6150 50  0001 C CNN
+	1    6050 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 5550 6550 5450
+	6150 5500 6150 5400
 Wire Wire Line
-	6300 5550 6300 5350
+	5900 5500 5900 5300
 Wire Wire Line
-	6300 6150 6450 6150
+	5900 6100 6050 6100
 Wire Wire Line
-	6450 6200 6450 6150
-Connection ~ 6450 6150
+	6050 6150 6050 6100
+Connection ~ 6050 6100
 Wire Wire Line
-	6450 6150 6550 6150
-Text GLabel 7350 4400 0    50   Input ~ 0
+	6050 6100 6150 6100
+Text GLabel 2100 4650 0    50   Input ~ 0
 PB_MUTE
 $Comp
 L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
 U 1 1 60586513
-P 6900 5550
-F 0 "R?" H 7000 5657 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6550 5900 50  0001 C CNN
-F 2 "" H 7100 5550 50  0001 C CNN
-F 3 "" H 6900 5550 50  0001 C CNN
-F 4 "33R" H 7000 5566 50  0000 C CNN "Val"
-F 5 "1%" H 7450 5550 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6900 5550 50  0001 C CNN "Watt"
-	1    6900 5550
+P 6500 5500
+F 0 "R?" H 6700 5500 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6150 5850 50  0001 C CNN
+F 2 "" H 6700 5500 50  0001 C CNN
+F 3 "" H 6500 5500 50  0001 C CNN
+F 4 "33R" H 6500 5500 50  0000 C CNN "Val"
+F 5 "1%" H 7050 5500 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6500 5500 50  0001 C CNN "Watt"
+	1    6500 5500
 	-1   0    0    1   
 $EndComp
 $Comp
 L OpenVent:33R_Chip_Resistor,_1%,_0.1W R?
 U 1 1 6058651C
-P 6900 5450
-F 0 "R?" H 7000 5175 50  0000 C CNN
-F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6550 5800 50  0001 C CNN
-F 2 "" H 7100 5450 50  0001 C CNN
-F 3 "" H 6900 5450 50  0001 C CNN
-F 4 "33R" H 7000 5250 50  0000 C CNN "Val"
-F 5 "1%" H 7450 5450 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6900 5450 50  0001 C CNN "Watt"
-	1    6900 5450
+P 6500 5400
+F 0 "R?" H 6700 5200 50  0000 C CNN
+F 1 "33R_Chip_Resistor,_1%,_0.1W" H 6150 5750 50  0001 C CNN
+F 2 "" H 6700 5400 50  0001 C CNN
+F 3 "" H 6500 5400 50  0001 C CNN
+F 4 "33R" H 6500 5200 50  0000 C CNN "Val"
+F 5 "1%" H 7050 5400 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6500 5400 50  0001 C CNN "Watt"
+	1    6500 5400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7000 5350 7500 5350
+	6200 5400 6150 5400
+Connection ~ 6150 5400
 Wire Wire Line
-	7000 5450 7500 5450
-Wire Wire Line
-	6600 5450 6550 5450
-Connection ~ 6550 5450
-Wire Wire Line
-	6600 5350 6300 5350
-Connection ~ 6300 5350
+	6200 5300 5900 5300
+Connection ~ 5900 5300
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 605DEBE6
@@ -786,17 +758,15 @@ F 6 "0.1W" H 2300 1200 50  0001 C CNN "Watt"
 $EndComp
 Connection ~ 2150 3950
 Wire Wire Line
-	7150 2900 6800 2900
+	5900 2700 7400 2700
 Wire Wire Line
-	6050 2700 7400 2700
-Wire Wire Line
-	6650 2600 7400 2600
+	6500 2600 7400 2600
 $Comp
 L OpenVent-rescue:GW1N-9LQ100-OpenVent U8
 U 4 1 60544613
 P 3100 3350
-F 0 "U8" H 3075 3598 50  0000 C CNN
-F 1 "GW1N-9LQ100" H 3075 3507 50  0000 C CNN
+F 0 "U8" H 2350 3450 50  0000 C CNN
+F 1 "GW1N-9LQ100" H 3550 3450 50  0000 C CNN
 F 2 "" H 6400 2450 50  0001 C CNN
 F 3 "" H 6400 2450 50  0001 C CNN
 	4    3100 3350
@@ -904,8 +874,6 @@ $EndComp
 Wire Wire Line
 	9050 2500 9950 2500
 Connection ~ 9950 2500
-Text GLabel 7350 4800 0    50   Input ~ 0
-SOUNDER-CURRENT
 Wire Wire Line
 	7550 4800 7350 4800
 Text Notes 1550 5475 0    100  ~ 0
@@ -1387,13 +1355,11 @@ Wire Wire Line
 Connection ~ 2775 6725
 Wire Wire Line
 	2775 6725 3400 6725
-Text GLabel 7300 2200 0    50   Output ~ 0
-SPK1_EN
-Text GLabel 7300 2300 0    50   Input ~ 0
+Text GLabel 7350 4300 0    50   Input ~ 0
 SPK1_FLT_N
-Text GLabel 7300 2400 0    50   Input ~ 0
+Text GLabel 4450 3550 2    50   Input ~ 0
 SPK1_SENS
-Text GLabel 7350 4300 0    50   Output ~ 0
+Text GLabel 7350 4600 0    50   Output ~ 0
 SPK2_EN
 Wire Wire Line
 	7400 2200 7300 2200
@@ -1401,63 +1367,119 @@ Wire Wire Line
 	7400 2300 7300 2300
 Wire Wire Line
 	7400 2400 7300 2400
-Text GLabel 7500 5100 0    50   Input ~ 0
+Text GLabel 7350 4400 0    50   Input ~ 0
 SPK2_FLT_N
-Text GLabel 7500 5200 0    50   Input ~ 0
-SPK2_SENS
 Wire Wire Line
 	7550 4300 7350 4300
 Wire Wire Line
-	7500 5100 7550 5100
+	7350 5100 7550 5100
 Wire Wire Line
-	7500 5200 7550 5200
-Wire Wire Line
-	7550 5400 7500 5400
-Wire Wire Line
-	7500 5400 7500 5450
-Wire Wire Line
-	7550 5300 7500 5300
-Wire Wire Line
-	7500 5300 7500 5350
+	7350 5200 7550 5200
 Wire Wire Line
 	2150 3550 2150 3450
 Wire Wire Line
 	2150 3450 1800 3450
 Connection ~ 2150 3550
-Text GLabel 4100 3550 2    50   Output ~ 0
+Text GLabel 7350 4700 0    50   Output ~ 0
 SPK1_IN1
-Text GLabel 4100 3750 2    50   Output ~ 0
+Text GLabel 7350 4800 0    50   Output ~ 0
 SPK1_IN2
-Text GLabel 4100 3950 2    50   Output ~ 0
+Text GLabel 7350 4900 0    50   Output ~ 0
 SPK2_IN1
-Text GLabel 4100 4150 2    50   Output ~ 0
+Text GLabel 7350 5000 0    50   Output ~ 0
 SPK2_IN2
+Text GLabel 4450 3650 2    50   Input ~ 0
+SPK_HIGH_REF
 Wire Wire Line
-	3900 3550 4100 3550
+	3900 4050 4150 4050
 Wire Wire Line
-	3900 3750 4100 3750
-Wire Wire Line
-	3900 3950 4100 3950
-Wire Wire Line
-	3900 4150 4100 4150
-Text GLabel 4100 3650 2    50   Input ~ 0
-SPK1_IN1_REF
-Text GLabel 4100 3850 2    50   Input ~ 0
-SPK1_IN2_REF
-Text GLabel 4100 4050 2    50   Input ~ 0
-SPK2_IN1_REF
-Text GLabel 4100 4250 2    50   Input ~ 0
-SPK2_IN2_REF
-Wire Wire Line
-	3900 3650 4100 3650
-Wire Wire Line
-	3900 3850 4100 3850
-Wire Wire Line
-	3900 4050 4100 4050
-Wire Wire Line
-	3900 4250 4100 4250
-Text GLabel 4100 4650 2    50   Output ~ 0
+	3900 4250 4300 4250
+Text GLabel 7350 5200 0    50   Output ~ 0
 Reset_I2C
 Wire Wire Line
 	4100 4650 3900 4650
+Wire Wire Line
+	9300 2000 9050 2000
+Wire Wire Line
+	7350 5000 7550 5000
+Text GLabel 7350 4500 0    50   Output ~ 0
+SPK1_EN
+Text GLabel 4450 4150 2    50   Input ~ 0
+SPK2_SENS
+Wire Wire Line
+	3900 3550 4000 3550
+Wire Wire Line
+	4000 3550 4000 3750
+Wire Wire Line
+	3900 3750 4000 3750
+Connection ~ 4000 3550
+Wire Wire Line
+	4000 3550 4450 3550
+Wire Wire Line
+	3900 3950 4000 3950
+Wire Wire Line
+	4000 4150 4000 3950
+Wire Wire Line
+	3900 4150 4000 4150
+Wire Wire Line
+	4000 4150 4450 4150
+Text GLabel 4450 4250 2    50   Input ~ 0
+SPK_LOW_REF
+Wire Wire Line
+	4300 3850 4300 4250
+Wire Wire Line
+	3900 3850 4300 3850
+Wire Wire Line
+	4300 4250 4450 4250
+Wire Wire Line
+	4150 4050 4150 3650
+Wire Wire Line
+	3900 3650 4150 3650
+Connection ~ 4150 3650
+Wire Wire Line
+	4150 3650 4450 3650
+Connection ~ 4300 4250
+Connection ~ 4000 4150
+Wire Wire Line
+	2100 4650 2250 4650
+Wire Wire Line
+	2100 4750 2250 4750
+Text GLabel 7300 2200 0    50   Input ~ 0
+VIN_FAIL_F
+Text Notes 7550 5850 2    50   ~ 0
+To FTDI serial port
+Text Notes 6700 5650 0    50   ~ 10
+-->
+Text Notes 6700 5750 0    50   ~ 10
+<--
+Text Notes 7350 5300 0    50   ~ 10
+-->
+Text Notes 7350 5400 0    50   ~ 10
+<--
+Text Notes 5950 5300 0    50   ~ 10
+-->
+Text Notes 5950 5400 0    50   ~ 10
+<--
+Wire Wire Line
+	7250 5300 7250 5600
+Wire Wire Line
+	7350 5400 7350 5700
+Wire Wire Line
+	7350 5700 7200 5700
+Wire Wire Line
+	7250 5600 7200 5600
+Text GLabel 7200 5600 0    50   Input ~ 0
+RxD_F
+Text GLabel 7200 5700 0    50   Output ~ 0
+TxD_F
+Connection ~ 7250 5300
+Wire Wire Line
+	7250 5300 7550 5300
+Connection ~ 7350 5400
+Wire Wire Line
+	7350 5400 7550 5400
+Wire Wire Line
+	6600 5400 7350 5400
+Wire Wire Line
+	6600 5300 7250 5300
 $EndSCHEMATC

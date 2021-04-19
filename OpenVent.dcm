@@ -44,6 +44,10 @@ $CMP 2x5_Way_1.27mm_Pitch_Header
 F http://www.cnctech.us/idcmatching2.pdf
 $ENDCMP
 #
+$CMP 2x5_Way_1.27mm_Pitch_Header_MCU
+F http://www.cnctech.us/idcmatching2.pdf
+$ENDCMP
+#
 $CMP 47uF_1210_Ceramic_Capacitor_10%_X6S_16V
 D Ceramic Capacitor 47uF 16V X6S 1210
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
