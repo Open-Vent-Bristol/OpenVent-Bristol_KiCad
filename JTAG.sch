@@ -812,23 +812,6 @@ F 3 "" H 11000 5950 50  0001 C CNN
 	1    11000 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R68
-U 1 1 6073BA6B
-P 7600 6200
-AR Path="/5F8F8987/6073BA6B" Ref="R68"  Part="1" 
-AR Path="/5FB692C4/6073BA6B" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/6073BA6B" Ref="R?"  Part="1" 
-F 0 "R68" H 7600 6200 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 7600 6200 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7600 6200 50  0001 C CNN
-F 3 "" H 7600 6200 50  0001 C CNN
-F 4 "4.7k" H 7800 6200 50  0000 C CNN "Val"
-F 5 "1%" H 7600 6200 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7600 6200 50  0001 C CNN "Watt"
-	1    7600 6200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7700 6300 7700 6350
 Wire Wire Line
@@ -923,23 +906,6 @@ F 6 "0.1W" H 10500 4800 50  0001 C CNN "Watt"
 $EndComp
 Text Label 9850 5550 0    50   ~ 0
 DONE
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R71
-U 1 1 6073BAB6
-P 9700 5000
-AR Path="/5F8F8987/6073BAB6" Ref="R71"  Part="1" 
-AR Path="/5FB692C4/6073BAB6" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/6073BAB6" Ref="R?"  Part="1" 
-F 0 "R71" H 9750 5000 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 9700 5000 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 5000 50  0001 C CNN
-F 3 "" H 9700 5000 50  0001 C CNN
-F 4 "10k" H 9800 4800 50  0000 C CNN "Val"
-F 5 "1%" H 9700 5000 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9700 5000 50  0001 C CNN "Watt"
-	1    9700 5000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9750 5450 9800 5450
 Wire Wire Line
@@ -1021,23 +987,6 @@ F 2 "" H 7900 6350 50  0001 C CNN
 F 3 "" H 7900 6350 50  0001 C CNN
 	1    7900 6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R69
-U 1 1 6073BAE7
-P 7800 6200
-AR Path="/5F8F8987/6073BAE7" Ref="R69"  Part="1" 
-AR Path="/5FB692C4/6073BAE7" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/6073BAE7" Ref="R?"  Part="1" 
-F 0 "R69" H 7800 6150 50  0000 C BNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 7800 6200 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 6200 50  0001 C CNN
-F 3 "" H 7800 6200 50  0001 C CNN
-F 4 "10k" H 8000 6150 50  0000 C BNN "Val"
-F 5 "1%" H 7800 6200 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7800 6200 50  0001 C CNN "Watt"
-	1    7800 6200
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7900 5850 7900 5900
@@ -1277,23 +1226,6 @@ Wire Wire Line
 	9300 1500 9700 1500
 Wire Wire Line
 	9700 1500 9700 1300
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R70
-U 1 1 60A9E36F
-P 9200 1300
-AR Path="/5F8F8987/60A9E36F" Ref="R70"  Part="1" 
-AR Path="/5FB692C4/60A9E36F" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/60A9E36F" Ref="R?"  Part="1" 
-F 0 "R70" H 9250 1300 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 9200 1300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9200 1300 50  0001 C CNN
-F 3 "" H 9200 1300 50  0001 C CNN
-F 4 "10k" H 9300 1100 50  0000 C CNN "Val"
-F 5 "1%" H 9200 1300 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9200 1300 50  0001 C CNN "Watt"
-	1    9200 1300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9300 1400 9300 1500
 Connection ~ 9300 1500
@@ -1305,23 +1237,6 @@ Wire Wire Line
 	9900 1500 9900 1300
 Wire Wire Line
 	10250 900  10250 1000
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R73
-U 1 1 60AFBDEA
-P 10150 1300
-AR Path="/5F8F8987/60AFBDEA" Ref="R73"  Part="1" 
-AR Path="/5FB692C4/60AFBDEA" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/60AFBDEA" Ref="R?"  Part="1" 
-F 0 "R73" H 10200 1300 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 10150 1300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 10150 1300 50  0001 C CNN
-F 3 "" H 10150 1300 50  0001 C CNN
-F 4 "10k" H 10250 1100 50  0000 C CNN "Val"
-F 5 "1%" H 10150 1300 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 10150 1300 50  0001 C CNN "Watt"
-	1    10150 1300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10250 1400 10250 1500
 Connection ~ 10250 1500
@@ -1552,23 +1467,6 @@ F 3 "" H 7350 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 2700 7350 2700
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R67
-U 1 1 60997889
-P 7000 2600
-AR Path="/5F8F8987/60997889" Ref="R67"  Part="1" 
-AR Path="/5FB692C4/60997889" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/60997889" Ref="R?"  Part="1" 
-F 0 "R67" H 7050 2600 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 7000 2600 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7000 2600 50  0001 C CNN
-F 3 "" H 7000 2600 50  0001 C CNN
-F 4 "10k" H 7100 2400 50  0000 C CNN "Val"
-F 5 "1%" H 7000 2600 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 7000 2600 50  0001 C CNN "Watt"
-	1    7000 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 2400 9325 2400
 Wire Wire Line
@@ -1755,23 +1653,6 @@ Wire Wire Line
 	6100 4050 6450 4050
 Wire Wire Line
 	6450 4050 6450 3950
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R65
-U 1 1 6317ACC3
-P 6000 3900
-AR Path="/5F8F8987/6317ACC3" Ref="R65"  Part="1" 
-AR Path="/5FB692C4/6317ACC3" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/6317ACC3" Ref="R?"  Part="1" 
-F 0 "R65" V 6050 3650 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 6000 3900 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 3900 50  0001 C CNN
-F 3 "" H 6000 3900 50  0001 C CNN
-F 4 "10k" V 6150 3650 50  0000 C CNN "Val"
-F 5 "1%" H 6000 3900 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6000 3900 50  0001 C CNN "Watt"
-	1    6000 3900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6100 4000 6100 4050
 Connection ~ 6100 4050
@@ -1781,23 +1662,6 @@ Wire Wire Line
 	6650 4050 6650 3950
 Wire Wire Line
 	7000 3550 7000 3600
-$Comp
-L OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R66
-U 1 1 6317ACD2
-P 6900 3900
-AR Path="/5F8F8987/6317ACD2" Ref="R66"  Part="1" 
-AR Path="/5FB692C4/6317ACD2" Ref="R?"  Part="1" 
-AR Path="/5FBE8499/6317ACD2" Ref="R?"  Part="1" 
-F 0 "R66" V 6950 3650 50  0000 C CNN
-F 1 "12k_0603_Chip_Resistor,_1%,_0.1W" H 6900 3900 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 3900 50  0001 C CNN
-F 3 "" H 6900 3900 50  0001 C CNN
-F 4 "10k" V 7050 3650 50  0000 C CNN "Val"
-F 5 "1%" H 6900 3900 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6900 3900 50  0001 C CNN "Watt"
-	1    6900 3900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7000 4000 7000 4050
 Connection ~ 7000 4050
@@ -2142,4 +2006,116 @@ Connection ~ 5350 6500
 Connection ~ 5350 6850
 Text GLabel 7950 2700 2    50   Output ~ 0
 NRST_M
+$Comp
+L OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R68
+U 1 1 60896609
+P 7600 6200
+F 0 "R68" H 7550 6200 50  0000 L CNN
+F 1 "4k7_0603_Chip_Resistor,_1%,_0.1W" H 7600 6200 50  0001 C CNN
+F 2 "" H 7600 6200 50  0001 C CNN
+F 3 "" H 7600 6200 60  0001 C CNN
+F 4 "4k7" H 7350 6200 50  0000 L CNN "Val"
+F 5 "1%" H 7600 6200 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7600 6200 50  0001 C CNN "Watt"
+	1    7600 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R71
+U 1 1 608DD9C5
+P 9900 4800
+F 0 "R71" V 9954 4770 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 9900 4800 50  0001 C CNN
+F 2 "" H 9900 4800 50  0001 C CNN
+F 3 "" H 9900 4800 50  0001 C CNN
+F 4 "10k" V 10045 4770 50  0000 L CNN "Val"
+F 5 "1%" H 9900 4800 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9900 4800 50  0001 C CNN "Watt"
+	1    9900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R69
+U 1 1 60924674
+P 8000 6000
+F 0 "R69" V 8054 5970 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 8000 6000 50  0001 C CNN
+F 2 "" H 8000 6000 50  0001 C CNN
+F 3 "" H 8000 6000 50  0001 C CNN
+F 4 "10k" V 8145 5970 50  0000 L CNN "Val"
+F 5 "1%" H 8000 6000 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 8000 6000 50  0001 C CNN "Watt"
+	1    8000 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R70
+U 1 1 609B1077
+P 9400 1100
+F 0 "R70" V 9454 1070 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 9400 1100 50  0001 C CNN
+F 2 "" H 9400 1100 50  0001 C CNN
+F 3 "" H 9400 1100 50  0001 C CNN
+F 4 "10k" V 9545 1070 50  0000 L CNN "Val"
+F 5 "1%" H 9400 1100 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9400 1100 50  0001 C CNN "Watt"
+	1    9400 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R73
+U 1 1 609F7B7A
+P 10350 1100
+F 0 "R73" V 10404 1070 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 10350 1100 50  0001 C CNN
+F 2 "" H 10350 1100 50  0001 C CNN
+F 3 "" H 10350 1100 50  0001 C CNN
+F 4 "10k" V 10495 1070 50  0000 L CNN "Val"
+F 5 "1%" H 10350 1100 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 10350 1100 50  0001 C CNN "Watt"
+	1    10350 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R67
+U 1 1 60A3D75F
+P 7000 2600
+F 0 "R67" H 7100 2707 50  0000 C CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 7000 2600 50  0001 C CNN
+F 2 "" H 7000 2600 50  0001 C CNN
+F 3 "" H 7000 2600 50  0001 C CNN
+F 4 "10k" H 7100 2616 50  0000 C CNN "Val"
+F 5 "1%" H 7000 2600 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7000 2600 50  0001 C CNN "Watt"
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R65
+U 1 1 60A6BD58
+P 6200 3700
+F 0 "R65" V 6254 3670 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 6200 3700 50  0001 C CNN
+F 2 "" H 6200 3700 50  0001 C CNN
+F 3 "" H 6200 3700 50  0001 C CNN
+F 4 "10k" V 6345 3670 50  0000 L CNN "Val"
+F 5 "1%" H 6200 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6200 3700 50  0001 C CNN "Watt"
+	1    6200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R66
+U 1 1 60AC9168
+P 7100 3700
+F 0 "R66" V 7154 3670 50  0000 L CNN
+F 1 "10k_0603_Chip_Resistor,_1%,_0.1W" H 7100 3700 50  0001 C CNN
+F 2 "" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+F 4 "10k" V 7245 3670 50  0000 L CNN "Val"
+F 5 "1%" H 7100 3700 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 7100 3700 50  0001 C CNN "Watt"
+	1    7100 3700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
