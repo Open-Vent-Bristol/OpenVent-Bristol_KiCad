@@ -158,11 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2100 2300 2100
 Wire Wire Line
-	4600 7250 4450 7250
-Wire Wire Line
 	4600 7450 4600 7250
-Wire Wire Line
-	4500 6950 4450 6950
 Wire Wire Line
 	5400 6950 5500 6950
 Wire Wire Line
@@ -465,23 +461,23 @@ $EndComp
 $Comp
 L OpenVent:Test_Point_PTH TP8
 U 1 1 5FCEC103
-P 4450 6950
-F 0 "TP8" H 4307 7075 50  0000 C CNN
-F 1 "Test_Point_PTH" H 4450 6950 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4450 6950 50  0001 C CNN
-F 3 "" H 4450 6950 50  0001 C CNN
-	1    4450 6950
+P 4100 6950
+F 0 "TP8" H 3957 7075 50  0000 C CNN
+F 1 "Test_Point_PTH" H 4100 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4100 6950 50  0001 C CNN
+F 3 "" H 4100 6950 50  0001 C CNN
+	1    4100 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenVent:Test_Point_PTH TP9
 U 1 1 5FCECBB9
-P 4450 7250
-F 0 "TP9" H 4307 7375 50  0000 C CNN
-F 1 "Test_Point_PTH" H 4450 7250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4450 7250 50  0001 C CNN
-F 3 "" H 4450 7250 50  0001 C CNN
-	1    4450 7250
+P 4100 7250
+F 0 "TP9" H 3957 7375 50  0000 C CNN
+F 1 "Test_Point_PTH" H 4100 7250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4100 7250 50  0001 C CNN
+F 3 "" H 4100 7250 50  0001 C CNN
+	1    4100 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2179,4 +2175,33 @@ Wire Wire Line
 Connection ~ 1750 5450
 Text Notes 6450 4050 0    75   ~ 15
 FPGA ADC analog circuitry
+Wire Wire Line
+	4100 7250 4350 7250
+Wire Wire Line
+	4350 6650 4350 7250
+Connection ~ 4350 7250
+Wire Wire Line
+	4350 7250 4600 7250
+Wire Wire Line
+	4350 6550 4200 6550
+Wire Wire Line
+	4200 6550 4200 6950
+Wire Wire Line
+	4100 6950 4200 6950
+Connection ~ 4200 6950
+Wire Wire Line
+	4200 6950 4500 6950
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 609D2D12
+P 4550 6550
+AR Path="/5F8F3873/609D2D12" Ref="J2"  Part="1" 
+AR Path="/60D4F569/609D2D12" Ref="J?"  Part="1" 
+F 0 "J2" H 4630 6542 50  0000 L CNN
+F 1 "Conn_01x02" H 4630 6451 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4550 6550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 4550 6550 50  0001 C CNN
+	1    4550 6550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

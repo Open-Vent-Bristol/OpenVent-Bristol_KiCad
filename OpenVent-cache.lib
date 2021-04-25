@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent-rescue_DLP11SA900HL2L-F_inductors
 #
 DEF OpenVent-rescue_DLP11SA900HL2L-F_inductors FL 0 10 Y N 1 F N
@@ -933,7 +952,7 @@ F1 "OpenVent_3_position_header" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -50 -100 100 -400 0 1 0 N
+S -50 -100 100 -400 0 1 0 f
 X 1 1 -150 -350 100 R 50 50 1 1 P
 X 2 2 -150 -250 100 R 50 50 1 1 P
 X 3 ~ -150 -150 100 R 50 50 1 1 P
@@ -1162,7 +1181,7 @@ F1 "OpenVent_74HC244" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -300 -50 250 -1150 0 1 0 N
+S -300 -50 250 -1150 0 1 0 f
 X ~1OE 1 -400 -150 100 R 50 50 1 1 P
 X GND 10 -400 -1050 100 R 50 50 1 1 P
 X 2A3 11 -400 -650 100 R 50 50 1 1 P
@@ -2088,7 +2107,7 @@ F11 "https://www.arrow.com/en/products/sn74lvc2g14dbvr/texas-instruments" 850 -8
 DRAW
 C 565 -70 11 0 1 0 N
 C 565 -230 11 1 1 0 N
-S 200 -350 800 200 0 1 0 N
+S 200 -350 800 200 0 1 0 f
 P 2 0 1 0 435 -70 335 -70 N
 P 2 0 1 0 450 -100 475 -100 N
 P 2 0 1 0 460 -40 460 -100 N

@@ -582,20 +582,16 @@ F 10 "3 Ohms ±5% 0.1W, 1/10W" H 8900 2300 50  0001 C CNN "Detailed"
 	1    8900 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 1650 2    50   Output ~ 0
+Text GLabel 9650 1650 2    50   Output ~ 0
 SPK1_P
-Text GLabel 9300 2400 2    50   Output ~ 0
+Text GLabel 9650 2400 2    50   Output ~ 0
 SPK1_N
 Wire Wire Line
 	8350 2400 8800 2400
 Connection ~ 8350 2400
 Wire Wire Line
-	9200 2400 9300 2400
-Wire Wire Line
 	8350 1650 8800 1650
 Connection ~ 8350 1650
-Wire Wire Line
-	9200 1650 9300 1650
 Text Label 8400 1650 0    50   ~ 0
 SPK1_FP
 Text Label 8400 2400 0    50   ~ 0
@@ -1203,20 +1199,16 @@ F 10 "3 Ohms ±5% 0.1W, 1/10W" H 8900 5500 50  0001 C CNN "Detailed"
 	1    8900 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 4850 2    50   Output ~ 0
+Text GLabel 9550 4850 2    50   Output ~ 0
 SPK2_P
-Text GLabel 9300 5600 2    50   Output ~ 0
+Text GLabel 9550 5600 2    50   Output ~ 0
 SPK2_N
 Wire Wire Line
 	8350 5600 8800 5600
 Connection ~ 8350 5600
 Wire Wire Line
-	9200 5600 9300 5600
-Wire Wire Line
 	8350 4850 8800 4850
 Connection ~ 8350 4850
-Wire Wire Line
-	9200 4850 9300 4850
 Text Label 8400 4850 0    50   ~ 0
 SPK2_FP
 Text Label 8400 5600 0    50   ~ 0
@@ -1255,7 +1247,7 @@ F 9 "2.6A" H 7950 5450 50  0001 C CNN "Current"
 	1    7850 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 9050 2150 0    100  ~ 20
+Text Notes 9400 2150 0    100  ~ 20
 TO EXTERNAL SPEAKER\nAdd Connector
 Text Notes 3500 7000 0    50   ~ 0
 nSLEEP
@@ -1487,7 +1479,7 @@ $EndComp
 Wire Wire Line
 	6250 4250 6250 4300
 Connection ~ 6250 4300
-Text Notes 9100 5400 0    100  ~ 20
+Text Notes 9350 5400 0    100  ~ 20
 TO EXTERNAL SPEAKER\nAdd Connector
 Text Notes 600  1650 0    75   ~ 0
 1.41V
@@ -1523,6 +1515,64 @@ F 4 "1K" H 4650 850 50  0000 C CNN "Val"
 F 5 "1%" H 4450 850 50  0001 C CNN "Tolerance"
 F 6 "0.1W" H 4450 850 50  0001 C CNN "Watt"
 	1    4450 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 750  9400 750 
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6093A155
+P 9650 3950
+AR Path="/5F8F3873/6093A155" Ref="J?"  Part="1" 
+AR Path="/60D4F569/6093A155" Ref="J3"  Part="1" 
+F 0 "J3" H 9730 3942 50  0000 L CNN
+F 1 "Conn_01x02" H 9730 3851 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9650 3950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 9650 3950 50  0001 C CNN
+	1    9650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3950 9300 3950
+Wire Wire Line
+	9200 4850 9300 4850
+Wire Wire Line
+	9200 5600 9450 5600
+Wire Wire Line
+	9200 1650 9400 1650
+Wire Wire Line
+	9200 2400 9550 2400
+Wire Wire Line
+	9550 850  9550 2400
+Connection ~ 9550 2400
+Wire Wire Line
+	9550 2400 9650 2400
+Wire Wire Line
+	9400 750  9400 1650
+Connection ~ 9400 1650
+Wire Wire Line
+	9400 1650 9650 1650
+Wire Wire Line
+	9450 4050 9450 5600
+Connection ~ 9450 5600
+Wire Wire Line
+	9450 5600 9550 5600
+Wire Wire Line
+	9300 3950 9300 4850
+Connection ~ 9300 4850
+Wire Wire Line
+	9300 4850 9550 4850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6099F86B
+P 9750 750
+AR Path="/5F8F3873/6099F86B" Ref="J?"  Part="1" 
+AR Path="/60D4F569/6099F86B" Ref="J4"  Part="1" 
+F 0 "J4" H 9830 742 50  0000 L CNN
+F 1 "Conn_01x02" H 9830 651 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9750 750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 9750 750 50  0001 C CNN
+	1    9750 750 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
