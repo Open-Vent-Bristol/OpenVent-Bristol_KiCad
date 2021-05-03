@@ -235,6 +235,11 @@ K inductor choke coil reactor magnetic
 F https://www.bourns.com/docs/Product-Datasheets/SRU1048.pdf
 $ENDCMP
 #
+$CMP MAX809LEUR+
+D MAX809LEUR+, Processor Supervisor 2.5 V, 3 V, 3.3 V, 5 V Active Low, Push-Pull, 3-Pin SOT-23
+F http://docs-emea.rs-online.com/webdocs/11c5/0900766b811c5e3e.pdf
+$ENDCMP
+#
 $CMP MBR340
 D 40V 3A Schottky Barrier Rectifier Diode, DO-201AD
 K diode Schottky
