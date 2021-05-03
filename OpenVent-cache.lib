@@ -959,6 +959,23 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS
+#
+DEF OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS R 0 40 Y Y 1 F N
+F0 "R" -60 100 50 H V L BNN
+F1 "OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "4k7" 0 0 50 H V C CNN "Val"
+F5 "1%" 0 0 50 H I C CNN "Tolerance"
+F6 "0.1W" 0 0 50 H I C CNN "Watt"
+DRAW
+S 0 140 -200 60 0 1 10 f
+X 1 1 100 100 100 L 1 1 0 1 P
+X 2 2 -300 100 100 R 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
@@ -1857,6 +1874,25 @@ P 2 0 1 0 60 70 60 50 N
 P 2 0 1 0 60 110 60 90 N
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_MAX809LEUR+
+#
+DEF OpenVent_MAX809LEUR+ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "OpenVent_MAX809LEUR+" 1050 200 50 H V L CNN
+F2 "SOT95P237X112-3N" 1050 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/11c5/0900766b811c5e3e.pdf" 1050 0 50 H I L CNN
+F4 "MAX809LEUR+, Processor Supervisor 2.5 V, 3 V, 3.3 V, 5 V Active Low, Push-Pull, 3-Pin SOT-23" 1050 -100 50 H I L CNN "Description"
+F5 "1.12" 1050 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX809LEUR+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+S 200 100 900 -200 0 1 0 N
+X GND 1 500 -400 200 U 50 50 0 0 W
+X ~RESET 2 1100 0 200 L 50 50 0 0 O
+X VCC 3 0 0 200 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
