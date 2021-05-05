@@ -1358,6 +1358,34 @@ X GND 8 350 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# ADP1715ARMZ-3.3-R7
+#
+DEF ADP1715ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADP1715ARMZ-3.3-R7" 200 450 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf" 950 0 50 H I L CNN
+F4 "Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADP1715ARMZ-3.3-R7" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADP1715ARMZ3.3R7" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-33-R7/?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADP1715ARMZ-3.3-R7" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adp1715armz-3.3-r7/analog-devices" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+S 200 350 800 -400 0 1 0 N
+X EN 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 250 200 R 50 50 0 0 P
+X OUT 3 1000 250 200 L 50 50 0 0 P
+X SS 4 0 -300 200 R 50 50 0 0 P
+X GND_1 5 550 -600 200 U 50 50 0 0 P
+X GND_2 6 650 -600 200 U 50 50 0 0 P
+X GND_3 7 1000 -50 200 L 50 50 0 0 P
+X GND_4 8 1000 50 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # ADS1015
 #
 DEF ADS1015 U 0 40 Y Y 1 F N
