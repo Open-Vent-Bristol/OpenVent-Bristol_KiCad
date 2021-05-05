@@ -66,7 +66,7 @@ $ENDCMP
 $CMP 74AHC1G86
 D Single EX-OR Gate, Low-Voltage CMOS
 K Single Gate EX-OR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+F https://drive.google.com/file/d/1KcR5xpKZzrgN1InAsCRynXsokFbGDY5U/view?usp=sharing
 $ENDCMP
 #
 $CMP 74AHCT1G86
@@ -79,6 +79,11 @@ $CMP 74AUC1G86
 D Single EX-OR Gate, Low-Voltage CMOS
 K Single Gate EX-OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74HC244
+D SN74HC244PW Octal Buffer with line drivers with 3-state output TSSOP (20pin)
+F https://drive.google.com/file/d/1jmq7y8QClAZA0HPsu7zikdiGNb00qKrG/view?usp=sharing
 $ENDCMP
 #
 $CMP ABM3B-12.000MHZ
@@ -216,6 +221,7 @@ $ENDCMP
 #
 $CMP LPS25HB
 D MEMS pressure sensor: 260-1260 hPa absolute digital output barometer
+F https://drive.google.com/file/d/11bL-sBsOyzO5BWvxaS2yHKTNvxY4m9uF/view?usp=sharing
 $ENDCMP
 #
 $CMP LT1936
@@ -430,6 +436,16 @@ $ENDCMP
 #
 $CMP TLV75512
 D TLV755P 500-mA, Low IQ, Small Size, Low Dropout Regulator 1.2V fixed output, SOT-23 package
+$ENDCMP
+#
+$CMP TXB0108
+D 8-bit bidirectional voltage-level translator Texas Instruments, TXB0108PWR TSSOP-20pin
+F https://drive.google.com/file/d/1uqT2R1MUeuGfLez-5x9VQ4JJlC-38b7i/view?usp=sharing
+$ENDCMP
+#
+$CMP WST-1310S-3
+D Buzzer 2.3kHz at 85dB 8-15V Soberton Inc
+F https://drive.google.com/file/d/1O6qeZORlw__PY-qELUl1LbEVFUAI_PgY/view?usp=sharing
 $ENDCMP
 #
 #End Doc Library
