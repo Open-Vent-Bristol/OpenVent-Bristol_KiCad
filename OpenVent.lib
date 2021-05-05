@@ -101,7 +101,7 @@ ENDDEF
 DEF 0R0_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "0R0_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "0 Ohm" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -193,7 +193,7 @@ ENDDEF
 DEF 100K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "100K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100k" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -210,7 +210,7 @@ ENDDEF
 DEF 100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
 F1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100nF" 0 0 50 H V C CNN "Val"
 F5 "25V" 0 0 50 H I C CNN "Voltage"
@@ -247,7 +247,7 @@ ENDDEF
 DEF 10k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "10k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10k" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -265,7 +265,7 @@ ENDDEF
 DEF 10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C 0 40 Y Y 1 F N
 F0 "C" -110 190 50 H V L BNN
 F1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10nF" 0 0 50 H V C CNN "Val"
 F5 "50V" 0 0 50 H I C CNN "Voltage"
@@ -411,7 +411,7 @@ ENDDEF
 DEF 1K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "1K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "1K" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -430,7 +430,7 @@ ENDDEF
 DEF 1M_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "1M_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1M" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -502,7 +502,7 @@ ENDDEF
 DEF 2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
 F1 "2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "2.2uF" 0 0 50 H V C CNN "Val"
 F5 "50V" 0 0 50 H I C CNN "Voltage"
@@ -598,7 +598,7 @@ ENDDEF
 DEF 22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
 F1 "22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "22nF" 0 0 50 H V C CNN "Val"
 F5 "50V" 0 0 50 H I C CNN "Voltage"
@@ -661,7 +661,7 @@ ENDDEF
 DEF 2N7002BK Q 0 40 Y Y 1 F N
 F0 "Q" 50 -250 50 H V L BNN
 F1 "2N7002BK" 50 -350 50 H V L BNN
-F2 "" 0 0 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
 P 2 0 1 10 -30 -160 30 -160 N
@@ -819,7 +819,7 @@ ENDDEF
 DEF 33R_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "33R_Chip_Resistor,_1%,_0.1W" -350 350 50 H I C CNN
-F2 "" 200 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 200 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "33R" 200 0 50 H V C CNN "Val"
 F5 "1%" 550 0 50 H I C CNN "Tolerance"
@@ -887,7 +887,7 @@ ENDDEF
 DEF 3k6_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 0 -60 50 H V L BNN
 F1 "3k6_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3k6" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -938,7 +938,7 @@ ENDDEF
 DEF 470R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "470R_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "470R" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -955,7 +955,7 @@ ENDDEF
 DEF 470k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "470k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "470k" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -992,7 +992,7 @@ ENDDEF
 DEF 47k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
 F1 "47k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "47k" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -1009,7 +1009,7 @@ ENDDEF
 DEF 47uF_1210_Ceramic_Capacitor_10%_X6S_16V C 0 40 N N 1 F N
 F0 "C" -60 210 50 H V L BNN
 F1 "47uF_1210_Ceramic_Capacitor_10%_X6S_16V" 50 -900 50 H I C CNN
-F2 "" -250 -550 50 H I C CNN
+F2 "Capacitor_SMD:C_1210_3225Metric" -250 -550 50 H I C CNN
 F3 "" 0 -700 50 H I C CNN
 F4 "47uF" 0 150 50 H V C CNN "Val"
 F5 "16V" 100 -400 50 H I C CNN "Voltage"
@@ -1035,7 +1035,7 @@ ENDDEF
 DEF 4k7_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 100 50 H V L BNN
 F1 "4k7_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "4k7" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -1133,7 +1133,7 @@ ENDDEF
 DEF 62k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -175 75 50 H V L BNN
 F1 "62k_0603_Chip_Resistor,_1%,_0.1W" 50 -100 50 H I C CNN
-F2 "" -100 100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -100 100 50 H I C CNN
 F3 "" -100 100 50 H I C CNN
 F4 "62k" 150 100 50 H V C CNN "Val"
 F5 "1%" 150 -200 50 H I C CNN "Tolerance"
@@ -1494,7 +1494,7 @@ ENDDEF
 DEF BAT54XYH D 0 0 Y N 2 F N
 F0 "D" 300 250 50 H V C CNN
 F1 "BAT54XYH" 450 150 50 H V C CNN
-F2 "" 650 -200 50 V I C CNN
+F2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" 650 -200 50 V I C CNN
 F3 "" 650 -200 50 V I C CNN
 $FPLIST
  TO-???*
@@ -3960,7 +3960,7 @@ ENDDEF
 DEF R_0603_3R0_0.1W_5% R 0 40 N N 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "R_0603_3R0_0.1W_5%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3R0" 0 0 50 H V C CNN "Val"
 F5 "5%" 0 0 50 H I C CNN "Tolerance"
@@ -4080,7 +4080,7 @@ ENDDEF
 DEF R_0603_49k9_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "R_0603_49k9_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "49k9" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -4161,7 +4161,7 @@ ENDDEF
 DEF R_0603_620R_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "R_0603_620R_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "620R" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
@@ -4182,7 +4182,7 @@ ENDDEF
 DEF R_0603_75K_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
 F1 "R_0603_75K_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "75K" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
