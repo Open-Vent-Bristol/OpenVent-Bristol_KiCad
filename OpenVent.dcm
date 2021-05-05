@@ -87,6 +87,11 @@ K Crystal 12MHz
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
 #
+$CMP ADP1715ARMZ-3.3-R7
+D Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf
+$ENDCMP
+#
 $CMP ADS1015
 D 12bit ADC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1936fd.pdf
