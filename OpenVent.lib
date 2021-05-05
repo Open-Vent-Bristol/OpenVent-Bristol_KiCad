@@ -1374,11 +1374,11 @@ F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-33-R7/?qs=
 F10 "ADP1715ARMZ-3.3-R7" 950 -700 50 H I L CNN "Arrow Part Number"
 F11 "https://www.arrow.com/en/products/adp1715armz-3.3-r7/analog-devices" 950 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-S 200 350 800 -400 0 1 0 N
-X EN 1 0 0 200 R 50 50 0 0 P
-X IN 2 0 250 200 R 50 50 0 0 P
+S 800 350 250 -400 0 1 0 f
+X EN 1 50 250 200 R 50 50 0 0 P
+X IN 2 50 0 200 R 50 50 0 0 P
 X OUT 3 1000 250 200 L 50 50 0 0 P
-X SS 4 0 -300 200 R 50 50 0 0 P
+X SS 4 50 -300 200 R 50 50 0 0 P
 X GND_1 5 550 -600 200 U 50 50 0 0 P
 X GND_2 6 650 -600 200 U 50 50 0 0 P
 X GND_3 7 1000 -50 200 L 50 50 0 0 P
@@ -3225,7 +3225,7 @@ F5 "1.12" 1050 -200 50 H I L CNN "Height"
 F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
 F7 "MAX809LEUR+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-S 200 100 900 -200 0 1 0 N
+S 200 100 900 -200 0 1 0 f
 X GND 1 500 -400 200 U 50 50 0 0 W
 X ~RESET 2 1100 0 200 L 50 50 0 0 O
 X VCC 3 0 0 200 R 50 50 0 0 W
