@@ -216,6 +216,11 @@ D Panasonic ERA Series Thin Film Surface Mount Resistor 603 Case 357 +/-0.1% 0.1
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
+$CMP ERA3AEB3571V
+D Panasonic ERA Series Thin Film Surface Mount Resistor 603 Case 3.57k +/-0.1% 0.1W +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
 $CMP ERA3AEB4991V
 D 0603 Resistor,3A,0.1W, 25ppm,0.1%,4K99 Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 4.99kOhm  /-0.1% 0.1W  /-25ppm/degC
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
