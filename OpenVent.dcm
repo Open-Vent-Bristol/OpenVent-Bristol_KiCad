@@ -438,6 +438,11 @@ $CMP TLV75512
 D TLV755P 500-mA, Low IQ, Small Size, Low Dropout Regulator 1.2V fixed output, SOT-23 package
 $ENDCMP
 #
+$CMP TPS74801TDRCRQ1
+D Automotive single-output 1.5A LDO regulator, adjustable (0.8V to 3.6V), programmable soft start
+F http://www.ti.com/lit/gpn/tps74801-q1
+$ENDCMP
+#
 $CMP TXB0108
 D 8-bit bidirectional voltage-level translator Texas Instruments, TXB0108PWR TSSOP-20pin
 F https://drive.google.com/file/d/1uqT2R1MUeuGfLez-5x9VQ4JJlC-38b7i/view?usp=sharing
