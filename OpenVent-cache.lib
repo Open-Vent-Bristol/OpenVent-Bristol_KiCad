@@ -424,6 +424,29 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# OpenVent_06035C561JAT2A
+#
+DEF OpenVent_06035C561JAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "OpenVent_06035C561JAT2A" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 560pF X7R 0603 5% Tol" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "AVX" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "06035C561JAT2A" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-06035C561J" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/AVX/06035C561JAT2A?qs=DIGZ1Yxiz28EVG6dfyVxug%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # OpenVent_0R0_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF OpenVent_0R0_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
@@ -1286,34 +1309,6 @@ X GND 8 350 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# OpenVent_ADP1715ARMZ-3.3-R7
-#
-DEF OpenVent_ADP1715ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
-F0 "IC" 950 300 50 H V L CNN
-F1 "OpenVent_ADP1715ARMZ-3.3-R7" 200 450 50 H V L CNN
-F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
-F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf" 950 0 50 H I L CNN
-F4 "Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP" 950 -100 50 H I L CNN "Description"
-F5 "1.1" 950 -200 50 H I L CNN "Height"
-F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "ADP1715ARMZ-3.3-R7" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "584-ADP1715ARMZ3.3R7" 950 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-33-R7/?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "ADP1715ARMZ-3.3-R7" 950 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/adp1715armz-3.3-r7/analog-devices" 950 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-S 800 350 250 -400 0 1 0 f
-X EN 1 50 250 200 R 50 50 0 0 P
-X IN 2 50 0 200 R 50 50 0 0 P
-X OUT 3 1000 250 200 L 50 50 0 0 P
-X SS 4 50 -300 200 R 50 50 0 0 P
-X GND_1 5 550 -600 200 U 50 50 0 0 P
-X GND_2 6 650 -600 200 U 50 50 0 0 P
-X GND_3 7 1000 -50 200 L 50 50 0 0 P
-X GND_4 8 1000 50 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # OpenVent_BAT54XYH
 #
 DEF OpenVent_BAT54XYH D 0 0 Y N 2 F N
@@ -1441,6 +1436,31 @@ A 200 0 50 0 900 1 1 10 N 250 0 199 50
 A 200 0 50 900 1800 1 1 10 N 199 50 150 0
 X 1 1 -250 0 100 R 1 1 0 1 P
 X 2 2 350 0 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_C3216X5R1H475K085AB
+#
+DEF OpenVent_C3216X5R1H475K085AB C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "OpenVent_C3216X5R1H475K085AB" 350 150 50 H V L CNN
+F2 "CAPC3216X100N" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 50V 4.7uF X5R 10% T: 0.85mm" 350 -150 50 H I L CNN "Description"
+F5 "1" 350 -250 50 H I L CNN "Height"
+F6 "TDK" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "C3216X5R1H475K085AB" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-C3216X5R1H475KAB" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/C3216X5R1H475K085AB?qs=6JAMGB%252BEdkzNR1zsPpkbpw%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "C3216X5R1H475K085AB" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/c3216x5r1h475k085ab/tdk" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -1631,6 +1651,42 @@ X IPROPI 6 -500 -1500 100 R 50 50 1 1 P
 X IMODE 7 -500 -1150 100 R 50 50 1 1 P
 X OUT1 8 500 -450 100 L 50 50 1 1 P
 X PGND 9 500 -1200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_ERA3AEB1151V
+#
+DEF OpenVent_ERA3AEB1151V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "OpenVent_ERA3AEB1151V" 550 150 50 H V L CNN
+F2 "ERA3AEB101V" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
+F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 1.15k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERA3AEB1151V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# OpenVent_ERA3AEB3571V
+#
+DEF OpenVent_ERA3AEB3571V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "OpenVent_ERA3AEB3571V" 550 150 50 H V L CNN
+F2 "ERA3AEB101V" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
+F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 603 Case 3.57k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERA3AEB3571V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -2254,6 +2310,36 @@ X V+ 8 400 350 50 D 50 1 1 1 W
 X INB+ 5 0 0 200 R 50 1 2 1 I
 X INB- 6 0 200 200 R 50 1 2 1 I
 X OUTB 7 800 100 200 L 50 1 2 1 O
+ENDDRAW
+ENDDEF
+#
+# OpenVent_TPS74801TDRCRQ1
+#
+DEF OpenVent_TPS74801TDRCRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 400 50 H V L CNN
+F1 "OpenVent_TPS74801TDRCRQ1" 1050 300 50 H V L CNN
+F2 "TPS74901DRCR" 1050 200 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tps74801-q1" 1050 100 50 H I L CNN
+F4 "Automotive single-output 1.5A LDO regulator, adjustable (0.8V to 3.6V), programmable soft start" 1050 0 50 H I L CNN "Description"
+F5 "2" 1050 -100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F7 "TPS74801TDRCRQ1" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS74801TDRCRQ1" 1050 -400 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS74801TDRCRQ1?qs=1WmUhT%2FVMINHu%2FU4w9sjmw%3D%3D" 1050 -500 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS74801TDRCRQ1" 1050 -600 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps74801tdrcrq1/texas-instruments" 1050 -700 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 200 1000 200 1000 -600 200 -600 200 200 f
+X IN_1 1 0 100 200 R 50 50 0 0 P
+X OUT_2 10 1200 -100 200 L 50 50 0 0 P
+X IN_2 2 0 0 200 R 50 50 0 0 P
+X PG 3 1200 100 200 L 50 50 0 0 P
+X BIAS 4 0 -100 200 R 50 50 0 0 P
+X EN 5 0 -300 200 R 50 50 0 0 P
+X GND 6 500 -800 200 U 50 50 0 0 P
+X SS 7 0 -500 200 R 50 50 0 0 P
+X FB 8 1200 -500 200 L 50 50 0 0 P
+X OUT_1 9 1200 -200 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
