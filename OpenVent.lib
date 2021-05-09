@@ -5019,7 +5019,7 @@ F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS74801TDRCRQ1?qs=
 F10 "TPS74801TDRCRQ1" 1050 -600 50 H I L CNN "Arrow Part Number"
 F11 "https://www.arrow.com/en/products/tps74801tdrcrq1/texas-instruments" 1050 -700 50 H I L CNN "Arrow Price/Stock"
 DRAW
-P 5 0 1 6 200 200 1000 200 1000 -600 200 -600 200 200 N
+P 5 0 1 6 200 200 1000 200 1000 -600 200 -600 200 200 f
 X IN_1 1 0 100 200 R 50 50 0 0 P
 X OUT_2 10 1200 -100 200 L 50 50 0 0 P
 X IN_2 2 0 0 200 R 50 50 0 0 P
