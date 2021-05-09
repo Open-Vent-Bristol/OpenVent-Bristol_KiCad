@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 06035C561JAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 560pF X7R 0603 5% Tol
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
 $CMP 10uF_0805_Ceramic_Capacitor_10%_X7R_10V
 D Ceramic Capacitor 10uF 10V X7R 0805
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf
@@ -129,6 +134,11 @@ D Chip Ferrite Bead 75mR 2000mA
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
+$CMP C3216X5R1H475K085AB
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 50V 4.7uF X5R 10% T: 0.85mm
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
 $CMP CONN_HEADER_2.54X2_MOLEX_KK_Series
 D Connector Header Through Hole 2 position 0.100" (2.54mm)
 F https://www.molex.com/webdocs/datasheets/pdf/en-us//0022232021_PCB_HEADERS.pdf
@@ -189,6 +199,26 @@ $ENDCMP
 $CMP DRV8876
 D Motor driver with current sense, 16-Pin HTSSOP
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
+$ENDCMP
+#
+$CMP ERA3AEB1151V
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 1.15k +/-0.1% 0.1W +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP ERA3AEB2491V
+D Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 2.49k +/-0.1% 0.1W +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP ERA3AEB3570V
+D Panasonic ERA Series Thin Film Surface Mount Resistor 603 Case 357 +/-0.1% 0.1W +/-25ppm/C
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP ERA3AEB4991V
+D 0603 Resistor,3A,0.1W, 25ppm,0.1%,4K99 Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 4.99kOhm  /-0.1% 0.1W  /-25ppm/degC
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
 $CMP ESD5Z3.3T1G
