@@ -129,6 +129,11 @@ K L ferrite bead inductor filter
 F https://www.murata.com/en-us/products/productdata/8796743204894/ENFA0008.pdf
 $ENDCMP
 #
+$CMP BLM31KN102SN1L
+D BLM31_N1L Series EMI Suppression Filter 1000+/-25% at 100MHz 2A @85
+F https://www.murata.com/en-us/products/productdetail?partno=BLM31KN102SN1%23
+$ENDCMP
+#
 $CMP BLM31KN10SN1L
 D Chip Ferrite Bead 75mR 2000mA
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
