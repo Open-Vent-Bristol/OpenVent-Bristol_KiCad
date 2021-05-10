@@ -1221,8 +1221,6 @@ F 6 "0.1W" H 3250 2950 50  0001 C CNN "Watt"
 	1    3250 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 3250 0    50   Input ~ 0
-PWR_EN
 Wire Wire Line
 	3550 3050 3700 3050
 $Comp
@@ -1749,17 +1747,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 7200 5000 7200
 Connection ~ 5300 6450
-$Comp
-L OpenVent:V7.5V_IN #PWR0162
-U 1 1 60A27BFC
-P 700 750
-F 0 "#PWR0162" H 700 600 50  0001 C CNN
-F 1 "V7.5V_IN" H 700 923 50  0000 C CNN
-F 2 "" H 700 750 50  0001 C CNN
-F 3 "" H 700 750 50  0001 C CNN
-	1    700  750 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	850  4550 850  4600
 Text Notes 6400 6700 2    50   ~ 0
@@ -2091,9 +2078,6 @@ Wire Wire Line
 Wire Wire Line
 	700  850  850  850 
 Wire Wire Line
-	700  750  700  850 
-Connection ~ 700  850 
-Wire Wire Line
 	6550 1450 6450 1450
 Wire Wire Line
 	6450 1300 6450 1450
@@ -2213,7 +2197,6 @@ $EndComp
 Wire Wire Line
 	6450 1500 6450 1450
 Connection ~ 6450 1450
-Connection ~ 5800 950 
 $Comp
 L OpenVent:+5V_Sensors #PWR?
 U 1 1 60C81774
@@ -2250,33 +2233,6 @@ $EndComp
 Wire Wire Line
 	3650 1500 3650 1450
 Connection ~ 3650 1450
-$Comp
-L OpenVent:V7.5V_IN #PWR?
-U 1 1 60E0217D
-P 5800 850
-F 0 "#PWR?" H 5800 700 50  0001 C CNN
-F 1 "V7.5V_IN" H 5800 1023 50  0000 C CNN
-F 2 "" H 5800 850 50  0001 C CNN
-F 3 "" H 5800 850 50  0001 C CNN
-	1    5800 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 850  5800 950 
-$Comp
-L OpenVent:V7.5V_IN #PWR?
-U 1 1 60E1DD65
-P 2700 850
-F 0 "#PWR?" H 2700 700 50  0001 C CNN
-F 1 "V7.5V_IN" H 2700 1023 50  0000 C CNN
-F 2 "" H 2700 850 50  0001 C CNN
-F 3 "" H 2700 850 50  0001 C CNN
-	1    2700 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 850  2700 950 
-Connection ~ 2700 950 
 $Comp
 L OpenVent:+3.3V #PWR?
 U 1 1 60ABB176
@@ -2846,8 +2802,6 @@ Wire Wire Line
 	8000 800  8000 950 
 Connection ~ 8000 950 
 Wire Wire Line
-	1700 3250 1550 3250
-Wire Wire Line
 	4750 4050 4750 4550
 Wire Wire Line
 	4750 4550 5050 4550
@@ -2923,4 +2877,50 @@ F 11 "https://www.arrow.com/en/products/blm31kn102sn1l/murata-manufacturing" H 9
 	1    8550 3300
 	1    0    0    -1  
 $EndComp
+Text GLabel 1450 3250 0    50   Input ~ 0
+LDO-EN
+Wire Wire Line
+	1450 3250 1700 3250
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 60A299E8
+P 5800 800
+F 0 "#PWR?" H 5800 650 50  0001 C CNN
+F 1 "V7.5V" H 5800 973 50  0000 C CNN
+F 2 "" H 5800 800 50  0001 C CNN
+F 3 "" H 5800 800 50  0001 C CNN
+	1    5800 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 60A29F0E
+P 2700 800
+F 0 "#PWR?" H 2700 650 50  0001 C CNN
+F 1 "V7.5V" H 2700 973 50  0000 C CNN
+F 2 "" H 2700 800 50  0001 C CNN
+F 3 "" H 2700 800 50  0001 C CNN
+	1    2700 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 800  5800 950 
+Connection ~ 5800 950 
+Wire Wire Line
+	2700 800  2700 950 
+Connection ~ 2700 950 
+$Comp
+L OpenVent:V7.5V #PWR?
+U 1 1 60A947BC
+P 700 800
+F 0 "#PWR?" H 700 650 50  0001 C CNN
+F 1 "V7.5V" H 700 973 50  0000 C CNN
+F 2 "" H 700 800 50  0001 C CNN
+F 3 "" H 700 800 50  0001 C CNN
+	1    700  800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  800  700  850 
+Connection ~ 700  850 
 $EndSCHEMATC
