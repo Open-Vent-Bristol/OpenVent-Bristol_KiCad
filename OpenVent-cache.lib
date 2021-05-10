@@ -1289,23 +1289,31 @@ X OSC4 4 -400 100 200 R 50 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_ADP1715ARMZ-1.2-R7
+# OpenVent_ADP1715ARMZ-3.3-R7
 #
-DEF OpenVent_ADP1715ARMZ-1.2-R7 U 0 40 Y Y 1 F N
-F0 "U" 100 600 50 H V C CNN
-F1 "OpenVent_ADP1715ARMZ-1.2-R7" 150 450 50 H V C CNN
-F2 "" -200 -150 50 H I C CNN
-F3 "" -200 -150 50 H I C CNN
+DEF OpenVent_ADP1715ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "OpenVent_ADP1715ARMZ-3.3-R7" 200 450 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf" 950 0 50 H I L CNN
+F4 "Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADP1715ARMZ-3.3-R7" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADP1715ARMZ3.3R7" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP1715ARMZ-33-R7/?qs=WIvQP4zGangwvEjYWS0N2Q%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADP1715ARMZ-3.3-R7" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adp1715armz-3.3-r7/analog-devices" 950 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-S -250 350 250 -350 0 1 10 f
-X EN 1 -350 250 100 R 50 50 1 1 I
-X IN 2 -350 0 100 R 50 50 1 1 W
-X OUT 3 350 200 100 L 50 50 1 1 w
-X SS 4 -350 -250 100 R 50 50 1 1 P
-X GND 5 0 -450 100 U 50 50 1 1 W
-X GND 6 100 -450 100 U 50 50 1 1 W
-X GND 7 350 -100 100 L 50 50 1 1 W
-X GND 8 350 0 100 L 50 50 1 1 W
+S 800 350 250 -400 0 1 0 f
+X EN 1 50 250 200 R 50 50 0 0 P
+X IN 2 50 0 200 R 50 50 0 0 P
+X OUT 3 1000 250 200 L 50 50 0 0 P
+X SS 4 50 -300 200 R 50 50 0 0 P
+X GND_1 5 550 -600 200 U 50 50 0 0 P
+X GND_2 6 650 -600 200 U 50 50 0 0 P
+X GND_3 7 1000 -50 200 L 50 50 0 0 P
+X GND_4 8 1000 50 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -1654,17 +1662,17 @@ X PGND 9 500 -1200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_ERA3AEB1151V
+# OpenVent_ERA3AEB2491V
 #
-DEF OpenVent_ERA3AEB1151V R 0 30 Y Y 1 F N
+DEF OpenVent_ERA3AEB2491V R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "OpenVent_ERA3AEB1151V" 550 150 50 H V L CNN
+F1 "OpenVent_ERA3AEB2491V" 550 150 50 H V L CNN
 F2 "ERA3AEB101V" 550 50 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
-F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 1.15k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 2.49k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
 F5 "0.55" 550 -250 50 H I L CNN "Height"
 F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
-F7 "ERA3AEB1151V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F7 "ERA3AEB2491V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
 P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 X ~ 1 0 0 200 R 50 50 0 0 P
@@ -1672,17 +1680,17 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent_ERA3AEB3571V
+# OpenVent_ERA3AEB4991V
 #
-DEF OpenVent_ERA3AEB3571V R 0 30 Y Y 1 F N
+DEF OpenVent_ERA3AEB4991V R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "OpenVent_ERA3AEB3571V" 550 150 50 H V L CNN
+F1 "OpenVent_ERA3AEB4991V" 550 150 50 H V L CNN
 F2 "ERA3AEB101V" 550 50 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
-F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 603 Case 3.57k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F4 "0603 Resistor,3A,0.1W, 25ppm,0.1%,4K99 Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 4.99kOhm  /-0.1% 0.1W  /-25ppm/degC" 550 -150 50 H I L CNN "Description"
 F5 "0.55" 550 -250 50 H I L CNN "Height"
 F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
-F7 "ERA3AEB3571V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F7 "ERA3AEB4991V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
 P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 X ~ 1 0 0 200 R 50 50 0 0 P
