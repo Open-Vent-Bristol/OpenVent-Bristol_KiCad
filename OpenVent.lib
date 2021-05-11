@@ -2862,6 +2862,27 @@ X IOR5A/PLL_T_IN 73 2150 500 200 L 50 50 6 1 P
 ENDDRAW
 ENDDEF
 #
+# HRG3216P-47R0-B-T1
+#
+DEF HRG3216P-47R0-B-T1 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "HRG3216P-47R0-B-T1" 550 150 50 H V L CNN
+F2 "RESC3216X55N" 550 50 50 H I L CNN
+F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition24_en.pdf" 550 -50 50 H I L CNN
+F4 "RES SMD 47 OHM 0.1% 1W 1206" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Susumu" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "HRG3216P-47R0-B-T1" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "754-HRG3216P47R0BT1" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=754-HRG3216P47R0BT1" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+T 0 350 0 45 0 0 0 "47R 1W" Normal 0 C C
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Kycon_kpjx-4s
 #
 DEF Kycon_kpjx-4s J 0 40 Y Y 1 F N
