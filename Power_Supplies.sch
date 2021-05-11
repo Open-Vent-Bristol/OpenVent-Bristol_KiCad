@@ -882,8 +882,6 @@ Connection ~ 1900 5000
 Wire Wire Line
 	850  5200 1450 5200
 Wire Wire Line
-	1450 4600 850  4600
-Wire Wire Line
 	2950 6700 2950 6550
 Wire Wire Line
 	2950 6800 2950 6950
@@ -1747,8 +1745,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 7200 5000 7200
 Connection ~ 5300 6450
-Wire Wire Line
-	850  4550 850  4600
 Text Notes 6400 6700 2    50   ~ 0
 Power UP LED
 $Comp
@@ -1797,12 +1793,12 @@ Wire Wire Line
 $Comp
 L OpenVent:V_MAIN #PWR0160
 U 1 1 60C8A7AC
-P 850 4550
-F 0 "#PWR0160" H 850 4400 50  0001 C CNN
-F 1 "V_MAIN" H 850 4723 50  0000 C CNN
-F 2 "" H 850 4550 50  0001 C CNN
-F 3 "" H 850 4550 50  0001 C CNN
-	1    850  4550
+P 650 4200
+F 0 "#PWR0160" H 650 4050 50  0001 C CNN
+F 1 "V_MAIN" H 650 4373 50  0000 C CNN
+F 2 "" H 650 4200 50  0001 C CNN
+F 3 "" H 650 4200 50  0001 C CNN
+	1    650  4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2923,4 +2919,27 @@ $EndComp
 Wire Wire Line
 	700  800  700  850 
 Connection ~ 700  850 
+$Comp
+L OpenVent:HRG3216P-47R0-B-T1 R?
+U 1 1 60A949A4
+P 750 4500
+F 0 "R?" H 1100 4725 50  0000 C CNN
+F 1 "HRG3216P-47R0-B-T1" H 1200 4650 50  0000 C CNN
+F 2 "RESC3216X55N" H 1300 4550 50  0001 L CNN
+F 3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition24_en.pdf" H 1300 4450 50  0001 L CNN
+F 4 "RES SMD 47 OHM 0.1% 1W 1206" H 1300 4350 50  0001 L CNN "Description"
+F 5 "0.55" H 1300 4250 50  0001 L CNN "Height"
+F 6 "Susumu" H 1300 4150 50  0001 L CNN "Manufacturer_Name"
+F 7 "HRG3216P-47R0-B-T1" H 1300 4050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "754-HRG3216P47R0BT1" H 1300 3950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=754-HRG3216P47R0BT1" H 1300 3850 50  0001 L CNN "Mouser Price/Stock"
+	1    750  4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4500 1450 4600
+Wire Wire Line
+	750  4500 650  4500
+Wire Wire Line
+	650  4200 650  4500
 $EndSCHEMATC
