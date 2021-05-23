@@ -283,8 +283,6 @@ Wire Wire Line
 	9300 2100 9050 2100
 Text Notes 9500 1250 0    50   ~ 0
 DELTA SIGMA A/D CONVERTER\nFEEDBACK VOLTAGE AND\nREFERENCE VOLTAGE DRIVE
-Wire Wire Line
-	7400 2500 7300 2500
 Text GLabel 9950 4400 2    50   Output ~ 0
 LCD_B_ENABLE
 Wire Wire Line
@@ -1363,10 +1361,6 @@ Text GLabel 7350 4600 0    50   Output ~ 0
 SPK2_EN
 Wire Wire Line
 	7400 2200 7300 2200
-Wire Wire Line
-	7400 2300 7300 2300
-Wire Wire Line
-	7400 2400 7300 2400
 Text GLabel 7350 4400 0    50   Input ~ 0
 SPK2_FLT_N
 Wire Wire Line
@@ -1482,4 +1476,7 @@ Wire Wire Line
 	6600 5400 7350 5400
 Wire Wire Line
 	6600 5300 7250 5300
+NoConn ~ 7400 2500
+NoConn ~ 7400 2400
+NoConn ~ 7400 2300
 $EndSCHEMATC

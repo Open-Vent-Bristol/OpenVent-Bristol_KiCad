@@ -2204,4 +2204,5 @@ F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 4550 6550 50  0001 C CNN
 	1    4550 6550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2625 7000
 $EndSCHEMATC

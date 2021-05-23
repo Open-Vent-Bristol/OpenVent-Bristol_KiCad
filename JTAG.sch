@@ -1088,8 +1088,6 @@ Wire Wire Line
 Connection ~ 10400 5650
 Wire Wire Line
 	10400 5650 10550 5650
-Wire Wire Line
-	800  3700 800  3750
 $Comp
 L OpenVent:74HC244 U19
 U 1 1 606C7E74
@@ -1504,8 +1502,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 2500 6200 3000
 Wire Wire Line
-	5200 2500 5250 2500
-Wire Wire Line
 	1400 2100 2850 2100
 Wire Wire Line
 	1400 850  1400 900 
@@ -1757,7 +1753,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2700 6900 2700
 Connection ~ 6850 2700
-Connection ~ 5250 2500
 Wire Wire Line
 	5250 2500 6200 2500
 Wire Wire Line
@@ -2118,4 +2113,7 @@ F 6 "0.1W" H 7100 3700 50  0001 C CNN "Watt"
 	1    7100 3700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	800  3650 800  3750
+NoConn ~ 5250 5800
 $EndSCHEMATC

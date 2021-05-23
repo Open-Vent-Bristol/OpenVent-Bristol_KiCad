@@ -41,7 +41,7 @@ VBATT-SCALED
 NoConn ~ 1125 2250
 Text GLabel 5850 3500 0    50   Input ~ 0
 MOTOR-CURRENT
-Text Label 1150 6600 0    50   ~ 0
+Text Label 1350 6600 0    50   ~ 0
 ANALOG-SPARE
 $Comp
 L OpenVent:GND #GND_02
@@ -106,7 +106,7 @@ Text GLabel 7800 3200 2    50   Input ~ 0
 PGOOD
 Text GLabel 7800 3100 2    50   Output ~ 0
 CE-CONTROL
-Text Label 4950 1900 0    50   ~ 0
+Text Label 5250 1900 0    50   ~ 0
 ANALOG-SPARE
 $Comp
 L OpenVent:GND #PWR02
@@ -310,10 +310,6 @@ Wire Wire Line
 	7450 3000 7800 3000
 Wire Wire Line
 	7450 2900 7800 2900
-Wire Wire Line
-	7450 2700 7800 2700
-Wire Wire Line
-	7450 2600 7800 2600
 Wire Wire Line
 	7450 2500 7800 2500
 Wire Wire Line
@@ -608,19 +604,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 4600 6050 4600
 Wire Wire Line
-	6050 4700 5900 4700
-Wire Wire Line
-	5900 4800 6050 4800
-Wire Wire Line
-	6050 3400 5850 3400
-Wire Wire Line
 	5850 3500 6050 3500
 Wire Wire Line
 	6050 3600 5850 3600
-Wire Wire Line
-	5850 3700 6050 3700
-Wire Wire Line
-	6050 3800 5850 3800
 Wire Wire Line
 	5850 3900 6050 3900
 Wire Wire Line
@@ -1015,7 +1001,7 @@ F 6 "0.1W" H 9600 2050 50  0001 C CNN "Watt"
 	1    9600 2050
 	0    1    1    0   
 $EndComp
-Text Label 8875 1900 0    50   ~ 0
+Text Label 8750 1900 0    50   ~ 0
 BUZZER_PWM
 Wire Wire Line
 	4950 1800 6050 1800
@@ -1852,4 +1838,19 @@ Wire Wire Line
 Wire Wire Line
 	4900 6800 4900 6700
 Connection ~ 4900 6700
+NoConn ~ 7450 1800
+NoConn ~ 7450 2000
+NoConn ~ 7450 2100
+NoConn ~ 7450 2200
+NoConn ~ 7450 2300
+NoConn ~ 7450 2600
+NoConn ~ 7450 2700
+NoConn ~ 7450 2800
+NoConn ~ 6050 4800
+NoConn ~ 6050 4700
+NoConn ~ 6050 3800
+NoConn ~ 6050 3700
+NoConn ~ 6050 3400
+NoConn ~ 7450 3400
+NoConn ~ 3350 4350
 $EndSCHEMATC
