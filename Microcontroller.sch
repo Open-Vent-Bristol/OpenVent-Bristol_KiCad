@@ -1042,9 +1042,9 @@ L OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP3
 U 1 1 60546722
 P 1100 1000
 F 0 "JP3" H 1293 825 50  0000 C CNN
-F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch" H 1300 1500 50  0001 C CNN
-F 2 "" H 1300 1500 50  0001 C CNN
-F 3 "" H 1300 1500 50  0001 C CNN
+F 1 "Pin_Header,_1x6-Way,_2.54mm_Pitch, Mpn 640456-6" H 1300 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 1300 1500 50  0001 C CNN
+F 3 "https://docs.rs-online.com/1f0b/0900766b813831f6.pdf" H 1300 1500 50  0001 C CNN
 	1    1100 1000
 	-1   0    0    1   
 $EndComp
@@ -1535,7 +1535,7 @@ U 1 1 62A34974
 P 3400 950
 F 0 "CN1" H 3400 950 50  0000 C CNN
 F 1 "2x5_Way_1.27mm_Pitch_Header_MCU" H 3550 250 50  0000 C CNN
-F 2 "" H 3400 950 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Horizontal" H 3400 950 50  0001 C CNN
 F 3 "http://www.cnctech.us/idcmatching2.pdf" H 3400 950 50  0001 C CNN
 	1    3400 950 
 	1    0    0    -1  
