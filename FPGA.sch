@@ -782,8 +782,8 @@ U 1 1 5FD185A9
 P 4700 6750
 F 0 "U14" H 5100 7015 50  0000 C CNN
 F 1 "SiT8008B" H 5100 6924 50  0000 C CNN
-F 2 "" H 4750 7000 50  0001 C CNN
-F 3 "" H 4750 7000 50  0001 C CNN
+F 2 "OpenVent_Footprint_Test:SiT8008B" H 4750 7000 50  0001 C CNN
+F 3 "https://www.sitime.com/products/lvcmos-oscillators/sit8008" H 4750 7000 50  0001 C CNN
 	1    4700 6750
 	1    0    0    -1  
 $EndComp
