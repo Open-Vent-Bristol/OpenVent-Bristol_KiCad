@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name OpenVent)(type KiCad)(uri /home/jeffs/Workspace/HelpfulEngineering/OpenVent-Bristol_KiCad/OpenVent.pretty)(options "")(descr ""))
+  (lib (name OpenVent)(type KiCad)(uri ${KIPRJMOD}/OpenVent.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri /home/jeffs/Workspace/KiCadLibrary/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
 )
