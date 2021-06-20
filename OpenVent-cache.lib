@@ -57,11 +57,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue_GW1N-9LQ100-OpenVent
+# OpenVent-rescue_GW1N-9LQ100-OpenVent-OpenVent-rescue
 #
-DEF OpenVent-rescue_GW1N-9LQ100-OpenVent U 0 40 Y Y 6 L N
+DEF OpenVent-rescue_GW1N-9LQ100-OpenVent-OpenVent-rescue U 0 40 Y Y 6 L N
 F0 "U" -100 250 50 H V C CNN
-F1 "OpenVent-rescue_GW1N-9LQ100-OpenVent" -50 150 50 H V C CNN
+F1 "OpenVent-rescue_GW1N-9LQ100-OpenVent-OpenVent-rescue" -50 150 50 H V C CNN
 F2 "" 3300 -900 50 H I C CNN
 F3 "" 3300 -900 50 H I C CNN
 DRAW
