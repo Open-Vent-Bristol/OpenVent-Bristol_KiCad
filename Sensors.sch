@@ -1083,22 +1083,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 7100 5800 7150
 $Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 61F2C4A7
-P 8800 1500
-AR Path="/601B7AF8/61F2C4A7" Ref="R?"  Part="1" 
-AR Path="/5F8F3873/61F2C4A7" Ref="R38"  Part="1" 
-F 0 "R38" H 8900 1193 50  0000 C CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 8800 1500 50  0001 C CNN
-F 2 "" H 8800 1500 50  0001 C CNN
-F 3 "" H 8800 1500 50  0001 C CNN
-F 4 "100k" H 8900 1284 50  0000 C CNN "Val"
-F 5 "1%" H 8800 1500 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 8800 1500 50  0001 C CNN "Watt"
-	1    8800 1500
-	-1   0    0    1   
-$EndComp
-$Comp
 L OpenVent:GND #PWR?
 U 1 1 61F2C4D6
 P 7250 3700
@@ -2205,4 +2189,22 @@ F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 4550 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2625 7000
+$Comp
+L OpenVent:R_0603_47K_0.1%_0.1W_Film R38
+U 1 1 60EB5CDA
+P 8600 1300
+F 0 "R38" H 8600 1300 50  0000 C CNN
+F 1 "R_0603_47K_0.1%_0.1W_Film" H 8600 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8600 1300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52" H 8600 1300 50  0001 C CNN
+F 4 "47k" H 8800 1300 50  0000 C CNN "Val"
+F 5 "0.1%" H 8700 1100 50  0000 C CNN "Tolerance"
+F 6 "0.1W" H 8600 1300 50  0001 C CNN "Watt"
+F 7 "KOA Speer Electronics, Inc." H 8600 1300 50  0001 C CNN "Mfr"
+F 8 "RN73H1JTTD4702B25" H 8600 1300 50  0001 C CNN "Mfr_PN"
+F 9 "RES 47K OHM 0.1% 1/10W 0603" H 8600 1300 50  0001 C CNN "Desc"
+F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film" H 8600 1300 50  0001 C CNN "Detailed"
+	1    8600 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
