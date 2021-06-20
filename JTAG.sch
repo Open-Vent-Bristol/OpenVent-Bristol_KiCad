@@ -959,7 +959,7 @@ Connection ~ 10100 5550
 Wire Wire Line
 	9800 5100 9800 5450
 $Comp
-L OpenVent-rescue:GW1N-9LQ100-OpenVent U?
+L OpenVent-rescue:GW1N-9LQ100-OpenVent-OpenVent-rescue U?
 U 2 1 6073BAD7
 P 8950 5350
 AR Path="/5FBE8499/6073BAD7" Ref="U?"  Part="2" 
