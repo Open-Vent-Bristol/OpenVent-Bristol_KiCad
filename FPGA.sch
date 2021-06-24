@@ -38,45 +38,6 @@ $EndComp
 Text Notes 4775 7125 0    50   ~ 0
 33.554432 MHz
 $Comp
-L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R19
-U 1 1 5FD4D09C
-P 5800 2550
-F 0 "R19" H 5900 2243 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 5800 2550 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 2550 50  0001 C CNN
-F 3 "" H 5800 2550 50  0001 C CNN
-F 4 "2k4" H 5900 2334 50  0000 C CNN "Val"
-F 5 "1%" H 5800 2550 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 5800 2550 50  0001 C CNN "Watt"
-	1    5800 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:2k4_0603_Chip_Resistor,_1%,_0.1W R20
-U 1 1 5FD4E271
-P 6400 2500
-F 0 "R20" H 6500 2500 50  0000 C CNN
-F 1 "2k4_0603_Chip_Resistor,_1%,_0.1W" H 6400 2500 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 2500 50  0001 C CNN
-F 3 "" H 6400 2500 50  0001 C CNN
-F 4 "2k4" H 6500 2575 50  0000 C CNN "Val"
-F 5 "1%" H 6400 2500 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 6400 2500 50  0001 C CNN "Watt"
-	1    6400 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenVent:3V3 #PWR031
-U 1 1 5FD519F4
-P 5900 2250
-F 0 "#PWR031" H 5900 2100 50  0001 C CNN
-F 1 "3V3" H 5900 2423 50  0000 C CNN
-F 2 "" H 5900 2250 50  0001 C CNN
-F 3 "" H 5900 2250 50  0001 C CNN
-	1    5900 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R41
 U 1 1 5FE91BCD
 P 4250 6650
@@ -163,17 +124,15 @@ Text GLabel 6425 2600 0    50   Output ~ 0
 I2C_SCL
 Text GLabel 5800 2700 0    50   BiDi ~ 0
 I2C_SDA
-Wire Wire Line
-	6425 2600 6500 2600
 $Comp
 L OpenVent:3V3 #PWR066
 U 1 1 602573F8
-P 6500 2200
-F 0 "#PWR066" H 6500 2050 50  0001 C CNN
-F 1 "3V3" H 6500 2373 50  0000 C CNN
-F 2 "" H 6500 2200 50  0001 C CNN
-F 3 "" H 6500 2200 50  0001 C CNN
-	1    6500 2200
+P 6500 2150
+F 0 "#PWR066" H 6500 2000 50  0001 C CNN
+F 1 "3V3" H 6500 2323 50  0000 C CNN
+F 2 "" H 6500 2150 50  0001 C CNN
+F 3 "" H 6500 2150 50  0001 C CNN
+	1    6500 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -266,7 +225,6 @@ Wire Wire Line
 	1800 3650 2250 3650
 Text Notes 2000 5000 0    75   ~ 15
 SIGMA DELTA A/D CONVERTER INPUTS
-Connection ~ 6500 2600
 Wire Wire Line
 	9050 1400 9300 1400
 Wire Wire Line
@@ -759,8 +717,6 @@ $EndComp
 Connection ~ 2150 3950
 Wire Wire Line
 	5900 2700 7400 2700
-Wire Wire Line
-	6500 2600 7400 2600
 $Comp
 L OpenVent-rescue:GW1N-9LQ100-OpenVent-OpenVent-rescue U8
 U 4 1 60544613
@@ -1485,4 +1441,52 @@ Wire Wire Line
 NoConn ~ 7400 2500
 NoConn ~ 7400 2400
 NoConn ~ 7400 2300
+$Comp
+L OpenVent:4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS R19
+U 1 1 60D7788E
+P 5800 2550
+F 0 "R19" V 5654 2720 50  0000 L CNN
+F 1 "4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS" H 5800 2550 50  0001 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 60  0001 C CNN
+F 4 "4k7" V 5745 2720 50  0000 L CNN "Val"
+F 5 "1%" H 5800 2550 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 5800 2550 50  0001 C CNN "Watt"
+	1    5800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS R20
+U 1 1 60D787FD
+P 6400 2250
+F 0 "R20" V 6346 2280 50  0000 R CNN
+F 1 "4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS" H 6400 2250 50  0001 C CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 60  0001 C CNN
+F 4 "4k7" V 6255 2280 50  0000 R CNN "Val"
+F 5 "1%" H 6400 2250 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6400 2250 50  0001 C CNN "Watt"
+	1    6400 2250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6425 2600 6500 2600
+Wire Wire Line
+	6500 2550 6500 2600
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 2600 7400 2600
+$Comp
+L OpenVent:3V3 #PWR031
+U 1 1 5FD519F4
+P 5900 2200
+F 0 "#PWR031" H 5900 2050 50  0001 C CNN
+F 1 "3V3" H 5900 2373 50  0000 C CNN
+F 2 "" H 5900 2200 50  0001 C CNN
+F 3 "" H 5900 2200 50  0001 C CNN
+	1    5900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2250 5900 2200
 $EndSCHEMATC
