@@ -236,6 +236,10 @@ D TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Direc
 F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
 $ENDCMP
 #
+$CMP ESD5Z5.0T1G
+F http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF
+$ENDCMP
+#
 $CMP HRG3216P-47R0-B-T1
 D RES SMD 47 OHM 0.1% 1W 1206
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition24_en.pdf
