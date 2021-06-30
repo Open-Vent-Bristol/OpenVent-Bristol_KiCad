@@ -2356,6 +2356,28 @@ X ~ 2 600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# ESD5Z5.0T1G
+#
+DEF ESD5Z5.0T1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "ESD5Z5.0T1G" 450 100 50 H V L CNN
+F2 "SODFL1608X70N" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 450 -100 50 H I L CNN
+F4 "0.7" 450 -300 50 H I L CNN "Height"
+F5 "ON Semiconductor" 450 -400 50 H I L CNN "Manufacturer_Name"
+F6 "ESD5Z5.0T1G" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F7 "863-ESD5Z5.0T1G" 450 -600 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z50T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F9 "ESD5Z5.0T1G" 450 -800 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/esd5z5.0t1g/on-semiconductor" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # FSV20100V
 #
 DEF FSV20100V D 0 40 Y Y 1 F N
