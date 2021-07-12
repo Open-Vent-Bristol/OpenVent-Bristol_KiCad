@@ -45,6 +45,11 @@ D CAP CER 22UF 10V X7R 1206
 F http://www.calchipelectronics.com/pdf/gmc_series.pdf
 $ENDCMP
 #
+$CMP 2N7000
+D N-channel MOSFET,2N7000 0.2A 60V
+F http://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
 $CMP 2x5_Way_1.27mm_Pitch_Header
 F http://www.cnctech.us/idcmatching2.pdf
 $ENDCMP
