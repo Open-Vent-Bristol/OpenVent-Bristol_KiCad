@@ -694,9 +694,6 @@ Wire Wire Line
 	8650 5300 8650 4800
 Text Label 8200 5300 2    50   ~ 0
 FAN_DRIVE
-Wire Wire Line
-	1500 1700 3000 1700
-Connection ~ 1500 1700
 Connection ~ 3550 1700
 $Comp
 L OV_Power-rescue:1K_0603_Chip_Resistor,_1%,_0.1W-OpenVent R27
@@ -794,7 +791,6 @@ Wire Wire Line
 	2800 3800 3000 3800
 Wire Wire Line
 	3000 3800 3000 1700
-Connection ~ 3000 1700
 Wire Wire Line
 	3000 1700 3150 1700
 Wire Wire Line
@@ -812,4 +808,27 @@ Text Notes 4300 6500 0    50   ~ 0
 SW_BACKUP
 Text Notes 4300 6600 0    50   ~ 0
 SW_HOME
+$Comp
+L OV_Power-rescue:Polyfuse_10A-OpenVent F2
+U 1 1 60ED2B74
+P 2150 1700
+F 0 "F2" V 2465 1700 50  0000 C CNN
+F 1 "Polyfuse_10A-OpenVent" V 2250 1700 50  0001 C CNN
+F 2 "" H 2200 1500 50  0001 L CNN
+F 3 "" H 2150 1700 50  0001 C CNN
+F 4 "Littelfuse Inc." H 2150 1700 50  0001 C CNN "Mfr"
+F 5 "16R1000GMR" H 2150 1700 50  0001 C CNN "Mfr_PN"
+F 6 "PTC RESET FUSE 16V 10A RADIAL" H 2150 1700 50  0001 C CNN "Desc"
+F 7 "Polymeric PTC Resettable Fuse 16V 10A Ih Through Hole Radial, Disc" H 2150 1700 50  0001 C CNN "Detailed"
+F 8 "10A" V 2374 1700 50  0000 C CNN "Current"
+F 9 "16V" V 2283 1700 50  0000 C CNN "Voltage"
+	1    2150 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 1700 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	2000 1700 1500 1700
+Connection ~ 1500 1700
 $EndSCHEMATC
