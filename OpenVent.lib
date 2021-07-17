@@ -346,6 +346,23 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 133k_0603_Chip_Resistor,_1%,_0.1W
+#
+DEF 133k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
+F0 "R" -50 140 50 H V L BNN
+F1 "133k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -220 340 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+F4 "133k" 0 90 50 H V C CNN "Val"
+F5 "1%" -40 -190 50 H I C CNN "Tolerance"
+F6 "0.1W" 600 90 50 H I C CNN "Watt"
+DRAW
+S -100 40 100 -40 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+X 2 2 200 0 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # 15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V
 #
 DEF 15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C 0 40 Y Y 1 F N
@@ -415,17 +432,17 @@ ENDDEF
 # 18k_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF 18k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
-F0 "R" 50 40 50 H V L BNN
-F1 "18k_0603_Chip_Resistor,_1%,_0.1W" -70 -400 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -120 240 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "18k" 100 -10 50 H V C CNN "Val"
-F5 "1%" 60 -290 50 H I C CNN "Tolerance"
-F6 "0.1W" 700 -10 50 H I C CNN "Watt"
+F0 "R" -50 140 50 H V L BNN
+F1 "18k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -220 340 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+F4 "18k" 0 90 50 H V C CNN "Val"
+F5 "1%" -40 -190 50 H I C CNN "Tolerance"
+F6 "0.1W" 600 90 50 H I C CNN "Watt"
 DRAW
-S 0 -60 200 -140 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
+S -100 40 100 -40 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+X 2 2 200 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3908,25 +3925,6 @@ F1 "R_0603_113k_0.1W_1%" 0 0 50 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "113k" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H I C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-S 0 -60 200 -140 0 1 10 f
-S 200 -140 0 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# R_0603_133K_0.1W_1%
-#
-DEF R_0603_133K_0.1W_1% R 0 40 Y Y 1 F N
-F0 "R" -60 -100 50 H V L BNN
-F1 "R_0603_133K_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "133K" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
 F6 "0.1W" 0 0 50 H I C CNN "Watt"
 DRAW
