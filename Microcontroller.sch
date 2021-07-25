@@ -39,8 +39,6 @@ $EndComp
 Text GLabel 5850 3600 0    50   Input ~ 0
 VBATT-SCALED
 NoConn ~ 1125 2250
-Text GLabel 5850 3500 0    50   Input ~ 0
-MOTOR-CURRENT
 Text Label 1500 6150 0    50   ~ 0
 ANALOG-SPARE
 $Comp
@@ -597,8 +595,6 @@ Wire Wire Line
 	6050 4500 5900 4500
 Wire Wire Line
 	5900 4600 6050 4600
-Wire Wire Line
-	5850 3500 6050 3500
 Wire Wire Line
 	6050 3600 5850 3600
 Wire Wire Line
