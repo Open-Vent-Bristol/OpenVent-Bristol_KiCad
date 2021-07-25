@@ -708,4 +708,6 @@ Wire Wire Line
 	8600 3950 8500 3950
 Wire Wire Line
 	8500 3950 8500 4500
+Text Notes 6200 2050 0    50   ~ 0
+This resistor need to be 1.3K for 3v @15amp\naccording to the given equation
 $EndSCHEMATC
