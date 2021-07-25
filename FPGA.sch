@@ -1563,4 +1563,16 @@ Wire Wire Line
 Wire Wire Line
 	9750 3600 9850 3600
 Connection ~ 9850 3600
+Text GLabel 7150 2350 0    50   Input ~ 0
+AD_VREF
+Text GLabel 7300 2500 0    50   Input ~ 0
+MOTOR-CURRENT
+Wire Wire Line
+	7400 2500 7300 2500
+Wire Wire Line
+	7150 2350 7200 2350
+Wire Wire Line
+	7200 2350 7200 2400
+Wire Wire Line
+	7200 2400 7400 2400
 $EndSCHEMATC
