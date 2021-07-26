@@ -1178,7 +1178,7 @@ U 1 1 60722C2F
 P 1400 4100
 F 0 "CN2" H 1743 4683 60  0000 C CNN
 F 1 "CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" H 1743 4789 60  0001 C CNN
-F 2 "" H 1600 4600 60  0001 C CNN
+F 2 "OpenVent_Footprint_Test:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" H 1600 4600 60  0001 C CNN
 F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND" H 1743 4683 60  0001 C CNN
 	1    1400 4100
 	-1   0    0    -1  
@@ -1444,8 +1444,8 @@ U 1 1 619EEB0D
 P 9500 4650
 F 0 "SW1" H 9500 4800 50  0000 C CNN
 F 1 "Switch_PB" H 9500 4550 50  0000 C CNN
-F 2 "" H 10050 5100 50  0001 C CNN
-F 3 "" H 10050 5100 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 10050 5100 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 10050 5100 50  0001 C CNN
 	1    9500 4650
 	1    0    0    -1  
 $EndComp

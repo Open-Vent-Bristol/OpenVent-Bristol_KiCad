@@ -747,7 +747,7 @@ U 1 1 603F84CE
 P 1350 6000
 F 0 "CN3" H 1593 6475 50  0000 C CNN
 F 1 "CONN_HEADER_SMD_4POS_2MM" H 1650 5800 50  0001 C CNN
-F 2 "" H 1550 6400 50  0001 C CNN
+F 2 "OpenVent_Footprint_Test:SMT_4pos_2mm" H 1550 6400 50  0001 C CNN
 F 3 "" H 1550 6400 50  0001 C CNN
 	1    1350 6000
 	-1   0    0    -1  
@@ -758,7 +758,7 @@ U 1 1 603F977D
 P 1250 1300
 F 0 "CN4" H 1493 1775 50  0000 C CNN
 F 1 "CONN_HEADER_SMD_4POS_2MM" H 1550 1100 50  0001 C CNN
-F 2 "" H 1450 1700 50  0001 C CNN
+F 2 "OpenVent_Footprint_Test:SMT_4pos_2mm" H 1450 1700 50  0001 C CNN
 F 3 "" H 1450 1700 50  0001 C CNN
 	1    1250 1300
 	-1   0    0    -1  
@@ -1481,8 +1481,8 @@ AR Path="/601B7AF8/61F2C66D" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C66D" Ref="TP3"  Part="1" 
 F 0 "TP3" H 9620 2700 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 2700 50  0001 C CNN
-F 2 "" H 9950 2700 50  0001 C CNN
-F 3 "" H 9950 2700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 2700 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 2700 50  0001 C CNN
 	1    9950 2700
 	-1   0    0    1   
 $EndComp
@@ -1494,8 +1494,8 @@ AR Path="/601B7AF8/61F2C673" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C673" Ref="TP4"  Part="1" 
 F 0 "TP4" H 9620 3350 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 3350 50  0001 C CNN
-F 2 "" H 9950 3350 50  0001 C CNN
-F 3 "" H 9950 3350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 3350 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 3350 50  0001 C CNN
 	1    9950 3350
 	-1   0    0    1   
 $EndComp
@@ -1507,8 +1507,8 @@ AR Path="/601B7AF8/61F2C679" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C679" Ref="TP5"  Part="1" 
 F 0 "TP5" H 9620 4000 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 4000 50  0001 C CNN
-F 2 "" H 9950 4000 50  0001 C CNN
-F 3 "" H 9950 4000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 4000 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 4000 50  0001 C CNN
 	1    9950 4000
 	-1   0    0    1   
 $EndComp
@@ -1520,8 +1520,8 @@ AR Path="/601B7AF8/61F2C67F" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C67F" Ref="TP6"  Part="1" 
 F 0 "TP6" H 9620 4650 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 4650 50  0001 C CNN
-F 2 "" H 9950 4650 50  0001 C CNN
-F 3 "" H 9950 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 4650 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 4650 50  0001 C CNN
 	1    9950 4650
 	-1   0    0    1   
 $EndComp
@@ -1533,8 +1533,8 @@ AR Path="/601B7AF8/61F2C685" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C685" Ref="TP7"  Part="1" 
 F 0 "TP7" H 9620 5300 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 5300 50  0001 C CNN
-F 2 "" H 9950 5300 50  0001 C CNN
-F 3 "" H 9950 5300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 5300 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 5300 50  0001 C CNN
 	1    9950 5300
 	-1   0    0    1   
 $EndComp
@@ -1546,8 +1546,8 @@ AR Path="/601B7AF8/61F2C68B" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C68B" Ref="TP10"  Part="1" 
 F 0 "TP10" H 9620 5950 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 5950 50  0001 C CNN
-F 2 "" H 9950 5950 50  0001 C CNN
-F 3 "" H 9950 5950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 5950 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9950 5950 50  0001 C CNN
 	1    9950 5950
 	-1   0    0    1   
 $EndComp
@@ -1601,8 +1601,8 @@ AR Path="/601B7AF8/61F2C6A9" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C6A9" Ref="TP1"  Part="1" 
 F 0 "TP1" V 9057 1430 50  0000 L CNN
 F 1 "Test_Point_PTH" H 9200 1350 50  0001 C CNN
-F 2 "" H 9200 1350 50  0001 C CNN
-F 3 "" H 9200 1350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9200 1350 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/62443.pdf" H 9200 1350 50  0001 C CNN
 	1    9200 1350
 	0    1    1    0   
 $EndComp
@@ -1690,8 +1690,8 @@ AR Path="/601B7AF8/61F2C6F4" Ref="TP?"  Part="1"
 AR Path="/5F8F3873/61F2C6F4" Ref="TP2"  Part="1" 
 F 0 "TP2" H 9620 2150 50  0000 R CNN
 F 1 "Test_Point_PTH" H 9950 2150 50  0001 C CNN
-F 2 "" H 9950 2150 50  0001 C CNN
-F 3 "" H 9950 2150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 9950 2150 50  0001 C CNN
+F 3 "Mellisa added" H 9950 2150 50  0001 C CNN
 	1    9950 2150
 	-1   0    0    1   
 $EndComp

@@ -19,7 +19,7 @@ U 1 1 5F8DD18A
 P 1400 3350
 F 0 "CN5" H 1800 3900 60  0000 L BNN
 F 1 "CONN_RCPT_USB2.0_MINI_B_SMD_R_A" H 1400 3350 60  0001 C CNN
-F 2 "" H 1400 3350 60  0001 C CNN
+F 2 "OpenVent_Footprint_Test:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" H 1400 3350 60  0001 C CNN
 F 3 "" H 1400 3350 60  0001 C CNN
 	1    1400 3350
 	-1   0    0    -1  
@@ -1173,7 +1173,7 @@ U 1 1 6090E286
 P 9550 1150
 F 0 "U18" V 9650 700 50  0000 R CNN
 F 1 "3_position_header" V 9750 1200 50  0000 R CNN
-F 2 "" H 9550 1150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9550 1150 50  0001 C CNN
 F 3 "" H 9550 1150 50  0001 C CNN
 	1    9550 1150
 	0    -1   -1   0   
@@ -1522,7 +1522,7 @@ AR Path="/5F8F8987/62A12D35" Ref="CN6"  Part="1"
 AR Path="/5F988182/62A12D35" Ref="CN?"  Part="1" 
 F 0 "CN6" H 10000 3500 50  0000 C CNN
 F 1 "2x5_Way_1.27mm_Pitch_Header" H 9750 2800 50  0000 C CNN
-F 2 "" H 10000 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 10000 3500 50  0001 C CNN
 F 3 "http://www.cnctech.us/idcmatching2.pdf" H 10000 3500 50  0001 C CNN
 	1    10000 3500
 	1    0    0    -1  
@@ -1594,7 +1594,7 @@ U 1 1 6317ACAF
 P 6300 3800
 F 0 "U13" V 6400 3350 50  0000 R CNN
 F 1 "3_position_header" V 6500 3850 50  0000 R CNN
-F 2 "" H 6300 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6300 3800 50  0001 C CNN
 F 3 "" H 6300 3800 50  0001 C CNN
 	1    6300 3800
 	0    -1   -1   0   
@@ -1774,7 +1774,7 @@ U 1 1 607DF927
 P 5450 6250
 F 0 "U9" V 5550 5800 50  0000 R CNN
 F 1 "3_position_header" V 5650 6300 50  0000 R CNN
-F 2 "" H 5450 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5450 6250 50  0001 C CNN
 F 3 "" H 5450 6250 50  0001 C CNN
 	1    5450 6250
 	0    -1   -1   0   

@@ -294,8 +294,8 @@ AR Path="/6053AF87" Ref="U8"  Part="6"
 AR Path="/5F8F894A/6053AF87" Ref="U8"  Part="6" 
 F 0 "U8" H 8600 4400 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 8600 4300 50  0000 C CNN
-F 2 "" H 11900 3300 50  0001 C CNN
-F 3 "" H 11900 3300 50  0001 C CNN
+F 2 "Package_QFP:TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm" H 11900 3300 50  0001 C CNN
+F 3 "https://www.gowinsemi.com/en/product/detail/2/" H 11900 3300 50  0001 C CNN
 	6    8600 4200
 	1    0    0    -1  
 $EndComp
@@ -641,8 +641,8 @@ AR Path="/5F8F894A/605DEC3D" Ref="U8"  Part="1"
 AR Path="/605DEC3D" Ref="U?"  Part="1" 
 F 0 "U8" H 3025 1415 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 3025 1324 50  0000 C CNN
-F 2 "" H 6300 350 50  0001 C CNN
-F 3 "" H 6300 350 50  0001 C CNN
+F 2 "Package_QFP:TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm" H 6300 350 50  0001 C CNN
+F 3 "https://www.gowinsemi.com/en/product/detail/2/" H 6300 350 50  0001 C CNN
 	1    3000 1250
 	1    0    0    -1  
 $EndComp
@@ -721,8 +721,8 @@ AR Path="/60544613" Ref="U8"  Part="4"
 AR Path="/5F8F894A/60544613" Ref="U8"  Part="4" 
 F 0 "U8" H 2350 3450 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 3550 3450 50  0000 C CNN
-F 2 "" H 6400 2450 50  0001 C CNN
-F 3 "" H 6400 2450 50  0001 C CNN
+F 2 "Package_QFP:TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm" H 6400 2450 50  0001 C CNN
+F 3 "https://www.gowinsemi.com/en/product/detail/2/" H 6400 2450 50  0001 C CNN
 	4    3100 3350
 	1    0    0    -1  
 $EndComp
@@ -757,8 +757,8 @@ AR Path="/6054191D" Ref="U8"  Part="5"
 AR Path="/5F8F894A/6054191D" Ref="U8"  Part="5" 
 F 0 "U8" H 8158 1548 50  0000 C CNN
 F 1 "GW1N-9LQ100" H 8158 1457 50  0000 C CNN
-F 2 "" H 11500 400 50  0001 C CNN
-F 3 "" H 11500 400 50  0001 C CNN
+F 2 "Package_QFP:TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm" H 11500 400 50  0001 C CNN
+F 3 "https://www.gowinsemi.com/en/product/detail/2/" H 11500 400 50  0001 C CNN
 	5    8200 1300
 	1    0    0    -1  
 $EndComp
