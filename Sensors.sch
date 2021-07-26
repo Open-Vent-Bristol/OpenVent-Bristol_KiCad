@@ -306,20 +306,6 @@ F 9 "IC OPAMP ZERO-DRIFT 2 CIRC 8SOIC" H 5400 6950 50  0001 C CNN "Desc"
 	1    5400 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L OpenVent:215k_0603_Chip_Resistor,_1%,_0.1W R37
-U 1 1 5F8DD09B
-P 3200 1500
-F 0 "R37" H 3200 1450 50  0000 L BNN
-F 1 "215k_0603_Chip_Resistor,_1%,_0.1W" H 3200 1250 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 1160 60  0001 C CNN
-F 3 "" H 3200 1160 60  0001 C CNN
-F 4 "1%" V 1200 -2800 50  0001 C CNN "Tolerance"
-F 5 "215k" H 3300 1300 50  0000 C CNN "Val"
-F 6 "0.1W" H 3200 1500 50  0001 C CNN "Watt"
-	1    3200 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 6250 4900 6250
 $Comp
@@ -512,20 +498,6 @@ F 4 "330nF" H 5500 5900 50  0000 C CNN "Val"
 F 5 "16V" H 5750 5900 50  0000 C CNN "Voltage"
 F 6 "10%" H 5650 5850 50  0001 C CNN "Tolerance"
 	1    5650 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenVent:18k_0603_Chip_Resistor,_1%,_0.1W R27
-U 1 1 5FF283BF
-P 3100 950
-F 0 "R27" H 3200 1057 50  0000 C CNN
-F 1 "18k_0603_Chip_Resistor,_1%,_0.1W" H 3030 550 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2980 1190 50  0001 C CNN
-F 3 "" H 3100 950 50  0001 C CNN
-F 4 "18k" H 3200 966 50  0000 C CNN "Val"
-F 5 "1%" H 3160 660 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 3800 940 50  0001 C CNN "Watt"
-	1    3100 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -867,8 +839,6 @@ F 3 "" H 2550 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 1700 2550 1500
-Wire Wire Line
-	2950 1050 3000 1050
 Connection ~ 3900 1050
 Wire Wire Line
 	4200 1050 3900 1050
@@ -876,24 +846,6 @@ Wire Wire Line
 	3900 1050 3900 750 
 Wire Wire Line
 	3900 1050 3900 1400
-Wire Wire Line
-	3400 1050 3450 1050
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R32
-U 1 1 5FF27B3E
-P 3550 950
-F 0 "R32" H 3650 1057 50  0000 C CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 3550 950 50  0001 C CNN
-F 2 "" H 3550 950 50  0001 C CNN
-F 3 "" H 3550 950 50  0001 C CNN
-F 4 "100k" H 3650 966 50  0000 C CNN "Val"
-F 5 "1%" H 3550 950 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 3550 950 50  0001 C CNN "Watt"
-	1    3550 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 1050 3900 1050
 Connection ~ 5000 6950
 Wire Wire Line
 	5000 6950 5400 6950
@@ -1082,22 +1034,6 @@ Wire Wire Line
 	5800 6550 5800 6600
 Wire Wire Line
 	5800 7100 5800 7150
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 61F2C4A7
-P 8800 1500
-AR Path="/601B7AF8/61F2C4A7" Ref="R?"  Part="1" 
-AR Path="/5F8F3873/61F2C4A7" Ref="R38"  Part="1" 
-F 0 "R38" H 8900 1193 50  0000 C CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 8800 1500 50  0001 C CNN
-F 2 "" H 8800 1500 50  0001 C CNN
-F 3 "" H 8800 1500 50  0001 C CNN
-F 4 "100k" H 8900 1284 50  0000 C CNN "Val"
-F 5 "1%" H 8800 1500 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 8800 1500 50  0001 C CNN "Watt"
-	1    8800 1500
-	-1   0    0    1   
-$EndComp
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 61F2C4D6
@@ -2205,4 +2141,54 @@ F 3 "http://www.farnell.com/datasheets/2695416.pdf" H 4550 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2625 7000
+$Comp
+L OpenVent:R_0603_47K_0.1%_0.1W_Film R38
+U 1 1 60EB5CDA
+P 8600 1300
+F 0 "R38" H 8600 1300 50  0000 C CNN
+F 1 "R_0603_47K_0.1%_0.1W_Film" H 8600 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8600 1300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52" H 8600 1300 50  0001 C CNN
+F 4 "47k" H 8800 1300 50  0000 C CNN "Val"
+F 5 "0.1%" H 8700 1100 50  0000 C CNN "Tolerance"
+F 6 "0.1W" H 8600 1300 50  0001 C CNN "Watt"
+F 7 "KOA Speer Electronics, Inc." H 8600 1300 50  0001 C CNN "Mfr"
+F 8 "RN73H1JTTD4702B25" H 8600 1300 50  0001 C CNN "Mfr_PN"
+F 9 "RES 47K OHM 0.1% 1/10W 0603" H 8600 1300 50  0001 C CNN "Desc"
+F 10 "47 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Metal Film" H 8600 1300 50  0001 C CNN "Detailed"
+	1    8600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:133k_0603_Chip_Resistor,_1%,_0.1W R37
+U 1 1 60FC5F82
+P 3300 1600
+F 0 "R37" H 3300 1807 50  0000 C CNN
+F 1 "133k_0603_Chip_Resistor,_1%,_0.1W" H 3130 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3080 1940 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+F 4 "133k" H 3300 1716 50  0000 C CNN "Val"
+F 5 "1%" H 3260 1410 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 3900 1690 50  0001 C CNN "Watt"
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:133k_0603_Chip_Resistor,_1%,_0.1W R27
+U 1 1 6100D46A
+P 3500 1050
+F 0 "R27" H 3500 1257 50  0000 C CNN
+F 1 "133k_0603_Chip_Resistor,_1%,_0.1W" H 3330 750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3280 1390 50  0001 C CNN
+F 3 "" H 3400 1150 50  0001 C CNN
+F 4 "133k" H 3500 1166 50  0000 C CNN "Val"
+F 5 "1%" H 3460 860 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 4100 1140 50  0001 C CNN "Watt"
+	1    3500 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1050 3900 1050
+Wire Wire Line
+	2950 1050 3300 1050
 $EndSCHEMATC

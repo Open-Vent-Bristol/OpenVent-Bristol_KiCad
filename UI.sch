@@ -90,34 +90,6 @@ F 3 "" H 9350 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W R28
-U 1 1 607725C7
-P 9500 5500
-F 0 "R28" H 9600 5607 50  0000 C CNN
-F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 9500 5500 50  0001 C CNN
-F 2 "" H 9500 5500 50  0001 C CNN
-F 3 "" H 9500 5500 50  0001 C CNN
-F 4 "47k" H 9600 5516 50  0000 C CNN "Val"
-F 5 "1%" H 9500 5500 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9500 5500 50  0001 C CNN "Watt"
-	1    9500 5500
-	1    0    0    1   
-$EndComp
-$Comp
-L OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W R26
-U 1 1 60774C7C
-P 9500 5100
-F 0 "R26" V 9554 5070 50  0000 L CNN
-F 1 "47k_0603_Chip_Resistor,_1%,_0.1W" H 9500 5100 50  0001 C CNN
-F 2 "" H 9500 5100 50  0001 C CNN
-F 3 "" H 9500 5100 50  0001 C CNN
-F 4 "47k" V 9645 5070 50  0000 L CNN "Val"
-F 5 "1%" H 9500 5100 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 9500 5100 50  0001 C CNN "Watt"
-	1    9500 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:GND #PWR052
 U 1 1 60741EE3
 P 8050 5050
@@ -1511,23 +1483,6 @@ Wire Wire Line
 Text GLabel 1425 4450 0    50   Input ~ 0
 LED_SERIAL_DRV
 $Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 60872B66
-P 1250 4950
-AR Path="/601A5838/60872B66" Ref="R?"  Part="1" 
-AR Path="/5FCA4074/60872B66" Ref="R11"  Part="1" 
-AR Path="/6092237A/60872B66" Ref="R?"  Part="1" 
-F 0 "R11" H 1200 4750 50  0000 L CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 1250 4950 50  0001 C CNN
-F 2 "" H 1250 4950 50  0001 C CNN
-F 3 "" H 1250 4950 50  0001 C CNN
-F 4 "100k" H 1350 4750 50  0000 L CNN "Val"
-F 5 "1%" H 1250 4950 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 1250 4950 50  0001 C CNN "Watt"
-	1    1250 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenVent:GND #GND_?
 U 1 1 60872B6C
 P 1100 5100
@@ -1637,23 +1592,6 @@ Wire Wire Line
 	2350 4150 4150 4150
 Wire Wire Line
 	2350 4300 3300 4300
-$Comp
-L OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R?
-U 1 1 6103ABEF
-P 1350 7250
-AR Path="/601A5838/6103ABEF" Ref="R?"  Part="1" 
-AR Path="/5FCA4074/6103ABEF" Ref="R12"  Part="1" 
-AR Path="/6092237A/6103ABEF" Ref="R?"  Part="1" 
-F 0 "R12" H 1300 7050 50  0000 L CNN
-F 1 "100K_0603_Chip_Resistor,_1%,_0.1W" H 1350 7250 50  0001 C CNN
-F 2 "" H 1350 7250 50  0001 C CNN
-F 3 "" H 1350 7250 50  0001 C CNN
-F 4 "100k" H 1450 7050 50  0000 L CNN "Val"
-F 5 "1%" H 1350 7250 50  0001 C CNN "Tolerance"
-F 6 "0.1W" H 1350 7250 50  0001 C CNN "Watt"
-	1    1350 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 7400 1200 7350
 Wire Wire Line
@@ -2248,4 +2186,60 @@ Wire Wire Line
 Connection ~ 1450 1200
 Wire Wire Line
 	1450 1200 1550 1200
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R11
+U 1 1 60D5AD28
+P 1250 4950
+F 0 "R11" H 1350 5057 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 1250 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1250 4950 60  0001 C CNN
+F 3 "" H 1250 4950 60  0001 C CNN
+F 4 "1K" H 1350 4966 50  0000 C CNN "Val"
+F 5 "1%" H 1250 4950 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1250 4950 50  0001 C CNN "Watt"
+	1    1250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R12
+U 1 1 60D97DC9
+P 1350 7250
+F 0 "R12" H 1450 6943 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 1350 7250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1350 7250 60  0001 C CNN
+F 3 "" H 1350 7250 60  0001 C CNN
+F 4 "1K" H 1450 7034 50  0000 C CNN "Val"
+F 5 "1%" H 1350 7250 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 1350 7250 50  0001 C CNN "Watt"
+	1    1350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R26
+U 1 1 60DF36EF
+P 9500 5100
+F 0 "R26" H 9600 5207 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9500 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9500 5100 60  0001 C CNN
+F 3 "" H 9500 5100 60  0001 C CNN
+F 4 "1K" H 9600 5116 50  0000 C CNN "Val"
+F 5 "1%" H 9500 5100 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9500 5100 50  0001 C CNN "Watt"
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R28
+U 1 1 60DF4821
+P 9500 5300
+F 0 "R28" H 9600 4993 50  0000 C CNN
+F 1 "1K_0603_Chip_Resistor,_1%,_0.1W" H 9500 5300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9500 5300 60  0001 C CNN
+F 3 "" H 9500 5300 60  0001 C CNN
+F 4 "1K" H 9600 5084 50  0000 C CNN "Val"
+F 5 "1%" H 9500 5300 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 9500 5300 50  0001 C CNN "Watt"
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

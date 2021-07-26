@@ -346,6 +346,23 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# 133k_0603_Chip_Resistor,_1%,_0.1W
+#
+DEF 133k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
+F0 "R" -50 140 50 H V L BNN
+F1 "133k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -220 340 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+F4 "133k" 0 90 50 H V C CNN "Val"
+F5 "1%" -40 -190 50 H I C CNN "Tolerance"
+F6 "0.1W" 600 90 50 H I C CNN "Watt"
+DRAW
+S -100 40 100 -40 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+X 2 2 200 0 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # 15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V
 #
 DEF 15pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C 0 40 Y Y 1 F N
@@ -415,17 +432,17 @@ ENDDEF
 # 18k_0603_Chip_Resistor,_1%,_0.1W
 #
 DEF 18k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
-F0 "R" 50 40 50 H V L BNN
-F1 "18k_0603_Chip_Resistor,_1%,_0.1W" -70 -400 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -120 240 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "18k" 100 -10 50 H V C CNN "Val"
-F5 "1%" 60 -290 50 H I C CNN "Tolerance"
-F6 "0.1W" 700 -10 50 H I C CNN "Watt"
+F0 "R" -50 140 50 H V L BNN
+F1 "18k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -220 340 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+F4 "18k" 0 90 50 H V C CNN "Val"
+F5 "1%" -40 -190 50 H I C CNN "Tolerance"
+F6 "0.1W" 600 90 50 H I C CNN "Watt"
 DRAW
-S 0 -60 200 -140 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
+S -100 40 100 -40 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+X 2 2 200 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -676,6 +693,38 @@ P 2 0 1 10 70 -20 70 -180 N
 P 2 0 1 10 100 -100 70 -100 N
 X 1 1 -100 -100 100 R 1 1 0 1 P
 X 2 2 200 -100 100 L 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
+# 2N7000
+#
+DEF 2N7000 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "2N7000" 450 50 50 H V L CNN
+F2 "TO-92_(TO-226)" 450 -50 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 450 -150 50 H I L CNN
+F4 "N-channel MOSFET,2N7000 0.2A 60V" 450 -250 50 H I L CNN "Description"
+F5 "ON Semiconductor" 450 -450 50 H I L CNN "Manufacturer_Name"
+F6 "2N7000" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F7 "512-2N7000" 450 -650 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/2N7000?qs=FOlmdCx%252BAA2o%2FKZOTk%2F3hg%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F9 "2N7000" 450 -850 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/2n7000/on-semiconductor" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+X ~ 1 300 -200 100 U 50 50 0 0 I
+X ~ 2 0 0 100 R 50 50 0 0 I
+X ~ 3 300 400 100 D 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
@@ -2356,6 +2405,28 @@ X ~ 2 600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# ESD5Z5.0T1G
+#
+DEF ESD5Z5.0T1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "ESD5Z5.0T1G" 450 100 50 H V L CNN
+F2 "SODFL1608X70N" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 450 -100 50 H I L CNN
+F4 "0.7" 450 -300 50 H I L CNN "Height"
+F5 "ON Semiconductor" 450 -400 50 H I L CNN "Manufacturer_Name"
+F6 "ESD5Z5.0T1G" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F7 "863-ESD5Z5.0T1G" 450 -600 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/ESD5Z50T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F9 "ESD5Z5.0T1G" 450 -800 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/esd5z5.0t1g/on-semiconductor" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # FSV20100V
 #
 DEF FSV20100V D 0 40 Y Y 1 F N
@@ -3865,25 +3936,6 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0603_133K_0.1W_1%
-#
-DEF R_0603_133K_0.1W_1% R 0 40 Y Y 1 F N
-F0 "R" -60 -100 50 H V L BNN
-F1 "R_0603_133K_0.1W_1%" 0 0 50 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "133K" 0 0 50 H V C CNN "Val"
-F5 "1%" 0 0 50 H I C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-S 0 -60 200 -140 0 1 10 f
-S 200 -140 0 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # R_0603_169K_0.1W_1%
 #
 DEF R_0603_169K_0.1W_1% R 0 40 Y Y 1 F N
@@ -5341,6 +5393,31 @@ S -50 -100 100 -300 0 1 0 N
 P 5 0 1 0 100 -100 200 0 200 -400 100 -300 100 -250 N
 X 1 1 -150 -150 100 R 50 50 1 1 P
 X 2 2 -150 -250 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZVN4206A
+#
+DEF ZVN4206A Q 0 40 Y Y 1 F N
+F0 "Q" 200 0 50 H V C CNN
+F1 "ZVN4206A" 300 150 50 H V C CNN
+F2 "" 550 -300 50 H I C CNN
+F3 "" 550 -300 50 H I C CNN
+DRAW
+C -50 100 150 1 1 10 N
+P 2 1 1 6 -70 -20 -70 20 N
+P 2 1 1 6 -70 0 0 0 N
+P 2 1 1 6 -70 80 -70 120 N
+P 2 1 1 6 -70 220 -70 180 N
+P 2 1 1 6 0 100 -70 100 N
+P 2 1 1 6 0 100 0 -100 N
+P 2 1 1 6 0 200 -70 200 N
+P 2 1 1 6 0 200 0 300 N
+P 3 1 1 6 -200 0 -100 0 -100 200 N
+P 4 1 1 10 -70 100 -30 120 -30 80 -70 100 F
+X ~ 1 0 -200 100 U 50 50 1 1 I
+X ~ 2 -300 0 100 R 50 50 1 1 I
+X ~ 3 0 400 100 D 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
