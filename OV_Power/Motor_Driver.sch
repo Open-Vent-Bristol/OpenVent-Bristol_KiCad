@@ -446,12 +446,12 @@ Wire Wire Line
 $Comp
 L OV_Power-rescue:GND-OpenVent #GND_014
 U 1 1 5FD604CE
-P 6550 2650
-F 0 "#GND_014" H 6550 2650 20  0001 C CNN
-F 1 "GND" H 6550 2580 50  0001 C CNN
-F 2 "" H 6550 2650 70  0000 C CNN
-F 3 "" H 6550 2650 70  0000 C CNN
-	1    6550 2650
+P 6550 2950
+F 0 "#GND_014" H 6550 2950 20  0001 C CNN
+F 1 "GND" H 6550 2880 50  0001 C CNN
+F 2 "" H 6550 2950 70  0000 C CNN
+F 3 "" H 6550 2950 70  0000 C CNN
+	1    6550 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -459,37 +459,19 @@ Wire Wire Line
 Wire Wire Line
 	6550 2150 6550 2200
 Wire Wire Line
-	6550 2600 6550 2650
+	6550 2900 6550 2950
 Text GLabel 6750 2150 2    50   Output ~ 0
 MOTOR_CURRENT
 Wire Wire Line
 	6750 2150 6550 2150
 Connection ~ 6550 2150
 Text Notes 7300 3050 0    50   ~ 0
-MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 150mV, so Vout = 150mV* (2740/100) which is 4.11V.\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
+MOTOR CURRENT MEASUREMENT:\nMotor current is proportional to the voltage developed across R22.  This is\nVOUT.  VOUT = voltage across R21 * (R22/R20).  Adjust the voltage span\n(and therefore the current measurement range) by fine tuning R22.  Note\nthat the value for R21 will allow accurate current measurement up to\nmore than 15A before U3 input saturates.  As an example, for the values given,\nif motor current is 10.0A, Vsense (R21) is 150mV, so Vout = 150mV* (1300/100) which is 1.95V.\nAt 15Amp Vout = 3v\nMaximum current is 12.25A @ 5V output.\nAdjust value of R22 to change current measurement span.
 Wire Wire Line
 	6100 1150 6550 1150
 Wire Wire Line
 	6550 1150 6550 1250
 Connection ~ 6100 1150
-$Comp
-L OV_Power-rescue:R_0603_2k74_0.1W_0.1%-OpenVent R22
-U 1 1 5FD3A248
-P 6650 2300
-F 0 "R22" V 6659 2270 50  0000 L CNN
-F 1 "R_0603_2k74_0.1W_0.1%" H 6650 2300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 2300 60  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 6650 2300 60  0001 C CNN
-F 4 "2k74" V 6750 2270 50  0000 L CNN "Val"
-F 5 "0.1%" V 6841 2270 50  0000 L CNN "Tolerance"
-F 6 "0.1W" H 6650 2300 50  0001 C CNN "Watt"
-F 7 "Yageo" H 6650 2300 50  0001 C CNN "Mfr"
-F 8 "RT0603BRE072K74L" H 6650 2300 50  0001 C CNN "Mfr_PN"
-F 9 "RES SMD 2.74KOHM 0.1% 1/10W 0603" H 6650 2300 50  0001 C CNN "Desc"
-F 10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" H 6650 2300 50  0001 C CNN "Detailed"
-	1    6650 2300
-	0    1    1    0   
-$EndComp
 $Comp
 L OV_Power-rescue:R_2512_15m_cursense-OpenVent R21
 U 1 1 5FD98E9C
@@ -708,6 +690,21 @@ Wire Wire Line
 	8600 3950 8500 3950
 Wire Wire Line
 	8500 3950 8500 4500
-Text Notes 6200 2050 0    50   ~ 0
-This resistor need to be 1.3K for 3v @15amp\naccording to the given equation
+$Comp
+L OV_Power-rescue:1.3K-0.1% R22
+U 1 1 6108DB1C
+P 6550 2200
+F 0 "R22" V 6854 2288 50  0000 L CNN
+F 1 "1.3K-0.1%" V 6945 2288 50  0000 L CNN
+F 2 "RESC1608X55N" H 7100 2250 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1786775.pdf" H 7100 2150 50  0001 L CNN
+F 4 "TE CONNECTIVITY - CPF0603B1K3E1 - RES, THIN FILM, 1K3, 0.1%, 0.063W, 0603" H 7100 2050 50  0001 L CNN "Description"
+F 5 "0.55" H 7100 1950 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 7100 1850 50  0001 L CNN "Manufacturer_Name"
+F 7 "CPF0603B1K3E1" H 7100 1750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "279-CPF0603B1K3E1" H 7100 1650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CPF0603B1K3E1" H 7100 1550 50  0001 L CNN "Mouser Price/Stock"
+	1    6550 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
