@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# OV_Power-rescue_1.3K-0.1%
+#
+DEF OV_Power-rescue_1.3K-0.1% R 0 30 Y Y 1 F N
+F0 "R" 200 100 50 H V L CNN
+F1 "OV_Power-rescue_1.3K-0.1%" 200 -100 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1786775.pdf" 550 -50 50 H I L CNN
+F4 "TE CONNECTIVITY - CPF0603B1K3E1 - RES, THIN FILM, 1K3, 0.1%, 0.063W, 0603" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "TE Connectivity" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CPF0603B1K3E1" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "279-CPF0603B1K3E1" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CPF0603B1K3E1" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent
 #
 DEF OV_Power-rescue_1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C 0 40 Y Y 1 F N
@@ -1036,29 +1056,6 @@ F3 "" 0 0 60 H I C CNN
 F4 "24k9" 0 0 50 H V C CNN "Val"
 F5 "1%" 0 0 50 H I C CNN "Tolerance"
 F6 "0.1W" 0 0 50 H I C CNN "Watt"
-DRAW
-S 0 -140 200 -60 0 1 10 f
-S 0 -60 200 -140 0 1 10 f
-S 200 -140 0 -60 0 1 10 f
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
-# OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent
-#
-DEF OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent R 0 40 Y Y 1 F N
-F0 "R" -60 -100 50 H V L BNN
-F1 "OV_Power-rescue_R_0603_2k74_0.1W_0.1%-OpenVent" 0 0 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "2k74" 0 0 50 H V C CNN "Val"
-F5 "0.1%" 0 0 50 H V C CNN "Tolerance"
-F6 "0.1W" 0 0 50 H I C CNN "Watt"
-F7 "Yageo" 0 0 50 H I C CNN "Mfr"
-F8 "RT0603BRE072K74L" 0 0 50 H I C CNN "Mfr_PN"
-F9 "RES SMD 2.74KOHM 0.1% 1/10W 0603" 0 0 50 H I C CNN "Desc"
-F10 "2.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" 0 0 50 H I C CNN "Detailed"
 DRAW
 S 0 -140 200 -60 0 1 10 f
 S 0 -60 200 -140 0 1 10 f
