@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1.3K-0.1%
+D TE CONNECTIVITY - CPF0603B1K3E1 - RES, THIN FILM, 1K3, 0.1%, 0.063W, 0603
+F http://www.farnell.com/datasheets/1786775.pdf
+$ENDCMP
+#
 #End Doc Library
