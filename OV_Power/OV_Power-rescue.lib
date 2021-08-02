@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1.3K-0.1%
+#
+DEF 1.3K-0.1% R 0 30 Y Y 1 F N
+F0 "R" 200 100 50 H V L CNN
+F1 "1.3K-0.1%" 200 -100 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1786775.pdf" 550 -50 50 H I L CNN
+F4 "TE CONNECTIVITY - CPF0603B1K3E1 - RES, THIN FILM, 1K3, 0.1%, 0.063W, 0603" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "TE Connectivity" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CPF0603B1K3E1" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "279-CPF0603B1K3E1" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=279-CPF0603B1K3E1" 550 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # 1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent
 #
 DEF 1000uF_25V_Aluminium_SMD_Capacitor,_20%-OpenVent C 0 40 Y Y 1 F N
