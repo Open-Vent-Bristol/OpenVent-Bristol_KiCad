@@ -934,4 +934,8 @@ Text Notes 5850 4750 1    50   ~ 10
 3.3V BANK!!
 Text Notes 5750 2700 0    50   ~ 10
 2.5V BANK!!
+Wire Wire Line
+	6150 5950 6150 6000
+Wire Wire Line
+	5550 5950 6150 5950
 $EndSCHEMATC
