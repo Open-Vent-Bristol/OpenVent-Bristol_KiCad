@@ -1,0 +1,1787 @@
+EESchema Schematic File Version 4
+LIBS:OpenVent-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OVB_Microsemi:M2GL010-TQ144 U?
+U 9 1 61AB69B7
+P 4650 4150
+AR Path="/5F8F894A/61AB69B7" Ref="U?"  Part="9" 
+AR Path="/61A795A0/61AB69B7" Ref="U?"  Part="9" 
+F 0 "U?" H 4625 4215 50  0000 C CNN
+F 1 "M2GL010-TQ144" H 4625 4124 50  0000 C CNN
+F 2 "" H 4650 4150 50  0001 C CNN
+F 3 "" H 4650 4150 50  0001 C CNN
+	9    4650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L OVB_Microsemi:M2GL010-TQ144 U?
+U 8 1 61AB69B0
+P 4600 1300
+AR Path="/5F8F894A/61AB69B0" Ref="U?"  Part="8" 
+AR Path="/61A795A0/61AB69B0" Ref="U?"  Part="8" 
+F 0 "U?" H 4625 1365 50  0000 C CNN
+F 1 "M2GL010-TQ144" H 4625 1274 50  0000 C CNN
+F 2 "" H 4600 1300 50  0001 C CNN
+F 3 "" H 4600 1300 50  0001 C CNN
+	8    4600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1500 5450 1500
+Wire Wire Line
+	5250 2200 5450 2200
+Wire Wire Line
+	5450 2200 5450 2100
+Connection ~ 5450 1500
+Wire Wire Line
+	5250 2100 5450 2100
+Connection ~ 5450 2100
+Wire Wire Line
+	5450 2100 5450 2000
+Wire Wire Line
+	5250 1600 5450 1600
+Connection ~ 5450 1600
+Wire Wire Line
+	5450 1600 5450 1500
+Wire Wire Line
+	5250 1700 5450 1700
+Connection ~ 5450 1700
+Wire Wire Line
+	5450 1700 5450 1600
+Wire Wire Line
+	5250 1800 5450 1800
+Connection ~ 5450 1800
+Wire Wire Line
+	5450 1800 5450 1700
+Wire Wire Line
+	5250 1900 5450 1900
+Connection ~ 5450 1900
+Wire Wire Line
+	5450 1900 5450 1800
+Wire Wire Line
+	5250 2000 5450 2000
+Connection ~ 5450 2000
+Wire Wire Line
+	5450 2000 5450 1900
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61AE722A
+P 6050 1750
+F 0 "C?" V 6000 1700 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6050 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 1750 50  0001 C CNN
+F 3 "" H 6050 1750 50  0001 C CNN
+F 4 "10nF" V 6200 1700 50  0000 L CNN "Val"
+F 5 "50V" H 6050 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 6050 1750 50  0001 C CNN "Tolerance"
+	1    6050 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61AE7335
+P 6350 1750
+F 0 "C?" V 6300 1700 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6350 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 1750 50  0001 C CNN
+F 3 "" H 6350 1750 50  0001 C CNN
+F 4 "10nF" V 6500 1700 50  0000 L CNN "Val"
+F 5 "50V" H 6350 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 6350 1750 50  0001 C CNN "Tolerance"
+	1    6350 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61AE89FB
+P 6650 1750
+F 0 "C?" V 6600 1700 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6650 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 1750 50  0001 C CNN
+F 3 "" H 6650 1750 50  0001 C CNN
+F 4 "10nF" V 6800 1700 50  0000 L CNN "Val"
+F 5 "50V" H 6650 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 6650 1750 50  0001 C CNN "Tolerance"
+	1    6650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61AEA0C6
+P 6950 1750
+F 0 "C?" V 6900 1700 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6950 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 1750 50  0001 C CNN
+F 3 "" H 6950 1750 50  0001 C CNN
+F 4 "10nF" V 7100 1700 50  0000 L CNN "Val"
+F 5 "50V" H 6950 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 6950 1750 50  0001 C CNN "Tolerance"
+	1    6950 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBB82
+P 7250 1750
+AR Path="/5F8F894A/61AEBB82" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBB82" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBB82" Ref="C?"  Part="1" 
+F 0 "C?" V 7200 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7250 1750 50  0001 C CNN
+F 2 "" H 7250 1750 50  0001 C CNN
+F 3 "" H 7250 1750 50  0001 C CNN
+F 4 "100nF" V 7400 1700 50  0000 L CNN "Val"
+F 5 "25V" H 7250 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 7250 1750 50  0001 C CNN "Tolerance"
+	1    7250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBD21
+P 7600 1750
+AR Path="/5F8F894A/61AEBD21" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBD21" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBD21" Ref="C?"  Part="1" 
+F 0 "C?" V 7550 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7600 1750 50  0001 C CNN
+F 2 "" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+F 4 "100nF" V 7750 1700 50  0000 L CNN "Val"
+F 5 "25V" H 7600 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 7600 1750 50  0001 C CNN "Tolerance"
+	1    7600 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBD73
+P 7950 1750
+AR Path="/5F8F894A/61AEBD73" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBD73" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBD73" Ref="C?"  Part="1" 
+F 0 "C?" V 7900 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7950 1750 50  0001 C CNN
+F 2 "" H 7950 1750 50  0001 C CNN
+F 3 "" H 7950 1750 50  0001 C CNN
+F 4 "100nF" V 8100 1700 50  0000 L CNN "Val"
+F 5 "25V" H 7950 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 7950 1750 50  0001 C CNN "Tolerance"
+	1    7950 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBDC7
+P 8300 1750
+AR Path="/5F8F894A/61AEBDC7" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBDC7" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBDC7" Ref="C?"  Part="1" 
+F 0 "C?" V 8250 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8300 1750 50  0001 C CNN
+F 2 "" H 8300 1750 50  0001 C CNN
+F 3 "" H 8300 1750 50  0001 C CNN
+F 4 "100nF" V 8450 1700 50  0000 L CNN "Val"
+F 5 "25V" H 8300 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 8300 1750 50  0001 C CNN "Tolerance"
+	1    8300 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBE51
+P 8650 1750
+AR Path="/5F8F894A/61AEBE51" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBE51" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBE51" Ref="C?"  Part="1" 
+F 0 "C?" V 8600 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8650 1750 50  0001 C CNN
+F 2 "" H 8650 1750 50  0001 C CNN
+F 3 "" H 8650 1750 50  0001 C CNN
+F 4 "100nF" V 8800 1700 50  0000 L CNN "Val"
+F 5 "25V" H 8650 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 8650 1750 50  0001 C CNN "Tolerance"
+	1    8650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBEA1
+P 9000 1750
+AR Path="/5F8F894A/61AEBEA1" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBEA1" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBEA1" Ref="C?"  Part="1" 
+F 0 "C?" V 8950 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 9000 1750 50  0001 C CNN
+F 2 "" H 9000 1750 50  0001 C CNN
+F 3 "" H 9000 1750 50  0001 C CNN
+F 4 "100nF" V 9150 1700 50  0000 L CNN "Val"
+F 5 "25V" H 9000 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 9000 1750 50  0001 C CNN "Tolerance"
+	1    9000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBEF9
+P 9350 1750
+AR Path="/5F8F894A/61AEBEF9" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBEF9" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBEF9" Ref="C?"  Part="1" 
+F 0 "C?" V 9300 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 9350 1750 50  0001 C CNN
+F 2 "" H 9350 1750 50  0001 C CNN
+F 3 "" H 9350 1750 50  0001 C CNN
+F 4 "100nF" V 9500 1700 50  0000 L CNN "Val"
+F 5 "25V" H 9350 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 9350 1750 50  0001 C CNN "Tolerance"
+	1    9350 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61AEBF57
+P 9700 1750
+AR Path="/5F8F894A/61AEBF57" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61AEBF57" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61AEBF57" Ref="C?"  Part="1" 
+F 0 "C?" V 9650 1700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 9700 1750 50  0001 C CNN
+F 2 "" H 9700 1750 50  0001 C CNN
+F 3 "" H 9700 1750 50  0001 C CNN
+F 4 "100nF" V 9850 1700 50  0000 L CNN "Val"
+F 5 "25V" H 9700 1750 50  0001 C CNN "Voltage"
+F 6 "10%" H 9700 1750 50  0001 C CNN "Tolerance"
+	1    9700 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 1500 9600 1650
+Wire Wire Line
+	5450 1500 5950 1500
+Wire Wire Line
+	9250 1500 9250 1650
+Wire Wire Line
+	8900 1500 8900 1650
+Wire Wire Line
+	8550 1650 8550 1500
+Wire Wire Line
+	8200 1650 8200 1500
+Wire Wire Line
+	7850 1650 7850 1500
+Wire Wire Line
+	7500 1650 7500 1500
+Wire Wire Line
+	7150 1650 7150 1500
+Wire Wire Line
+	6850 1650 6850 1500
+Wire Wire Line
+	6550 1650 6550 1500
+Wire Wire Line
+	6250 1650 6250 1500
+Wire Wire Line
+	5950 1650 5950 1500
+Wire Wire Line
+	9600 1500 9250 1500
+Connection ~ 5950 1500
+Connection ~ 6250 1500
+Wire Wire Line
+	6250 1500 5950 1500
+Connection ~ 6550 1500
+Wire Wire Line
+	6550 1500 6250 1500
+Connection ~ 6850 1500
+Wire Wire Line
+	6850 1500 6550 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 6850 1500
+Connection ~ 7500 1500
+Wire Wire Line
+	7500 1500 7150 1500
+Connection ~ 7850 1500
+Wire Wire Line
+	7850 1500 7500 1500
+Connection ~ 8200 1500
+Wire Wire Line
+	8200 1500 7850 1500
+Connection ~ 8550 1500
+Wire Wire Line
+	8550 1500 8200 1500
+Connection ~ 8900 1500
+Wire Wire Line
+	8900 1500 8550 1500
+Connection ~ 9250 1500
+Wire Wire Line
+	9250 1500 8900 1500
+Wire Wire Line
+	5950 1950 5950 2050
+Wire Wire Line
+	5950 2050 6250 2050
+Wire Wire Line
+	9600 2050 9600 1950
+Wire Wire Line
+	9250 1950 9250 2050
+Connection ~ 9250 2050
+Wire Wire Line
+	9250 2050 9600 2050
+Wire Wire Line
+	8900 1950 8900 2050
+Connection ~ 8900 2050
+Wire Wire Line
+	8900 2050 9250 2050
+Connection ~ 8550 2050
+Wire Wire Line
+	8550 2050 8900 2050
+Wire Wire Line
+	8200 1950 8200 2050
+Connection ~ 8200 2050
+Wire Wire Line
+	8200 2050 8550 2050
+Wire Wire Line
+	7850 1950 7850 2050
+Connection ~ 7850 2050
+Wire Wire Line
+	7850 2050 8200 2050
+Wire Wire Line
+	7500 1950 7500 2050
+Connection ~ 7500 2050
+Wire Wire Line
+	7500 2050 7850 2050
+Wire Wire Line
+	7150 1950 7150 2050
+Connection ~ 7150 2050
+Wire Wire Line
+	7150 2050 7500 2050
+Wire Wire Line
+	6850 1950 6850 2050
+Connection ~ 6850 2050
+Wire Wire Line
+	6850 2050 7150 2050
+Wire Wire Line
+	6550 1950 6550 2050
+Connection ~ 6550 2050
+Wire Wire Line
+	6550 2050 6850 2050
+Wire Wire Line
+	6250 1950 6250 2050
+Connection ~ 6250 2050
+Wire Wire Line
+	6250 2050 6550 2050
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61B47966
+P 9950 2100
+AR Path="/5F8F8987/61B47966" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61B47966" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61B47966" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61B47966" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61B47966" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9950 1850 50  0001 C CNN
+F 1 "GND" H 9950 1950 50  0001 C CNN
+F 2 "" H 9950 2100 50  0001 C CNN
+F 3 "" H 9950 2100 50  0001 C CNN
+	1    9950 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 2050
+Connection ~ 9600 1500
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61B5114E
+P 10050 1750
+AR Path="/5F8F8987/61B5114E" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61B5114E" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61B5114E" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61B5114E" Ref="C?"  Part="1" 
+F 0 "C?" V 10000 1700 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 10050 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10050 1750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 10050 1750 50  0001 C CNN
+F 4 "10uF" V 10200 1700 50  0000 L CNN "Val"
+F 5 "10V" V 10191 1760 50  0001 L CNN "Voltage"
+F 6 "10%" H 10050 1750 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 10050 1750 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 10050 1750 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 10050 1750 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 10050 1750 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 10050 1750 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 10050 1750 50  0001 C CNN "Dist_PN"
+	1    10050 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 1500 9950 1500
+Wire Wire Line
+	9950 1500 9950 1650
+Wire Wire Line
+	9600 2050 9950 2050
+Wire Wire Line
+	9950 2050 9950 1950
+Wire Wire Line
+	9950 1450 9950 1500
+Connection ~ 9950 1500
+Wire Wire Line
+	9950 2050 9950 2100
+Connection ~ 9950 2050
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61B629FD
+P 6650 2850
+AR Path="/5F8F894A/61B629FD" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61B629FD" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61B629FD" Ref="C?"  Part="1" 
+F 0 "C?" V 6600 2800 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 6650 2850 50  0001 C CNN
+F 2 "" H 6650 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+F 4 "100nF" V 6800 2800 50  0000 L CNN "Val"
+F 5 "25V" H 6650 2850 50  0001 C CNN "Voltage"
+F 6 "10%" H 6650 2850 50  0001 C CNN "Tolerance"
+	1    6650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61B62A07
+P 7000 2850
+AR Path="/5F8F894A/61B62A07" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61B62A07" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61B62A07" Ref="C?"  Part="1" 
+F 0 "C?" V 6950 2800 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 7000 2850 50  0001 C CNN
+F 2 "" H 7000 2850 50  0001 C CNN
+F 3 "" H 7000 2850 50  0001 C CNN
+F 4 "100nF" V 7150 2800 50  0000 L CNN "Val"
+F 5 "25V" H 7000 2850 50  0001 C CNN "Voltage"
+F 6 "10%" H 7000 2850 50  0001 C CNN "Tolerance"
+	1    7000 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2600 6900 2750
+Wire Wire Line
+	6550 2600 6550 2750
+Wire Wire Line
+	6900 2600 6550 2600
+Connection ~ 6550 2600
+Wire Wire Line
+	6900 3150 6900 3050
+Wire Wire Line
+	6550 3050 6550 3150
+Connection ~ 6550 3150
+Wire Wire Line
+	6550 3150 6900 3150
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61B62A18
+P 7250 3200
+AR Path="/5F8F8987/61B62A18" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61B62A18" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61B62A18" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61B62A18" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61B62A18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7250 2950 50  0001 C CNN
+F 1 "GND" H 7250 3050 50  0001 C CNN
+F 2 "" H 7250 3200 50  0001 C CNN
+F 3 "" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3150
+Connection ~ 6900 2600
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61B62A20
+P 7250 2550
+F 0 "#PWR?" H 7250 2400 50  0001 C CNN
+F 1 "+3.3V" H 7250 2724 50  0000 C CNN
+F 2 "" H 7250 2550 50  0001 C CNN
+F 3 "" H 7250 2550 50  0001 C CNN
+	1    7250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61B62A2F
+P 7350 2850
+AR Path="/5F8F8987/61B62A2F" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61B62A2F" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61B62A2F" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61B62A2F" Ref="C?"  Part="1" 
+F 0 "C?" V 7300 2800 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 7350 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7350 2850 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 7350 2850 50  0001 C CNN
+F 4 "10uF" V 7500 2800 50  0000 L CNN "Val"
+F 5 "10V" V 7491 2860 50  0001 L CNN "Voltage"
+F 6 "10%" H 7350 2850 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 7350 2850 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 7350 2850 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 7350 2850 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 7350 2850 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 7350 2850 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 7350 2850 50  0001 C CNN "Dist_PN"
+	1    7350 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2600 7250 2600
+Wire Wire Line
+	7250 2600 7250 2750
+Wire Wire Line
+	6900 3150 7250 3150
+Wire Wire Line
+	7250 3150 7250 3050
+Wire Wire Line
+	7250 2550 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 3150 7250 3200
+Connection ~ 7250 3150
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61B681D0
+P 6350 2850
+F 0 "C?" V 6300 2800 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6350 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 2850 50  0001 C CNN
+F 3 "" H 6350 2850 50  0001 C CNN
+F 4 "10nF" V 6500 2800 50  0000 L CNN "Val"
+F 5 "50V" H 6350 2850 50  0001 C CNN "Voltage"
+F 6 "10%" H 6350 2850 50  0001 C CNN "Tolerance"
+	1    6350 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61B68238
+P 6050 2850
+F 0 "C?" V 6000 2800 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 6050 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6050 2850 50  0001 C CNN
+F 3 "" H 6050 2850 50  0001 C CNN
+F 4 "10nF" V 6200 2800 50  0000 L CNN "Val"
+F 5 "50V" H 6050 2850 50  0001 C CNN "Voltage"
+F 6 "10%" H 6050 2850 50  0001 C CNN "Tolerance"
+	1    6050 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2750 6250 2600
+Connection ~ 6250 2600
+Wire Wire Line
+	6250 2600 6550 2600
+Wire Wire Line
+	5950 2600 5950 2750
+Wire Wire Line
+	5950 2600 6250 2600
+Wire Wire Line
+	5950 3050 5950 3150
+Wire Wire Line
+	5950 3150 6250 3150
+Wire Wire Line
+	6250 3050 6250 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 3150 6550 3150
+Wire Wire Line
+	5250 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 2900
+Wire Wire Line
+	5450 2600 5250 2600
+Wire Wire Line
+	5250 2700 5450 2700
+Connection ~ 5450 2700
+Wire Wire Line
+	5450 2700 5450 2600
+Wire Wire Line
+	5450 2800 5250 2800
+Connection ~ 5450 2800
+Wire Wire Line
+	5450 2800 5450 2700
+Wire Wire Line
+	5250 2900 5450 2900
+Connection ~ 5450 2900
+Wire Wire Line
+	5450 2900 5450 2800
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61BA0F59
+P 5700 2400
+AR Path="/5F8F8987/61BA0F59" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61BA0F59" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61BA0F59" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61BA0F59" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61BA0F59" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 2150 50  0001 C CNN
+F 1 "GND" H 5700 2250 50  0001 C CNN
+F 2 "" H 5700 2400 50  0001 C CNN
+F 3 "" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2400 5700 2400
+Wire Wire Line
+	5950 2600 5450 2600
+Connection ~ 5950 2600
+Connection ~ 5450 2600
+$Comp
+L OpenVent:+1V2 #PWR?
+U 1 1 61BBE1A2
+P 9950 1450
+F 0 "#PWR?" H 9950 1300 50  0001 C CNN
+F 1 "+1V2" H 9950 1624 50  0000 C CNN
+F 2 "" H 9950 1450 50  0001 C CNN
+F 3 "" H 9950 1450 50  0001 C CNN
+	1    9950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61BDBEB4
+P 5450 3200
+F 0 "#PWR?" H 5450 3050 50  0001 C CNN
+F 1 "+3.3V" V 5450 3327 50  0000 L CNN
+F 2 "" H 5450 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5450 3200 5250 3200
+$Comp
+L OpenVent:22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R C?
+U 1 1 61BE377F
+P 6400 3800
+F 0 "C?" V 6350 3750 50  0000 L CNN
+F 1 "22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R" H 6400 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 6400 3800 50  0001 C CNN
+F 3 "http://www.calchipelectronics.com/pdf/gmc_series.pdf" H 6400 3800 50  0001 C CNN
+F 4 "22uF" V 6550 3750 50  0000 L CNN "Val"
+F 5 "10V" V 6541 3810 50  0001 L CNN "Voltage"
+F 6 "10%" H 6400 3800 50  0001 C CNN "Tolerance"
+F 7 "CAL-CHIP ELECTRONICS, INC." H 6400 3800 50  0001 C CNN "Mfr"
+F 8 "GMC31X7R226K10NT" H 6400 3800 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 22UF 10V X7R 1206" H 6400 3800 50  0001 C CNN "Detailed"
+	1    6400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61BE3A2C
+P 6050 3800
+AR Path="/5F8F894A/61BE3A2C" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61BE3A2C" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61BE3A2C" Ref="C?"  Part="1" 
+F 0 "C?" V 6000 3750 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 6050 3800 50  0001 C CNN
+F 2 "" H 6050 3800 50  0001 C CNN
+F 3 "" H 6050 3800 50  0001 C CNN
+F 4 "100nF" V 6200 3750 50  0000 L CNN "Val"
+F 5 "25V" H 6050 3800 50  0001 C CNN "Voltage"
+F 6 "10%" H 6050 3800 50  0001 C CNN "Tolerance"
+	1    6050 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3700 5950 3600
+Wire Wire Line
+	5950 3600 6300 3600
+Wire Wire Line
+	6300 3600 6300 3700
+Wire Wire Line
+	5950 4100 6300 4100
+Wire Wire Line
+	6300 4100 6300 4000
+Wire Wire Line
+	5950 4000 5950 4100
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61C2BB75
+P 6300 3550
+F 0 "#PWR?" H 6300 3400 50  0001 C CNN
+F 1 "+3.3V" H 6300 3724 50  0000 C CNN
+F 2 "" H 6300 3550 50  0001 C CNN
+F 3 "" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3550 6300 3600
+Connection ~ 6300 3600
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61C349D5
+P 8700 3300
+AR Path="/5F8F894A/61C349D5" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61C349D5" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61C349D5" Ref="C?"  Part="1" 
+F 0 "C?" V 8650 3250 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 8700 3300 50  0001 C CNN
+F 2 "" H 8700 3300 50  0001 C CNN
+F 3 "" H 8700 3300 50  0001 C CNN
+F 4 "100nF" V 8850 2950 50  0000 L CNN "Val"
+F 5 "25V" H 8700 3300 50  0001 C CNN "Voltage"
+F 6 "10%" H 8700 3300 50  0001 C CNN "Tolerance"
+	1    8700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61C349E0
+P 8750 3650
+AR Path="/5F8F8987/61C349E0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61C349E0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61C349E0" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61C349E0" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61C349E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8750 3400 50  0001 C CNN
+F 1 "GND" H 8750 3500 50  0001 C CNN
+F 2 "" H 8750 3650 50  0001 C CNN
+F 3 "" H 8750 3650 50  0001 C CNN
+	1    8750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61C349E8
+P 8750 3000
+F 0 "#PWR?" H 8750 2850 50  0001 C CNN
+F 1 "+3.3V" H 8750 3174 50  0000 C CNN
+F 2 "" H 8750 3000 50  0001 C CNN
+F 3 "" H 8750 3000 50  0001 C CNN
+	1    8750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61C349F7
+P 9000 3300
+AR Path="/5F8F8987/61C349F7" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61C349F7" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61C349F7" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61C349F7" Ref="C?"  Part="1" 
+F 0 "C?" V 8950 3250 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 9000 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9000 3300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 9000 3300 50  0001 C CNN
+F 4 "10uF" V 9150 3250 50  0000 L CNN "Val"
+F 5 "10V" V 9141 3310 50  0001 L CNN "Voltage"
+F 6 "10%" H 9000 3300 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 9000 3300 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 9000 3300 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 9000 3300 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 9000 3300 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 9000 3300 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 9000 3300 50  0001 C CNN "Dist_PN"
+	1    9000 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 3050 8900 3200
+Wire Wire Line
+	8900 3500 8900 3600
+Wire Wire Line
+	8600 3500 8600 3600
+Wire Wire Line
+	8600 3600 8750 3600
+Wire Wire Line
+	8600 3200 8600 3050
+Wire Wire Line
+	8750 3600 8750 3650
+Connection ~ 8750 3600
+Wire Wire Line
+	8750 3600 8900 3600
+Text Notes 8600 2700 0    50   ~ 0
+VPPNVM
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61CBD4DC
+P 3700 2200
+F 0 "#PWR?" H 3700 2050 50  0001 C CNN
+F 1 "+3.3V" V 3700 2328 50  0000 L CNN
+F 2 "" H 3700 2200 50  0001 C CNN
+F 3 "" H 3700 2200 50  0001 C CNN
+	1    3700 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4000 2600 3800 2600
+Wire Wire Line
+	3800 2600 3800 2500
+Wire Wire Line
+	3800 2400 4000 2400
+Wire Wire Line
+	4000 2500 3800 2500
+Connection ~ 3800 2500
+Wire Wire Line
+	3800 2500 3800 2400
+Wire Wire Line
+	4000 2000 3800 2000
+Wire Wire Line
+	3800 2000 3800 1900
+Wire Wire Line
+	3800 1900 4000 1900
+Wire Wire Line
+	4000 1700 3800 1700
+Wire Wire Line
+	3800 1700 3800 1600
+Wire Wire Line
+	3800 1500 4000 1500
+Wire Wire Line
+	4000 1600 3800 1600
+Connection ~ 3800 1600
+Wire Wire Line
+	3800 1600 3800 1500
+Wire Wire Line
+	4000 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2800
+Wire Wire Line
+	3800 2800 4000 2800
+Wire Wire Line
+	4000 3200 3800 3200
+Wire Wire Line
+	3800 3200 3800 3100
+Wire Wire Line
+	3800 3100 4000 3100
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61CEEB44
+P 3700 2400
+F 0 "#PWR?" H 3700 2250 50  0001 C CNN
+F 1 "+3.3V" V 3700 2528 50  0000 L CNN
+F 2 "" H 3700 2400 50  0001 C CNN
+F 3 "" H 3700 2400 50  0001 C CNN
+	1    3700 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61CEEB81
+P 3700 3100
+F 0 "#PWR?" H 3700 2950 50  0001 C CNN
+F 1 "+3.3V" V 3700 3228 50  0000 L CNN
+F 2 "" H 3700 3100 50  0001 C CNN
+F 3 "" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3700 2200 4000 2200
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61D00FB4
+P 3700 1900
+F 0 "#PWR?" H 3700 1750 50  0001 C CNN
+F 1 "+3.3V" V 3700 2028 50  0000 L CNN
+F 2 "" H 3700 1900 50  0001 C CNN
+F 3 "" H 3700 1900 50  0001 C CNN
+	1    3700 1900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3700 1900 3800 1900
+Connection ~ 3800 1900
+Wire Wire Line
+	3800 2400 3700 2400
+Connection ~ 3800 2400
+Wire Wire Line
+	3800 3100 3700 3100
+Connection ~ 3800 3100
+Wire Wire Line
+	8600 3050 8750 3050
+Wire Notes Line
+	9200 3850 9200 2750
+Wire Notes Line
+	9200 2750 8300 2750
+Wire Notes Line
+	8300 2750 8300 3850
+Wire Notes Line
+	8300 3850 9200 3850
+NoConn ~ 4000 5350
+Wire Wire Line
+	8550 1950 8550 2050
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61D39182
+P 3700 1500
+F 0 "#PWR?" H 3700 1350 50  0001 C CNN
+F 1 "+2V5" V 3715 1628 50  0000 L CNN
+F 2 "" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 1500 3800 1500
+Connection ~ 3800 1500
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61D3F571
+P 3700 2800
+F 0 "#PWR?" H 3700 2650 50  0001 C CNN
+F 1 "+2V5" V 3715 2928 50  0000 L CNN
+F 2 "" H 3700 2800 50  0001 C CNN
+F 3 "" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 2800 3800 2800
+Connection ~ 3800 2800
+Wire Wire Line
+	5750 3400 5750 3600
+Wire Wire Line
+	5750 3600 5950 3600
+Wire Wire Line
+	5250 3400 5750 3400
+Connection ~ 5950 3600
+Wire Wire Line
+	5250 3500 5450 3500
+Connection ~ 5950 4100
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61D6551C
+P 5350 5750
+AR Path="/5F8F8987/61D6551C" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61D6551C" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61D6551C" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61D6551C" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61D6551C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 5500 50  0001 C CNN
+F 1 "GND" H 5350 5600 50  0001 C CNN
+F 2 "" H 5350 5750 50  0001 C CNN
+F 3 "" H 5350 5750 50  0001 C CNN
+	1    5350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61D65702
+P 3850 5750
+AR Path="/5F8F8987/61D65702" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61D65702" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61D65702" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61D65702" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61D65702" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 5500 50  0001 C CNN
+F 1 "GND" H 3850 5600 50  0001 C CNN
+F 2 "" H 3850 5750 50  0001 C CNN
+F 3 "" H 3850 5750 50  0001 C CNN
+	1    3850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5650 5350 5650
+Wire Wire Line
+	5350 5650 5350 5750
+Wire Wire Line
+	5250 5550 5350 5550
+Wire Wire Line
+	5350 5550 5350 5650
+Connection ~ 5350 5650
+Wire Wire Line
+	5250 5350 5350 5350
+Wire Wire Line
+	5350 5350 5350 5550
+Connection ~ 5350 5550
+Wire Wire Line
+	5250 5150 5350 5150
+Wire Wire Line
+	5350 5150 5350 5350
+Connection ~ 5350 5350
+Wire Wire Line
+	5250 5050 5350 5050
+Wire Wire Line
+	5350 5050 5350 5150
+Connection ~ 5350 5150
+Wire Wire Line
+	5250 4950 5350 4950
+Wire Wire Line
+	5350 4950 5350 5050
+Connection ~ 5350 5050
+Wire Wire Line
+	5250 4850 5350 4850
+Wire Wire Line
+	5350 4850 5350 4950
+Connection ~ 5350 4950
+Wire Wire Line
+	5250 4750 5350 4750
+Wire Wire Line
+	5350 4750 5350 4850
+Connection ~ 5350 4850
+Wire Wire Line
+	5250 4650 5350 4650
+Wire Wire Line
+	5350 4650 5350 4750
+Connection ~ 5350 4750
+Wire Wire Line
+	5250 4550 5350 4550
+Wire Wire Line
+	5350 4550 5350 4650
+Connection ~ 5350 4650
+Wire Wire Line
+	5250 4450 5350 4450
+Wire Wire Line
+	5350 4450 5350 4550
+Connection ~ 5350 4550
+Wire Wire Line
+	5250 4350 5350 4350
+Wire Wire Line
+	5350 4350 5350 4450
+Connection ~ 5350 4450
+Wire Wire Line
+	4000 5050 3850 5050
+Wire Wire Line
+	3850 5050 3850 5750
+Wire Wire Line
+	4000 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4450
+Connection ~ 3850 5050
+Wire Wire Line
+	3850 4950 4000 4950
+Connection ~ 3850 4950
+Wire Wire Line
+	3850 4950 3850 5050
+Wire Wire Line
+	4000 4850 3850 4850
+Connection ~ 3850 4850
+Wire Wire Line
+	3850 4850 3850 4950
+Wire Wire Line
+	4000 4750 3850 4750
+Connection ~ 3850 4750
+Wire Wire Line
+	3850 4750 3850 4850
+Wire Wire Line
+	4000 4650 3850 4650
+Connection ~ 3850 4650
+Wire Wire Line
+	3850 4650 3850 4750
+Wire Wire Line
+	4000 4550 3850 4550
+Connection ~ 3850 4550
+Wire Wire Line
+	3850 4550 3850 4650
+Wire Wire Line
+	3850 4450 4000 4450
+Connection ~ 3850 4450
+Wire Wire Line
+	3850 4450 3850 4550
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61E41C52
+P 1950 2750
+AR Path="/5F8F894A/61E41C52" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61E41C52" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61E41C52" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 2700 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1950 2750 50  0001 C CNN
+F 2 "" H 1950 2750 50  0001 C CNN
+F 3 "" H 1950 2750 50  0001 C CNN
+F 4 "100nF" V 2100 2700 50  0000 L CNN "Val"
+F 5 "25V" H 1950 2750 50  0001 C CNN "Voltage"
+F 6 "10%" H 1950 2750 50  0001 C CNN "Tolerance"
+	1    1950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61E41C59
+P 1850 3100
+AR Path="/5F8F8987/61E41C59" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61E41C59" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61E41C59" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61E41C59" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61E41C59" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 2850 50  0001 C CNN
+F 1 "GND" H 1850 2950 50  0001 C CNN
+F 2 "" H 1850 3100 50  0001 C CNN
+F 3 "" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61E41C6E
+P 2250 2750
+AR Path="/5F8F8987/61E41C6E" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61E41C6E" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61E41C6E" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61E41C6E" Ref="C?"  Part="1" 
+F 0 "C?" V 2200 2700 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 2250 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 2750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 2250 2750 50  0001 C CNN
+F 4 "10uF" V 2400 2700 50  0000 L CNN "Val"
+F 5 "10V" V 2391 2760 50  0001 L CNN "Voltage"
+F 6 "10%" H 2250 2750 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 2250 2750 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 2250 2750 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 2250 2750 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 2250 2750 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 2250 2750 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 2250 2750 50  0001 C CNN "Dist_PN"
+	1    2250 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2500 2150 2650
+Wire Wire Line
+	2150 2950 2150 3050
+Wire Wire Line
+	1850 2950 1850 3050
+Wire Wire Line
+	1850 2650 1850 2500
+Text Notes 1750 2150 0    50   ~ 0
+VDDI2
+Wire Wire Line
+	1850 2500 2150 2500
+Wire Notes Line
+	2450 3300 2450 2200
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61E4D238
+P 1650 2750
+F 0 "C?" V 1600 2700 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 1650 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 2750 50  0001 C CNN
+F 3 "" H 1650 2750 50  0001 C CNN
+F 4 "10nF" V 1800 2700 50  0000 L CNN "Val"
+F 5 "50V" H 1650 2750 50  0001 C CNN "Voltage"
+F 6 "10%" H 1650 2750 50  0001 C CNN "Tolerance"
+	1    1650 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 3050 1550 3050
+Wire Wire Line
+	1550 3050 1550 2950
+Connection ~ 1850 3050
+Wire Wire Line
+	1850 2500 1550 2500
+Wire Wire Line
+	1550 2500 1550 2650
+Connection ~ 1850 2500
+Wire Wire Line
+	1850 2450 1850 2500
+Wire Wire Line
+	1850 3050 2150 3050
+Wire Wire Line
+	1850 3100 1850 3050
+Wire Wire Line
+	8750 3000 8750 3050
+Connection ~ 8750 3050
+Wire Wire Line
+	8750 3050 8900 3050
+Wire Notes Line
+	1350 2200 1350 3300
+Wire Notes Line
+	1350 2200 2450 2200
+Wire Notes Line
+	1350 3300 2450 3300
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61E9F041
+P 1950 1350
+AR Path="/5F8F894A/61E9F041" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61E9F041" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61E9F041" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 1300 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1950 1350 50  0001 C CNN
+F 2 "" H 1950 1350 50  0001 C CNN
+F 3 "" H 1950 1350 50  0001 C CNN
+F 4 "100nF" V 2100 1300 50  0000 L CNN "Val"
+F 5 "25V" H 1950 1350 50  0001 C CNN "Voltage"
+F 6 "10%" H 1950 1350 50  0001 C CNN "Tolerance"
+	1    1950 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61E9F048
+P 1850 1700
+AR Path="/5F8F8987/61E9F048" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61E9F048" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61E9F048" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61E9F048" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61E9F048" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 1450 50  0001 C CNN
+F 1 "GND" H 1850 1550 50  0001 C CNN
+F 2 "" H 1850 1700 50  0001 C CNN
+F 3 "" H 1850 1700 50  0001 C CNN
+	1    1850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61E9F057
+P 2250 1350
+AR Path="/5F8F8987/61E9F057" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61E9F057" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61E9F057" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61E9F057" Ref="C?"  Part="1" 
+F 0 "C?" V 2200 1300 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 2250 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 1350 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 2250 1350 50  0001 C CNN
+F 4 "10uF" V 2400 1300 50  0000 L CNN "Val"
+F 5 "10V" V 2391 1360 50  0001 L CNN "Voltage"
+F 6 "10%" H 2250 1350 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 2250 1350 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 2250 1350 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 2250 1350 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 2250 1350 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 2250 1350 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 2250 1350 50  0001 C CNN "Dist_PN"
+	1    2250 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 1100 2150 1250
+Wire Wire Line
+	2150 1550 2150 1650
+Wire Wire Line
+	1850 1550 1850 1650
+Wire Wire Line
+	1850 1250 1850 1100
+Text Notes 1750 750  0    50   ~ 0
+VDDI0
+Wire Wire Line
+	1850 1100 2150 1100
+Wire Notes Line
+	2450 1900 2450 800 
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61E9F068
+P 1650 1350
+F 0 "C?" V 1600 1300 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 1650 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 1350 50  0001 C CNN
+F 3 "" H 1650 1350 50  0001 C CNN
+F 4 "10nF" V 1800 1300 50  0000 L CNN "Val"
+F 5 "50V" H 1650 1350 50  0001 C CNN "Voltage"
+F 6 "10%" H 1650 1350 50  0001 C CNN "Tolerance"
+	1    1650 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1650 1550 1650
+Wire Wire Line
+	1550 1650 1550 1550
+Connection ~ 1850 1650
+Wire Wire Line
+	1850 1100 1550 1100
+Wire Wire Line
+	1550 1100 1550 1250
+Connection ~ 1850 1100
+Wire Wire Line
+	1850 1050 1850 1100
+Wire Wire Line
+	1850 1650 2150 1650
+Wire Wire Line
+	1850 1700 1850 1650
+Wire Notes Line
+	1350 800  1350 1900
+Wire Notes Line
+	1350 800  2450 800 
+Wire Notes Line
+	1350 1900 2450 1900
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61E9F07B
+P 1850 1050
+F 0 "#PWR?" H 1850 900 50  0001 C CNN
+F 1 "+2V5" H 1865 1223 50  0000 C CNN
+F 2 "" H 1850 1050 50  0001 C CNN
+F 3 "" H 1850 1050 50  0001 C CNN
+	1    1850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61EE3DE3
+P 1850 2450
+F 0 "#PWR?" H 1850 2300 50  0001 C CNN
+F 1 "+3.3V" H 1850 2624 50  0000 C CNN
+F 2 "" H 1850 2450 50  0001 C CNN
+F 3 "" H 1850 2450 50  0001 C CNN
+	1    1850 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61EE4099
+P 1950 4150
+AR Path="/5F8F894A/61EE4099" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61EE4099" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61EE4099" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 4100 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1950 4150 50  0001 C CNN
+F 2 "" H 1950 4150 50  0001 C CNN
+F 3 "" H 1950 4150 50  0001 C CNN
+F 4 "100nF" V 2100 4100 50  0000 L CNN "Val"
+F 5 "25V" H 1950 4150 50  0001 C CNN "Voltage"
+F 6 "10%" H 1950 4150 50  0001 C CNN "Tolerance"
+	1    1950 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61EE40A0
+P 1850 4500
+AR Path="/5F8F8987/61EE40A0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61EE40A0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61EE40A0" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61EE40A0" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61EE40A0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 4250 50  0001 C CNN
+F 1 "GND" H 1850 4350 50  0001 C CNN
+F 2 "" H 1850 4500 50  0001 C CNN
+F 3 "" H 1850 4500 50  0001 C CNN
+	1    1850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61EE40AF
+P 2250 4150
+AR Path="/5F8F8987/61EE40AF" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61EE40AF" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61EE40AF" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61EE40AF" Ref="C?"  Part="1" 
+F 0 "C?" V 2200 4100 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 2250 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 4150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 2250 4150 50  0001 C CNN
+F 4 "10uF" V 2400 4100 50  0000 L CNN "Val"
+F 5 "10V" V 2391 4160 50  0001 L CNN "Voltage"
+F 6 "10%" H 2250 4150 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 2250 4150 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 2250 4150 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 2250 4150 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 2250 4150 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 2250 4150 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 2250 4150 50  0001 C CNN "Dist_PN"
+	1    2250 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3900 2150 4050
+Wire Wire Line
+	2150 4350 2150 4450
+Wire Wire Line
+	1850 4350 1850 4450
+Wire Wire Line
+	1850 4050 1850 3900
+Text Notes 1750 3550 0    50   ~ 0
+VDDI4
+Wire Wire Line
+	1850 3900 2150 3900
+Wire Notes Line
+	2450 4700 2450 3600
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61EE40C0
+P 1650 4150
+F 0 "C?" V 1600 4100 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 1650 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 4150 50  0001 C CNN
+F 3 "" H 1650 4150 50  0001 C CNN
+F 4 "10nF" V 1800 4100 50  0000 L CNN "Val"
+F 5 "50V" H 1650 4150 50  0001 C CNN "Voltage"
+F 6 "10%" H 1650 4150 50  0001 C CNN "Tolerance"
+	1    1650 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 4450 1550 4450
+Wire Wire Line
+	1550 4450 1550 4350
+Connection ~ 1850 4450
+Wire Wire Line
+	1850 3900 1550 3900
+Wire Wire Line
+	1550 3900 1550 4050
+Connection ~ 1850 3900
+Wire Wire Line
+	1850 3850 1850 3900
+Wire Wire Line
+	1850 4450 2150 4450
+Wire Wire Line
+	1850 4500 1850 4450
+Wire Notes Line
+	1350 3600 1350 4700
+Wire Notes Line
+	1350 3600 2450 3600
+Wire Notes Line
+	1350 4700 2450 4700
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61EE40D3
+P 1850 3850
+F 0 "#PWR?" H 1850 3700 50  0001 C CNN
+F 1 "+3.3V" H 1850 4024 50  0000 C CNN
+F 2 "" H 1850 3850 50  0001 C CNN
+F 3 "" H 1850 3850 50  0001 C CNN
+	1    1850 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61EF41C8
+P 1950 5550
+AR Path="/5F8F894A/61EF41C8" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61EF41C8" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61EF41C8" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 5500 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1950 5550 50  0001 C CNN
+F 2 "" H 1950 5550 50  0001 C CNN
+F 3 "" H 1950 5550 50  0001 C CNN
+F 4 "100nF" V 2100 5500 50  0000 L CNN "Val"
+F 5 "25V" H 1950 5550 50  0001 C CNN "Voltage"
+F 6 "10%" H 1950 5550 50  0001 C CNN "Tolerance"
+	1    1950 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61EF41CF
+P 1850 5900
+AR Path="/5F8F8987/61EF41CF" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61EF41CF" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61EF41CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61EF41CF" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61EF41CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 5650 50  0001 C CNN
+F 1 "GND" H 1850 5750 50  0001 C CNN
+F 2 "" H 1850 5900 50  0001 C CNN
+F 3 "" H 1850 5900 50  0001 C CNN
+	1    1850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61EF41DE
+P 2250 5550
+AR Path="/5F8F8987/61EF41DE" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61EF41DE" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61EF41DE" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61EF41DE" Ref="C?"  Part="1" 
+F 0 "C?" V 2200 5500 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 2250 5550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 5550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 2250 5550 50  0001 C CNN
+F 4 "10uF" V 2400 5500 50  0000 L CNN "Val"
+F 5 "10V" V 2391 5560 50  0001 L CNN "Voltage"
+F 6 "10%" H 2250 5550 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 2250 5550 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 2250 5550 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 2250 5550 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 2250 5550 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 2250 5550 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 2250 5550 50  0001 C CNN "Dist_PN"
+	1    2250 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 5300 2150 5450
+Wire Wire Line
+	2150 5750 2150 5850
+Wire Wire Line
+	1850 5750 1850 5850
+Wire Wire Line
+	1850 5450 1850 5300
+Text Notes 1750 4950 0    50   ~ 0
+VDDI6
+Wire Wire Line
+	1850 5300 2150 5300
+Wire Notes Line
+	2450 6100 2450 5000
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61EF41EF
+P 1650 5550
+F 0 "C?" V 1600 5500 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 1650 5550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 5550 50  0001 C CNN
+F 3 "" H 1650 5550 50  0001 C CNN
+F 4 "10nF" V 1800 5500 50  0000 L CNN "Val"
+F 5 "50V" H 1650 5550 50  0001 C CNN "Voltage"
+F 6 "10%" H 1650 5550 50  0001 C CNN "Tolerance"
+	1    1650 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5850 1550 5850
+Wire Wire Line
+	1550 5850 1550 5750
+Connection ~ 1850 5850
+Wire Wire Line
+	1850 5300 1550 5300
+Wire Wire Line
+	1550 5300 1550 5450
+Connection ~ 1850 5300
+Wire Wire Line
+	1850 5250 1850 5300
+Wire Wire Line
+	1850 5850 2150 5850
+Wire Wire Line
+	1850 5900 1850 5850
+Wire Notes Line
+	1350 5000 1350 6100
+Wire Notes Line
+	1350 5000 2450 5000
+Wire Notes Line
+	1350 6100 2450 6100
+$Comp
+L OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C?
+U 1 1 61F06170
+P 1950 6950
+AR Path="/5F8F894A/61F06170" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61F06170" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61F06170" Ref="C?"  Part="1" 
+F 0 "C?" V 1900 6900 50  0000 L CNN
+F 1 "100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" H 1950 6950 50  0001 C CNN
+F 2 "" H 1950 6950 50  0001 C CNN
+F 3 "" H 1950 6950 50  0001 C CNN
+F 4 "100nF" V 2100 6900 50  0000 L CNN "Val"
+F 5 "25V" H 1950 6950 50  0001 C CNN "Voltage"
+F 6 "10%" H 1950 6950 50  0001 C CNN "Tolerance"
+	1    1950 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61F06177
+P 1850 7300
+AR Path="/5F8F8987/61F06177" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61F06177" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61F06177" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61F06177" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61F06177" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 7050 50  0001 C CNN
+F 1 "GND" H 1850 7150 50  0001 C CNN
+F 2 "" H 1850 7300 50  0001 C CNN
+F 3 "" H 1850 7300 50  0001 C CNN
+	1    1850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C?
+U 1 1 61F06186
+P 2250 6950
+AR Path="/5F8F8987/61F06186" Ref="C?"  Part="1" 
+AR Path="/5FBE8499/61F06186" Ref="C?"  Part="1" 
+AR Path="/5F8F894A/61F06186" Ref="C?"  Part="1" 
+AR Path="/61A795A0/61F06186" Ref="C?"  Part="1" 
+F 0 "C?" V 2200 6900 50  0000 L CNN
+F 1 "10uF_0805_Ceramic_Capacitor_10%_X7R_10V" H 2250 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 6950 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM21BR71A106KE22-01.pdf" H 2250 6950 50  0001 C CNN
+F 4 "10uF" V 2400 6900 50  0000 L CNN "Val"
+F 5 "10V" V 2391 6960 50  0001 L CNN "Voltage"
+F 6 "10%" H 2250 6950 50  0001 C CNN "Tolerance"
+F 7 "Murata Electronics" H 2250 6950 50  0001 C CNN "Mfr"
+F 8 "GCM21BR71A106KE22L" H 2250 6950 50  0001 C CNN "Mfr_PN"
+F 9 "CAP CER 10UF 10V X7R 0805" H 2250 6950 50  0001 C CNN "Desc"
+F 10 "Ceramic Capacitor" H 2250 6950 50  0001 C CNN "Detailed"
+F 11 "DigiKey" H 2250 6950 50  0001 C CNN "DistName"
+F 12 "490-10674-2-ND" H 2250 6950 50  0001 C CNN "Dist_PN"
+	1    2250 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 6700 2150 6850
+Wire Wire Line
+	2150 7150 2150 7250
+Wire Wire Line
+	1850 7150 1850 7250
+Wire Wire Line
+	1850 6850 1850 6700
+Text Notes 1750 6350 0    50   ~ 0
+VDDI7
+Wire Wire Line
+	1850 6700 2150 6700
+Wire Notes Line
+	2450 7500 2450 6400
+$Comp
+L OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C?
+U 1 1 61F06197
+P 1650 6950
+F 0 "C?" V 1600 6900 50  0000 L CNN
+F 1 "10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" H 1650 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 6950 50  0001 C CNN
+F 3 "" H 1650 6950 50  0001 C CNN
+F 4 "10nF" V 1800 6900 50  0000 L CNN "Val"
+F 5 "50V" H 1650 6950 50  0001 C CNN "Voltage"
+F 6 "10%" H 1650 6950 50  0001 C CNN "Tolerance"
+	1    1650 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 7250 1550 7250
+Wire Wire Line
+	1550 7250 1550 7150
+Connection ~ 1850 7250
+Wire Wire Line
+	1850 6700 1550 6700
+Wire Wire Line
+	1550 6700 1550 6850
+Connection ~ 1850 6700
+Wire Wire Line
+	1850 6650 1850 6700
+Wire Wire Line
+	1850 7250 2150 7250
+Wire Wire Line
+	1850 7300 1850 7250
+Wire Notes Line
+	1350 6400 1350 7500
+Wire Notes Line
+	1350 6400 2450 6400
+Wire Notes Line
+	1350 7500 2450 7500
+$Comp
+L OpenVent:+3.3V #PWR?
+U 1 1 61F061AA
+P 1850 6650
+F 0 "#PWR?" H 1850 6500 50  0001 C CNN
+F 1 "+3.3V" H 1850 6824 50  0000 C CNN
+F 2 "" H 1850 6650 50  0001 C CNN
+F 3 "" H 1850 6650 50  0001 C CNN
+	1    1850 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61F1A1E5
+P 1850 5250
+F 0 "#PWR?" H 1850 5100 50  0001 C CNN
+F 1 "+2V5" H 1865 5423 50  0000 C CNN
+F 2 "" H 1850 5250 50  0001 C CNN
+F 3 "" H 1850 5250 50  0001 C CNN
+	1    1850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4100 5450 3500
+Wire Wire Line
+	5450 4100 5950 4100
+NoConn ~ 5250 6650
+NoConn ~ 5250 6550
+$Comp
+L OVB_Microsemi:M2GL010-TQ144 U?
+U 6 1 61AB69A9
+P 4600 6200
+AR Path="/5F8F894A/61AB69A9" Ref="U?"  Part="6" 
+AR Path="/61A795A0/61AB69A9" Ref="U?"  Part="6" 
+F 0 "U?" H 4711 6265 50  0000 C CNN
+F 1 "M2GL010-TQ144" H 4711 6174 50  0000 C CNN
+F 2 "" H 4600 6200 50  0001 C CNN
+F 3 "" H 4600 6200 50  0001 C CNN
+	6    4600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:3V3 #PWR?
+U 1 1 61F93D9A
+P 5900 5800
+AR Path="/5F99D63D/61F93D9A" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F894A/61F93D9A" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61F93D9A" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61F93D9A" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F8987/61F93D9A" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61F93D9A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5800 50  0001 C CNN
+F 1 "3V3" H 5900 5950 50  0000 C CNN
+F 2 "" H 5900 5800 50  0001 C CNN
+F 3 "" H 5900 5800 50  0001 C CNN
+	1    5900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:GND #PWR?
+U 1 1 61F93DA0
+P 6350 6700
+AR Path="/5F8F8987/61F93DA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB692C4/61F93DA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBE8499/61F93DA0" Ref="#PWR?"  Part="1" 
+AR Path="/61A795A0/61F93DA0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 6450 50  0001 C CNN
+F 1 "GND" H 6350 6550 50  0001 C CNN
+F 2 "" H 6350 6700 50  0001 C CNN
+F 3 "" H 6350 6700 50  0001 C CNN
+	1    6350 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6700 6350 6650
+$Comp
+L OpenVent:R_0603_49k9_0.1W_1% R?
+U 1 1 61F93DB5
+P 6000 6000
+AR Path="/5F8F8987/61F93DB5" Ref="R?"  Part="1" 
+AR Path="/61A795A0/61F93DB5" Ref="R?"  Part="1" 
+F 0 "R?" V 6054 5970 50  0000 L CNN
+F 1 "R_0603_49k9_0.1W_1%" H 6000 6000 50  0001 C CNN
+F 2 "" H 6000 6000 60  0001 C CNN
+F 3 "" H 6000 6000 60  0001 C CNN
+F 4 "49k9" V 6145 5970 50  0000 L CNN "Val"
+F 5 "1%" H 6000 6000 50  0001 C CNN "Tolerance"
+F 6 "0.1W" H 6000 6000 50  0001 C CNN "Watt"
+	1    6000 6000
+	0    1    1    0   
+$EndComp
+Connection ~ 5900 6400
+Wire Wire Line
+	5750 6400 5750 6650
+Wire Wire Line
+	5900 6300 5900 6400
+Text GLabel 6150 6400 2    50   Input ~ 0
+CONFIG_N
+Wire Wire Line
+	6250 6650 6350 6650
+Wire Wire Line
+	5750 6650 5850 6650
+Wire Wire Line
+	5750 6400 5900 6400
+$Comp
+L OpenVent:Switch_PB SW?
+U 1 1 61F93DC8
+P 6050 6650
+AR Path="/5F8F8987/61F93DC8" Ref="SW?"  Part="1" 
+AR Path="/61A795A0/61F93DC8" Ref="SW?"  Part="1" 
+F 0 "SW?" H 6050 6750 50  0000 C BNN
+F 1 "Switch_PB" H 6050 6550 50  0000 C CNN
+F 2 "" H 6600 7100 50  0001 C CNN
+F 3 "" H 6600 7100 50  0001 C CNN
+	1    6050 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5800 5900 5900
+Wire Wire Line
+	5900 6400 6150 6400
+Wire Wire Line
+	5250 6400 5750 6400
+Connection ~ 5750 6400
+$EndSCHEMATC

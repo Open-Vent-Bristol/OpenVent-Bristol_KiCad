@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:OpenVent-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -2943,4 +2944,6 @@ Wire Wire Line
 Wire Wire Line
 	650  4200 650  4500
 NoConn ~ 10050 1500
+Text Notes 10600 5650 0    50   ~ 10
++2.5V
 $EndSCHEMATC

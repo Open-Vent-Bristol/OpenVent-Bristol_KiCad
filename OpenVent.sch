@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:OpenVent-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -171,8 +172,8 @@ Wire Notes Line width 20 style solid
 	9000 1250 9000 3250
 Wire Notes Line width 20 style solid
 	7000 1250 9000 1250
-Text Notes 7750 2300 0    150  ~ 30
-FPGA
+Text Notes 7250 2300 0    150  ~ 30
+IGLOO2 FPGA
 Wire Notes Line width 12 style solid
 	8250 3250 8250 7700
 Wire Notes Line width 12 style solid
@@ -736,12 +737,6 @@ F0 "UI" 150
 F1 "UI.sch" 150
 $EndSheet
 $Sheet
-S 6000 1000 3500 2800
-U 5F8F894A
-F0 "FPGA" 150
-F1 "FPGA.sch" 150
-$EndSheet
-$Sheet
 S 10500 1000 4800 3000
 U 5F8F3873
 F0 "Sensors" 150
@@ -795,4 +790,16 @@ Wire Notes Line width 12 style solid
 	13000 9050 13000 9500
 Text Notes 12300 9450 0    120  ~ 24
 nRST
+$Sheet
+S 6200 1000 3550 3000
+U 61A33A68
+F0 "FPGA_M2GL010" 150
+F1 "FPGA_M2GL010.sch" 150
+$EndSheet
+$Sheet
+S 6300 3300 650  600 
+U 61A795A0
+F0 "M2GL010_POWER" 31
+F1 "M2GL010_POWER.sch" 31
+$EndSheet
 $EndSCHEMATC

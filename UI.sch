@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:OpenVent-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -2242,4 +2243,8 @@ F 6 "0.1W" H 9500 5300 50  0001 C CNN "Watt"
 	1    9500 5300
 	1    0    0    -1  
 $EndComp
+Text Notes 9900 3400 0    50   ~ 10
+These can all be\nsent to a 2.5V FPGA\nIO Bank\n
+Text Notes 9600 2550 0    50   ~ 10
+This can be 2.5V
 $EndSCHEMATC

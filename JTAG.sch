@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:OpenVent-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 9
 Title "OpenVent Control Board"
 Date "2020-10-20"
 Rev "A"
@@ -1193,7 +1194,7 @@ P 10100 6300
 F 0 "D14" H 10550 6450 50  0000 C CNN
 F 1 "LED_GREEN_0603_SMD" H 10100 6300 60  0001 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 10100 6300 50  0000 C CNN
-F 3 "http://www.farnell.com/datasheets/1911345.pdf" H 10100 6300 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1911345.pdf" H 9650 6150 50  0000 C CNN
 F 4 "GREEN" H 10300 6450 50  0000 C CNN "Val"
 	1    10100 6300
 	1    0    0    -1  
@@ -2108,4 +2109,27 @@ Wire Wire Line
 Wire Wire Line
 	6600 2700 6900 2700
 Connection ~ 6900 2700
+$Comp
+L OVB_Microsemi:M2GL010-TQ144 U?
+U 7 1 62025844
+P 8450 4150
+AR Path="/5F8F894A/62025844" Ref="U?"  Part="7" 
+AR Path="/5F8F8987/62025844" Ref="U?"  Part="7" 
+F 0 "U?" H 8531 4215 50  0000 C CNN
+F 1 "M2GL010-TQ144" H 8531 4124 50  0000 C CNN
+F 2 "" H 8450 4150 50  0001 C CNN
+F 3 "" H 8450 4150 50  0001 C CNN
+	7    8450 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8050 4000 8050 5050
+Wire Notes Line
+	9000 5050 9000 4000
+Wire Notes Line
+	9000 4000 8050 4000
+Wire Notes Line
+	8050 5050 9000 5050
+Text Notes 7950 4000 0    50   ~ 0
+Use this when the time comes
 $EndSCHEMATC
