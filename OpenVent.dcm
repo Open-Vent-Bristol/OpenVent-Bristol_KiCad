@@ -458,6 +458,10 @@ K power inductor
 F https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND
 $ENDCMP
 #
+$CMP SN74LVC244APW
+F https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1640185609188&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F
+$ENDCMP
+#
 $CMP SN74LVC2G14DBVR
 D DUAL SCHMITT-TRIGGER INVERTER
 F http://componentsearchengine.com/Datasheets/3/SN74LVC2G14DBVR.pdf

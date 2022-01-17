@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:OpenVent-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -18,17 +17,6 @@ Text GLabel 2800 3450 2    60   Output ~ 0
 PRES_SENS_PAT
 Text GLabel 3150 2300 2    60   Output ~ 0
 FLOW_SENS_DRCT
-$Comp
-L OpenVent:+5V #5V_08
-U 1 1 5F8DD0BF
-P 5800 5250
-F 0 "#5V_08" H 5800 5250 20  0001 C CNN
-F 1 "+5V" H 5750 5400 50  0000 C CNN
-F 2 "" H 5800 5250 70  0000 C CNN
-F 3 "" H 5800 5250 70  0000 C CNN
-	1    5800 5250
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:GND #GND_040
 U 1 1 5F8DD0BE
@@ -1032,64 +1020,52 @@ Connection ~ 2500 3450
 Wire Wire Line
 	2500 3450 2800 3450
 Wire Wire Line
-	5800 5250 5800 5300
-Wire Wire Line
 	5800 5800 5800 5850
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 61F2C4D6
-P 7250 3700
+P 7300 3600
 AR Path="/601B7AF8/61F2C4D6" Ref="#PWR?"  Part="1" 
 AR Path="/5F8F3873/61F2C4D6" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 7250 3450 50  0001 C CNN
-F 1 "GND" H 7250 3550 50  0001 C CNN
-F 2 "" H 7250 3700 50  0001 C CNN
-F 3 "" H 7250 3700 50  0001 C CNN
-	1    7250 3700
+F 0 "#PWR086" H 7300 3350 50  0001 C CNN
+F 1 "GND" H 7300 3450 50  0001 C CNN
+F 2 "" H 7300 3600 50  0001 C CNN
+F 3 "" H 7300 3600 50  0001 C CNN
+	1    7300 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 2300 0    50   Input ~ 0
+Text GLabel 6350 2300 0    50   Input ~ 0
 Vref_DRV
-Text GLabel 6250 2500 0    50   Input ~ 0
+Text GLabel 6350 2500 0    50   Input ~ 0
 DRV_PRES_SENS_PAT
-Text GLabel 6250 2600 0    50   Input ~ 0
+Text GLabel 6350 2600 0    50   Input ~ 0
 DRV_FLOW_SENS_DRCT
-Text GLabel 6250 2700 0    50   Input ~ 0
+Text GLabel 6350 2700 0    50   Input ~ 0
 DRV_FLOW_SENS_GAIN
-Text GLabel 6250 2800 0    50   Input ~ 0
+Text GLabel 6350 2800 0    50   Input ~ 0
 DRV_O2_SENS
-Text GLabel 6250 3000 0    50   Input ~ 0
+Text GLabel 6350 3000 0    50   Input ~ 0
 G_DRV
-Text GLabel 6250 2900 0    50   Input ~ 0
+Text GLabel 6350 2900 0    50   Input ~ 0
 F_DRV
 Wire Wire Line
-	7250 3600 7250 3650
+	6800 3150 6850 3150
 Wire Wire Line
-	7250 3650 6700 3650
+	6850 3250 6800 3250
 Wire Wire Line
-	6700 3650 6700 3300
+	6800 3250 6800 3150
 Wire Wire Line
-	6700 3200 6750 3200
-Connection ~ 7250 3650
+	6350 2500 6850 2500
 Wire Wire Line
-	7250 3650 7250 3700
+	6850 2600 6350 2600
 Wire Wire Line
-	6750 3300 6700 3300
-Connection ~ 6700 3300
+	6350 2700 6850 2700
 Wire Wire Line
-	6700 3300 6700 3200
+	6850 2800 6350 2800
 Wire Wire Line
-	6250 2500 6750 2500
+	6350 2900 6850 2900
 Wire Wire Line
-	6750 2600 6250 2600
-Wire Wire Line
-	6250 2700 6750 2700
-Wire Wire Line
-	6750 2800 6250 2800
-Wire Wire Line
-	6250 2900 6750 2900
-Wire Wire Line
-	6750 3000 6250 3000
+	6850 3000 6350 3000
 $Comp
 L OpenVent:C_1206_47nF_16V_2%_PPS_film C?
 U 1 1 61F2C4F9
@@ -1612,27 +1588,14 @@ Wire Wire Line
 Connection ~ 9200 1400
 Wire Wire Line
 	9200 1400 9400 1400
-$Comp
-L OpenVent:74ACT244PW U?
-U 1 1 61F2C6B2
-P 7250 2800
-AR Path="/601B7AF8/61F2C6B2" Ref="U?"  Part="1" 
-AR Path="/5F8F3873/61F2C6B2" Ref="U7"  Part="1" 
-F 0 "U7" H 6950 3600 50  0000 C CNN
-F 1 "74ACT244PW" H 6900 3500 50  0000 C CNN
-F 2 "" H 7250 2800 50  0001 C CNN
-F 3 "https://drive.google.com/drive/u/1/folders/1bT0MezjjDfDXdTdQktjf6O5y5oTJs8ND" H 7250 2800 50  0001 C CNN
-	1    7250 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6250 2300 6750 2300
+	6350 2300 6850 2300
 Wire Wire Line
 	7750 2300 8250 2300
-Text GLabel 6250 2400 0    50   Input ~ 0
+Text GLabel 6350 2400 0    50   Input ~ 0
 DRV_PRES_SENS_VENT
 Wire Wire Line
-	6250 2400 6750 2400
+	6350 2400 6850 2400
 $Comp
 L OpenVent:C_1206_47nF_16V_2%_PPS_film C?
 U 1 1 61F2C6D0
@@ -1703,33 +1666,14 @@ Wire Wire Line
 Wire Wire Line
 	8350 2400 7750 2400
 Wire Wire Line
-	6550 1700 6550 1650
+	6600 1700 6600 1650
 Wire Wire Line
-	6600 1700 6550 1700
+	6650 1700 6600 1700
 Wire Wire Line
-	7250 1700 7200 1700
-Connection ~ 7250 1700
-Wire Wire Line
-	7250 2000 7250 1700
-Wire Wire Line
-	7800 1700 7250 1700
+	7300 1700 7250 1700
+Connection ~ 7300 1700
 Wire Wire Line
 	7800 1750 7800 1700
-Wire Wire Line
-	7800 2050 7800 2100
-$Comp
-L OpenVent:+5V_Sensors #PWR?
-U 1 1 61F2C4C8
-P 6550 1650
-AR Path="/601B7AF8/61F2C4C8" Ref="#PWR?"  Part="1" 
-AR Path="/5F8F3873/61F2C4C8" Ref="#PWR085"  Part="1" 
-F 0 "#PWR085" H 6550 1500 50  0001 C CNN
-F 1 "+5V_Sensors" H 6550 1823 50  0000 C CNN
-F 2 "" H 6550 1650 50  0001 C CNN
-F 3 "" H 6550 1650 50  0001 C CNN
-	1    6550 1650
-	1    0    0    -1  
-$EndComp
 $Comp
 L OpenVent:GND #PWR?
 U 1 1 61F2C4C2
@@ -1766,16 +1710,16 @@ $EndComp
 $Comp
 L OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB?
 U 1 1 61F2C4AF
-P 6600 1700
+P 6650 1700
 AR Path="/601B7AF8/61F2C4AF" Ref="FB?"  Part="1" 
 AR Path="/5F8F3873/61F2C4AF" Ref="FB4"  Part="1" 
-F 0 "FB4" H 6900 1800 50  0000 C CNN
-F 1 "BLM18AG601SN1D Chip_Ferrite,_600R,_0603,_750mA" H 6900 2008 50  0001 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 1700 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1756147.pdf" H 6600 1700 50  0001 C CNN
-F 4 "600R" H 6750 1650 50  0000 C CNN "Val"
-F 5 "750mA" H 7050 1650 50  0000 C CNN "Current"
-	1    6600 1700
+F 0 "FB4" H 6950 1800 50  0000 C CNN
+F 1 "BLM18AG601SN1D Chip_Ferrite,_600R,_0603,_750mA" H 6950 2008 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 1700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1756147.pdf" H 6650 1700 50  0001 C CNN
+F 4 "600R" H 6800 1650 50  0000 C CNN "Val"
+F 5 "750mA" H 7100 1650 50  0000 C CNN "Current"
+	1    6650 1700
 	1    0    0    -1  
 $EndComp
 Connection ~ 9250 5750
@@ -2377,4 +2321,59 @@ Wire Wire Line
 	5650 7400 6300 7400
 Text Notes 9900 1500 0    50   ~ 10
 These might break the FPGA\n
+$Comp
+L OpenVent:SN74LVC244APW U?
+U 1 1 6231C802
+P 7300 2800
+F 0 "U?" H 6650 3600 50  0000 C CNN
+F 1 "SN74LVC244APW" H 6900 3500 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7300 2800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1640185609188&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3500 7300 3550
+Wire Wire Line
+	7800 2100 7800 2050
+Wire Wire Line
+	7300 1700 7300 2050
+Wire Wire Line
+	7800 1700 7300 1700
+Wire Wire Line
+	7300 3550 6800 3550
+Wire Wire Line
+	6800 3550 6800 3250
+Connection ~ 7300 3550
+Wire Wire Line
+	7300 3550 7300 3600
+Connection ~ 6800 3250
+$Comp
+L OpenVent:+3V3_Sensors #PWR?
+U 1 1 6240F3C6
+P 6600 1650
+AR Path="/5F99D63D/6240F3C6" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F3873/6240F3C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 1500 50  0001 C CNN
+F 1 "+3V3_Sensors" H 6600 1823 50  0000 C CNN
+F 2 "" H 6600 1650 50  0001 C CNN
+F 3 "" H 6600 1650 50  0001 C CNN
+	1    6600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenVent:+3V3_Sensors #PWR?
+U 1 1 62422EEF
+P 5800 5250
+AR Path="/5F99D63D/62422EEF" Ref="#PWR?"  Part="1" 
+AR Path="/5F8F3873/62422EEF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 5100 50  0001 C CNN
+F 1 "+3V3_Sensors" H 5800 5423 50  0000 C CNN
+F 2 "" H 5800 5250 50  0001 C CNN
+F 3 "" H 5800 5250 50  0001 C CNN
+	1    5800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5300 5800 5250
 $EndSCHEMATC

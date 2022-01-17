@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:OpenVent-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -211,17 +210,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 1550 4200 1550
 Connection ~ 4850 1550
-$Comp
-L OpenVent:3V3 #PWR0142
-U 1 1 6072AB3F
-P 4200 2150
-F 0 "#PWR0142" H 4200 2000 50  0001 C CNN
-F 1 "3V3" H 4200 2323 50  0000 C CNN
-F 2 "" H 4200 2150 50  0001 C CNN
-F 3 "" H 4200 2150 50  0001 C CNN
-	1    4200 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 1400 4200 1400
 Wire Wire Line
@@ -828,17 +816,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 4750 4200 4750
 Connection ~ 4850 4750
-$Comp
-L OpenVent:3V3 #PWR0145
-U 1 1 607E3370
-P 4200 5350
-F 0 "#PWR0145" H 4200 5200 50  0001 C CNN
-F 1 "3V3" H 4200 5523 50  0000 C CNN
-F 2 "" H 4200 5350 50  0001 C CNN
-F 3 "" H 4200 5350 50  0001 C CNN
-	1    4200 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 4600 4200 4600
 Wire Wire Line
@@ -1664,4 +1641,32 @@ Text Notes 6800 850  0    50   ~ 0
 Do not fit
 Text Notes 6900 4000 0    50   ~ 0
 Do not fit
+$Comp
+L power:+2V5 #PWR?
+U 1 1 625BD691
+P 4200 2150
+AR Path="/5F99D63D/625BD691" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/625BD691" Ref="#PWR?"  Part="1" 
+AR Path="/60D4F569/625BD691" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 2000 50  0001 C CNN
+F 1 "+2V5" H 4215 2323 50  0000 C CNN
+F 2 "" H 4200 2150 50  0001 C CNN
+F 3 "" H 4200 2150 50  0001 C CNN
+	1    4200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 625C511B
+P 4200 5350
+AR Path="/5F99D63D/625C511B" Ref="#PWR?"  Part="1" 
+AR Path="/5FCA4074/625C511B" Ref="#PWR?"  Part="1" 
+AR Path="/60D4F569/625C511B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 5200 50  0001 C CNN
+F 1 "+2V5" H 4215 5523 50  0000 C CNN
+F 2 "" H 4200 5350 50  0001 C CNN
+F 3 "" H 4200 5350 50  0001 C CNN
+	1    4200 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x02
+# Connector_Generic_Conn_01x02
 #
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -20,11 +20,35 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OVB_Microsemi:M2GL010-TQ144
+# Memory_Flash_W25Q128JVS
 #
-DEF OVB_Microsemi:M2GL010-TQ144 U 0 40 Y Y 9 L N
+DEF Memory_Flash_W25Q128JVS U 0 20 Y Y 1 F N
+F0 "U" -350 350 50 H V C CNN
+F1 "Memory_Flash_W25Q128JVS" 300 350 50 H V C CNN
+F2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS W25Q128JVS
+$FPLIST
+ SOIC*5.23x5.23mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 10 f
+X ~CS 1 -500 100 100 R 50 50 1 1 I
+X DO(IO1) 2 500 100 100 L 50 50 1 1 B
+X IO2 3 500 -100 100 L 50 50 1 1 B
+X GND 4 0 -400 100 U 50 50 1 1 W
+X DI(IO0) 5 500 200 100 L 50 50 1 1 B
+X CLK 6 -500 -100 100 R 50 50 1 1 I
+X IO3 7 500 -200 100 L 50 50 1 1 B
+X VCC 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# OVB_Microsemi_M2GL010-TQ144
+#
+DEF OVB_Microsemi_M2GL010-TQ144 U 0 40 Y Y 9 L N
 F0 "U" 0 100 50 H V C CNN
-F1 "OVB_Microsemi:M2GL010-TQ144" 0 0 50 H V C CNN
+F1 "OVB_Microsemi_M2GL010-TQ144" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -194,11 +218,11 @@ X VSS 98 600 -500 200 L 50 50 9 1 W
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue:DLP11SA900HL2L-F_inductors
+# OpenVent-rescue_DLP11SA900HL2L-F_inductors
 #
-DEF OpenVent-rescue:DLP11SA900HL2L-F_inductors FL 0 10 Y N 1 F N
+DEF OpenVent-rescue_DLP11SA900HL2L-F_inductors FL 0 10 Y N 1 F N
 F0 "FL" 0 175 50 H V C CNN
-F1 "OpenVent-rescue:DLP11SA900HL2L-F_inductors" 0 -175 50 H V C CNN
+F1 "OpenVent-rescue_DLP11SA900HL2L-F_inductors" 0 -175 50 H V C CNN
 F2 "F_Inductors:Murata_DLP11S" 0 40 50 H I C CNN
 F3 "" 0 40 50 H I C CNN
 $FPLIST
@@ -231,152 +255,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue:GW1N-9LQ100-OpenVent-OpenVent-rescue
+# OpenVent-rescue_RClamp3654P.TCT-F_Misc
 #
-DEF OpenVent-rescue:GW1N-9LQ100-OpenVent-OpenVent-rescue U 0 40 Y Y 6 L N
-F0 "U" -100 250 50 H V C CNN
-F1 "OpenVent-rescue:GW1N-9LQ100-OpenVent-OpenVent-rescue" -50 150 50 H V C CNN
-F2 "" 3300 -900 50 H I C CNN
-F3 "" 3300 -900 50 H I C CNN
-DRAW
-T 0 400 -100 50 0 4 0 "Bank 0" Normal 0 C C
-T 0 -400 -100 50 0 4 0 "Bank 3" Normal 0 C C
-T 0 -200 -850 50 0 1 1 * Normal 0 C C
-T 0 300 -150 50 0 1 1 * Normal 0 C C
-T 0 -400 50 50 0 2 1 JTAG/CONFIGURATION Normal 0 C C
-T 0 -300 50 50 0 4 1 "BANK 3, BANK 0" Normal 0 C C
-T 0 -400 50 50 0 5 1 "BANK 2" Normal 0 C C
-T 0 -700 50 50 0 6 1 "BANK 1" Normal 0 C C
-S -500 0 550 -1300 1 1 0 f
-S -800 0 600 -600 2 1 0 f
-S -650 0 600 -1500 4 1 0 f
-S -950 -300 -950 -300 5 1 0 N
-S -950 -250 -950 -250 5 1 0 N
-S -950 -100 -950 -100 5 1 0 N
-S -800 -200 -800 -200 5 1 0 N
-S -750 -600 -750 -600 5 1 0 N
-S -750 -200 -750 -200 5 1 0 N
-S -750 -100 -750 -100 5 1 0 N
-S -750 -100 -750 -100 5 1 0 N
-S -750 -50 -750 -50 5 1 0 N
-S -700 -500 -700 -500 5 1 0 N
-S -700 -500 -700 -500 5 1 0 N
-S -700 -400 -700 -400 5 1 0 N
-S -700 -400 -700 -400 5 1 0 N
-S -700 -300 -700 -300 5 1 0 N
-S -700 -200 -700 -200 5 1 0 N
-S -700 -100 -700 -100 5 1 0 N
-S -600 0 650 -1500 5 1 0 f
-S -500 -300 -500 -300 5 1 0 N
-S -850 0 900 -1300 6 1 0 f
-X VCC 1 -700 -100 200 R 50 50 1 1 W
-X VCCO3 13 -700 -1250 200 R 50 50 1 1 W
-X GND 2 750 -1100 200 L 50 50 1 1 w
-X VCCX 21 750 -250 200 L 50 50 1 1 W
-X GND 24 750 -1000 200 L 50 50 1 1 w
-X VCC 25 -700 -200 200 R 50 50 1 1 W
-X VCCO2 26 -700 -950 200 R 50 50 1 1 W
-X GND 37 750 -900 200 L 50 50 1 1 w
-X VCCO2 38 -700 -1050 200 R 50 50 1 1 W
-X VCCO3 4 -700 -1150 200 R 50 50 1 1 W
-X VCC 51 -700 -300 200 R 50 50 1 1 W
-X GND 52 750 -800 200 L 50 50 1 1 w
-X VCCX 54 750 -150 200 L 50 50 1 1 W
-X VCCO1 63 -700 -750 200 R 50 50 1 1 W
-X VCCO1 71 -700 -850 200 R 50 50 1 1 W
-X GND 74 750 -700 200 L 50 50 1 1 w
-X VCC 75 -700 -400 200 R 50 50 1 1 W
-X VCCO0 76 -700 -550 200 R 50 50 1 1 W
-X GND 87 750 -600 200 L 50 50 1 1 w
-X VCCO0 88 -700 -650 200 R 50 50 1 1 W
-X MODE0 100 800 -400 200 L 39 50 2 1 P
-X IOL12B/TDI 11 -1000 -300 200 R 50 50 2 1 P
-X IOL13A/TDO 12 -1000 -400 200 R 50 50 2 1 P
-X RECONFIG_N/IOL13B 14 800 -300 200 L 50 50 2 1 P
-X DONE/IOL14A 15 800 -200 200 L 50 50 2 1 P
-X READY/IOL14B 16 800 -100 200 L 50 50 2 1 P
-X IOL5A/JTAGSEL_N/LPLL_T_in 3 -1000 -500 200 R 50 50 2 1 P
-X IOL11A/TMS 8 -1000 -100 200 R 50 50 2 1 P
-X IOL11B/TCK 9 -1000 -200 200 R 50 50 2 1 P
-X IOL12A/SCLK 10 -850 -1400 200 R 50 50 4 1 P
-X IOL15A/GCLKT_6 17 -850 -400 200 R 50 50 4 1 P
-X IOL15B/GCLKC_6 18 -850 -500 200 R 50 50 4 1 P
-X IOL20A 19 -850 -600 200 R 50 50 4 1 P
-X IOL20B 20 -850 -700 200 R 50 50 4 1 P
-X IOL7B 5 -850 -1300 200 R 50 50 4 1 P
-X IOL9A/GCLKT_7 6 -850 -200 200 R 50 50 4 1 P
-X IOL9B/GCLKC_7 7 -850 -300 200 R 50 50 4 1 P
-X IOT32B 85 800 -900 200 L 50 50 4 1 P
-X IOT32A 86 800 -800 200 L 50 50 4 1 P
-X IOT22B 89 800 -700 200 L 50 50 4 1 P
-X IOT22A 90 800 -600 200 L 50 50 4 1 P
-X IOT20A 91 800 -1300 200 L 50 50 4 1 P
-X IOT17B 92 800 -500 200 L 50 50 4 1 P
-X IOT17A 93 800 -400 200 L 50 50 4 1 P
-X IOT15B 94 800 -300 200 L 50 50 4 1 P
-X IOT15A 95 800 -200 200 L 50 50 4 1 P
-X IOT12B 96 -850 -1100 200 R 50 50 4 1 P
-X IOT12A 97 -850 -1000 200 R 50 50 4 1 P
-X IOT8B 98 -850 -900 200 R 50 50 4 1 P
-X IOT8A 99 -850 -800 200 R 50 50 4 1 P
-X IOB6A 22 -800 -100 200 R 50 50 5 1 P
-X IOB6B 23 -800 -200 200 R 50 50 5 1 P
-X IOB8A 27 -800 -300 200 R 50 50 5 1 P
-X IOB8B 28 -800 -400 200 R 50 50 5 1 P
-X IOB11A 29 -800 -500 200 R 50 50 5 1 P
-X IOB11B 30 -800 -600 200 R 50 50 5 1 P
-X IOB13A 31 -800 -700 200 R 50 50 5 1 P
-X IOB13B 32 -800 -800 200 R 50 50 5 1 P
-X IOB15A 33 -800 -900 200 R 50 50 5 1 P
-X IOB15B 34 -800 -1000 200 R 50 50 5 1 P
-X IOB17A 35 -800 -1100 200 R 50 50 5 1 P
-X IOB17B 36 -800 -1200 200 R 50 50 5 1 P
-X IOB28A/GCLKT_5 39 850 -1000 200 L 50 50 5 1 P
-X IOB28B/GCLKC_5 40 850 -1100 200 L 50 50 5 1 P
-X IOB29A/GCLKT_4 41 850 -1200 200 L 50 50 5 1 P
-X IOB29B/GCLKC_4 42 850 -1300 200 L 50 50 5 1 P
-X IOB31A 43 -800 -1300 200 R 50 50 5 1 P
-X IOB31B 44 -800 -1400 200 R 50 50 5 1 P
-X IOB33A 45 850 -700 200 L 50 50 5 1 P
-X IOB33B 46 850 -800 200 L 50 50 5 1 P
-X IOB35A 47 850 -500 200 L 50 50 5 1 P
-X IOB35B 48 850 -600 200 L 50 50 5 1 P
-X IOB39A 49 850 -300 200 L 50 50 5 1 P
-X IOB39B 50 850 -400 200 L 50 50 5 1 P
-X IOB43B 53 850 -200 200 L 50 50 5 1 P
-X IOB43A 55 850 -100 200 L 50 50 5 1 P
-X GCLKC_3/IOR17B 56 1100 -800 200 L 50 50 6 1 P
-X GCLKT_3/IOR17A 57 1100 -700 200 L 50 50 6 1 P
-X DOUT/WE_N/IOR15B 58 1100 -200 200 L 50 50 6 1 P
-X DIN/CLKHOLD_N/IOR15A 59 1100 -100 200 L 50 50 6 1 P
-X IOR14B/SSPI_CS_N/D0 60 -1050 -800 200 R 50 50 6 1 P
-X IOR14A/SO/D1 61 -1050 -700 200 R 50 50 6 1 P
-X IOR13B/SI/D2 62 -1050 -600 200 R 50 50 6 1 P
-X IOR13A/FASTRD_N/D3 64 -1050 -500 200 R 50 50 6 1 P
-X IOR12B/MCLK/D4 65 -1050 -400 200 R 50 50 6 1 P
-X IOR12A/MCS_N/D5 66 -1050 -300 200 R 50 50 6 1 P
-X IOR11B/MO/D6 67 -1050 -200 200 R 50 50 6 1 P
-X IOR11A/MI/D7 68 -1050 -100 200 R 50 50 6 1 P
-X GCLKC_2/IOR9B 69 1100 -600 200 L 50 50 6 1 P
-X GCLKT_2/IOR9A 70 1100 -500 200 L 50 50 6 1 P
-X RPLL_C_IN/IOR5B 72 1100 -400 200 L 50 50 6 1 P
-X RPLL_T_IN/IOR5A 73 1100 -300 200 L 50 50 6 1 P
-X IOT42B 77 1100 -1200 200 L 50 50 6 1 P
-X IOT42A 78 1100 -1100 200 L 50 50 6 1 P
-X IOT41B 79 1100 -1000 200 L 50 50 6 1 P
-X IOT41A 80 1100 -900 200 L 50 50 6 1 P
-X IOT39B 81 -1050 -1200 200 R 50 50 6 1 P
-X IOT39A 82 -1050 -1100 200 R 50 50 6 1 P
-X IOT37B 83 -1050 -1000 200 R 50 50 6 1 P
-X IOT37A 84 -1050 -900 200 R 50 50 6 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenVent-rescue:RClamp3654P.TCT-F_Misc
-#
-DEF OpenVent-rescue:RClamp3654P.TCT-F_Misc TVS 0 40 Y Y 1 F N
+DEF OpenVent-rescue_RClamp3654P.TCT-F_Misc TVS 0 40 Y Y 1 F N
 F0 "TVS" -200 400 50 H V C CNN
-F1 "OpenVent-rescue:RClamp3654P.TCT-F_Misc" 400 -50 50 H V C CNN
+F1 "OpenVent-rescue_RClamp3654P.TCT-F_Misc" 400 -50 50 H V C CNN
 F2 "F_Misc:SON50P160X160X65-7N" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Semtech Corporation" 0 0 50 H I C CNN "Mfr"
@@ -395,11 +278,11 @@ X GND 7 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue:STM32L412R8T6-OpenVent
+# OpenVent-rescue_STM32L412R8T6-OpenVent
 #
-DEF OpenVent-rescue:STM32L412R8T6-OpenVent U 0 40 Y Y 2 L N
+DEF OpenVent-rescue_STM32L412R8T6-OpenVent U 0 40 Y Y 2 L N
 F0 "U" 250 850 50 H V C CNN
-F1 "OpenVent-rescue:STM32L412R8T6-OpenVent" 500 -200 50 H V C CNN
+F1 "OpenVent-rescue_STM32L412R8T6-OpenVent" 500 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -472,11 +355,11 @@ X VDD 64 0 300 200 R 50 50 2 1 W
 ENDDRAW
 ENDDEF
 #
-# OpenVent-rescue:VBATT-OpenVent
+# OpenVent-rescue_VBATT-OpenVent
 #
-DEF OpenVent-rescue:VBATT-OpenVent #PWR 0 0 N N 1 F P
+DEF OpenVent-rescue_VBATT-OpenVent #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent-rescue:VBATT-OpenVent" 0 150 50 H V C CNN
+F1 "OpenVent-rescue_VBATT-OpenVent" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -487,11 +370,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+1V2
+# OpenVent_+1V2
 #
-DEF OpenVent:+1V2 #PWR 0 0 N N 1 F P
+DEF OpenVent_+1V2 #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:+1V2" 0 140 50 H V C CNN
+F1 "OpenVent_+1V2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -502,14 +385,13 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+3.3V
+# OpenVent_+3.3V
 #
-DEF OpenVent:+3.3V #PWR 0 0 N N 1 F P
+DEF OpenVent_+3.3V #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:+3.3V" 0 140 50 H V C CNN
+F1 "OpenVent_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -518,11 +400,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+3V3-ALWAYS-ON
+# OpenVent_+3V3-ALWAYS-ON
 #
-DEF OpenVent:+3V3-ALWAYS-ON #PWR 0 0 N N 1 F P
+DEF OpenVent_+3V3-ALWAYS-ON #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -100 50 H I C CNN
-F1 "OpenVent:+3V3-ALWAYS-ON" 0 150 50 H V C CNN
+F1 "OpenVent_+3V3-ALWAYS-ON" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -533,11 +415,11 @@ X VDC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+3V3_Sensors
+# OpenVent_+3V3_Sensors
 #
-DEF OpenVent:+3V3_Sensors #PWR 0 0 N N 1 F P
+DEF OpenVent_+3V3_Sensors #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:+3V3_Sensors" 0 140 50 H V C CNN
+F1 "OpenVent_+3V3_Sensors" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -548,11 +430,11 @@ X +3.3V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+5V
+# OpenVent_+5V
 #
-DEF OpenVent:+5V #PWR 0 0 N N 1 F P
+DEF OpenVent_+5V #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:+5V" 0 140 50 H V C CNN
+F1 "OpenVent_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -563,11 +445,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:+5V_Sensors
+# OpenVent_+5V_Sensors
 #
-DEF OpenVent:+5V_Sensors #PWR 0 0 N N 1 F P
+DEF OpenVent_+5V_Sensors #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:+5V_Sensors" 0 140 50 H V C CNN
+F1 "OpenVent_+5V_Sensors" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -578,11 +460,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:033uF_0603_Ceramic_Capacitor,_10%,_16V
+# OpenVent_033uF_0603_Ceramic_Capacitor,_10%,_16V
 #
-DEF ~OpenVent:033uF_0603_Ceramic_Capacitor,_10%,_16V C 0 40 Y Y 1 F N
+DEF OpenVent_033uF_0603_Ceramic_Capacitor,_10%,_16V C 0 40 Y Y 1 F N
 F0 "C" -10 -90 50 H V L BNN
-F1 "OpenVent:033uF_0603_Ceramic_Capacitor,_10%,_16V" 0 0 50 H I C CNN
+F1 "OpenVent_033uF_0603_Ceramic_Capacitor,_10%,_16V" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "330nF" 0 0 50 H V C CNN "Val"
@@ -598,11 +480,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:06035C561JAT2A
+# OpenVent_06035C561JAT2A
 #
-DEF OpenVent:06035C561JAT2A C 0 30 Y Y 1 F N
+DEF OpenVent_06035C561JAT2A C 0 30 Y Y 1 F N
 F0 "C" 350 250 50 H V L CNN
-F1 "OpenVent:06035C561JAT2A" 350 150 50 H V L CNN
+F1 "OpenVent_06035C561JAT2A" 350 150 50 H V L CNN
 F2 "CAPC1608X90N" 350 50 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" 350 -50 50 H I L CNN
 F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 560pF X7R 0603 5% Tol" 350 -150 50 H I L CNN "Description"
@@ -621,11 +503,11 @@ X ~ 2 500 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:0R0_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_0R0_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:0R0_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_0R0_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:0R0_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_0R0_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "0 Ohm" 0 0 50 H V C CNN "Val"
@@ -638,11 +520,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_0R1_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_0R1_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:0R1_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_0R1_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "0.1 Ohm" 0 0 50 H V C CNN "Val"
@@ -655,11 +537,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
+# OpenVent_1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
 #
-DEF ~OpenVent:1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
+DEF OpenVent_1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
 F0 "C" 25 100 50 H V L BNN
-F1 "OpenVent:1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" -525 225 50 H I C CNN
+F1 "OpenVent_1.5nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" -525 225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1.5nF" 50 25 50 H V C CNN "Val"
@@ -675,11 +557,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:100K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_100K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100k" 0 0 50 H V C CNN "Val"
@@ -692,11 +574,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
+# OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V
 #
-DEF ~OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
+DEF OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" 0 0 50 H I C CNN
+F1 "OpenVent_100nF_0603_Ceramic_Capacitor,_10%,_X7R,_25V" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "100nF" 0 0 50 H V C CNN "Val"
@@ -712,11 +594,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:10k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_10k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10k" 0 0 50 H V C CNN "Val"
@@ -730,11 +612,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-
+# OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-
 #
-DEF ~OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C 0 40 Y Y 1 F N
+DEF OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R- C 0 40 Y Y 1 F N
 F0 "C" -110 190 50 H V L BNN
-F1 "OpenVent:10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" 0 0 50 H I C CNN
+F1 "OpenVent_10nF_0603_Ceramic_Capacitor,_10%,_50V,_X7R-" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10nF" 0 0 50 H V C CNN "Val"
@@ -750,11 +632,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V
+# OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V
 #
-DEF ~OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V C 0 40 N N 1 F N
+DEF OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V C 0 40 N N 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:10uF_0805_Ceramic_Capacitor_10%_X7R_10V" 0 0 50 H I C CNN
+F1 "OpenVent_10uF_0805_Ceramic_Capacitor_10%_X7R_10V" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uF" 0 0 50 H V C CNN "Val"
@@ -776,11 +658,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_12k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
+DEF OpenVent_12k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:12k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_12k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "12k" 0 0 50 H V C CNN "Val"
@@ -793,11 +675,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:133k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_133k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:133k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
+DEF OpenVent_133k_0603_Chip_Resistor,_1%,_0.1W R 0 40 N N 1 F N
 F0 "R" -50 140 50 H V L BNN
-F1 "OpenVent:133k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
+F1 "OpenVent_133k_0603_Chip_Resistor,_1%,_0.1W" -170 -300 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" -220 340 50 H I C CNN
 F3 "" -100 100 50 H I C CNN
 F4 "133k" 0 90 50 H V C CNN "Val"
@@ -810,11 +692,11 @@ X 2 2 200 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:180k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_180k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:180k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_180k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 0 -60 50 H V L BNN
-F1 "OpenVent:180k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_180k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "180k" 0 0 50 H V C CNN "Val"
@@ -827,11 +709,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:1K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_1K_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "1K" 0 0 50 H V C CNN "Val"
@@ -846,11 +728,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:1M_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_1M_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:1M_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_1M_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:1M_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_1M_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1M" 0 0 50 H V C CNN "Val"
@@ -863,11 +745,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
+# OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
 #
-DEF ~OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
+DEF OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
+F1 "OpenVent_1uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1uF" 0 0 50 H V C CNN "Val"
@@ -883,11 +765,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
+# OpenVent_2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R
 #
-DEF ~OpenVent:2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
+DEF OpenVent_2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
+F1 "OpenVent_2.2uF_0603_Ceramic_Capacitor,_10%,_50V,_X5R" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "2.2uF" 0 0 50 H V C CNN "Val"
@@ -903,11 +785,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V
+# OpenVent_22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V
 #
-DEF ~OpenVent:22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V C 0 40 Y Y 1 F N
+DEF OpenVent_22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V" 0 0 50 H I C CNN
+F1 "OpenVent_22nF_0603_Ceramic_Capacitor,_10%,_X7R,_50V" 0 0 50 H I C CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "22nF" 0 0 50 H V C CNN "Val"
@@ -923,11 +805,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V
+# OpenVent_22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V
 #
-DEF ~OpenVent:22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C 0 40 Y Y 1 F N
+DEF OpenVent_22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V C 0 40 Y Y 1 F N
 F0 "C" 190 10 50 H V L BNN
-F1 "OpenVent:22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V" 0 0 50 H I C CNN
+F1 "OpenVent_22pF_0603_Ceramic_Capacitor,_5%,_NP0,_50V" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "22pF" 0 0 50 H V C CNN "Val"
@@ -943,11 +825,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
+# OpenVent_22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R
 #
-DEF ~OpenVent:22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R C 0 40 Y Y 1 F N
+DEF OpenVent_22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R C 0 40 Y Y 1 F N
 F0 "C" -110 190 50 H V L BNN
-F1 "OpenVent:22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R" 0 0 50 H I C CNN
+F1 "OpenVent_22uF_1206_Ceramic_Capacitor,_10%,_10V,_X7R" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_1206_3216Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "22uF" 0 0 50 H V C CNN "Val"
@@ -966,11 +848,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:2N7002BK
+# OpenVent_2N7002BK
 #
-DEF OpenVent:2N7002BK Q 0 40 Y Y 1 F N
+DEF OpenVent_2N7002BK Q 0 40 Y Y 1 F N
 F0 "Q" 50 -250 50 H V L BNN
-F1 "OpenVent:2N7002BK" 50 -350 50 H V L BNN
+F1 "OpenVent_2N7002BK" 50 -350 50 H V L BNN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -993,11 +875,11 @@ X D 3 0 0 100 D 70 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:2x5_Way_1.27mm_Pitch_Header
+# OpenVent_2x5_Way_1.27mm_Pitch_Header
 #
-DEF OpenVent:2x5_Way_1.27mm_Pitch_Header CN 0 40 Y Y 1 F N
+DEF OpenVent_2x5_Way_1.27mm_Pitch_Header CN 0 40 Y Y 1 F N
 F0 "CN" 0 0 50 H V C CNN
-F1 "OpenVent:2x5_Way_1.27mm_Pitch_Header" 50 100 50 H V C CNN
+F1 "OpenVent_2x5_Way_1.27mm_Pitch_Header" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1015,11 +897,11 @@ X ~ 9 -250 -550 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:2x5_Way_1.27mm_Pitch_Header_MCU
+# OpenVent_2x5_Way_1.27mm_Pitch_Header_MCU
 #
-DEF OpenVent:2x5_Way_1.27mm_Pitch_Header_MCU CN 0 40 Y Y 1 F N
+DEF OpenVent_2x5_Way_1.27mm_Pitch_Header_MCU CN 0 40 Y Y 1 F N
 F0 "CN" 0 0 50 H V C CNN
-F1 "OpenVent:2x5_Way_1.27mm_Pitch_Header_MCU" 50 100 50 H V C CNN
+F1 "OpenVent_2x5_Way_1.27mm_Pitch_Header_MCU" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1037,11 +919,11 @@ X GNDDetect 9 -500 -550 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:33R_Chip_Resistor,_1%,_0.1W
+# OpenVent_33R_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:33R_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_33R_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:33R_Chip_Resistor,_1%,_0.1W" -350 350 50 H I C CNN
+F1 "OpenVent_33R_Chip_Resistor,_1%,_0.1W" -350 350 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 200 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "33R" 200 0 50 H V C CNN "Val"
@@ -1054,11 +936,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:33nF_0603_Ceramic_Capacitor,_10%,_50V
+# OpenVent_33nF_0603_Ceramic_Capacitor,_10%,_50V
 #
-DEF ~OpenVent:33nF_0603_Ceramic_Capacitor,_10%,_50V C 0 40 Y Y 1 F N
+DEF OpenVent_33nF_0603_Ceramic_Capacitor,_10%,_50V C 0 40 Y Y 1 F N
 F0 "C" -10 -90 50 H V L BNN
-F1 "OpenVent:33nF_0603_Ceramic_Capacitor,_10%,_50V" 0 0 50 H I C CNN
+F1 "OpenVent_33nF_0603_Ceramic_Capacitor,_10%,_50V" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "33nF" 0 0 50 H V C CNN "Val"
@@ -1074,13 +956,14 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:3V3
+# OpenVent_3V3
 #
-DEF OpenVent:3V3 #PWR 0 0 N N 1 F P
+DEF OpenVent_3V3 #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:3V3" 0 140 50 H V C CNN
+F1 "OpenVent_3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -1089,11 +972,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:3_position_header
+# OpenVent_3_position_header
 #
-DEF OpenVent:3_position_header U 0 40 Y Y 1 F N
+DEF OpenVent_3_position_header U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "OpenVent:3_position_header" 50 100 50 H V C CNN
+F1 "OpenVent_3_position_header" 50 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1104,11 +987,11 @@ X 3 ~ -150 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_3k6_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_3k6_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 0 -60 50 H V L BNN
-F1 "OpenVent:3k6_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_3k6_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3k6" 0 0 50 H V C CNN "Val"
@@ -1121,11 +1004,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS
+# OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS
 #
-DEF ~OpenVent:4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS R 0 40 Y Y 1 F N
+DEF OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS R 0 40 Y Y 1 F N
 F0 "R" -60 100 50 H V L BNN
-F1 "OpenVent:4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS" 0 0 50 H I C CNN
+F1 "OpenVent_4.7K_±0.1%_1_6W_±25ppm_℃_0603_High_Precision_&_Low_TCR_SMD_Resistors_RoHS" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "4k7" 0 0 50 H V C CNN "Val"
@@ -1138,11 +1021,11 @@ X 2 2 -300 100 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:470R_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:470R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:470R_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_470R_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "470R" 0 0 50 H V C CNN "Val"
@@ -1155,11 +1038,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:470k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_470k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:470k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_470k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:470k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_470k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "470k" 0 0 50 H V C CNN "Val"
@@ -1172,11 +1055,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G
+# OpenVent_470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G
 #
-DEF ~OpenVent:470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G C 0 40 Y Y 1 F N
+DEF OpenVent_470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G C 0 40 Y Y 1 F N
 F0 "C" -10 -10 50 H V L BNN
-F1 "OpenVent:470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G" 0 0 50 H I C CNN
+F1 "OpenVent_470pF_0603_Ceramic_Capacitor,_5%,_100V,_C0G" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "470pF" 0 0 50 H V C CNN "Val"
@@ -1192,11 +1075,11 @@ X 2 2 200 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_47k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_47k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:47k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_47k_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "47k" 0 0 50 H V C CNN "Val"
@@ -1209,11 +1092,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:47uF_1210_Ceramic_Capacitor_10%_X6S_16V
+# OpenVent_47uF_1210_Ceramic_Capacitor_10%_X6S_16V
 #
-DEF ~OpenVent:47uF_1210_Ceramic_Capacitor_10%_X6S_16V C 0 40 N N 1 F N
+DEF OpenVent_47uF_1210_Ceramic_Capacitor_10%_X6S_16V C 0 40 N N 1 F N
 F0 "C" -60 210 50 H V L BNN
-F1 "OpenVent:47uF_1210_Ceramic_Capacitor_10%_X6S_16V" 50 -900 50 H I C CNN
+F1 "OpenVent_47uF_1210_Ceramic_Capacitor_10%_X6S_16V" 50 -900 50 H I C CNN
 F2 "Capacitor_SMD:C_1210_3225Metric" -250 -550 50 H I C CNN
 F3 "" 0 -700 50 H I C CNN
 F4 "47uF" 0 150 50 H V C CNN "Val"
@@ -1235,11 +1118,11 @@ X 2 2 150 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -60 100 50 H V L BNN
-F1 "OpenVent:4k7_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
+F1 "OpenVent_4k7_0603_Chip_Resistor,_1%,_0.1W" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 50 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "4k7" 0 0 50 H V C CNN "Val"
@@ -1252,11 +1135,11 @@ X 2 2 -300 100 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:62k_0603_Chip_Resistor,_1%,_0.1W
+# OpenVent_62k_0603_Chip_Resistor,_1%,_0.1W
 #
-DEF ~OpenVent:62k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
+DEF OpenVent_62k_0603_Chip_Resistor,_1%,_0.1W R 0 40 Y Y 1 F N
 F0 "R" -175 75 50 H V L BNN
-F1 "OpenVent:62k_0603_Chip_Resistor,_1%,_0.1W" 50 -100 50 H I C CNN
+F1 "OpenVent_62k_0603_Chip_Resistor,_1%,_0.1W" 50 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" -100 100 50 H I C CNN
 F3 "" -100 100 50 H I C CNN
 F4 "62k" 150 100 50 H V C CNN "Val"
@@ -1269,48 +1152,11 @@ X 2 2 200 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:74ACT244PW
+# OpenVent_74AHCT1G86
 #
-DEF OpenVent:74ACT244PW U 0 20 Y Y 1 F N
-F0 "U" -300 650 50 H V C CNN
-F1 "OpenVent:74ACT244PW" -300 -650 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TSSOP*4.4x6.5mm*P0.65mm*
- SSOP*4.4x6.5mm*P0.65mm*
-$ENDFPLIST
-DRAW
-S -300 600 300 -600 1 1 10 f
-P 4 1 0 6 50 0 -50 50 -50 -50 50 0 N
-X 1OE 1 -500 -400 200 R 50 50 1 0 I I
-X GND 10 0 -800 200 U 50 50 1 0 W
-X 2A3 11 -500 -200 200 R 50 50 1 0 I
-X 1Y3 12 500 200 200 L 50 50 1 0 T
-X 2A2 13 -500 -100 200 R 50 50 1 0 I
-X 1Y2 14 500 300 200 L 50 50 1 0 T
-X 2A1 15 -500 0 200 R 50 50 1 0 I
-X 1Y1 16 500 400 200 L 50 50 1 0 T
-X 2A0 17 -500 100 200 R 50 50 1 0 I
-X 1Y0 18 500 500 200 L 50 50 1 0 T
-X 2OE 19 -500 -500 200 R 50 50 1 0 I I
-X 1A0 2 -500 500 200 R 50 50 1 0 I
-X VCC 20 0 800 200 D 50 50 1 0 W
-X 2Y0 3 500 100 200 L 50 50 1 0 T
-X 1A1 4 -500 400 200 R 50 50 1 0 I
-X 2Y1 5 500 0 200 L 50 50 1 0 T
-X 1A2 6 -500 300 200 R 50 50 1 0 I
-X 2Y2 7 500 -100 200 L 50 50 1 0 T
-X 1A3 8 -500 200 200 R 50 50 1 0 I
-X 2Y3 9 500 -200 200 L 50 50 1 0 T
-ENDDRAW
-ENDDEF
-#
-# OpenVent:74AHCT1G86
-#
-DEF OpenVent:74AHCT1G86 U 0 40 Y Y 1 F N
+DEF OpenVent_74AHCT1G86 U 0 40 Y Y 1 F N
 F0 "U" -100 150 50 H V C CNN
-F1 "OpenVent:74AHCT1G86" 0 -150 50 H V C CNN
+F1 "OpenVent_74AHCT1G86" 0 -150 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 74AHCT1G86 74AUC1G86
@@ -1335,11 +1181,11 @@ X +5V 5 0 100 0 U 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:74HC244
+# OpenVent_74HC244
 #
-DEF OpenVent:74HC244 U 0 40 Y Y 1 F N
+DEF OpenVent_74HC244 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "OpenVent:74HC244" 0 100 50 H V C CNN
+F1 "OpenVent_74HC244" 0 100 50 H V C CNN
 F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1367,11 +1213,11 @@ X 2Y3 9 350 -1050 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ABM3B-12.000MHZ
+# OpenVent_ABM3B-12.000MHZ
 #
-DEF ~OpenVent:ABM3B-12.000MHZ X 0 40 Y N 1 F N
+DEF OpenVent_ABM3B-12.000MHZ X 0 40 Y N 1 F N
 F0 "X" -150 250 50 H V L BNN
-F1 "OpenVent:ABM3B-12.000MHZ" 0 0 50 H I C CNN
+F1 "OpenVent_ABM3B-12.000MHZ" 0 0 50 H I C CNN
 F2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "12MHz" 50 -250 50 H V C CNN "Val"
@@ -1400,11 +1246,11 @@ X OSC4 4 -400 100 200 R 50 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ABM3B-16.000MHZ
+# OpenVent_ABM3B-16.000MHZ
 #
-DEF ~OpenVent:ABM3B-16.000MHZ X 0 40 Y Y 1 F N
+DEF OpenVent_ABM3B-16.000MHZ X 0 40 Y Y 1 F N
 F0 "X" -150 250 50 H V L BNN
-F1 "OpenVent:ABM3B-16.000MHZ" 0 0 50 H I C CNN
+F1 "OpenVent_ABM3B-16.000MHZ" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "16MHz" 50 -250 50 H V C CNN "Val"
@@ -1428,11 +1274,11 @@ X OSC4 4 -400 100 200 R 50 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ADP1715ARMZ-3.3-R7
+# OpenVent_ADP1715ARMZ-3.3-R7
 #
-DEF OpenVent:ADP1715ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
+DEF OpenVent_ADP1715ARMZ-3.3-R7 IC 0 30 Y Y 1 F N
 F0 "IC" 950 300 50 H V L CNN
-F1 "OpenVent:ADP1715ARMZ-3.3-R7" 200 450 50 H V L CNN
+F1 "OpenVent_ADP1715ARMZ-3.3-R7" 200 450 50 H V L CNN
 F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1715_1716.pdf" 950 0 50 H I L CNN
 F4 "Analog Devices ADP1715ARMZ-3.3-R7, LDO Regulator, 500mA, 3.3 V, +/-3%, 2.5  5.5 Vin 8-Pin, MSOP" 950 -100 50 H I L CNN "Description"
@@ -1456,11 +1302,11 @@ X GND_4 8 1000 50 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:BAT54XYH
+# OpenVent_BAT54XYH
 #
-DEF OpenVent:BAT54XYH D 0 0 Y N 2 F N
+DEF OpenVent_BAT54XYH D 0 0 Y N 2 F N
 F0 "D" 300 250 50 H V C CNN
-F1 "OpenVent:BAT54XYH" 450 150 50 H V C CNN
+F1 "OpenVent_BAT54XYH" 450 150 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" 650 -200 50 V I C CNN
 F3 "" 650 -200 50 V I C CNN
 $FPLIST
@@ -1499,11 +1345,11 @@ X K3 5 0 400 100 D 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:BB-HRGB32M-TRB-C
+# OpenVent_BB-HRGB32M-TRB-C
 #
-DEF OpenVent:BB-HRGB32M-TRB-C D 0 0 Y Y 1 F N
+DEF OpenVent_BB-HRGB32M-TRB-C D 0 0 Y Y 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "OpenVent:BB-HRGB32M-TRB-C" 0 -350 50 H V C CNN
+F1 "OpenVent_BB-HRGB32M-TRB-C" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -1546,11 +1392,11 @@ X DIN 4 -350 150 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:BD50FC0WEFJ-E2
+# OpenVent_BD50FC0WEFJ-E2
 #
-DEF OpenVent:BD50FC0WEFJ-E2 U 0 40 Y Y 1 F N
+DEF OpenVent_BD50FC0WEFJ-E2 U 0 40 Y Y 1 F N
 F0 "U" 250 650 50 H V L BNN
-F1 "OpenVent:BD50FC0WEFJ-E2" 200 -200 50 H V L BNN
+F1 "OpenVent_BD50FC0WEFJ-E2" 200 -200 50 H V L BNN
 F2 "" -100 500 50 H I C CNN
 F3 "" -100 500 50 H I C CNN
 DRAW
@@ -1563,11 +1409,11 @@ X GND 9 0 0 200 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:BLM31KN102SN1L
+# OpenVent_BLM31KN102SN1L
 #
-DEF OpenVent:BLM31KN102SN1L FL 0 30 Y Y 1 F N
+DEF OpenVent_BLM31KN102SN1L FL 0 30 Y Y 1 F N
 F0 "FL" 650 300 50 H V L CNN
-F1 "OpenVent:BLM31KN102SN1L" 650 200 50 H V L CNN
+F1 "OpenVent_BLM31KN102SN1L" 650 200 50 H V L CNN
 F2 "BLM31KN102BH1L" 650 100 50 H I L CNN
 F3 "" 650 0 50 H I L CNN
 F4 "BLM31_N1L Series EMI Suppression Filter 1000+/-25% at 100MHz 2A @85" 650 -100 50 H I L CNN "Description"
@@ -1592,11 +1438,11 @@ X 2 2 400 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:C3216X5R1H475K085AB
+# OpenVent_C3216X5R1H475K085AB
 #
-DEF OpenVent:C3216X5R1H475K085AB C 0 30 Y Y 1 F N
+DEF OpenVent_C3216X5R1H475K085AB C 0 30 Y Y 1 F N
 F0 "C" 350 250 50 H V L CNN
-F1 "OpenVent:C3216X5R1H475K085AB" 350 150 50 H V L CNN
+F1 "OpenVent_C3216X5R1H475K085AB" 350 150 50 H V L CNN
 F2 "CAPC3216X100N" 350 50 50 H I L CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" 350 -50 50 H I L CNN
 F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 50V 4.7uF X5R 10% T: 0.85mm" 350 -150 50 H I L CNN "Description"
@@ -1617,11 +1463,11 @@ X ~ 2 500 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:CONN_HEADER_SMD_4POS_2MM
+# OpenVent_CONN_HEADER_SMD_4POS_2MM
 #
-DEF ~OpenVent:CONN_HEADER_SMD_4POS_2MM CN 0 40 Y Y 1 F N
+DEF OpenVent_CONN_HEADER_SMD_4POS_2MM CN 0 40 Y Y 1 F N
 F0 "CN" 200 450 50 H V L BNN
-F1 "OpenVent:CONN_HEADER_SMD_4POS_2MM" 300 -200 50 H I C CNN
+F1 "OpenVent_CONN_HEADER_SMD_4POS_2MM" 300 -200 50 H I C CNN
 F2 "" 200 400 50 H I C CNN
 F3 "" 200 400 50 H I C CNN
 DRAW
@@ -1633,11 +1479,11 @@ X 4 4 0 0 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A
+# OpenVent_CONN_RCPT_USB2.0_MICRO_B_SMD_R_A
 #
-DEF OpenVent:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A CN 0 40 Y Y 1 F N
+DEF OpenVent_CONN_RCPT_USB2.0_MICRO_B_SMD_R_A CN 0 40 Y Y 1 F N
 F0 "CN" 200 550 60 H V L BNN
-F1 "OpenVent:CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" 450 -550 60 H V C CNN
+F1 "OpenVent_CONN_RCPT_USB2.0_MICRO_B_SMD_R_A" 450 -550 60 H V C CNN
 F2 "" 200 500 60 H V C CNN
 F3 "" 200 500 60 H V C CNN
 DRAW
@@ -1651,11 +1497,11 @@ X MP MP 600 -300 200 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A
+# OpenVent_CONN_RCPT_USB2.0_MINI_B_SMD_R_A
 #
-DEF OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A CN 0 40 Y Y 1 F N
+DEF OpenVent_CONN_RCPT_USB2.0_MINI_B_SMD_R_A CN 0 40 Y Y 1 F N
 F0 "CN" 200 550 60 H V L BNN
-F1 "OpenVent:CONN_RCPT_USB2.0_MINI_B_SMD_R_A" 450 -550 60 H V C CNN
+F1 "OpenVent_CONN_RCPT_USB2.0_MINI_B_SMD_R_A" 450 -550 60 H V C CNN
 F2 "" 200 500 60 H V C CNN
 F3 "" 200 500 60 H V C CNN
 DRAW
@@ -1669,11 +1515,11 @@ X MP MP 600 -300 200 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:C_1206_47nF_16V_2%_PPS_film
+# OpenVent_C_1206_47nF_16V_2%_PPS_film
 #
-DEF ~OpenVent:C_1206_47nF_16V_2%_PPS_film C 0 10 N Y 1 F N
+DEF OpenVent_C_1206_47nF_16V_2%_PPS_film C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OpenVent:C_1206_47nF_16V_2%_PPS_film" 25 -100 50 H I L CNN
+F1 "OpenVent_C_1206_47nF_16V_2%_PPS_film" 25 -100 50 H I L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Kemet" 0 0 50 H I C CNN "Mfr"
@@ -1694,11 +1540,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Chip_Ferrite,_600R,_0603,_750mA
+# OpenVent_Chip_Ferrite,_600R,_0603,_750mA
 #
-DEF OpenVent:Chip_Ferrite,_600R,_0603,_750mA FB 0 40 Y Y 1 F N
+DEF OpenVent_Chip_Ferrite,_600R,_0603,_750mA FB 0 40 Y Y 1 F N
 F0 "FB" 100 50 50 H V L BNN
-F1 "OpenVent:Chip_Ferrite,_600R,_0603,_750mA" 0 0 50 H V C CNN
+F1 "OpenVent_Chip_Ferrite,_600R,_0603,_750mA" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "600R" 0 0 50 H V L CNN "Val"
@@ -1717,11 +1563,11 @@ X 2 2 600 0 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Conn_HDR_2x10_latching
+# OpenVent_Conn_HDR_2x10_latching
 #
-DEF ~OpenVent:Conn_HDR_2x10_latching J 0 40 Y N 1 F N
+DEF OpenVent_Conn_HDR_2x10_latching J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "OpenVent:Conn_HDR_2x10_latching" 50 -600 50 H I C CNN
+F1 "OpenVent_Conn_HDR_2x10_latching" 50 -600 50 H I C CNN
 F2 "F_Misc:3M_D3428-6302-AR" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3M" 0 0 50 H I C CNN "Mfr"
@@ -1776,11 +1622,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:DRV8876
+# OpenVent_DRV8876
 #
-DEF OpenVent:DRV8876 U 0 40 Y Y 1 F N
+DEF OpenVent_DRV8876 U 0 40 Y Y 1 F N
 F0 "U" 0 150 50 H V C CNN
-F1 "OpenVent:DRV8876" 0 50 50 H V C CNN
+F1 "OpenVent_DRV8876" 0 50 50 H V C CNN
 F2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 F4 "Texas Instruments" 0 -1650 50 H I C CNN "Manufacturer"
@@ -1807,11 +1653,11 @@ X PGND 9 500 -1200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ERA3AEB2491V
+# OpenVent_ERA3AEB2491V
 #
-DEF OpenVent:ERA3AEB2491V R 0 30 Y Y 1 F N
+DEF OpenVent_ERA3AEB2491V R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "OpenVent:ERA3AEB2491V" 550 150 50 H V L CNN
+F1 "OpenVent_ERA3AEB2491V" 550 150 50 H V L CNN
 F2 "ERA3AEB101V" 550 50 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
 F4 "Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 2.49k +/-0.1% 0.1W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
@@ -1825,11 +1671,11 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ERA3AEB4991V
+# OpenVent_ERA3AEB4991V
 #
-DEF OpenVent:ERA3AEB4991V R 0 30 Y Y 1 F N
+DEF OpenVent_ERA3AEB4991V R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "OpenVent:ERA3AEB4991V" 550 150 50 H V L CNN
+F1 "OpenVent_ERA3AEB4991V" 550 150 50 H V L CNN
 F2 "ERA3AEB101V" 550 50 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
 F4 "0603 Resistor,3A,0.1W, 25ppm,0.1%,4K99 Panasonic ERA Series Thin Film Surface Mount Resistor 0603 Case 4.99kOhm  /-0.1% 0.1W  /-25ppm/degC" 550 -150 50 H I L CNN "Description"
@@ -1843,11 +1689,11 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ESD5Z3.3T1G
+# OpenVent_ESD5Z3.3T1G
 #
-DEF OpenVent:ESD5Z3.3T1G D 0 30 Y Y 1 F N
+DEF OpenVent_ESD5Z3.3T1G D 0 30 Y Y 1 F N
 F0 "D" 450 200 50 H V L CNN
-F1 "OpenVent:ESD5Z3.3T1G" 450 100 50 H V L CNN
+F1 "OpenVent_ESD5Z3.3T1G" 450 100 50 H V L CNN
 F2 "SODFL1608X70N" 450 0 50 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 450 -100 50 H I L CNN
 F4 "TVS Diode Uni-Direct. 240W 3.3V SOD-523 ON Semiconductor ESD5Z3.3T1G Uni-Directional TVS Diode, 200W peak, 2-Pin SOD-523" 450 -200 50 H I L CNN "Description"
@@ -1866,11 +1712,11 @@ X ~ 2 600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ESD5Z5.0T1G
+# OpenVent_ESD5Z5.0T1G
 #
-DEF OpenVent:ESD5Z5.0T1G D 0 30 Y Y 1 F N
+DEF OpenVent_ESD5Z5.0T1G D 0 30 Y Y 1 F N
 F0 "D" 450 200 50 H V L CNN
-F1 "OpenVent:ESD5Z5.0T1G" 450 100 50 H V L CNN
+F1 "OpenVent_ESD5Z5.0T1G" 450 100 50 H V L CNN
 F2 "SODFL1608X70N" 450 0 50 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" 450 -100 50 H I L CNN
 F4 "0.7" 450 -300 50 H I L CNN "Height"
@@ -1888,11 +1734,11 @@ X ~ 2 600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:FT2232HL-REEL
+# OpenVent_FT2232HL-REEL
 #
-DEF OpenVent:FT2232HL-REEL U 0 20 Y Y 1 F N
+DEF OpenVent_FT2232HL-REEL U 0 20 Y Y 1 F N
 F0 "U" -1050 2100 50 H V L CNN
-F1 "OpenVent:FT2232HL-REEL" 750 2100 50 H V L CNN
+F1 "OpenVent_FT2232HL-REEL" 750 2100 50 H V L CNN
 F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1967,11 +1813,11 @@ X VPLL 9 -400 2200 150 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OpenVent:GND
+# OpenVent_GND
 #
-DEF ~OpenVent:GND #PWR 0 0 N N 1 F P
+DEF OpenVent_GND #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OpenVent:GND" 0 -150 50 H I C CNN
+F1 "OpenVent_GND" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1980,11 +1826,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:HRG3216P-47R0-B-T1
+# OpenVent_HRG3216P-47R0-B-T1
 #
-DEF OpenVent:HRG3216P-47R0-B-T1 R 0 30 Y Y 1 F N
+DEF OpenVent_HRG3216P-47R0-B-T1 R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "OpenVent:HRG3216P-47R0-B-T1" 550 150 50 H V L CNN
+F1 "OpenVent_HRG3216P-47R0-B-T1" 550 150 50 H V L CNN
 F2 "RESC3216X55N" 550 50 50 H I L CNN
 F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition24_en.pdf" 550 -50 50 H I L CNN
 F4 "RES SMD 47 OHM 0.1% 1W 1206" 550 -150 50 H I L CNN "Description"
@@ -2001,11 +1847,11 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN
+# OpenVent_LCD_MOD_32DIG_16X2_TRANS_YLW_GRN
 #
-DEF ~OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD 0 40 Y Y 1 F N
+DEF OpenVent_LCD_MOD_32DIG_16X2_TRANS_YLW_GRN LCD 0 40 Y Y 1 F N
 F0 "LCD" 200 1750 50 H V L BNN
-F1 "OpenVent:LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" 450 -200 50 H I C CNN
+F1 "OpenVent_LCD_MOD_32DIG_16X2_TRANS_YLW_GRN" 450 -200 50 H I C CNN
 F2 "" 200 1700 50 H I C CNN
 F3 "" 200 1700 50 H I C CNN
 DRAW
@@ -2029,11 +1875,11 @@ X D2 9 0 800 200 R 50 50 0 1 B
 ENDDRAW
 ENDDEF
 #
-# OpenVent:LDL212D33R
+# OpenVent_LDL212D33R
 #
-DEF OpenVent:LDL212D33R U 0 40 Y Y 1 F N
+DEF OpenVent_LDL212D33R U 0 40 Y Y 1 F N
 F0 "U" -150 250 50 H V C CNN
-F1 "OpenVent:LDL212D33R" 500 -150 50 H V C CNN
+F1 "OpenVent_LDL212D33R" 500 -150 50 H V C CNN
 F2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "STMicroelectronics" 0 0 50 H V C CNN "Manufacturer"
@@ -2051,11 +1897,11 @@ X FB 8 350 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:LED_GREEN_0603_SMD
+# OpenVent_LED_GREEN_0603_SMD
 #
-DEF ~OpenVent:LED_GREEN_0603_SMD D 0 40 Y Y 1 F N
+DEF OpenVent_LED_GREEN_0603_SMD D 0 40 Y Y 1 F N
 F0 "D" 100 -150 50 H V L CNN
-F1 "OpenVent:LED_GREEN_0603_SMD" 200 250 60 H I C CNN
+F1 "OpenVent_LED_GREEN_0603_SMD" 200 250 60 H I C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 F4 "GREEN" 400 -150 50 H V C CNN "Val"
@@ -2073,11 +1919,11 @@ X CATHODE 2 450 0 50 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:LED_Red_0603_SMD
+# OpenVent_LED_Red_0603_SMD
 #
-DEF ~OpenVent:LED_Red_0603_SMD D 0 40 Y Y 1 F N
+DEF OpenVent_LED_Red_0603_SMD D 0 40 Y Y 1 F N
 F0 "D" 200 100 50 H V L BNN
-F1 "OpenVent:LED_Red_0603_SMD" 90 350 50 H I C CNN
+F1 "OpenVent_LED_Red_0603_SMD" 90 350 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2094,11 +1940,11 @@ X CATHODE 2 450 0 50 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:LPS25HB
+# OpenVent_LPS25HB
 #
-DEF OpenVent:LPS25HB U 0 40 Y Y 1 F N
+DEF OpenVent_LPS25HB U 0 40 Y Y 1 F N
 F0 "U" 425 225 50 H V C CNN
-F1 "OpenVent:LPS25HB" 450 125 50 H V C CNN
+F1 "OpenVent_LPS25HB" 450 125 50 H V C CNN
 F2 "Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2116,11 +1962,11 @@ X GND 9 1075 -400 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:L_22uH_2.6A_42mOhm_SMT
+# OpenVent_L_22uH_2.6A_42mOhm_SMT
 #
-DEF ~OpenVent:L_22uH_2.6A_42mOhm_SMT L 0 40 N N 1 F N
+DEF OpenVent_L_22uH_2.6A_42mOhm_SMT L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "OpenVent:L_22uH_2.6A_42mOhm_SMT" 110 0 50 V I C CNN
+F1 "OpenVent_L_22uH_2.6A_42mOhm_SMT" 110 0 50 V I C CNN
 F2 "F_Inductors:L-Bourns-SRU1048-series" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Bourns Inc." 0 0 50 H I C CNN "Mfr"
@@ -2157,11 +2003,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:MAX809LEUR+
+# OpenVent_MAX809LEUR+
 #
-DEF OpenVent:MAX809LEUR+ IC 0 30 Y Y 1 F N
+DEF OpenVent_MAX809LEUR+ IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "OpenVent:MAX809LEUR+" 1050 200 50 H V L CNN
+F1 "OpenVent_MAX809LEUR+" 1050 200 50 H V L CNN
 F2 "SOT95P237X112-3N" 1050 100 50 H I L CNN
 F3 "http://docs-emea.rs-online.com/webdocs/11c5/0900766b811c5e3e.pdf" 1050 0 50 H I L CNN
 F4 "MAX809LEUR+, Processor Supervisor 2.5 V, 3 V, 3.3 V, 5 V Active Low, Push-Pull, 3-Pin SOT-23" 1050 -100 50 H I L CNN "Description"
@@ -2176,11 +2022,11 @@ X VCC 3 0 0 200 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# OpenVent:MPXV4006DP
+# OpenVent_MPXV4006DP
 #
-DEF ~OpenVent:MPXV4006DP U 0 40 Y Y 1 F N
+DEF OpenVent_MPXV4006DP U 0 40 Y Y 1 F N
 F0 "U" 250 750 50 H V L BNN
-F1 "OpenVent:MPXV4006DP" 500 -250 50 H I C CNN
+F1 "OpenVent_MPXV4006DP" 500 -250 50 H I C CNN
 F2 "" 200 700 50 H I C CNN
 F3 "" 200 700 50 H I C CNN
 DRAW
@@ -2191,11 +2037,11 @@ X VOUT 4 0 300 200 R 50 50 0 1 O
 ENDDRAW
 ENDDEF
 #
-# OpenVent:MPXV4006GP
+# OpenVent_MPXV4006GP
 #
-DEF OpenVent:MPXV4006GP U 0 40 Y Y 1 F N
+DEF OpenVent_MPXV4006GP U 0 40 Y Y 1 F N
 F0 "U" 50 50 50 H V L BNN
-F1 "OpenVent:MPXV4006GP" 250 -850 50 H V C CNN
+F1 "OpenVent_MPXV4006GP" 250 -850 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2206,11 +2052,11 @@ X VOUT 4 -200 -400 200 R 50 50 0 1 O
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch
+# OpenVent_Pin_Header,_1x5-Way,_2.54mm_Pitch
 #
-DEF ~OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch JP 0 40 Y Y 1 F N
+DEF OpenVent_Pin_Header,_1x5-Way,_2.54mm_Pitch JP 0 40 Y Y 1 F N
 F0 "JP" 0 -200 50 H V L BNN
-F1 "OpenVent:Pin_Header,_1x5-Way,_2.54mm_Pitch" 200 400 50 H I C CNN
+F1 "OpenVent_Pin_Header,_1x5-Way,_2.54mm_Pitch" 200 400 50 H I C CNN
 F2 "" 200 400 50 H I C CNN
 F3 "" 200 400 50 H I C CNN
 DRAW
@@ -2223,11 +2069,11 @@ X 5 5 0 0 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch
+# OpenVent_Pin_Header,_1x6-Way,_2.54mm_Pitch
 #
-DEF ~OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch JP 0 40 Y Y 1 F N
+DEF OpenVent_Pin_Header,_1x6-Way,_2.54mm_Pitch JP 0 40 Y Y 1 F N
 F0 "JP" 0 600 50 H V L BNN
-F1 "OpenVent:Pin_Header,_1x6-Way,_2.54mm_Pitch" 200 500 50 H I C CNN
+F1 "OpenVent_Pin_Header,_1x6-Way,_2.54mm_Pitch" 200 500 50 H I C CNN
 F2 "" 200 500 50 H I C CNN
 F3 "" 200 500 50 H I C CNN
 DRAW
@@ -2241,11 +2087,11 @@ X 6 6 0 0 200 R 1 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_2k74_0.1W_0.1%
+# OpenVent_R_0603_2k74_0.1W_0.1%
 #
-DEF ~OpenVent:R_0603_2k74_0.1W_0.1% R 0 40 Y Y 1 F N
+DEF OpenVent_R_0603_2k74_0.1W_0.1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:R_0603_2k74_0.1W_0.1%" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_2k74_0.1W_0.1%" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "2k74" 0 0 50 H V C CNN "Val"
@@ -2264,11 +2110,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_3R0_0.1W_5%
+# OpenVent_R_0603_3R0_0.1W_5%
 #
-DEF ~OpenVent:R_0603_3R0_0.1W_5% R 0 40 N N 1 F N
+DEF OpenVent_R_0603_3R0_0.1W_5% R 0 40 N N 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:R_0603_3R0_0.1W_5%" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_3R0_0.1W_5%" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "3R0" 0 0 50 H V C CNN "Val"
@@ -2287,11 +2133,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_47K_0.1%_0.1W_Film
+# OpenVent_R_0603_47K_0.1%_0.1W_Film
 #
-DEF ~OpenVent:R_0603_47K_0.1%_0.1W_Film R 0 40 N N 1 F N
+DEF OpenVent_R_0603_47K_0.1%_0.1W_Film R 0 40 N N 1 F N
 F0 "R" 140 100 50 H V L BNN
-F1 "OpenVent:R_0603_47K_0.1%_0.1W_Film" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_47K_0.1%_0.1W_Film" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "47k" 0 0 50 H V C CNN "Val"
@@ -2308,11 +2154,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_49k9_0.1W_1%
+# OpenVent_R_0603_49k9_0.1W_1%
 #
-DEF ~OpenVent:R_0603_49k9_0.1W_1% R 0 40 Y Y 1 F N
+DEF OpenVent_R_0603_49k9_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:R_0603_49k9_0.1W_1%" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_49k9_0.1W_1%" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "49k9" 0 0 50 H V C CNN "Val"
@@ -2327,11 +2173,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_620R_0.1W_1%
+# OpenVent_R_0603_620R_0.1W_1%
 #
-DEF ~OpenVent:R_0603_620R_0.1W_1% R 0 40 Y Y 1 F N
+DEF OpenVent_R_0603_620R_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:R_0603_620R_0.1W_1%" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_620R_0.1W_1%" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "620R" 0 0 50 H V C CNN "Val"
@@ -2348,11 +2194,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:R_0603_75K_0.1W_1%
+# OpenVent_R_0603_75K_0.1W_1%
 #
-DEF ~OpenVent:R_0603_75K_0.1W_1% R 0 40 Y Y 1 F N
+DEF OpenVent_R_0603_75K_0.1W_1% R 0 40 Y Y 1 F N
 F0 "R" -60 -100 50 H V L BNN
-F1 "OpenVent:R_0603_75K_0.1W_1%" 0 0 50 H I C CNN
+F1 "OpenVent_R_0603_75K_0.1W_1%" 0 0 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "75K" 0 0 50 H V C CNN "Val"
@@ -2367,11 +2213,11 @@ X 2 2 300 -100 100 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:SLF6028T-221MR26-PF
+# OpenVent_SLF6028T-221MR26-PF
 #
-DEF OpenVent:SLF6028T-221MR26-PF L 0 40 N N 1 F N
+DEF OpenVent_SLF6028T-221MR26-PF L 0 40 N N 1 F N
 F0 "L" 100 -50 50 H V C CNN
-F1 "OpenVent:SLF6028T-221MR26-PF" 0 100 50 H V C CNN
+F1 "OpenVent_SLF6028T-221MR26-PF" 0 100 50 H V C CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 F4 "TDK" -100 -150 50 H I C CNN "Mfr"
@@ -2396,11 +2242,43 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:SN74LVC2G14DBVR
+# OpenVent_SN74LVC244APW
 #
-DEF OpenVent:SN74LVC2G14DBVR IC 0 30 Y Y 1 F N
+DEF OpenVent_SN74LVC244APW U 0 40 Y Y 1 F N
+F0 "U" -700 800 50 H V L BNN
+F1 "OpenVent_SN74LVC244APW" -700 700 50 H V L BNN
+F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 650 350 -600 0 1 0 f
+X 1OE 1 -450 -350 100 R 50 50 1 1 I I
+X GND 10 0 -700 100 U 50 50 1 1 W
+X 2A1 11 -450 100 100 R 50 50 1 1 I
+X 1Y4 12 450 200 100 L 50 50 1 1 O
+X 2A2 13 -450 0 100 R 50 50 1 1 I
+X 1Y3 14 450 300 100 L 50 50 1 1 O
+X 2A3 15 -450 -100 100 R 50 50 1 1 I
+X 1Y2 16 450 400 100 L 50 50 1 1 O
+X 2A4 17 -450 -200 100 R 50 50 1 1 I
+X 1Y1 18 450 500 100 L 50 50 1 1 O
+X 2OE 19 -450 -450 100 R 50 50 1 1 I I
+X 1A1 2 -450 500 100 R 50 50 1 1 I
+X VCC 20 0 750 100 D 50 50 1 1 W
+X 2Y4 3 450 -200 100 L 50 50 1 1 O
+X 1A2 4 -450 400 100 R 50 50 1 1 I
+X 2Y3 5 450 -100 100 L 50 50 1 1 O
+X 1A3 6 -450 300 100 R 50 50 1 1 I
+X 2Y2 7 450 0 100 L 50 50 1 1 O
+X 1A4 8 -450 200 100 R 50 50 1 1 I
+X 2Y1 9 450 100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# OpenVent_SN74LVC2G14DBVR
+#
+DEF OpenVent_SN74LVC2G14DBVR IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "OpenVent:SN74LVC2G14DBVR" 850 200 50 H V L CNN
+F1 "OpenVent_SN74LVC2G14DBVR" 850 200 50 H V L CNN
 F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
 F3 "http://componentsearchengine.com/Datasheets/3/SN74LVC2G14DBVR.pdf" 850 -50 50 H I L CNN
 F4 "DUAL SCHMITT-TRIGGER INVERTER" 850 -150 50 H I L CNN "Description"
@@ -2438,11 +2316,11 @@ X 1Y 6 1000 -50 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:SiT8008B
+# OpenVent_SiT8008B
 #
-DEF OpenVent:SiT8008B U 0 40 Y Y 1 F N
+DEF OpenVent_SiT8008B U 0 40 Y Y 1 F N
 F0 "U" 50 250 50 H V C CNN
-F1 "OpenVent:SiT8008B" 150 150 50 H V C CNN
+F1 "OpenVent_SiT8008B" 150 150 50 H V C CNN
 F2 "" 50 250 50 H I C CNN
 F3 "" 50 250 50 H I C CNN
 DRAW
@@ -2454,11 +2332,11 @@ X VDD 4 900 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Switch_PB
+# OpenVent_Switch_PB
 #
-DEF OpenVent:Switch_PB SW 0 0 Y N 1 F N
+DEF OpenVent_Switch_PB SW 0 0 Y N 1 F N
 F0 "SW" 150 150 50 H V C CNN
-F1 "OpenVent:Switch_PB" 0 -100 50 H V C CNN
+F1 "OpenVent_Switch_PB" 0 -100 50 H V C CNN
 F2 "" 550 450 50 H I C CNN
 F3 "" 550 450 50 H I C CNN
 DRAW
@@ -2471,11 +2349,11 @@ X ~ 2 -200 0 50 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:TLV2333IDR
+# OpenVent_TLV2333IDR
 #
-DEF OpenVent:TLV2333IDR U 0 40 Y Y 2 L N
+DEF OpenVent_TLV2333IDR U 0 40 Y Y 2 L N
 F0 "U" 500 350 50 H V L CNN
-F1 "OpenVent:TLV2333IDR" 500 250 50 H V L CNN
+F1 "OpenVent_TLV2333IDR" 500 250 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Texas Instruments" 0 0 50 H I C CNN "Mfr"
@@ -2509,11 +2387,11 @@ X OUTB 7 800 100 200 L 50 1 2 1 O
 ENDDRAW
 ENDDEF
 #
-# OpenVent:TPS74801TDRCRQ1
+# OpenVent_TPS74801TDRCRQ1
 #
-DEF OpenVent:TPS74801TDRCRQ1 IC 0 30 Y Y 1 F N
+DEF OpenVent_TPS74801TDRCRQ1 IC 0 30 Y Y 1 F N
 F0 "IC" 1050 400 50 H V L CNN
-F1 "OpenVent:TPS74801TDRCRQ1" 1050 300 50 H V L CNN
+F1 "OpenVent_TPS74801TDRCRQ1" 1050 300 50 H V L CNN
 F2 "TPS74901DRCR" 1050 200 50 H I L CNN
 F3 "http://www.ti.com/lit/gpn/tps74801-q1" 1050 100 50 H I L CNN
 F4 "Automotive single-output 1.5A LDO regulator, adjustable (0.8V to 3.6V), programmable soft start" 1050 0 50 H I L CNN "Description"
@@ -2539,11 +2417,11 @@ X OUT_1 9 1200 -200 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:TXB0108
+# OpenVent_TXB0108
 #
-DEF OpenVent:TXB0108 U 0 40 Y Y 1 F N
+DEF OpenVent_TXB0108 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "OpenVent:TXB0108" 0 -100 50 H V C CNN
+F1 "OpenVent_TXB0108" 0 -100 50 H V C CNN
 F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2571,11 +2449,11 @@ X A8 9 -350 -1550 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:Test_Point_PTH
+# OpenVent_Test_Point_PTH
 #
-DEF ~OpenVent:Test_Point_PTH TP 0 40 Y Y 1 F N
+DEF OpenVent_Test_Point_PTH TP 0 40 Y Y 1 F N
 F0 "TP" -300 -150 50 H V L BNN
-F1 "OpenVent:Test_Point_PTH" 0 0 50 H I C CNN
+F1 "OpenVent_Test_Point_PTH" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2585,11 +2463,11 @@ X 1 1 0 0 200 L 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:V7.5V
+# OpenVent_V7.5V
 #
-DEF OpenVent:V7.5V #PWR 0 0 N N 1 F P
+DEF OpenVent_V7.5V #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:V7.5V" 0 140 50 H V C CNN
+F1 "OpenVent_V7.5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2600,11 +2478,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:V7.5V_IN
+# OpenVent_V7.5V_IN
 #
-DEF OpenVent:V7.5V_IN #PWR 0 0 N N 1 F P
+DEF OpenVent_V7.5V_IN #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:V7.5V_IN" 0 140 50 H V C CNN
+F1 "OpenVent_V7.5V_IN" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2615,11 +2493,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:VUSB
+# OpenVent_VUSB
 #
-DEF OpenVent:VUSB #PWR 0 0 N N 1 F P
+DEF OpenVent_VUSB #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:VUSB" 0 150 50 H V C CNN
+F1 "OpenVent_VUSB" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2630,11 +2508,11 @@ X VMEM 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:V_MAIN
+# OpenVent_V_MAIN
 #
-DEF OpenVent:V_MAIN #PWR 0 0 N N 1 F P
+DEF OpenVent_V_MAIN #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:V_MAIN" 0 140 50 H V C CNN
+F1 "OpenVent_V_MAIN" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2645,11 +2523,11 @@ X V_MAIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:V_MAIN_IN
+# OpenVent_V_MAIN_IN
 #
-DEF OpenVent:V_MAIN_IN #PWR 0 0 N N 1 F P
+DEF OpenVent_V_MAIN_IN #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenVent:V_MAIN_IN" 0 140 50 H V C CNN
+F1 "OpenVent_V_MAIN_IN" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2660,11 +2538,11 @@ X V_MAIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenVent:WST-1310S-3
+# OpenVent_WST-1310S-3
 #
-DEF OpenVent:WST-1310S-3 BZ 0 40 Y Y 1 F N
+DEF OpenVent_WST-1310S-3 BZ 0 40 Y Y 1 F N
 F0 "BZ" 0 0 50 H V C CNN
-F1 "OpenVent:WST-1310S-3" 0 100 50 H V C CNN
+F1 "OpenVent_WST-1310S-3" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2675,11 +2553,11 @@ X 2 2 -150 -250 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenVent:ZVN4206A
+# OpenVent_ZVN4206A
 #
-DEF OpenVent:ZVN4206A Q 0 40 Y Y 1 F N
+DEF OpenVent_ZVN4206A Q 0 40 Y Y 1 F N
 F0 "Q" 200 0 50 H V C CNN
-F1 "OpenVent:ZVN4206A" 300 150 50 H V C CNN
+F1 "OpenVent_ZVN4206A" 300 150 50 H V C CNN
 F2 "" 550 -300 50 H I C CNN
 F3 "" 550 -300 50 H I C CNN
 DRAW
@@ -2700,11 +2578,33 @@ X ~ 3 0 400 100 D 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# power:+2V5
+# Regulator_Linear_LM1117-2.5
 #
-DEF power:+2V5 #PWR 0 0 Y Y 1 F P
+DEF Regulator_Linear_LM1117-2.5 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear_LM1117-2.5" 0 125 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM1117-2.5 LM1117-3.3 LM1117-5.0 TLV1117-15 TLV1117-18 TLV1117-25 TLV1117-33 TLV1117-50
+$FPLIST
+ SOT?223*
+ TO?263*
+ TO?252*
+ TO?220*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_+2V5
+#
+DEF power_+2V5 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+2V5" 0 140 50 H V C CNN
+F1 "power_+2V5" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
