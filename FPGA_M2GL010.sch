@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:OpenVent-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -261,7 +262,7 @@ Wire Wire Line
 	2800 6450 3100 6450
 Connection ~ 2950 7050
 Connection ~ 2650 6950
-Text GLabel 7500 2350 2    50   Input ~ 0
+Text GLabel 2800 2450 2    50   Input ~ 0
 VIN_FAIL_F
 Wire Wire Line
 	6800 4400 6650 4400
@@ -572,23 +573,14 @@ Text Notes 1050 7400 0    50   ~ 10
 3.3V BANK!!
 Text GLabel 2750 6250 2    50   Input ~ 0
 CLCK
-Wire Wire Line
-	7250 1850 7500 1850
-Text GLabel 7500 1850 2    50   Input ~ 0
+Text GLabel 6750 4700 2    50   Input ~ 0
 PB_SEL_FPGA
-NoConn ~ 2550 2450
-Text GLabel 7500 2050 2    50   Input ~ 0
+Text GLabel 7900 1750 2    50   Input ~ 0
 PB_MINUS
-Text GLabel 7500 1950 2    50   Input ~ 0
+Text GLabel 7900 1650 2    50   Input ~ 0
 PB_PLUS
-Text GLabel 7500 2150 2    50   Input ~ 0
+Text GLabel 7900 1850 2    50   Input ~ 0
 PB_MUTE
-Wire Wire Line
-	7500 2150 7250 2150
-Wire Wire Line
-	7250 2050 7500 2050
-Wire Wire Line
-	7250 1950 7500 1950
 Wire Wire Line
 	2750 6250 2550 6250
 Wire Wire Line
@@ -606,11 +598,7 @@ Wire Wire Line
 NoConn ~ 2550 7150
 NoConn ~ 2550 7250
 Wire Wire Line
-	7500 2350 7250 2350
-NoConn ~ 7250 2250
-NoConn ~ 7250 2450
-NoConn ~ 7250 2550
-NoConn ~ 7250 2650
+	2800 2450 2550 2450
 Text GLabel 9550 1550 2    50   Output ~ 0
 I2C_SCL
 Text GLabel 9550 1650 2    50   BiDi ~ 0
@@ -681,9 +669,6 @@ NoConn ~ 6650 4000
 NoConn ~ 6650 4100
 NoConn ~ 6650 4500
 NoConn ~ 6650 4600
-NoConn ~ 6650 4700
-NoConn ~ 7250 1650
-NoConn ~ 7250 1750
 Wire Wire Line
 	2750 7350 2550 7350
 Text Notes 3600 7400 0    50   ~ 10
@@ -915,7 +900,7 @@ SPI2_MISO
 Text GLabel 3100 4450 2    50   Output ~ 0
 SPI2_MOSI
 $Comp
-L Memory_Flash:W25Q128JVS U?
+L OpenVent-rescue:W25Q128JVS-Memory_Flash U?
 U 1 1 61F50A78
 P 5700 6200
 F 0 "U?" H 6300 6700 50  0000 C CNN
@@ -1162,4 +1147,164 @@ F 3 "" H 6350 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 6650 6350 6700
+Wire Wire Line
+	6750 4700 6650 4700
+Text Label 7400 1950 0    50   ~ 10
+FPGA_TP_1
+Wire Wire Line
+	7250 1850 7900 1850
+Wire Wire Line
+	7250 1750 7900 1750
+Wire Wire Line
+	7250 1650 7900 1650
+Text Label 7400 2050 0    50   ~ 10
+FPGA_TP_2
+Text Label 7400 2150 0    50   ~ 10
+FPGA_TP_3
+Text Label 7400 2250 0    50   ~ 10
+FPGA_TP_4
+Text Label 7400 2350 0    50   ~ 10
+FPGA_TP_5
+Text Label 7400 2450 0    50   ~ 10
+FPGA_TP_6
+Text Label 7400 2550 0    50   ~ 10
+FPGA_TP_7
+Text Label 7400 2650 0    50   ~ 10
+FPGA_TP_8
+Wire Wire Line
+	7400 2650 7250 2650
+Wire Wire Line
+	7250 2550 7400 2550
+Wire Wire Line
+	7400 2450 7250 2450
+Wire Wire Line
+	7250 2350 7400 2350
+Wire Wire Line
+	7400 2250 7250 2250
+Wire Wire Line
+	7250 2150 7400 2150
+Wire Wire Line
+	7400 2050 7250 2050
+Wire Wire Line
+	7250 1950 7400 1950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 623FA0A6
+P 9900 5150
+F 0 "TP?" V 9900 5338 50  0000 L CNN
+F 1 "TestPoint" V 9945 5338 50  0001 L CNN
+F 2 "" H 10100 5150 50  0001 C CNN
+F 3 "~" H 10100 5150 50  0001 C CNN
+	1    9900 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62415585
+P 9900 5050
+F 0 "TP?" V 9900 5238 50  0000 L CNN
+F 1 "TestPoint" V 9945 5238 50  0001 L CNN
+F 2 "" H 10100 5050 50  0001 C CNN
+F 3 "~" H 10100 5050 50  0001 C CNN
+	1    9900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 624155CD
+P 9900 5250
+F 0 "TP?" V 9900 5438 50  0000 L CNN
+F 1 "TestPoint" V 9945 5438 50  0001 L CNN
+F 2 "" H 10100 5250 50  0001 C CNN
+F 3 "~" H 10100 5250 50  0001 C CNN
+	1    9900 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62415617
+P 9900 5350
+F 0 "TP?" V 9900 5538 50  0000 L CNN
+F 1 "TestPoint" V 9945 5538 50  0001 L CNN
+F 2 "" H 10100 5350 50  0001 C CNN
+F 3 "~" H 10100 5350 50  0001 C CNN
+	1    9900 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6241565F
+P 9900 5450
+F 0 "TP?" V 9900 5638 50  0000 L CNN
+F 1 "TestPoint" V 9945 5638 50  0001 L CNN
+F 2 "" H 10100 5450 50  0001 C CNN
+F 3 "~" H 10100 5450 50  0001 C CNN
+	1    9900 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 624156A9
+P 9900 5550
+F 0 "TP?" V 9900 5738 50  0000 L CNN
+F 1 "TestPoint" V 9945 5738 50  0001 L CNN
+F 2 "" H 10100 5550 50  0001 C CNN
+F 3 "~" H 10100 5550 50  0001 C CNN
+	1    9900 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 624156F5
+P 9900 5650
+F 0 "TP?" V 9900 5838 50  0000 L CNN
+F 1 "TestPoint" V 9945 5838 50  0001 L CNN
+F 2 "" H 10100 5650 50  0001 C CNN
+F 3 "~" H 10100 5650 50  0001 C CNN
+	1    9900 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62415743
+P 9900 5750
+F 0 "TP?" V 9900 5938 50  0000 L CNN
+F 1 "TestPoint" V 9945 5938 50  0001 L CNN
+F 2 "" H 10100 5750 50  0001 C CNN
+F 3 "~" H 10100 5750 50  0001 C CNN
+	1    9900 5750
+	0    1    1    0   
+$EndComp
+Text Label 9400 5050 0    50   ~ 10
+FPGA_TP_1
+Text Label 9400 5150 0    50   ~ 10
+FPGA_TP_2
+Text Label 9400 5250 0    50   ~ 10
+FPGA_TP_3
+Text Label 9400 5350 0    50   ~ 10
+FPGA_TP_4
+Text Label 9400 5450 0    50   ~ 10
+FPGA_TP_5
+Text Label 9400 5550 0    50   ~ 10
+FPGA_TP_6
+Text Label 9400 5650 0    50   ~ 10
+FPGA_TP_7
+Text Label 9400 5750 0    50   ~ 10
+FPGA_TP_8
+Wire Wire Line
+	9900 5050 9400 5050
+Wire Wire Line
+	9400 5150 9900 5150
+Wire Wire Line
+	9900 5250 9400 5250
+Wire Wire Line
+	9400 5350 9900 5350
+Wire Wire Line
+	9900 5450 9400 5450
+Wire Wire Line
+	9400 5550 9900 5550
+Wire Wire Line
+	9900 5650 9400 5650
+Wire Wire Line
+	9450 5750 9900 5750
 $EndSCHEMATC
